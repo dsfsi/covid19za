@@ -1,12 +1,16 @@
 date,country,province,age,gender,transmission_type
 05-03-2020,South Africa,KZN,38,male,Travelled to Italy
 07-03-2020,South Africa,GP,39,female,Travelled to Italy
+08-03-2020,South Africa,KZN,NA,female,Travelled to Italy
 11-03-2020,South Africa,GP,33,female,Travelled to Italy
 11-03-2020,South Africa,GP,33,female,Travelled to Germany
 11-03-2020,South Africa,GP,34,male,Travelled to Germany
 11-03-2020,South Africa,GP,57,female,Travelled to Austria and Italy
 11-03-2020,South Africa,KZN,40,male,Travelled to Portugal
 11-03-2020,South Africa,WC,36,male,Travelled to Germany; Austria; Switzerland and Turkey
+12-03-2020,South Africa,KZN,39,male,Visiting resident of Turkey travelled to UK
+12-03-2020,South Africa,MP,27,female,Travelled to USA
+12-03-2020,South Africa,GP,43,male,Travelled to USA
 13-03-2020,South Africa,GP,39,female,Travelled to Switzerland and Austria
 13-03-2020,South Africa,GP,50,male,Travelled to Austria
 13-03-2020,South Africa,GP,21,female,Travelled to Italy
