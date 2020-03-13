@@ -7,6 +7,7 @@ COVID 19 Data for South Africa
 
 ## Data Sources:
 * Department of Health - South Africa [Main Site](http://www.health.gov.za/), [Twitter](https://twitter.com/HealthZA/)
+* South African Government Media Statements [URL](https://www.gov.za/media-statements)
 
 ## Contact
 * Vukosi Marivate - vukosi.marivate@cs.up.ac.za, [@vukosi](https://twitter.com/vukosi)
