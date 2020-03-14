@@ -9,3 +9,4 @@
 * 11-03-2020 - https://www.gov.za/speeches/minister-zweli-mkhize-confirms-6-new-cases-covid-19-11-mar-2020-0000
 * 12-03-20120 - https://www.gov.za/speeches/latest-confirmed-cases-covid-19-south-africa-12-mar-2020-0000
 * 13-03-2020 - https://www.gov.za/speeches/dr-zweli-mkhize-confirms-eight-more-cases-coronavirus-covid-19-13-mar-2020-0000
+* 14-03-2020 - https://www.gov.za/speeches/dr-zweli-mkhize-confirms-latest-coronavirus-covid-19-cases-south-africa-14-mar-2020-0000
