@@ -1,6 +1,11 @@
-# Coronavirus COVID-19 (2019-nCoV) Data Repository for South Africa [Hosted by DSFSI group at University of Pretoria]
+# Coronavirus COVID-19 (2019-nCoV) Data Repository for South Africa
 
-COVID 19 Data for South Africa
+COVID 19 Data for South Africa created, maintained and hosted by [DSFSI research group](https://dsfsi.github.io/) at the University of Pretoria
+
+## Licenses
+
+Code [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  | Data [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+
 
 ## Data Available [/data]
 * Confirmed Cases
