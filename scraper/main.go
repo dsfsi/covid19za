@@ -42,6 +42,24 @@ var PROVINCES = map[string]string{
 }
 
 /**
+Map the month to the YY format
+**/
+var MONTHS = map[string]string{
+	"jan": "01",
+	"feb": "02",
+	"mar": "03",
+	"apr": "04",
+	"may": "05",
+	"jun": "06",
+	"jul": "07",
+	"aug": "08",
+	"sep": "09",
+	"oct": "10",
+	"nov": "11",
+	"dec": "12",
+}
+
+/**
 	represents a 'Case'
 **/
 type Instance struct {
@@ -56,7 +74,15 @@ type Instance struct {
 	transmission_type string
 }
 
+type Date struct {
+	nativeRepr string
+	YYYYMMDD   string
+}
+
 var BIOGRAPHICAL = regexp.MustCompile("A.*male")
+
+// this breaks if the date format changes on the gov site
+var DATE = regexp.MustCompile("[0-9]*-(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)-2020")
 
 func main() {
 	results := Crawl(Request(NEWSROOM))
@@ -64,6 +90,7 @@ func main() {
 	Parse(results[0])
 	ParseCsv("../data/covid19za_timeline_confirmed.csv")
 	fmt.Println(ParseInstance("A 14 year old female who had travelled to the US and Dubai"))
+	fmt.Println(ParseDate(results[0].link))
 
 }
 
@@ -71,6 +98,12 @@ func ParseInstance(c string) string {
 	bio := BIOGRAPHICAL.FindAllString(c, -1)
 	fmt.Println(bio)
 	return strings.TrimSpace(strings.Replace(strings.Replace(BIOGRAPHICAL.Split(c, -1)[1], "travelled", "Travelled", -1), "who had", "", -1))
+}
+
+func ParseDate(link string) Date {
+	n := DATE.FindAllString(link, -1)
+	parts := strings.Split(n[0], "-")
+	return Date{nativeRepr: n[0], YYYYMMDD: parts[2] + MONTHS[parts[1]] + parts[0]}
 }
 
 /**
