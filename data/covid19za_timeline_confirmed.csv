@@ -1,39 +1,39 @@
-case_id,date,YYYYMMDD,country,province,age,gender,transmission_type
-1,05-03-2020,20200305,South Africa,KZN,38,male,Travelled to Italy
-2,07-03-2020,20200307,South Africa,GP,39,female,Travelled to Italy
-3,08-03-2020,20200308,South Africa,KZN,NA,female,Travelled to Italy
-4,09-03-2020,20200309,South Africa,KZN,38,male,Travelled to Italy
-5,09-03-2020,20200309,South Africa,KZN,38,female,Travelled to Italy
-6,09-03-2020,20200309,South Africa,KZN,45,male,Travelled to Italy
-7,09-03-2020,20200309,South Africa,KZN,38,male,Travelled to Italy
-8,11-03-2020,20200311,South Africa,GP,33,female,Travelled to Italy
-9,11-03-2020,20200311,South Africa,GP,33,female,Travelled to Germany
-10,11-03-2020,20200311,South Africa,GP,34,male,Travelled to Germany
-11,11-03-2020,20200311,South Africa,GP,57,male,Travelled to Austria and Italy
-12,11-03-2020,20200311,South Africa,KZN,40,male,Travelled to Portugal
-13,11-03-2020,20200311,South Africa,WC,36,male,Travelled to Germany; Austria; Switzerland and Turkey
-14,12-03-2020,20200312,South Africa,KZN,38,male,Visiting resident of Turkey travelled to UK
-15,12-03-2020,20200312,South Africa,MP,27,female,Travelled to USA
-16,12-03-2020,20200312,South Africa,GP,43,male,Travelled to USA
-17,13-03-2020,20200313,South Africa,GP,39,female,Travelled to Switzerland and Austria
-18,13-03-2020,20200313,South Africa,GP,50,male,Travelled to Austria
-19,13-03-2020,20200313,South Africa,GP,21,female,Travelled to Italy
-20,13-03-2020,20200313,South Africa,GP,57,male,Travelled to Switzerland
-21,13-03-2020,20200313,South Africa,KZN,79,male,Travelled to Greece and Italy
-22,13-03-2020,20200313,South Africa,KZN,52,male,Travelled to Switzerland
-23,13-03-2020,20200313,South Africa,WC,50,male,Travelled to Switzerland and Austria
-24,13-03-2020,20200313,South Africa,WC,46,male,Travelled to Italy
-25,14-03-2020,20200314,South Africa,GP,76,male,Travelled to USA and UK
-26,14-03-2020,20200314,South Africa,GP,72,female,Travelled to USA and UK
-27,14-03-2020,20200314,South Africa,GP,47,male,Travelled to USA and UK
-28,14-03-2020,20200314,South Africa,GP,52,male,Travelled to Germany
-29,14-03-2020,20200314,South Africa,GP,38,male,Travelled to Netherlands and Germany
-30,14-03-2020,20200314,South Africa,GP,62,male,Travelled to Netherlands
-31,14-03-2020,20200314,South Africa,GP,19,female,Travelled to France and Italy
-32,14-03-2020,20200314,South Africa,WC,27,male,Travelled to Brazil
-33,14-03-2020,20200314,South Africa,WC,33,female,Travelled to France
-34,14-03-2020,20200314,South Africa,WC,49,male,Travelled to France and Italy
-35,14-03-2020,20200314,South Africa,WC,14,female,Travelled to USA and Dubai
-36,14-03-2020,20200314,South Africa,WC,73,male,Travelled to UK
-37,14-03-2020,20200314,South Africa,WC,32,male,Travelled to UK
-38,14-03-2020,20200314,South Africa,KZN,47,male,Travelled to Switzerland
+case_id,date,YYYYMMDD,country,province,geo_subdivision,age,gender,transmission_type
+1,05-03-2020,20200305,South Africa,KZN,ZA-KZN,38,male,Travelled to Italy
+2,07-03-2020,20200307,South Africa,GP,ZA-GP,39,female,Travelled to Italy
+3,08-03-2020,20200308,South Africa,KZN,ZA-KZN,NA,female,Travelled to Italy
+4,09-03-2020,20200309,South Africa,KZN,ZA-KZN,38,male,Travelled to Italy
+5,09-03-2020,20200309,South Africa,KZN,ZA-KZN,38,female,Travelled to Italy
+6,09-03-2020,20200309,South Africa,KZN,ZA-KZN,45,male,Travelled to Italy
+7,09-03-2020,20200309,South Africa,KZN,ZA-KZN,38,male,Travelled to Italy
+8,11-03-2020,20200311,South Africa,GP,ZA-GP,33,female,Travelled to Italy
+9,11-03-2020,20200311,South Africa,GP,ZA-GP,33,female,Travelled to Germany
+10,11-03-2020,20200311,South Africa,GP,ZA-GP,34,male,Travelled to Germany
+11,11-03-2020,20200311,South Africa,GP,ZA-GP,57,male,Travelled to Austria and Italy
+12,11-03-2020,20200311,South Africa,KZN,ZA-KZN,40,male,Travelled to Portugal
+13,11-03-2020,20200311,South Africa,WC,ZA-WC,36,male,Travelled to Germany; Austria; Switzerland and Turkey
+14,12-03-2020,20200312,South Africa,KZN,ZA-KZN,38,male,Visiting resident of Turkey travelled to UK
+15,12-03-2020,20200312,South Africa,MP,ZA-MP,27,female,Travelled to USA
+16,12-03-2020,20200312,South Africa,GP,ZA-GP,43,male,Travelled to USA
+17,13-03-2020,20200313,South Africa,GP,ZA-GP,39,female,Travelled to Switzerland and Austria
+18,13-03-2020,20200313,South Africa,GP,ZA-GP,50,male,Travelled to Austria
+19,13-03-2020,20200313,South Africa,GP,ZA-GP,21,female,Travelled to Italy
+20,13-03-2020,20200313,South Africa,GP,ZA-GP,57,male,Travelled to Switzerland
+21,13-03-2020,20200313,South Africa,KZN,ZA-KZN,79,male,Travelled to Greece and Italy
+22,13-03-2020,20200313,South Africa,KZN,ZA-KZN,52,male,Travelled to Switzerland
+23,13-03-2020,20200313,South Africa,WC,ZA-WC,50,male,Travelled to Switzerland and Austria
+24,13-03-2020,20200313,South Africa,WC,ZA-WC,46,male,Travelled to Italy
+25,14-03-2020,20200314,South Africa,GP,ZA-GP,76,male,Travelled to USA and UK
+26,14-03-2020,20200314,South Africa,GP,ZA-GP,72,female,Travelled to USA and UK
+27,14-03-2020,20200314,South Africa,GP,ZA-GP,47,male,Travelled to USA and UK
+28,14-03-2020,20200314,South Africa,GP,ZA-GP,52,male,Travelled to Germany
+29,14-03-2020,20200314,South Africa,GP,ZA-GP,38,male,Travelled to Netherlands and Germany
+30,14-03-2020,20200314,South Africa,GP,ZA-GP,62,male,Travelled to Netherlands
+31,14-03-2020,20200314,South Africa,GP,ZA-GP,19,female,Travelled to France and Italy
+32,14-03-2020,20200314,South Africa,WC,ZA-WC,27,male,Travelled to Brazil
+33,14-03-2020,20200314,South Africa,WC,ZA-WC,33,female,Travelled to France
+34,14-03-2020,20200314,South Africa,WC,ZA-WC,49,male,Travelled to France and Italy
+35,14-03-2020,20200314,South Africa,WC,ZA-WC,14,female,Travelled to USA and Dubai
+36,14-03-2020,20200314,South Africa,WC,ZA-WC,73,male,Travelled to UK
+37,14-03-2020,20200314,South Africa,WC,ZA-WC,32,male,Travelled to UK
+38,14-03-2020,20200314,South Africa,KZN,ZA-KZN,47,male,Travelled to Switzerland
