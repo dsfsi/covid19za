@@ -1,3 +1,5 @@
+## Data Usage License
+See [LICENSE](LICENSE.md)
 ## Data Updates
 
 **Note:** Please update the below data when you update the csv files.
