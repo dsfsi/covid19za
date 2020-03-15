@@ -22,5 +22,8 @@ Code [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](http
 * Department of Health - South Africa [Main Site](http://www.health.gov.za/), [Twitter](https://twitter.com/HealthZA/)
 * South African Government Media Statements [URL](https://www.gov.za/media-statements)
 
+## Contributors
+* See https://github.com/dsfsi/covid19za/graphs/contributors
+
 ## Contact
 * Vukosi Marivate - vukosi.marivate@cs.up.ac.za, [@vukosi](https://twitter.com/vukosi)
