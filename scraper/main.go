@@ -5,9 +5,12 @@ import (
 	"encoding/csv"
 	"fmt"
 	"io"
+	"io/ioutil"
 	"log"
+	"net/http"
 	"os"
 	"regexp"
+	"strconv"
 	"strings"
 
 	"github.com/PuerkitoBio/goquery"
@@ -21,6 +24,7 @@ Announcements pages follow the pattern of BASE + /speeches/ + some_link
 var BASE = "https://www.gov.za"
 var HREF_REGEX = "coronavirus-covid-19"
 var TITLE_REGEX = "Coronavirus COVID-19"
+var REPO = "https://github.com/dsfsi/covid19za.git"
 
 /**
 The format of a result from the 'newsroom' page
@@ -85,19 +89,26 @@ var BIOGRAPHICAL = regexp.MustCompile("A.*male")
 var DATE = regexp.MustCompile("[0-9]*-(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)-2020")
 
 func main() {
-	results := Crawl(Request(NEWSROOM))
-	fmt.Println(results)
-	Parse(results[0])
-	ParseCsv("../data/covid19za_timeline_confirmed.csv")
-	fmt.Println(ParseInstance("A 14 year old female who had travelled to the US and Dubai"))
-	fmt.Println(ParseDate(results[0].link))
+	GetCurrent()
+	// results := Crawl(Request(NEWSROOM))
+	// fmt.Println(results)
+	// Parse(results[0])
+	// ParseCsv("../data/covid19za_timeline_confirmed.csv")
+	// fmt.Println(ParseDate(results[0].link))
+
+	http.HandleFunc("/", Index)
+	http.HandleFunc("/get-updated-csv", GetUpdatedFile)
+	err := http.ListenAndServe(":8080", nil)
+	if err != nil {
+		fmt.Println(err)
+	}
 
 }
 
-func ParseInstance(c string) string {
-	bio := BIOGRAPHICAL.FindAllString(c, -1)
+func ParseInstance(context string, province string) string {
+	bio := BIOGRAPHICAL.FindAllString(context, -1)
 	fmt.Println(bio)
-	return strings.TrimSpace(strings.Replace(strings.Replace(BIOGRAPHICAL.Split(c, -1)[1], "travelled", "Travelled", -1), "who had", "", -1))
+	return strings.TrimSpace(strings.Replace(strings.Replace(BIOGRAPHICAL.Split(context, -1)[1], "travelled", "Travelled", -1), "who had", "", -1))
 }
 
 func ParseDate(link string) Date {
@@ -130,7 +141,7 @@ func Parse(r Result) {
 			selections.Each(func(i int, is *goquery.Selection) {
 				cleaned := RemoveNonAlphaNumberic(s.Text())
 				if val, ok := PROVINCES[cleaned]; ok {
-					fmt.Println(val + " " + is.Text())
+					ParseInstance(is.Text(), val)
 				}
 			})
 		}
@@ -165,7 +176,7 @@ func Crawl(doc *goquery.Document) []Result {
 	return results
 }
 
-func ParseCsv(filename string) {
+func ParseCsv(filename string) []Instance {
 	csvFile, _ := os.Open(filename)
 	reader := csv.NewReader(bufio.NewReader(csvFile))
 	var instances []Instance
@@ -189,7 +200,7 @@ func ParseCsv(filename string) {
 		},
 		)
 	}
-	fmt.Println(instances)
+	return instances
 }
 
 func RemoveNonAlphaNumberic(str string) string {
@@ -199,4 +210,95 @@ func RemoveNonAlphaNumberic(str string) string {
 	}
 	processedString := reg.ReplaceAllString(str, "")
 	return processedString
+}
+
+/**
+TODO - When GOV.ZA is back up, this should be done with real data
+**/
+func AmendCurrent() {
+	newEntry := "52,15-03-2020,20200315,South Africa,KZN,ZA-KZN,34,male,Travelled to UK"
+	// add a line to current.csv
+	f, err := os.OpenFile("current.csv", os.O_APPEND|os.O_WRONLY, 0600)
+	if err != nil {
+		panic(err)
+	}
+
+	defer f.Close()
+
+	if _, err = f.WriteString(newEntry); err != nil {
+		panic(err)
+	}
+}
+
+func GetUpdatedFile(w http.ResponseWriter, r *http.Request) {
+	GetCurrent()
+	AmendCurrent()
+	Openfile, err := os.Open("current.csv")
+	defer Openfile.Close() //Close after function return
+	if err != nil {
+		//File not found, send 404
+		http.Error(w, "File not found.", 404)
+		return
+	}
+	FileHeader := make([]byte, 512)
+	Openfile.Read(FileHeader)
+	FileContentType := http.DetectContentType(FileHeader)
+
+	FileStat, _ := Openfile.Stat()
+	FileSize := strconv.FormatInt(FileStat.Size(), 10)
+
+	//Send the headers
+	w.Header().Set("Content-Disposition", "attachment; filename=covid19za_timeline_confirmed.csv")
+	w.Header().Set("Content-Type", FileContentType)
+	w.Header().Set("Content-Length", FileSize)
+
+	//Send the file
+	//We read 512 bytes from the file already, so we reset the offset back to 0
+	Openfile.Seek(0, 0)
+	io.Copy(w, Openfile) //'Copy' the file to the client
+	Cleanup()
+	return
+}
+
+func Index(w http.ResponseWriter, r *http.Request) {
+	path := "." + r.URL.Path
+	if path == "./" {
+		path = "./static/index.html"
+	} else {
+		path = "./static" + path
+	}
+	http.ServeFile(w, r, path)
+}
+
+/**
+FIXME: This should be done with go-git when I have time...
+**/
+func GetCurrent() {
+	//get the response
+	resp, err := http.Get("https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_timeline_confirmed.csv")
+
+	//body
+	body, err := ioutil.ReadAll(resp.Body)
+
+	//header
+	var header string
+	for h, v := range resp.Header {
+		for _, v := range v {
+			header += fmt.Sprintf("%s %s \n", h, v)
+		}
+	}
+
+	//append all to one slice
+	var write []byte
+	write = append(write, body...)
+
+	//write it to a file
+	err = ioutil.WriteFile("current.csv", write, 0644)
+	if err != nil {
+		panic(err)
+	}
+}
+
+func Cleanup() {
+	os.Remove("current.csv")
 }
