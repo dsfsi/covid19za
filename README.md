@@ -7,8 +7,12 @@ COVID 19 Data for South Africa created, maintained and hosted by [DSFSI research
 Code [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  | Data [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 
-## Data Available [/data]
-* Confirmed Cases
+## Data Available [[/data](/data)]
+
+| dataset         | url | raw_url[file] |
+|-----------------|-----|---------------|
+| confirmed_cases |  [covid19za_timeline_confirmed](/data/covid19za_timeline_confirmed.csv)   |       [covid19za_timeline_confirmed.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_timeline_confirmed.csv)         |
+|                 |     |               |
 
 ## Visualisation
 * Google Data Studio Dashboard [URL](https://datastudio.google.com/reporting/1b60bdc7-bec7-44c9-ba29-be0e043d8534)
