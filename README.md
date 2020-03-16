@@ -16,7 +16,7 @@ Code [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](http
 
 ## Visualisation
 * Google Data Studio Dashboard [URL](https://datastudio.google.com/reporting/1b60bdc7-bec7-44c9-ba29-be0e043d8534)
-
+![](/visualisation/dashboard.png)
 ## Data Sources:
 * NICD - South Africa [URL](http://www.nicd.ac.za/media/alerts/)
 * Department of Health - South Africa [Main Site](http://www.health.gov.za/), [Twitter](https://twitter.com/HealthZA/)
