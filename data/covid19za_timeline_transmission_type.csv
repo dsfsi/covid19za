@@ -50,3 +50,14 @@ case_id,transmission_type,type,countries
 49,Travelled to Switzerland,travel,switzerland
 50,Travelled to Austria,travel,austria
 51,Travelled to UK,travel,uk
+52,Travelled to France and Netherlands,travel,france;netherlands
+53,Travelled to Canada,travel,canada
+54,Travelled to France,travel,france
+55,Travelled to Spain,travel,spain
+56,Travelled to Austria,travel,austria
+57,Travelled to India,travel,india
+58,Travelled to USA,travel,usa
+59,Travelled to USA,travel,usa
+60,Travelled to France and UK,travel,france;uk
+61,Travelled to USA;Mexico and Dubai,travel,dubai;mexico;usa
+62,Travelled to France,travel,france
