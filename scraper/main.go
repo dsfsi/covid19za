@@ -16,15 +16,18 @@ import (
 	"github.com/PuerkitoBio/goquery"
 )
 
-var NEWSROOM = "https://www.gov.za/newsroom"
+var NEWSROOM = "http://www.nicd.ac.za/media/alerts/"
 
 /**
 Announcements pages follow the pattern of BASE + /speeches/ + some_link
 **/
-var BASE = "https://www.gov.za"
-var HREF_REGEX = "coronavirus-covid-19"
-var TITLE_REGEX = "Coronavirus COVID-19"
+var BASE = "http://www.nicd.ac.za/"
+var HREF_REGEX = "covid-19-update"
 var REPO = "https://github.com/dsfsi/covid19za.git"
+
+var UNIQUE_LINKS = map[string]bool{}
+var GEOSUBDIVISION = "ZA-"
+var COUNTRY = "South Africa"
 
 /**
 The format of a result from the 'newsroom' page
@@ -43,24 +46,26 @@ var PROVINCES = map[string]string{
 	"Gauteng":      "GP",
 	"WesternCape":  "WC",
 	"KwaZuluNatal": "KZN",
+	"Limpopo":      "LIM",
+	"Mpumalanga":   "MP",
 }
 
 /**
 Map the month to the YY format
 **/
 var MONTHS = map[string]string{
-	"jan": "01",
-	"feb": "02",
-	"mar": "03",
-	"apr": "04",
-	"may": "05",
-	"jun": "06",
-	"jul": "07",
-	"aug": "08",
-	"sep": "09",
-	"oct": "10",
-	"nov": "11",
-	"dec": "12",
+	"January":   "01",
+	"February":  "02",
+	"March":     "03",
+	"April":     "04",
+	"May":       "05",
+	"June":      "06",
+	"July":      "07",
+	"August":    "08",
+	"September": "09",
+	"October":   "10",
+	"November":  "11",
+	"December":  "12",
 }
 
 /**
@@ -84,18 +89,28 @@ type Date struct {
 }
 
 var BIOGRAPHICAL = regexp.MustCompile("A.*male")
+var NO_GENDER_FOUND = regexp.MustCompile("A.*-year-old")
+var AGE = regexp.MustCompile("[0-9]+")
 
 // this breaks if the date format changes on the gov site
-var DATE = regexp.MustCompile("[0-9]*-(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)-2020")
+var DATE = regexp.MustCompile("[0-9]+ (January|February|March|April|May|June|July|August|September|October|November|December) 2020")
 
 func main() {
 	GetCurrent()
-	// results := Crawl(Request(NEWSROOM))
-	// fmt.Println(results)
-	// Parse(results[0])
-	// ParseCsv("../data/covid19za_timeline_confirmed.csv")
-	// fmt.Println(ParseDate(results[0].link))
-
+	instances := ParseCsv("./current.csv")
+	prevID := instances[len(instances)-1].case_id
+	results := Crawl(Request(NEWSROOM))
+	fmt.Println("Crawling options (Please note that updates before the 16th of March may be unable to be parsed due to formatting inconsistencies)")
+	for i, v := range results {
+		fmt.Println(i+1, v.link)
+	}
+	selection := Prompt("Please select an option to crawl 1 - " + strconv.Itoa(len(results)) + "\n")
+	id, _ := strconv.Atoi(prevID)
+	selectedId, _ := strconv.Atoi(selection)
+	newInstances := Parse(results[selectedId], id)
+	for _, i := range newInstances {
+		fmt.Println(i.ToCsvRepr())
+	}
 	http.HandleFunc("/", Index)
 	http.HandleFunc("/get-updated-csv", GetUpdatedFile)
 	err := http.ListenAndServe(":8080", nil)
@@ -105,16 +120,66 @@ func main() {
 
 }
 
-func ParseInstance(context string, province string) string {
-	bio := BIOGRAPHICAL.FindAllString(context, -1)
-	fmt.Println(bio)
-	return strings.TrimSpace(strings.Replace(strings.Replace(BIOGRAPHICAL.Split(context, -1)[1], "travelled", "Travelled", -1), "who had", "", -1))
+func (i Instance) ToCsvRepr() string {
+	return i.case_id + "," +
+		i.date + "," +
+		i.YYMMDD + "," +
+		i.country + "," +
+		i.province + "," +
+		i.geo_subdivision + "," +
+		i.age + "," +
+		i.gender + "," +
+		i.transmission_type
 }
 
-func ParseDate(link string) Date {
-	n := DATE.FindAllString(link, -1)
-	parts := strings.Split(n[0], "-")
-	return Date{nativeRepr: n[0], YYYYMMDD: parts[2] + MONTHS[parts[1]] + parts[0]}
+func ParseInstance(dateString string, context string, province string, id int) Instance {
+	bio := BIOGRAPHICAL.FindAllString(context, -1)
+	ng := NO_GENDER_FOUND.FindAllString(context, -1)
+	date := ParseDate(dateString)
+	if len(bio) > 0 {
+		age := AGE.FindAllString(bio[0], -1)
+		idVal := strconv.Itoa(id)
+		return Instance{
+			case_id:           idVal,
+			date:              RemoveNonAlphaNumberic(removeLBR(date.nativeRepr)),
+			YYMMDD:            RemoveNonAlphaNumberic(removeLBR(date.YYYYMMDD)),
+			country:           COUNTRY,
+			province:          province,
+			geo_subdivision:   GEOSUBDIVISION + province,
+			age:               age[0],
+			gender:            strings.Split(bio[0], " ")[2],
+			transmission_type: strings.TrimSpace(strings.Replace(strings.Replace(BIOGRAPHICAL.Split(context, -1)[1], "travelled", "Travelled", -1), "who", "", -1)),
+		}
+	} else {
+		age := AGE.FindAllString(ng[0], -1)
+		idVal := strconv.Itoa(id)
+		return Instance{
+			case_id:           idVal,
+			date:              RemoveNonAlphaNumberic(removeLBR(date.nativeRepr)),
+			YYMMDD:            RemoveNonAlphaNumberic(removeLBR(date.YYYYMMDD)),
+			country:           COUNTRY,
+			province:          province,
+			geo_subdivision:   GEOSUBDIVISION + province,
+			age:               age[0],
+			gender:            "not specified",
+			transmission_type: strings.TrimSpace(strings.Replace(strings.Replace(NO_GENDER_FOUND.Split(context, -1)[1], "travelled", "Travelled", -1), "who", "", -1)),
+		}
+	}
+
+}
+
+func ParseDate(date string) Date {
+	new := strings.Split(strings.Replace(date, " ,", "", -1), " ")
+	native := new[0] + "-" + MONTHS[new[1]] + "-" + new[2]
+	yyyymmdd := new[2] + MONTHS[new[1]] + new[0]
+	return Date{nativeRepr: native, YYYYMMDD: yyyymmdd}
+}
+
+func Prompt(prompt string) string {
+	reader := bufio.NewReader(os.Stdin)
+	fmt.Print(prompt)
+	text, _ := reader.ReadString('\n')
+	return text
 }
 
 /**
@@ -131,21 +196,32 @@ func Request(url string) *goquery.Document {
 	return doc
 }
 
-func Parse(r Result) {
-	fmt.Println("NAVIGATING TO " + BASE + r.link)
-	doc := Request(BASE + r.link)
-	fmt.Println("PARSING " + BASE + r.link)
+func Parse(r Result, id int) []Instance {
+	var instances []Instance
+	internalID := id
+	fmt.Println("NAVIGATING TO " + r.link)
+	doc := Request(r.link)
+	fmt.Println("PARSING " + r.link)
+	dateString := ""
+	doc.Find("li").Each(func(i int, s *goquery.Selection) {
+		v, e := s.Attr("itemprop")
+		if e && v == "datePublished" {
+			dateString = s.Text()
+		}
+	})
 	doc.Find("strong").Each(func(i int, s *goquery.Selection) {
 		selections := s.Parent().Next().Find("li")
 		if selections != nil {
 			selections.Each(func(i int, is *goquery.Selection) {
-				cleaned := RemoveNonAlphaNumberic(s.Text())
+				cleaned := strings.Replace(RemoveNonAlpha(s.Text()), "Province", "", -1)
 				if val, ok := PROVINCES[cleaned]; ok {
-					ParseInstance(is.Text(), val)
+					internalID++
+					instances = append(instances, ParseInstance(dateString, is.Text(), val, internalID))
 				}
 			})
 		}
 	})
+	return instances
 }
 
 /**
@@ -164,12 +240,15 @@ func Crawl(doc *goquery.Document) []Result {
 
 	doc.Find("a[href]").Each(func(index int, item *goquery.Selection) {
 		href, _ := item.Attr("href")
-		if strings.Contains(href, HREF_REGEX) && strings.Contains(item.Text(), TITLE_REGEX) {
+		if strings.Contains(href, HREF_REGEX) {
 			values := re.FindAllString(item.Text(), -1)
-			if len(values) > 1 {
-				results = append(results, Result{link: href, title: item.Text(), count: values[0]})
-			} else {
-				results = append(results, Result{link: href, title: item.Text(), count: "UNDEF"})
+			if !UNIQUE_LINKS[href] {
+				if len(values) > 1 {
+					results = append(results, Result{link: href, title: item.Text(), count: values[0]})
+				} else {
+					results = append(results, Result{link: href, title: item.Text(), count: "UNDEF"})
+				}
+				UNIQUE_LINKS[href] = true
 			}
 		}
 	})
@@ -204,6 +283,15 @@ func ParseCsv(filename string) []Instance {
 }
 
 func RemoveNonAlphaNumberic(str string) string {
+	reg, err := regexp.Compile("[^a-zA-Z0-9-]+")
+	if err != nil {
+		log.Fatal(err)
+	}
+	processedString := reg.ReplaceAllString(str, "")
+	return processedString
+}
+
+func RemoveNonAlpha(str string) string {
 	reg, err := regexp.Compile("[^a-zA-Z]+")
 	if err != nil {
 		log.Fatal(err)
@@ -301,4 +389,10 @@ func GetCurrent() {
 
 func Cleanup() {
 	os.Remove("current.csv")
+}
+
+// persky line carriage...
+func removeLBR(text string) string {
+	re := regexp.MustCompile(`\x{000D}\x{000A}|[\x{000A}\x{000B}\x{000C}\x{000D}\x{0085}\x{2028}\x{2029}]`)
+	return re.ReplaceAllString(text, ``)
 }
