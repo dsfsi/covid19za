@@ -1,7 +1,7 @@
 case_id,date,YYYYMMDD,country,province,geo_subdivision,age,gender,transmission_type
 1,05-03-2020,20200305,South Africa,KZN,ZA-KZN,38,male,Travelled to Italy
 2,07-03-2020,20200307,South Africa,GP,ZA-GP,39,female,Travelled to Italy
-3,08-03-2020,20200308,South Africa,KZN,ZA-KZN,NA,female,Travelled to Italy
+3,08-03-2020,20200308,South Africa,KZN,ZA-KZN,,female,Travelled to Italy
 4,09-03-2020,20200309,South Africa,KZN,ZA-KZN,38,male,Travelled to Italy
 5,09-03-2020,20200309,South Africa,KZN,ZA-KZN,38,female,Travelled to Italy
 6,09-03-2020,20200309,South Africa,KZN,ZA-KZN,45,male,Travelled to Italy
@@ -50,7 +50,13 @@ case_id,date,YYYYMMDD,country,province,geo_subdivision,age,gender,transmission_t
 49,15-03-2020,20200315,South Africa,WC,ZA-WC,39,male,Travelled to Switzerland
 50,15-03-2020,20200315,South Africa,WC,ZA-WC,35,male,Travelled to Austria
 51,15-03-2020,20200315,South Africa,KZN,ZA-KZN,34,male,Travelled to UK
-
-
-
-
+52,16-03-2020,20200316,South Africa,LP,ZA-LP,,male,Travelled to Europe
+53,16-03-2020,20200316,South Africa,WC,ZA-WC,,,
+54,16-03-2020,20200316,South Africa,WC,ZA-WC,,,
+55,16-03-2020,20200316,South Africa,GP,ZA-GP,,,
+56,16-03-2020,20200316,South Africa,GP,ZA-GP,,,
+57,16-03-2020,20200316,South Africa,GP,ZA-GP,,,
+58,16-03-2020,20200316,South Africa,GP,ZA-GP,,,
+59,16-03-2020,20200316,South Africa,GP,ZA-GP,,,
+60,16-03-2020,20200316,South Africa,GP,ZA-GP,,,
+61,16-03-2020,20200316,South Africa,GP,ZA-GP,,,
