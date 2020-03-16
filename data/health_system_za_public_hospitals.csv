@@ -1,1 +1,1 @@
-name,longitude,latitude,province,district,subdistrict,district_estimated_population
+hospital_id,hospital_name,longitude,latitude,province,district,subdistrict,district_estimated_population
