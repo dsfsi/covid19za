@@ -18,3 +18,4 @@ See [LICENSE](LICENSE.md)
 
 ### Testing
 * NICD Inforgraphics from their Twitter Account
+* NICD Technical reports http://www.nicd.ac.za/diseases-a-z-index/covid-19/covid-19-situational-reports/
