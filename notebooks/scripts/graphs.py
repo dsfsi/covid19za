@@ -1,8 +1,15 @@
-
+import os
 import seaborn as sns
 import matplotlib.pyplot as plt
 from datetime import datetime
 from textwrap import wrap
+### NOTE: `conda install basemap`
+import conda
+conda_file_dir = conda.__file__
+conda_dir = conda_file_dir.split('lib')[0]
+proj_lib = os.path.join(os.path.join(conda_dir, 'share'), 'proj')
+os.environ["PROJ_LIB"] = proj_lib
+from mpl_toolkits.basemap import Basemap
 
 def vertical_bar_chart(df, x, y, label, sort, figsize=(13, 9), ascending=True):
     """
@@ -128,4 +135,55 @@ def pie_chart(df, column):
             textprops={'fontsize': 14},
             autopct = '%1.2f%%')
     plt.axis('equal')
+    plt.show()
+
+def flat_globe(travel, colors):
+    """
+    This customize map chart from Basemap(plt as aliased above) 
+    Args:
+        df: dataframe 
+        column: x-axis column
+        label: string to label the graph
+        figsize: figure size to make chart small or big
+        
+    Returns:
+        None
+    """
+    plt.figure(figsize = (30,30))
+    m = Basemap(projection='gall')
+    m.fillcontinents(color="#61993b",lake_color="#008ECC")
+    m.drawmapboundary(fill_color="#5D9BFF")
+    m.drawcountries(color='#585858',linewidth = 1)
+    m.drawstates(linewidth = 0.2)
+    m.drawcoastlines(linewidth=1)
+    countries = list(travel.Source.unique())
+    for item in countries:
+        for index, row in travel[travel.Source == item].drop_duplicates().iterrows():
+            x2, y2 = m.gcpoints( row["Source_Lat"], row["Source_Lon"], row["Dest_Lat"], row["Dest_Lon"], 20)
+            plt.plot(x2,y2,color=colors[countries.index(item)],linewidth=0.8)
+    plt.show()
+
+def globe(travel, colors):
+    """
+    This customize map chart from Basemap(plt as aliased above) 
+    Args:
+        df: dataframe 
+        column: x-axis column
+        label: string to label the graph
+        figsize: figure size to make chart small or big
+        
+    Returns:
+        None
+    """
+    plt.figure(figsize=(16,16))
+    m = Basemap(projection='ortho', lat_0=0, lon_0=0)
+    m.drawmapboundary(fill_color='#5D9BFF')
+    m.fillcontinents(color='#0D9C29',lake_color='#008ECC')
+    m.drawcountries(color='#585858',linewidth=1)
+    m.drawcoastlines()
+    countries = list(travel.Source.unique())
+    for item in countries:
+        for index, row in travel[travel.Source == item].drop_duplicates().iterrows():
+            x2, y2 = m.gcpoints( row["Source_Lat"], row["Source_Lon"], row["Dest_Lat"], row["Dest_Lon"], 20)
+            plt.plot(x2,y2,color=colors[countries.index(item)],linewidth=0.8)
     plt.show()
