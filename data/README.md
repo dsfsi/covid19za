@@ -14,3 +14,10 @@ See [LICENSE](LICENSE.md)
 * 14-03-2020 - https://www.gov.za/speeches/dr-zweli-mkhize-confirms-latest-coronavirus-covid-19-cases-south-africa-14-mar-2020-0000
 * 15-03-2020 - https://www.gov.za/speeches/dr-zweli-mkhize-confirms-latest-coronavirus-covid-19-cases-south-africa-15-mar-2020-0000
 * 16-03-2020 - https://sacoronavirus.co.za/2020/03/16/statement-by-the-minister-covid-19-16-march-2020/
+
+## Data Sources
+
+* The National Department of Health Data Dictionary [URL](https://dd.dhmis.org/) 
+* Medpages[URL](https://www.medpages.info/sf/index.php?page=homepage)
+* Statistics of South Africa [URL](http://www.statssa.gov.za/)
+
