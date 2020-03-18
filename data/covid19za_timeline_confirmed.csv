@@ -75,3 +75,12 @@ case_id,date,YYYYMMDD,country,province,geo_subdivision,age,gender,transmission_t
 74,17-03-2020,20200317,South Africa,GP,ZA-GP,34,male,no international travel history
 75,17-03-2020,20200317,South Africa,GP,ZA-GP,26,female,no international travel history
 76,17-03-2020,20200317,South Africa,GP,ZA-GP,32,female,no international travel history
+77,17-03-2020,20200317,South Africa,KZN,ZA-KZN,48,male,Travelled to Dubai
+78,17-03-2020,20200317,South Africa,KZN,ZA-KZN,59,female,no international travel history
+79,17-03-2020,20200317,South Africa,KZN,ZA-KZN,5,male,no international travel history
+80,17-03-2020,20200317,South Africa,KZN,ZA-KZN,3,male,no international travel history
+81,17-03-2020,20200317,South Africa,WC,ZA-WC,3,male,Travelled to UK
+82,17-03-2020,20200317,South Africa,WC,ZA-WC,58,male,Travelled to UK and Austria
+83,17-03-2020,20200317,South Africa,WC,ZA-WC,2,male,no international travel history
+84,17-03-2020,20200317,South Africa,WC,ZA-WC,62,female,Travelled to the UK and Ethiopia
+85,17-03-2020,20200317,South Africa,WC,ZA-WC,71,female,Travelled to the UK and Ethiopia
