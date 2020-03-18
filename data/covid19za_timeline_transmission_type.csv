@@ -84,3 +84,34 @@ case_id,transmission_type,type,countries
 83,no international travel history,local,
 84,Travelled to the UK and Ethiopia,travel,ethiopia;uk
 85,Travelled to the UK,travel,uk
+86,Travelled to the UK,travel,uk
+87,Travelled to the Austria,travel,austria
+88,Travelled to the Austria and Italy,travel,austria;italy
+89,Travelled to the Austria and Italy,travel,austria;italy
+90,Travelled to the UK and Netherlands,travel,netherlands;uk
+91,Travelled to the UK,travel,uk
+92,Travelled to the Switzerland and Austria,travel,austria;switzerland
+93,Travelled to the Switzerland and Austria,travel,austria;switzerland
+94,Travelled to the Italy,travel,italy
+95,Travelled to the Italy,travel,italy
+96,Travelled to the Italy,travel,italy
+97,Travelled to the Finland and France,travel,finland;france
+98,no international travel history,local,
+99,no international travel history,local,
+100,no international travel history,local,
+101,no international travel history,local,
+102,Travelled to the Austria and Italy,travel,austria;italy
+103,Travelled to the Italy,travel,italy
+104,Travelled to the Italy,travel,italy
+105,Travelled to the Italy,travel,italy
+106,no international travel history,local,
+107,Travelled to New Zealand,travel,new zealand
+108,Travelled to Egypt and Dubai,travel,dubai;egypt
+109,Travelled to Switzerland and Dubai,travel,dubai;switzerland
+110,Travelled to Switzerland and Dubai,travel,dubai;switzerland
+111,Travelled to Portugal and UK,travel,portugal;uk
+112,Travelled to UK,travel,uk
+113,Travelled to Portugal and UK,travel,portugal;uk
+114,Travelled to UK,travel,uk
+115,Travelled to UK,travel,uk
+116,no international travel history,local,
