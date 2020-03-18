@@ -1,5 +1,7 @@
 import os
 import seaborn as sns
+import pandas as pd
+import numpy as np
 import matplotlib.pyplot as plt
 from datetime import datetime
 from textwrap import wrap
@@ -10,6 +12,7 @@ conda_dir = conda_file_dir.split('lib')[0]
 proj_lib = os.path.join(os.path.join(conda_dir, 'share'), 'proj')
 os.environ["PROJ_LIB"] = proj_lib
 from mpl_toolkits.basemap import Basemap
+from matplotlib import ticker
 
 def vertical_bar_chart(df, x, y, label, sort, figsize=(13, 9), ascending=True):
     """
@@ -186,4 +189,102 @@ def globe(travel, colors):
         for index, row in travel[travel.Source == item].drop_duplicates().iterrows():
             x2, y2 = m.gcpoints( row["Source_Lat"], row["Source_Lon"], row["Dest_Lat"], row["Dest_Lon"], 20)
             plt.plot(x2,y2,color=colors[countries.index(item)],linewidth=0.8)
+    plt.show()
+
+def plot_covid19za_grouwth(df, provinces, min_cases=100, ls='-', figsize=(12, 8)):
+    """
+        This shows covid19za growth since the first case was reported 
+        from each province
+    """
+    fig, ax = plt.subplots(figsize=figsize)
+    df = (df.set_index('date'))
+    df.index = pd.to_datetime(df.index, dayfirst=True)
+    for province in provinces:
+        df1 = df.loc[(df.province == province)].groupby(['date']).agg({'country': ['count']})
+        df1.columns = ['new cases']
+        df1['cummulative'] = df1['new cases'].cumsum()
+        (df1.reset_index()['cummulative']
+            .plot(label=province, ls=ls))
+    
+    x = np.linspace(0, plt.xlim()[1])
+    plt.plot(x,x+(1.33), ls='--', color='k', label='33% daily growth')
+    plt.title('Data up to {}'.format(df.index.max().strftime('%B %d, %Y')))
+    plt.xlabel('Days from first confirmed case')
+    plt.ylabel('Confirmed cases')
+    ax.get_yaxis().set_major_formatter(ticker.ScalarFormatter())
+    ax.set_xticks(range(0,int(plt.xlim()[1])+1))
+    plt.legend(bbox_to_anchor=(1.0, 1.0))
+    sns.despine()
+    plt.annotate('Based on Coronavirus COVID-19 (2019-nCoV) Data Repository for South Africa \
+        [Hosted by DSFSI group at University of Pretoria]', 
+             (0.1, 0.01), xycoords='figure fraction', fontsize=10)
+
+def flat_mutipath_globe(df_travel, path_route, colors, all_starting_countries):
+    """
+        This is flat structure for multistop 
+    """
+
+    plt.figure(figsize = (30,30))
+    m = Basemap(projection='gall')
+    m.fillcontinents(color="#61993b",lake_color="#008ECC")
+    m.drawmapboundary(fill_color="#5D9BFF")
+    m.drawcountries(color='#585858',linewidth = 1)
+    m.drawstates(linewidth = 0.2)
+    m.drawcoastlines(linewidth=1)
+    for path_rout in path_route:
+        if path_rout[0][0] == 'USA;Mexico':
+            point_a = df_travel[df_travel.country_or_province_travelled == path_rout[0][0].split(';')[0]]
+            point_b = df_travel[df_travel.country_or_province_travelled == path_rout[0][0].split(';')[1]]
+            point_c = df_travel[df_travel.country_or_province_travelled == path_rout[0][1]]
+            point_d = df_travel[df_travel.country_or_province_travelled == path_rout[1]]
+            
+            x2, y2 = m.gcpoints(point_a["latitude"],point_a["longitude"],point_b["latitude"],point_b["longitude"], 20)
+            plt.plot(x2,y2,color = colors[all_starting_countries.index(path_rout[0][0].split(';')[0])],linewidth=3)
+    #         m.scatter(point_a["latitude"],point_a["longitude"], marker='^',color="#EC7063", s=500,zorder=5)
+    #         plt.text(point_a["latitude"],point_a["longitude"]+10000,path_rout[0][0].split(';')[0].replace('the ', ''),fontsize=20,fontweight='bold',ha='center',va='bottom',color="black")
+            x2, y2 = m.gcpoints(point_b["latitude"],point_b["longitude"],point_c["latitude"],point_c["longitude"], 20)
+            plt.plot(x2,y2,color = colors[all_starting_countries.index(path_rout[0][0].split(';')[0])],linewidth=3)
+            x2, y2 = m.gcpoints(point_c["latitude"],point_c["longitude"],point_d["latitude"],point_d["longitude"], 20)
+            plt.plot(x2,y2,color = colors[all_starting_countries.index(path_rout[0][0].split(';')[0])],linewidth=3)
+        elif len(path_rout[0]) == 2:
+            point_a = df_travel[df_travel.country_or_province_travelled == path_rout[0][0].replace('the ', '')]
+            point_b = df_travel[df_travel.country_or_province_travelled == path_rout[0][1].replace('the ', '')]
+            point_c = df_travel[df_travel.country_or_province_travelled == path_rout[1].replace('LP', 'LIM')]
+            
+            x2, y2 = m.gcpoints(point_a["latitude"],point_a["longitude"],point_b["latitude"],point_b["longitude"], 20)
+            plt.plot(x2,y2,color = colors[all_starting_countries.index(path_rout[0][0].replace('the ', ''))],linewidth=3)
+    #         m.scatter(x2, y2, marker='^',color="#EC7063", s=500,zorder=5)
+    #         plt.text(x2,y2,path_rout[0][0].replace('the ', ''),fontsize=20,fontweight='bold',ha='center',va='bottom',color="black")
+            x2, y2 = m.gcpoints(point_b["latitude"],point_b["longitude"],point_c["latitude"],point_c["longitude"], 20)
+            plt.plot(x2,y2,color = colors[all_starting_countries.index(path_rout[0][0].replace('the ', ''))],linewidth=3)
+        elif len(path_rout[0]) == 3:
+            point_a = df_travel[df_travel.country_or_province_travelled == path_rout[0][0]]
+            point_b = df_travel[df_travel.country_or_province_travelled == path_rout[0][1]]
+            point_c = df_travel[df_travel.country_or_province_travelled == path_rout[0][2]]
+            point_d = df_travel[df_travel.country_or_province_travelled == path_rout[1]]
+            
+            x2, y2 = m.gcpoints(point_a["latitude"],point_a["longitude"],point_b["latitude"],point_b["longitude"], 20)
+            plt.plot(x2,y2,color = colors[all_starting_countries.index(path_rout[0][0])],linewidth=0.8)
+    #         m.scatter(x2, y2, marker='^',color="#EC7063", s=500,zorder=5)
+    #         plt.text(x2,y2,path_rout[0][0],fontsize=20,fontweight='bold',ha='center',va='bottom',color="black")
+            x2, y2 = m.gcpoints(point_b["latitude"],point_b["longitude"],point_c["latitude"],point_c["longitude"], 20)
+            plt.plot(x2,y2,color = colors[all_starting_countries.index(path_rout[0][0])],linewidth=0.8)
+            x2, y2 = m.gcpoints(point_c["latitude"],point_c["longitude"],point_d["latitude"],point_d["longitude"], 20)
+            plt.plot(x2,y2,color = colors[all_starting_countries.index(path_rout[0][0])],linewidth=3)
+        elif len(path_rout[0]) == 4:
+            point_a = df_travel[df_travel.country_or_province_travelled == path_rout[0][0]]
+            point_b = df_travel[df_travel.country_or_province_travelled == path_rout[0][1]]
+            point_c = df_travel[df_travel.country_or_province_travelled == path_rout[0][2]]
+            point_d = df_travel[df_travel.country_or_province_travelled == path_rout[0][3]]
+            point_e = df_travel[df_travel.country_or_province_travelled == path_rout[1]]
+            x2, y2 = m.gcpoints(point_a["latitude"],point_a["longitude"],point_b["latitude"],point_b["longitude"], 20)
+            plt.plot(x2,y2,color = colors[all_starting_countries.index(path_rout[0][0])],linewidth=3)
+    #         m.scatter(x2, y2, marker='^',color="#EC7063", s=500,zorder=5)
+    #         plt.text(x2,y2,path_rout[0][0],fontsize=20,fontweight='bold',ha='center',va='bottom',color="black")
+            x2, y2 = m.gcpoints(point_b["latitude"],point_b["longitude"],point_c["latitude"],point_c["longitude"], 20)
+            plt.plot(x2,y2,color = colors[all_starting_countries.index(path_rout[0][0])],linewidth=3)
+            x2, y2 = m.gcpoints(point_c["latitude"],point_c["longitude"],point_d["latitude"],point_d["longitude"], 20)
+            plt.plot(x2,y2,color = colors[all_starting_countries.index(path_rout[0][0])],linewidth=3)
+            x2, y2 = m.gcpoints(point_d["latitude"],point_d["longitude"],point_e["latitude"],point_e["longitude"], 20)
+            plt.plot(x2,y2,color = colors[all_starting_countries.index(path_rout[0][0])],linewidth=3)
     plt.show()
