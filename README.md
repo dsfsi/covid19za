@@ -4,6 +4,8 @@ COVID 19 Data for South Africa created, maintained and hosted by [DSFSI research
 
 **Disclaimer:** We have worked to keep the data as accurate as possible. We collate the COVID 19 reporting data from NICD and DoH. We only update that data once there is an official report or statement. For the other data, we work to keep the data as accurate as possible. If you find errors. Make a pull request.
 
+See our [blog post](https://dsfsi.github.io/blog/covid19za-dashboard/) on why we built this and how we are working.
+
 ## Licenses
 
 Code [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  | Data [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
