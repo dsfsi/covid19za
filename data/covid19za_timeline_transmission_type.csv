@@ -61,3 +61,26 @@ case_id,transmission_type,type,countries
 60,Travelled to France and UK,travel,france;uk
 61,Travelled to USA;Mexico and Dubai,travel,dubai;mexico;usa
 62,Travelled to France,travel,france
+63,Travelled to Belgium; UK; France and US,travel,belgium;france;uk;usa
+64,Travelled to UK,travel,uk
+65,Travelled to USA,travel,usa
+66,Travelled to UK,travel,uk
+67,Travelled to UK,travel,uk
+68,Travelled to Italy,travel,italy
+69,Travelled to UK and Dubai,travel,dubai;uk
+70,Travelled to USA,travel,usa
+71,Travelled to USA,travel,usa
+72,Travelled to Italy and Dubai,travel,dubai;italy
+73,no travel history,local,
+74,no international travel history,local,
+75,no international travel history,local,
+76,no international travel history,local,
+77,Travelled to Dubai,travel,dubai
+78,no international travel history,local,
+79,no international travel history,local,
+80,no international travel history,local,
+81,Travelled to UK,travel,uk
+82,Travelled to UK and Austria,travel,austria;uk
+83,no international travel history,local,
+84,Travelled to the UK and Ethiopia,travel,ethiopia;uk
+85,Travelled to the UK,travel,uk

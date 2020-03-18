@@ -83,4 +83,4 @@ case_id,date,YYYYMMDD,country,province,geo_subdivision,age,gender,transmission_t
 82,17-03-2020,20200317,South Africa,WC,ZA-WC,58,male,Travelled to UK and Austria
 83,17-03-2020,20200317,South Africa,WC,ZA-WC,2,male,no international travel history
 84,17-03-2020,20200317,South Africa,WC,ZA-WC,62,female,Travelled to the UK and Ethiopia
-85,17-03-2020,20200317,South Africa,WC,ZA-WC,71,female,Travelled to the UK and Ethiopia
+85,17-03-2020,20200317,South Africa,WC,ZA-WC,71,female,Travelled to the UK
