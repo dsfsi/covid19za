@@ -115,14 +115,3 @@ case_id,date,YYYYMMDD,country,province,geo_subdivision,age,gender,transmission_t
 114,18-03-2020,20200318,South Africa,WC,ZA-WC,51,male,Travelled to UK
 115,18-03-2020,20200318,South Africa,WC,ZA-WC,26,female,Travelled to UK
 116,18-03-2020,20200318,South Africa,WC,ZA-WC,26,male,no international travel history
-
-
-
-
-
-
-
-
-
-
-
