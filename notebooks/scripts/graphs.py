@@ -239,24 +239,24 @@ def flat_mutipath_globe(df_travel, path_route, colors, all_starting_countries):
             point_d = df_travel[df_travel.country_or_province_travelled == path_rout[1]]
             
             x2, y2 = m.gcpoints(point_a["latitude"],point_a["longitude"],point_b["latitude"],point_b["longitude"], 20)
-            plt.plot(x2,y2,color = colors[all_starting_countries.index(path_rout[0][0].split(';')[0])],linewidth=0.8)
+            plt.plot(x2,y2,color = colors[all_starting_countries.index(path_rout[0][0].split(';')[0])],linewidth=3)
     #         m.scatter(point_a["latitude"],point_a["longitude"], marker='^',color="#EC7063", s=500,zorder=5)
     #         plt.text(point_a["latitude"],point_a["longitude"]+10000,path_rout[0][0].split(';')[0].replace('the ', ''),fontsize=20,fontweight='bold',ha='center',va='bottom',color="black")
             x2, y2 = m.gcpoints(point_b["latitude"],point_b["longitude"],point_c["latitude"],point_c["longitude"], 20)
-            plt.plot(x2,y2,color = colors[all_starting_countries.index(path_rout[0][0].split(';')[0])],linewidth=0.8)
+            plt.plot(x2,y2,color = colors[all_starting_countries.index(path_rout[0][0].split(';')[0])],linewidth=3)
             x2, y2 = m.gcpoints(point_c["latitude"],point_c["longitude"],point_d["latitude"],point_d["longitude"], 20)
-            plt.plot(x2,y2,color = colors[all_starting_countries.index(path_rout[0][0].split(';')[0])],linewidth=0.8)
+            plt.plot(x2,y2,color = colors[all_starting_countries.index(path_rout[0][0].split(';')[0])],linewidth=3)
         elif len(path_rout[0]) == 2:
             point_a = df_travel[df_travel.country_or_province_travelled == path_rout[0][0].replace('the ', '')]
             point_b = df_travel[df_travel.country_or_province_travelled == path_rout[0][1].replace('the ', '')]
             point_c = df_travel[df_travel.country_or_province_travelled == path_rout[1].replace('LP', 'LIM')]
             
             x2, y2 = m.gcpoints(point_a["latitude"],point_a["longitude"],point_b["latitude"],point_b["longitude"], 20)
-            plt.plot(x2,y2,color = colors[all_starting_countries.index(path_rout[0][0].replace('the ', ''))],linewidth=0.8)
+            plt.plot(x2,y2,color = colors[all_starting_countries.index(path_rout[0][0].replace('the ', ''))],linewidth=3)
     #         m.scatter(x2, y2, marker='^',color="#EC7063", s=500,zorder=5)
     #         plt.text(x2,y2,path_rout[0][0].replace('the ', ''),fontsize=20,fontweight='bold',ha='center',va='bottom',color="black")
             x2, y2 = m.gcpoints(point_b["latitude"],point_b["longitude"],point_c["latitude"],point_c["longitude"], 20)
-            plt.plot(x2,y2,color = colors[all_starting_countries.index(path_rout[0][0].replace('the ', ''))],linewidth=0.8)
+            plt.plot(x2,y2,color = colors[all_starting_countries.index(path_rout[0][0].replace('the ', ''))],linewidth=3)
         elif len(path_rout[0]) == 3:
             point_a = df_travel[df_travel.country_or_province_travelled == path_rout[0][0]]
             point_b = df_travel[df_travel.country_or_province_travelled == path_rout[0][1]]
@@ -270,7 +270,7 @@ def flat_mutipath_globe(df_travel, path_route, colors, all_starting_countries):
             x2, y2 = m.gcpoints(point_b["latitude"],point_b["longitude"],point_c["latitude"],point_c["longitude"], 20)
             plt.plot(x2,y2,color = colors[all_starting_countries.index(path_rout[0][0])],linewidth=0.8)
             x2, y2 = m.gcpoints(point_c["latitude"],point_c["longitude"],point_d["latitude"],point_d["longitude"], 20)
-            plt.plot(x2,y2,color = colors[all_starting_countries.index(path_rout[0][0])],linewidth=0.8)
+            plt.plot(x2,y2,color = colors[all_starting_countries.index(path_rout[0][0])],linewidth=3)
         elif len(path_rout[0]) == 4:
             point_a = df_travel[df_travel.country_or_province_travelled == path_rout[0][0]]
             point_b = df_travel[df_travel.country_or_province_travelled == path_rout[0][1]]
@@ -278,13 +278,13 @@ def flat_mutipath_globe(df_travel, path_route, colors, all_starting_countries):
             point_d = df_travel[df_travel.country_or_province_travelled == path_rout[0][3]]
             point_e = df_travel[df_travel.country_or_province_travelled == path_rout[1]]
             x2, y2 = m.gcpoints(point_a["latitude"],point_a["longitude"],point_b["latitude"],point_b["longitude"], 20)
-            plt.plot(x2,y2,color = colors[all_starting_countries.index(path_rout[0][0])],linewidth=0.8)
+            plt.plot(x2,y2,color = colors[all_starting_countries.index(path_rout[0][0])],linewidth=3)
     #         m.scatter(x2, y2, marker='^',color="#EC7063", s=500,zorder=5)
     #         plt.text(x2,y2,path_rout[0][0],fontsize=20,fontweight='bold',ha='center',va='bottom',color="black")
             x2, y2 = m.gcpoints(point_b["latitude"],point_b["longitude"],point_c["latitude"],point_c["longitude"], 20)
-            plt.plot(x2,y2,color = colors[all_starting_countries.index(path_rout[0][0])],linewidth=0.8)
+            plt.plot(x2,y2,color = colors[all_starting_countries.index(path_rout[0][0])],linewidth=3)
             x2, y2 = m.gcpoints(point_c["latitude"],point_c["longitude"],point_d["latitude"],point_d["longitude"], 20)
-            plt.plot(x2,y2,color = colors[all_starting_countries.index(path_rout[0][0])],linewidth=0.8)
+            plt.plot(x2,y2,color = colors[all_starting_countries.index(path_rout[0][0])],linewidth=3)
             x2, y2 = m.gcpoints(point_d["latitude"],point_d["longitude"],point_e["latitude"],point_e["longitude"], 20)
-            plt.plot(x2,y2,color = colors[all_starting_countries.index(path_rout[0][0])],linewidth=0.8)
+            plt.plot(x2,y2,color = colors[all_starting_countries.index(path_rout[0][0])],linewidth=3)
     plt.show()
