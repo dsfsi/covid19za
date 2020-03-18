@@ -1,5 +1,7 @@
 import os
 import seaborn as sns
+import pandas as pd
+import numpy as np
 import matplotlib.pyplot as plt
 from datetime import datetime
 from textwrap import wrap
@@ -10,6 +12,7 @@ conda_dir = conda_file_dir.split('lib')[0]
 proj_lib = os.path.join(os.path.join(conda_dir, 'share'), 'proj')
 os.environ["PROJ_LIB"] = proj_lib
 from mpl_toolkits.basemap import Basemap
+from matplotlib import ticker
 
 def vertical_bar_chart(df, x, y, label, sort, figsize=(13, 9), ascending=True):
     """
@@ -187,3 +190,31 @@ def globe(travel, colors):
             x2, y2 = m.gcpoints( row["Source_Lat"], row["Source_Lon"], row["Dest_Lat"], row["Dest_Lon"], 20)
             plt.plot(x2,y2,color=colors[countries.index(item)],linewidth=0.8)
     plt.show()
+
+def plot_covid19za_grouwth(df, provinces, min_cases=100, ls='-', figsize=(12, 8)):
+    """
+        This shows covid19za growth since the first case was reported 
+        from each province
+    """
+    fig, ax = plt.subplots(figsize=figsize)
+    df = (df.set_index('date'))
+    df.index = pd.to_datetime(df.index, dayfirst=True)
+    for province in provinces:
+        df1 = df.loc[(df.province == province)].groupby(['date']).agg({'country': ['count']})
+        df1.columns = ['new cases']
+        df1['cummulative'] = df1['new cases'].cumsum()
+        (df1.reset_index()['cummulative']
+            .plot(label=province, ls=ls))
+    
+    x = np.linspace(0, plt.xlim()[1])
+    plt.plot(x,x+(1.33), ls='--', color='k', label='33% daily growth')
+    plt.title('Data up to {}'.format(df.index.max().strftime('%B %d, %Y')))
+    plt.xlabel('Days from first confirmed case')
+    plt.ylabel('Confirmed cases')
+    ax.get_yaxis().set_major_formatter(ticker.ScalarFormatter())
+    ax.set_xticks(range(0,int(plt.xlim()[1])+1))
+    plt.legend(bbox_to_anchor=(1.0, 1.0))
+    sns.despine()
+    plt.annotate('Based on Coronavirus COVID-19 (2019-nCoV) Data Repository for South Africa \
+        [Hosted by DSFSI group at University of Pretoria]', 
+             (0.1, 0.01), xycoords='figure fraction', fontsize=10)
