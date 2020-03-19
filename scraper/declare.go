@@ -39,6 +39,10 @@ var PROVINCES = map[string]string{
 	"KWAZULUNATAL": "KZN",
 	"MPUMALANGA":   "LIM",
 	"LIMPOPO":      "MP",
+	"EASTERNCAPE":  "EC",
+	"FREESTATE":    "FS",
+	"NORTHWEST":    "NW",
+	"NORTHERNCAPE": "NC",
 }
 
 /**
