@@ -1,0 +1,73 @@
+hospital_id,name,ceo,postal_address,physical_address,contact_number,email
+1,Addington Hospital,Dr M Ndlangisa,P. O. Box 977 Durban 4000,"16 Erskine Terrace South Beach, Durban",Tel: (031) 327 2000,Mthetheleli.Ndlangisa@kznhealth.gov.za 
+2,Appelsbosch Hospital ,Mr TL Gwele,P/ Bag X215 Ozwathini 3242,"From PMB, take Greytown road and then take Wartburg rd. Go past Wartburg, do not turn at Dalton, carry on until you reach the sugar mill, then turn right and pass Fawnleas, Glenside, Montebello and Appelsbosch Supermarket (on left). Then look for sign for Appelsbosch hospital",Tel: (032) 294 8000,thando.gwele@kznhealth.gov.za
+3,Benedictine Hospital,Mr BR Khumalo,P/Bag X5007 Nongoma 3950,"Main Road, Nongoma",Tel: (035) 831 7000,Bonginkosi.Khumalo3@kznhealth.gov.za
+4,Bethesda Hospital,Ms S Nkonyane,P/Bag X602 Umbombo 3970,"N2 North to Mkuze, left at T-junction, 3 km to Ubombo, turn right and go 18 km",Tel:(035) 595 3100,nkonyane.sibongile@kznhealth.gov.za
+5,Catherine Booth Hospital ,Mrs TR Vezi,P/ Bag X105 Amathikulu 3801,"N2 North from Gingindlovu to Amatikulu Sugar Mill, turn right and travel 12 km along gravel road through sugar cane and banana fields until you reach the hospital.  The route is well sign-posted.",Tel: 035 474 8407,Tholakele.Zulu@kznhealth.gov.za
+6,Ceza Hospital,Mr SP Zulu,P/Bag X200 Ceza 3866,"Go to Ulundi , from King Dinizulu Highway go about 20 km's North to Ceza hospital.",Tel: (035) 832 5000,zodwa.mncwango@kznhealth.gov.za
+7,Charles James Hospital,Dr S Ntshanga (acting),Private Bag X20050 Amanzimtoti 4125,"No. 6 Sompukane Road, Ezimbokodweni 4125. (Old south coast main road)",Tel: (031) 905 4222/3,sbongile.ntshanga@kznhealth.gov.za
+8,Charles Johnson Memorial Hospital,Ms MZ Khanyile,P/Bag X5503 Nquthu 3135,"Lot 92, Hlubi Street,Nquthu",Tel: (034) 271 6400,zodwa.khanyile@kznhealth.gov.za
+9,Christ the King Hospital,Mrs SW Maseko,P/Bag X542 Ixopo 3276,"Peter Hauff Drive, Ixopo",Tel: (039) 834 7500,Siphiwe.Maseko@kznhealth.gov.za
+10,Church of Scotland Hospital ,Mrs B Dlomo,P/Bag X502 Tugela Ferry 3010,On the Greytown road go through Greytown and look for a board saying Tugela Ferry. Turn left at that board and go on until you reach Tugela Ferry town. On the left and right you will see shops. Look for board on your right saying hospital.,Tel: (033) 493 1000,bukeliwe.dlomo@kznhealth.gov.za
+11,Clairwood Hospital,Dr NBL Gwala,P/Bag X04 MobeniI 4060,"1 Higginson Highway, Mobeni",Tel: (031) 451 5000,njabulo.gwala@kznhealth.gov.za
+12,Don McKenzie Hospital,Mrs T Khanyile,P/Bag X1006 Botha's hill 3660,"10 Zulu Reserve road, Botha's hill",Tel: (031) 777 1155,tiny.khanyile@kznhealth.gov.za
+13,Doris Goodwin Hospital,Mr A Ndlovu,PO Box 32 Plessislaer 3216,"Edendale road, next to Edendale hospital",Tel: (033) 327 3500,andrew.ndlovu@kznhealth.gov.za
+14,Dundee hospital,Mrs TT Vilakazi,P/Bag X2011 Dundee 3000,"121 Mckenzie Street, Dundee 3000",Tel: (034) 212 1111,Teresa.Mkhize@kznhealth.gov.za Theodorah.Vilakazi2@kznhealth.gov.za
+15,E.G & Usher Memorial hospital,Ms N Binase,P/Bag X506 Kokstad 4700,"Corner of The Avenue & Elliot Streets, Kokstad",Tel: (039) 797 8100,nomawethu.binase@kznhealth.gov.za
+16,Edendale Hospital,Mrs NT Nxaba,P/Bag X509 Plessislaer 3216,"Main Road, Edendale.",Tel: (033) 395 4911,nelisile.nxaba@kznhealth.gov.za
+17,Ekombe Hospital,Dr BP Zungu,P/Bag X203 Kranskop 3268,"From Melmoth proceed to Nkandla, before your reach Nkandla watch and take the turn off to Eqhudeni and Vuleka. From there drive about 30 km until you take the turn off to Eqhudeni, then you’ll drive 5 km to Ekombe Hospital.",Tel: (035) 834 8000,Bonginkosi.Zungu@kznhealth.gov.za
+18,Ekuhlengeni Psychiatric Hospital,Miss NS Padayachee,PO Box 3 Umbogintwini 4120,"Old South coast road, Umbogintwini",Tel: (031) 905 4775/6/7/8/9,Nalini.Padayachee@kznhealth.gov.za
+19,Emmaus Hospital,Mrs MAN Mzizi,P/Bag X16 Winterton 3340,"Cathedral Peak Road,Winterton.",Tel: (036) 488 1570,Ndileka.Mzizi@kznhealth.gov.za
+20,Eshowe Hospital,Mr. PN Sangweni,P/Bag 504 Eshowe 3815,"From N2 North take the Dokoweni off-ramp. Follow signs to Eshowe (30 km).  Take the second entrance to Eshowe, Kangela St. Hospital is 1,8 km from this entrance on the left hand side",Tel: (035) 473 4500,Nhlanhla.Sangweni@kznhealth.gov.za
+21,Estcourt Hospital,Mr MP Bekenya,P/Bag X7058 Estcourt 3310,"Old Main Road, Estcourt.",Tel: (036) 342 7000,thembile.hlongwa@kznhealth.gov.za Mthandazo.Bekenya@kznhealth.gov.za
+22,Fort Napier Hospital,Mr S Mthethwa,P O Box 370 Pietermaritzburg 3200,"1 Devonshire Road, Napierville PMB",Tel: (033) 260 4300,truelove.ngcobo@kznhealth.gov.za
+23,G.J. Crookes Hospital,Mrs TC Wanda,P/Bag X5501 Scottsburgh 4180,"Hospital Road, Scottburgh",Tel: (039) 978 7000,
+24,General Justice Gizenga Mpanza Regional Hospital (formerly Stanger Hospital),Dr N Vabaza,P/Bag X10609 Stanger 4450,"Cnr of King Sharka & Patterson Street, Stanger",Tel: (032) 437 6000,noxolo.vabaza@kznhealth.gov.za
+25,Grey's Hospital,Dr K Bilenge,P/Bag 9001 Pietermaritzburg 3200,"Townbush Road, PMB",Tel: (033) 897 3000,ben.bilenge@kznhealth.gov.za
+26,Greytown Hospital,Ms KJ Mngadi,P/Bag X5562 Greytown 3250,Go to Greytown and take Bell street and ask for hospital that is next to township,Tel: (033) 413 9400,khanyi.mngadi@kznhealth.gov.za
+27,Hillcrest Hospital,Mrs MM Mkhize,P/Bag X1001 Hillcrest 3650,"50 Hospital Road, Hillcrest",Tel: (031) 761 5880,thulile.gordon@kzhealth.gov.za
+28,Hlabisa Hospital,Mr S Mkhwanazi (acting CEO),P/Bag X5001 Hlabisa 3937,60 Saunders Street Hlabisa 3937,Tel: (035) 838 8600,sihle.mkhwanazi@kznhealth.gov.za
+29,Inkosi Albert Luthuli Central Hospital,Dr T.T. Khanyile,P/Bag X03 Mayville 4058,"800 Bellair Road, Cato Manor, Durban.",Tel: (031) 240 1000,thandeka.khanyile@ialch.co.za
+30,Itshelejuba Hospital ,Mrs TM Vilakazi,P/Bag X0047 Pongola 3170,"N2 North, about 30 km past Pongola and +- 70km from Piet Ritief",Tel: (034) 413 4000,thembi.vilakazi@kznhelth.gov.za
+31,King Dinuzulu Hospital Complex,Dr Z Dlamini (acting),P. O. Box Dormerton Dormerton 4015,Corner of Dr R D Naidoo drive and Viola Road  Sydenham Durban,Tel: (031) 242 6000,ruben.naidu@kznhealth.gov.za Zanele.Dlamini2@kznhealth.gov.za
+32,King Edward VIII Hospital,Dr T Mayise,P/Bag Congella Congella 4013,"Corner of Sydney and Francois Road, Congella",Tel: (031) 360 3015/4,rejoice.khuzwayo@kznhealth.gov.za /  lungile.mpanza@kznhealth.gov.za
+33,KwaMagwaza Hospital,N/A,P/Bag X808 Melmoth 3835,"KwaMagwaza Road, Melmoth",Tel:(035) 450 8200,
+34,KZN Children's Hospital,Ms N Mkhize (acting),"P/Bag X02 Point, Durban, 4069","10 Prince Street, Addington, Durban",Switchboard: 031 812 1400,nomusa.mkhize2@kznhealth.gov.za
+35,Ladysmith Hospital,Mr BL Msibi,P/Bag 9928 Ladysmith 3370,"Malcolm Road, Ladysmith",Tel: (036) 637 2111,Bhekizizwe.Msibi@kznhealth.gov.za   
+36,Madadeni Hospital,Mrs. H.S.L Khanyi,P/Bag X6642 Newcastle 2940,"Section 6, Madadeni",Tel: (034) 328 8000,Happy.Khanyi@kznhealth.gov.za
+37,Mahatma Gandhi Hospital,Mr. L S Maphumulo (Acting),P/Bag X13 Mount Edgecombe 4068,"100 Phoenix Highway, Phoenix",Tel: (031) 502 1719 ext 2149,Siboniso.maphumulo@kznhealth.gov.za
+38,Manguzi Hospital,Dr SB Vumase,P/Bag X301 Kwa-Ngwanase 3973,"N2 North, Jozini turn-off, past Pongola Dam + 30km to T-junction, right + 67km",Tel: (035) 592 0150,sipho.vumase@kznhealth.gov.za
+39,Mbongolwane Hospital,Mrs SI Mkhwanazi,P/Bag X126 Kwapett 3820,"N2 to Ulundi/Melmoth turn-off, left at Eshowe/Nkandla turn-off + 30 km to Ntumeni, left to Pett Store, turn right, +15 km to school, turn right, + 3 km",Tel: (035) 476 6242,sabastian.zungu@kznhealth.gov.za Siphesihle.Mkhwanazi@kznhealth.gov.za
+40,McCord Provincial Eye Hospital,Dr J Mannie(acting),PO Box 37587 Overport 4067,"28 McCord Road, Berea 4001",Tel: 031 268 5700,jay.mannie@kznhealth.gov.za
+41,Montebello Hospital,Mrs BR Msomi,P/Bag X506 Dalton 3236,"P614 Noordsberg Road, Dalton",Tel: (033) 506 7000, Babhekile.Msomi@kznhealth.gov.za
+42,Mosvold Hospital,Dr B Mung'omba,P/Bag X2211 Ingwavuma 3968,"N2 North, Jozini turn-off, past Pongola Dam + 30km to T-junction, left + 30km",Tel: (035) 591 0122,bernard.mungomba@kznhealth.gov.za
+43,Mseleni Hospital,Mrs TE Sibisi,P.O. Sibhaya Sibhaya 3967,"N2 North, Jozini turn-off, turn right to Ubombo before Dam, + 20 km to T-junction, left + 20 km to 2nd T-junction, left + 5 km to sign",Tel: (035) 574 1004/5/6/7,Tholithemba.Sibisi@kznhealth.gov.za
+44,Murchison Hospital,Mr RE Manykole,P/ Bag X701 Port Shepstone 4240,"N2 south to Port Shepstone THEN Mdube Bus Halt, Harding Road, Port Shepstone",Tel: (039) 687 7311,Edward.Manyokole@kznhealth.gov.za
+45,Newcastle Hospital,Mr K Dlamini,P/Bag X6653 Newcastle 2940,"4 Hospital Street, Newcastle",Tel: (034) 328 0000,khulekhani.dlamini@kznhealth.gov.za
+46,Ngwelezana Hospital,Dr BS Madlala,P/Bag X20021 Empangeni 3880,"Left at 1st robot into Ngwelezana road on Entering Empangeni, look for signboard on left and turn into Thanduyise road and continue for 500m.",Tel: (035) 901 7000,Bright.Madlala@kznhealth.gov.za
+47,Niemeyer Memorial Hospital,Dr SB Nkosi,P/Bag X1004 Utrecht 2980,"Kantoor Street, Utrecht",Tel: (034) 331 3011,nkosi.bongani@kznhealth.gov.za
+48,Nkandla Hospital,Dr. J. N. Ikwegbue,P/Bag X102 Nkandla 3855,"N2 north to Gingindlovu/Eshowe turn-off, past Eshowe and Melmoth to Babanango turn-off, turn left to Nkandla village.",Tel: (035) 833 5000,joseph.ikwegbue@kznhealth.gov.za
+49,Nkonjeni Hospital,Dr N Xhakaza (acting),P/Bag X509 Mahlabathini 3865,"Go to Ulundi , from King Dinizulu Highway go +\- 5 km's north to Nkonjeni hospital : Near Vumabakushoyo LP. School and Lutheran Church",Tel: (035) 873 0013,Nondumiso.Xhakaza@kznhealth.gov.za
+50,Northdale Hospital,Mrs BC Maphanga,P/Bag X9006 Pietermaritzburg 3200,"1389 Chota Motala Road, Northdale, PMB",Tel: (033) 387 9007/9009,buhle.maphanga@kznhealth.gov.za
+51,Osindisweni Hospital,Mr N Shabane,"P/Bag X15 Verulam, 4340","Oakford Road, Verulam",Tel: (032) 541 9200,nathi.shabane@kznhealth.gov.za 
+52,Port Shepstone Hospital,Ms BC Ndlovu,P/Bag X5706 Port Shepstone 4240,"N2 south to Port Shepstone THEN Cnr of Connor & Bazley Street, Port Shepstone",Tel: (039) 688 6000,Thembi.mkhize@kznhealth.gov.za Bawinile.ndlovu@kznhealth.gov.za
+53,Prince Mshiyeni Hospital,Mr G Khawula,P/Bag X07 Mobeni 4060,"On the Mangosutho Highway, Before Umlazi Lodge.",Tel: (031) 907 8111,pmmh.ceo@kznhealth.gov.za pmmh.ceo@kznhealth.gov.za
+54,Queen Nandi  Hospital,Dr M Sanjowan (acting),P/Bag X20005 Empangeni 3880,"29 Union Street, Empangeni. This is Empangeni Hospital",Tel: (035) 907 7000,Menitha.Samjowan@kznhealth.gov.za
+55,R. K. Khan Hospital,Mrs CNN Mkhwanazi,P/Bag X004 Chatsworth 4030,"R.K. Khan Circle, Westcliffe",Tel: (031) 459 6000,nqobile.mkhwanazi@kznhealth.gov.za
+56,Richmond Hospital,Dr M Anwar (acting),PO Box 133 Richmond 3780,"Durban road, Richmond",Tel: (033) 212 2170,mir.anwar@kznhealth.gov.za
+57,Rietvlei Hospital,Mrs N Keswa,P/Bag X501 Stafford's Post Via Port Shepstone 4686,Rietvlei Location (Emhlangeni),Tel: (039) 260 5000,nonhlanhla.keswa@kznhealth.gov.za
+58,Siloah Lutheran Mission,,Private Bag X9392 Vryheid,"Dlomodlomo road, Vryheid",Tel: (034) 907 5226,
+59,St Mary's Hospital,Mrs P Mgobozi,"Private Bag X16,","1 Hospital Rd, Mariannhill, Pinetown, 3601",Tel: (031) 717 1000,Phe.Mgobozi@kznhealth.gov.za
+60,St. Aidan's Hospital,Dr T Mayise,"Private Bag X01 Overport, 4067","33 Centenary Road, Durban",Tel:  (031) 314 2200,Thami.Mayise@kznhealth.gov.za
+61,St. Andrews Hospital,Mrs M Vane,P/Bag X1010 Harding 4680,"14 Moodie Street, Harding",Tel: (039) 433 1959 / 1472,mandisa.vane@kznhealth.gov.za
+62,St. Apollinaris Hospital,Mrs NPP Hadebe,P/Bag 206 Creighton 3263,"Centow Mission, Centocow",Tel: (039) 833 8000,promise.chiya@kznhealth.gov.za
+63,St. Francis Hospital,Ms P Msane (acting),P/Bag X564 Mahlabathini 3865,"Go to Ulundi , from King Dinizulu Highway go +\- 7 km's north east to St. Francis hospital :Near St Francis Mission",Tel: (035) 873 0203/4/5,phumzile.msane@kznhealth.gov.za
+64,St. Margaret's Hospital,Dr BP Sosibo,"P/Bag X517, Umzimhulu, 3297","Clydesdale mission, Umzimkhulu",Tel: (039) 259 9222,Bongiwe.Sosibo@kznhealth.gov.za
+65,Thulasizwe Hospital,Dr OE Ngam (acting),P/ Bag 209 Ceza 3866,"Go to Ulundi , from King Dinizulu Highway go +\- 20 km's north to Ceza hospital : THEN +\- 5km's north to Thulasizwe Hospital ,near Thandaziphi Store",Tel: (035) 832 6000,eric.ngam@kznhealth.gov.za
+66,Town Hill Hospital,Mr NR Hadebe,P. O. Box 400 Pietermaritzburg 3200," Hysslop Road, PMB",Tel: (033) 341 5500,Reginald.Hadebe@kznhealth.gov.za
+67,Umgeni Hospital,Miss NE Ndlovu,P/Bag X23 Howick 3290,"Main Road, Howick",Tel: (033) 330 6146,mpume.ndlovu@kznhealth.gov.za mark.green@kznhealth.gov.za
+68,Umphumulo Hospital,Dr MJ Zulu,P/Bag X9219 Maphumulo 4470,"N2 North, Stanger turn-off, continue + 45 km to Maphumulu, look for hospital sign.",Tel: (032) 481 4100,leonard.vundla@kznhealth.gov.za mandla.zulu@kznhealth.gov.za
+69,Umzimkhulu Hospital,Mr ML Mbewu,P/Bag x 514 Umzimkhulu 3297,Mbizweni Farm Umzimkhulu,Tel: (039) 259 0310,Khaya.Mbewu@kznhealth.gov.za
+70,Untunjambili Hospital,Mrs CN Ndadane,P/ Bag X216 Kranskop 3268,"Along Kranskop way. From N2 take R74 off-ramp, go through Stanger on R74 pass Mapumulo, after 23km see Kranskop sign, turn right.  Pass through small Kranskop town after 10km sign Untunjambili Hospital. Turn right after 2km see hospital on your right.",Tel: (033) 444 1808 / 1707,nontobeko.ndadane@kznhealth.gov.za
+71,Vryheid Hospital,Ms NF Ngema,P/Bag X9371 Vryheid 3100,"Coswald Brown Street, Vryheid",Tel: (034) 982 2111,
+72,Wentworth Hospital  ,Dr S Kader,P/Bag Jacobs Jacobs 4026,"Sidmouth Avenue, Wentworth",Tel: (031) 460 5000 / 2000, suriya.kader@kznhealth.gov.za@kznhealth.gov.za
