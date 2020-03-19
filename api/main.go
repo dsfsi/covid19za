@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"github.com/dsfsi/covid19za/api/controllers"
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"
@@ -10,7 +9,7 @@ import (
 	"os"
 )
 
-func main()  {
+func main() {
 	api := echo.New()
 	api.Use(middleware.Logger())
 	api.Use(middleware.Recover())
@@ -35,7 +34,7 @@ func main()  {
 func determineListenAddress() (string, error) {
 	port := os.Getenv("PORT")
 	if port == "" {
-		return "", fmt.Errorf("$PORT not set")
+		return ":5000" + port, nil
 	}
 	return ":" + port, nil
 }
