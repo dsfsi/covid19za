@@ -25,7 +25,7 @@ func Init(args []string) {
 }
 
 func invalidArgs() {
-	log.Fatal("[ERROR] Invalid argument\noptions:\n\tnicd - " + NEWSROOM + "\n\tsacovid - " + ALTERNATE)
+	log.Fatal("[ERROR] Invalid argument\noptions:\n\tnicd - " + NEWSROOM + "\n\tcov - " + ALTERNATE)
 }
 
 func parse(opt string) {
