@@ -15,8 +15,18 @@ go go run main.go
 
 ## API
 
+The hosted API can be found on [https://covid-za-api.herokuapp.com](https://covid-za-api.herokuapp.com).
+
 #### /cases/confirmed
 * `GET` : Get all confirmed cases
+
+### Example Usage
+
+You can get the confirmed cases by performing a `GET` request to:
+
+```
+https://covid-za-api.herokuapp.com/cases/confirmed
+```
 
 ## Todo
 
