@@ -20,7 +20,13 @@ See [LICENSE](LICENSE.md)
 * 19-03-2020 - http://www.nicd.ac.za/covid-19-update-21/
 * 20-03-2020 - http://www.nicd.ac.za/covid-19-update-22/
 
-
 ### Testing
 * NICD Inforgraphics from their Twitter Account
 * NICD Technical reports http://www.nicd.ac.za/diseases-a-z-index/covid-19/covid-19-situational-reports/
+
+## Data Sources with descriptions
+
+* The National Department of Health Data Dictionary [URL](https://dd.dhmis.org/) - For all the information about healthcare facilites in South Africa. To get the data; Choose Data Dictionary > Data File > NIDS integrated > Groups > All Groups > Download > Org Unit Level > Down to Level 5 and then click submit.
+* Medpages[URL](https://www.medpages.info/sf/index.php?page=homepage) - For confirmation on names of private hospitals
+* Statistics of South Africa [URL](http://www.statssa.gov.za/) - For Estimates of population per distriction from 2002 -2021. Raw Data here[URL](https://github.com/elolelo/DataProject/blob/master/za_PopEstimates_Districts_StatsSA_WithFinYears_Jan17_coded.csv)
+ 
