@@ -2,10 +2,13 @@
 
 COVID 19 Data for South Africa created, maintained and hosted by [DSFSI research group](https://dsfsi.github.io/) at the University of Pretoria
 
+**Disclaimer:** We have worked to keep the data as accurate as possible. We collate the COVID 19 reporting data from NICD and DoH. We only update that data once there is an official report or statement. For the other data, we work to keep the data as accurate as possible. If you find errors. Make a pull request.
+
+See our [blog post](https://dsfsi.github.io/blog/covid19za-dashboard/) on why we built this and how we are working.
+
 ## Licenses
 
 Code [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  | Data [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-
 
 ## Data Available [[/data](/data)]
 
@@ -23,7 +26,16 @@ Code [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](http
 * NICD - South Africa [URL](http://www.nicd.ac.za/media/alerts/)
 * Department of Health - South Africa [Main Site](http://www.health.gov.za/), [Twitter](https://twitter.com/HealthZA/)
 * South African Government Media Statements [URL](https://www.gov.za/media-statements)
+* National Department of Health Data Dictionary [URL](https://dd.dhmis.org/)
+* MedPages[URL](https://www.medpages.info/sf/index.php?page=homepage)
+* Statistics South Africa[URL](http://www.statssa.gov.za/)
 
+## Contributing
+### Options
+* *I want to help, but dont have an idea:* You can take a look at the issues to see which one you might be interested in tackling.
+* *I have an idea or new feature:* Create a new issue first, assign it to yourself and then fork the repo. 
+### Submitting Changes [Pull Request]
+* See https://opensource.com/article/19/7/create-pull-request-github
 ## Contributors
 * See https://github.com/dsfsi/covid19za/graphs/contributors
 

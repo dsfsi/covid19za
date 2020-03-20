@@ -1,419 +1,352 @@
-hospital_id,hospital_name,longitude,latitude,province,district,subdistrict,district_estimated_population
-1,Addington Hospital,31.042291,-29.8616,ZA-KZN,,,
-2,Appelsbosch Hospital ,30.842696,-29.3898,ZA-KZN,,,
-3,Benedictine Hospital,31.639325,-27.891,ZA-KZN,,,
-4,Bethesda Hospital,32.082098,-27.5741,ZA-KZN,,,
-5,Catherine Booth Hospital ,31.474714,-28.9976,ZA-KZN,,,
-6,Ceza Hospital,31.377188,-27.996,ZA-KZN,,,
-7,Charles James TB Hospital,30.885394,-30.017,ZA-KZN,,,
-8,Charles Johnson Memorial Hospital,30.672921,-28.2119,ZA-KZN,,,
-9,Christ the King Hospital,30.077931,-30.1627,ZA-KZN,,,
-10,Church of Scotland Hospital ,30.450917,-28.7476,ZA-KZN,,,
-11,Clairwood Hospital,30.956778,-29.9357,ZA-KZN,,,
-12,Don McKenzie TB Hospital,30.739534,-29.7382,ZA-KZN,,,
-13,Doris Goodwin TB Hospital,30.336538,-29.6488,ZA-KZN,,,
-14,Dundee hospital,30.22974,-28.1729,ZA-KZN,,,
-15,E.G & Usher Memorial hospital,29.415438,-30.5458,ZA-KZN,,,
-16,Edendale Hospital,30.331778,-29.647598,ZA-KZN,,,
-17,Ekombe Hospital,30.893212,-28.6413,ZA-KZN,,,
-18,Ekuhlengeni Psychiatric Hospital,30.902844,-30.0071,ZA-KZN,,,
-19,Emmaus Hospital,29.381335,-28.8524,ZA-KZN,,,
-20,Eshowe Hospital,31.466456,-28.891,ZA-KZN,,,
-21,Estcourt Hospital,29.893932,-29.0205,ZA-KZN,,,
-22,Fort Napier Hospital,30.368942,-29.6138,ZA-KZN,,,
-23,G.J. Crookes Hospital,30.74487,-30.2882,ZA-KZN,,,
-24,General Justice Gizenga Mpanza Regional Hospital (formerly Stanger Hospital),31.284798,-29.335263,ZA-KZN,,,
-25,Grey's Hospital,30.363784,-29.5796,ZA-KZN,,,
-26,Greytown TB Hospital,30.600049,-29.0657,ZA-KZN,,,
-27,Hillcrest Hospital,30.761508,-29.7894,ZA-KZN,,,
-28,Hlabisa Hospital,31.880697,-28.1455,ZA-KZN,,,
-29,Inkosi Albert Luthuli Central Hospital,30.958756,-29.8739,ZA-KZN,,,
-30,Itshelejuba Hospital ,31.347971,-27.2774,ZA-KZN,,,
-31,King Dinuzulu Hospital Complex,30.987036,-29.8235,ZA-KZN,,,
-32,King Edward VIII Hospital,30.989507,-29.8822,ZA-KZN,,,
-33,KwaMagwaza Hospital,31.34105,-28.6293,ZA-KZN,,,
-34,KZN Children's Hospital,31.042836,-29.8666,ZA-KZN,,,
-35,Ladysmith Hospital,29.764492,-28.556894,ZA-KZN,,,
-36,Madadeni Hospital,30.0508,-27.7635,ZA-KZN,,,
-37,Mahatma Gandhi  Memorial Hospital,31.028852,-29.7183,ZA-KZN,,,
-38,Manguzi Hospital,32.756375,-26.984,ZA-KZN,,,
-39,Mbongolwane Hospital,31.195414,-28.9354,ZA-KZN,,,
-40,McCord Provincial Eye Hospital,30.996943,-29.8382,ZA-KZN,,,
-41,Montebello Hospital,30.807162,-29.4394,ZA-KZN,,,
-42,Mosvold Hospital,32.004746,-27.1383,ZA-KZN,,,
-43,Mseleni Hospital,32.556644,-27.3256,ZA-KZN,,,
-44,Murchison Hospital,30.344023,-30.728,ZA-KZN,,,
-45,Newcastle Hospital,29.935643,-27.7631,ZA-KZN,,,
-46,Ngwelezana Hospital,31.864116,-28.7795,ZA-KZN,,,
-47,Niemeyer Memorial Hospital,30.0712,-27.6519,ZA-KZN,,,
-48,Nkandla Hospital,31.086834,-28.6245,ZA-KZN,,,
-49,Nkonjeni Hospital,31.41477,-28.2266,ZA-KZN,,,
-50,Northdale Hospital,30.402653,-29.5756,ZA-KZN,,,
-51,Osindisweni Hospital,30.983202,-29.6082,ZA-KZN,,,
-52,Port Shepstone Hospital,30.450062,-30.74076,ZA-KZN,,,
-53,Prince Mshiyeni Memorial Hospital,30.936625,-29.9548,ZA-KZN,,,
-54,Queen Nandi  Regional Hospital,31.896367,-28.740047,ZA-KZN,,,
-55,R. K. Khan Hospital,30.886237,-29.9151,ZA-KZN,,,
-56,Richmond Chest Hospital,30.275817,-29.8645,ZA-KZN,,,
-57,Rietvlei Hospital,29.82481,-30.4878,ZA-KZN,,,
-58,Siloah Lutheran Mission,31.510095,-27.7402,ZA-KZN,,,
-59,St. Mary's Hospital,30.826015,-29.8469,ZA-KZN,,,
-60,St. Aidan's Hospital,31.011035,-29.8507,ZA-KZN,,,
-61,St. Andrews Hospital,29.889283,-30.5755,ZA-KZN,,,
-62,St. Apollinaris Hospital,29.72575,-30.0165,ZA-KZN,,,
-63,St. Francis Hospital,31.476734,-28.2246,ZA-KZN,,,
-64,St. Margaret's Hospital,29.93276,-30.2692,ZA-KZN,,,
-65,Thulasizwe Hospital,31.367857,-27.9526,ZA-KZN,,,
-66,Town Hill Hospital,30.370843,-29.58792,ZA-KZN,,,
-67,Umgeni Waterfall Hospital,30.232779,-29.5008,ZA-KZN,,,
-68,Umphumulo Hospital,31.04259,-29.1425,ZA-KZN,,,
-69,Umzimkhulu Hospital,29.92602,-30.2553,ZA-KZN,,,
-70,Untunjambili Hospital,30.94846,-28.942,ZA-KZN,,,
-71,Vryheid Hospital,30.797088,-27.7583,ZA-KZN,,,
-72,Wentworth Hospital  ,30.989162,-29.9329,ZA-KZN,,,
-73,Amatikulu Chronic Sick Home Hospital,31.56957,-29.125,ZA-KZN,,,
-74,Oral and Dental Training hospital,30.98431,-29.8261,ZA-KZN,,,
-75,Umgeni Waterfall Institute hospital,30.232779,-29.5008,ZA-KZN,,,
-76,Townhill  hospital,30.366437,-29.5874,ZA-KZN,,,
-77,Mountain View Hospital,31.425381,-27.7813,ZA-KZN,,,
-78,Dunstan Farrell TB Hospital,30.512498,-30.5357,ZA-KZN,,,
-79,FOSA TB Hospital,30.968573,-29.7859,ZA-KZN,,,
-80,Tower Hospital,26.63678,-32.7702,ZA-EC,,,
-81,Komani Hospital,26.907204,-31.9171,ZA-EC,,,
-82,Elizabeth Donkin Hospital,25.62671,-33.9797,ZA-EC,,,
-83,Fort England Hospital,26.54361,-33.3156,ZA-EC,,,
-84,T Bequest Hospital (Mat),28.80195,-30.3327,ZA-EC,,,
-85,Greenville Hospital,30.108882,-30.9316,ZA-EC,,,
-86,St Patrick's Hospital,29.85162,-30.8654,ZA-EC,,,
-87,Sipetu Hospital,29.18731,-31.0917,ZA-EC,,,
-88,Madzikane Hospital,28.99562,-30.9009,ZA-EC,,,
-89,Mt Ayliff Hospital,29.3596,-30.8052,ZA-EC,,,
-90,Cathcart Hospital,27.13691,-32.2902,ZA-EC,,,
-91,SS Gida Hospital,27.1435,-32.6745,ZA-EC,,,
-92,Stutterheim Hospital,27.419427,-32.5713,ZA-EC,,,
-93,Komga Hospital,27.89576,-32.576,ZA-EC,,,
-94,Madwaleni Hospital,28.87875,-32.0958,ZA-EC,,,
-95,Butterworth Hospital,28.13877,-32.3323,ZA-EC,,,
-96,Tafalofefe Hospital,28.51829,-32.4102,ZA-EC,,,
-97,Nompumelelo Hospital,27.13244,-33.2092,ZA-EC,,,
-98,Adelaide Hospital,26.29427,-32.7009,ZA-EC,,,
-99,Bedford Hospital,26.083139,-32.6762,ZA-EC,,,
-100,Fort Beaufort Hospital,26.633571,-32.7802,ZA-EC,,,
-101,Victoria Hospital,26.84678,-32.7752,ZA-EC,,,
-102,Bhisho Hospital,27.45516,-32.8277,ZA-EC,,,
-103,Grey Hospital,27.39579,-32.8793,ZA-EC,,,
-104,Dordrecht Hospital,27.045615,-31.3913,ZA-EC,,,
-105,Glen Grey Hospital,27.19939,-31.7199,ZA-EC,,,
-106,Indwe Hospital,27.34042,-31.4683,ZA-EC,,,
-107,All Saints Hospital,28.05041,-31.6619,ZA-EC,,,
-108,Mjanyana Hospital,28.1038,-31.836,ZA-EC,,,
-109,Hewu Hospital,26.80522,-32.1727,ZA-EC,,,
-110,M Venter Hospital,26.25884,-32.0089,ZA-EC,,,
-111,Molteno Hospital,26.3555,-31.3916,ZA-EC,,,
-112,Sterkstroom Hospital,26.55338,-31.5531,ZA-EC,,,
-113,Cofimvaba Hospital,27.58348,-32.0119,ZA-EC,,,
-114,Cradock Hospital,25.62243,-32.1673,ZA-EC,,,
-115,W Stahl Hospital,24.99351,-31.4917,ZA-EC,,,
-116,Cala Hospital,27.68274,-31.5223,ZA-EC,,,
-117,Elliot Hospital,27.83797,-31.3371,ZA-EC,,,
-118,Maclear Hospital,28.34775,-31.0759,ZA-EC,,,
-119,T Bequest Hospital (Elu),28.50961,-30.6894,ZA-EC,,,
-120,Cloete Joubert Hospital,27.58507,-30.9676,ZA-EC,,,
-121,Empilisweni Hospital,27.35337,-30.5332,ZA-EC,,,
-122,L Grey Hospital,27.21188,-30.7128,ZA-EC,,,
-123,Umlamli Hospital,27.47457,-30.5604,ZA-EC,,,
-124,Aliwal North Hospital,26.70719,-30.6969,ZA-EC,,,
-125,Burgersdorp Hospital,26.31398,-30.9935,ZA-EC,,,
-126,Jamestown Hospital,26.8074,-31.1236,ZA-EC,,,
-127,Steynsburg Hospital,25.813211,-31.2932,ZA-EC,,,
-128,St Francis Hospital,26.69921,-30.6887,ZA-EC,,,
-129,Uitenhage Hospital,25.40679,-33.7415,ZA-EC,,,
-130,Holy Cross Hospital,29.49531,-31.0812,ZA-EC,,,
-131,Zitulele Hospital,29.09162,-32.0505,ZA-EC,,,
-132,Dr Malizo Mpehle Hospital,28.778056,-31.3165,ZA-EC,,,
-133,N Knight Hospital,28.68223,-31.0091,ZA-EC,,,
-134,St Lucy's Hospital,28.62983,-31.3007,ZA-EC,,,
-135,Canzibe Hospital,29.06588,-31.8088,ZA-EC,,,
-136,St Barnabas Hospital,29.11617,-31.5642,ZA-EC,,,
-137,Bambisana Hospital,29.45397,-31.4501,ZA-EC,,,
-138,Isilimela Hospital,29.35888,-31.7342,ZA-EC,,,
-139,Andries Vosloo Hospital,25.59525,-32.7218,ZA-EC,,,
-140,Aberdeen Hospital,24.06093,-32.4862,ZA-EC,,,
-141,Midland Hospital,24.53619,-32.2608,ZA-EC,,,
-142,Sawas Hospital,24.66203,-32.9422,ZA-EC,,,
-143,Willowmore Hospital,23.46757,-33.3004,ZA-EC,,,
-144,Humansdorp Hospital,24.78144,-34.0302,ZA-EC,,,
-145,BJ Vorster Hospital,24.29786,-33.9515,ZA-EC,,,
-146,Settlers Hospital,26.51464,-33.3024,ZA-EC,,,
-147,P Alfred Hospital,26.88312,-33.5953,ZA-EC,,,
-148,Sundays Valley Hospital,25.44001,-33.3947,ZA-EC,,,
-149,Mandela Acad Hospital,28.764234,-31.5881,ZA-EC,,,
-150,Frere Hospital,27.89156,-32.9959,ZA-EC,,,
-151,Livingstone Hospital,25.57074,-33.9251,ZA-EC,,,
-152,PE Prov Hospital,25.59982,-33.9584,ZA-EC,,,
-153,Newhaven Hospital,27.90592,-32.9828,ZA-EC,,,
-154,Bedford Orth Hospital,28.70717,-31.576,ZA-EC,,,
-155,Tower Hospital,26.63678,-32.7702,ZA-EC,,,
-156,Komani Hospital,26.907204,-31.9171,ZA-EC,,,
-157,Elizabeth Donkin Hospital,25.62671,-33.9797,ZA-EC,,,
-158,Fort England Hospital,26.54361,-33.3156,ZA-EC,,,
-159,C Makiwane Hospital,27.74422,-32.9278,ZA-EC,,,
-160,Frontier Hospital,26.871347,-31.8892,ZA-EC,,,
-161,Dora Nginza Hospital,25.563114,-33.8825,ZA-EC,,,
-162,St Elizabeth's Hospital,29.56532,-31.3598,ZA-EC,,,
-163,Mthatha Gen Hospital,28.76593,-31.5903,ZA-EC,,,
-164,Khotsong TB Hospital,28.82118,-30.3481,ZA-EC,,,
-165,Winterberg TB Hospital,26.656323,-32.7793,ZA-EC,,,
-166,Fort Grey TB Hospital,27.82122,-33.022,ZA-EC,,,
-167,Nkqubela Hospital,27.74088,-32.9328,ZA-EC,,,
-168,J Pearson TB Hospital,25.46905,-33.8919,ZA-EC,,,
-169,Orsmond TB Hospital,25.38002,-33.7474,ZA-EC,,,
-170,Empilweni TB Hospital,25.58545,-33.9086,ZA-EC,,,
-171,Mthatha Chest Hospital,28.76497,-31.5911,ZA-EC,,,
-172,M Parkes TB Hospital,24.55619,-32.2678,ZA-EC,,,
-173,PZ Meyer Hospital,24.75869,-34.0225,ZA-EC,,,
-174,Temba TB Hospital,26.54657,-33.3069,ZA-EC,,,
-175,M Parrish TB Hospital,26.88126,-33.5624,ZA-EC,,,
-176,Kopano MDR Hospitalital,26.709616,-27.980828,ZA-FS,,,
-177,Free State Psyc Comp Hospital,26.209264,-29.1338,ZA-FS,,,
-178,Mafube Hospital,28.50023,-27.2788,ZA-FS,,,
-179,Fezi Ngumbentombi Hospital,27.82757,-26.8014,ZA-FS,,,
-180,Parys Hospital,27.47207,-26.8959,ZA-FS,,,
-181,Tokollo Hospital,27.96168,-27.2891,ZA-FS,,,
-182,Winburg Hospital,27.00802,-28.5098,ZA-FS,,,
-183,Katleho Hospital,26.85798,-28.1105,ZA-FS,,,
-184,Thusanong Hospital,26.65922,-27.8773,ZA-FS,,,
-185,Nala Hospital,26.61783,-27.3946,ZA-FS,,,
-186,Mohau Hospital,25.91538,-27.8323,ZA-FS,,,
-187,National Dis Hospital,26.2064,-29.127,ZA-FS,,,
-188,Botshabelo Hospital,26.71572,-29.2325,ZA-FS,,,
-189,Dr JS Moroka Hospital,26.83468,-29.2045,ZA-FS,,,
-190,Phekolong Hospital,28.32645,-28.2176,ZA-FS,,,
-191,Elizabeth Ross Hospital,28.81755,-28.589,ZA-FS,,,
-192,Thebe Hospital,29.13805,-28.2722,ZA-FS,,,
-193,Senorita Ntlabathi Hospital,27.44807,-29.2029,ZA-FS,,,
-194,Nketoana Hospital,28.41893,-27.8028,ZA-FS,,,
-195,Phumelela Hospital,29.15583,-27.4335,ZA-FS,,,
-196,Itemoheng Hospital,27.60552,-28.3274,ZA-FS,,,
-197,JD Newberry Hospital,27.57423,-28.91,ZA-FS,,,
-198,Phuthuloha Hospital,27.87202,-28.8813,ZA-FS,,,
-199,Albert Nzula Dist Hospital,25.789656,-30.0348,ZA-FS,,,
-200,Diamond (Diamant) Hospital,25.42315,-29.7603,ZA-FS,,,
-201,Embekweni Hospital,27.07542,-30.2921,ZA-FS,,,
-202,S Coetzee Hospital,26.52442,-30.2177,ZA-FS,,,
-203,SAMHS 3 Mil Hospital,26.193444,-29.0944,ZA-FS,,,
-204,Universitas (C) Hospital,26.18432,-29.118,ZA-FS,,,
-205,Pelonomi Hospital,26.24572,-29.1413,ZA-FS,,,
-206,Boitumelo Hospital,27.213172,-27.644,ZA-FS,,,
-207,Bongani Hospital,26.7862,-27.9531,ZA-FS,,,
-208,Dihlabeng Hospital,28.3197,-28.2331,ZA-FS,,,
-209,MM Mopeli Hospital,28.80507,-28.537,ZA-FS,,,
-210,Bheki Mlangeni Dist Hospital,27.856929,-26.2478,ZA-GP,,,
-211,South Rand Hospital,28.06211,-26.2529,ZA-GP,,,
-212,Odi Hospital,28.02248,-25.5184,ZA-GP,,,
-213,Jubilee Hospital,28.26582,-25.403,ZA-GP,,,
-214,Pretoria West Hospital,28.13962,-25.7365,ZA-GP,,,
-215,Tshwane Dist Hospital,28.202561,-25.7327,ZA-GP,,,
-216,Bronkhorstspruit Hospital,28.716892,-25.8033,ZA-GP,,,
-217,Bertha Gxowa Hospital,28.16305,-26.2197,ZA-GP,,,
-218,Kopanong Hospital,27.93328,-26.614048,ZA-GP,,,
-219,Heidelberg Hospital,28.35131,-26.5036,ZA-GP,,,
-220,Carletonville Hospital,27.39446,-26.347,ZA-GP,,,
-221,Dr Y Dadoo Hospital,27.78386,-26.0996,ZA-GP,,,
-222,Chris Hani Hospital,27.93799,-26.26,ZA-GP,,,
-223,Charlotte Maxeke Hospital,28.04691,-26.174,ZA-GP,,,
-224,Dr G Mukhari Hospital,28.01216,-25.619,ZA-GP,,,
-225,Steve Biko Academic Hospital,28.202561,-25.7295,ZA-GP,,,
-226,C Hurwitz TB Hospital,27.94666,-26.2611,ZA-GP,,,
-227,Tshepong TB Hospital,28.09372,-25.7638,ZA-GP,,,
-228,East Rand TB Hospital,28.41141,-26.188,ZA-GP,,,
-229,Knights Chest Hospital,28.19389,-26.1933,ZA-GP,,,
-230,Sizwe Tropical Hospital,28.124964,-26.1374,ZA-GP,,,
-231,Tshwane Rehab Hospital,28.200872,-25.734,ZA-GP,,,
-232,Cullinan Rehab Hospital,28.53852,-25.691,ZA-GP,,,
-233,Rahima Moosa Hospital,27.97329,-26.1882,ZA-GP,,,
-234,Edenvale Hospital,28.129419,-26.1283,ZA-GP,,,
-235,Mamelodi Hospital,28.36788,-25.7186,ZA-GP,,,
-236,Pholosong Hospital,28.37705,-26.3398,ZA-GP,,,
-237,Far East Rand Hospital,28.40367,-26.2354,ZA-GP,,,
-238,Tambo Memorial Hospital,28.24449,-26.2184,ZA-GP,,,
-239,Thelle Mogoerane Reg Hospital,28.224311,-26.3569,ZA-GP,,,
-240,Sebokeng Hospital,27.84622,-26.6061,ZA-GP,,,
-241,Leratong Hospital,27.80774,-26.1713,ZA-GP,,,
-242,Helen Joseph Hospital,27.9901,-26.1839,ZA-GP,,,
-243,Kalafong Hospital,28.08948,-25.7627,ZA-GP,,,
-244,Tembisa Hospital,28.23756,-25.9828,ZA-GP,,,
-245,Tara H Moross Centre Hospital,28.036464,-26.1087,ZA-GP,,,
-246,Weskoppies Hospital,28.16057,-25.7638,ZA-GP,,,
-247,Sterkfontein Hospital,27.747403,-26.0581,ZA-GP,,,
-248,Helene Franz Hospital,29.11313,-23.2838,ZA-LP,,,
-249,Dr Machupe Mem Hospital,29.335,-24.3125,ZA-LP,,,
-250,Lebowakgomo Hospital,29.5285,-24.2956,ZA-LP,,,
-251,Zebediela Hospital,29.40445,-24.4818,ZA-LP,,,
-252,Botlokwa Hospital,29.74272,-23.4923,ZA-LP,,,
-253,Seshego Hospital,29.396878,-23.8548,ZA-LP,,,
-254,St Joseph's Hospital,29.453,-23.893,ZA-LP,,,
-255,WF Knobel Hospital,29.12057,-23.634,ZA-LP,,,
-256,ML Malatjie Hospital,31.03717,-23.9253,ZA-LP,,,
-257,Nkhensani Hospital,30.69215,-23.3125,ZA-LP,,,
-258,Kgapane Hospital,30.21861,-23.6477,ZA-LP,,,
-259,Dr CN Phatudi Hospital,30.28098,-24.0265,ZA-LP,,,
-260,Van Velden Mem Hospital,30.16427,-23.8345,ZA-LP,,,
-261,Sekororo Hospital,30.44767,-24.2515,ZA-LP,,,
-262,Groblersdal Hospital,29.40387,-25.1762,ZA-LP,,,
-263,Matlala Hospital,29.50233,-24.8321,ZA-LP,,,
-264,Dilokong Hospital,30.17051,-24.6141,ZA-LP,,,
-265,Mecklenburg Hospital,30.072501,-24.3853,ZA-LP,,,
-266,Jane Furse Hospital,29.86767,-24.7638,ZA-LP,,,
-267,Malamulele Hospital,30.69669,-22.9969,ZA-LP,,,
-268,Elim Hospital,30.05617,-23.154,ZA-LP,,,
-269,L Trichardt Hospital,29.90614,-23.0291,ZA-LP,,,
-270,Siloam Hospital,30.19422,-22.8994,ZA-LP,,,
-271,Messina Hospital,30.04285,-22.3416,ZA-LP,,,
-272,D Fraser Hospital,30.479815,-22.8886,ZA-LP,,,
-273,Warmbaths Hospital,28.28873,-24.8859,ZA-LP,,,
-274,Ellisras Hospital,27.70333,-23.678,ZA-LP,,,
-275,Witpoort Hospital,28.01118,-23.3344,ZA-LP,,,
-276,G Masebe Hospital,28.692892,-23.8753,ZA-LP,,,
-277,Voortrekker Hospital,29.01405,-24.1962,ZA-LP,,,
-278,FH Odendaal Hospital,28.42212,-24.7014,ZA-LP,,,
-279,Thabazimbi Hospital,27.4069,-24.5987,ZA-LP,,,
-280,FH O MDR Hospital,28.39456,-24.7077,ZA-LP,,,
-281,Thabamoopo Hospital,29.54406,-24.3032,ZA-LP,,,
-282,Evuxakeni Hospital,30.72358,-23.3222,ZA-LP,,,
-283,Hayani Hospital,30.48536,-22.9409,ZA-LP,,,
-284,Letaba Hospital,30.26933,-23.8741,ZA-LP,,,
-285,Philadelphia Hospital,29.144713,-25.2581,ZA-LP,,,
-286,St Rita's Hospital,29.80403,-24.8446,ZA-LP,,,
-287,Tshilidzini Hospital,30.41415,-22.9947,ZA-LP,,,
-288,Mokopane Hospital,28.989183,-24.1553,ZA-LP,,,
-289,Mankweng Hospital,29.725885,-23.8808,ZA-LP,,,
-290,Pietersburg Hospital,29.456908,-23.8958,ZA-LP,,,
-291,Matikwana Hosp,31.23628,-24.9876,ZA-MP,,,
-292,Tintswalo Hosp,31.05983,-24.5918,ZA-MP,,,
-293,Barberton Hosp,31.04189,-25.7814,ZA-MP,,,
-294,Shongwe Hosp,31.490584,-25.6851,ZA-MP,,,
-295,Tonga Hosp,31.7881,-25.6947,ZA-MP,,,
-296,Lydenburg Hosp,30.4514,-25.1085,ZA-MP,,,
-297,Matibidi Hosp,30.7696,-24.5884,ZA-MP,,,
-298,Sabie Hosp,30.782,-25.0926,ZA-MP,,,
-299,Carolina Hosp,30.11237,-26.0758,ZA-MP,,,
-300,Embuleni Hosp,30.814586,-26.0481,ZA-MP,,,
-301,Amajuba Mem Hosp,29.89128,-27.3525,ZA-MP,,,
-302,Elsie Ballot Hosp,29.86146,-27.0107,ZA-MP,,,
-303,Bethal Hosp,29.46735,-26.4646,ZA-MP,,,
-304,Evander Hosp,29.118658,-26.4673,ZA-MP,,,
-305,Standerton Hosp,29.244242,-26.94,ZA-MP,,,
-306,Piet Retief Hosp,30.80625,-27.0188,ZA-MP,,,
-307,Mmametlhake Hosp,28.55872,-25.1046,ZA-MP,,,
-308,HA Grove Hosp,30.04431,-25.6964,ZA-MP,,,
-309,Waterval Boven Hosp,30.33855,-25.6479,ZA-MP,,,
-310,Impungwe Hosp,29.25281,-25.8727,ZA-MP,,,
-311,Middelburg Hosp,29.45133,-25.7741,ZA-MP,,,
-312,KwaMhlanga Hosp,28.70415,-25.418,ZA-MP,,,
-313,B Samuels Hosp,28.66699,-26.1521,ZA-MP,,,
-314,Rob Ferreira Hosp,30.97111,-25.4755,ZA-MP,,,
-315,Witbank Hosp,29.226596,-25.8756,ZA-MP,,,
-316,Mapulaneng Hosp,31.06531,-24.8497,ZA-MP,,,
-317,Themba Hosp,31.1228,-25.3452,ZA-MP,,,
-318,Ermelo Hosp,29.97522,-26.5231,ZA-MP,,,
-319,Barberton TB Hosp,31.02869,-25.7801,ZA-MP,,,
-320,Bongani TB Hosp,31.12695,-25.089,ZA-MP,,,
-321,Standerton Spec TB Hosp,29.24255,-26.9389,ZA-MP,,,
-322,Sesifuba TB Hosp,29.97775,-26.5202,ZA-MP,,,
-323,Witbank Special TB Hosp,29.16725,-25.8667,ZA-MP,,,
-324,Koster Hosp,26.894543,-25.8563,ZA-NW,,,
-325,Brits Hosp,27.78452,-25.6314,ZA-NW,,,
-326,M Kotane Hosp,27.058001,-25.3809,ZA-NW,,,
-327,Nic Bodenstein Hosp,25.982959,-27.1893,ZA-NW,,,
-328,Taung Hosp,24.79175,-27.5377,ZA-NW,,,
-329,Ganyesa Hosp,24.13858,-26.5449,ZA-NW,,,
-330,Christiana Hosp,25.174237,-27.9081,ZA-NW,,,
-331,Schweizer-Ren Hosp,25.32879,-27.1818,ZA-NW,,,
-332,Genl de la Rey Hosp,26.15132,-26.1475,ZA-NW,,,
-333,Thusong Hosp,25.948932,-26.0546,ZA-NW,,,
-334,Gelukspan Hosp,25.598981,-26.199,ZA-NW,,,
-335,Lehurutshe Hosp,25.981507,-25.4767,ZA-NW,,,
-336,Zeerust Hosp,26.06647,-25.5428,ZA-NW,,,
-337,Witrand Psych Hosp,27.09142,-26.7139,ZA-NW,,,
-338,Bophelong Psych Hosp,25.65407,-25.8837,ZA-NW,,,
-339,Potchefstroom Hosp,27.08418,-26.7286,ZA-NW,,,
-340,J Morolong Mem Hosp,24.71612,-26.9572,ZA-NW,,,
-341,Mahikeng Prov Hosp,25.65794,-25.8842,ZA-NW,,,
-342,Prof ZK Matthews Hosp,24.51488,-28.54,ZA-NC,,,
-343,Hartswater Hosp,24.81333,-27.7576,ZA-NC,,,
-344,Kuruman Hosp,23.443659,-27.4602,ZA-NC,,,
-345,Tshwaragano Hosp,23.34494,-27.3067,ZA-NC,,,
-346,Calvinia Hosp,19.77654,-31.4618,ZA-NC,,,
-347,Springbok Hosp,17.88323,-29.6605,ZA-NC,,,
-348,De Aar Hosp,24.00825,-30.6596,ZA-NC,,,
-349,Prieska Hosp,22.73732,-29.6681,ZA-NC,,,
-350,Manne Dipico Hosp,25.08956,-30.73,ZA-NC,,,
-351,Kakamas Hosp,20.62249,-28.7805,ZA-NC,,,
-352,Postmasburg Hosp,23.06008,-28.3276,ZA-NC,,,
-353,RM Sobukwe Hosp,24.77263,-28.746,ZA-NC,,,
-354,Harry Surtie Hosp,21.26603,-28.446,ZA-NC,,,
-355,West End Spec TB Hosp,24.77374,-28.8067,ZA-NC,,,
-356,Upington TB Hosp,21.26603,-28.446,ZA-NC,,,
-357,Upington TB Hosp (Paeds),21.26603,-28.446,ZA-NC,,,
-358,West End Spec Psych Hosp,24.72386,-28.7376,ZA-NC,,,
-359,Brewelskloof TB Hosp,19.45694,-33.6211,ZA-WC,,,
-360,DP Marais TB Hosp,18.46033,-34.0619,ZA-WC,,,
-361,Brooklyn Chest Hosp,18.4853,-33.8999,ZA-WC,,,
-362,H Comay TB Hosp,22.4725,-33.9802,ZA-WC,,,
-363,Malmesbury Inf Hosp,18.7175,-33.4672,ZA-WC,,,
-364,Sonstraal TB Hosp,18.98694,-33.7119,ZA-WC,,,
-365,Alexandra Hosp,18.48448,-33.93,ZA-WC,,,
-366,Valkenberg Hosp,18.48024,-33.9373,ZA-WC,,,
-367,Lentegeur Hosp,18.61771,-34.0248,ZA-WC,,,
-368,Stikland Hosp,18.65498,-33.8908,ZA-WC,,,
-369,Die Wieg Hosp,?,?,ZA-WC,,,
-370,Regina Centre,19.445,-33.643,ZA-WC,,,
-371,Life Sports Science Ortho,18.467425,-33.9713,ZA-WC,,,
-372,Pr Alice Ortho Hosp,18.459306,-33.9427,ZA-WC,,,
-373,Conradie Hosp,18.5212,-33.9237,ZA-WC,,,
-374,Life Orthopaedic Hosp,18.489836,-33.9442,ZA-WC,,,
-375,St Monica's Hosp,18.41134,-33.9238,ZA-WC,,,
-376,Worcester Hosp,19.458072,-33.6444,ZA-WC,,,
-377,Paarl Hosp,18.97028,-33.7263,ZA-WC,,,
-378,Mowbray Mat Hosp,18.47489,-33.949,ZA-WC,,,
-379,Red Cross Level 2 Hosp,18.48707,-33.9531,ZA-WC,,,
-380,GSH Level 2 Hosp,18.465164,-33.9408,ZA-WC,,,
-381,New Somerset Hosp,18.41683,-33.9044,ZA-WC,,,
-382,Tygerberg Level 2 Hosp,18.611569,-33.9147,ZA-WC,,,
-383,George Hosp,22.45028,-33.9519,ZA-WC,,,
-384,Red Cross Children's Hosp,18.48707,-33.9531,ZA-WC,,,
-385,Montagu Hosp,20.12333,-33.7977,ZA-WC,,,
-386,Robertson Hosp,19.89133,-33.8016,ZA-WC,,,
-387,Stellenbosch Hosp,18.87028,-33.9305,ZA-WC,,,
-388,Ceres Hosp,19.30083,-33.363,ZA-WC,,,
-389,B West Hosp,22.6075,-32.3527,ZA-WC,,,
-390,Murraysburg Hosp,23.76917,-31.9625,ZA-WC,,,
-391,Laingsburg Hosp,20.85028,-33.1944,ZA-WC,,,
-392,P Albert Hosp,22.02583,-33.2166,ZA-WC,,,
-393,Eerste River Hosp,18.71907,-33.9972,ZA-WC,,,
-394,Helderberg Hosp,18.856761,-34.0768,ZA-WC,,,
-395,False Bay Hosp,18.416805,-34.1319,ZA-WC,,,
-396,Victoria Hosp,18.45925,-34.0117,ZA-WC,,,
-397,Wesfleur Hosp,18.49541,-33.5643,ZA-WC,,,
-398,Khayelitsha Hosp,18.673936,-34.0499,ZA-WC,,,
-399,GF Jooste Hosp,18.557927,-33.9846,ZA-WC,,,
-400,Mitchells Plain Hosp,18.61584,-34.0266,ZA-WC,,,
-401,K Bremer Hosp,18.610085,-33.8926,ZA-WC,,,
-402,Uniondale Hosp,23.12556,-33.6594,ZA-WC,,,
-403,Riversdale Hosp,21.25472,-34.0936,ZA-WC,,,
-404,Alan Blyth Hosp,21.26889,-33.4872,ZA-WC,,,
-405,Knysna Hosp,23.05806,-34.0369,ZA-WC,,,
-406,Mossel Bay Hosp,22.1275,-34.1858,ZA-WC,,,
-407,Oudtshoorn Hosp,22.18889,-33.5888,ZA-WC,,,
-408,Otto Du Plessis Hosp,20.035636,-34.5372,ZA-WC,,,
-409,Hermanus Hosp,19.22833,-34.4226,ZA-WC,,,
-410,Swellendam Hosp,20.4488,-34.0234,ZA-WC,,,
-411,Caledon Hosp,19.434458,-34.2244,ZA-WC,,,
-412,LAPA Munnik Hosp,18.99444,-33.018,ZA-WC,,,
-413,Radie Kotze Hosp,18.76222,-32.9063,ZA-WC,,,
-414,Citrusdal Hosp,19.0175,-32.5988,ZA-WC,,,
-415,Clanwilliam Hosp,18.89083,-32.1836,ZA-WC,,,
-416,Vredendal Hosp,18.50472,-31.6694,ZA-WC,,,
-417,Vredenburg Hosp,17.99083,-32.9136,ZA-WC,,,
-418,Swartland Hosp,18.723322,-33.456,ZA-WC,,,
+Name,Long,Lat,Category,Province,district,subdistrict,district_estimated_population
+Fort England Hospital,26.54361,-33.3156,Public Hospital,Eastern Cape,Sarah Baartman District Municipality,Makana LM,479923
+Fort Beaufort Hospital,26.633571,-32.7802,Public Hospital,Eastern Cape,Amathole District Municipality,Raymond Mhlaba LM,880790
+Bhisho Hospital,27.45516,-32.8277,Public Hospital,Eastern Cape,Buffalo City Metropolitan Municipality,Buffalo City SD,834997
+Grey Hospital,27.39579,-32.8793,Public Hospital,Eastern Cape,Buffalo City Metropolitan Municipality,Buffalo City SD,834997
+St Francis Hospital,26.69921,-30.6887,Public Hospital,Eastern Cape,Zululand District Municipality,Ulundi LM,892310
+Midland Hospital,24.53619,-32.2608,Public Hospital,Eastern Cape,Sarah Baartman District Municipality,Dr B Naudï¿½ LM,479923
+Humansdorp Hospital,24.78144,-34.0302,Public Hospital,Eastern Cape,Sarah Baartman District Municipality,Kouga LM,479923
+Frere Hospital,27.89156,-32.9959,Public Hospital,Eastern Cape,Buffalo City Metropolitan Municipality,Buffalo City SD,834997
+Fort England Hospital,26.54361,-33.3156,Public Hospital,Eastern Cape,Sarah Baartman District Municipality,Makana LM,479923
+C Makiwane Hospital,27.74422,-32.9278,Public Hospital,Eastern Cape,Buffalo City Metropolitan Municipality,Buffalo City SD,834997
+Frontier Hospital,26.871347,-31.8892,Public Hospital,Eastern Cape,Chris Hani District Municipality,Enoch Mgijima LM,840055
+Basambilu Med Centre,28.19,-26.01,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg A SD,4949347
+Diepsloot Med Centre,28.01873,-25.9205,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg A SD,4949347
+Mediwell Dainfern Square Med Centre,28.013146,-25.9929,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg A SD,4949347
+Netcare Sunninghill Hospital,28.06941,-26.0384,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg A SD,4949347
+Phedisong Health Care,28.240658,-25.9984,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg A SD,4949347
+Tanganani Health Care,28.011625,-25.9293,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg A SD,4949347
+Life Riverfield Lodge Hospital,27.962992,-25.9451,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg B SD,4949347
+Mediclinic Sandton Hospital,28.01204,-26.0772,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg B SD,4949347
+Netcare Milpark Hospital,28.01725,-26.1797,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg B SD,4949347
+Netcare Rehab Hospital,28.01224,-26.1885,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg B SD,4949347
+Netcare Rosebank Hospital,28.03924,-26.1462,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg B SD,4949347
+Netcare Sports Med and Ortho Hospital,28.03962,-26.1461,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg B SD,4949347
+NHN Akeso Crescent Randburg Hospital,27.958773,-26.0881,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg B SD,4949347
+Clinix Dr SK Matseke Mem Hospital,27.87435,-26.2055,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg C SD,4949347
+Clinix Tshepo-Themba Prv Hospital,27.873921,-26.2059,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg C SD,4949347
+Life Flora Hospital,27.920641,-26.1516,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg C SD,4949347
+Lifemed Hospital,27.93667,-26.2011,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg C SD,4949347
+Life Wilgeheuwel Hospital,27.92435,-26.0995,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg C SD,4949347
+Mayo Hospital,27.92086,-26.1504,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg C SD,4949347
+Netcare Constantia Day Clinic,27.900218,-26.1476,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg C SD,4949347
+Netcare Olivedale Hospital,27.972147,-26.0548,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg C SD,4949347
+Advanced Medgate Day Hospital,27.867123,-26.138,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg D SD,4949347
+Lesedi Prv Hospital,27.935847,-26.2581,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg D SD,4949347
+Life Poortview Hospital,27.851671,-26.0897,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg D SD,4949347
+Life Carstenhof Hospital,28.139385,-26.0309,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg E SD,4949347
+Mediclinic Morningside Hospital,28.05595,-26.0956,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg E SD,4949347
+Midrand Med Centre,28.129635,-25.9958,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg E SD,4949347
+Netcare Linksfield Hospital,28.0954,-26.1594,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg E SD,4949347
+Prime Cure Bagleyston Day Clinic,28.0866,-26.1513,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg E SD,4949347
+Argyle Hospital,28.0434,-26.1929,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg F SD,4949347
+Clinix SS Morewa Mem Hospital,28.04278,-26.2208,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg F SD,4949347
+Fordsburg Hospital,28.02157,-26.2099,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg F SD,4949347
+Life Brenthurst Hospital,28.0466,-26.1842,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg F SD,4949347
+Netcare Garden City Hospital,28.006889,-26.1973,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg F SD,4949347
+Netcare Mulbarton Hospital,28.05302,-26.298,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg F SD,4949347
+Netcare Park Lane Hospital,28.04638,-26.1821,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg F SD,4949347
+Netcare Rand Hospital,28.04998,-26.1852,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg F SD,4949347
+NHN Lenmed Ahmed Katrada Prv Hospital,27.86371,-26.3278,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg G SD,4949347
+NHN Lenmed Daxina Hospital,27.841045,-26.3818,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg G SD,4949347
+Mediclinic Legae Hospital,28.03835,-25.5251,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 1 SD,3275152
+Netcare Akasia Hospital,28.10867,-25.6742,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 1 SD,3275152
+Wisani Med Centre Hospital,27.97686,-25.6115,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 1 SD,3275152
+Netcare Montana Hospital,28.24418,-25.6752,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 2 SD,3275152
+Astrid Hospital,28.209688,-25.7475,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 3 SD,3275152
+Curamed Hospital,28.203429,-25.7551,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 3 SD,3275152
+Life Eugene Marais Hospital,28.193922,-25.71,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 3 SD,3275152
+Life Groenkloof Hospital,28.2164,-25.7715,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 3 SD,3275152
+Louis Pasteur Hospital,28.19666,-25.7485,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 3 SD,3275152
+Pretoria Gynae Hospital,28.20565,-25.7562,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 3 SD,3275152
+Mediclinic Heart Hospital,28.20677,-25.7491,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 3 SD,3275152
+Mediclinic Medforum Hospital,28.199664,-25.7468,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 3 SD,3275152
+Mediclinic Muelmed Hospital,28.20768,-25.7469,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 3 SD,3275152
+Netcare Bougainville Hospital,28.1535,-25.7152,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 3 SD,3275152
+Netcare Femina Hospital,28.20037,-25.7401,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 3 SD,3275152
+Netcare Jakaranda Hospital,28.21182,-25.7595,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 3 SD,3275152
+Netcare Moot Hospital,28.21779,-25.7137,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 3 SD,3275152
+Pretoria Eye Inst Hospital,28.21113,-25.7474,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 3 SD,3275152
+Pretoria Urolog Hospital,28.23775,-25.744,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 3 SD,3275152
+University of Pta Med Centre,28.200165,-25.7303,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 3 SD,3275152
+Zuid Afrikaans Hospital,28.20571,-25.762,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 3 SD,3275152
+Erasmia Med Centre,28.09319,-25.8114,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 4 SD,3275152
+Netcare Unitas Hospital,28.1959,-25.8323,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 4 SD,3275152
+NHN Icare Irene Med Centre,28.205361,-25.8851,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 4 SD,3275152
+NHN Vista Hospital,28.19321,-25.8439,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 4 SD,3275152
+Clinix Cullinan Prv Hospital,28.515781,-25.6659,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 5 SD,3275152
+Denmar Hospital,28.29974,-25.8025,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 6 SD,3275152
+Kloof Hospital,28.262855,-25.8111,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 6 SD,3275152
+Life Faerie Glen Hospital,28.291695,-25.7835,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 6 SD,3275152
+Life Wilgers Hospital,28.318918,-25.7678,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 6 SD,3275152
+Mamelodi Med Centre,28.375033,-25.7141,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 6 SD,3275152
+Mediclinic Kloof Hospital,28.2631,-25.8129,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 6 SD,3275152
+Netcare Pretoria E Hospital,28.30496,-25.8209,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 6 SD,3275152
+Phelang Prv Hospital,28.378808,-25.7139,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 6 SD,3275152
+SAMCOR Med Centre,28.329661,-25.7372,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 6 SD,3275152
+Life Dalview Hospital,28.354391,-26.2451,Private Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni E1 SD,3379104
+Life Springs Parkland Hospital,28.43466,-26.2657,Private Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni E2 SD,3379104
+Life St Mary's Prv Hospital,28.43471,-26.2587,Private Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni E2 SD,3379104
+Netcare N17 Prv Hospital,28.42802,-26.2713,Private Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni E2 SD,3379104
+Kloof Med Centre,28.13315,-26.1847,Private Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni N1 SD,3379104
+NHN Arwyp Med Centre Hospital,28.22923,-26.1065,Private Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni N1 SD,3379104
+NHN Lenmed Zamokuhle Prv Hospital,28.238093,-25.9829,Private Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni N1 SD,3379104
+Dinwiddie Med Centre,28.330783,-26.1454,Private Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni N2 SD,3379104
+Life Bedford Gardens Hospital,28.12093,-26.1898,Private Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni N2 SD,3379104
+Life Glynnview Hospital,28.307291,-26.1928,Private Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni N2 SD,3379104
+Life The Glynnwood Hospital,28.308109,-26.1954,Private Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni N2 SD,3379104
+Netcare Linmed Hospital,28.330783,-26.1454,Private Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni N2 SD,3379104
+Netcare Sunward Park Hospital,28.256035,-26.2605,Private Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni N2 SD,3379104
+NHN Sunshine Hospital,28.302914,-26.2115,Private Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni N2 SD,3379104
+Clinix Botshelong-Empilweni Prv Hospital,28.216395,-26.3455,Private Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni S1 SD,3379104
+Life Roseacres Hospital,28.169563,-26.1789,Private Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni S1 SD,3379104
+Netcare Clinton Hospital,28.12019,-26.2732,Private Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni S1 SD,3379104
+Netcare Union Hospital,28.119647,-26.2698,Private Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni S1 SD,3379104
+Clinix Naledi-Nkanyezi Prv Hospital,27.842933,-26.5814,Private Hospital,Gauteng,Sedibeng District Municipality,Emfuleni LM,957528
+Cormed Hospital,27.832318,-26.7022,Private Hospital,Gauteng,Sedibeng District Municipality,Emfuleni LM,957528
+Hlulani Med Centre,27.846783,-26.590498,Private Hospital,Gauteng,Sedibeng District Municipality,Emfuleni LM,957528
+Lakeview Med Centre,28.312829,-26.1844,Private Hospital,Gauteng,Sedibeng District Municipality,Emfuleni LM,957528
+Mediclinic Emfuleni Hospital,27.838504,-26.7038,Private Hospital,Gauteng,Sedibeng District Municipality,Emfuleni LM,957528
+Mediclinic Vereeniging Hospital,27.9283,-26.6678,Private Hospital,Gauteng,Sedibeng District Municipality,Emfuleni LM,957528
+Midvaal Prv Hospital,27.96935,-26.6617,Private Hospital,Gauteng,Sedibeng District Municipality,Emfuleni LM,957528
+Life Suikerbosrand Hospital,28.354079,-26.5005,Private Hospital,Gauteng,Sedibeng District Municipality,Lesedi LM,957528
+Baneng Psych Hospital,27.43667,-26.2011,Private Hospital,Gauteng,West Rand District Municipality,Merafong City LM,838594
+Fochville Hospital,27.49689,-26.4812,Private Hospital,Gauteng,West Rand District Municipality,Merafong City LM,838594
+NHN Fountain Prv Hospital,27.382881,-26.3674,Private Hospital,Gauteng,West Rand District Municipality,Merafong City LM,838594
+Western Deep Hospital,27.41607,-26.3733,Private Hospital,Gauteng,West Rand District Municipality,Merafong City LM,838594
+Netcare Krugersdorp Hospital,27.77518,-26.1047,Private Hospital,Gauteng,West Rand District Municipality,Mogale City LM,838594
+Life Robinson Hospital,27.70915,-26.1606,Private Hospital,Gauteng,West Rand District Municipality,Rand West City LM,838594
+NHN Lenmed Randfontein Prv Hospital,27.718959,-26.1679,Private Hospital,Gauteng,West Rand District Municipality,Rand West City LM,838594
+S Albert Med Centre,27.71868,-26.1675,Private Hospital,Gauteng,West Rand District Municipality,Rand West City LM,838594
+Bheki Mlangeni Dist Hospital,27.856929,-26.2478,Public Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg D SD,4949347
+South Rand Hospital,28.06211,-26.2529,Public Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg F SD,4949347
+Odi Hospital,28.02248,-25.5184,Public Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 1 SD,3275152
+Jubilee Hospital,28.26582,-25.403,Public Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 2 SD,3275152
+Pretoria West Hospital,28.13962,-25.7365,Public Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 3 SD,3275152
+Tshwane Dist Hospital,28.202561,-25.7327,Public Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 3 SD,3275152
+Bronkhorstspruit Hospital,28.716892,-25.8033,Public Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 7 SD,3275152
+Bertha Gxowa Hospital,28.16305,-26.2197,Public Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni S1 SD,3379104
+Kopanong Hospital,27.93328,-26.614048,Public Hospital,Gauteng,Sedibeng District Municipality,Emfuleni LM,957528
+Heidelberg Hospital,28.35131,-26.5036,Public Hospital,Gauteng,Sedibeng District Municipality,Lesedi LM,957528
+Carletonville Hospital,27.39446,-26.347,Public Hospital,Gauteng,West Rand District Municipality,Merafong City LM,838594
+Dr Y Dadoo Hospital,27.78386,-26.0996,Public Hospital,Gauteng,West Rand District Municipality,Mogale City LM,838594
+Chris Hani Hospital,27.93799,-26.26,Public Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg D SD,4949347
+Charlotte Maxeke Hospital,28.04691,-26.174,Public Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg F SD,4949347
+Dr G Mukhari Hospital,28.01216,-25.619,Public Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 1 SD,3275152
+Steve Biko Academic Hospital,28.202561,-25.7295,Public Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 3 SD,3275152
+C Hurwitz TB Hospital,27.94666,-26.2611,Public Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg D SD,4949347
+Tshepong TB Hospital,28.09372,-25.7638,Public Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 3 SD,3275152
+East Rand TB Hospital,28.41141,-26.188,Public Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni N2 SD,3379104
+Knights Chest Hospital,28.19389,-26.1933,Public Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni S1 SD,3379104
+Sizwe Tropical Hospital,28.124964,-26.1374,Public Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg E SD,4949347
+Tshwane Rehab Hospital,28.200872,-25.734,Public Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 3 SD,3275152
+Cullinan Rehab Hospital,28.53852,-25.691,Public Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 5 SD,3275152
+Rahima Moosa Hospital,27.97329,-26.1882,Public Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg B SD,4949347
+Edenvale Hospital,28.129419,-26.1283,Public Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg E SD,4949347
+Mamelodi Hospital,28.36788,-25.7186,Public Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 6 SD,3275152
+Pholosong Hospital,28.37705,-26.3398,Public Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni E1 SD,3379104
+Far East Rand Hospital,28.40367,-26.2354,Public Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni E2 SD,3379104
+Tambo Memorial Hospital,28.24449,-26.2184,Public Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni N2 SD,3379104
+Thelle Mogoerane Reg Hospital,28.224311,-26.3569,Public Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni S1 SD,3379104
+Sebokeng Hospital,27.84622,-26.6061,Public Hospital,Gauteng,Sedibeng District Municipality,Emfuleni LM,957528
+Leratong Hospital,27.80774,-26.1713,Public Hospital,Gauteng,West Rand District Municipality,Mogale City LM,838594
+Helen Joseph Hospital,27.9901,-26.1839,Public Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg B SD,4949347
+Kalafong Hospital,28.08948,-25.7627,Public Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 3 SD,3275152
+Tembisa Hospital,28.23756,-25.9828,Public Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni N1 SD,3379104
+Tara H Moross Centre Hospital,28.036464,-26.1087,Public Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg B SD,4949347
+Weskoppies Hospital,28.16057,-25.7638,Public Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 3 SD,3275152
+Sterkfontein Hospital,27.747403,-26.0581,Public Hospital,Gauteng,West Rand District Municipality,Mogale City LM,838594
+NHN Hibiscus Hospital,30.451701,-30.7415,Private Hospital,KwaZuluNatal,Ugu District Municipality,Ray Nkonyeni LM,753336
+NHN Lenmed La Verna Hospital,29.779646,-28.5554,Private Hospital,KwaZuluNatal,Uthukela District Municipality,Alfred Duma LM,706588
+NHN Pongola Hospital,31.619102,-27.3771,Private Hospital,KwaZuluNatal,Zululand District Municipality,uPhongolo LM,892310
+Niemeyer Mem Hospital,30.0712,-27.6519,Public Hospital,KwaZuluNatal,Amajuba District Municipality,Emadlangeni LM,531327
+McCords Hospital,30.996943,-29.8382,Public Hospital,KwaZuluNatal,eThekwini Metropolitan Municipality,eThekwini MM Sub,3702231
+Osindisweni Hospital,30.983202,-29.6082,Public Hospital,KwaZuluNatal,eThekwini Metropolitan Municipality,eThekwini MM Sub,3702231
+St Mary's Hospital (Mar),30.826015,-29.8469,Public Hospital,KwaZuluNatal,eThekwini Metropolitan Municipality,eThekwini MM Sub,3702231
+Wentworth Hospital,30.989162,-29.9329,Public Hospital,KwaZuluNatal,eThekwini Metropolitan Municipality,eThekwini MM Sub,3702231
+St Apollinaris Hospital,29.72575,-30.0165,Public Hospital,KwaZuluNatal,Harry Gwala District Municipality,Dr N Dlamini Zuma LM,510865
+EG Usher Mem Hospital,29.415438,-30.5458,Public Hospital,KwaZuluNatal,Harry Gwala District Municipality,Gr Kokstad LM,510865
+Christ the King Hospital,30.077931,-30.1627,Public Hospital,KwaZuluNatal,Harry Gwala District Municipality,Ubuhlebezwe LM,510865
+Rietvlei Hospital,29.82481,-30.4878,Public Hospital,KwaZuluNatal,Harry Gwala District Municipality,uMzimkhulu LM,510865
+Umphumulo Hospital,31.04259,-29.1425,Public Hospital,KwaZuluNatal,iLembe District Municipality,Maphumulo LM,657612
+Untunjambili Hospital,30.94846,-28.942,Public Hospital,KwaZuluNatal,iLembe District Municipality,Maphumulo LM,657612
+Montebello Hospital,30.807162,-29.4394,Public Hospital,KwaZuluNatal,iLembe District Municipality,Ndwedwe LM,657612
+KwaMagwaza Hospital,31.34105,-28.6293,Public Hospital,KwaZuluNatal,King Cetshwayo District Municipality,Mthonjaneni LM,971135
+Ekhombe Hospital,30.893212,-28.6413,Public Hospital,KwaZuluNatal,King Cetshwayo District Municipality,Nkandla LM,971135
+Nkandla Hospital,31.086834,-28.6245,Public Hospital,KwaZuluNatal,King Cetshwayo District Municipality,Nkandla LM,971135
+C Booth Hospital,31.474714,-28.9976,Public Hospital,KwaZuluNatal,King Cetshwayo District Municipality,uMlalazi LM,971135
+Eshowe Hospital,31.466456,-28.891,Public Hospital,KwaZuluNatal,King Cetshwayo District Municipality,uMlalazi LM,971135
+Mbongolwane Hospital,31.195414,-28.9354,Public Hospital,KwaZuluNatal,King Cetshwayo District Municipality,uMlalazi LM,971135
+Murchison Hospital,30.344023,-30.728,Public Hospital,KwaZuluNatal,Ugu District Municipality,Ray Nkonyeni LM,753336
+GJ Crooke's Hospital,30.74487,-30.2882,Public Hospital,KwaZuluNatal,Ugu District Municipality,Umdoni LM,753336
+St Andrew's Hospital,29.889283,-30.5755,Public Hospital,KwaZuluNatal,Ugu District Municipality,Umuziwabantu LM,753336
+Northdale Hospital,30.402653,-29.5756,Public Hospital,KwaZuluNatal,uMgungundlovu District Municipality,Msunduzi LM,1095865
+Appelsbosch Hospital,30.842696,-29.3898,Public Hospital,KwaZuluNatal,uMgungundlovu District Municipality,uMshwathi LM,1095865
+Hlabisa Hospital,31.880697,-28.1455,Public Hospital,KwaZuluNatal,Umkhanyakude District Municipality,Big 5 Hlabisa LM,689090
+Bethesda Hospital,32.082098,-27.5741,Public Hospital,KwaZuluNatal,Umkhanyakude District Municipality,Jozini LM,689090
+Mosvold Hospital,32.004746,-27.1383,Public Hospital,KwaZuluNatal,Umkhanyakude District Municipality,Jozini LM,689090
+Manguzi Hospital,32.756375,-26.984,Public Hospital,KwaZuluNatal,Umkhanyakude District Municipality,uMhlabuyalingana LM,689090
+Mseleni Hospital,32.556644,-27.3256,Public Hospital,KwaZuluNatal,Umkhanyakude District Municipality,uMhlabuyalingana LM,689090
+Dundee Hospital,30.22974,-28.1729,Public Hospital,KwaZuluNatal,Umzinyathi District Municipality,Endumeni LM,554882
+Church of Scotland Hospital,30.450917,-28.7476,Public Hospital,KwaZuluNatal,Umzinyathi District Municipality,Msinga LM,554882
+C Johnson Mem Hospital,30.672921,-28.2119,Public Hospital,KwaZuluNatal,Umzinyathi District Municipality,Nquthu LM,554882
+Greytown Hospital,30.600049,-29.0657,Public Hospital,KwaZuluNatal,Umzinyathi District Municipality,Umvoti LM,554882
+Estcourt Hospital,29.893932,-29.0205,Public Hospital,KwaZuluNatal,Uthukela District Municipality,Inkosi Langalibalele LM,706588
+Emmaus Hospital,29.381335,-28.8524,Public Hospital,KwaZuluNatal,Uthukela District Municipality,Okhahlamba LM,706588
+Vryheid Hospital,30.797088,-27.7583,Public Hospital,KwaZuluNatal,Zululand District Municipality,AbaQulusi LM,892310
+Benedictine Hospital,31.639325,-27.891,Public Hospital,KwaZuluNatal,Zululand District Municipality,Nongoma LM,892310
+Ceza Hospital,31.377188,-27.996,Public Hospital,KwaZuluNatal,Zululand District Municipality,Ulundi LM,892310
+Nkonjeni Hospital,31.41477,-28.2266,Public Hospital,KwaZuluNatal,Zululand District Municipality,Ulundi LM,892310
+Itshelejuba Hospital,31.347971,-27.2774,Public Hospital,KwaZuluNatal,Zululand District Municipality,uPhongolo LM,892310
+IALCH Central Hospital,30.958756,-29.8739,Public Hospital,KwaZuluNatal,eThekwini Metropolitan Municipality,eThekwini MM Sub,3702231
+King Edward VIII Hospital,30.989507,-29.8822,Public Hospital,KwaZuluNatal,eThekwini Metropolitan Municipality,eThekwini MM Sub,3702231
+Ngwelezana Hospital,31.864116,-28.7795,Public Hospital,KwaZuluNatal,King Cetshwayo District Municipality,City of uMhlathuze LM,971135
+Grey's Hospital,30.363784,-29.5796,Public Hospital,KwaZuluNatal,uMgungundlovu District Municipality,Msunduzi LM,1095865
+C James TB Hospital,30.885394,-30.017,Public Hospital,KwaZuluNatal,eThekwini Metropolitan Municipality,eThekwini MM Sub,3702231
+Don McKenzie TB Hospital,30.739534,-29.7382,Public Hospital,KwaZuluNatal,eThekwini Metropolitan Municipality,eThekwini MM Sub,3702231
+FOSA TB Hospital,30.968573,-29.7859,Public Hospital,KwaZuluNatal,eThekwini Metropolitan Municipality,eThekwini MM Sub,3702231
+St Margaret's TB MDR Hospital,29.93276,-30.2692,Public Hospital,KwaZuluNatal,Harry Gwala District Municipality,uMzimkhulu LM,510865
+D Farrell TB Hospital,30.512498,-30.5357,Public Hospital,KwaZuluNatal,Ugu District Municipality,Ray Nkonyeni LM,753336
+Doris Goodwin TB Hospital,30.336538,-29.6488,Public Hospital,KwaZuluNatal,uMgungundlovu District Municipality,Msunduzi LM,1095865
+Richmond Chest Hospital,30.275817,-29.8645,Public Hospital,KwaZuluNatal,uMgungundlovu District Municipality,Richmond LM,1095865
+Greytown TB Hospital,30.600049,-29.0657,Public Hospital,KwaZuluNatal,Umzinyathi District Municipality,Umvoti LM,554882
+Mountain View Hospital,31.425381,-27.7813,Public Hospital,KwaZuluNatal,Zululand District Municipality,AbaQulusi LM,892310
+Siloah Lutheran Hospital,31.510095,-27.7402,Public Hospital,KwaZuluNatal,Zululand District Municipality,AbaQulusi LM,892310
+Thulasizwe Hospital,31.367857,-27.9526,Public Hospital,KwaZuluNatal,Zululand District Municipality,Ulundi LM,892310
+Ekuhlengeni Hospital,30.902844,-30.0071,Public Hospital,KwaZuluNatal,eThekwini Metropolitan Municipality,eThekwini MM Sub,3702231
+Umzimkhulu Hospital,29.92602,-30.2553,Public Hospital,KwaZuluNatal,Harry Gwala District Municipality,uMzimkhulu LM,510865
+Fort Napier Hospital,30.368942,-29.6138,Public Hospital,KwaZuluNatal,uMgungundlovu District Municipality,Msunduzi LM,1095865
+Townhill Hospital,30.366437,-29.5874,Public Hospital,KwaZuluNatal,uMgungundlovu District Municipality,Msunduzi LM,1095865
+Umgeni Waterfall Hospital,30.232779,-29.5008,Public Hospital,KwaZuluNatal,uMgungundlovu District Municipality,uMngeni LM,1095865
+St Francis Hospital,31.476734,-28.2246,Public Hospital,KwaZuluNatal,Zululand District Municipality,Ulundi LM,892310
+Clairwood Hospital,30.956778,-29.9357,Public Hospital,KwaZuluNatal,eThekwini Metropolitan Municipality,eThekwini MM Sub,3702231
+Hillcrest Hospital,30.761508,-29.7894,Public Hospital,KwaZuluNatal,eThekwini Metropolitan Municipality,eThekwini MM Sub,3702231
+Madadeni Hospital,30.0508,-27.7635,Public Hospital,KwaZuluNatal,Amajuba District Municipality,Newcastle LM,531327
+Newcastle Hospital,29.935643,-27.7631,Public Hospital,KwaZuluNatal,Amajuba District Municipality,Newcastle LM,531327
+Addington Hospital,31.042291,-29.8616,Public Hospital,KwaZuluNatal,eThekwini Metropolitan Municipality,eThekwini MM Sub,3702231
+King Dinuzulu Hospital,30.987036,-29.8235,Public Hospital,KwaZuluNatal,eThekwini Metropolitan Municipality,eThekwini MM Sub,3702231
+M Gandhi Hospital,31.028852,-29.7183,Public Hospital,KwaZuluNatal,eThekwini Metropolitan Municipality,eThekwini MM Sub,3702231
+Prince Mshiyeni Hospital,30.936625,-29.9548,Public Hospital,KwaZuluNatal,eThekwini Metropolitan Municipality,eThekwini MM Sub,3702231
+RK Khan Hospital,30.886237,-29.9151,Public Hospital,KwaZuluNatal,eThekwini Metropolitan Municipality,eThekwini MM Sub,3702231
+St Aidans Hospital,31.011035,-29.8507,Public Hospital,KwaZuluNatal,eThekwini Metropolitan Municipality,eThekwini MM Sub,3702231
+GJGM Hospital,,,Public Hospital,KwaZuluNatal,iLembe District Municipality,KwaDukuza LM,657612
+Queen Nandi Regional Hospital,31.897211,-28.7395,Public Hospital,KwaZuluNatal,King Cetshwayo District Municipality,City of uMhlathuze LM,971135
+Port Shepstone Hospital,30.450878,-30.7435,Public Hospital,KwaZuluNatal,Ugu District Municipality,Ray Nkonyeni LM,753336
+Edendale Hospital,30.332756,-29.6473,Public Hospital,KwaZuluNatal,uMgungundlovu District Municipality,Msunduzi LM,1095865
+Ladysmith Hospital,29.766058,-28.5567,Public Hospital,KwaZuluNatal,Uthukela District Municipality,Alfred Duma LM,706588
+Helene Franz Hospital,29.11313,-23.2838,Public Hospital,Limpopo,Capricorn District Municipality,Blouberg LM,1330436
+Dr Machupe Mem Hospital,29.335,-24.3125,Public Hospital,Limpopo,Capricorn District Municipality,Lepelle-Nkumpi LM,1330436
+Lebowakgomo Hospital,29.5285,-24.2956,Public Hospital,Limpopo,Capricorn District Municipality,Lepelle-Nkumpi LM,1330436
+Zebediela Hospital,29.40445,-24.4818,Public Hospital,Limpopo,Capricorn District Municipality,Lepelle-Nkumpi LM,1330436
+Botlokwa Hospital,29.74272,-23.4923,Public Hospital,Limpopo,Capricorn District Municipality,Molemole LM,1330436
+Seshego Hospital,29.396878,-23.8548,Public Hospital,Limpopo,Capricorn District Municipality,Polokwane LM,1330436
+WF Knobel Hospital,29.12057,-23.634,Public Hospital,Limpopo,Capricorn District Municipality,Polokwane LM,1330436
+ML Malatjie Hospital,31.03717,-23.9253,Public Hospital,Limpopo,Mopani District Municipality,Ba-Phalaborwa LM,1159185
+Nkhensani Hospital,30.69215,-23.3125,Public Hospital,Limpopo,Mopani District Municipality,Greater Giyani LM,1159185
+Kgapane Hospital,30.21861,-23.6477,Public Hospital,Limpopo,Mopani District Municipality,Greater Letaba LM,1159185
+Dr CN Phatudi Hospital,30.28098,-24.0265,Public Hospital,Limpopo,Mopani District Municipality,Greater Tzaneen LM,1159185
+Van Velden Mem Hospital,30.16427,-23.8345,Public Hospital,Limpopo,Mopani District Municipality,Greater Tzaneen LM,1159185
+Sekororo Hospital,30.44767,-24.2515,Public Hospital,Limpopo,Mopani District Municipality,Maruleng LM,1159185
+Groblersdal Hospital,29.40387,-25.1762,Public Hospital,Limpopo,Sekhukhune District Municipality,E Motsoaledi LM,1169762
+Matlala Hospital,29.50233,-24.8321,Public Hospital,Limpopo,Sekhukhune District Municipality,Ephraim Mogale LM,1169762
+Dilokong Hospital,30.17051,-24.6141,Public Hospital,Limpopo,Sekhukhune District Municipality,Fetakgomo Tubatse LM,1169762
+Mecklenburg Hospital,30.072501,-24.3853,Public Hospital,Limpopo,Sekhukhune District Municipality,Fetakgomo Tubatse LM,1169762
+Jane Furse Hospital,29.86767,-24.7638,Public Hospital,Limpopo,Sekhukhune District Municipality,Makhuduthamaga LM,1169762
+Malamulele Hospital,30.69669,-22.9969,Public Hospital,Limpopo,Vhembe District Municipality,Collins Chabane LM,1393949
+Elim Hospital,30.05617,-23.154,Public Hospital,Limpopo,Vhembe District Municipality,Makhado LM,1393949
+L Trichardt Hospital,29.90614,-23.0291,Public Hospital,Limpopo,Vhembe District Municipality,Makhado LM,1393949
+Siloam Hospital,30.19422,-22.8994,Public Hospital,Limpopo,Vhembe District Municipality,Makhado LM,1393949
+Messina Hospital,30.04285,-22.3416,Public Hospital,Limpopo,Vhembe District Municipality,Musina LM,1393949
+D Fraser Hospital,30.479815,-22.8886,Public Hospital,Limpopo,Vhembe District Municipality,Thulamela LM,1393949
+Warmbaths Hospital,28.28873,-24.8859,Public Hospital,Limpopo,Waterberg District Municipality,Bela-Bela LM,745758
+Ellisras Hospital,27.70333,-23.678,Public Hospital,Limpopo,Waterberg District Municipality,Lephalale LM,745758
+Witpoort Hospital,28.01118,-23.3344,Public Hospital,Limpopo,Waterberg District Municipality,Lephalale LM,745758
+G Masebe Hospital,28.692892,-23.8753,Public Hospital,Limpopo,Waterberg District Municipality,Mogalakwena LM,745758
+Voortrekker Hospital,29.01405,-24.1962,Public Hospital,Limpopo,Waterberg District Municipality,Mogalakwena LM,745758
+FH Odendaal Hospital,28.42212,-24.7014,Public Hospital,Limpopo,Waterberg District Municipality,Mookgophong/Modimolle LM,745758
+Thabazimbi Hospital,27.4069,-24.5987,Public Hospital,Limpopo,Waterberg District Municipality,Thabazimbi LM,745758
+FH O MDR Hospital,28.39456,-24.7077,Public Hospital,Limpopo,Waterberg District Municipality,Mookgophong/Modimolle LM,745758
+Thabamoopo Hospital,29.54406,-24.3032,Public Hospital,Limpopo,Capricorn District Municipality,Lepelle-Nkumpi LM,1330436
+Evuxakeni Hospital,30.72358,-23.3222,Public Hospital,Limpopo,Mopani District Municipality,Greater Giyani LM,1159185
+Hayani Hospital,30.48536,-22.9409,Public Hospital,Limpopo,Vhembe District Municipality,Thulamela LM,1393949
+Letaba Hospital,30.26933,-23.8741,Public Hospital,Limpopo,Mopani District Municipality,Greater Tzaneen LM,1159185
+Philadelphia Hospital,29.144713,-25.2581,Public Hospital,Limpopo,Sekhukhune District Municipality,E Motsoaledi LM,1169762
+St Rita's Hospital,29.80403,-24.8446,Public Hospital,Limpopo,Sekhukhune District Municipality,Makhuduthamaga LM,1169762
+Tshilidzini Hospital,30.41415,-22.9947,Public Hospital,Limpopo,Vhembe District Municipality,Thulamela LM,1393949
+Mokopane Hospital,28.989183,-24.1553,Public Hospital,Limpopo,Waterberg District Municipality,Mogalakwena LM,745758
+Mankweng Hospital,29.725885,-23.8808,Public Hospital,Limpopo,Capricorn District Municipality,Polokwane LM,1330436
+Pietersburg Hospital,29.456908,-23.8958,Public Hospital,Limpopo,Capricorn District Municipality,Polokwane LM,1330436
+Matikwana Hospital,31.23628,-24.9876,Public Hospital,Mpumalanga,Ehlanzeni District Municipality,Bushbuckridge LM,1754931
+Tintswalo Hospital,31.05983,-24.5918,Public Hospital,Mpumalanga,Ehlanzeni District Municipality,Bushbuckridge LM,1754931
+Barberton Hospital,31.04189,-25.7814,Public Hospital,Mpumalanga,Ehlanzeni District Municipality,City of Mbombela LM,1754931
+Shongwe Hospital,31.490584,-25.6851,Public Hospital,Mpumalanga,Ehlanzeni District Municipality,Nkomazi LM,1754931
+Tonga Hospital,31.7881,-25.6947,Public Hospital,Mpumalanga,Ehlanzeni District Municipality,Nkomazi LM,1754931
+Lydenburg Hospital,30.4514,-25.1085,Public Hospital,Mpumalanga,Ehlanzeni District Municipality,Thaba Chweu LM,1754931
+Matibidi Hospital,30.7696,-24.5884,Public Hospital,Mpumalanga,Ehlanzeni District Municipality,Thaba Chweu LM,1754931
+Sabie Hospital,30.782,-25.0926,Public Hospital,Mpumalanga,Ehlanzeni District Municipality,Thaba Chweu LM,1754931
+Carolina Hospital,30.11237,-26.0758,Public Hospital,Mpumalanga,Gert Sibande District Municipality,Chief Albert Luthuli LM,1135409
+Embuleni Hospital,30.814586,-26.0481,Public Hospital,Mpumalanga,Gert Sibande District Municipality,Chief Albert Luthuli LM,1135409
+Amajuba Mem Hospital,29.89128,-27.3525,Public Hospital,Mpumalanga,Gert Sibande District Municipality,Dr Pixley Ka Isaka Seme LM,1135409
+Elsie Ballot Hospital,29.86146,-27.0107,Public Hospital,Mpumalanga,Gert Sibande District Municipality,Dr Pixley Ka Isaka Seme LM,1135409
+Bethal Hospital,29.46735,-26.4646,Public Hospital,Mpumalanga,Gert Sibande District Municipality,Govan Mbeki LM,1135409
+Evander Hospital,29.118658,-26.4673,Public Hospital,Mpumalanga,Gert Sibande District Municipality,Govan Mbeki LM,1135409
+Standerton Hospital,29.244242,-26.94,Public Hospital,Mpumalanga,Gert Sibande District Municipality,Lekwa LM,1135409
+Piet Retief Hospital,30.80625,-27.0188,Public Hospital,Mpumalanga,Gert Sibande District Municipality,Mkhondo LM,1135409
+Mmametlhake Hospital,28.55872,-25.1046,Public Hospital,Mpumalanga,Nkangala District Municipality,Dr JS Moroka LM,1445624
+HA Grove Hospital,30.04431,-25.6964,Public Hospital,Mpumalanga,Nkangala District Municipality,Emakhazeni LM,1445624
+Waterval Boven Hospital,30.33855,-25.6479,Public Hospital,Mpumalanga,Nkangala District Municipality,Emakhazeni LM,1445624
+Impungwe Hospital,29.25281,-25.8727,Public Hospital,Mpumalanga,Nkangala District Municipality,Emalahleni LM,1445624
+Middelburg Hospital,29.45133,-25.7741,Public Hospital,Mpumalanga,Nkangala District Municipality,Steve Tshwete LM,1445624
+KwaMhlanga Hospital,28.70415,-25.418,Public Hospital,Mpumalanga,Nkangala District Municipality,Thembisile Hani LM,1445624
+B Samuels Hospital,28.66699,-26.1521,Public Hospital,Mpumalanga,Nkangala District Municipality,Victor Khanye LM,1445624
+Rob Ferreira Hospital,30.97111,-25.4755,Public Hospital,Mpumalanga,Ehlanzeni District Municipality,City of Mbombela LM,1754931
+Witbank Hospital,29.226596,-25.8756,Public Hospital,Mpumalanga,Nkangala District Municipality,Emalahleni LM,1445624
+Mapulaneng Hospital,31.06531,-24.8497,Public Hospital,Mpumalanga,Ehlanzeni District Municipality,Bushbuckridge LM,1754931
+Themba Hospital,31.1228,-25.3452,Public Hospital,Mpumalanga,Ehlanzeni District Municipality,City of Mbombela LM,1754931
+Ermelo Hospital,29.97522,-26.5231,Public Hospital,Mpumalanga,Gert Sibande District Municipality,Msukaligwa LM,1135409
+Barberton TB Hospital,31.02869,-25.7801,Public Hospital,Mpumalanga,Ehlanzeni District Municipality,City of Mbombela LM,1754931
+Bongani TB Hospital,31.12695,-25.089,Public Hospital,Mpumalanga,Ehlanzeni District Municipality,City of Mbombela LM,1754931
+Standerton Spec TB Hospital,29.24255,-26.9389,Public Hospital,Mpumalanga,Gert Sibande District Municipality,Lekwa LM,1135409
+Sesifuba TB Hospital,29.97775,-26.5202,Public Hospital,Mpumalanga,Gert Sibande District Municipality,Msukaligwa LM,1135409
+Witbank Special TB Hospital,29.16725,-25.8667,Public Hospital,Mpumalanga,Nkangala District Municipality,Emalahleni LM,1445624
+Tokollo Hospital,27.96168,-27.2891,Public Hospital,Free State,Fezile Dabi District Municipality,Ngwathe LM,494777
+Nala Hospital,26.61783,-27.3946,Public Hospital,Free State,Lejweleputswa District Municipality,Nala LM,646920
+National Dis Hospital,26.2064,-29.127,Public Hospital,Free State,Mangaung Metropolitan Municipality,Bloemfontein SD,787803
+Botshabelo Hospital,26.71572,-29.2325,Public Hospital,Free State,Mangaung Metropolitan Municipality,Botshabelo SD,787803
+Dr JS Moroka Hospital,26.83468,-29.2045,Public Hospital,Free State,Mangaung Metropolitan Municipality,Thaba N'chu SD,787803
+Phekolong Hospital,28.32645,-28.2176,Public Hospital,Free State,Thabo Mofutsanyana District Municipality,Dihlabeng LM,779330
+Elizabeth Ross Hospital,28.81755,-28.589,Public Hospital,Free State,Thabo Mofutsanyana District Municipality,Maluti-a-Phofung LM,779330
+Nketoana Hospital,28.41893,-27.8028,Public Hospital,Free State,Thabo Mofutsanyana District Municipality,Nketoana LM,779330
+JD Newberry Hospital,27.57423,-28.91,Public Hospital,Free State,Thabo Mofutsanyana District Municipality,Setsoto LM,779330
+Phuthuloha Hospital,27.87202,-28.8813,Public Hospital,Free State,Thabo Mofutsanyana District Municipality,Setsoto LM,779330
+Albert Nzula Dist Hospital,25.789656,-30.0348,Public Hospital,Free State,Xhariep District Municipality,Kopanong LM,125884
+Universitas (C) Hospital,26.18432,-29.118,Public Hospital,Free State,Mangaung Metropolitan Municipality,Bloemfontein SD,787803
+Pelonomi Hospital,26.24572,-29.1413,Public Hospital,Free State,Mangaung Metropolitan Municipality,Bloemfontein SD,787803
+Boitumelo Hospital,27.213172,-27.644,Public Hospital,Free State,Fezile Dabi District Municipality,Moqhaka LM,494777
+Bongani Hospital,26.7862,-27.9531,Public Hospital,Free State,Lejweleputswa District Municipality,Matjhabeng LM,646920
+MM Mopeli Hospital,28.80507,-28.537,Public Hospital,Free State,Thabo Mofutsanyana District Municipality,Maluti-a-Phofung LM,779330
+Busamed BFIA Hospital,?,?,Private Hospital,Free State,Mangaung Metropolitan Municipality,Bloemfontein SD,787803
+Koster Hospital,26.894543,-25.8563,Public Hospital,North West,Bojanala Platinum District Municipality,Kgetlengrivier LM,1657148
+Brits Hospital,27.78452,-25.6314,Public Hospital,North West,Bojanala Platinum District Municipality,Madibeng LM,1657148
+M Kotane Hospital,27.058001,-25.3809,Public Hospital,North West,Bojanala Platinum District Municipality,Moses Kotane LM,1657148
+Nic Bodenstein Hospital,25.982959,-27.1893,Public Hospital,North West,Dr Kenneth Kaunda District Municipality,Maquassi Hills LM,742821
+Taung Hospital,24.79175,-27.5377,Public Hospital,North West,Dr Ruth Segomotsi Mompati District Municipality,Greater Taung LM,459357
+Ganyesa Hospital,24.13858,-26.5449,Public Hospital,North West,Dr Ruth Segomotsi Mompati District Municipality,Kagisano-Molopo LM,459357
+Christiana Hospital,25.174237,-27.9081,Public Hospital,North West,Dr Ruth Segomotsi Mompati District Municipality,Lekwa-Teemane LM,459357
+Schweizer-Ren Hospital,25.32879,-27.1818,Public Hospital,North West,Dr Ruth Segomotsi Mompati District Municipality,Mamusa LM,459357
+Genl de la Rey Hospital,26.15132,-26.1475,Public Hospital,North West,Ngaka Modiri Molema District Municipality,Ditsobotla LM,889108
+Thusong Hospital,25.948932,-26.0546,Public Hospital,North West,Ngaka Modiri Molema District Municipality,Ditsobotla LM,889108
+Gelukspan Hospital,25.598981,-26.199,Public Hospital,North West,Ngaka Modiri Molema District Municipality,Mahikeng LM,889108
+Lehurutshe Hospital,25.981507,-25.4767,Public Hospital,North West,Ngaka Modiri Molema District Municipality,R Moiloa LM,889108
+Zeerust Hospital,26.06647,-25.5428,Public Hospital,North West,Ngaka Modiri Molema District Municipality,R Moiloa LM,889108
+Witrand Psych Hospital,27.09142,-26.7139,Public Hospital,North West,Dr Kenneth Kaunda District Municipality,JB Marks LM,742821
+Bophelong Psych Hospital,25.65407,-25.8837,Public Hospital,North West,Ngaka Modiri Molema District Municipality,Mahikeng LM,889108
+Potchefstroom Hospital,27.08418,-26.7286,Public Hospital,North West,Dr Kenneth Kaunda District Municipality,JB Marks LM,742821
+J Morolong Mem Hospital,24.71612,-26.9572,Public Hospital,North West,Dr Ruth Segomotsi Mompati District Municipality,Naledi LM,459357
+Mahikeng Prov Hospital,25.65794,-25.8842,Public Hospital,North West,Ngaka Modiri Molema District Municipality,Mahikeng LM,889108
+Prof ZK Matthews Hospital,24.51488,-28.54,Public Hospital,Northern Cape,Frances Baard District Municipality,Dikgatlong LM,387741
+Kuruman Hospital,23.443659,-27.4602,Public Hospital,Northern Cape,John Taolo Gaetsewe District Municipality,Ga-Segonyana LM,242264
+Calvinia Hospital,19.77654,-31.4618,Public Hospital,Northern Cape,Namakwa District Municipality,Hantam LM,115488
+Springbok Hospital,17.88323,-29.6605,Public Hospital,Northern Cape,Namakwa District Municipality,Nama Khoi LM,115488
+De Aar Hospital,24.00825,-30.6596,Public Hospital,Northern Cape,Pixley ka Seme District Municipality,Emthanjeni LM,195595
+RM Sobukwe Hospital,24.77263,-28.746,Public Hospital,Northern Cape,Frances Baard District Municipality,Sol Plaatje LM,387741
