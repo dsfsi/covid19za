@@ -5,7 +5,7 @@ type ConfirmedCase struct {
 	Date             string `json:"date"`
 	Timestamp        string `json:"timestamp"`
 	Country          string `json:"country"`
-	Province         string `json:"province"`
+	Province         string `json:"validators"`
 	GeoSubdivision   string `json:"geo_subdivision"`
 	Age              string `json:"age"`
 	Gender           string `json:"gender"`
