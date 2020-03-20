@@ -17,6 +17,9 @@ See [LICENSE](LICENSE.md)
 * 16-03-2020 - https://sacoronavirus.co.za/2020/03/16/statement-by-the-minister-covid-19-16-march-2020/
 * 17-03-2020 - https://sacoronavirus.co.za/2020/03/17/latest-confirmed-cases-of-covid-19-17-march-2020/
 * 18-03-2020 - https://sacoronavirus.co.za/2020/03/18/latest-confirmed-cases-of-covid-19-18th-march-2020/
+* 19-03-2020 - http://www.nicd.ac.za/covid-19-update-21/
+* 20-03-2020 - http://www.nicd.ac.za/covid-19-update-22/
+
 
 ### Testing
 * NICD Inforgraphics from their Twitter Account
