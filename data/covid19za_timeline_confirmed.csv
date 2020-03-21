@@ -1,7 +1,7 @@
 case_id,date,YYYYMMDD,country,province,geo_subdivision,age,gender,transmission_type
 1,05-03-2020,20200305,South Africa,KZN,ZA-KZN,38,male,Travelled to Italy
 2,07-03-2020,20200307,South Africa,GP,ZA-GP,39,female,Travelled to Italy
-3,08-03-2020,20200308,South Africa,KZN,ZA-KZN,,female,Travelled to Italy
+3,08-03-2020,20200308,South Africa,KZN,ZA-KZN,38,female,Travelled to Italy
 4,09-03-2020,20200309,South Africa,KZN,ZA-KZN,38,male,Travelled to Italy
 5,09-03-2020,20200309,South Africa,KZN,ZA-KZN,38,female,Travelled to Italy
 6,09-03-2020,20200309,South Africa,KZN,ZA-KZN,45,male,Travelled to Italy
