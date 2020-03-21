@@ -201,3 +201,41 @@ case_id,date,YYYYMMDD,country,province,geo_subdivision,age,gender,transmission_t
 200,20-03-2020,20200320,South Africa,WC,ZA-WC,62,not specified,Travelled to the United Kingdom Austria and Switzerland
 201,20-03-2020,20200320,South Africa,WC,ZA-WC,63,male,Travelled to the United Kingdom and Italy
 202,20-03-2020,20200320,South Africa,KZN,ZA-KZN,29,female,with pending travel history
+203,21-03-2020,20200321,South Africa,EC,ZA-EC,28,female,Travelled to Germany
+204,21-03-2020,20200321,South Africa,GP,ZA-GP,,male,Travelled to France
+205,21-03-2020,20200321,South Africa,GP,ZA-GP,55,male,with pending travel history
+206,21-03-2020,20200321,South Africa,GP,ZA-GP,26,male,with pending travel history
+207,21-03-2020,20200321,South Africa,GP,ZA-GP,34,female,with pending travel history
+208,21-03-2020,20200321,South Africa,GP,ZA-GP,43,female,with pending travel history
+209,21-03-2020,20200321,South Africa,GP,ZA-GP,61,male,with pending travel history
+210,21-03-2020,20200321,South Africa,GP,ZA-GP,6,male,with pending travel history
+211,21-03-2020,20200321,South Africa,GP,ZA-GP,29,female,with pending travel history
+212,21-03-2020,20200321,South Africa,GP,ZA-GP,45,female,with pending travel history
+213,21-03-2020,20200321,South Africa,GP,ZA-GP,64,female,with pending travel history
+214,21-03-2020,20200321,South Africa,GP,ZA-GP,67,male,Travelled to France and Ethiopia
+215,21-03-2020,20200321,South Africa,GP,ZA-GP,39,male,Travelled to UK
+216,21-03-2020,20200321,South Africa,GP,ZA-GP,42,female,Travelled to Belgium and the Netherlands
+217,21-03-2020,20200321,South Africa,GP,ZA-GP,41,male,Travelled to France and Italy
+218,21-03-2020,20200321,South Africa,GP,ZA-GP,37,female,with pending travel history
+219,21-03-2020,20200321,South Africa,GP,ZA-GP,30,female,Travelled to UK and Netherlands
+220,21-03-2020,20200321,South Africa,KZN,ZA-KZN,59,male,with pending travel history
+221,21-03-2020,20200321,South Africa,KZN,ZA-KZN,68,male,with pending travel history
+222,21-03-2020,20200321,South Africa,KZN,ZA-KZN,26,female,Travelled to UK and USA
+223,21-03-2020,20200321,South Africa,WC,ZA-WC,30,female,Travelled to Ireland
+224,21-03-2020,20200321,South Africa,WC,ZA-WC,57,female,Travelled to Germany and Switzerland
+225,21-03-2020,20200321,South Africa,WC,ZA-WC,55,male,Travelled to France and Switzerland
+226,21-03-2020,20200321,South Africa,WC,ZA-WC,74,female,Travelled to UK
+227,21-03-2020,20200321,South Africa,WC,ZA-WC,52,male,with pending travel history
+228,21-03-2020,20200321,South Africa,WC,ZA-WC,44,male,Travelled to the USA
+229,21-03-2020,20200321,South Africa,WC,ZA-WC,26,female,Travelled to UK
+230,21-03-2020,20200321,South Africa,WC,ZA-WC,57,male,Travelled to Spain
+231,21-03-2020,20200321,South Africa,WC,ZA-WC,36,male,Travelled to UK and France
+232,21-03-2020,20200321,South Africa,WC,ZA-WC,40,female,with pending travel history
+233,21-03-2020,20200321,South Africa,WC,ZA-WC,52,female,Travelled to UK
+234,21-03-2020,20200321,South Africa,WC,ZA-WC,48,female,Travelled to UK
+235,21-03-2020,20200321,South Africa,WC,ZA-WC,39,male,Travelled to Dublin and Ireland
+236,21-03-2020,20200321,South Africa,WC,ZA-WC,36,male,with pending travel history
+237,21-03-2020,20200321,South Africa,WC,ZA-WC,55,female,with pending travel history
+238,21-03-2020,20200321,South Africa,WC,ZA-WC,45,male,Travelled to Germany and Austria
+239,21-03-2020,20200321,South Africa,WC,ZA-WC,65,female,Travelled to UK
+240,21-03-2020,20200321,South Africa,WC,ZA-WC,34,male,with pending travel history
