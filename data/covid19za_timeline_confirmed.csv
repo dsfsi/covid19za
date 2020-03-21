@@ -188,7 +188,7 @@ case_id,date,YYYYMMDD,country,province,geo_subdivision,age,gender,transmission_t
 187,20-03-2020,20200320,South Africa,FS,ZA-FS,52,male,Travelled to Israel
 188,20-03-2020,20200320,South Africa,FS,ZA-FS,68,male,Travelled to Israel
 189,20-03-2020,20200320,South Africa,FS,ZA-FS,74,male,with pending travel history
-190,20-03-2020,20200320,South Africa,FS,ZA-FS,32,male,with pending travel history
+190,20-03-2020,20200320,South Africa,FS,ZA-FS,32,female,with pending travel history
 191,20-03-2020,20200320,South Africa,WC,ZA-WC,31,female,Travelled to the United Kingdom
 192,20-03-2020,20200320,South Africa,WC,ZA-WC,34,not specified,Travelled to the Netherlands
 193,20-03-2020,20200320,South Africa,WC,ZA-WC,26,not specified,Travelled to the Netherlands
