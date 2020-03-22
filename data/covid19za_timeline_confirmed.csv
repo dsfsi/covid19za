@@ -239,3 +239,37 @@ case_id,date,YYYYMMDD,country,province,geo_subdivision,age,gender,transmission_t
 238,21-03-2020,20200321,South Africa,WC,ZA-WC,45,male,Travelled to Germany and Austria,travel
 239,21-03-2020,20200321,South Africa,WC,ZA-WC,65,female,Travelled to UK,travel
 240,21-03-2020,20200321,South Africa,WC,ZA-WC,34,male,with pending travel history,pending
+241,22-03-2020,20200322,South Africa,EC,ZA-EC,22,male,Travelled to Austria Germany and the United Kingdom,travel
+242,22-03-2020,20200322,South Africa,FS,ZA-FS,49,female,with no international travel history,local
+243,22-03-2020,20200322,South Africa,FS,ZA-FS,26,male,with pending travel history,pending
+244,22-03-2020,20200322,South Africa,GP,ZA-GP,58,male,Travelled to Pakistan and Dubai,travel
+245,22-03-2020,20200322,South Africa,GP,ZA-GP,49,male,with no international travel history,local
+246,22-03-2020,20200322,South Africa,GP,ZA-GP,28,female,with no international travel history,local
+247,22-03-2020,20200322,South Africa,GP,ZA-GP,24,male,with no international travel history,local
+248,22-03-2020,20200322,South Africa,GP,ZA-GP,33,female,Travelled to the United Kingdom,travel
+249,22-03-2020,20200322,South Africa,GP,ZA-GP,22,male,Travelled to Mauritius,travel
+250,22-03-2020,20200322,South Africa,GP,ZA-GP,40,male,with pending travel history,pending
+251,22-03-2020,20200322,South Africa,KZN,ZA-KZN,39,male,Travelled to the United Kingdom Austria and Dubai,travel
+252,22-03-2020,20200322,South Africa,KZN,ZA-KZN,47,male,Travelled to France,travel
+253,22-03-2020,20200322,South Africa,KZN,ZA-KZN,45,male,Travelled to Germany France Switzerland and Austria,travel
+254,22-03-2020,20200322,South Africa,KZN,ZA-KZN,40,male,Travelled to France and Austria,travel
+255,22-03-2020,20200322,South Africa,KZN,ZA-KZN,44,male,with no international travel history,local
+256,22-03-2020,20200322,South Africa,KZN,ZA-KZN,55,male,with pending travel history,pending
+257,22-03-2020,20200322,South Africa,KZN,ZA-KZN,68,male,Travelled to Austria,travel
+258,22-03-2020,20200322,South Africa,KZN,ZA-KZN,49,female,with no international travel history,local
+259,22-03-2020,20200322,South Africa,KZN,ZA-KZN,32,female,Travelled to Italy,travel
+260,22-03-2020,20200322,South Africa,LIM,ZA-LIM,25,male,Travelled to France Germany and the Netherlands,travel
+261,22-03-2020,20200322,South Africa,WC,ZA-WC,44,female,Travelled to the United Kingdom Austria and Dubai,travel
+262,22-03-2020,20200322,South Africa,WC,ZA-WC,33,female,with no international travel history,local
+263,22-03-2020,20200322,South Africa,WC,ZA-WC,24,female,with no international travel history,local
+264,22-03-2020,20200322,South Africa,WC,ZA-WC,53,female,Travelled to the United Kingdom,travel
+265,22-03-2020,20200322,South Africa,WC,ZA-WC,57,male,Travelled to the United Kingdom,travel
+266,22-03-2020,20200322,South Africa,WC,ZA-WC,30,male,Travelled to Italy and Switzerland,travel
+267,22-03-2020,20200322,South Africa,WC,ZA-WC,28,female,Travelled to Italy and Switzerland,travel
+268,22-03-2020,20200322,South Africa,WC,ZA-WC,62,male,Travelled to Switzerland,travel
+269,22-03-2020,20200322,South Africa,WC,ZA-WC,30,male,with no international travel history,local
+270,22-03-2020,20200322,South Africa,WC,ZA-WC,71,male,Travelled to Portugal,travel
+271,22-03-2020,20200322,South Africa,WC,ZA-WC,47,female,with no international travel history,local
+272,22-03-2020,20200322,South Africa,WC,ZA-WC,57,male,with no international travel history,local
+273,22-03-2020,20200322,South Africa,WC,ZA-WC,54,male,Travelled to Italy,travel
+274,22-03-2020,20200322,South Africa,WC,ZA-WC,49,female,Travelled to Italy,travel
