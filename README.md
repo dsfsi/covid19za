@@ -43,3 +43,22 @@ Code [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](http
 
 ## Contact
 * Vukosi Marivate - vukosi.marivate@cs.up.ac.za, [@vukosi](https://twitter.com/vukosi)
+
+## Citing the dataset
+
+> @dataset{marivate_vukosi_2020_3723347,
+  author       = {Marivate, Vukosi and
+                  de Waal, Alta and
+                  Combrink, Herkulaas and
+                  Lebogo, Ofentswe and
+                  Moodley, Shivan and
+                  Mtsweni, Nompumelelo and
+                  Rikhotso, Vuthlari},
+  title        = {{Coronavirus disease (COVID-19) case data - South 
+                   Africa}},
+  month        = mar,
+  year         = 2020,
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.3723347},
+  url          = {https://doi.org/10.5281/zenodo.3723347}
+}
