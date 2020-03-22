@@ -13,6 +13,7 @@ func main() {
 	api := echo.New()
 	api.Use(middleware.Logger())
 	api.Use(middleware.Recover())
+	api.Use(middleware.CORS())
 	api.Use(middleware.GzipWithConfig(middleware.GzipConfig{
 		Level: 5,
 	}))
