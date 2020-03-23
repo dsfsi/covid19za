@@ -61,5 +61,5 @@ Code [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](http
   year         = 2020,
   publisher    = {Zenodo},
   doi          = {10.5281/zenodo.3723347},
-  url          = {https://doi.org/10.5281/zenodo.3723347}
+  url          = {[http://doi.org/10.5281/zenodo.3724083](http://doi.org/10.5281/zenodo.3724083)}
 }
