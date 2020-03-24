@@ -15,13 +15,32 @@ go go run main.go
 
 ## API
 
+The hosted API can be found on [https://covid-za-api.herokuapp.com](https://covid-za-api.herokuapp.com).
+
 #### /cases/confirmed
 * `GET` : Get all confirmed cases
+
+#### /cases/confirmed?province={province}
+* `GET` : Get all confirmed cases in a province
+
+### Example Usage
+
+You can get the confirmed cases by performing a `GET` request to:
+
+```
+https://covid-za-api.herokuapp.com/cases/confirmed
+```
+
+You can get the confirmed cases in Gauteng (`GP`) by performing a `GET` request to:
+
+```
+https://covid-za-api.herokuapp.com/cases/confirmed?province=GP
+```
 
 ## Todo
 
 - [x] Expose an endpoint to get all confirmed cases.
-- [ ] Expose an endpoint to get confirmed cases by province.
+- [x] Allow filtering by province on the confirmed cases endpoint.
 - [ ] Expose an endpoint to get all fatalities.
 - [ ] Expose an endpoint to get all available hospitals.
-- [ ] Expose an endpoint to get hospitals by province.
+- [ ] Allow filtering by province on the hospitals endpoint.
