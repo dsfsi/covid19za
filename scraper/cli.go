@@ -19,7 +19,7 @@ import (
 func Init(args []string) {
 	fmt.Println("[WARNING] Please note that media statements prior to (16-03-2020) may not be parseable due to inconsistent html formatting")
 	if len(args) == 0 {
-		log.Fatal("[ERROR] Please pass an argument to the tool {nicd, sacovid}")
+		log.Fatal("[ERROR] Please pass an argument to the tool {nicd, cov}")
 	}
 	parse(args[0])
 }
@@ -29,7 +29,7 @@ func invalidArgs() {
 }
 
 func parse(opt string) {
-	fmt.Println("[INFO] Selected " + NEWSROOM)
+	fmt.Println("[INFO] Selected " + opt)
 	prevID := establishContext()
 	if strings.EqualFold(opt, "nicd") {
 		results := Crawl(Request(NEWSROOM), "1")
@@ -182,7 +182,9 @@ func ParseNICD(r Result, id int) []Instance {
 			dateString = s.Text()
 		}
 	})
+	
 	doc.Find("strong").Each(func(i int, s *goquery.Selection) {
+		fmt.Println(s.Text())
 		selections := s.Parent().Next().Find("li")
 		if selections != nil {
 			selections.Each(func(i int, is *goquery.Selection) {
