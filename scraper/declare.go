@@ -85,7 +85,7 @@ type Date struct {
 
 var BIOGRAPHICAL = regexp.MustCompile("A.*male")
 var NO_GENDER_FOUND = regexp.MustCompile("A.*-year-old")
-var AGE = regexp.MustCompile("[0-9]+")
+var AGE = regexp.MustCompile("[0-9]+|[x]")
 var GENDER = regexp.MustCompile("male|female")
 
 // this breaks if the date format changes on the gov site
