@@ -1,203 +1,241 @@
-case_id,date,YYYYMMDD,country,province,geo_subdivision,age,gender,transmission_type
-1,05-03-2020,20200305,South Africa,KZN,ZA-KZN,38,male,Travelled to Italy
-2,07-03-2020,20200307,South Africa,GP,ZA-GP,39,female,Travelled to Italy
-3,08-03-2020,20200308,South Africa,KZN,ZA-KZN,,female,Travelled to Italy
-4,09-03-2020,20200309,South Africa,KZN,ZA-KZN,38,male,Travelled to Italy
-5,09-03-2020,20200309,South Africa,KZN,ZA-KZN,38,female,Travelled to Italy
-6,09-03-2020,20200309,South Africa,KZN,ZA-KZN,45,male,Travelled to Italy
-7,09-03-2020,20200309,South Africa,KZN,ZA-KZN,38,male,Travelled to Italy
-8,11-03-2020,20200311,South Africa,GP,ZA-GP,33,female,Travelled to Italy
-9,11-03-2020,20200311,South Africa,GP,ZA-GP,33,female,Travelled to Germany
-10,11-03-2020,20200311,South Africa,GP,ZA-GP,34,male,Travelled to Germany
-11,11-03-2020,20200311,South Africa,GP,ZA-GP,57,male,Travelled to Austria and Italy
-12,11-03-2020,20200311,South Africa,KZN,ZA-KZN,40,male,Travelled to Portugal
-13,11-03-2020,20200311,South Africa,WC,ZA-WC,36,male,Travelled to Germany; Austria; Switzerland and Turkey
-14,12-03-2020,20200312,South Africa,KZN,ZA-KZN,38,male,Visiting resident of Turkey travelled to UK
-15,12-03-2020,20200312,South Africa,MP,ZA-MP,27,female,Travelled to USA
-16,12-03-2020,20200312,South Africa,GP,ZA-GP,43,male,Travelled to USA
-17,13-03-2020,20200313,South Africa,GP,ZA-GP,39,female,Travelled to Switzerland and Austria
-18,13-03-2020,20200313,South Africa,GP,ZA-GP,50,male,Travelled to Austria
-19,13-03-2020,20200313,South Africa,GP,ZA-GP,21,female,Travelled to Italy
-20,13-03-2020,20200313,South Africa,GP,ZA-GP,57,male,Travelled to Switzerland
-21,13-03-2020,20200313,South Africa,KZN,ZA-KZN,79,male,Travelled to Greece and Italy
-22,13-03-2020,20200313,South Africa,KZN,ZA-KZN,52,male,Travelled to Switzerland
-23,13-03-2020,20200313,South Africa,WC,ZA-WC,50,male,Travelled to Switzerland and Austria
-24,13-03-2020,20200313,South Africa,WC,ZA-WC,46,male,Travelled to Italy
-25,14-03-2020,20200314,South Africa,GP,ZA-GP,76,male,Travelled to USA and UK
-26,14-03-2020,20200314,South Africa,GP,ZA-GP,72,female,Travelled to USA and UK
-27,14-03-2020,20200314,South Africa,GP,ZA-GP,47,male,Travelled to USA and UK
-28,14-03-2020,20200314,South Africa,GP,ZA-GP,52,male,Travelled to Germany
-29,14-03-2020,20200314,South Africa,GP,ZA-GP,38,male,Travelled to Netherlands and Germany
-30,14-03-2020,20200314,South Africa,GP,ZA-GP,62,male,Travelled to Netherlands
-31,14-03-2020,20200314,South Africa,GP,ZA-GP,19,female,Travelled to France and Italy
-32,14-03-2020,20200314,South Africa,WC,ZA-WC,27,male,Travelled to Brazil
-33,14-03-2020,20200314,South Africa,WC,ZA-WC,33,female,Travelled to France
-34,14-03-2020,20200314,South Africa,WC,ZA-WC,49,male,Travelled to France and Italy
-35,14-03-2020,20200314,South Africa,WC,ZA-WC,14,female,Travelled to USA and Dubai
-36,14-03-2020,20200314,South Africa,WC,ZA-WC,73,male,Travelled to UK
-37,14-03-2020,20200314,South Africa,WC,ZA-WC,32,male,Travelled to UK
-38,14-03-2020,20200314,South Africa,KZN,ZA-KZN,47,male,Travelled to Switzerland
-39,15-03-2020,20200315,South Africa,GP,ZA-GP,60,male,Travelled to Iran
-40,15-03-2020,20200315,South Africa,GP,ZA-GP,36,male,Travelled to UK
-41,15-03-2020,20200315,South Africa,GP,ZA-GP,54,male,Travelled to Switzerland
-42,15-03-2020,20200315,South Africa,GP,ZA-GP,27,male,Travelled to UK
-43,15-03-2020,20200315,South Africa,GP,ZA-GP,21,female,Travelled to Germany
-44,15-03-2020,20200315,South Africa,GP,ZA-GP,53,female,Travelled to Germany
-45,15-03-2020,20200315,South Africa,GP,ZA-GP,29,male,Travelled to Switzerland
-46,15-03-2020,20200315,South Africa,WC,ZA-WC,35,female,Travelled to Germany and Austria
-47,15-03-2020,20200315,South Africa,WC,ZA-WC,42,female,Travelled to Spain; Switzerland and UK
-48,15-03-2020,20200315,South Africa,WC,ZA-WC,50,male,Travelled to Netherlands
-49,15-03-2020,20200315,South Africa,WC,ZA-WC,39,male,Travelled to Switzerland
-50,15-03-2020,20200315,South Africa,WC,ZA-WC,35,male,Travelled to Austria
-51,15-03-2020,20200315,South Africa,KZN,ZA-KZN,34,male,Travelled to UK
-52,16-03-2020,20200316,South Africa,LP,ZA-LP,29,male,Travelled to France and Netherlands
-53,16-03-2020,20200316,South Africa,WC,ZA-WC,39,male,Travelled to Canada
-54,16-03-2020,20200316,South Africa,WC,ZA-WC,15,male,Travelled to France
-55,16-03-2020,20200316,South Africa,GP,ZA-GP,33,male,Travelled to Spain
-56,16-03-2020,20200316,South Africa,GP,ZA-GP,68,female,Travelled to Austria
-57,16-03-2020,20200316,South Africa,GP,ZA-GP,30,male,Travelled to India
-58,16-03-2020,20200316,South Africa,GP,ZA-GP,39,male,Travelled to USA
-59,16-03-2020,20200316,South Africa,GP,ZA-GP,43,female,Travelled to USA
-60,16-03-2020,20200316,South Africa,GP,ZA-GP,50,male,Travelled to France and UK
-61,16-03-2020,20200316,South Africa,GP,ZA-GP,37,male,Travelled to USA; Mexico and Dubai
-62,16-03-2020,20200316,South Africa,MP,ZA-MP,55,male,Travelled to France
-63,17-03-2020,20200317,South Africa,GP,ZA-GP,45,male,Travelled to Belgium; UK; France and US
-64,17-03-2020,20200317,South Africa,GP,ZA-GP,37,male,Travelled to UK
-65,17-03-2020,20200317,South Africa,GP,ZA-GP,54,female,Travelled to USA
-66,17-03-2020,20200317,South Africa,GP,ZA-GP,52,male,Travelled to UK
-67,17-03-2020,20200317,South Africa,GP,ZA-GP,25,male,Travelled to UK
-68,17-03-2020,20200317,South Africa,GP,ZA-GP,52,female,Travelled to Italy
-69,17-03-2020,20200317,South Africa,GP,ZA-GP,59,male,Travelled to UK and Dubai
-70,17-03-2020,20200317,South Africa,GP,ZA-GP,57,male,Travelled to USA
-71,17-03-2020,20200317,South Africa,GP,ZA-GP,60,male,Travelled to USA
-72,17-03-2020,20200317,South Africa,GP,ZA-GP,37,female,Travelled to Italy and Dubai
-73,17-03-2020,20200317,South Africa,GP,ZA-GP,21,female,no travel history
-74,17-03-2020,20200317,South Africa,GP,ZA-GP,34,male,no international travel history
-75,17-03-2020,20200317,South Africa,GP,ZA-GP,26,female,no international travel history
-76,17-03-2020,20200317,South Africa,GP,ZA-GP,32,female,no international travel history
-77,17-03-2020,20200317,South Africa,KZN,ZA-KZN,48,male,Travelled to Dubai
-78,17-03-2020,20200317,South Africa,KZN,ZA-KZN,59,female,no international travel history
-79,17-03-2020,20200317,South Africa,KZN,ZA-KZN,5,male,no international travel history
-80,17-03-2020,20200317,South Africa,KZN,ZA-KZN,3,male,no international travel history
-81,17-03-2020,20200317,South Africa,WC,ZA-WC,3,male,Travelled to UK
-82,17-03-2020,20200317,South Africa,WC,ZA-WC,58,male,Travelled to UK and Austria
-83,17-03-2020,20200317,South Africa,WC,ZA-WC,2,male,no international travel history
-84,17-03-2020,20200317,South Africa,WC,ZA-WC,62,female,Travelled to the UK and Ethiopia
-85,17-03-2020,20200317,South Africa,WC,ZA-WC,71,female,Travelled to the UK
-86,18-03-2020,20200318,South Africa,GP,ZA-GP,25,male,Travelled to the UK
-87,18-03-2020,20200318,South Africa,GP,ZA-GP,45,male,Travelled to the Austria
-88,18-03-2020,20200318,South Africa,GP,ZA-GP,52,male,Travelled to the Austria and Italy
-89,18-03-2020,20200318,South Africa,GP,ZA-GP,49,female,Travelled to the Austria and Italy
-91,18-03-2020,20200318,South Africa,GP,ZA-GP,35,male,Travelled to the UK and Netherlands
-92,18-03-2020,20200318,South Africa,GP,ZA-GP,34,female,Travelled to the UK
-93,18-03-2020,20200318,South Africa,GP,ZA-GP,30,female,Travelled to the Switzerland and Austria
-94,18-03-2020,20200318,South Africa,GP,ZA-GP,36,female,Travelled to the Switzerland and Austria
-95,18-03-2020,20200318,South Africa,GP,ZA-GP,30,female,Travelled to the Italy
-96,18-03-2020,20200318,South Africa,GP,ZA-GP,35,male,Travelled to the Italy
-97,18-03-2020,20200318,South Africa,GP,ZA-GP,34,male,Travelled to the Italy
-98,18-03-2020,20200318,South Africa,GP,ZA-GP,37,male,Travelled to the Finland and France
-99,18-03-2020,20200318,South Africa,GP,ZA-GP,20,male,no international travel history
-100,18-03-2020,20200318,South Africa,GP,ZA-GP,3,male,no international travel history
-101,18-03-2020,20200318,South Africa,GP,ZA-GP,21,female,no international travel history
-102,18-03-2020,20200318,South Africa,GP,ZA-GP,71,female,no international travel history
-103,18-03-2020,20200318,South Africa,KZN,ZA-KZN,59,male,Travelled to the Austria and Italy
-104,18-03-2020,20200318,South Africa,KZN,ZA-KZN,54,male,Travelled to the Italy
-105,18-03-2020,20200318,South Africa,KZN,ZA-KZN,55,male,Travelled to the Italy
-106,18-03-2020,20200318,South Africa,MP,ZA-MP,64,male,Travelled to the Italy
-107,18-03-2020,20200318,South Africa,MP,ZA-MP,56,female,no international travel history
-108,18-03-2020,20200318,South Africa,WC,ZA-WC,2,male,Travelled to New Zealand
-109,18-03-2020,20200318,South Africa,WC,ZA-WC,51,male,Travelled to Egypt and Dubai
-110,18-03-2020,20200318,South Africa,WC,ZA-WC,34,female,Travelled to Switzerland and Dubai
-110,18-03-2020,20200318,South Africa,WC,ZA-WC,27,female,Travelled to Switzerland and Dubai
-111,18-03-2020,20200318,South Africa,WC,ZA-WC,60,male,Travelled to Portugal and UK
-112,18-03-2020,20200318,South Africa,WC,ZA-WC,51,male,Travelled to UK
-113,18-03-2020,20200318,South Africa,WC,ZA-WC,54,female,Travelled to Portugal and UK
-114,18-03-2020,20200318,South Africa,WC,ZA-WC,51,male,Travelled to UK
-115,18-03-2020,20200318,South Africa,WC,ZA-WC,26,female,Travelled to UK
-116,18-03-2020,20200318,South Africa,WC,ZA-WC,26,male,no international travel history
-117,19-03-2020,20200319,South Africa,GP,ZA-GP,41,female,Travelled to the Democratic Republic of Congo
-118,19-03-2020,20200319,South Africa,GP,ZA-GP,43,female,Travelled to the Democratic Republic of Congo
-119,19-03-2020,20200319,South Africa,GP,ZA-GP,37,female,with no international travel history
-120,19-03-2020,20200319,South Africa,GP,ZA-GP,54,female,Travelled to the United Kingdom
-121,19-03-2020,20200319,South Africa,GP,ZA-GP,58,male,Travelled to the United Kingdom
-122,19-03-2020,20200319,South Africa,GP,ZA-GP,38,male,Travelled to France
-123,19-03-2020,20200319,South Africa,GP,ZA-GP,70,female,Travelled to the United States of America
-124,19-03-2020,20200319,South Africa,GP,ZA-GP,30,male,Travelled to Spain
-125,19-03-2020,20200319,South Africa,GP,ZA-GP,45,male,Travelled to the Democratic Republic of Congo
-126,19-03-2020,20200319,South Africa,GP,ZA-GP,85,male,Travelled to Switzerland
-127,19-03-2020,20200319,South Africa,GP,ZA-GP,64,male,Travelled to Vietnam and Thailand
-128,19-03-2020,20200319,South Africa,GP,ZA-GP,41,male,Travelled to the Netherlands
-129,19-03-2020,20200319,South Africa,GP,ZA-GP,23,male,with pending travel history
-130,19-03-2020,20200319,South Africa,GP,ZA-GP,5,female,with pending travel history
-131,19-03-2020,20200319,South Africa,GP,ZA-GP,44,male,with pending travel history
-132,19-03-2020,20200319,South Africa,KZN,ZA-KZN,71,female,Travelled to the United Kingdom
-133,19-03-2020,20200319,South Africa,KZN,ZA-KZN,26,male,Travelled to Mexico and the United States of America
-134,19-03-2020,20200319,South Africa,KZN,ZA-KZN,29,female,with pending travel history
-135,19-03-2020,20200319,South Africa,MP,ZA-MP,56,female,Travelled to France
-136,19-03-2020,20200319,South Africa,WC,ZA-WC,53,female,Travelled to the United Kingdom
-137,19-03-2020,20200319,South Africa,WC,ZA-WC,30,female,Travelled to the Netherlands and Qatar
-138,19-03-2020,20200319,South Africa,WC,ZA-WC,45,male,Travelled to Mexico
-139,19-03-2020,20200319,South Africa,WC,ZA-WC,70,female,Travelled to the United States of America
-140,19-03-2020,20200319,South Africa,WC,ZA-WC,25,female,Travelled to the United Kingdom
-141,19-03-2020,20200319,South Africa,WC,ZA-WC,37,female,Travelled to the United Kingdom
-142,19-03-2020,20200319,South Africa,WC,ZA-WC,43,female,Travelled to the United States of America
-143,19-03-2020,20200319,South Africa,WC,ZA-WC,31,male,Travelled to Spain and the Netherlands
-144,19-03-2020,20200319,South Africa,WC,ZA-WC,53,female,Travelled to Switzerland; Austria;  Czech Republic and Germany
-145,19-03-2020,20200319,South Africa,WC,ZA-WC,22,female,Travelled to the United Kingdom
-146,19-03-2020,20200319,South Africa,WC,ZA-WC,63,male,Travelled to Switzerland; Czech Republic and Germany
-147,19-03-2020,20200319,South Africa,WC,ZA-WC,22,male,Travelled to Spain and the Netherlands
-148,19-03-2020,20200319,South Africa,WC,ZA-WC,32,male,Travelled to the United States of America
-149,19-03-2020,20200319,South Africa,WC,ZA-WC,37,male,with pending travel history
-150,19-03-2020,20200319,South Africa,WC,ZA-WC,34,male,with pending travel history
-151,20-03-2020,20200320,South Africa,GP,ZA-GP,33,male,Travelled to the United Kingdom and France
-152,20-03-2020,20200320,South Africa,GP,ZA-GP,32,female,with pending travel history
-153,20-03-2020,20200320,South Africa,GP,ZA-GP,56,male,Travelled to Switzerland
-154,20-03-2020,20200320,South Africa,GP,ZA-GP,56,female,Travelled to Switzerland
-155,20-03-2020,20200320,South Africa,GP,ZA-GP,34,female,Travelled to the United Kingdom and Austria
-156,20-03-2020,20200320,South Africa,GP,ZA-GP,34,male,Travelled to Austria
-157,20-03-2020,20200320,South Africa,GP,ZA-GP,27,male,with pending travel history
-158,20-03-2020,20200320,South Africa,GP,ZA-GP,22,female,Travelled to the United Kingdom
-159,20-03-2020,20200320,South Africa,GP,ZA-GP,31,male,with pending travel history
-160,20-03-2020,20200320,South Africa,GP,ZA-GP,52,female,Travelled to the United Kingdom
-161,20-03-2020,20200320,South Africa,GP,ZA-GP,54,male,Travelled to London
-162,20-03-2020,20200320,South Africa,GP,ZA-GP,53,male,Travelled to Austria and Switzerland
-163,20-03-2020,20200320,South Africa,GP,ZA-GP,32,female,with pending travel history
-164,20-03-2020,20200320,South Africa,GP,ZA-GP,33,male,with pending travel history
-165,20-03-2020,20200320,South Africa,GP,ZA-GP,52,male,with pending travel history
-166,20-03-2020,20200320,South Africa,GP,ZA-GP,20,male,with pending travel history
-167,20-03-2020,20200320,South Africa,GP,ZA-GP,37,male,with pending travel history
-168,20-03-2020,20200320,South Africa,GP,ZA-GP,47,female,with pending travel history
-169,20-03-2020,20200320,South Africa,GP,ZA-GP,23,male,with no international travel history
-170,20-03-2020,20200320,South Africa,GP,ZA-GP,32,male,with pending travel history
-171,20-03-2020,20200320,South Africa,GP,ZA-GP,21,male,with pending travel history
-172,20-03-2020,20200320,South Africa,GP,ZA-GP,34,female,with pending travel history
-173,20-03-2020,20200320,South Africa,GP,ZA-GP,40,female,with pending travel history
-174,20-03-2020,20200320,South Africa,GP,ZA-GP,41,male,with pending travel history
-175,20-03-2020,20200320,South Africa,GP,ZA-GP,2,male,with pending travel history
-176,20-03-2020,20200320,South Africa,GP,ZA-GP,39,male,with pending travel history
-177,20-03-2020,20200320,South Africa,GP,ZA-GP,58,male,with pending travel history
-178,20-03-2020,20200320,South Africa,GP,ZA-GP,56,male,Travelled to the United States of America
-179,20-03-2020,20200320,South Africa,GP,ZA-GP,28,male,with pending travel history
-180,20-03-2020,20200320,South Africa,GP,ZA-GP,67,male,travel to the United Kingdom
-181,20-03-2020,20200320,South Africa,GP,ZA-GP,11,male,Travelled to Spain
-182,20-03-2020,20200320,South Africa,GP,ZA-GP,30,male,Travelled to the United States of America
-183,20-03-2020,20200320,South Africa,GP,ZA-GP,53,male,Travelled to the United Kingdom
-184,20-03-2020,20200320,South Africa,FS,ZA-FS,38,male,Travelled to France
-185,20-03-2020,20200320,South Africa,FS,ZA-FS,54,male,with pending travel history
-186,20-03-2020,20200320,South Africa,FS,ZA-FS,55,male,Travelled to France
-187,20-03-2020,20200320,South Africa,FS,ZA-FS,52,male,Travelled to Israel
-188,20-03-2020,20200320,South Africa,FS,ZA-FS,68,male,Travelled to Israel
-189,20-03-2020,20200320,South Africa,FS,ZA-FS,74,male,with pending travel history
-190,20-03-2020,20200320,South Africa,FS,ZA-FS,32,male,with pending travel history
-191,20-03-2020,20200320,South Africa,WC,ZA-WC,31,female,Travelled to the United Kingdom
-192,20-03-2020,20200320,South Africa,WC,ZA-WC,34,not specified,Travelled to the Netherlands
-193,20-03-2020,20200320,South Africa,WC,ZA-WC,26,not specified,Travelled to the Netherlands
-194,20-03-2020,20200320,South Africa,WC,ZA-WC,29,not specified,with pending travel history
-195,20-03-2020,20200320,South Africa,WC,ZA-WC,69,male,Travelled to Switzerland and Dubai
-196,20-03-2020,20200320,South Africa,WC,ZA-WC,58,not specified,Travelled to the United Kingdom Austria and Tanzania
-197,20-03-2020,20200320,South Africa,WC,ZA-WC,23,male,Travelled to the United Kingdom and Germany
-198,20-03-2020,20200320,South Africa,WC,ZA-WC,43,female,Travelled to Canada and Austria
-199,20-03-2020,20200320,South Africa,WC,ZA-WC,60,male,Travelled to Saudi Arabia the United Kingdom Switzerland and Austria
-200,20-03-2020,20200320,South Africa,WC,ZA-WC,62,not specified,Travelled to the United Kingdom Austria and Switzerland
-201,20-03-2020,20200320,South Africa,WC,ZA-WC,63,male,Travelled to the United Kingdom and Italy
-202,20-03-2020,20200320,South Africa,KZN,ZA-KZN,29,female,with pending travel history
+case_id,date,YYYYMMDD,country,province,geo_subdivision,age,gender,transmission_type,type
+1,05-03-2020,20200305,South Africa,KZN,ZA-KZN,38,male,Travelled to Italy,travel
+2,07-03-2020,20200307,South Africa,GP,ZA-GP,39,female,Travelled to Italy,travel
+3,08-03-2020,20200308,South Africa,KZN,ZA-KZN,38,female,Travelled to Italy,travel
+4,09-03-2020,20200309,South Africa,KZN,ZA-KZN,38,male,Travelled to Italy,travel
+5,09-03-2020,20200309,South Africa,KZN,ZA-KZN,38,female,Travelled to Italy,travel
+6,09-03-2020,20200309,South Africa,KZN,ZA-KZN,45,male,Travelled to Italy,travel
+7,09-03-2020,20200309,South Africa,KZN,ZA-KZN,38,male,r,travel
+8,11-03-2020,20200311,South Africa,GP,ZA-GP,33,female,Travelled to Italy,travel
+9,11-03-2020,20200311,South Africa,GP,ZA-GP,33,female,Travelled to Germany,travel
+10,11-03-2020,20200311,South Africa,GP,ZA-GP,34,male,Travelled to Germany,travel
+11,11-03-2020,20200311,South Africa,GP,ZA-GP,57,male,Travelled to Austria and Italy,travel
+12,11-03-2020,20200311,South Africa,KZN,ZA-KZN,40,male,Travelled to Portugal,travel
+13,11-03-2020,20200311,South Africa,WC,ZA-WC,36,male,Travelled to Germany; Austria; Switzerland and Turkey,travel
+14,12-03-2020,20200312,South Africa,KZN,ZA-KZN,38,male,Visiting resident of Turkey travelled to UK,travel
+15,12-03-2020,20200312,South Africa,MP,ZA-MP,27,female,Travelled to USA,travel
+16,12-03-2020,20200312,South Africa,GP,ZA-GP,43,male,Travelled to USA,travel
+17,13-03-2020,20200313,South Africa,GP,ZA-GP,39,female,Travelled to Switzerland and Austria,travel
+18,13-03-2020,20200313,South Africa,GP,ZA-GP,50,male,Travelled to Austria,travel
+19,13-03-2020,20200313,South Africa,GP,ZA-GP,21,female,Travelled to Italy,travel
+20,13-03-2020,20200313,South Africa,GP,ZA-GP,57,male,Travelled to Switzerland,travel
+21,13-03-2020,20200313,South Africa,KZN,ZA-KZN,79,male,Travelled to Greece and Italy,travel
+22,13-03-2020,20200313,South Africa,KZN,ZA-KZN,52,male,Travelled to Switzerland,travel
+23,13-03-2020,20200313,South Africa,WC,ZA-WC,50,male,Travelled to Switzerland and Austria,travel
+24,13-03-2020,20200313,South Africa,WC,ZA-WC,46,male,Travelled to Italy,travel
+25,14-03-2020,20200314,South Africa,GP,ZA-GP,76,male,Travelled to USA and UK,travel
+26,14-03-2020,20200314,South Africa,GP,ZA-GP,72,female,Travelled to USA and UK,travel
+27,14-03-2020,20200314,South Africa,GP,ZA-GP,47,male,Travelled to USA and UK,travel
+28,14-03-2020,20200314,South Africa,GP,ZA-GP,52,male,Travelled to Germany,travel
+29,14-03-2020,20200314,South Africa,GP,ZA-GP,38,male,Travelled to Netherlands and Germany,travel
+30,14-03-2020,20200314,South Africa,GP,ZA-GP,62,male,Travelled to Netherlands,travel
+31,14-03-2020,20200314,South Africa,GP,ZA-GP,19,female,Travelled to France and Italy,travel
+32,14-03-2020,20200314,South Africa,WC,ZA-WC,27,male,Travelled to Brazil,travel
+33,14-03-2020,20200314,South Africa,WC,ZA-WC,33,female,Travelled to France,travel
+34,14-03-2020,20200314,South Africa,WC,ZA-WC,49,male,Travelled to France and Italy,travel
+35,14-03-2020,20200314,South Africa,WC,ZA-WC,14,female,Travelled to USA and Dubai,travel
+36,14-03-2020,20200314,South Africa,WC,ZA-WC,73,male,Travelled to UK,travel
+37,14-03-2020,20200314,South Africa,WC,ZA-WC,32,male,Travelled to UK,travel
+38,14-03-2020,20200314,South Africa,KZN,ZA-KZN,47,male,Travelled to Switzerland,travel
+39,15-03-2020,20200315,South Africa,GP,ZA-GP,60,male,Travelled to Iran,travel
+40,15-03-2020,20200315,South Africa,GP,ZA-GP,36,male,Travelled to UK,travel
+41,15-03-2020,20200315,South Africa,GP,ZA-GP,54,male,Travelled to Switzerland,travel
+42,15-03-2020,20200315,South Africa,GP,ZA-GP,27,male,Travelled to UK,travel
+43,15-03-2020,20200315,South Africa,GP,ZA-GP,21,female,Travelled to Germany,travel
+44,15-03-2020,20200315,South Africa,GP,ZA-GP,53,female,Travelled to Germany,travel
+45,15-03-2020,20200315,South Africa,GP,ZA-GP,29,male,Travelled to Switzerland,travel
+46,15-03-2020,20200315,South Africa,WC,ZA-WC,35,female,Travelled to Germany and Austria,travel
+47,15-03-2020,20200315,South Africa,WC,ZA-WC,42,female,Travelled to Spain; Switzerland and UK,travel
+48,15-03-2020,20200315,South Africa,WC,ZA-WC,50,male,Travelled to Netherlands,travel
+49,15-03-2020,20200315,South Africa,WC,ZA-WC,39,male,Travelled to Switzerland,travel
+50,15-03-2020,20200315,South Africa,WC,ZA-WC,35,male,Travelled to Austria,travel
+51,15-03-2020,20200315,South Africa,KZN,ZA-KZN,34,male,Travelled to UK,travel
+52,16-03-2020,20200316,South Africa,LP,ZA-LP,29,male,Travelled to France and Netherlands,travel
+53,16-03-2020,20200316,South Africa,WC,ZA-WC,39,male,Travelled to Canada,travel
+54,16-03-2020,20200316,South Africa,WC,ZA-WC,15,male,Travelled to France,travel
+55,16-03-2020,20200316,South Africa,GP,ZA-GP,33,male,Travelled to Spain,travel
+56,16-03-2020,20200316,South Africa,GP,ZA-GP,68,female,Travelled to Austria,travel
+57,16-03-2020,20200316,South Africa,GP,ZA-GP,30,male,Travelled to India,travel
+58,16-03-2020,20200316,South Africa,GP,ZA-GP,39,male,Travelled to USA,travel
+59,16-03-2020,20200316,South Africa,GP,ZA-GP,43,female,Travelled to USA,travel
+60,16-03-2020,20200316,South Africa,GP,ZA-GP,50,male,Travelled to France and UK,travel
+61,16-03-2020,20200316,South Africa,GP,ZA-GP,37,male,Travelled to USA; Mexico and Dubai,travel
+62,16-03-2020,20200316,South Africa,MP,ZA-MP,55,male,Travelled to France,travel
+63,17-03-2020,20200317,South Africa,GP,ZA-GP,45,male,Travelled to Belgium; UK; France and US,travel
+64,17-03-2020,20200317,South Africa,GP,ZA-GP,37,male,Travelled to UK,travel
+65,17-03-2020,20200317,South Africa,GP,ZA-GP,54,female,Travelled to USA,travel
+66,17-03-2020,20200317,South Africa,GP,ZA-GP,52,male,Travelled to UK,travel
+67,17-03-2020,20200317,South Africa,GP,ZA-GP,25,male,Travelled to UK,travel
+68,17-03-2020,20200317,South Africa,GP,ZA-GP,52,female,Travelled to Italy,travel
+69,17-03-2020,20200317,South Africa,GP,ZA-GP,59,male,Travelled to UK and Dubai,travel
+70,17-03-2020,20200317,South Africa,GP,ZA-GP,57,male,Travelled to USA,travel
+71,17-03-2020,20200317,South Africa,GP,ZA-GP,60,male,Travelled to USA,travel
+72,17-03-2020,20200317,South Africa,GP,ZA-GP,37,female,Travelled to Italy and Dubai,travel
+73,17-03-2020,20200317,South Africa,GP,ZA-GP,21,female,no travel history,local
+74,17-03-2020,20200317,South Africa,GP,ZA-GP,34,male,no international travel history,local
+75,17-03-2020,20200317,South Africa,GP,ZA-GP,26,female,no international travel history,local
+76,17-03-2020,20200317,South Africa,GP,ZA-GP,32,female,no international travel history,local
+77,17-03-2020,20200317,South Africa,KZN,ZA-KZN,48,male,Travelled to Dubai,travel
+78,17-03-2020,20200317,South Africa,KZN,ZA-KZN,59,female,no international travel history,local
+79,17-03-2020,20200317,South Africa,KZN,ZA-KZN,5,male,no international travel history,local
+80,17-03-2020,20200317,South Africa,KZN,ZA-KZN,3,male,no international travel history,local
+81,17-03-2020,20200317,South Africa,WC,ZA-WC,3,male,Travelled to UK,travel
+82,17-03-2020,20200317,South Africa,WC,ZA-WC,58,male,Travelled to UK and Austria,travel
+83,17-03-2020,20200317,South Africa,WC,ZA-WC,2,male,no international travel history,local
+84,17-03-2020,20200317,South Africa,WC,ZA-WC,62,female,Travelled to the UK and Ethiopia,travel
+85,17-03-2020,20200317,South Africa,WC,ZA-WC,71,female,Travelled to the UK,travel
+86,18-03-2020,20200318,South Africa,GP,ZA-GP,25,male,Travelled to the UK,travel
+87,18-03-2020,20200318,South Africa,GP,ZA-GP,45,male,Travelled to the Austria,travel
+88,18-03-2020,20200318,South Africa,GP,ZA-GP,52,male,Travelled to the Austria and Italy,travel
+89,18-03-2020,20200318,South Africa,GP,ZA-GP,49,female,Travelled to the Austria and Italy,travel
+91,18-03-2020,20200318,South Africa,GP,ZA-GP,35,male,Travelled to the UK and Netherlands,travel
+92,18-03-2020,20200318,South Africa,GP,ZA-GP,34,female,Travelled to the UK,travel
+93,18-03-2020,20200318,South Africa,GP,ZA-GP,30,female,Travelled to the Switzerland and Austria,travel
+94,18-03-2020,20200318,South Africa,GP,ZA-GP,36,female,Travelled to the Switzerland and Austria,travel
+95,18-03-2020,20200318,South Africa,GP,ZA-GP,30,female,Travelled to the Italy,travel
+96,18-03-2020,20200318,South Africa,GP,ZA-GP,35,male,Travelled to the Italy,travel
+97,18-03-2020,20200318,South Africa,GP,ZA-GP,34,male,Travelled to the Italy,travel
+98,18-03-2020,20200318,South Africa,GP,ZA-GP,37,male,Travelled to the Finland and France,travel
+99,18-03-2020,20200318,South Africa,GP,ZA-GP,20,male,no international travel history,local
+100,18-03-2020,20200318,South Africa,GP,ZA-GP,3,male,no international travel history,local
+101,18-03-2020,20200318,South Africa,GP,ZA-GP,21,female,no international travel history,local
+102,18-03-2020,20200318,South Africa,GP,ZA-GP,71,female,no international travel history,local
+103,18-03-2020,20200318,South Africa,KZN,ZA-KZN,59,male,Travelled to the Austria and Italy,travel
+104,18-03-2020,20200318,South Africa,KZN,ZA-KZN,54,male,Travelled to the Italy,travel
+105,18-03-2020,20200318,South Africa,KZN,ZA-KZN,55,male,Travelled to the Italy,travel
+106,18-03-2020,20200318,South Africa,MP,ZA-MP,64,male,Travelled to the Italy,travel
+107,18-03-2020,20200318,South Africa,MP,ZA-MP,56,female,no international travel history,local
+108,18-03-2020,20200318,South Africa,WC,ZA-WC,2,male,Travelled to New Zealand,travel
+109,18-03-2020,20200318,South Africa,WC,ZA-WC,51,male,Travelled to Egypt and Dubai,travel
+110,18-03-2020,20200318,South Africa,WC,ZA-WC,34,female,Travelled to Switzerland and Dubai,travel
+110,18-03-2020,20200318,South Africa,WC,ZA-WC,27,female,Travelled to Switzerland and Dubai,travel
+111,18-03-2020,20200318,South Africa,WC,ZA-WC,60,male,Travelled to Portugal and UK,travel
+112,18-03-2020,20200318,South Africa,WC,ZA-WC,51,male,Travelled to UK,travel
+113,18-03-2020,20200318,South Africa,WC,ZA-WC,54,female,Travelled to Portugal and UK,travel
+114,18-03-2020,20200318,South Africa,WC,ZA-WC,51,male,Travelled to UK,travel
+115,18-03-2020,20200318,South Africa,WC,ZA-WC,26,female,Travelled to UK,travel
+116,18-03-2020,20200318,South Africa,WC,ZA-WC,26,male,no international travel history,local
+117,19-03-2020,20200319,South Africa,GP,ZA-GP,41,female,Travelled to the Democratic Republic of Congo,travel
+118,19-03-2020,20200319,South Africa,GP,ZA-GP,43,female,Travelled to the Democratic Republic of Congo,travel
+119,19-03-2020,20200319,South Africa,GP,ZA-GP,37,female,with no international travel history,local
+120,19-03-2020,20200319,South Africa,GP,ZA-GP,54,female,Travelled to the United Kingdom,travel
+121,19-03-2020,20200319,South Africa,GP,ZA-GP,58,male,Travelled to the United Kingdom,travel
+122,19-03-2020,20200319,South Africa,GP,ZA-GP,38,male,Travelled to France,travel
+123,19-03-2020,20200319,South Africa,GP,ZA-GP,70,female,Travelled to the United States of America,travel
+124,19-03-2020,20200319,South Africa,GP,ZA-GP,30,male,Travelled to Spain,travel
+125,19-03-2020,20200319,South Africa,GP,ZA-GP,45,male,Travelled to the Democratic Republic of Congo,travel
+126,19-03-2020,20200319,South Africa,GP,ZA-GP,85,male,Travelled to Switzerland,travel
+127,19-03-2020,20200319,South Africa,GP,ZA-GP,64,male,Travelled to Vietnam and Thailand,travel
+128,19-03-2020,20200319,South Africa,GP,ZA-GP,41,male,Travelled to the Netherlands,travel
+129,19-03-2020,20200319,South Africa,GP,ZA-GP,23,male,with pending travel history,pending
+130,19-03-2020,20200319,South Africa,GP,ZA-GP,5,female,with pending travel history,pending
+131,19-03-2020,20200319,South Africa,GP,ZA-GP,44,male,with pending travel history,pending
+132,19-03-2020,20200319,South Africa,KZN,ZA-KZN,71,female,Travelled to the United Kingdom,travel
+133,19-03-2020,20200319,South Africa,KZN,ZA-KZN,26,male,Travelled to Mexico and the United States of America,travel
+134,19-03-2020,20200319,South Africa,KZN,ZA-KZN,29,female,with pending travel history,pending
+135,19-03-2020,20200319,South Africa,MP,ZA-MP,56,female,Travelled to France,travel
+136,19-03-2020,20200319,South Africa,WC,ZA-WC,53,female,Travelled to the United Kingdom,travel
+137,19-03-2020,20200319,South Africa,WC,ZA-WC,30,female,Travelled to the Netherlands and Qatar,travel
+138,19-03-2020,20200319,South Africa,WC,ZA-WC,45,male,Travelled to Mexico,travel
+139,19-03-2020,20200319,South Africa,WC,ZA-WC,70,female,Travelled to the United States of America,travel
+140,19-03-2020,20200319,South Africa,WC,ZA-WC,25,female,Travelled to the United Kingdom,travel
+141,19-03-2020,20200319,South Africa,WC,ZA-WC,37,female,Travelled to the United Kingdom,travel
+142,19-03-2020,20200319,South Africa,WC,ZA-WC,43,female,Travelled to the United States of America,travel
+143,19-03-2020,20200319,South Africa,WC,ZA-WC,31,male,Travelled to Spain and the Netherlands,travel
+144,19-03-2020,20200319,South Africa,WC,ZA-WC,53,female,Travelled to Switzerland; Austria;  Czech Republic and Germany,travel
+145,19-03-2020,20200319,South Africa,WC,ZA-WC,22,female,Travelled to the United Kingdom,travel
+146,19-03-2020,20200319,South Africa,WC,ZA-WC,63,male,Travelled to Switzerland; Czech Republic and Germany,travel
+147,19-03-2020,20200319,South Africa,WC,ZA-WC,22,male,Travelled to Spain and the Netherlands,travel
+148,19-03-2020,20200319,South Africa,WC,ZA-WC,32,male,Travelled to the United States of America,travel
+149,19-03-2020,20200319,South Africa,WC,ZA-WC,37,male,with pending travel history,pending
+150,19-03-2020,20200319,South Africa,WC,ZA-WC,34,male,with pending travel history,pending
+151,20-03-2020,20200320,South Africa,GP,ZA-GP,33,male,Travelled to the United Kingdom and France,travel
+152,20-03-2020,20200320,South Africa,GP,ZA-GP,32,female,with pending travel history,pending
+153,20-03-2020,20200320,South Africa,GP,ZA-GP,56,male,Travelled to Switzerland,travel
+154,20-03-2020,20200320,South Africa,GP,ZA-GP,56,female,Travelled to Switzerland,travel
+155,20-03-2020,20200320,South Africa,GP,ZA-GP,34,female,Travelled to the United Kingdom and Austria,travel
+156,20-03-2020,20200320,South Africa,GP,ZA-GP,34,male,Travelled to Austria,travel
+157,20-03-2020,20200320,South Africa,GP,ZA-GP,27,male,with pending travel history,pending
+158,20-03-2020,20200320,South Africa,GP,ZA-GP,22,female,Travelled to the United Kingdom,travel
+159,20-03-2020,20200320,South Africa,GP,ZA-GP,31,male,with pending travel history,pending
+160,20-03-2020,20200320,South Africa,GP,ZA-GP,52,female,Travelled to the United Kingdom,travel
+161,20-03-2020,20200320,South Africa,GP,ZA-GP,54,male,Travelled to London,travel
+162,20-03-2020,20200320,South Africa,GP,ZA-GP,53,male,Travelled to Austria and Switzerland,travel
+163,20-03-2020,20200320,South Africa,GP,ZA-GP,32,female,with pending travel history,pending
+164,20-03-2020,20200320,South Africa,GP,ZA-GP,33,male,with pending travel history,pending
+165,20-03-2020,20200320,South Africa,GP,ZA-GP,52,male,with pending travel history,pending
+166,20-03-2020,20200320,South Africa,GP,ZA-GP,20,male,with pending travel history,pending
+167,20-03-2020,20200320,South Africa,GP,ZA-GP,37,male,with pending travel history,pending
+168,20-03-2020,20200320,South Africa,GP,ZA-GP,47,female,with pending travel history,pending
+169,20-03-2020,20200320,South Africa,GP,ZA-GP,23,male,with no international travel history,travel
+170,20-03-2020,20200320,South Africa,GP,ZA-GP,32,male,with pending travel history,pending
+171,20-03-2020,20200320,South Africa,GP,ZA-GP,21,male,with pending travel history,pending
+172,20-03-2020,20200320,South Africa,GP,ZA-GP,34,female,with pending travel history,pending
+173,20-03-2020,20200320,South Africa,GP,ZA-GP,40,female,with pending travel history,pending
+174,20-03-2020,20200320,South Africa,GP,ZA-GP,41,male,with pending travel history,pending
+175,20-03-2020,20200320,South Africa,GP,ZA-GP,2,male,with pending travel history,pending
+176,20-03-2020,20200320,South Africa,GP,ZA-GP,39,male,with pending travel history,pending
+177,20-03-2020,20200320,South Africa,GP,ZA-GP,58,male,with pending travel history,pending
+178,20-03-2020,20200320,South Africa,GP,ZA-GP,56,male,Travelled to the United States of America,travel
+179,20-03-2020,20200320,South Africa,GP,ZA-GP,28,male,with pending travel history,pending
+180,20-03-2020,20200320,South Africa,GP,ZA-GP,67,male,travel to the United Kingdom,travel
+181,20-03-2020,20200320,South Africa,GP,ZA-GP,11,male,Travelled to Spain,travel
+182,20-03-2020,20200320,South Africa,GP,ZA-GP,30,male,Travelled to the United States of America,travel
+183,20-03-2020,20200320,South Africa,GP,ZA-GP,53,male,Travelled to the United Kingdom,travel
+184,20-03-2020,20200320,South Africa,FS,ZA-FS,38,male,Travelled to France,travel
+185,20-03-2020,20200320,South Africa,FS,ZA-FS,54,male,with pending travel history,pending
+186,20-03-2020,20200320,South Africa,FS,ZA-FS,55,male,Travelled to France,travel
+187,20-03-2020,20200320,South Africa,FS,ZA-FS,52,male,Travelled to Israel,travel
+188,20-03-2020,20200320,South Africa,FS,ZA-FS,68,male,Travelled to Israel,travel
+189,20-03-2020,20200320,South Africa,FS,ZA-FS,74,male,with pending travel history,pending
+190,20-03-2020,20200320,South Africa,FS,ZA-FS,32,female,with pending travel history,pending
+191,20-03-2020,20200320,South Africa,WC,ZA-WC,31,female,Travelled to the United Kingdom,travel
+192,20-03-2020,20200320,South Africa,WC,ZA-WC,34,not specified,Travelled to the Netherlands,travel
+193,20-03-2020,20200320,South Africa,WC,ZA-WC,26,not specified,Travelled to the Netherlands,travel
+194,20-03-2020,20200320,South Africa,WC,ZA-WC,29,not specified,with pending travel history,pending
+195,20-03-2020,20200320,South Africa,WC,ZA-WC,69,male,Travelled to Switzerland and Dubai,travel
+196,20-03-2020,20200320,South Africa,WC,ZA-WC,58,not specified,Travelled to the United Kingdom Austria and Tanzania,travel
+197,20-03-2020,20200320,South Africa,WC,ZA-WC,23,male,Travelled to the United Kingdom and Germany,travel
+198,20-03-2020,20200320,South Africa,WC,ZA-WC,43,female,Travelled to Canada and Austria,travel
+199,20-03-2020,20200320,South Africa,WC,ZA-WC,60,male,Travelled to Saudi Arabia the United Kingdom Switzerland and Austria,travel
+200,20-03-2020,20200320,South Africa,WC,ZA-WC,62,not specified,Travelled to the United Kingdom Austria and Switzerland,travel
+201,20-03-2020,20200320,South Africa,WC,ZA-WC,63,male,Travelled to the United Kingdom and Italy,travel
+202,20-03-2020,20200320,South Africa,KZN,ZA-KZN,29,female,with pending travel history,pending
+203,21-03-2020,20200321,South Africa,EC,ZA-EC,28,female,Travelled to Germany,travel
+204,21-03-2020,20200321,South Africa,GP,ZA-GP,,male,Travelled to France,travel
+205,21-03-2020,20200321,South Africa,GP,ZA-GP,55,male,with pending travel history,pending
+206,21-03-2020,20200321,South Africa,GP,ZA-GP,26,male,with pending travel history,pending
+207,21-03-2020,20200321,South Africa,GP,ZA-GP,34,female,with pending travel history,pending
+208,21-03-2020,20200321,South Africa,GP,ZA-GP,43,female,with pending travel history,pending
+209,21-03-2020,20200321,South Africa,GP,ZA-GP,61,male,with pending travel history,pending
+210,21-03-2020,20200321,South Africa,GP,ZA-GP,6,male,with pending travel history,pending
+211,21-03-2020,20200321,South Africa,GP,ZA-GP,29,female,with pending travel history,pending
+212,21-03-2020,20200321,South Africa,GP,ZA-GP,45,female,with pending travel history,pending
+213,21-03-2020,20200321,South Africa,GP,ZA-GP,64,female,with pending travel history,pending
+214,21-03-2020,20200321,South Africa,GP,ZA-GP,67,male,Travelled to France and Ethiopia,travel
+215,21-03-2020,20200321,South Africa,GP,ZA-GP,39,male,Travelled to UK,travel
+216,21-03-2020,20200321,South Africa,GP,ZA-GP,42,female,Travelled to Belgium and the Netherlands,travel
+217,21-03-2020,20200321,South Africa,GP,ZA-GP,41,male,Travelled to France and Italy,travel
+218,21-03-2020,20200321,South Africa,GP,ZA-GP,37,female,with pending travel history,pending
+219,21-03-2020,20200321,South Africa,GP,ZA-GP,30,female,Travelled to UK and Netherlands,travel
+220,21-03-2020,20200321,South Africa,KZN,ZA-KZN,59,male,with pending travel history,pending
+221,21-03-2020,20200321,South Africa,KZN,ZA-KZN,68,male,with pending travel history,pending
+222,21-03-2020,20200321,South Africa,KZN,ZA-KZN,26,female,Travelled to UK and USA,travel
+223,21-03-2020,20200321,South Africa,WC,ZA-WC,30,female,Travelled to Ireland,travel
+224,21-03-2020,20200321,South Africa,WC,ZA-WC,57,female,Travelled to Germany and Switzerland,travel
+225,21-03-2020,20200321,South Africa,WC,ZA-WC,55,male,Travelled to France and Switzerland,travel
+226,21-03-2020,20200321,South Africa,WC,ZA-WC,74,female,Travelled to UK,travel
+227,21-03-2020,20200321,South Africa,WC,ZA-WC,52,male,with pending travel history,pending
+228,21-03-2020,20200321,South Africa,WC,ZA-WC,44,male,Travelled to the USA,travel
+229,21-03-2020,20200321,South Africa,WC,ZA-WC,26,female,Travelled to UK,travel
+230,21-03-2020,20200321,South Africa,WC,ZA-WC,57,male,Travelled to Spain,travel
+231,21-03-2020,20200321,South Africa,WC,ZA-WC,36,male,Travelled to UK and France,travel
+232,21-03-2020,20200321,South Africa,WC,ZA-WC,40,female,with pending travel history,pending
+233,21-03-2020,20200321,South Africa,WC,ZA-WC,52,female,Travelled to UK,travel
+234,21-03-2020,20200321,South Africa,WC,ZA-WC,48,female,Travelled to UK,travel
+235,21-03-2020,20200321,South Africa,WC,ZA-WC,39,male,Travelled to Dublin and Ireland,travel
+236,21-03-2020,20200321,South Africa,WC,ZA-WC,36,male,with pending travel history,pending
+237,21-03-2020,20200321,South Africa,WC,ZA-WC,55,female,with pending travel history,pending
+238,21-03-2020,20200321,South Africa,WC,ZA-WC,45,male,Travelled to Germany and Austria,travel
+239,21-03-2020,20200321,South Africa,WC,ZA-WC,65,female,Travelled to UK,travel
+240,21-03-2020,20200321,South Africa,WC,ZA-WC,34,male,with pending travel history,pending
