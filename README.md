@@ -1,5 +1,7 @@
 # Coronavirus COVID-19 (2019-nCoV) Data Repository for South Africa
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3724083.svg)](https://doi.org/10.5281/zenodo.3724083)
+
 COVID 19 Data for South Africa created, maintained and hosted by [Data Science for Social Impact research group](https://dsfsi.github.io/), led by Dr. Vukosi Marivate, at the University of Pretoria. 
 
 **Disclaimer:** We have worked to keep the data as accurate as possible. We collate the COVID 19 reporting data from NICD and DoH. We only update that data once there is an official report or statement. For the other data, we work to keep the data as accurate as possible. If you find errors. Make a pull request.
@@ -52,7 +54,12 @@ Code [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](http
 * Vukosi Marivate - vukosi.marivate@cs.up.ac.za, [@vukosi](https://twitter.com/vukosi)
 
 ## Citing the dataset
+**On a visualisation/notebook/webapp:**
 
+> Data Science for Social Impact Research Group @ University of Pretoria, *Coronavirus COVID-19 (2019-nCoV) Data Repository for South Africa.* Available on: https://github.com/dsfsi/covid19za.
+
+
+**In a publication**
 > @dataset{marivate_vukosi_2020_3723347,
   author       = {Marivate, Vukosi and
                   de Waal, Alta and
