@@ -1,11 +1,16 @@
 # Coronavirus COVID-19 (2019-nCoV) Data Repository for South Africa
 
-COVID 19 Data for South Africa created, maintained and hosted by [DSFSI research group](https://dsfsi.github.io/) at the University of Pretoria
+COVID 19 Data for South Africa created, maintained and hosted by [Data Science for Social Impact research group](https://dsfsi.github.io/), led by Dr. Vukosi Marivate, at the University of Pretoria. 
 
 **Disclaimer:** We have worked to keep the data as accurate as possible. We collate the COVID 19 reporting data from NICD and DoH. We only update that data once there is an official report or statement. For the other data, we work to keep the data as accurate as possible. If you find errors. Make a pull request.
 
-See our [blog post](https://dsfsi.github.io/blog/covid19za-dashboard/) on why we built this and how we are working.
+*If you use this repo for any research/development/innovation, please contact us (see contacts below)*
 
+See our blog posts: 
+* [Why we built this and how we are working](https://dsfsi.github.io/blog/covid19za-dashboard/),
+* [How this is a call to action across the African continent](https://dsfsi.github.io/blog/covida19africa-call-to-action/)
+
+*If you are interested in the **Africa-wide effort**:* Go to https://github.com/dsfsi/covid19africa
 ## Licenses
 
 Code [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  | Data [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
@@ -18,6 +23,7 @@ Code [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](http
 | transmission_type |  [covid19za_timeline_transmission_type](/data/covid19za_timeline_transmission_type.csv)   |       [covid19za_timeline_transmission_type.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_timeline_transmission_type.csv)         |
 | testing |  [covid19za_timeline_testing](/data/covid19za_timeline_testing.csv)   |       [covid19za_timeline_testing.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_timeline_testing.csv)         |
 |   DoH PDFs and Extracted CSVs |  [doh_pdf](/data/doh_pdf)   |              |
+|   DoH Whatsapp case update archive |  [doh_whatsapp](/data/doh_whatsapp)   |              |
 |   public_hospitals [validation in progress] |  [health_system_za_public_hospitals](/data/health_system_za_public_hospitals.csv)   |         [health_system_za_public_hospitals.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/health_system_za_public_hospitals.csv)       |
 
 ## Visualisation
