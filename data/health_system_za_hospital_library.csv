@@ -1,0 +1,889 @@
+name,Key
+Addington Hospital,1
+Appelsbosch Hospital,2
+Benedictine Hospital,3
+Bethesda Hospital,4
+Catherine Booth Hospital,5
+Ceza Hospital,6
+Charles James Hospital,7
+Charles Johnson Memorial Hospital,8
+Christ the King Hospital,9
+Church of Scotland Hospital,10
+Clairwood Hospital,11
+Don McKenzie Hospital,12
+Doris Goodwin Hospital,13
+Dundee hospital,14
+E.G & Usher Memorial hospital,15
+Edendale Hospital,16
+Ekombe Hospital,17
+Ekuhlengeni Psychiatric Hospital,18
+Emmaus Hospital,19
+Eshowe Hospital,20
+Estcourt Hospital,21
+Fort Napier Hospital,22
+G.J. Crookes Hospital,23
+General Justice Gizenga Mpanza Regional Hospital(formerly Stanger Hospital),24
+Grey's Hospital,25
+Greytown Hospital,26
+Hillcrest Hospital,27
+Hlabisa Hospital,28
+Inkosi Albert Luthuli Central Hospital,29
+Itshelejuba Hospital,30
+King Dinuzulu Hospital Complex,31
+King Edward VIII Hospital,32
+KwaMagwaza Hospital,33
+KZN Children's Hospital,34
+Ladysmith Hospital,35
+Madadeni Hospital,36
+Mahatma Gandhi Hospital,37
+Manguzi Hospital,38
+Mbongolwane Hospital,39
+McCord Provincial Eye Hospital,40
+Montebello Hospital,41
+Mosvold Hospital,42
+Mseleni Hospital,43
+Murchison Hospital,44
+Newcastle Hospital,45
+Ngwelezana Hospital,46
+Niemeyer Memorial Hospital,47
+Nkandla Hospital,48
+Nkonjeni Hospital,49
+Northdale Hospital,50
+Osindisweni Hospital,51
+Port Shepstone Hospital,52
+Prince Mshiyeni Hospital,53
+Queen Nandi Hospital,54
+R. K. Khan Hospital,55
+Richmond Hospital,56
+Rietvlei Hospital,57
+Siloah Lutheran Mission,58
+St Mary's Hospital,59
+St. Aidan's Hospital,60
+St. Andrews Hospital,61
+St. Apollinaris Hospital,62
+St. Francis Hospital,63
+St. Margaret's Hospital,64
+Thulasizwe Hospital,65
+Town Hill Hospital,66
+Umgeni Hospital,67
+Umphumulo Hospital,68
+Umzimkhulu Hospital,69
+Untunjambili Hospital,70
+Vryheid Hospital,71
+Wentworth Hospital,72
+Khotsong TB Hospital,73
+NHN Matatiele Prv Hospital,74
+T Bequest Hospital (Mat),75
+Greenville Hospital,76
+St Patrick's Hospital,77
+Sipetu Hospital,78
+Madzikane Hospital,79
+Mt Ayliff Hospital,80
+Cathcart Hospital,81
+SS Gida Hospital,82
+Stutterheim Hospital,83
+Komga Hospital,84
+Madwaleni Hospital,85
+Butterworth Hospital,86
+Tafalofefe Hospital,87
+Nompumelelo Hospital,88
+Adelaide Hospital,89
+Bedford Hospital,90
+Fort Beaufort Hospital,91
+Tower Hospital,92
+Victoria Hospital,93
+Winterberg TB Hospital,94
+Bhisho Hospital,95
+C Makiwane Hospital,96
+Fort Grey TB Hospital,97
+Frere Hospital,98
+Grey Hospital,99
+Life Beacon Bay Hospital,100
+Life E London Prv Hospital,101
+Life Grey Monument Clinic Hospital,102
+Life St Dominic's Hospital,103
+Life St James Hospital,104
+Life St Mark's Hospital,105
+Newhaven Hospital,106
+NHN East London Eye Hospital,107
+NHN Icare Gonubie Med Centre,108
+Nkqubela Hospital,109
+Dordrecht Hospital,110
+Glen Grey Hospital,111
+Indwe Hospital,112
+All Saints Hospital,113
+Mjanyana Hospital,114
+Frontier Hospital,115
+Hewu Hospital,116
+Komani Hospital,117
+Life Queenstown Prv Hospital,118
+M Venter Hospital,119
+Molteno Hospital,120
+NHN Care Cure Queenstown Sub-Acute Hospital,121
+Sterkstroom Hospital,122
+Cofimvaba Hospital,123
+Cradock Hospital,124
+W Stahl Hospital,125
+Cala Hospital,126
+Elliot Hospital,127
+Maclear Hospital,128
+T Bequest Hospital (Elu),129
+Cloete Joubert Hospital,130
+Empilisweni Hospital,131
+L Grey Hospital,132
+Umlamli Hospital,133
+Aliwal North Hospital,134
+Burgersdorp Hospital,135
+Jamestown Hospital,136
+Steynsburg Hospital,137
+St Francis Hospital,138
+Dora Nginza Hospital,139
+J Pearson TB Hospital,140
+Netcare Cuyler Hospital,141
+Orsmond TB Hospital,142
+Uitenhage Hospital,143
+Elizabeth Donkin Hospital,144
+Empilweni TB Hospital,145
+Life Hunterscraig Hospital,146
+Life Mercantile Hospital,147
+Life St George's Hospital,148
+Livingstone Hospital,149
+Netcare Greenacres Hospital,150
+NHN Aurora Rehab Hospital,151
+NHN Icare Walmer Med Centre,152
+Oasim Hospital,153
+PE Prov Hospital,154
+Westways Hospital,155
+Holy Cross Hospital,156
+St Elizabeth's Hospital,157
+Bedford Orth Hospital,158
+Life St Mary's Hospital,159
+Mthatha Chest Hospital,160
+Mthatha Gen Hospital,161
+Mandela Acad Hospital,162
+NHN Crossmed Mthatha Prv Hospital,163
+NHN Mthatha Sub-Acute Hospital,164
+Zitulele Hospital,165
+Dr Malizo Mpehle Hospital,166
+N Knight Hospital,167
+St Lucy's Hospital,168
+Canzibe Hospital,169
+St Barnabas Hospital,170
+Bambisana Hospital,171
+Isilimela Hospital,172
+Andries Vosloo Hospital,173
+Aberdeen Hospital,174
+M Parkes TB Hospital,175
+Midland Hospital,176
+Sawas Hospital,177
+Willowmore Hospital,178
+Humansdorp Hospital,179
+Life Isivivana Hospital,180
+PZ Meyer Hospital,181
+BJ Vorster Hospital,182
+Fort England Hospital,183
+Settlers Hospital,184
+Temba TB Hospital,185
+M Parrish TB Hospital,186
+Netcare Port Alfred Hospital,187
+P Alfred Hospital,188
+Sundays Valley Hospital,189
+Mafube Hospital,190
+NHN Riemland Clinic Hospital,191
+Fezi Ngumbentombi Hospital,192
+Netcare Vaalpark Hospital,193
+Sasol Infrachem Hospital,194
+Boitumelo Hospital,195
+Netcare Kroon Hospital,196
+Parys Hospital,197
+Tokollo Hospital,198
+Winburg Hospital,199
+Bongani Hospital,200
+Katleho Hospital,201
+Kopano MDR Hospital,202
+Mediclinic Welkom Hospital,203
+NHN E Oppenheimer Hospital,204
+NHN St Helena Hospital,205
+NHN Welkom Med Centre,206
+NHN Welkom Sub-Acute Hospital,207
+RH Matjhabeng Prv Hospital,208
+Thusanong Hospital,209
+Nala Hospital,210
+Mohau Hospital,211
+Bloemcare Psych Hospital,212
+Bloemfontein Eye Centre,213
+Busamed BFIA Hospital,214
+Cairnhall Hospital,215
+Free State Psyc Comp Hospital,216
+Life Pasteur Hospital,217
+Life Rosepark Hospital,218
+Link Prv Hospital,219
+Mediclinic Bfn Hospital,220
+National Dis Hospital,221
+Netcare Pelonomi Prv Hospital,222
+Netcare Universitas Prv Hospital,223
+NHN CareCure Victoria Hospital,224
+NHN EmoyaMed Prv Hospital,225
+NHN Hillandale HCC Hospital,226
+NHN M-Care Optima Hospital,227
+NHN M-Care Pentagon Park Hospital,228
+NHN Stirling Hospital,229
+Pelonomi Hospital,230
+SAMHS 3 Mil Hospital,231
+Universitas (C) Hospital,232
+Botshabelo Hospital,233
+Dr JS Moroka Hospital,234
+Bethlehem Med Centre,235
+Dihlabeng Hospital,236
+Mediclinic Hoogland Hospital,237
+NHN Corona Hospital,238
+Phekolong Hospital,239
+Busamed Harrismith Prv Hospital,240
+Elizabeth Ross Hospital,241
+MM Mopeli Hospital,242
+Thebe Hospital,243
+Senorita Ntlabathi Hospital,244
+Nketoana Hospital,245
+Phumelela Hospital,246
+Itemoheng Hospital,247
+JD Newberry Hospital,248
+Phuthuloha Hospital,249
+Albert Nzula Dist Hospital,250
+Diamond (Diamant) Hospital,251
+Embekweni Hospital,252
+S Coetzee Hospital,253
+Basambilu Med Centre,254
+Diepsloot Med Centre,255
+HEALth-WorX Carlswald Med Centre,256
+Life Fourways Hospital,257
+Mediwell Dainfern Square Med Centre,258
+Netcare Sunninghill Hospital,259
+Netcare Waterfall City Hospital,260
+NHN Icare Fourways Med Centre,261
+Phedisong Health Care,262
+Sunninghill Med Centre,263
+Tanganani Health Care,264
+HEALth-WorX Cresta Med Centre,265
+HEALth-WorX Randridge Med Centre,266
+Helen Joseph Hospital,267
+Life Riverfield Lodge Hospital,268
+Mediclinic Sandton Hospital,269
+Mediclinic Wits D Gordon Med Centre,270
+Netcare Milpark Hospital,271
+Netcare Rehab Hospital,272
+Netcare Rosebank Hospital,273
+Netcare Sports Med and Ortho Hospital,274
+NHN Akeso Crescent Randburg Hospital,275
+NHN Johannesburg Eye Hospital,276
+NHN Northcliff Medw Hospital,277
+Parkmore Park Med Centre,278
+Rahima Moosa Hospital,279
+Rosebank Med Dental Centre,280
+Tara H Moross Centre Hospital,281
+Clinix Dr SK Matseke Mem Hospital,282
+Clinix Tshepo-Themba Prv Hospital,283
+Life Flora Hospital,284
+Lifemed Hospital,285
+Life Wilgeheuwel Hospital,286
+Mayo Hospital,287
+Medicare Boskruin Med Centre,288
+Netcare Constantia Day Clinic,289
+Netcare Olivedale Hospital,290
+NHN Icare Wilgeheuwel Med Centre,291
+Advanced Medgate Day Hospital,292
+Bheki Mlangeni Dist Hospital,293
+C Hurwitz TB Hospital,294
+Chris Hani Hospital,295
+Lesedi Prv Hospital,296
+Life Poortview Hospital,297
+Meredale Med Centre,298
+Busamed Modderfontein Prv Hospital,299
+Edenvale Hospital,300
+Life Carstenhof Hospital,301
+Lonehill Med Centre,302
+Mediclinic Morningside Hospital,303
+Midrand Med Centre,304
+Netcare Linksfield Hospital,305
+Netcare Linkwood Hospital,306
+NHN Gynae Endo Med Centre,307
+NHN Icare Northriding Med Centre,308
+NHN Icare Sandton Day Hospital,309
+Prime Cure Bagleyston Day Clinic,310
+Sizwe Tropical Hospital,311
+Argyle Hospital,312
+Charlotte Maxeke Hospital,313
+Clinix SS Morewa Mem Hospital,314
+Fordsburg Hospital,315
+Life Brenthurst Hospital,316
+Netcare Garden City Hospital,317
+Netcare Mulbarton Hospital,318
+Netcare Park Lane Hospital,319
+Netcare Rand Hospital,320
+NHN Akeso Parktown Hospital,321
+South Rand Hospital,322
+Kliptown Med Centre,323
+NHN Lenmed Ahmed Katrada Prv Hospital,324
+NHN Lenmed Daxina Hospital,325
+Botshilu Hospital,326
+Dr G Mukhari Hospital,327
+Mediclinic Legae Hospital,328
+Netcare Akasia Hospital,329
+Odi Hospital,330
+Wisani Med Centre Hospital,331
+Jubilee Hospital,332
+Netcare Montana Hospital,333
+NHN Icare Wonderboom Med Centre,334
+Astrid Hospital,335
+Curamed Hospital,336
+Kalafong Hospital,337
+Life Brooklyn Day Hospital,338
+Life Eugene Marais Hospital,339
+Life Groenkloof Hospital,340
+Louis Pasteur Hospital,341
+Pretoria Gynae Hospital,342
+Mediclinic Heart Hospital,343
+Mediclinic Medforum Hospital,344
+Mediclinic Muelmed Hospital,345
+Netcare Bougainville Hospital,346
+Netcare Femina Hospital,347
+Netcare Jakaranda Hospital,348
+Netcare Moot Hospital,349
+NHN Urolocare Hospital,350
+Peermed Pretoria Health Centre,351
+Pretoria Eye Inst Hospital,352
+Pretoria Urolog Hospital,353
+Pretoria West Hospital,354
+SAMHS 1 Military Hospital,355
+Steve Biko Academic Hospital,356
+Tshepong TB Hospital,357
+Tshwane Dist Hospital,358
+Tshwane Rehab Hospital,359
+University of Pta Med Centre,360
+Weskoppies Hospital,361
+Zuid Afrikaans Hospital,362
+Erasmia Med Centre,363
+HEALth-WorX Centurion Med Centre,364
+HEALth-WorX Raslouw Med Centre,365
+Medipark 24 Med Centre,366
+Netcare Unitas Hospital,367
+NHN Centurion Eye Hospital,368
+NHN Icare Irene Day Hospital,369
+NHN Icare Irene Med Centre,370
+NHN Icare Irene Sub-Acute Hospital,371
+NHN Icare Mall@55 Med Dental Centre,372
+NHN Vista Hospital,373
+Clinix Cullinan Prv Hospital,374
+Cullinan Rehab Hospital,375
+Denmar Hospital,376
+HEALth-WorX Montana Med Centre,377
+Kloof Hospital,378
+Life Faerie Glen Hospital,379
+Life Wilgers Hospital,380
+Mamelodi Hospital,381
+Mamelodi Med Centre,382
+Mediclinic Kloof Hospital,383
+Netcare Pretoria E Hospital,384
+NHN Intercare Glenfair Med Centre,385
+NHN Icare Hazeldean Day Hospital,386
+NHN Icare Hazeldean Sub-Acute Hospital,387
+NHN Icare Silver Lake Med Centre,388
+NHN Icare Woodhill Med Centre,389
+Phelang Prv Hospital,390
+SAMCOR Med Centre,391
+Bronkhorstspruit Hospital,392
+Life Dalview Hospital,393
+Optiklin Eye Hospital,394
+Pholosong Hospital,395
+Far East Rand Hospital,396
+Life Springs Parkland Hospital,397
+Life St Mary's Prv Hospital,398
+Netcare N17 Prv Hospital,399
+Harmelia Prv Hospital,400
+Kloof Med Centre,401
+Mediclinic Midstream Hospital,402
+NHN Arwyp Med Centre Hospital,403
+NHN Icare Glen Marais Med Centre,404
+NHN Lenmed Zamokuhle Prv Hospital,405
+Peermed Kempton Park Health Centre,406
+Tembisa Hospital,407
+Dinwiddie Med Centre,408
+East Rand TB Hospital,409
+Glenairs Med Centre,410
+HEALth-WorX Boksburg Med Centre,411
+Life Bedford Gardens Hospital,412
+Life Glynnview Hospital,413
+Life The Glynnwood Hospital,414
+Netcare Linmed Hospital,415
+Netcare Optiklin Eye Hospital,416
+Netcare Sunward Park Hospital,417
+NHN Care Cure Rynmed Hospital,418
+NHN Lakeview Hospital,419
+NHN Sunshine Hospital,420
+Palm Springs Med Centre,421
+Sunward Park Med Centre,422
+Tambo Memorial Hospital,423
+Bertha Gxowa Hospital,424
+Clinix Botshelong-Empilweni Prv Hospital,425
+Knights Chest Hospital,426
+Life Roseacres Hospital,427
+Netcare Clinton Hospital,428
+Netcare Union Hospital,429
+NHN Akeso Alberton Hospital,430
+Peermed Germiston Health Centre,431
+Philani Med Centre,432
+Thelle Mogoerane Reg Hospital,433
+Clinix Naledi-Nkanyezi Prv Hospital,434
+Cormed Hospital,435
+Hlulani Med Centre,436
+Kopanong Hospital,437
+Lakeview Med Centre,438
+Mediclinic Emfuleni Hospital,439
+Mediclinic Vereeniging Hospital,440
+Midvaal Prv Hospital,441
+NHN Care Cure Vereen Hospital,442
+Sebokeng Hospital,443
+Heidelberg Hospital,444
+Life Suikerbosrand Hospital,445
+Baneng Psych Hospital,446
+Carletonville Hospital,447
+Fochville Hospital,448
+NHN Fountain Prv Hospital,449
+Western Deep Hospital,450
+Dr Y Dadoo Hospital,451
+HEALth-WorX Noordheuwel Med Centre,452
+Leratong Hospital,453
+Netcare Bell Street Hospital,454
+Netcare Krugersdorp Hospital,455
+Netcare Pinehaven Hospital,456
+Sterkfontein Hospital,457
+Life Robinson Hospital,458
+Medicare Greenhills Med Centre,459
+NHN Lenmed Randfontein Prv Hospital,460
+S Albert Med Centre,461
+Wesmed Med Centre,462
+Niemeyer Mem Hospital,463
+Mediclinic Newcastle Day Hospital,464
+Mediclinic Newcastle Hospital,465
+Ahmed Al-Kadi Prv Hospital,466
+Akeso Umhlanga Hospital,467
+Alliance Care Umhlanga Hospital,468
+Bluff Centre Hospital,469
+Broadwalk Med Centre,470
+Busamed Gateway Hospital,471
+Busamed Hillcrest Prv Hospital,472
+Capital Oncology and General Hospital,473
+C James TB Hospital,474
+Chatsworth Cheshire Rehab Centre,475
+City Hospital,476
+Don McKenzie TB Hospital,477
+DBN Eye Hospital,478
+Durban Oncology Centre,479
+Ekuhlengeni Hospital,480
+FOSA TB Hospital,481
+Fountain Med Centre,482
+Highway Sub-Acute,483
+Humana Health Care Hospital,484
+IALCH Central Hospital,485
+IMA Hospital,486
+JMH Ascot Park Hospital,487
+JMH City Hospital,488
+JMH Durdoc Hospital,489
+JMH Isipingo Hospital,490
+King Dinuzulu Hospital,491
+KwaZulu-Natal Child Hospital,492
+Kynoch Hospital,493
+Life Chatsmed Garden Hospital,494
+Life Entabeni Hospital,495
+Life Mt Edgecombe Hospital,496
+Life The Crompton Hospital,497
+Life Westville Hospital,498
+M Gandhi Hospital,499
+Malvern Centre Hospital,500
+McCords Hospital,501
+Mediclinic Victoria Hospital,502
+Medicross Procare Sub-Acute Hospital,503
+Netcare Kingsway Hospital,504
+Netcare Parklands Hospital,505
+Netcare St Augustine's Hospital,506
+Netcare Umhlanga Hospital,507
+NHN Capital Haemato Hospital,508
+NHN Healing Hills Hospital,509
+NHN Icare Amanzimtoti Med Centre,510
+NHN Lenmed eThekwini Heart Hospital,511
+NHN Lenmed Shifa Hospital,512
+NHN M-Care Umhlanga Hospital,513
+Oral and Dental Institute,514
+RK Khan Hospital,515
+Saiccor Hospital,516
+St Aidans Hospital,517
+St Mary's Hospital (Mar),518
+Wentworth Hospital,519
+Westridge Day Surg Centre,520
+NHN Riverview Clinic Hospital,521
+St Apollinaris Hospital,522
+EG Usher Mem Hospital,523
+Netcare Kokstad Prv Hospital,524
+St Margaret's TB MDR Hospital,525
+GJGM Hospital,526
+KwaDukuza Private Hospital,527
+Netcare Alberlito Hospital,528
+Amatikulu Chronic Home Hospital,529
+JMH Richards Bay Med Institute,530
+Life Empangeni Prv Hospital,531
+Melomed Rich Bay Hospital,532
+Netcare The Bay Hospital,533
+Queen Nandi Regional Hospital,534
+Richards Bay Med Institute Day Hospital,535
+Ekhombe Hospital,536
+C Booth Hospital,537
+D Farrell TB Hospital,538
+Hibiscus Day Surgical Hospital,539
+Netcare Margate Hospital,540
+NHN Hibiscus Hospital,541
+NHN Shelly Beach Day Hospital,542
+Shelly Beach Priv Hospital,543
+Shelly Beach Sub-Acute Hospital,544
+GJ Crooke's Hospital,545
+St Andrew's Hospital,546
+Akeso PMB Hospital,547
+Doris Goodwin TB Hospital,548
+Eden Gardens Priv Hospitalital,549
+Mediclinic Pmb Hospital,550
+Mildlands Med Centre,551
+Netcare St Anne's Hospital,552
+NHN Daymed Priv Hospital,553
+PMB Eye Hospital,554
+Rainbow Hospital,555
+Royal Rehab Hospital,556
+St Mary's Prv Hospital,557
+Townhill Hospital,558
+Wembley House Hospital,559
+Richmond Chest Hospital,560
+Life Hilton Prv Hospital,561
+Mediclinic Howick Hospital,562
+NHN Oatlands Care Med Centre,563
+Oatlands Care Centre,564
+Umgeni Waterfall Hospital,565
+Appelsbosch Hospital,566
+Talana Step Down Hospital,567
+Church of Scotland Hospital,568
+C Johnson Mem Hospital,569
+Greytown Priv Hospital,570
+Greytown TB Hospital,571
+Essen Med Centre,572
+Ladysmith Sub-Acute Hospital,573
+NHN Lenmed La Verna Hospital,574
+AbaQulusi Priv Hospital,575
+Mountain View Hospital,576
+Siloah Lutheran Hospital,577
+Longridge Colliery Mine Hospital,578
+NHN Nongoma Private Hospital,579
+St Francis Hospital,580
+Itshelejuba Hospital,581
+NHN Pongola Hospital,582
+Helene Franz Hospital,583
+Dr Machupe Mem Hospital,584
+Lebowakgomo Hospital,585
+Lebowakgomo Medleb Hospital,586
+Thabamoopo Hospital,587
+Zebediela Hospital,588
+Botlokwa Hospital,589
+Mankweng Hospital,590
+Mediclinic Limpopo Hospital,591
+Netcare Pholoso Hospital,592
+Pietersburg Hospital,593
+Seshego Hospital,594
+St Joseph's Hospital,595
+WF Knobel Hospital,596
+ML Malatjie Hospital,597
+Evuxakeni Hospital,598
+Nkhensani Hospital,599
+Kgapane Hospital,600
+Dr CN Phatudi Hospital,601
+Letaba Hospital,602
+Life Esidimeni Shiluvana Hospital,603
+Mediclinic Tzaneen Hospital,604
+Van Velden Mem Hospital,605
+Sekororo Hospital,606
+Groblersdal Hospital,607
+Philadelphia Hospital,608
+Matlala Hospital,609
+Dilokong Hospital,610
+Mecklenburg Hospital,611
+Jane Furse Hospital,612
+St Rita's Hospital,613
+Malamulele Hospital,614
+Elim Hospital,615
+L Trichardt Hospital,616
+NHN Quality Care Prv Hospital,617
+NHN Zoutpansberg Prv Hospital,618
+Siloam Hospital,619
+Messina Hospital,620
+D Fraser Hospital,621
+Hayani Hospital,622
+Tshilidzini Hospital,623
+NHN St Vincent's Hospital,624
+Warmbaths Hospital,625
+Ellisras Hospital,626
+Mediclinic Lephalale Hospital,627
+Witpoort Hospital,628
+Anglo Platinum Mine Hospital,629
+G Masebe Hospital,630
+Mokopane Hospital,631
+Voortrekker Hospital,632
+FH O MDR Hospital,633
+FH Odendaal Hospital,634
+Mediclinic Thabazimbi Hospital,635
+Platinum Health Amandelbult Hospital,636
+Platinum Health Setaria Mine Hospital,637
+Platinum Health Thabazimbi Med Centre,638
+Platinum Health Union Mine Hospital,639
+Swartklip Mine Hospital,640
+Thabazimbi Hospital,641
+Mapulaneng Hospital,642
+Matikwana Hospital,643
+Tintswalo Hospital,644
+Barberton Hospital,645
+Barberton TB Hospital,646
+Bongani TB Hospital,647
+Busamed Lowveld Prv Hospital,648
+Eureka Barberton Hospital,649
+Mediclinic Nelspruit Hospital,650
+NHN Kiaat Prv Hospital,651
+NHN M-Care Nelspruit Hospital,652
+Rob Ferreira Hospital,653
+Themba Hospital,654
+Shongwe Hospital,655
+Tonga Hospital,656
+Lydenburg Hospital,657
+Matibidi Hospital,658
+Sabie Hospital,659
+Carolina Hospital,660
+Embuleni Hospital,661
+Amajuba Mem Hospital,662
+Elsie Ballot Hospital,663
+Bethal Hospital,664
+Evander Hospital,665
+Mediclinic Highveld Hospital,666
+Mediclinic Secunda Hospital,667
+Winkelhaak Mine Hospital,668
+Standerton Hospital,669
+Standerton Spec TB Hospital,670
+Life Piet Retief Hospital,671
+Piet Retief Hospital,672
+Ermelo Hospitaliplan Hospital,673
+Ermelo Hospital,674
+Mediclinic Ermelo Hospital,675
+Sesifuba TB Hospital,676
+Mmametlhake Hospital,677
+HA Grove Hospital,678
+Waterval Boven Hospital,679
+Anglo CoalHighveld Hospital,680
+Greenside Hospital,681
+Impungwe Hospital,682
+Life Cosmos Hospital,683
+NHN eMalahleni Day Hospital,684
+NHN eMalahleni Prv Hospital,685
+NHN Highveld Eye Hospital,686
+Witbank Hospital,687
+Witbank Special TB Hospital,688
+Arnot Colliery Mine Hospital,689
+Douglas Colliery Mine Hospital,690
+Koornfontein Mine Hospital,691
+Life Midmed Hospital,692
+Middelburg Hospital,693
+Middelburg Mine Hospital,694
+Optimum Mine Hospital,695
+KwaMhlanga Hospital,696
+B Samuels Hospital,697
+Prof ZK Matthews Hospital,698
+Hartswater Hospital,699
+Mediclinic Kimberley Hospital,700
+NHN Lenmed Royal Hospital and Heart Centre,701
+RM Sobukwe Hospital,702
+West End Spec Psych Hospital,703
+West End Spec TB Hospital,704
+NHN Lenmed Kathu Hospital,705
+Kuruman Hospital,706
+Tshwaragano Hospital,707
+Calvinia Hospital,708
+Aggeneys (Black Mountain) Prv Hospital,709
+Kleinsee Private Hospital,710
+Springbok Hospital,711
+De Aar Hospital,712
+Prieska Hospital,713
+Orania Hospital,714
+Manne Dipico Hospital,715
+Harry Surtie Hospital,716
+Mediclinic Upington Hospital,717
+Upington TB Hospital,718
+Upington TB Hospital (Paeds),719
+Kakamas Hospital,720
+Lime Acres Hospital,721
+Postmasburg Hospital,722
+Koster Hospital,723
+Brits Hospital,724
+Mediclinic Brits Hospital,725
+M Kotane Hospital,726
+A Saffey Mine Hospital,727
+Impala Mine Hospital,728
+JS Tabane Hospital,729
+Life La Femme Clinic Hospital,730
+Life Peglerae Hospital,731
+Netcare Ferncrest Hospital,732
+NHN Medi-Care Rustenburg Hospital,733
+RPM Mine Hospital,734
+Duff Scott Hospital,735
+Klerksdorp-Tshepong Hospital,736
+Life Anncron Clinic Hospital,737
+NHN Parkmed Neuro Hospital,738
+NHN Sunningdale Hospital,739
+NHN Wilmed Park Hospital,740
+West Vaal Hospital,741
+Mediclinic Potch Hospital,742
+NHN Medi-Care Potch Hospital,743
+Potchefstroom Hospital,744
+Witrand Psych Hospital,745
+Nic Bodenstein Hospital,746
+Taung Hospital,747
+Ganyesa Hospital,748
+Christiana Hospital,749
+Schweizer-Ren Hospital,750
+J Morolong Mem Hospital,751
+NHN Vryburg Prv Hospital,752
+Genl de la Rey Hospital,753
+Thusong Hospital,754
+Bophelong Psych Hospital,755
+Clinix Victoria Prv Hospital,756
+Gelukspan Hospital,757
+Mahikeng Prov Hospital,758
+Lehurutshe Hospital,759
+Zeerust Hospital,760
+Brewelskloof TB Hospital,761
+Mediclinic Worcester Hospital,762
+Pines Clinic Hospital,763
+Regina Centre,764
+Worcester Hospitalice,765
+Worcester Hospital,766
+Drakenstein Hospital,767
+Mediclinic Paarl Hospital,768
+Noncedo Hospitalice,769
+Paarl Hospitalice,770
+Paarl Hospital,771
+Montagu Hospital,772
+Robertson Hospital,773
+Mediclinic Stellenbosch Hospital,774
+Stellenbosch Hospital,775
+Ceres Hospital,776
+Netcare Ceres Hospital,777
+B West Hospital,778
+Murraysburg Hospital,779
+Laingsburg Hospital,780
+P Albert Hospital,781
+Busamed Paardevlei Prv Hospital,782
+Eerste River Hospital,783
+E River Medi-City Clinic,784
+Helderberg Hospital,785
+Mediclinic Strand Hospital,786
+Mediclinic Vergelegen Hospital,787
+Netcare Kuils River Hospital,788
+NHN Life Path Helderberg Hospital,789
+NHN Spescare Sub-Acute Hospital,790
+Mediclinic Cape Gate Hospital,791
+Mediclinic Durbanville Hospital,792
+Mediclinic Panorama Hospital,793
+Monte Vista Hospital,794
+NHN Icare Tyger Valley SA Hospital,795
+NHN M-Care Cape View Hospital,796
+DP Marais TB Hospital,797
+False Bay Hospital,798
+Kenilworth Hospital,799
+Life Claremont Hospital,800
+Life Kingsbury Hospital,801
+Life Sports Science Ortho,802
+Mediclinic Constantiaberg Hospital,803
+Mediclinic Const Neonatal Hospital,804
+Melomed Tokai Priv Hospitalital,805
+Mowbray Mat Hospital,806
+Netcare Southern Cross Hospital,807
+Newlands Surg Hospital,808
+NHN M-Care Newlands Hospital,809
+Pr Alice Ortho Hospital,810
+Red Cross Children's Hospital,811
+Red Cross Level 2 Hospital,812
+SAMHS 2 Mil Hospital,813
+Victoria Hospital,814
+Alexandra Hospital,815
+Brooklyn Chest Hospital,816
+Conradie Hospital,817
+Groote Schuur Hospital,818
+GSH Level 2 Hospital,819
+Life Orthopaedic Hospital,820
+Life Vincent Pallotti Hospital,821
+Mediclinic Cape Town Hospital,822
+Mediclinic Milnerton Hospital,823
+Netcare Blaauwberg Hospital,824
+Netcare C Barnard Hospital,825
+Netcare UCT Prv Hospital,826
+New Somerset Hospital,827
+NHN Icare Century City DH,828
+Shirnell Clinic Hospital,829
+St Monica's Hospital,830
+Valkenberg Hospital,831
+Wesfleur Clinic Hospital,832
+Wesfleur Hospital,833
+Khayelitsha Hospital,834
+Gatesv Med Centre Hospital,835
+GF Jooste Hospital,836
+Melomed Gatesville Hospital,837
+Lentegeur Hospital,838
+Melomed Mitchells Plain Hospital,839
+Mitchells Plain Hospital,840
+M Plain Med Centre Hospital,841
+M Plain Hospital,842
+Aevitas Hospital,843
+Bellville Med Hospital,844
+Cape Eye Hospital,845
+K Bremer Hospital,846
+Libertas Hospital,847
+Mediclinic Louis Leipoldt Hospital,848
+Melomed Bellville Hospital,849
+Netcare N1 City Hospital,850
+Origin Maternity Hospital,851
+Stikland Hospital,852
+Tygerberg Hospital,853
+Tygerberg Level 2 Hospital,854
+Mediclinic Plett Bay Hospital,855
+George Hospital,856
+H Comay TB Hospital,857
+Mediclinic Geneva Hospital,858
+Mediclinic George Hospital,859
+Uniondale Hospital,860
+Riversdale Hospital,861
+Alan Blyth Hospital,862
+Knysna Hospital,863
+Life Knysna Pvt Hospital,864
+Meyer Zall Hospital,865
+Life Bay View Pvt Hospital,866
+Mossel Bay Hospital,867
+Cango Hospital,868
+Mediclinic K Karoo Hospital,869
+NHN Kango Clinic,870
+Oudtshoorn Hospital,871
+Otto Du Plessis Hospital,872
+Hermanus Hospital,873
+Mediclinic Hermanus Hospital,874
+Swellendam Hospital,875
+Caledon Hospital,876
+LAPA Munnik Hospital,877
+Radie Kotze Hospital,878
+Citrusdal Hospital,879
+Clanwilliam Hospital,880
+Vredendal Hospital,881
+Life West Coast Prv Hospital,882
+Vredenburg Hospital,883
+Die Wieg Hospital,884
+Malmesbury Inf Hospital,885
+Sonstraal TB Hospital,886
+Swartland Hospital,887
+Busamed Bram Fischer International Airport Hospital,888
