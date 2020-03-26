@@ -6,9 +6,11 @@ COVID 19 Data for South Africa created, maintained and hosted by [DSFSI research
 
 *If you use this repo for any research/development/innovation, please contact us (see contacts below)*
 
-See our [blog post](https://dsfsi.github.io/blog/covid19za-dashboard/) on why we built this and how we are working.
+See our blog posts: 
+* [Why we built this and how we are working](https://dsfsi.github.io/blog/covid19za-dashboard/),
+* [How this is a call to action across the African continent](https://dsfsi.github.io/blog/covida19africa-call-to-action/)
 
-*If you are interested in the Africa wide effort:* Go to https://github.com/dsfsi/covid19africa
+*If you are interested in the **Africa-wide effort**:* Go to https://github.com/dsfsi/covid19africa
 ## Licenses
 
 Code [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  | Data [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
