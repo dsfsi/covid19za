@@ -19,6 +19,11 @@ See [LICENSE](LICENSE.md)
 * 18-03-2020 - https://sacoronavirus.co.za/2020/03/18/latest-confirmed-cases-of-covid-19-18th-march-2020/
 * 19-03-2020 - http://www.nicd.ac.za/covid-19-update-21/
 * 20-03-2020 - http://www.nicd.ac.za/covid-19-update-22/
+* 21-03-2020 - http://www.nicd.ac.za/covid-19-update-23/
+* 22-03-2020 - http://www.nicd.ac.za/covid-19-update-23/
+* 23-03-2020 - https://www.gov.za/speeches/minister-zweli-mkhize-confirms-128-more-cases-coronavirus-covid-19-23-mar-2020-0000
+* 24-03-2020 - https://www.gov.za/speeches/minister-zweli-mkhize-confirms-total-554-cases-coronavirus-covid-19-24-mar-2020-0000
+* **Other**: [doh_whatsapp/](doh_whatsapp/)
 
 ### Testing
 * NICD Inforgraphics from their Twitter Account
