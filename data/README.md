@@ -26,6 +26,7 @@ See [LICENSE](LICENSE.md)
 * 22-03-2020 - http://www.nicd.ac.za/covid-19-update-23/
 * 23-03-2020 - https://www.gov.za/speeches/minister-zweli-mkhize-confirms-128-more-cases-coronavirus-covid-19-23-mar-2020-0000
 * 24-03-2020 - https://www.gov.za/speeches/minister-zweli-mkhize-confirms-total-554-cases-coronavirus-covid-19-24-mar-2020-0000
+* 27-03-2020 - https://www.gov.za/speeches/minister-zweli-mkhize-confirms-first-deaths-due-coronavirus-covid-19-27-mar-2020-0000
 * **Other**: [doh_whatsapp/](doh_whatsapp/)
 
 ### Testing
