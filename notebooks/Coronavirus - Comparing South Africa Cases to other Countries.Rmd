@@ -1,0 +1,89 @@
+---
+title: "Coronavirus in South Africa"
+output:
+  html_document:
+    df_print: paged
+---
+
+This is a visual that looks at comparing the spread of the coronavirus in countries outside of China, using South Africa as a base mark.
+
+```{r echo=FALSE, include=FALSE}
+# packages to use
+
+library(tidyverse)
+library(hrbrthemes)
+library(ggtext)
+```
+
+The file used here is soucred from this [CSSE at Johns Hopkins University](https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv) GitHub repo. Date stamp for this file is 28 March 2020.
+
+You will need to download the file and place it on your work directory.
+
+### Loading the file ###
+
+```{r}
+# reading in the csv file
+coronavirus_source <- read.csv('time_series_covid19_confirmed_global.csv')
+
+# unpivot the date columns into a single column called days. Using gather() function from tidyr (tidyverse)
+coronavirus <- coronavirus_source %>% gather(days,"counts", -c(Province.State, Country.Region, Lat, Long)) %>% filter(!counts == 0)
+
+# remove the X character on the dates. Using str_replace() function from stringr (tidyverse)
+coronavirus$days <- str_replace(coronavirus$days, "X", "")
+
+# to see the number of data logged for South Africa. Using filter() function from dplyr (tidyverse)
+sa_count <- coronavirus %>% filter(Country.Region == 'South Africa') %>% count()
+
+# since South Africa is on day 22 since the virus was first reported in the country. Using group_by() function from dplyr (tidyverse)
+coronavirus_22 <- coronavirus %>% group_by(Country.Region) %>% slice(1:sa_count$n)
+
+# to see the number of data logged for Italy
+italy_count <- coronavirus_22 %>% filter(Country.Region == 'Italy') %>% arrange(desc(counts)) %>% slice(1)
+
+# to see the number of data logged for US
+usa_count <- coronavirus_22 %>% filter(Country.Region == 'US') %>% arrange(desc(counts)) %>% slice(1)
+
+# view the results
+coronavirus_22
+```
+
+We now know the number of cases reported in Italy (**`r italy_count$counts`**) and the US (**`r usa_count$counts`**), after day **`r sa_count$n`**. 
+
+We are now going to filter out China and only look at countries with over **200** reported cases at day **`r sa_count$n`** or less. This is to compare the spread of the virus in South Africa to other countries.
+
+```{r}
+# doing the filtering
+coronavirus_latest_22 <-  coronavirus_22 %>% arrange(desc(counts)) %>% slice(1) %>% arrange(desc(counts)) %>% filter(!Country.Region == 'China', counts >= 200) %>% group_by(Country.Region) %>% summarise(totalcases = sum(counts))
+```
+
+### Create the visual ###
+
+Creating the visual to see how South Africa compares to the countries outside of China, at day **`r sa_count$n`** of the Coronavirus since the first case(s) were reported. This is a ggplot2 visual.
+
+```{r error=FALSE, warning=FALSE, fig.width=11, fig.height=9.5}
+coronavirus_latest_22 %>% 
+  ggplot(aes(x = reorder(Country.Region, totalcases), y = totalcases)) +
+  geom_col(color = "black") +
+  geom_col(data = coronavirus_latest_22 %>% filter(Country.Region == "South Africa"), fill = "red", color = "black") +
+  geom_text(data = coronavirus_latest_22, aes(label=totalcases), hjust=-0.2, nudge_y= 1, size = 2.9) +
+  geom_text(x = 25, y = 4500,  label = paste0('At day ' , sa_count$n, ', Italy had ', italy_count$counts,' reported cases. \nWhile the USA had ', usa_count$counts, ' reported cases.'))+
+  coord_flip() +
+  theme_ipsum(grid = F) +
+  labs(x = "Countries", y = paste0("Total Number of Cases at Day " , sa_count$n), 
+      # title = "**Countries with over 200 Reported <i style='color:#3F704D'>*Coronavirus*</i> Cases within the First 23 Day or Less After the <i style='color:red'>*First Reported Case(s)*</i>**", 
+      title = paste0("Countries with over 200 Reported Coronavirus Cases within the First ", sa_count$n, " Days or Less"), 
+       subtitle = "Looking at countries outside of China. Data Date: 27 March 2020 18:03:00PM",
+       caption = "Data Source: https://data.humdata.org/dataset/novel-coronavirus-2019-ncov-cases\nBy @Sbudation15") + 
+  theme(text = element_text(family = "Roboto Condensed"),
+        plot.title = element_markdown(lineheight = 1.2, colour = "black", face = "bold", hjust = 0.5, size = 13), 
+        plot.subtitle = element_markdown(hjust = 0.5, face = "bold", size = 11),
+        panel.grid.minor.y = element_blank(),
+        panel.grid = element_blank(), 
+        legend.position = "none"
+  ) 
+
+ # if you want to save the visual to your disk (data/ is a folder under my working directory)
+#ggsave(filename = here::here("data/Coronavirus_in_SA.png"),
+#       height = 8, width = 14)
+```
+
