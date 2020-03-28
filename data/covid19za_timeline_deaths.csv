@@ -1,3 +1,2 @@
 report_id,date,YYYYMMDD,province, geo, age,gender, notes, source
-1,2020-03-27,20200327,WC,ZA-WC, female, 48, was in ICU prior, https://www.westerncape.gov.za/news/statement-premier-alan-winde-first-coronavirus-deaths
-2,2020-03-27,20200327,WC,ZA-WC, female, 28, , https://www.westerncape.gov.za/news/statement-premier-alan-winde-first-coronavirus-deaths
+1,2020-03-27,20200327,WC,ZA-WC, female,48,Had prior Pulmonary Embolism, https://www.westerncape.gov.za/news/statement-premier-alan-winde-first-coronavirus-deaths
