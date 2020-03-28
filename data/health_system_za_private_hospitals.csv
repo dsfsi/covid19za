@@ -1,431 +1,431 @@
-hospital_id,hospital_name,longitude,latitude,province
-1,Mediclinic Newcastle Day Hosp,29.931891,-27.7672,ZA-KZN
-2,Mediclinic Newcastle Hosp,29.931392,-27.7685,ZA-KZN
-3,Ahmed Al-Kadi Prv Hosp,30.978631,-29.844,ZA-KZN
-4,Akeso Umhlanga Hosp,31.068422,-29.7129,ZA-KZN
-5,Alliance Care Umhlanga Hosp,31.021882,-29.7547,ZA-KZN
-6,Bluff Centre Hosp,31.020005,-29.9086,ZA-KZN
-7,Broadwalk Med Centre,31.018172,-29.8602,ZA-KZN
-8,Busamed Gateway Hosp,31.072501,-29.7226,ZA-KZN
-9,Busamed Hillcrest Prv Hosp,30.74085,-29.7899,ZA-KZN
-10,Capital Oncology and General Hosp,30.98583,-29.8517,ZA-KZN
-11,Chatsworth Cheshire Rehab Centre,30.886355,-29.921991,ZA-KZN
-12,City Hosp,31.014692,-29.8512,ZA-KZN
-13,DBN Eye Hosp,30.997621,-29.836,ZA-KZN
-14,Durban Oncology Centre,30.985862,-29.8515,ZA-KZN
-15,Fountain Med Centre,30.857739,-30.0964,ZA-KZN
-16,Highway Sub-Acute,30.761786,-29.772691,ZA-KZN
-17,Humana Health Care Hosp,28.211471,-25.768068,ZA-KZN
-18,IMA Hosp,30.90004,-29.9943,ZA-KZN
-19,JMH Ascot Park Hosp,31.018237,-29.8485,ZA-KZN
-20,JMH City Hosp,31.014662,-29.8513,ZA-KZN
-21,JMH Durdoc Hosp,31.017216,-29.8605,ZA-KZN
-22,JMH Isipingo Hosp,30.926839,-29.9863,ZA-KZN
-23,Kynoch Hosp,30.90682,-30.0184,ZA-KZN
-24,Life Chatsmed Garden Hosp,30.906225,-29.9095,ZA-KZN
-25,Life Entabeni Hosp,30.987428,-29.8555,ZA-KZN
-26,Life Mt Edgecombe Hosp,31.035649,-29.7157,ZA-KZN
-27,Life The Crompton Hosp,30.865212,-29.8112,ZA-KZN
-28,Life Westville Hosp,30.932113,-29.8509,ZA-KZN
-29,Malvern Centre Hosp,30.920624,-29.8814,ZA-KZN
-30,Mediclinic Victoria Hosp,31.118208,-29.5733,ZA-KZN
-31,Medicross Procare Sub-Acute Hosp,30.913635,-30.0243,ZA-KZN
-32,Netcare Kingsway Hosp,30.903978,-30.0328,ZA-KZN
-33,Netcare Parklands Hosp,30.998478,-29.834,ZA-KZN
-34,Netcare St Augustine's Hosp,30.990445,-29.8564,ZA-KZN
-35,Netcare Umhlanga Hosp,31.068697,-29.7275,ZA-KZN
-36,NHN Capital Haemato Hosp,30.985775,-29.8517,ZA-KZN
-37,NHN Healing Hills Hosp,30.663681,-29.7391,ZA-KZN
-38,NHN Icare Amanzimtoti Med Centre,30.914036,-30.0186,ZA-KZN
-39,NHN Lenmed eThekwini Heart Hosp,30.995682,-29.7774,ZA-KZN
-40,NHN Lenmed Shifa Hosp,30.984954,-29.8308,ZA-KZN
-41,NHN M-Care Umhlanga Hosp,31.069036,-29.7276,ZA-KZN
-42,Saiccor Hosp,30.79335,-30.2011,ZA-KZN
-43,Westridge Day Surg Centre,30.985809,-29.850821,ZA-KZN
-44,NHN Riverview Clinic Hosp,29.497375,-29.7946,ZA-KZN
-45,Netcare Kokstad Prv Hosp,29.424315,-30.5521,ZA-KZN
-46,KwaDukuza Private Hosp,31.275556,-29.3468,ZA-KZN
-47,Netcare Alberlito Hosp,31.201856,-29.5304,ZA-KZN
-48,JMH Richards Bay Med Institute,32.053203,-28.748916,ZA-KZN
-49,Life Empangeni Prv Hosp,31.893714,-28.7363,ZA-KZN
-50,Melomed Rich Bay Hosp,31.932124,-28.7698,ZA-KZN
-51,Netcare The Bay Hosp,32.052822,-28.7495,ZA-KZN
-52,Richards Bay Med Institute Day Hosp,32.053299,-28.74901,ZA-KZN
-53,Hibiscus Day Surgical Hosp,30.451536,-30.7416,ZA-KZN
-54,Netcare Margate Hosp,30.358177,-30.8617,ZA-KZN
-55,NHN Hibiscus Hosp,30.451701,-30.7415,ZA-KZN
-56,NHN Shelly Beach Day Hosp,30.404661,-30.8017,ZA-KZN
-57,Shelly Beach Priv Hosp,30.403837,-30.801178,ZA-KZN
-58,Shelly Beach Sub-Acute Hosp,30.403827,-30.801289,ZA-KZN
-59,Akeso PMB Hosp,30.410599,-29.6046,ZA-KZN
-60,Eden Gardens Priv Hospital,30.358003,-29.641302,ZA-KZN
-61,Mediclinic Pmb Hosp,30.388683,-29.6086,ZA-KZN
-62,Mildlands Med Centre,30.391894,-29.592706,ZA-KZN
-63,Netcare St Anne's Hosp,30.384357,-29.6017,ZA-KZN
-64,NHN Daymed Priv Hosp,30.407526,-29.5626,ZA-KZN
-65,PMB Eye Hosp,30.389616,-29.612982,ZA-KZN
-66,Rainbow Hosp,30.998263,-29.834556,ZA-KZN
-67,Royal Rehab Hosp,30.38406,-29.603194,ZA-KZN
-68,St Mary's Prv Hosp,30.825849,-29.847663,ZA-KZN
-69,Wembley House Hosp,30.367027,-29.592498,ZA-KZN
-70,Life Hilton Prv Hosp,30.299325,-29.5395,ZA-KZN
-71,Mediclinic Howick Hosp,30.218672,-29.477,ZA-KZN
-72,NHN Oatlands Care Med Centre,30.217638,-29.4784,ZA-KZN
-73,Oatlands Care Centre,30.477968,-29.477968,ZA-KZN
-74,Talana Step Down Hosp,30.280919,-27.964849,ZA-KZN
-75,Greytown Priv HospGreytown Priv Hosp,30.60663,-29.0607,ZA-KZN
-76,Essen Med Centre,29.768812,-28.557,ZA-KZN
-77,Ladysmith Sub-Acute Hosp,29.768233,-28.556988,ZA-KZN
-78,NHN Lenmed La Verna Hosp,29.779646,-28.5554,ZA-KZN
-79,AbaQulusi Priv Hosp,30.775736,-27.7717,ZA-KZN
-80,Longridge Colliery Mine Hosp,30.60844,-27.4872,ZA-KZN
-81,NHN Nongoma Private Hosp,31.648265,-27.9298,ZA-KZN
-82,NHN Pongola Hosp,31.619102,-27.3771,ZA-KZN
-83,NHN Matatiele Prv Hosp,28.808675,-30.3522,ZA-EC
-84,Life Beacon Bay Hosp,27.939663,-32.9489,ZA-EC
-85,Life E London Prv Hosp,27.900134,-33.0125,ZA-EC
-86,Life Grey Monument Clinic Hosp,27.397414,-32.8787,ZA-EC
-87,Life St Dominic's Hosp,27.90313,-32.9983,ZA-EC
-88,Life St James Hosp,27.901072,-33.0009,ZA-EC
-89,Life St Mark's Hosp,27.901159,-32.9977,ZA-EC
-90,NHN East London Eye Hosp,27.897928,-33.0019,ZA-EC
-91,NHN Icare Gonubie Med Centre,27.993444,-32.9362,ZA-EC
-92,Life Queenstown Prv Hosp,26.880087,-31.8979,ZA-EC
-93,NHN Care Cure Queenstown Sub-Acute Hosp,26.858113,-31.8947,ZA-EC
-94,Netcare Cuyler Hosp,25.391914,-33.765,ZA-EC
-95,Life Hunterscraig Hosp,25.60982,-33.9683,ZA-EC
-96,Life Mercantile Hosp,25.575102,-33.9306,ZA-EC
-97,Life St George's Hosp,25.605816,-33.9678,ZA-EC
-98,Netcare Greenacres Hosp,25.579902,-33.9517,ZA-EC
-99,NHN Aurora Rehab Hosp,25.560195,-33.969,ZA-EC
-100,NHN Icare Walmer Med Centre,25.555528,-33.9913,ZA-EC
-101,Oasim Hosp,25.613479,-33.963,ZA-EC
-102,Westways Hosp,25.558915,-33.9478,ZA-EC
-103,Life St Mary's Hosp,28.785432,-31.5909,ZA-EC
-104,NHN Crossmed Mthatha Prv Hosp,28.761941,-31.5938,ZA-EC
-105,NHN Mthatha Sub-Acute Hosp,28.785204,-31.5913,ZA-EC
-106,Life Isivivana Hosp,24.780218,-34.0299,ZA-EC
-107,Netcare Port Alfred Hosp,26.876792,-33.5966,ZA-EC
-108,NHN Riemland Clinic Hosp,28.495123,-27.2798,ZA-FS
-109,Netcare Vaalpark Hosp,27.840244,-26.7732,ZA-FS
-110,Sasol Infrachem Hosp,27.849385,-26.826,ZA-FS
-111,Netcare Kroon Hosp,27.230333,-27.6537,ZA-FS
-112,Mediclinic Welkom Hosp,26.730057,-27.9879,ZA-FS
-113,NHN E Oppenheimer Hosp,26.774142,-27.9667,ZA-FS
-114,NHN St Helena Hosp,26.710868,-28.0019,ZA-FS
-115,NHN Welkom Med Centre,26.727098,-27.9874,ZA-FS
-116,NHN Welkom Sub-Acute Hosp,26.727098,-27.9874,ZA-FS
-117,RH Matjhabeng Prv Hosp,26.774171,-27.966386,ZA-FS
-118,Bloemcare Psych Hosp,26.156533,-29.0864,ZA-FS
-119,Bloemfontein Eye Centre,26.194441,-29.1346,ZA-FS
-120,Busamed Bram Fischer International Airport Hosp,26.298006,-29.107408,ZA-FS
-121,Cairnhall Hosp,26.184516,-29.118,ZA-FS
-122,Life Pasteur Hosp,26.194991,-29.1344,ZA-FS
-123,Life Rosepark Hosp,26.176303,-29.1538,ZA-FS
-124,Mediclinic Bfn Hosp,26.203516,-29.1094,ZA-FS
-125,Netcare Pelonomi Prv Hosp,26.243918,-29.1385,ZA-FS
-126,Netcare Universitas Prv Hosp,26.186748,-29.1164,ZA-FS
-127,NHN CareCure Victoria Hosp,26.205302,-29.1223,ZA-FS
-128,NHN Hillandale HCC Hosp,26.178331,-29.0499,ZA-FS
-129,NHN M-Care Optima Hosp,26.193667,-29.1346,ZA-FS
-130,NHN M-Care Pentagon Park Hosp,26.215478,-29.0774,ZA-FS
-131,Bethlehem Med Centre,28.319261,-28.2325,ZA-FS
-132,Mediclinic Hoogland Hosp,28.322255,-28.229,ZA-FS
-133,NHN Corona Hosp,28.321089,-28.2297,ZA-FS
-134,Busamed Harrismith Prv Hosp,29.115483,-28.2618,ZA-FS
-135,Basambilu Med Centre,28.19,-26.01,ZA-GP
-136,Diepsloot Med Centre,28.01873,-25.9205,ZA-GP
-137,HEALth-WorX Carlswald Med Centre,28.116646,-25.9795,ZA-GP
-138,Life Fourways Hosp,27.993825,-26.0112,ZA-GP
-139,Mediwell Dainfern Square Med Centre,28.013146,-25.9929,ZA-GP
-140,Netcare Sunninghill Hosp,28.06941,-26.0384,ZA-GP
-141,Netcare Waterfall City Hosp,28.10258,-26.0146,ZA-GP
-142,NHN Icare Fourways Med Centre,28.006778,-26.0159,ZA-GP
-143,Phedisong Health Care,28.240658,-25.9984,ZA-GP
-144,Sunninghill Med Centre,28.080208,-26.0382,ZA-GP
-145,Tanganani Health Care,28.011625,-25.9293,ZA-GP
-146,HEALth-WorX Cresta Med Centre,27.974217,-26.1316,ZA-GP
-147,HEALth-WorX Randridge Med Centre,27.941652,-26.1008,ZA-GP
-148,Life Riverfield Lodge Hosp,27.962992,-25.9451,ZA-GP
-149,Mediclinic Sandton Hosp,28.01204,-26.0772,ZA-GP
-150,Mediclinic Wits D Gordon Med Centre,28.034502,-26.1796,ZA-GP
-151,Netcare Milpark Hosp,28.01725,-26.1797,ZA-GP
-152,Netcare Rehab Hosp,28.01224,-26.1885,ZA-GP
-153,Netcare Rosebank Hosp,28.03924,-26.1462,ZA-GP
-154,Netcare Sports Med and Ortho Hosp,28.03962,-26.1461,ZA-GP
-155,NHN Akeso Crescent Randburg Hosp,27.958773,-26.0881,ZA-GP
-156,NHN Johannesburg Eye Hosp,27.977595,-26.1395,ZA-GP
-157,NHN Northcliff Medw Hosp,27.977811,-26.1398,ZA-GP
-158,Parkmore Park Med Centre,28.046116,-26.0993,ZA-GP
-159,Rosebank Med Dental Centre,28.03845,-26.1467,ZA-GP
-160,Clinix Dr SK Matseke Mem Hosp,27.87435,-26.2055,ZA-GP
-161,Clinix Tshepo-Themba Prv Hosp,27.873921,-26.2059,ZA-GP
-162,Life Flora Hosp,27.920641,-26.1516,ZA-GP
-163,Lifemed Hosp,27.93667,-26.2011,ZA-GP
-164,Life Wilgeheuwel Hosp,27.92435,-26.0995,ZA-GP
-165,Mayo Hosp,27.92086,-26.1504,ZA-GP
-166,Medicare Boskruin Med Centre,27.958324,-26.0866,ZA-GP
-167,Netcare Constantia Day Clinic,27.900218,-26.1476,ZA-GP
-168,Netcare Olivedale Hosp,27.972147,-26.0548,ZA-GP
-169,NHN Icare Wilgeheuwel Med Centre,27.894028,-26.1132,ZA-GP
-170,Advanced Medgate Day Hosp,27.867123,-26.138,ZA-GP
-171,Lesedi Prv Hosp,27.935847,-26.2581,ZA-GP
-172,Life Poortview Hosp,27.851671,-26.0897,ZA-GP
-173,Meredale Med Centre,27.96094,-26.2762,ZA-GP
-174,Busamed Modderfontein Prv Hosp,28.130116,-26.0755,ZA-GP
-175,Life Carstenhof Hosp,28.139385,-26.0309,ZA-GP
-176,Lonehill Med Centre,28.034859,-26.0171,ZA-GP
-177,Mediclinic Morningside Hosp,28.05595,-26.0956,ZA-GP
-178,Midrand Med Centre,28.129635,-25.9958,ZA-GP
-179,Netcare Linksfield Hosp,28.0954,-26.1594,ZA-GP
-180,Netcare Linkwood Hosp,28.09689,-26.1595,ZA-GP
-181,NHN Gynae Endo Med Centre,28.05654,-26.0971,ZA-GP
-182,NHN Icare Northriding Med Centre,27.957387,-26.0397,ZA-GP
-183,NHN Icare Sandton Day Hosp,28.06304,-26.0797,ZA-GP
-184,Prime Cure Bagleyston Day Clinic,28.0866,-26.1513,ZA-GP
-185,Argyle Hosp,28.0434,-26.1929,ZA-GP
-186,Clinix SS Morewa Mem Hosp,28.04278,-26.2208,ZA-GP
-187,Fordsburg Hosp,28.02157,-26.2099,ZA-GP
-188,Life Brenthurst Hosp,28.0466,-26.1842,ZA-GP
-189,Netcare Garden City Hosp,28.006889,-26.1973,ZA-GP
-190,Netcare Mulbarton Hosp,28.05302,-26.298,ZA-GP
-191,Netcare Park Lane Hosp,28.04638,-26.1821,ZA-GP
-192,Netcare Rand Hosp,28.04998,-26.1852,ZA-GP
-193,NHN Akeso Parktown Hosp,28.044005,-26.1824,ZA-GP
-194,Kliptown Med Centre,27.890179,-26.2793,ZA-GP
-195,NHN Lenmed Ahmed Katrada Prv Hosp,27.86371,-26.3278,ZA-GP
-196,NHN Lenmed Daxina Hosp,27.841045,-26.3818,ZA-GP
-197,Botshilu Hosp,28.127308,-25.485,ZA-GP
-198,Mediclinic Legae Hosp,28.03835,-25.5251,ZA-GP
-199,Netcare Akasia Hosp,28.10867,-25.6742,ZA-GP
-200,Wisani Med Centre Hosp,27.97686,-25.6115,ZA-GP
-201,Netcare Montana Hosp,28.24418,-25.6752,ZA-GP
-202,NHN Icare Wonderboom Med Centre,28.1905,-25.6837,ZA-GP
-203,Astrid Hosp,28.209688,-25.7475,ZA-GP
-204,Curamed Hosp,28.203429,-25.7551,ZA-GP
-205,Life Brooklyn Day Hosp,28.235836,-25.7698,ZA-GP
-206,Life Eugene Marais Hosp,28.193922,-25.71,ZA-GP
-207,Life Groenkloof Hosp,28.2164,-25.7715,ZA-GP
-208,Louis Pasteur Hosp,28.19666,-25.7485,ZA-GP
-209,Pretoria Gynae Hosp,28.20565,-25.7562,ZA-GP
-210,Mediclinic Heart Hosp,28.20677,-25.7491,ZA-GP
-211,Mediclinic Medforum Hosp,28.199664,-25.7468,ZA-GP
-212,Mediclinic Muelmed Hosp,28.20768,-25.7469,ZA-GP
-213,Netcare Bougainville Hosp,28.1535,-25.7152,ZA-GP
-214,Netcare Femina Hosp,28.20037,-25.7401,ZA-GP
-215,Netcare Jakaranda Hosp,28.21182,-25.7595,ZA-GP
-216,Netcare Moot Hosp,28.21779,-25.7137,ZA-GP
-217,NHN Urolocare Hosp,28.237729,-25.7442,ZA-GP
-218,Peermed Pretoria Health Centre,28.191279,-25.745,ZA-GP
-219,Pretoria Eye Inst Hosp,28.21113,-25.7474,ZA-GP
-220,Pretoria Urolog Hosp,28.23775,-25.744,ZA-GP
-221,University of Pta Med Centre,28.200165,-25.7303,ZA-GP
-222,Zuid Afrikaans Hosp,28.20571,-25.762,ZA-GP
-223,Erasmia Med Centre,28.09319,-25.8114,ZA-GP
-224,HEALth-WorX Centurion Med Centre,28.187175,-25.8566,ZA-GP
-225,HEALth-WorX Raslouw Med Centre,28.136995,-25.8693,ZA-GP
-226,Medipark 24 Med Centre,28.142686,-25.8944,ZA-GP
-227,Netcare Unitas Hosp,28.1959,-25.8323,ZA-GP
-228,NHN Centurion Eye Hosp,28.194997,-25.831,ZA-GP
-229,NHN Icare Irene Day Hosp,28.205361,-25.8851,ZA-GP
-230,NHN Icare Irene Med Centre,28.205361,-25.8851,ZA-GP
-231,NHN Icare Irene Sub-Acute Hosp,28.205361,-25.8851,ZA-GP
-232,NHN Icare Mall@55 Med Dental Centre,28.105073,-25.8853,ZA-GP
-233,NHN Vista Hosp,28.19321,-25.8439,ZA-GP
-234,Clinix Cullinan Prv Hosp,28.515781,-25.6659,ZA-GP
-235,Denmar Hosp,28.29974,-25.8025,ZA-GP
-236,HEALth-WorX Montana Med Centre,28.241145,-25.6775,ZA-GP
-237,Kloof Hosp,28.262855,-25.8111,ZA-GP
-238,Life Faerie Glen Hosp,28.291695,-25.7835,ZA-GP
-239,Life Wilgers Hosp,28.318918,-25.7678,ZA-GP
-240,Mamelodi Med Centre,28.375033,-25.7141,ZA-GP
-241,Mediclinic Kloof Hosp,28.2631,-25.8129,ZA-GP
-242,Netcare Pretoria E Hosp,28.30496,-25.8209,ZA-GP
-243,NHN Intercare Glenfair Med Centre,28.280361,-25.7655,ZA-GP
-244,NHN Icare Hazeldean Day Hosp,28.360911,-25.7824,ZA-GP
-245,NHN Icare Hazeldean Sub-Acute Hosp,28.360911,-25.7824,ZA-GP
-246,NHN Icare Silver Lake Med Centre,28.353222,-25.7848,ZA-GP
-247,NHN Icare Woodhill Med Centre,28.304361,-25.8193,ZA-GP
-248,Phelang Prv Hosp,28.378808,-25.7139,ZA-GP
-249,SAMCOR Med Centre,28.329661,-25.7372,ZA-GP
-250,Life Dalview Hosp,28.354391,-26.2451,ZA-GP
-251,Optiklin Eye Hosp,28.28709,-26.1785,ZA-GP
-252,Life Springs Parkland Hosp,28.43466,-26.2657,ZA-GP
-253,Life St Mary's Prv Hosp,28.43471,-26.2587,ZA-GP
-254,Netcare N17 Prv Hosp,28.42802,-26.2713,ZA-GP
-255,Harmelia Prv Hosp,28.2021,-26.1365,ZA-GP
-256,Kloof Med Centre,28.13315,-26.1847,ZA-GP
-257,Mediclinic Midstream Hosp,28.190883,-25.9224,ZA-GP
-258,NHN Arwyp Med Centre Hosp,28.22923,-26.1065,ZA-GP
-259,NHN Icare Glen Marais Med Centre,28.249774,-26.0832,ZA-GP
-260,NHN Lenmed Zamokuhle Prv Hosp,28.238093,-25.9829,ZA-GP
-261,Peermed Kempton Park Health Centre,28.231123,-26.106,ZA-GP
-262,Dinwiddie Med Centre,28.330783,-26.1454,ZA-GP
-263,Glenairs Med Centre,28.063542,-26.2878,ZA-GP
-264,HEALth-WorX Boksburg Med Centre,28.248137,-26.1817,ZA-GP
-265,Life Bedford Gardens Hosp,28.12093,-26.1898,ZA-GP
-266,Life Glynnview Hosp,28.307291,-26.1928,ZA-GP
-267,Life The Glynnwood Hosp,28.308109,-26.1954,ZA-GP
-268,Netcare Linmed Hosp,28.330783,-26.1454,ZA-GP
-269,Netcare Optiklin Eye Hosp,28.288496,-26.1784,ZA-GP
-270,Netcare Sunward Park Hosp,28.256035,-26.2605,ZA-GP
-271,NHN Care Cure Rynmed Hosp,28.347066,-26.1405,ZA-GP
-272,NHN Lakeview Hosp,28.312829,-26.1843,ZA-GP
-273,NHN Sunshine Hosp,28.302914,-26.2115,ZA-GP
-274,Palm Springs Med Centre,28.277538,-26.2472,ZA-GP
-275,Sunward Park Med Centre,28.254504,-26.2279,ZA-GP
-276,Clinix Botshelong-Empilweni Prv Hosp,28.216395,-26.3455,ZA-GP
-277,Life Roseacres Hosp,28.169563,-26.1789,ZA-GP
-278,Netcare Clinton Hosp,28.12019,-26.2732,ZA-GP
-279,Netcare Union Hosp,28.119647,-26.2698,ZA-GP
-280,NHN Akeso Alberton Hosp,28.120691,-26.2656,ZA-GP
-281,Peermed Germiston Health Centre,28.163673,-26.2141,ZA-GP
-282,Philani Med Centre,28.21607,-26.3457,ZA-GP
-283,Clinix Naledi-Nkanyezi Prv Hosp,27.842933,-26.5814,ZA-GP
-284,Cormed Hosp,27.832318,-26.7022,ZA-GP
-285,Hlulani Med Centre,27.846783,-26.590498,ZA-GP
-286,Lakeview Med Centre,28.312829,-26.1844,ZA-GP
-287,Mediclinic Emfuleni Hosp,27.838504,-26.7038,ZA-GP
-288,Mediclinic Vereeniging Hosp,27.9283,-26.6678,ZA-GP
-289,Midvaal Prv Hosp,27.96935,-26.6617,ZA-GP
-290,NHN Care Cure Vereen Hosp,27.930458,-26.6684,ZA-GP
-291,Life Suikerbosrand Hosp,28.354079,-26.5005,ZA-GP
-292,Baneng Psych Hosp,27.43667,-26.2011,ZA-GP
-293,Fochville Hosp,27.49689,-26.4812,ZA-GP
-294,NHN Fountain Prv Hosp,27.382881,-26.3674,ZA-GP
-295,Western Deep Hosp,27.41607,-26.3733,ZA-GP
-296,HEALth-WorX Noordheuwel Med Centre,27.803764,-26.0815,ZA-GP
-297,Netcare Bell Street Hosp,27.804736,-26.0972,ZA-GP
-298,Netcare Krugersdorp Hosp,27.77518,-26.1047,ZA-GP
-299,Netcare Pinehaven Hosp,27.830418,-26.0621,ZA-GP
-300,Life Robinson Hosp,27.70915,-26.1606,ZA-GP
-301,Medicare Greenhills Med Centre,27.692793,-26.1597,ZA-GP
-302,NHN Lenmed Randfontein Prv Hosp,27.718959,-26.1679,ZA-GP
-303,S Albert Med Centre,27.71868,-26.1675,ZA-GP
-304,Wesmed Med Centre,27.652711,-26.3215,ZA-GP
-305,Lebowakgomo Medleb Hosp,29.475437,-24.3026,ZA-LP
-306,Mediclinic Limpopo Hosp,29.46334,-23.9082,ZA-LP
-307,Netcare Pholoso Hosp,29.493351,-23.9016,ZA-LP
-308,Life Esidimeni Shiluvana Hosp,30.27413,-24.0428,ZA-LP
-309,Mediclinic Tzaneen Hosp,30.154319,-23.8242,ZA-LP
-310,NHN Quality Care Prv Hosp,29.913072,-23.0447,ZA-LP
-311,NHN Zoutpansberg Prv Hosp,29.897218,-23.0408,ZA-LP
-312,NHN St Vincent's Hosp,28.28067,-24.8811,ZA-LP
-313,Mediclinic Lephalale Hosp,27.698139,-23.6864,ZA-LP
-314,Anglo Platinum Mine Hosp,28.914191,-23.971154,ZA-LP
-315,Mediclinic Thabazimbi Hosp,27.407217,-24.599,ZA-LP
-316,Platinum Health Amandelbult Hosp,27.387811,-25.7602,ZA-LP
-317,Platinum Health Setaria Mine Hosp,27.405936,-24.7957,ZA-LP
-318,Platinum Health Thabazimbi Med Centre,27.402773,-24.5827,ZA-LP
-319,Platinum Health Union Mine Hosp,27.153089,-25.9405,ZA-LP
-320,Swartklip Mine Hosp,27.15166,-24.9393,ZA-LP
-321,Busamed Lowveld Prv Hosp,30.977583,-25.4761,ZA-MP
-322,Eureka Barberton Hosp,31.051946,-25.7622,ZA-MP
-323,Mediclinic Nelspruit Hosp,30.961882,-25.4935,ZA-MP
-324,NHN Kiaat Prv Hosp,30.983566,-25.4035,ZA-MP
-325,NHN M-Care Nelspruit Hosp,30.952268,-25.4846,ZA-MP
-326,Mediclinic Highveld Hosp,29.23186,-26.4918,ZA-MP
-327,Mediclinic Secunda Hosp,29.182497,-26.5073,ZA-MP
-328,Winkelhaak Mine Hosp,29.126244,-26.513141,ZA-MP
-329,Life Piet Retief Hosp,30.804255,-27.0202,ZA-MP
-330,Ermelo Hospiplan Hosp,29.97482,-26.5229,ZA-MP
-331,Mediclinic Ermelo Hosp,29.987844,-26.5428,ZA-MP
-332,Anglo CoalHighveld Hosp,29.199753,-25.9167,ZA-MP
-333,Greenside Hosp,29.178193,-25.9586,ZA-MP
-334,Life Cosmos Hosp,29.232742,-25.8841,ZA-MP
-335,NHN eMalahleni Day Hosp,29.215849,-25.8748,ZA-MP
-336,NHN eMalahleni Prv Hosp,29.214917,-25.8754,ZA-MP
-337,NHN Highveld Eye Hosp,29.240453,-25.8721,ZA-MP
-338,Arnot Colliery Mine Hosp,29.774216,-25.929726,ZA-MP
-339,Douglas Colliery Mine Hosp,29.8034,-25.9467,ZA-MP
-340,Koornfontein Mine Hosp,29.187401,-25.8296,ZA-MP
-341,Life Midmed Hosp,29.457539,-25.7628,ZA-MP
-342,Middelburg Mine Hosp,29.445316,-25.73034,ZA-MP
-343,Optimum Mine Hosp,29.611914,-25.988335,ZA-MP
-344,Mediclinic Brits Hosp,27.782926,-25.6328,ZA-NW
-345,A Saffey Mine Hosp,27.23578,-25.6639,ZA-NW
-346,Impala Mine Hosp,27.20101,-25.5335,ZA-NW
-347,Life La Femme Clinic Hosp,27.238413,-25.6721,ZA-NW
-348,Life Peglerae Hosp,27.242302,-25.6737,ZA-NW
-349,Netcare Ferncrest Hosp,27.214149,-25.6478,ZA-NW
-350,NHN Medi-Care Rustenburg Hosp,27.226595,-25.6852,ZA-NW
-351,RPM Mine Hosp,27.245717,-25.667397,ZA-NW
-352,Duff Scott Hosp,26.80489,-26.8622,ZA-NW
-353,Life Anncron Clinic Hosp,26.668083,-26.8411,ZA-NW
-354,NHN Parkmed Neuro Hosp,26.660808,-26.8726,ZA-NW
-355,NHN Sunningdale Hosp,26.669377,-26.8468,ZA-NW
-356,NHN Wilmed Park Hosp,26.678519,-26.8309,ZA-NW
-357,West Vaal Hosp,26.67205,-26.9623,ZA-NW
-358,Mediclinic Potch Hosp,27.08141,-26.689,ZA-NW
-359,NHN Medi-Care Potch Hosp,27.083957,-26.7273,ZA-NW
-360,NHN Vryburg Prv Hosp,24.721533,-26.9468,ZA-NW
-361,Clinix Victoria Prv Hosp,25.64145,-25.86,ZA-NW
-362,Mediclinic Kimberley Hosp,24.771611,-28.7449,ZA-NC
-363,NHN Lenmed Royal Hosp and Heart Centre,24.762109,-28.7564,ZA-NC
-364,NHN Lenmed Kathu Hosp,23.054137,-27.6945,ZA-NC
-365,Aggeneys (Black Mountain) Prv Hosp,18.842602,-29.2413,ZA-NC
-366,Kleinsee Private Hosp,17.065233,-29.676466,ZA-NC
-367,Orania Hosp,24.409905,-29.810791,ZA-NC
-368,Mediclinic Upington Hosp,21.266934,-28.4399,ZA-NC
-369,Lime Acres Hosp,23.57222,-28.3694,ZA-NC
-370,Mediclinic Worcester Hosp,19.450696,-33.6442,ZA-WC
-371,Pines Clinic Hosp,19.44804,-33.6403,ZA-WC
-372,Drakenstein Hosp,18.96904,-33.7188,ZA-WC
-373,Mediclinic Paarl Hosp,18.969075,-33.7187,ZA-WC
-374,Mediclinic Stellenbosch Hosp,18.850752,-33.9443,ZA-WC
-375,Netcare Ceres Hosp,19.3094,-33.3607,ZA-WC
-376,Busamed Paardevlei Prv Hosp,18.816891,-34.094483,ZA-WC
-377,E River Medi-City Clinic,?,?,ZA-WC
-378,Mediclinic Strand Hosp,18.838289,-34.1137,ZA-WC
-379,Mediclinic Vergelegen Hosp,18.858151,-34.0914,ZA-WC
-380,Netcare Kuils River Hosp,18.674902,-33.9187,ZA-WC
-381,NHN Life Path Helderberg Hosp,18.838131,-34.1127,ZA-WC
-382,NHN Spescare Sub-Acute Hosp,18.838046,-34.1128,ZA-WC
-383,Mediclinic Cape Gate Hosp,18.697091,-33.8494,ZA-WC
-384,Mediclinic Durbanville Hosp,18.655261,-33.826,ZA-WC
-385,Mediclinic Panorama Hosp,18.577052,-33.8753,ZA-WC
-386,Monte Vista Hosp,18.55638,-33.8775,ZA-WC
-387,NHN Icare Tyger Valley SA Hosp,18.637139,-33.8722,ZA-WC
-388,NHN M-Care Cape View Hosp,18.564195,-33.8926,ZA-WC
-389,Kenilworth Hosp,18.47313,-33.9948,ZA-WC
-390,Life Claremont Hosp,18.466387,-33.9865,ZA-WC
-391,Life Kingsbury Hosp,18.468447,-33.9861,ZA-WC
-392,Mediclinic Constantiaberg Hosp,18.460908,-34.0265,ZA-WC
-393,Mediclinic Const Neonatal Hosp,18.46095,-34.0266,ZA-WC
-394,Melomed Tokai Priv Hospital,18.458959,-34.067535,ZA-WC
-395,Netcare Southern Cross Hosp,18.46923,-34.0047,ZA-WC
-396,Newlands Surg Hosp,18.466055,-33.9769,ZA-WC
-397,NHN M-Care Newlands Hosp,18.467383,-33.9712,ZA-WC
-398,Life Vincent Pallotti Hosp,18.490442,-33.9432,ZA-WC
-399,Mediclinic Cape Town Hosp,18.410452,-33.9357,ZA-WC
-400,Mediclinic Milnerton Hosp,18.506922,-33.8654,ZA-WC
-401,Netcare Blaauwberg Hosp,18.483991,-33.8033,ZA-WC
-402,Netcare C Barnard Hosp,18.41816,-33.9217,ZA-WC
-403,Netcare UCT Prv Hosp,18.462548,-33.942,ZA-WC
-404,NHN Icare Century City DH,18.512787,-33.8876,ZA-WC
-405,Shirnell Clinic Hosp,18.44249,-33.9157,ZA-WC
-406,Wesfleur Clinic Hosp,18.49505,-33.5649,ZA-WC
-407,Gatesv Med Centre Hosp,18.53346,-33.9709,ZA-WC
-408,Melomed Gatesville Hosp,18.532997,-33.9704,ZA-WC
-409,Melomed Mitchells Plain Hosp,18.621214,-34.0494,ZA-WC
-410,M Plain Med Centre Hosp,18.59641,-34.0082,ZA-WC
-411,M Plain Hosp,18.6157,-34.0262,ZA-WC
-412,Aevitas Hosp,18.49029,-33.9435,ZA-WC
-413,Bellville Med Hosp,18.62955,-33.9025,ZA-WC
-414,Cape Eye Hosp,18.60901,-33.8996,ZA-WC
-415,Libertas Hosp,18.5418,-33.9121,ZA-WC
-416,Mediclinic Louis Leipoldt Hosp,18.612936,-33.901,ZA-WC
-417,Melomed Bellville Hosp,18.623831,-33.9018,ZA-WC
-418,Netcare N1 City Hosp,18.559056,-33.8936,ZA-WC
-419,Origin Maternity Hosp,18.575914,-33.875782,ZA-WC
-420,Mediclinic Plett Bay Hosp,23.364999,-34.0529,ZA-WC
-421,Mediclinic Geneva Hosp,22.452171,-33.9563,ZA-WC
-422,Mediclinic George Hosp,22.456439,-33.9573,ZA-WC
-423,Life Knysna Pvt Hosp,23.078486,-34.0521,ZA-WC
-424,Meyer Zall Hosp,23.02,-34.02,ZA-WC
-425,Life Bay View Pvt Hosp,22.130775,-34.1813,ZA-WC
-426,Cango Hosp,22.202562,-33.5906,ZA-WC
-427,Mediclinic K Karoo Hosp,22.185728,-33.5859,ZA-WC
-428,NHN Kango Clinic,22.201612,-33.591,ZA-WC
-429,Mediclinic Hermanus Hosp,19.226345,-34.4229,ZA-WC
-430,Life West Coast Prv Hosp,17.990553,-32.9118,ZA-WC
+hospital_id,Hospitalital_name,longitude,latitude,province
+464,Mediclinic Newcastle Day Hospital,29.931891,-27.7672,ZA-KZN
+465,Mediclinic Newcastle Hospital,29.931392,-27.7685,ZA-KZN
+466,Ahmed Al-Kadi Prv Hospital,30.978631,-29.844,ZA-KZN
+467,Akeso Umhlanga Hospital,31.068422,-29.7129,ZA-KZN
+468,Alliance Care Umhlanga Hospital,31.021882,-29.7547,ZA-KZN
+469,Bluff Centre Hospital,31.020005,-29.9086,ZA-KZN
+470,Broadwalk Med Centre,31.018172,-29.8602,ZA-KZN
+471,Busamed Gateway Hospital,31.072501,-29.7226,ZA-KZN
+472,Busamed Hillcrest Prv Hospital,30.74085,-29.7899,ZA-KZN
+473,Capital Oncology and General Hospital,30.98583,-29.8517,ZA-KZN
+475,Chatsworth Cheshire Rehab Centre,30.886355,-29.921991,ZA-KZN
+476,City Hospital,31.014692,-29.8512,ZA-KZN
+478,DBN Eye Hospital,30.997621,-29.836,ZA-KZN
+479,Durban Oncology Centre,30.985862,-29.8515,ZA-KZN
+482,Fountain Med Centre,30.857739,-30.0964,ZA-KZN
+483,Highway Sub-Acute,30.761786,-29.772691,ZA-KZN
+484,Humana Health Care Hospital,28.211471,-25.768068,ZA-KZN
+486,IMA Hospital,30.90004,-29.9943,ZA-KZN
+487,JMH Ascot Park Hospital,31.018237,-29.8485,ZA-KZN
+488,JMH City Hospital,31.014662,-29.8513,ZA-KZN
+489,JMH Durdoc Hospital,31.017216,-29.8605,ZA-KZN
+490,JMH Isipingo Hospital,30.926839,-29.9863,ZA-KZN
+493,Kynoch Hospital,30.90682,-30.0184,ZA-KZN
+494,Life Chatsmed Garden Hospital,30.906225,-29.9095,ZA-KZN
+495,Life Entabeni Hospital,30.987428,-29.8555,ZA-KZN
+496,Life Mt Edgecombe Hospital,31.035649,-29.7157,ZA-KZN
+497,Life The Crompton Hospital,30.865212,-29.8112,ZA-KZN
+498,Life Westville Hospital,30.932113,-29.8509,ZA-KZN
+500,Malvern Centre Hospital,30.920624,-29.8814,ZA-KZN
+502,Mediclinic Victoria Hospital,31.118208,-29.5733,ZA-KZN
+503,Medicross Procare Sub-Acute Hospital,30.913635,-30.0243,ZA-KZN
+504,Netcare Kingsway Hospital,30.903978,-30.0328,ZA-KZN
+505,Netcare Parklands Hospital,30.998478,-29.834,ZA-KZN
+506,Netcare St Augustine's Hospital,30.990445,-29.8564,ZA-KZN
+507,Netcare Umhlanga Hospital,31.068697,-29.7275,ZA-KZN
+508,NHN Capital Haemato Hospital,30.985775,-29.8517,ZA-KZN
+509,NHN Healing Hills Hospital,30.663681,-29.7391,ZA-KZN
+510,NHN Icare Amanzimtoti Med Centre,30.914036,-30.0186,ZA-KZN
+511,NHN Lenmed eThekwini Heart Hospital,30.995682,-29.7774,ZA-KZN
+512,NHN Lenmed Shifa Hospital,30.984954,-29.8308,ZA-KZN
+513,NHN M-Care Umhlanga Hospital,31.069036,-29.7276,ZA-KZN
+516,Saiccor Hospital,30.79335,-30.2011,ZA-KZN
+520,Westridge Day Surg Centre,30.985809,-29.850821,ZA-KZN
+521,NHN Riverview Clinic Hospital,29.497375,-29.7946,ZA-KZN
+524,Netcare Kokstad Prv Hospital,29.424315,-30.5521,ZA-KZN
+527,KwaDukuza Private Hospital,31.275556,-29.3468,ZA-KZN
+528,Netcare Alberlito Hospital,31.201856,-29.5304,ZA-KZN
+530,JMH Richards Bay Med Institute,32.053203,-28.748916,ZA-KZN
+531,Life Empangeni Prv Hospital,31.893714,-28.7363,ZA-KZN
+532,Melomed Rich Bay Hospital,31.932124,-28.7698,ZA-KZN
+533,Netcare The Bay Hospital,32.052822,-28.7495,ZA-KZN
+535,Richards Bay Med Institute Day Hospital,32.053299,-28.74901,ZA-KZN
+539,Hibiscus Day Surgical Hospital,30.451536,-30.7416,ZA-KZN
+540,Netcare Margate Hospital,30.358177,-30.8617,ZA-KZN
+541,NHN Hibiscus Hospital,30.451701,-30.7415,ZA-KZN
+542,NHN Shelly Beach Day Hospital,30.404661,-30.8017,ZA-KZN
+543,Shelly Beach Priv Hospital,30.403837,-30.801178,ZA-KZN
+544,Shelly Beach Sub-Acute Hospital,30.403827,-30.801289,ZA-KZN
+547,Akeso PMB Hospital,30.410599,-29.6046,ZA-KZN
+549,Eden Gardens Priv Hospitalital,30.358003,-29.641302,ZA-KZN
+550,Mediclinic Pmb Hospital,30.388683,-29.6086,ZA-KZN
+551,Mildlands Med Centre,30.391894,-29.592706,ZA-KZN
+552,Netcare St Anne's Hospital,30.384357,-29.6017,ZA-KZN
+553,NHN Daymed Priv Hospital,30.407526,-29.5626,ZA-KZN
+554,PMB Eye Hospital,30.389616,-29.612982,ZA-KZN
+555,Rainbow Hospital,30.998263,-29.834556,ZA-KZN
+556,Royal Rehab Hospital,30.38406,-29.603194,ZA-KZN
+557,St Mary's Prv Hospital,30.825849,-29.847663,ZA-KZN
+559,Wembley House Hospital,30.367027,-29.592498,ZA-KZN
+561,Life Hilton Prv Hospital,30.299325,-29.5395,ZA-KZN
+562,Mediclinic Howick Hospital,30.218672,-29.477,ZA-KZN
+563,NHN Oatlands Care Med Centre,30.217638,-29.4784,ZA-KZN
+564,Oatlands Care Centre,30.477968,-29.477968,ZA-KZN
+567,Talana Step Down Hospital,30.280919,-27.964849,ZA-KZN
+570,Greytown Priv Hospital,30.60663,-29.0607,ZA-KZN
+572,Essen Med Centre,29.768812,-28.557,ZA-KZN
+573,Ladysmith Sub-Acute Hospital,29.768233,-28.556988,ZA-KZN
+574,NHN Lenmed La Verna Hospital,29.779646,-28.5554,ZA-KZN
+575,AbaQulusi Priv Hospital,30.775736,-27.7717,ZA-KZN
+578,Longridge Colliery Mine Hospital,30.60844,-27.4872,ZA-KZN
+579,NHN Nongoma Private Hospital,31.648265,-27.9298,ZA-KZN
+582,NHN Pongola Hospital,31.619102,-27.3771,ZA-KZN
+74,NHN Matatiele Prv Hospital,28.808675,-30.3522,ZA-EC
+100,Life Beacon Bay Hospital,27.939663,-32.9489,ZA-EC
+101,Life E London Prv Hospital,27.900134,-33.0125,ZA-EC
+102,Life Grey Monument Clinic Hospital,27.397414,-32.8787,ZA-EC
+103,Life St Dominic's Hospital,27.90313,-32.9983,ZA-EC
+104,Life St James Hospital,27.901072,-33.0009,ZA-EC
+105,Life St Mark's Hospital,27.901159,-32.9977,ZA-EC
+107,NHN East London Eye Hospital,27.897928,-33.0019,ZA-EC
+108,NHN Icare Gonubie Med Centre,27.993444,-32.9362,ZA-EC
+118,Life Queenstown Prv Hospital,26.880087,-31.8979,ZA-EC
+121,NHN Care Cure Queenstown Sub-Acute Hospital,26.858113,-31.8947,ZA-EC
+141,Netcare Cuyler Hospital,25.391914,-33.765,ZA-EC
+146,Life Hunterscraig Hospital,25.60982,-33.9683,ZA-EC
+147,Life Mercantile Hospital,25.575102,-33.9306,ZA-EC
+148,Life St George's Hospital,25.605816,-33.9678,ZA-EC
+150,Netcare Greenacres Hospital,25.579902,-33.9517,ZA-EC
+151,NHN Aurora Rehab Hospital,25.560195,-33.969,ZA-EC
+152,NHN Icare Walmer Med Centre,25.555528,-33.9913,ZA-EC
+153,Oasim Hospital,25.613479,-33.963,ZA-EC
+155,Westways Hospital,25.558915,-33.9478,ZA-EC
+159,Life St Mary's Hospital,28.785432,-31.5909,ZA-EC
+163,NHN Crossmed Mthatha Prv Hospital,28.761941,-31.5938,ZA-EC
+164,NHN Mthatha Sub-Acute Hospital,28.785204,-31.5913,ZA-EC
+180,Life Isivivana Hospital,24.780218,-34.0299,ZA-EC
+187,Netcare Port Alfred Hospital,26.876792,-33.5966,ZA-EC
+191,NHN Riemland Clinic Hospital,28.495123,-27.2798,ZA-FS
+193,Netcare Vaalpark Hospital,27.840244,-26.7732,ZA-FS
+194,Sasol Infrachem Hospital,27.849385,-26.826,ZA-FS
+196,Netcare Kroon Hospital,27.230333,-27.6537,ZA-FS
+203,Mediclinic Welkom Hospital,26.730057,-27.9879,ZA-FS
+204,NHN E Oppenheimer Hospital,26.774142,-27.9667,ZA-FS
+205,NHN St Helena Hospital,26.710868,-28.0019,ZA-FS
+206,NHN Welkom Med Centre,26.727098,-27.9874,ZA-FS
+207,NHN Welkom Sub-Acute Hospital,26.727098,-27.9874,ZA-FS
+208,RH Matjhabeng Prv Hospital,26.774171,-27.966386,ZA-FS
+212,Bloemcare Psych Hospital,26.156533,-29.0864,ZA-FS
+213,Bloemfontein Eye Centre,26.194441,-29.1346,ZA-FS
+888,Busamed Bram Fischer International Airport Hospital,26.298006,-29.107408,ZA-FS
+215,Cairnhall Hospital,26.184516,-29.118,ZA-FS
+217,Life Pasteur Hospital,26.194991,-29.1344,ZA-FS
+218,Life Rosepark Hospital,26.176303,-29.1538,ZA-FS
+220,Mediclinic Bfn Hospital,26.203516,-29.1094,ZA-FS
+222,Netcare Pelonomi Prv Hospital,26.243918,-29.1385,ZA-FS
+223,Netcare Universitas Prv Hospital,26.186748,-29.1164,ZA-FS
+224,NHN CareCure Victoria Hospital,26.205302,-29.1223,ZA-FS
+226,NHN Hillandale HCC Hospital,26.178331,-29.0499,ZA-FS
+227,NHN M-Care Optima Hospital,26.193667,-29.1346,ZA-FS
+228,NHN M-Care Pentagon Park Hospital,26.215478,-29.0774,ZA-FS
+235,Bethlehem Med Centre,28.319261,-28.2325,ZA-FS
+237,Mediclinic Hoogland Hospital,28.322255,-28.229,ZA-FS
+238,NHN Corona Hospital,28.321089,-28.2297,ZA-FS
+240,Busamed Harrismith Prv Hospital,29.115483,-28.2618,ZA-FS
+254,Basambilu Med Centre,28.19,-26.01,ZA-GP
+255,Diepsloot Med Centre,28.01873,-25.9205,ZA-GP
+256,HEALth-WorX Carlswald Med Centre,28.116646,-25.9795,ZA-GP
+257,Life Fourways Hospital,27.993825,-26.0112,ZA-GP
+258,Mediwell Dainfern Square Med Centre,28.013146,-25.9929,ZA-GP
+259,Netcare Sunninghill Hospital,28.06941,-26.0384,ZA-GP
+260,Netcare Waterfall City Hospital,28.10258,-26.0146,ZA-GP
+261,NHN Icare Fourways Med Centre,28.006778,-26.0159,ZA-GP
+262,Phedisong Health Care,28.240658,-25.9984,ZA-GP
+263,Sunninghill Med Centre,28.080208,-26.0382,ZA-GP
+264,Tanganani Health Care,28.011625,-25.9293,ZA-GP
+265,HEALth-WorX Cresta Med Centre,27.974217,-26.1316,ZA-GP
+266,HEALth-WorX Randridge Med Centre,27.941652,-26.1008,ZA-GP
+268,Life Riverfield Lodge Hospital,27.962992,-25.9451,ZA-GP
+269,Mediclinic Sandton Hospital,28.01204,-26.0772,ZA-GP
+270,Mediclinic Wits D Gordon Med Centre,28.034502,-26.1796,ZA-GP
+271,Netcare Milpark Hospital,28.01725,-26.1797,ZA-GP
+272,Netcare Rehab Hospital,28.01224,-26.1885,ZA-GP
+273,Netcare Rosebank Hospital,28.03924,-26.1462,ZA-GP
+274,Netcare Sports Med and Ortho Hospital,28.03962,-26.1461,ZA-GP
+275,NHN Akeso Crescent Randburg Hospital,27.958773,-26.0881,ZA-GP
+276,NHN Johannesburg Eye Hospital,27.977595,-26.1395,ZA-GP
+277,NHN Northcliff Medw Hospital,27.977811,-26.1398,ZA-GP
+278,Parkmore Park Med Centre,28.046116,-26.0993,ZA-GP
+280,Rosebank Med Dental Centre,28.03845,-26.1467,ZA-GP
+282,Clinix Dr SK Matseke Mem Hospital,27.87435,-26.2055,ZA-GP
+283,Clinix Tshepo-Themba Prv Hospital,27.873921,-26.2059,ZA-GP
+284,Life Flora Hospital,27.920641,-26.1516,ZA-GP
+285,Lifemed Hospital,27.93667,-26.2011,ZA-GP
+286,Life Wilgeheuwel Hospital,27.92435,-26.0995,ZA-GP
+287,Mayo Hospital,27.92086,-26.1504,ZA-GP
+288,Medicare Boskruin Med Centre,27.958324,-26.0866,ZA-GP
+289,Netcare Constantia Day Clinic,27.900218,-26.1476,ZA-GP
+290,Netcare Olivedale Hospital,27.972147,-26.0548,ZA-GP
+291,NHN Icare Wilgeheuwel Med Centre,27.894028,-26.1132,ZA-GP
+292,Advanced Medgate Day Hospital,27.867123,-26.138,ZA-GP
+296,Lesedi Prv Hospital,27.935847,-26.2581,ZA-GP
+297,Life Poortview Hospital,27.851671,-26.0897,ZA-GP
+298,Meredale Med Centre,27.96094,-26.2762,ZA-GP
+299,Busamed Modderfontein Prv Hospital,28.130116,-26.0755,ZA-GP
+301,Life Carstenhof Hospital,28.139385,-26.0309,ZA-GP
+302,Lonehill Med Centre,28.034859,-26.0171,ZA-GP
+303,Mediclinic Morningside Hospital,28.05595,-26.0956,ZA-GP
+304,Midrand Med Centre,28.129635,-25.9958,ZA-GP
+305,Netcare Linksfield Hospital,28.0954,-26.1594,ZA-GP
+306,Netcare Linkwood Hospital,28.09689,-26.1595,ZA-GP
+307,NHN Gynae Endo Med Centre,28.05654,-26.0971,ZA-GP
+308,NHN Icare Northriding Med Centre,27.957387,-26.0397,ZA-GP
+309,NHN Icare Sandton Day Hospital,28.06304,-26.0797,ZA-GP
+310,Prime Cure Bagleyston Day Clinic,28.0866,-26.1513,ZA-GP
+312,Argyle Hospital,28.0434,-26.1929,ZA-GP
+314,Clinix SS Morewa Mem Hospital,28.04278,-26.2208,ZA-GP
+315,Fordsburg Hospital,28.02157,-26.2099,ZA-GP
+316,Life Brenthurst Hospital,28.0466,-26.1842,ZA-GP
+317,Netcare Garden City Hospital,28.006889,-26.1973,ZA-GP
+318,Netcare Mulbarton Hospital,28.05302,-26.298,ZA-GP
+319,Netcare Park Lane Hospital,28.04638,-26.1821,ZA-GP
+320,Netcare Rand Hospital,28.04998,-26.1852,ZA-GP
+321,NHN Akeso Parktown Hospital,28.044005,-26.1824,ZA-GP
+323,Kliptown Med Centre,27.890179,-26.2793,ZA-GP
+324,NHN Lenmed Ahmed Katrada Prv Hospital,27.86371,-26.3278,ZA-GP
+325,NHN Lenmed Daxina Hospital,27.841045,-26.3818,ZA-GP
+326,Botshilu Hospital,28.127308,-25.485,ZA-GP
+328,Mediclinic Legae Hospital,28.03835,-25.5251,ZA-GP
+329,Netcare Akasia Hospital,28.10867,-25.6742,ZA-GP
+331,Wisani Med Centre Hospital,27.97686,-25.6115,ZA-GP
+333,Netcare Montana Hospital,28.24418,-25.6752,ZA-GP
+334,NHN Icare Wonderboom Med Centre,28.1905,-25.6837,ZA-GP
+335,Astrid Hospital,28.209688,-25.7475,ZA-GP
+336,Curamed Hospital,28.203429,-25.7551,ZA-GP
+338,Life Brooklyn Day Hospital,28.235836,-25.7698,ZA-GP
+339,Life Eugene Marais Hospital,28.193922,-25.71,ZA-GP
+340,Life Groenkloof Hospital,28.2164,-25.7715,ZA-GP
+341,Louis Pasteur Hospital,28.19666,-25.7485,ZA-GP
+342,Pretoria Gynae Hospital,28.20565,-25.7562,ZA-GP
+343,Mediclinic Heart Hospital,28.20677,-25.7491,ZA-GP
+344,Mediclinic Medforum Hospital,28.199664,-25.7468,ZA-GP
+345,Mediclinic Muelmed Hospital,28.20768,-25.7469,ZA-GP
+346,Netcare Bougainville Hospital,28.1535,-25.7152,ZA-GP
+347,Netcare Femina Hospital,28.20037,-25.7401,ZA-GP
+348,Netcare Jakaranda Hospital,28.21182,-25.7595,ZA-GP
+349,Netcare Moot Hospital,28.21779,-25.7137,ZA-GP
+350,NHN Urolocare Hospital,28.237729,-25.7442,ZA-GP
+351,Peermed Pretoria Health Centre,28.191279,-25.745,ZA-GP
+352,Pretoria Eye Inst Hospital,28.21113,-25.7474,ZA-GP
+353,Pretoria Urolog Hospital,28.23775,-25.744,ZA-GP
+360,University of Pta Med Centre,28.200165,-25.7303,ZA-GP
+362,Zuid Afrikaans Hospital,28.20571,-25.762,ZA-GP
+363,Erasmia Med Centre,28.09319,-25.8114,ZA-GP
+364,HEALth-WorX Centurion Med Centre,28.187175,-25.8566,ZA-GP
+365,HEALth-WorX Raslouw Med Centre,28.136995,-25.8693,ZA-GP
+366,Medipark 24 Med Centre,28.142686,-25.8944,ZA-GP
+367,Netcare Unitas Hospital,28.1959,-25.8323,ZA-GP
+368,NHN Centurion Eye Hospital,28.194997,-25.831,ZA-GP
+369,NHN Icare Irene Day Hospital,28.205361,-25.8851,ZA-GP
+370,NHN Icare Irene Med Centre,28.205361,-25.8851,ZA-GP
+371,NHN Icare Irene Sub-Acute Hospital,28.205361,-25.8851,ZA-GP
+372,NHN Icare Mall@55 Med Dental Centre,28.105073,-25.8853,ZA-GP
+373,NHN Vista Hospital,28.19321,-25.8439,ZA-GP
+374,Clinix Cullinan Prv Hospital,28.515781,-25.6659,ZA-GP
+376,Denmar Hospital,28.29974,-25.8025,ZA-GP
+377,HEALth-WorX Montana Med Centre,28.241145,-25.6775,ZA-GP
+378,Kloof Hospital,28.262855,-25.8111,ZA-GP
+379,Life Faerie Glen Hospital,28.291695,-25.7835,ZA-GP
+380,Life Wilgers Hospital,28.318918,-25.7678,ZA-GP
+382,Mamelodi Med Centre,28.375033,-25.7141,ZA-GP
+383,Mediclinic Kloof Hospital,28.2631,-25.8129,ZA-GP
+384,Netcare Pretoria E Hospital,28.30496,-25.8209,ZA-GP
+385,NHN Intercare Glenfair Med Centre,28.280361,-25.7655,ZA-GP
+386,NHN Icare Hazeldean Day Hospital,28.360911,-25.7824,ZA-GP
+387,NHN Icare Hazeldean Sub-Acute Hospital,28.360911,-25.7824,ZA-GP
+388,NHN Icare Silver Lake Med Centre,28.353222,-25.7848,ZA-GP
+389,NHN Icare Woodhill Med Centre,28.304361,-25.8193,ZA-GP
+390,Phelang Prv Hospital,28.378808,-25.7139,ZA-GP
+391,SAMCOR Med Centre,28.329661,-25.7372,ZA-GP
+393,Life Dalview Hospital,28.354391,-26.2451,ZA-GP
+394,Optiklin Eye Hospital,28.28709,-26.1785,ZA-GP
+397,Life Springs Parkland Hospital,28.43466,-26.2657,ZA-GP
+398,Life St Mary's Prv Hospital,28.43471,-26.2587,ZA-GP
+399,Netcare N17 Prv Hospital,28.42802,-26.2713,ZA-GP
+400,Harmelia Prv Hospital,28.2021,-26.1365,ZA-GP
+401,Kloof Med Centre,28.13315,-26.1847,ZA-GP
+402,Mediclinic Midstream Hospital,28.190883,-25.9224,ZA-GP
+403,NHN Arwyp Med Centre Hospital,28.22923,-26.1065,ZA-GP
+404,NHN Icare Glen Marais Med Centre,28.249774,-26.0832,ZA-GP
+405,NHN Lenmed Zamokuhle Prv Hospital,28.238093,-25.9829,ZA-GP
+406,Peermed Kempton Park Health Centre,28.231123,-26.106,ZA-GP
+408,Dinwiddie Med Centre,28.330783,-26.1454,ZA-GP
+410,Glenairs Med Centre,28.063542,-26.2878,ZA-GP
+411,HEALth-WorX Boksburg Med Centre,28.248137,-26.1817,ZA-GP
+412,Life Bedford Gardens Hospital,28.12093,-26.1898,ZA-GP
+413,Life Glynnview Hospital,28.307291,-26.1928,ZA-GP
+414,Life The Glynnwood Hospital,28.308109,-26.1954,ZA-GP
+415,Netcare Linmed Hospital,28.330783,-26.1454,ZA-GP
+416,Netcare Optiklin Eye Hospital,28.288496,-26.1784,ZA-GP
+417,Netcare Sunward Park Hospital,28.256035,-26.2605,ZA-GP
+418,NHN Care Cure Rynmed Hospital,28.347066,-26.1405,ZA-GP
+419,NHN Lakeview Hospital,28.312829,-26.1843,ZA-GP
+420,NHN Sunshine Hospital,28.302914,-26.2115,ZA-GP
+421,Palm Springs Med Centre,28.277538,-26.2472,ZA-GP
+422,Sunward Park Med Centre,28.254504,-26.2279,ZA-GP
+425,Clinix Botshelong-Empilweni Prv Hospital,28.216395,-26.3455,ZA-GP
+427,Life Roseacres Hospital,28.169563,-26.1789,ZA-GP
+428,Netcare Clinton Hospital,28.12019,-26.2732,ZA-GP
+429,Netcare Union Hospital,28.119647,-26.2698,ZA-GP
+430,NHN Akeso Alberton Hospital,28.120691,-26.2656,ZA-GP
+431,Peermed Germiston Health Centre,28.163673,-26.2141,ZA-GP
+432,Philani Med Centre,28.21607,-26.3457,ZA-GP
+434,Clinix Naledi-Nkanyezi Prv Hospital,27.842933,-26.5814,ZA-GP
+435,Cormed Hospital,27.832318,-26.7022,ZA-GP
+436,Hlulani Med Centre,27.846783,-26.590498,ZA-GP
+438,Lakeview Med Centre,28.312829,-26.1844,ZA-GP
+439,Mediclinic Emfuleni Hospital,27.838504,-26.7038,ZA-GP
+440,Mediclinic Vereeniging Hospital,27.9283,-26.6678,ZA-GP
+441,Midvaal Prv Hospital,27.96935,-26.6617,ZA-GP
+442,NHN Care Cure Vereen Hospital,27.930458,-26.6684,ZA-GP
+445,Life Suikerbosrand Hospital,28.354079,-26.5005,ZA-GP
+446,Baneng Psych Hospital,27.43667,-26.2011,ZA-GP
+448,Fochville Hospital,27.49689,-26.4812,ZA-GP
+449,NHN Fountain Prv Hospital,27.382881,-26.3674,ZA-GP
+450,Western Deep Hospital,27.41607,-26.3733,ZA-GP
+452,HEALth-WorX Noordheuwel Med Centre,27.803764,-26.0815,ZA-GP
+454,Netcare Bell Street Hospital,27.804736,-26.0972,ZA-GP
+455,Netcare Krugersdorp Hospital,27.77518,-26.1047,ZA-GP
+456,Netcare Pinehaven Hospital,27.830418,-26.0621,ZA-GP
+458,Life Robinson Hospital,27.70915,-26.1606,ZA-GP
+459,Medicare Greenhills Med Centre,27.692793,-26.1597,ZA-GP
+460,NHN Lenmed Randfontein Prv Hospital,27.718959,-26.1679,ZA-GP
+461,S Albert Med Centre,27.71868,-26.1675,ZA-GP
+462,Wesmed Med Centre,27.652711,-26.3215,ZA-GP
+586,Lebowakgomo Medleb Hospital,29.475437,-24.3026,ZA-LP
+591,Mediclinic Limpopo Hospital,29.46334,-23.9082,ZA-LP
+592,Netcare Pholoso Hospital,29.493351,-23.9016,ZA-LP
+603,Life Esidimeni Shiluvana Hospital,30.27413,-24.0428,ZA-LP
+604,Mediclinic Tzaneen Hospital,30.154319,-23.8242,ZA-LP
+617,NHN Quality Care Prv Hospital,29.913072,-23.0447,ZA-LP
+618,NHN Zoutpansberg Prv Hospital,29.897218,-23.0408,ZA-LP
+624,NHN St Vincent's Hospital,28.28067,-24.8811,ZA-LP
+627,Mediclinic Lephalale Hospital,27.698139,-23.6864,ZA-LP
+629,Anglo Platinum Mine Hospital,28.914191,-23.971154,ZA-LP
+635,Mediclinic Thabazimbi Hospital,27.407217,-24.599,ZA-LP
+636,Platinum Health Amandelbult Hospital,27.387811,-25.7602,ZA-LP
+637,Platinum Health Setaria Mine Hospital,27.405936,-24.7957,ZA-LP
+638,Platinum Health Thabazimbi Med Centre,27.402773,-24.5827,ZA-LP
+639,Platinum Health Union Mine Hospital,27.153089,-25.9405,ZA-LP
+640,Swartklip Mine Hospital,27.15166,-24.9393,ZA-LP
+648,Busamed Lowveld Prv Hospital,30.977583,-25.4761,ZA-MP
+649,Eureka Barberton Hospital,31.051946,-25.7622,ZA-MP
+650,Mediclinic Nelspruit Hospital,30.961882,-25.4935,ZA-MP
+651,NHN Kiaat Prv Hospital,30.983566,-25.4035,ZA-MP
+652,NHN M-Care Nelspruit Hospital,30.952268,-25.4846,ZA-MP
+666,Mediclinic Highveld Hospital,29.23186,-26.4918,ZA-MP
+667,Mediclinic Secunda Hospital,29.182497,-26.5073,ZA-MP
+668,Winkelhaak Mine Hospital,29.126244,-26.513141,ZA-MP
+671,Life Piet Retief Hospital,30.804255,-27.0202,ZA-MP
+673,Ermelo Hospitaliplan Hospital,29.97482,-26.5229,ZA-MP
+675,Mediclinic Ermelo Hospital,29.987844,-26.5428,ZA-MP
+680,Anglo CoalHighveld Hospital,29.199753,-25.9167,ZA-MP
+681,Greenside Hospital,29.178193,-25.9586,ZA-MP
+683,Life Cosmos Hospital,29.232742,-25.8841,ZA-MP
+684,NHN eMalahleni Day Hospital,29.215849,-25.8748,ZA-MP
+685,NHN eMalahleni Prv Hospital,29.214917,-25.8754,ZA-MP
+686,NHN Highveld Eye Hospital,29.240453,-25.8721,ZA-MP
+689,Arnot Colliery Mine Hospital,29.774216,-25.929726,ZA-MP
+690,Douglas Colliery Mine Hospital,29.8034,-25.9467,ZA-MP
+691,Koornfontein Mine Hospital,29.187401,-25.8296,ZA-MP
+692,Life Midmed Hospital,29.457539,-25.7628,ZA-MP
+694,Middelburg Mine Hospital,29.445316,-25.73034,ZA-MP
+695,Optimum Mine Hospital,29.611914,-25.988335,ZA-MP
+725,Mediclinic Brits Hospital,27.782926,-25.6328,ZA-NW
+727,A Saffey Mine Hospital,27.23578,-25.6639,ZA-NW
+728,Impala Mine Hospital,27.20101,-25.5335,ZA-NW
+730,Life La Femme Clinic Hospital,27.238413,-25.6721,ZA-NW
+731,Life Peglerae Hospital,27.242302,-25.6737,ZA-NW
+732,Netcare Ferncrest Hospital,27.214149,-25.6478,ZA-NW
+733,NHN Medi-Care Rustenburg Hospital,27.226595,-25.6852,ZA-NW
+734,RPM Mine Hospital,27.245717,-25.667397,ZA-NW
+735,Duff Scott Hospital,26.80489,-26.8622,ZA-NW
+737,Life Anncron Clinic Hospital,26.668083,-26.8411,ZA-NW
+738,NHN Parkmed Neuro Hospital,26.660808,-26.8726,ZA-NW
+739,NHN Sunningdale Hospital,26.669377,-26.8468,ZA-NW
+740,NHN Wilmed Park Hospital,26.678519,-26.8309,ZA-NW
+741,West Vaal Hospital,26.67205,-26.9623,ZA-NW
+742,Mediclinic Potch Hospital,27.08141,-26.689,ZA-NW
+743,NHN Medi-Care Potch Hospital,27.083957,-26.7273,ZA-NW
+752,NHN Vryburg Prv Hospital,24.721533,-26.9468,ZA-NW
+756,Clinix Victoria Prv Hospital,25.64145,-25.86,ZA-NW
+700,Mediclinic Kimberley Hospital,24.771611,-28.7449,ZA-NC
+701,NHN Lenmed Royal Hospital and Heart Centre,24.762109,-28.7564,ZA-NC
+705,NHN Lenmed Kathu Hospital,23.054137,-27.6945,ZA-NC
+709,Aggeneys (Black Mountain) Prv Hospital,18.842602,-29.2413,ZA-NC
+710,Kleinsee Private Hospital,17.065233,-29.676466,ZA-NC
+714,Orania Hospital,24.409905,-29.810791,ZA-NC
+717,Mediclinic Upington Hospital,21.266934,-28.4399,ZA-NC
+721,Lime Acres Hospital,23.57222,-28.3694,ZA-NC
+762,Mediclinic Worcester Hospital,19.450696,-33.6442,ZA-WC
+763,Pines Clinic Hospital,19.44804,-33.6403,ZA-WC
+767,Drakenstein Hospital,18.96904,-33.7188,ZA-WC
+768,Mediclinic Paarl Hospital,18.969075,-33.7187,ZA-WC
+774,Mediclinic Stellenbosch Hospital,18.850752,-33.9443,ZA-WC
+777,Netcare Ceres Hospital,19.3094,-33.3607,ZA-WC
+782,Busamed Paardevlei Prv Hospital,18.816891,-34.094483,ZA-WC
+784,E River Medi-City Clinic,?,?,ZA-WC
+786,Mediclinic Strand Hospital,18.838289,-34.1137,ZA-WC
+787,Mediclinic Vergelegen Hospital,18.858151,-34.0914,ZA-WC
+788,Netcare Kuils River Hospital,18.674902,-33.9187,ZA-WC
+789,NHN Life Path Helderberg Hospital,18.838131,-34.1127,ZA-WC
+790,NHN Spescare Sub-Acute Hospital,18.838046,-34.1128,ZA-WC
+791,Mediclinic Cape Gate Hospital,18.697091,-33.8494,ZA-WC
+792,Mediclinic Durbanville Hospital,18.655261,-33.826,ZA-WC
+793,Mediclinic Panorama Hospital,18.577052,-33.8753,ZA-WC
+794,Monte Vista Hospital,18.55638,-33.8775,ZA-WC
+795,NHN Icare Tyger Valley SA Hospital,18.637139,-33.8722,ZA-WC
+796,NHN M-Care Cape View Hospital,18.564195,-33.8926,ZA-WC
+799,Kenilworth Hospital,18.47313,-33.9948,ZA-WC
+800,Life Claremont Hospital,18.466387,-33.9865,ZA-WC
+801,Life Kingsbury Hospital,18.468447,-33.9861,ZA-WC
+803,Mediclinic Constantiaberg Hospital,18.460908,-34.0265,ZA-WC
+804,Mediclinic Const Neonatal Hospital,18.46095,-34.0266,ZA-WC
+805,Melomed Tokai Priv Hospitalital,18.458959,-34.067535,ZA-WC
+807,Netcare Southern Cross Hospital,18.46923,-34.0047,ZA-WC
+808,Newlands Surg Hospital,18.466055,-33.9769,ZA-WC
+809,NHN M-Care Newlands Hospital,18.467383,-33.9712,ZA-WC
+821,Life Vincent Pallotti Hospital,18.490442,-33.9432,ZA-WC
+822,Mediclinic Cape Town Hospital,18.410452,-33.9357,ZA-WC
+823,Mediclinic Milnerton Hospital,18.506922,-33.8654,ZA-WC
+824,Netcare Blaauwberg Hospital,18.483991,-33.8033,ZA-WC
+825,Netcare C Barnard Hospital,18.41816,-33.9217,ZA-WC
+826,Netcare UCT Prv Hospital,18.462548,-33.942,ZA-WC
+828,NHN Icare Century City DH,18.512787,-33.8876,ZA-WC
+829,Shirnell Clinic Hospital,18.44249,-33.9157,ZA-WC
+832,Wesfleur Clinic Hospital,18.49505,-33.5649,ZA-WC
+835,Gatesv Med Centre Hospital,18.53346,-33.9709,ZA-WC
+837,Melomed Gatesville Hospital,18.532997,-33.9704,ZA-WC
+839,Melomed Mitchells Plain Hospital,18.621214,-34.0494,ZA-WC
+841,M Plain Med Centre Hospital,18.59641,-34.0082,ZA-WC
+842,M Plain Hospital,18.6157,-34.0262,ZA-WC
+843,Aevitas Hospital,18.49029,-33.9435,ZA-WC
+844,Bellville Med Hospital,18.62955,-33.9025,ZA-WC
+845,Cape Eye Hospital,18.60901,-33.8996,ZA-WC
+847,Libertas Hospital,18.5418,-33.9121,ZA-WC
+848,Mediclinic Louis Leipoldt Hospital,18.612936,-33.901,ZA-WC
+849,Melomed Bellville Hospital,18.623831,-33.9018,ZA-WC
+850,Netcare N1 City Hospital,18.559056,-33.8936,ZA-WC
+851,Origin Maternity Hospital,18.575914,-33.875782,ZA-WC
+855,Mediclinic Plett Bay Hospital,23.364999,-34.0529,ZA-WC
+858,Mediclinic Geneva Hospital,22.452171,-33.9563,ZA-WC
+859,Mediclinic George Hospital,22.456439,-33.9573,ZA-WC
+864,Life Knysna Pvt Hospital,23.078486,-34.0521,ZA-WC
+865,Meyer Zall Hospital,23.02,-34.02,ZA-WC
+866,Life Bay View Pvt Hospital,22.130775,-34.1813,ZA-WC
+868,Cango Hospital,22.202562,-33.5906,ZA-WC
+869,Mediclinic K Karoo Hospital,22.185728,-33.5859,ZA-WC
+870,NHN Kango Clinic,22.201612,-33.591,ZA-WC
+874,Mediclinic Hermanus Hospital,19.226345,-34.4229,ZA-WC
+882,Life West Coast Prv Hospital,17.990553,-32.9118,ZA-WC
