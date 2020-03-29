@@ -53,7 +53,7 @@ func (controller caseController) GetAllConfirmedCases(ctx echo.Context) error {
 		return &echo.HTTPError{Code: http.StatusBadRequest, Message: "invalid province"}
 	}
 
-	var result models.ConfirmedCases
+	result := models.ConfirmedCases{}
 	for _, line := range confirmedCases[1:] {
 		if province != "" && province != line[4] {
 			continue
@@ -87,7 +87,7 @@ func (controller caseController) GetAllReportedDeaths(ctx echo.Context) error {
 		return &echo.HTTPError{Code: http.StatusBadRequest, Message: "invalid province"}
 	}
 
-	var result models.ReportedDeaths
+	result := models.ReportedDeaths{}
 	for _, line := range reportedDeaths[1:] {
 		if province != "" && province != line[3] {
 			continue
@@ -115,7 +115,7 @@ func (controller caseController) GetTestingTimeline(ctx echo.Context) error {
 		return err
 	}
 
-	var result models.AllConductedTests
+	result := models.AllConductedTests{}
 	for _, line := range conductedTests[1:] {
 		conductedTests := mappers.MapCsvLineToConductedTestsModel(line)
 		result = append(result, conductedTests)
