@@ -17,11 +17,31 @@ go go run main.go
 
 The hosted API can be found on [https://covid-za-api.herokuapp.com](https://covid-za-api.herokuapp.com).
 
+#### Authentication
+
+There's no authentication required. Anybody and everybody is welcome to use this widely.
+
+#### Rate limit
+
+There is no rate limit of any kind but we hope that you use it in a sensible manner and whenever possible cache response for a few hours.
+
+
+### Endpoints
+
 #### /cases/confirmed
 * `GET` : Get all confirmed cases
 
 #### /cases/confirmed?province={province}
 * `GET` : Get all confirmed cases in a province
+
+#### /cases/deaths
+* `GET` : Get all reported deaths
+
+#### /cases/deaths?province={province}
+* `GET` : Get all reported deaths in a province
+
+#### /cases/timeline/tests
+* `GET` : Get test timeline data 
 
 ### Example Usage
 
@@ -41,6 +61,8 @@ https://covid-za-api.herokuapp.com/cases/confirmed?province=GP
 
 - [x] Expose an endpoint to get all confirmed cases.
 - [x] Allow filtering by province on the confirmed cases endpoint.
-- [ ] Expose an endpoint to get all fatalities.
+- [x] Expose an endpoint to get test timeline data.
+- [x] Expose an endpoint to get all fatalities (reported deaths).
+- [x] Allow filtering by province on the fatalities endpoint.
 - [ ] Expose an endpoint to get all available hospitals.
 - [ ] Allow filtering by province on the hospitals endpoint.
