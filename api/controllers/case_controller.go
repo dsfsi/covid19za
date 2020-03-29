@@ -1,9 +1,10 @@
 package controllers
 
 import (
-	"encoding/csv"
 	"fmt"
+	"github.com/dsfsi/covid19za/api/mappers"
 	"github.com/dsfsi/covid19za/api/models"
+	"github.com/dsfsi/covid19za/api/utils"
 	"github.com/dsfsi/covid19za/api/validators"
 	"github.com/labstack/echo"
 	"log"
@@ -30,7 +31,7 @@ func NewCaseController() CaseController {
 func (controller caseController) GetAllConfirmedCases(ctx echo.Context) error {
 	log.Println("Endpoint Hit: returnAllConfirmedCases")
 	url := fmt.Sprintf("%s%s", dataSetBaseUrl, confirmedCasesPath)
-	confirmedCases, err := downloadCSV(url)
+	confirmedCases, err := utils.DownloadCSV(url)
 	if err != nil {
 		return err
 	}
@@ -47,39 +48,9 @@ func (controller caseController) GetAllConfirmedCases(ctx echo.Context) error {
 			continue
 		}
 
-		confirmedCase := mapToConfirmedCase(line)
+		confirmedCase := mappers.MapCsvLineToConfirmedCaseModel(line)
 		result = append(result, confirmedCase)
 	}
 
 	return ctx.JSON(http.StatusOK, result)
-}
-
-func mapToConfirmedCase(line []string) models.ConfirmedCase {
-	return models.ConfirmedCase{
-		CaseId:           line[0],
-		Date:             line[1],
-		Timestamp:        line[2],
-		Country:          line[3],
-		Province:         line[4],
-		GeoSubdivision:   line[5],
-		Age:              line[6],
-		Gender:           line[7],
-		TransmissionType: line[8],
-	}
-}
-
-func downloadCSV(url string) ([][]string, error) {
-	resp, err := http.Get(url)
-	if err != nil {
-		log.Fatalln("Couldn't open the csv file", err)
-	}
-
-	reader := csv.NewReader(resp.Body)
-	records, err := reader.ReadAll()
-	if err != nil {
-		log.Fatalln("An error encountered ::", err)
-		return nil, err
-	}
-
-	return records, nil
 }
