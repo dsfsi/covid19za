@@ -16,6 +16,20 @@ func MapCsvLineToConfirmedCaseModel(line []string) models.ConfirmedCase {
 	}
 }
 
+func MapCsvLineToReportedDeathModel(line []string) models.ReportedDeath {
+	return models.ReportedDeath{
+		ReportId:       line[0],
+		Date:           line[1],
+		Timestamp:      line[2],
+		Province:       line[3],
+		GeoSubdivision: line[4],
+		Age:            line[5],
+		Gender:         line[6],
+		Notes:          line[7],
+		Source:         line[8],
+	}
+}
+
 func MapCsvLineToConductedTestsModel(line []string) models.ConductedTests {
 	return models.ConductedTests{
 		Date:            line[0],
@@ -26,11 +40,11 @@ func MapCsvLineToConductedTestsModel(line []string) models.ConductedTests {
 		CriticalIcu:     line[5],
 		Ventilation:     line[6],
 		Deaths:          line[7],
-		Contacts:        models.Contacts{
+		Contacts: models.Contacts{
 			Identified: line[8],
 			Traced:     line[9],
 		},
-		Travellers:      models.Travellers{
+		Travellers: models.Travellers{
 			Scanned:                line[10],
 			ElevatedTemperature:    line[11],
 			CovidSuspectedCriteria: line[12],
