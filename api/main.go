@@ -25,6 +25,7 @@ func main() {
 	})
 
 	api.GET("/cases/confirmed", caseController.GetAllConfirmedCases)
+	api.GET("/cases/timeline/tests", caseController.GetTestingTimeline)
 
 	addr, err := determineListenAddress()
 	if err != nil {
