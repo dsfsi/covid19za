@@ -23,6 +23,9 @@ The hosted API can be found on [https://covid-za-api.herokuapp.com](https://covi
 #### /cases/confirmed?province={province}
 * `GET` : Get all confirmed cases in a province
 
+#### /cases/timeline/tests
+* `GET` : Get test timeline data 
+
 ### Example Usage
 
 You can get the confirmed cases by performing a `GET` request to:
@@ -41,6 +44,7 @@ https://covid-za-api.herokuapp.com/cases/confirmed?province=GP
 
 - [x] Expose an endpoint to get all confirmed cases.
 - [x] Allow filtering by province on the confirmed cases endpoint.
+- [x] Expose an endpoint to get test timeline data.
 - [ ] Expose an endpoint to get all fatalities.
 - [ ] Expose an endpoint to get all available hospitals.
 - [ ] Allow filtering by province on the hospitals endpoint.
