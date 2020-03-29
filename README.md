@@ -12,15 +12,21 @@ See our blog posts:
 * [Why we built this and how we are working](https://dsfsi.github.io/blog/covid19za-dashboard/),
 * [How this is a call to action across the African continent](https://dsfsi.github.io/blog/covida19africa-call-to-action/)
 
-*If you are interested in the **Africa-wide effort**:* Go to https://github.com/dsfsi/covid19africa
+*If you are interested in the **Africa-wide effort**:* Go to [https://github.com/dsfsi/covid19africa](https://github.com/dsfsi/covid19africa)
+
+For information on daily updates on the repo, go to [https://twitter.com/vukosi/status/1239184086633242630?s=20](https://twitter.com/vukosi/status/1239184086633242630?s=20)
+
 ## Licenses
 
 Code [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  | Data [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 ## Data Available [[/data](/data)]
 
+**NOTE:** Since around 24 March, we have not gotten individual case data from DoH or NICD. For now if you need provincial counts use the *provincial_cumulative_timeline*. For indivividual cases up to 25 March, use the *confirmed_cases*.
+
 | dataset         | url | raw_url[file] |
 |-----------------|-----|---------------|
+| provincial_cumulative_timeline|  [provincial_cumulative_timeline](/data/covid19za_provincial_cumulative_timeline_confirmed.csv)   |       [provincial_cumulative_timeline.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_provincial_cumulative_timeline_confirmed.csv)         |
 | confirmed_cases |  [covid19za_timeline_confirmed](/data/covid19za_timeline_confirmed.csv)   |       [covid19za_timeline_confirmed.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_timeline_confirmed.csv)         |
 | transmission_type |  [covid19za_timeline_transmission_type](/data/covid19za_timeline_transmission_type.csv)   |       [covid19za_timeline_transmission_type.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_timeline_transmission_type.csv)         |
 | testing |  [covid19za_timeline_testing](/data/covid19za_timeline_testing.csv)   |       [covid19za_timeline_testing.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_timeline_testing.csv)         |
@@ -76,3 +82,7 @@ Code [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](http
   doi          = {10.5281/zenodo.3723347},
   url          = {[http://doi.org/10.5281/zenodo.3724083](http://doi.org/10.5281/zenodo.3724083)}
 }
+
+### Showcase
+
+* [Covid19 SA Data](https://simonrosen173.github.io/Covid19SAData/)
