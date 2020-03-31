@@ -1,24 +1,2 @@
-district,3/29
-City of Cape Town,256
-Cape Winelands,17
-Garden Route,21
-Overberg,7 
-Western,106
-Southern,98
-Northern,16
-Tygerberg,15
-Eastern,10
-Klipfontein,5
-Mitchells Plain,5
-Khayelitsha,1
-Bitou,9
-Stellenbosch,8
-Drakenstein,6
-George,6
-Overstrand,5
-Breede Valley,3
-Hessequa,3
-Mossel Bay,3
-Swellendam,1
-Theewaterskloof,1
-Unknown,9
+date,YYYYMMDD,cct,cw,gr,ob,w,n,n,tb,e,kf,mp,kl,bt,sb,ds,ge,os,bv,hq,bm,sd,twk,ukn
+29-03-2020,20200329,256,17,21,7,106,98,16,15,10,5,5,1,9,8,6,6,5,3,3,3,1,1,9 
