@@ -1,4 +1,4 @@
-ID,Name,Long,Lat,Category,Province,district,subdistrict,district_estimated_population
+ID,Name,Long,Lat,Category,Province,district,subdistrict,district_estimated_population, service_offered_by_hospital,size_hospital,number_of_beds,number_of_practitioners,webpage
 183,Fort England Hospital,26.54361,-33.3156,Public Hospital,Eastern Cape,Sarah Baartman District Municipality,Makana LM,479923
 91,Fort Beaufort Hospital,26.633571,-32.7802,Public Hospital,Eastern Cape,Amathole District Municipality,Raymond Mhlaba LM,880790
 95,Bhisho Hospital,27.45516,-32.8277,Public Hospital,Eastern Cape,Buffalo City Metropolitan Municipality,Buffalo City SD,834997
