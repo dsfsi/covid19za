@@ -1,4 +1,4 @@
-report_id,date,YYYYMMDD,province, geo, age, gender, confirmed_date,transmission_type, notes_comorbidity, source
+report_id,date,YYYYMMDD,province, geo, gender, age, confirmed_date,transmission_type, notes_comorbidity, source
 1,27-03-2020,20200327,WC,ZA-WC, female,48,,,Had prior Pulmonary Embolism, https://www.westerncape.gov.za/news/statement-premier-alan-winde-first-coronavirus-deaths
 2,28-03-2020,20200328,KZN,ZA-KZN, male,74,27-03-2020, travelled to Kruger National Park, underlying skin cancer condition (melanoma) which had already complicated. He presented with the following symptoms: respiratory distress shortness of breath cardiac failure decreased saturation and his temperature was above 38 degrees., https://www.gov.za/speeches/minister-zweli-mkhize-confirms2nd-death-and-total-1280-cases-coronavirus-covid-19-29-mar
 3,30-03-2020,20200330,FS,ZA-FS,male,86,,,,
