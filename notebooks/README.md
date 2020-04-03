@@ -1,4 +1,4 @@
-Put notebooks in here
+### Put notebooks in here
 
 How to update the **Coronavirus - Comparing South Africa Cases to other Countries** visual
 
@@ -16,6 +16,8 @@ This folder contains notebooks for analysis and modelling of the COVID-19 data. 
 ![](https://github.com/dsfsi/covid19za/blob/master/visualisation/covid-growth-countries.png?raw=true)
 * Growth of South Africa Provinces [[Notebook]](https://github.com/dsfsi/covid19za/blob/master/notebooks/covid19_growth_for_sa.ipynb)
 ![](https://github.com/dsfsi/covid19za/blob/master/visualisation/per_province_growth_first_report.png?raw=true)
+
+* Exploratory Data Analysis and Visualization on SA Covid 19 data sets [Source](https://github.com/karthik111/covid19za/blob/master/notebooks/COVID-19%20South%20Africa%20-%20Data%20Analysis%20and%20Visualization.ipynb)
 ## Where do I start?
 ### Running the notebooks
 You can pull the repo and then run the notebooks and make adjustments as I need. 
