@@ -1,27 +1,40 @@
 key,value
-cct,City of Cape Town
-cw,Cape Winelands
-gr,Garden Route
-ob,Overberg 
-w,Western
-s,Southern
-n,Northern
-tb,Tygerberg
-e,Eastern
-kf,Klipfontein
-mp,Mitchells Plain
-kl,Khayelitsha
-bt,Bitou
-sb,Stellenbosch
-ds,Drakenstein 
-ge,George
-os,Overstrand 
-bv,Breede Valley
-hq,Hessequa 
-mb,Mossel Bay
-sd,Swellendam 
-twk,Theewaterskloof
-kn,Knysna
-lb,Langeberg
-sb,Saldanha Bay
-ukn,Unknown
+CT,City of Cape Town
+CT-WE,Western
+CT-SO,Southern
+CT-NO,Northern
+CT-TB,Tygerberg
+CT-EA,Eastern
+CT-KF,Klipfontein
+CT-MP,Mitchells Plain
+CT-KL,Khayelitsha
+CW,Cape Winelands
+CW-BV,Breede Valley
+CW-DS,Drakenstein
+CW-LB,Langeberg
+CW-SB,Stellenbosch
+CW-WB,Witzenberg
+CK,Central Karoo
+CK-BW,Beaufort West
+CK-LB,Langsburg
+CK-PA,Prince Albert
+GR,Garden Route
+GR-BT,Bitou
+GR-GE,George
+GR-HQ,Hessequa
+GR-KL,Kannaland
+GR-KN,Knysna
+GR-MB,Mossel Bay
+GR-OS,Oudstrhoorm
+OB,Overberg
+OB-CA,Cape Agulhas
+OB-OS,Overstrand
+OB-SD,Swellendam 
+OB-TK,Theewaterskloof
+WC,West Coast
+WC-BR,Bergriver
+WC-CB,Cederberg
+WC-MZ,Matzikama
+WC-SB,Saldanha Bay
+WC-SL,Swartland
+UNKNOWN,Unknown
