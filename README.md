@@ -89,5 +89,3 @@ Code [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](http
 ### Showcase
 
 * [Covid19 SA Data](https://simonrosen173.github.io/Covid19SAData/)
-
-* Exploratory Data Analysis and Visualization on SA Covid 19 data sets  https://github.com/karthik111/covid19za/blob/master/notebooks/COVID-19%20South%20Africa%20-%20Data%20Analysis%20and%20Visualization.ipynb
