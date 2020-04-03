@@ -51,3 +51,23 @@ func MapCsvLineToConductedTestsModel(line []string) models.ConductedTests {
 		},
 	}
 }
+
+func MapCsvLineToCumulativeProvincialCasesModel(line []string) models.CumulativeProvincialCases {
+	return models.CumulativeProvincialCases{
+		Date:      line[0],
+		Timestamp: line[1],
+		Provinces: models.Provinces{
+			EasternCape:  line[2],
+			FreeState:    line[3],
+			Gauteng:      line[4],
+			KwazuluNatal: line[5],
+			Limpopo:      line[6],
+			Mpumlanga:    line[7],
+			NorthernCape: line[8],
+			NorthWest:    line[9],
+			WesternCape:  line[10],
+			Unknown:      line[10],
+		},
+		Total:     line[12],
+	}
+}
