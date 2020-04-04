@@ -2,15 +2,14 @@ package controllers
 
 import (
 	"fmt"
-	"log"
-	"net/http"
-	"strings"
-
 	"github.com/dsfsi/covid19za/api/mappers"
 	"github.com/dsfsi/covid19za/api/models"
 	"github.com/dsfsi/covid19za/api/utils"
 	"github.com/dsfsi/covid19za/api/validators"
 	"github.com/labstack/echo"
+	"log"
+	"net/http"
+	"strings"
 )
 
 const (
