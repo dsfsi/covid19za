@@ -17,6 +17,7 @@ const (
 	confirmedCasesPath = "covid19za_timeline_confirmed.csv"
 	conductedTestsPath = "covid19za_timeline_testing.csv"
 	reportedDeathsPath = "covid19za_timeline_deaths.csv"
+	cumulativeProvincialCasesPath = "covid19za_provincial_cumulative_timeline_confirmed.csv"
 )
 
 type caseController struct {
@@ -26,6 +27,7 @@ type CaseController interface {
 	GetAllConfirmedCases(ctx echo.Context) error
 	GetAllReportedDeaths(ctx echo.Context) error
 	GetTestingTimeline(ctx echo.Context) error
+	GetCumulativeProvincialTimeline(ctx echo.Context) error
 }
 
 func NewCaseController() CaseController {
@@ -119,6 +121,30 @@ func (controller caseController) GetTestingTimeline(ctx echo.Context) error {
 	for _, line := range conductedTests[1:] {
 		conductedTests := mappers.MapCsvLineToConductedTestsModel(line)
 		result = append(result, conductedTests)
+	}
+
+	return ctx.JSON(http.StatusOK, result)
+}
+
+//GetCumulativeProvincialTimeline returns cumulative provincial timeline data
+// @Summary Used to get cumulative provincial timeline data
+// @Description Returns cumulative provincial timeline data
+// @Success 200 {object} model.AllCumulativeProvincialCases
+// @Accept json
+// @Produce json
+// @Router /cases/timeline/provincial/cumulative [GET]
+func (controller caseController) GetCumulativeProvincialTimeline(ctx echo.Context) error {
+	log.Println("Endpoint Hit: GetCumulativeProvincialTimeline")
+	url := fmt.Sprintf("%s%s", dataSetBaseUrl, cumulativeProvincialCasesPath)
+	cumulativeProvincialCases, err := utils.DownloadCSV(url)
+	if err != nil {
+		return err
+	}
+
+	result := models.AllCumulativeProvincialCases{}
+	for _, line := range cumulativeProvincialCases[1:] {
+		cumulativeProvincialCases := mappers.MapCsvLineToCumulativeProvincialCasesModel(line)
+		result = append(result, cumulativeProvincialCases)
 	}
 
 	return ctx.JSON(http.StatusOK, result)
