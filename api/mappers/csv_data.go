@@ -51,3 +51,11 @@ func MapCsvLineToConductedTestsModel(line []string) models.ConductedTests {
 		},
 	}
 }
+
+func MapCsvLineToCumulativeConfirmedTotalModel(line []string) models.CumulativeConfirmedTotal {
+	return models.CumulativeConfirmedTotal{
+		Date:                   line[0],
+		Timestamp:              line[1],
+		NationalConfirmedTotal: line[12],
+	}
+}

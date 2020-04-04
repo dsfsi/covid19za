@@ -2,21 +2,23 @@ package controllers
 
 import (
 	"fmt"
+	"log"
+	"net/http"
+	"strings"
+
 	"github.com/dsfsi/covid19za/api/mappers"
 	"github.com/dsfsi/covid19za/api/models"
 	"github.com/dsfsi/covid19za/api/utils"
 	"github.com/dsfsi/covid19za/api/validators"
 	"github.com/labstack/echo"
-	"log"
-	"net/http"
-	"strings"
 )
 
 const (
-	dataSetBaseUrl     = "https://raw.githubusercontent.com/dsfsi/covid19za/master/data/"
-	confirmedCasesPath = "covid19za_timeline_confirmed.csv"
-	conductedTestsPath = "covid19za_timeline_testing.csv"
-	reportedDeathsPath = "covid19za_timeline_deaths.csv"
+	dataSetBaseUrl                    = "https://raw.githubusercontent.com/dsfsi/covid19za/master/data/"
+	confirmedCasesPath                = "covid19za_timeline_confirmed.csv"
+	conductedTestsPath                = "covid19za_timeline_testing.csv"
+	reportedDeathsPath                = "covid19za_timeline_deaths.csv"
+	provincialCumulativeConfirmedPath = "covid19za_provincial_cumulative_timeline_confirmed.csv"
 )
 
 type caseController struct {
@@ -26,6 +28,7 @@ type CaseController interface {
 	GetAllConfirmedCases(ctx echo.Context) error
 	GetAllReportedDeaths(ctx echo.Context) error
 	GetTestingTimeline(ctx echo.Context) error
+	GetTotalConfirmedTimeline(ctx echo.Context) error
 }
 
 func NewCaseController() CaseController {
@@ -119,6 +122,30 @@ func (controller caseController) GetTestingTimeline(ctx echo.Context) error {
 	for _, line := range conductedTests[1:] {
 		conductedTests := mappers.MapCsvLineToConductedTestsModel(line)
 		result = append(result, conductedTests)
+	}
+
+	return ctx.JSON(http.StatusOK, result)
+}
+
+//GetConfirmedTimeline returns all confirmed cases
+// @Summary Used to get national cumulative confirmed cases
+// @Description Returns total confirmed cases data
+// @Success 200 {object} model.CumulativeConfirmedTotal
+// @Accept json
+// @Produce json
+// @Router /cases/timeline/confirmed
+func (controller caseController) GetTotalConfirmedTimeline(ctx echo.Context) error {
+	log.Println("Endpoint Hit: GetConfirmedTimeline")
+	url := fmt.Sprintf("%s%s", dataSetBaseUrl, provincialCumulativeConfirmedPath)
+	provincialCumulativeConfirmed, err := utils.DownloadCSV(url)
+	if err != nil {
+		return err
+	}
+
+	result := models.CumulativeConfirmedTotals{}
+	for _, line := range provincialCumulativeConfirmed[1:] {
+		provincialCumulativeConfirmed := mappers.MapCsvLineToCumulativeConfirmedTotalModel(line)
+		result = append(result, provincialCumulativeConfirmed)
 	}
 
 	return ctx.JSON(http.StatusOK, result)

@@ -43,6 +43,9 @@ There is no rate limit of any kind but we hope that you use it in a sensible man
 #### /cases/timeline/tests
 * `GET` : Get test timeline data 
 
+#### /cases/timeline/confirmed
+* `GET` : Get cumulative confirmed cases (national)
+
 ### Example Usage
 
 You can get the confirmed cases by performing a `GET` request to:
