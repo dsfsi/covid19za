@@ -28,6 +28,7 @@ func main() {
 	api.GET("/cases/deaths", caseController.GetAllReportedDeaths)
 	api.GET("/cases/timeline/tests", caseController.GetTestingTimeline)
 	api.GET("/cases/timeline/confirmed", caseController.GetTotalConfirmedTimeline)
+	api.GET("/cases/timeline/provincial/cumulative", caseController.GetCumulativeProvincialTimeline)
 
 	addr, err := determineListenAddress()
 	if err != nil {

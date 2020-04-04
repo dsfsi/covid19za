@@ -18,7 +18,7 @@ const (
 	confirmedCasesPath                = "covid19za_timeline_confirmed.csv"
 	conductedTestsPath                = "covid19za_timeline_testing.csv"
 	reportedDeathsPath                = "covid19za_timeline_deaths.csv"
-	provincialCumulativeConfirmedPath = "covid19za_provincial_cumulative_timeline_confirmed.csv"
+	cumulativeProvincialCasesPath = "covid19za_provincial_cumulative_timeline_confirmed.csv"
 )
 
 type caseController struct {
@@ -29,6 +29,7 @@ type CaseController interface {
 	GetAllReportedDeaths(ctx echo.Context) error
 	GetTestingTimeline(ctx echo.Context) error
 	GetTotalConfirmedTimeline(ctx echo.Context) error
+	GetCumulativeProvincialTimeline(ctx echo.Context) error
 }
 
 func NewCaseController() CaseController {
@@ -127,6 +128,7 @@ func (controller caseController) GetTestingTimeline(ctx echo.Context) error {
 	return ctx.JSON(http.StatusOK, result)
 }
 
+
 //GetConfirmedTimeline returns all confirmed cases
 // @Summary Used to get national cumulative confirmed cases
 // @Description Returns total confirmed cases data
@@ -136,13 +138,14 @@ func (controller caseController) GetTestingTimeline(ctx echo.Context) error {
 // @Router /cases/timeline/confirmed
 func (controller caseController) GetTotalConfirmedTimeline(ctx echo.Context) error {
 	log.Println("Endpoint Hit: GetConfirmedTimeline")
-	url := fmt.Sprintf("%s%s", dataSetBaseUrl, provincialCumulativeConfirmedPath)
+	url := fmt.Sprintf("%s%s", dataSetBaseUrl, cumulativeProvincialCasesPath)
 	provincialCumulativeConfirmed, err := utils.DownloadCSV(url)
-	if err != nil {
+  
+  if err != nil {
 		return err
 	}
-
-	result := models.CumulativeConfirmedTotals{}
+  
+  result := models.CumulativeConfirmedTotals{}
 	for _, line := range provincialCumulativeConfirmed[1:] {
 		provincialCumulativeConfirmed := mappers.MapCsvLineToCumulativeConfirmedTotalModel(line)
 		result = append(result, provincialCumulativeConfirmed)
@@ -150,3 +153,30 @@ func (controller caseController) GetTotalConfirmedTimeline(ctx echo.Context) err
 
 	return ctx.JSON(http.StatusOK, result)
 }
+=======
+  
+//GetCumulativeProvincialTimeline returns cumulative provincial timeline data
+// @Summary Used to get cumulative provincial timeline data
+// @Description Returns cumulative provincial timeline data
+// @Success 200 {object} model.AllCumulativeProvincialCases
+// @Accept json
+// @Produce json
+// @Router /cases/timeline/provincial/cumulative [GET]
+func (controller caseController) GetCumulativeProvincialTimeline(ctx echo.Context) error {
+	log.Println("Endpoint Hit: GetCumulativeProvincialTimeline")
+	url := fmt.Sprintf("%s%s", dataSetBaseUrl, cumulativeProvincialCasesPath)
+	cumulativeProvincialCases, err := utils.DownloadCSV(url)
+
+	if err != nil {
+		return err
+	}
+
+	result := models.AllCumulativeProvincialCases{}
+	for _, line := range cumulativeProvincialCases[1:] {
+		cumulativeProvincialCases := mappers.MapCsvLineToCumulativeProvincialCasesModel(line)
+		result = append(result, cumulativeProvincialCases)
+	}
+
+	return ctx.JSON(http.StatusOK, result)
+}
+
