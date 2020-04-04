@@ -8,7 +8,7 @@ Before running the project API, you should set the `PORT` environmental variable
 ```bash
 # Run
 cd covid19za/api
-go go run main.go
+go run main.go
 
 # API Endpoint : http://127.0.0.1:1323
 ```
@@ -73,3 +73,4 @@ https://covid-za-api.herokuapp.com/cases/confirmed?province=GP
 ## Issues
 
 - [x] Expose an endpoint to get provincial cumulative timeline data [Issue #122].
+
