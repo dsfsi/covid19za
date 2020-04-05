@@ -66,8 +66,8 @@ func MapCsvLineToCumulativeProvincialCasesModel(line []string) models.Cumulative
 			NorthernCape: line[8],
 			NorthWest:    line[9],
 			WesternCape:  line[10],
-			Unknown:      line[10],
+			Unknown:      line[11],
 		},
-		Total:     line[12],
+		Total: line[12],
 	}
 }
