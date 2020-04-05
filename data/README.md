@@ -29,6 +29,9 @@ See [LICENSE](LICENSE.md)
 * 27-03-2020 - https://www.gov.za/speeches/minister-zweli-mkhize-confirms-first-deaths-due-coronavirus-covid-19-27-mar-2020-0000
 * **Other**: [doh_whatsapp/](doh_whatsapp/)
 
+### Provincial
+* https://www.westerncape.gov.za/department-of-health/coronavirus
+
 ### Testing
 * NICD Inforgraphics from their Twitter Account
 * NICD Technical reports http://www.nicd.ac.za/diseases-a-z-index/covid-19/covid-19-situational-reports/
