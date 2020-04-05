@@ -4,3 +4,7 @@ report_id,date,YYYYMMDD,province, geo, gender, age, confirmed_date,transmission_
 3,30-03-2020,20200330,FS,ZA-FS,male,86,,,,
 4,31-03-2020,20200331,GP,ZA-GP,male,79,,,presented with respiratory distress,https://sacoronavirus.co.za/2020/03/31/update-of-covid-19-31st-march-2020/
 5,31-03-2020,20200331,KZN,ZA-KZN,female,46,,,had an underlying condition of hypertension chronic asthma and at the time of admission presented with an acute asthmatic attack,https://sacoronavirus.co.za/2020/03/31/update-of-covid-19-31st-march-2020/
+6,03-04-2020,20200403,KZN,ZA-KZN,male,80,,,local transmissionm no travel history,https://www.gov.za/speeches/minister-zweli-mkhize-confirmsminister-zweli-mkhize-confirms-7-deaths-and-total-1505cases-3
+7,03-04-2020,20200403,KZN,ZA-KZN,female,81,,,local transmissionm no travel history,https://www.gov.za/speeches/minister-zweli-mkhize-confirmsminister-zweli-mkhize-confirms-7-deaths-and-total-1505cases-3
+8,03-04-2020,20200403,,,,,,,,
+9,03-04-2020,20200403,,,,,,,,
