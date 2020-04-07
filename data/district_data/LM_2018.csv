@@ -1,0 +1,214 @@
+OBJECTID,PROVINCE,CATEGORY,CAT2,CAT_B,MUNICNAME,NAMECODE,MAP_TITLE,DISTRICT,DISTRICT_N,DATE
+1,EC,B,Local Municipality,EC101,Dr Beyers Naude,Dr Beyers Naude (EC101),Dr Beyers Naude Local Municipality,DC10,Sarah Baartman,2019/06/25
+2,EC,B,Local Municipality,EC104,Makana,Makana (EC104),Makana Local Municipality,DC10,Sarah Baartman,2019/06/25
+3,EC,B,Local Municipality,EC105,Ndlambe,Ndlambe (EC105),Ndlambe Local Municipality,DC10,Sarah Baartman,2019/06/25
+4,EC,B,Local Municipality,EC121,Mbhashe,Mbhashe (EC121),Mbhashe Local Municipality,DC12,Amathole,2019/06/25
+5,EC,B,Local Municipality,EC122,Mnquma,Mnquma (EC122),Mnquma Local Municipality,DC12,Amathole,2019/06/25
+6,EC,B,Local Municipality,EC131,Inxuba Yethemba,Inxuba Yethemba (EC131),Inxuba Yethemba Local Municipality,DC13,Chris Hani,2019/06/25
+7,EC,B,Local Municipality,EC137,Engcobo,Engcobo (EC137),Engcobo Local Municipality,DC13,Chris Hani,2019/06/25
+8,EC,B,Local Municipality,EC141,Elundini,Elundini (EC141),Elundini Local Municipality,DC14,Joe Gqabi,2019/06/25
+9,EC,B,Local Municipality,EC142,Senqu,Senqu (EC142),Senqu Local Municipality,DC14,Joe Gqabi,2019/06/25
+10,EC,B,Local Municipality,EC153,Ngquza Hill,Ngquza Hill (EC153),Ngquza Hill Local Municipality,DC15,O.R.Tambo,2019/06/25
+11,EC,B,Local Municipality,EC154,Port St Johns,Port St Johns (EC154),Port St Johns Local Municipality,DC15,O.R.Tambo,2019/06/25
+12,EC,B,Local Municipality,EC155,Nyandeni,Nyandeni (EC155),Nyandeni Local Municipality,DC15,O.R.Tambo,2019/06/25
+13,EC,B,Local Municipality,EC156,Mhlontlo,Mhlontlo (EC156),Mhlontlo Local Municipality,DC15,O.R.Tambo,2019/06/25
+14,EC,B,Local Municipality,EC157,King Sabata Dalindyebo,King Sabata Dalindyebo (EC157),King Sabata Dalindyebo Local Municipality,DC15,O.R.Tambo,2019/06/25
+15,EC,B,Local Municipality,EC441,Matatiele,Matatiele (EC441),Matatiele Local Municipality,DC44,Alfred Nzo,2019/06/25
+16,FS,B,Local Municipality,FS161,Letsemeng,Letsemeng (FS161),Letsemeng Local Municipality,DC16,Xhariep,2019/06/25
+17,FS,B,Local Municipality,FS162,Kopanong,Kopanong (FS162),Kopanong Local Municipality,DC16,Xhariep,2019/06/25
+18,FS,B,Local Municipality,FS163,Mohokare,Mohokare (FS163),Mohokare Local Municipality,DC16,Xhariep,2019/06/25
+19,FS,B,Local Municipality,FS181,Masilonyana,Masilonyana (FS181),Masilonyana Local Municipality,DC18,Lejweleputswa,2019/06/25
+20,FS,B,Local Municipality,FS182,Tokologo,Tokologo (FS182),Tokologo Local Municipality,DC18,Lejweleputswa,2019/06/25
+21,FS,B,Local Municipality,FS183,Tswelopele,Tswelopele (FS183),Tswelopele Local Municipality,DC18,Lejweleputswa,2019/06/25
+22,FS,B,Local Municipality,FS184,Matjhabeng,Matjhabeng (FS184),Matjhabeng Local Municipality,DC18,Lejweleputswa,2019/06/25
+23,FS,B,Local Municipality,FS185,Nala,Nala (FS185),Nala Local Municipality,DC18,Lejweleputswa,2019/06/25
+24,FS,B,Local Municipality,FS191,Setsoto,Setsoto (FS191),Setsoto Local Municipality,DC19,Thabo Mofutsanyane,2019/06/25
+25,FS,B,Local Municipality,FS192,Dihlabeng,Dihlabeng (FS192),Dihlabeng Local Municipality,DC19,Thabo Mofutsanyane,2019/06/25
+26,FS,B,Local Municipality,FS193,Nketoana,Nketoana (FS193),Nketoana Local Municipality,DC19,Thabo Mofutsanyane,2019/06/25
+27,FS,B,Local Municipality,FS194,Maluti a Phofung,Maluti a Phofung (FS194),Maluti a Phofung Local Municipality,DC19,Thabo Mofutsanyane,2019/06/25
+28,FS,B,Local Municipality,FS195,Phumelela,Phumelela (FS195),Phumelela Local Municipality,DC19,Thabo Mofutsanyane,2019/06/25
+29,FS,B,Local Municipality,FS196,Mantsopa,Mantsopa (FS196),Mantsopa Local Municipality,DC19,Thabo Mofutsanyane,2019/06/25
+30,FS,B,Local Municipality,FS201,Moqhaka,Moqhaka (FS201),Moqhaka Local Municipality,DC20,Fezile Dabi,2019/06/25
+31,FS,B,Local Municipality,FS203,Ngwathe,Ngwathe (FS203),Ngwathe Local Municipality,DC20,Fezile Dabi,2019/06/25
+32,FS,B,Local Municipality,FS204,Metsimaholo,Metsimaholo (FS204),Metsimaholo Local Municipality,DC20,Fezile Dabi,2019/06/25
+33,FS,B,Local Municipality,FS205,Mafube,Mafube (FS205),Mafube Local Municipality,DC20,Fezile Dabi,2019/06/25
+34,GT,B,Local Municipality,GT481,Mogale City,Mogale City (GT481),Mogale City Local Municipality,DC48,West Rand,2019/06/25
+35,GT,B,Local Municipality,GT485,Rand West City,Rand West City (GT485),Rand West City Local Municipality,DC48,West Rand,2019/06/25
+36,GT,B,Local Municipality,GT484,Merafong City,Merafong City (GT484),Merafong City Local Municipality,DC48,West Rand,2019/06/25
+37,GT,A,Metropolitan Municipality,TSH,City of Tshwane,City of Tshwane (TSH),City of Tshwane Metropolitan Municipality,TSH,City of Tshwane,2019/06/25
+38,KZN,B,Local Municipality,KZN212,Umdoni,Umdoni (KZN212),Umdoni Local Municipality,DC21,Ugu,2019/06/25
+39,KZN,B,Local Municipality,KZN214,uMuziwabantu,uMuziwabantu (KZN214),UMuziwabantu Local Municipality,DC21,Ugu,2019/06/25
+40,KZN,B,Local Municipality,KZN216,Ray Nkonyeni,Ray Nkonyeni (KZN216),Ray Nkonyeni Local Municipality,DC21,Ugu,2019/06/25
+41,KZN,B,Local Municipality,KZN238,Alfred Duma,Alfred Duma (KZN238),Alfred Duma Local Municipality,DC23,Uthukela,2019/06/25
+42,KZN,B,Local Municipality,KZN237,Inkosi Langalibalele,Inkosi Langalibalele (KZN327),Inkosi Langalibalele Local Municipality,DC23,Uthukela,2019/06/25
+43,KZN,B,Local Municipality,KZN235,Okhahlamba,Okhahlamba (KZN235),Okhahlamba Local Municipality,DC23,Uthukela,2019/06/25
+44,KZN,B,Local Municipality,KZN241,Endumeni,Endumeni (KZN241),Endumeni Local Municipality,DC24,Umzinyathi,2019/06/25
+45,KZN,B,Local Municipality,KZN242,Nqutu,Nqutu (KZN242),Nqutu Local Municipality,DC24,Umzinyathi,2019/06/25
+46,KZN,B,Local Municipality,KZN252,Newcastle,Newcastle (KZN252),Newcastle Local Municipality,DC25,Amajuba,2019/06/25
+47,KZN,B,Local Municipality,KZN253,Emadlangeni,Emadlangeni (KZN253),Emadlangeni Local Municipality,DC25,Amajuba,2019/06/25
+48,KZN,B,Local Municipality,KZN254,Dannhauser,Dannhauser (KZN254),Dannhauser Local Municipality,DC25,Amajuba,2019/06/25
+49,KZN,B,Local Municipality,KZN261,eDumbe,eDumbe (KZN261),eDumbe Local Municipality,DC26,Zululand,2019/06/25
+50,KZN,B,Local Municipality,KZN262,uPhongolo,uPhongolo (KZN262),UPhongolo Local Municipality,DC26,Zululand,2019/06/25
+51,KZN,B,Local Municipality,KZN263,Abaqulusi,Abaqulusi (KZN263),Abaqulusi Local Municipality,DC26,Zululand,2019/06/25
+52,KZN,B,Local Municipality,KZN265,Nongoma,Nongoma (KZN265),Nongoma Local Municipality,DC26,Zululand,2019/06/25
+53,KZN,B,Local Municipality,KZN266,Ulundi,Ulundi (KZN266),Ulundi Local Municipality,DC26,Zululand,2019/06/25
+54,KZN,B,Local Municipality,KZN271,Umhlabuyalingana,Umhlabuyalingana (KZN271),Umhlabuyalingana Local Municipality,DC27,Umkhanyakude,2019/06/25
+55,KZN,B,Local Municipality,KZN272,Jozini,Jozini (KZN272),Jozini Local Municipality,DC27,Umkhanyakude,2019/06/25
+56,KZN,B,Local Municipality,KZN275,Mtubatuba,Mtubatuba (KZN275),Mtubatuba Local Municipality,DC27,Umkhanyakude,2019/06/25
+57,KZN,B,Local Municipality,KZN284,uMlalazi,uMlalazi (KZN284),uMlalazi Local Municipality,DC28,King Cetshwayo,2019/06/25
+58,KZN,B,Local Municipality,KZN286,Nkandla,Nkandla (KZN286),Nkandla Local Municipality,DC28,King Cetshwayo,2019/06/25
+59,KZN,B,Local Municipality,KZN291,Mandeni,Mandeni (KZN291),Mandeni Local Municipality,DC29,iLembe,2019/06/25
+60,KZN,B,Local Municipality,KZN292,KwaDukuza,KwaDukuza (KZN292),KwaDukuza Local Municipality,DC29,iLembe,2019/06/25
+61,KZN,B,Local Municipality,KZN293,Ndwedwe,Ndwedwe (KZN293),Ndwedwe Local Municipality,DC29,iLembe,2019/06/25
+62,KZN,B,Local Municipality,KZN294,Maphumulo,Maphumulo (KZN294),Maphumulo Local Municipality,DC29,iLembe,2019/06/25
+63,KZN,B,Local Municipality,KZN436,Dr Nkosazana Dlamini Zuma,Dr Nkosazana Dlamini Zuma (KZN436),Dr Nkosazana Dlamini Zuma Local Municipality,DC43,Harry Gwala,2019/06/25
+64,KZN,B,Local Municipality,KZN434,Ubuhlebezwe,Ubuhlebezwe (KZN434),Ubuhlebezwe Local Municipality,DC43,Harry Gwala,2019/06/25
+65,LIM,B,Local Municipality,LIM331,Greater Giyani,Greater Giyani (LIM331),Greater Giyani Local Municipality,DC33,Mopani,2019/06/25
+66,LIM,B,Local Municipality,LIM332,Greater Letaba,Greater Letaba (LIM332),Greater Letaba Local Municipality,DC33,Mopani,2019/06/25
+67,LIM,B,Local Municipality,LIM333,Greater Tzaneen,Greater Tzaneen (LIM333),Greater Tzaneen Local Municipality,DC33,Mopani,2019/06/25
+68,LIM,B,Local Municipality,LIM334,Ba-Phalaborwa,Ba-Phalaborwa (LIM334),Ba-Phalaborwa Local Municipality,DC33,Mopani,2019/06/25
+69,LIM,B,Local Municipality,LIM335,Maruleng,Maruleng (LIM335),Maruleng Local Municipality,DC33,Mopani,2019/06/25
+70,LIM,B,Local Municipality,LIM355,Lepele-Nkumpi,Lepele-Nkumpi (LIM355),Lepele-Nkumpi Local Municipality,DC35,Capricorn,2019/06/25
+71,LIM,B,Local Municipality,LIM361,Thabazimbi,Thabazimbi (LIM361),Thabazimbi Local Municipality,DC36,Waterberg,2019/06/25
+72,LIM,B,Local Municipality,LIM362,Lephalale,Lephalale (LIM362),Lephalale Local Municipality,DC36,Waterberg,2019/06/25
+73,LIM,B,Local Municipality,LIM366,Bela-Bela,Bela-Bela (LIM366),Bela-Bela Local Municipality,DC36,Waterberg,2019/06/25
+74,LIM,B,Local Municipality,LIM367,Mogalakwena,Mogalakwena (LIM367),Mogalakwena Local Municipality,DC36,Waterberg,2019/06/25
+75,LIM,B,Local Municipality,LIM471,Ephraim Mogale,Ephraim Mogale (LIM471),Ephraim Mogale Local Municipality,DC47,Sekhukhune,2019/06/25
+76,LIM,B,Local Municipality,LIM472,Elias Motsoaledi,Elias Motsoaledi (LIM472),Elias Motsoaledi Local Municipality,DC47,Sekhukhune,2019/06/25
+77,LIM,B,Local Municipality,LIM473,Makhuduthamaga,Makhuduthamaga (LIM473),Makhuduthamaga Local Municipality,DC47,Sekhukhune,2019/06/25
+78,MP,B,Local Municipality,MP301,Chief Albert Luthuli,Chief Albert Luthuli (MP301),Chief Albert Luthuli Local Municipality,DC30,Gert Sibande,2019/06/25
+79,MP,B,Local Municipality,MP302,Msukaligwa,Msukaligwa (MP302),Msukaligwa Local Municipality,DC30,Gert Sibande,2019/06/25
+80,MP,B,Local Municipality,MP303,Mkhondo,Mkhondo (MP303),Mkhondo Local Municipality,DC30,Gert Sibande,2019/06/25
+81,MP,B,Local Municipality,MP304,Dr Pixley Ka Isaka Seme,Dr Pixley Ka Isaka Seme (MP304),Dr Pixley Ka Isaka Seme Local Municipality,DC30,Gert Sibande,2019/06/25
+82,MP,B,Local Municipality,MP305,Lekwa,Lekwa (MP305),Lekwa Local Municipality,DC30,Gert Sibande,2019/06/25
+83,MP,B,Local Municipality,MP306,Dipaleseng,Dipaleseng (MP306),Dipaleseng Local Municipality,DC30,Gert Sibande,2019/06/25
+84,MP,B,Local Municipality,MP307,Govan Mbeki,Govan Mbeki (MP307),Govan Mbeki Local Municipality,DC30,Gert Sibande,2019/06/25
+85,MP,B,Local Municipality,MP311,Victor Khanye,Victor Khanye (MP311),Victor Khanye Local Municipality,DC31,Nkangala,2019/06/25
+86,MP,B,Local Municipality,MP312,Emalahleni,Emalahleni (MP312),Emalahleni Local Municipality,DC31,Nkangala,2019/06/25
+87,MP,B,Local Municipality,MP313,Steve Tshwete,Steve Tshwete (MP313),Steve Tshwete Local Municipality,DC31,Nkangala,2019/06/25
+88,MP,B,Local Municipality,MP314,Emakhazeni,Emakhazeni (MP314),Emakhazeni Local Municipality,DC31,Nkangala,2019/06/25
+89,MP,B,Local Municipality,MP315,Thembisile,Thembisile (MP315),Thembisile Local Municipality,DC31,Nkangala,2019/06/25
+90,MP,B,Local Municipality,MP316,Dr JS Moroka,Dr JS Moroka (MP316),Dr JS Moroka Local Municipality,DC31,Nkangala,2019/06/25
+91,MP,B,Local Municipality,MP321,Thaba Chweu,Thaba Chweu (MP321),Thaba Chweu Local Municipality,DC32,Ehlanzeni,2019/06/25
+92,MP,B,Local Municipality,MP324,Nkomazi,Nkomazi (MP324),Nkomazi Local Municipality,DC32,Ehlanzeni,2019/06/25
+93,NW,B,Local Municipality,NW371,Moretele,Moretele (NW371),Moretele Local Municipality,DC37,Bojanala,2019/06/25
+94,NW,B,Local Municipality,NW372,Local Municipality of Madibeng,Local Municipality of Madibeng (NW372),Local Municipality of Madibeng,DC37,Bojanala,2019/06/25
+95,NW,B,Local Municipality,NW373,Rustenburg,Rustenburg (NW373),Rustenburg Local Municipality,DC37,Bojanala,2019/06/25
+96,NW,B,Local Municipality,NW374,Kgetlengrivier,Kgetlengrivier (NW374),Kgetlengrivier Local Municipality,DC37,Bojanala,2019/06/25
+97,NW,B,Local Municipality,NW375,Moses Kotane,Moses Kotane (NW375),Moses Kotane Local Municipality,DC37,Bojanala,2019/06/25
+98,NW,B,Local Municipality,NW381,Ratlou,Ratlou (NW381),Ratlou Local Municipality,DC38,Ngaka Modiri Molema,2019/06/25
+99,NW,B,Local Municipality,NW382,Tswaing,Tswaing (NW382),Tswaing Local Municipality,DC38,Ngaka Modiri Molema,2019/06/25
+100,NW,B,Local Municipality,NW383,Mafikeng,Mafikeng (NW383),Mafikeng Local Municipality,DC38,Ngaka Modiri Molema,2019/06/25
+101,NW,B,Local Municipality,NW384,Ditsobotla,Ditsobotla (NW384),Ditsobotla Local Municipality,DC38,Ngaka Modiri Molema,2019/06/25
+102,NW,B,Local Municipality,NW385,Ramotshere Moiloa,Ramotshere Moiloa (NW385),Ramotshere Moiloa Local Municipality,DC38,Ngaka Modiri Molema,2019/06/25
+103,NW,B,Local Municipality,NW392,Naledi,Naledi (NW392),Naledi Local Municipality,DC39,Dr Ruth Segomotsi Mompati,2019/06/25
+104,NW,B,Local Municipality,NW393,Mamusa,Mamusa (NW393),Mamusa Local Municipality,DC39,Dr Ruth Segomotsi Mompati,2019/06/25
+105,NW,B,Local Municipality,NW394,Greater Taung,Greater Taung (NW394),Greater Taung Local Municipality,DC39,Dr Ruth Segomotsi Mompati,2019/06/25
+106,NW,B,Local Municipality,NW396,Lekwa-Teemane,Lekwa-Teemane (NW396),Lekwa-Teemane Local Municipality,DC39,Dr Ruth Segomotsi Mompati,2019/06/25
+107,NW,B,Local Municipality,NW397,Kagisano/Molopo,Kagisano/Molopo (NW397),Kagisano/Molopo Local Municipality,DC39,Dr Ruth Segomotsi Mompati,2019/06/25
+108,NW,B,Local Municipality,NW403,City of Matlosana,City of Matlosana (NW403),City of Matlosana Local Municipality,DC40,Dr Kenneth Kaunda,2019/06/25
+109,NW,B,Local Municipality,NW404,Maquassi Hills,Maquassi Hills (NW404),Maquassi Hills Local Municipality,DC40,Dr Kenneth Kaunda,2019/06/25
+110,NC,B,Local Municipality,NC061,Richtersveld,Richtersveld (NC061),Richtersveld Local Municipality,DC6,Namakwa,2019/06/25
+111,NC,B,Local Municipality,NC062,Nama Khoi,Nama Khoi (NC062),Nama Khoi Local Municipality,DC6,Namakwa,2019/06/25
+112,NC,B,Local Municipality,NC064,Kamiesberg,Kamiesberg (NC064),Kamiesberg Local Municipality,DC6,Namakwa,2019/06/25
+113,NC,B,Local Municipality,NC065,Hantam,Hantam (NC065),Hantam Local Municipality,DC6,Namakwa,2019/06/25
+114,NC,B,Local Municipality,NC066,Karoo Hoogland,Karoo Hoogland (NC066),Karoo Hoogland Local Municipality,DC6,Namakwa,2019/06/25
+115,NC,B,Local Municipality,NC067,Kh├ói-Ma,Kh├ói-Ma (NC067),Kh├ói-Ma Local Municipality,DC6,Namakwa,2019/06/25
+116,NC,B,Local Municipality,NC071,Ubuntu,Ubuntu (NC071),Ubuntu Local Municipality,DC7,Pixley ka Seme,2019/06/25
+117,NC,B,Local Municipality,NC072,Umsobomvu,Umsobomvu (NC072),Umsobomvu Local Municipality,DC7,Pixley ka Seme,2019/06/25
+118,NC,B,Local Municipality,NC073,Emthanjeni,Emthanjeni (NC073),Emthanjeni Local Municipality,DC7,Pixley ka Seme,2019/06/25
+119,NC,B,Local Municipality,NC074,Kareeberg,Kareeberg (NC074),Kareeberg Local Municipality,DC7,Pixley ka Seme,2019/06/25
+120,NC,B,Local Municipality,NC075,Renosterberg,Renosterberg (NC075),Renosterberg Local Municipality,DC7,Pixley ka Seme,2019/06/25
+121,NC,B,Local Municipality,NC076,Thembelihle,Thembelihle (NC076),Thembelihle Local Municipality,DC7,Pixley ka Seme,2019/06/25
+122,NC,B,Local Municipality,NC077,Siyathemba,Siyathemba (NC077),Siyathemba Local Municipality,DC7,Pixley ka Seme,2019/06/25
+123,NC,B,Local Municipality,NC078,Siyancuma,Siyancuma (NC078),Siyancuma Local Municipality,DC7,Pixley ka Seme,2019/06/25
+124,NC,B,Local Municipality,NC082,Kai !Garib,Kai !Garib (NC082),Kai !Garib Local Municipality,DC8,Z F Mgcawu,2019/06/25
+125,NC,B,Local Municipality,NC084,!Kheis,!Kheis (NC084),!Kheis Local Municipality,DC8,Z F Mgcawu,2019/06/25
+126,NC,B,Local Municipality,NC085,Tsantsabane,Tsantsabane (NC085),Tsantsabane Local Municipality,DC8,Z F Mgcawu,2019/06/25
+127,NC,B,Local Municipality,NC086,Kgatelopele,Kgatelopele (NC086),Kgatelopele Local Municipality,DC8,Z F Mgcawu,2019/06/25
+128,NC,B,Local Municipality,NC091,Sol Plaatje,Sol Plaatje (NC091),Sol Plaatje Local Municipality,DC9,Frances Baard,2019/06/25
+129,NC,B,Local Municipality,NC092,Dikgatlong,Dikgatlong (NC092),Dikgatlong Local Municipality,DC9,Frances Baard,2019/06/25
+130,NC,B,Local Municipality,NC453,Gamagara,Gamagara (NC453),Gamagara Local Municipality,DC45,John Taolo Gaetsewe,2019/06/25
+131,WC,B,Local Municipality,WC011,Matzikama,Matzikama (WC011),Matzikama Local Municipality,DC1,West Coast,2019/06/25
+132,WC,B,Local Municipality,WC012,Cederberg,Cederberg (WC012),Cederberg Local Municipality,DC1,West Coast,2019/06/25
+133,WC,B,Local Municipality,WC013,Bergrivier,Bergrivier (WC013),Bergrivier Local Municipality,DC1,West Coast,2019/06/25
+134,WC,B,Local Municipality,WC022,Witzenberg,Witzenberg (WC022),Witzenberg Local Municipality,DC2,Cape Winelands,2019/06/25
+135,WC,B,Local Municipality,WC023,Drakenstein,Drakenstein (WC023),Drakenstein Local Municipality,DC2,Cape Winelands,2019/06/25
+136,WC,B,Local Municipality,WC025,Breede Valley,Breede Valley (WC025),Breede Valley Local Municipality,DC2,Cape Winelands,2019/06/25
+137,WC,B,Local Municipality,WC026,Langeberg,Langeberg (WC026),Langeberg Local Municipality,DC2,Cape Winelands,2019/06/25
+138,WC,B,Local Municipality,WC033,Cape Agulhas,Cape Agulhas (WC033),Cape Agulhas Local Municipality,DC3,Overberg,2019/06/25
+139,WC,B,Local Municipality,WC034,Swellendam,Swellendam (WC034),Swellendam Local Municipality,DC3,Overberg,2019/06/25
+140,WC,B,Local Municipality,WC041,Kannaland,Kannaland (WC041),Kannaland Local Municipality,DC4,Garden Route,2019/06/25
+141,WC,B,Local Municipality,WC042,Hessequa,Hessequa (WC042),Hessequa Local Municipality,DC4,Garden Route,2019/06/25
+142,WC,B,Local Municipality,WC043,Mossel Bay,Mossel Bay (WC043),Mossel Bay Local Municipality,DC4,Garden Route,2019/06/25
+143,WC,B,Local Municipality,WC044,George,George (WC044),George Local Municipality,DC4,Garden Route,2019/06/25
+144,WC,B,Local Municipality,WC045,Oudtshoorn,Oudtshoorn (WC045),Oudtshoorn Local Municipality,DC4,Garden Route,2019/06/25
+145,WC,B,Local Municipality,WC047,Bitou,Bitou (WC047),Bitou Local Municipality,DC4,Garden Route,2019/06/25
+146,WC,B,Local Municipality,WC048,Knysna,Knysna (WC048),Knysna Local Municipality,DC4,Garden Route,2019/06/25
+147,WC,B,Local Municipality,WC051,Laingsburg,Laingsburg (WC051),Laingsburg Local Municipality,DC5,Central Karoo,2019/06/25
+148,WC,B,Local Municipality,WC052,Prince Albert,Prince Albert (WC052),Prince Albert Local Municipality,DC5,Central Karoo,2019/06/25
+149,WC,B,Local Municipality,WC053,Beaufort West,Beaufort West (WC053),Beaufort West Local Municipality,DC5,Central Karoo,2019/06/25
+150,NC,B,Local Municipality,NC451,Joe Morolong,Joe Morolong (NC451),Joe Morolong Local Municipality,DC45,John Taolo Gaetsewe,2019/06/25
+151,NC,B,Local Municipality,NC452,Ga-Segonyana,Ga-Segonyana (NC452),Ga-Segonyana Local Municipality,DC45,John Taolo Gaetsewe,2019/06/25
+152,KZN,B,Local Municipality,KZN213,Umzumbe,Umzumbe (KZN213),Umzumbe Local Municipality,DC21,Ugu,2019/06/25
+153,KZN,B,Local Municipality,KZN276,Big Five Hlabisa,Big Five Hlabisa (KZN276),Big Five Hlabisa Local Municipality,DC27,Umkhanyakude,2019/06/25
+154,KZN,B,Local Municipality,KZN227,Richmond,Richmond (KZN227),Richmond Local Municipality,DC22,Umgungundlovu,2019/06/25
+155,KZN,B,Local Municipality,KZN433,Greater Kokstad,Greater Kokstad (KZN433),Greater Kokstad Local Municipality,DC43,Harry Gwala,2019/06/25
+156,KZN,B,Local Municipality,KZN435,Umzimkhulu,Umzimkhulu (KZN435),Umzimkhulu Local Municipality,DC43,Harry Gwala,2019/06/25
+157,NC,B,Local Municipality,NC093,Magareng,Magareng (NC093),Magareng Local Municipality,DC9,Frances Baard,2019/06/25
+158,NC,B,Local Municipality,NC094,Phokwane,Phokwane (NC094),Phokwane Local Municipality,DC9,Frances Baard,2019/06/25
+159,WC,B,Local Municipality,WC024,Stellenbosch,Stellenbosch (WC024),Stellenbosch Local Municipality,DC2,Cape Winelands,2019/06/25
+160,WC,B,Local Municipality,WC031,Theewaterskloof,Theewaterskloof (WC031),Theewaterskloof Local Municipality,DC3,Overberg,2019/06/25
+161,EC,B,Local Municipality,EC442,Umzimvubu,Umzimvubu (EC442),Umzimvubu Local Municipality,DC44,Alfred Nzo,2019/06/25
+162,EC,B,Local Municipality,EC444,Ntabankulu,Ntabankulu (EC444),Ntabankulu Local Municipality,DC44,Alfred Nzo,2019/06/25
+163,EC,B,Local Municipality,EC443,Mbizana,Mbizana (EC443),Mbizana Local Municipality,DC44,Alfred Nzo,2019/06/25
+164,EC,B,Local Municipality,EC123,Great Kei,Great Kei (EC123),Great Kei Local Municipality,DC12,Amathole,2019/06/25
+165,EC,B,Local Municipality,EC124,Amahlathi,Amahlathi (EC124),Amahlathi Local Municipality,DC12,Amathole,2019/06/25
+166,KZN,B,Local Municipality,KZN221,uMshwathi,uMshwathi (KZN221),uMshwathi Local Municipality,DC22,Umgungundlovu,2019/06/25
+167,KZN,B,Local Municipality,KZN244,Msinga,Msinga (KZN244),Msinga Local Municipality,DC24,Umzinyathi,2019/06/25
+168,KZN,A,Metropolitan Municipality,ETH,eThekwini,eThekwini (ETH),Ethekwini Metropolitan Municipality,ETH,eThekwini,2019/06/25
+169,KZN,B,Local Municipality,KZN226,Mkhambathini,Mkhambathini (KZN226),Mkhambathini Local Municipality,DC22,Umgungundlovu,2019/06/25
+170,KZN,B,Local Municipality,KZN225,The Msunduzi,The Msunduzi (KZN225),The Msunduzi Local Municipality,DC22,Umgungundlovu,2019/06/25
+171,KZN,B,Local Municipality,KZN222,uMngeni,uMngeni (KZN222),uMngeni Local Municipality,DC22,Umgungundlovu,2019/06/25
+172,KZN,B,Local Municipality,KZN224,Impendle,Impendle (KZN224),Impendle Local Municipality,DC22,Umgungundlovu,2019/06/25
+173,KZN,B,Local Municipality,KZN281,Mfolozi,Mfolozi (KZN281),Mfolozi Local Municipality,DC28,King Cetshwayo,2019/06/25
+174,KZN,B,Local Municipality,KZN282,uMhlathuze,uMhlathuze (KZN282),uMhlathuze Local Municipality,DC28,King Cetshwayo,2019/06/25
+175,KZN,B,Local Municipality,KZN285,Mthonjaneni,Mthonjaneni (KZN285),Mthonjaneni Local Municipality,DC28,King Cetshwayo,2019/06/25
+176,EC,B,Local Municipality,EC106,Sundays River Valley,Sundays River Valley (EC106),Sundays River Valley Local Municipality,DC10,Sarah Baartman,2019/06/25
+177,EC,B,Local Municipality,EC108,Kouga,Kouga (EC108),Kouga Local Municipality,DC10,Sarah Baartman,2019/06/25
+178,EC,B,Local Municipality,EC109,Kou-Kamma,Kou-Kamma (EC109),Kou-Kamma Local Municipality,DC10,Sarah Baartman,2019/06/25
+179,EC,A,Metropolitan Municipality,NMA,Nelson Mandela Bay,Nelson Mandela Bay (NMA),Nelson Mandela Bay Metropolitan Municipality,NMA,Nelson Mandela Bay,2019/06/25
+180,EC,A,Metropolitan Municipality,BUF,Buffalo City,Buffalo City (BUF),Buffalo City Metropolitan Municipality,BUF,Buffalo City,2019/06/25
+181,EC,B,Local Municipality,EC126,Ngqushwa,Ngqushwa (EC126),Ngqushwa Local Municipality,DC12,Amathole,2019/06/25
+182,MP,B,Local Municipality,MP325,Bushbuckridge,Bushbuckridge (MP325),Bushbuckridge Local Municipality,DC32,Ehlanzeni,2019/06/25
+183,EC,B,Local Municipality,EC135,Intsika Yethu,Intsika Yethu (EC135),Intsika Yethu Local Municipality,DC13,Chris Hani,2019/06/25
+184,EC,B,Local Municipality,EC136,Emalahleni,Emalahleni (EC136),Emalahleni Local Municipality,DC13,Chris Hani,2019/06/25
+185,EC,B,Local Municipality,EC138,Sakhisizwe,Sakhisizwe (EC138),Sakhisizwe Local Municipality,DC13,Chris Hani,2019/06/25
+190,WC,B,Local Municipality,WC014,Saldanha Bay,Saldanha Bay (WC014),Saldanha Bay Local Municipality,DC1,West Coast,2019/06/25
+193,WC,B,Local Municipality,WC015,Swartland,Swartland (WC015),Swartland Local Municipality,DC1,West Coast,2019/06/25
+197,WC,B,Local Municipality,WC032,Overstrand,Overstrand (WC032),Overstrand Local Municipality,DC3,Overberg,2019/06/25
+198,WC,A,Metropolitan Municipality,CPT,City of Cape Town,City of Cape Town (CPT),City of Cape Town Metropolitan Municipality,CPT,City of Cape Town,2019/06/25
+200,LIM,B,Local Municipality,LIM351,Blouberg,Blouberg (LIM351),Blouberg Local Municipality,DC35,Capricorn,2019/06/25
+201,LIM,B,Local Municipality,LIM353,Molemole,Molemole (LIM353),Molemole Local Municipality,DC35,Capricorn,2019/06/25
+202,LIM,B,Local Municipality,LIM354,Polokwane,Polokwane (LIM354),Polokwane Local Municipality,DC35,Capricorn,2019/06/25
+203,LIM,B,Local Municipality,LIM368,Modimolle-Mookgophong,Modimolle-Mookgophong (LIM368),Modimolle-Mookgophong Local Municipality,DC36,Waterberg,2019/06/25
+204,LIM,B,Local Municipality,LIM476,Fetakgomo Tubatse,Fetakgomo Tubatse (LIM476),Fetakgomo Tubatse Local Municipality,DC47,Sekhukhune,2019/06/25
+205,LIM,B,Local Municipality,LIM341,Musina,Musina (LIM341),Musina Local Municipality,DC34,Vhembe,2019/06/25
+206,LIM,B,Local Municipality,LIM343,Thulamela,Thulamela (LIM343),Thulamela Local Municipality,DC34,Vhembe,2019/06/25
+207,LIM,B,Local Municipality,LIM344,Makhado,Makhado (LIM344),Makhado Local Municipality,DC34,Vhembe,2019/06/25
+208,LIM,B,Local Municipality,LIM345,Collins Chabane,Collins Chabane (LIM345),Collins Chabane Local Municipality,DC34,Vhembe,2019/06/25
+209,NC,B,Local Municipality,NC087,Dawid Kruiper,Dawid Kruiper (NC087),Dawid Kruiper Local Municipality,DC8,Z F Mgcawu,2019/06/25
+210,MP,B,Local Municipality,MP326,City of Mbombela,City of Mbombela (MP326),City of Mbombela Local Municipality,DC32,Ehlanzeni,2019/06/25
+211,NW,B,Local Municipality,NW405,JB Marks,JB Marks (NW405),JB Marks Local Municipality,DC40,Dr Kenneth Kaunda,2019/06/25
+212,FS,A,Metropolitan Municipality,MAN,Mangaung,Mangaung (MAN),Mangaung Metropolitan Municipality,MAN,Mangaung,2019/06/25
+213,EC,B,Local Municipality,EC145,Walter Sisulu,Walter Sisulu (EC145),Walter Sisulu Local Municipality,DC14,Joe Gqabi,2019/06/25
+214,EC,B,Local Municipality,EC139,Enoch Mgijima,Enoch Mgijima (EC139),Enoch Mgijima Local Municipality,DC13,Chris Hani,2019/06/25
+215,EC,B,Local Municipality,EC129,Raymond Mhlaba,Raymond Mhlaba (EC129),Raymond Mhlaba Local Municipality,DC12,Amathole,2019/06/25
+216,KZN,B,Local Municipality,KZN245,Umvoti,Umvoti (KZN245),Umvoti Local Municipality,DC24,Umzinyathi,2019/06/25
+217,KZN,B,Local Municipality,KZN223,Mpofana,Mpofana (KZN223),Mpofana Local Municipality,DC22,Umgungundlovu,2019/06/25
+218,GT,B,Local Municipality,GT423,Lesedi,Lesedi (GT423),Lesedi Local Municipality,DC42,Sedibeng,2019/06/25
+219,GT,B,Local Municipality,GT422,Midvaal,Midvaal (GT422),Midvaal Local Municipality,DC42,Sedibeng,2019/06/25
+220,GT,B,Local Municipality,GT421,Emfuleni,Emfuleni (GT421),Emfuleni Local Municipality,DC42,Sedibeng,2019/06/25
+221,EC,B,Local Municipality,EC102,Blue Crane Route,Blue Crane Rout/ie (EC102),Blue Crane Route Local Municipality,DC10,Sarah Baartman,2019/06/25
+222,GT,A,Metropolitan Municipality,JHB,City of Johannesburg,City of Johannesburg (JHB),City of Johannesburg Metropolitan Municipality,JHB,City of Johannesburg,2019/06/25
+223,GT,A,Metropolitan Municipality,EKU,Ekurhuleni,Ekurhuleni (EKU),Ekurhuleni Metropolitan Municipality,EKU,Ekurhuleni,2019/06/25
