@@ -11,4 +11,9 @@ report_id,date,YYYYMMDD,province, geo, gender, age, confirmed_date,transmission_
 10,05-04-2020,20200405,WC,ZA-WC,female,82,,,She had presented with fever;short breath; body pains; dry cough and sore throat. She also had comorbidities that included  hypertension; diabetes and cholesterol.,https://sacoronavirus.co.za/2020/04/05/update-of-covid-19-05th-april-2020/
 11,05-04-2020,20200405,KZN,ZA-KZN,male,86,,,diagnosis of bronchopneumonia and respiratory distress. He had an underlying condition of chronic obstructive airway disease (COAD),https://sacoronavirus.co.za/2020/04/05/update-of-covid-19-05th-april-2020/
 12,06-04-2020,20200406,WC,ZA-WC,male,57,,,He had co-morbidities that included diabetes and ischaemic heart disease.,
-13,07-04-2020,20200407,,,,,,,,
+13,07-04-2020,20200407,KZN,ZA-KZN,male,60,,,,
+14,08-04-2020,20200408,FS,ZA-FS,male,55,,,,
+15,08-04-2020,20200408,FS,ZA-FS,male,77,,,,
+16,08-04-2020,20200408,GP,ZA-GP,male,49,,,,
+17,08-04-2020,20200408,GP,ZA-GP,male,52,,,,
+18,08-04-2020,20200408,KZN,ZA-KZN,male,70,,,,
