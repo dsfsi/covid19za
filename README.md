@@ -58,6 +58,11 @@ Code [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](http
 ### Submitting Changes [Pull Request]
 * See https://opensource.com/article/19/7/create-pull-request-github
 ## Contributors
+<a href="https://github.com/dsfsi/covid19za/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=dsfsi/covid19za" />
+</a>
+
+Made with [contributors-img](https://contributors-img.web.app).
 * See https://github.com/dsfsi/covid19za/graphs/contributors
 
 ## Contact
