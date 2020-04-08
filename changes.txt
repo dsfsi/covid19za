@@ -1,0 +1,127 @@
+----------------Changes and observations made when populating bed numbers:-------------------------------
+
+To distinguish files: Data File With Number Of Beds (DFNB) and the original file is the file without bed numbers
+
+The first hospital is not located in DFNB so, there won't be bed numbers for it.
+St Francis  district hospital name is given as Francis hospital in the DFNB and there is 2 St Francis hospitals in different locations
+Added Birchmed Surgical Centre in Gauteng 
+Removed Lakeview duplicate - lat long duplicates 
+2 Life St Mary's  hospital - different lat long - different provinces
+Added Mercidoc Day Clinic hospital
+Arwyp Hospital belongs in NHN in the original file but in the DFNB, it belongs to Life
+Added Daxima hospital
+Added Actonville/Sunshine Hospital
+Added Clinix Private Hospital Soweto
+Rename Netcare N17 private hospital to East Rand N17 Private netcare Hospital
+Life St Mary's Hospital has 2 without geo codes - it's not easy to distinguish which is which 
+Still need to add coordinates to some hospitals like Mercidoc,Daxima, and confirm coordinates
+Some of the hospital names in DFNB are named clinics while the original file has them as hospitals
+Addded Life Sandton surgical hospital
+Added Life Pretoria North Surgical Centre
+Added Netcare Pretoria East Hospital
+Added Leslie Williams Memorial Hospital
+Added Netcare Protea Day ClinicA
+Ascort Park hospital naming conventions are not the same!
+Life Nu-Shifa Hospital vs NHN Lenmed Shifa Hospital - same address according to the GEMS form! seems like it belongs to Lenmed instead of life!
+Removed one Hibiscus Hospital as it had a duplicate on the original file
+3 shelly Beaches hospitals with similar locations - removed duplicates
+Life Empangeni Prvt Hospital renamed to Life Empangeni Garden Clinic Hospital
+There is not Ceres Mediclinic Private Hospital  but Netcare Ceres - I used their data interchangeably
+Bayview != Bay View  name conventions are different - used data interchangeably
+Some hospitals said to belong to Lenmed in the original file while DFNB has them belonging to Mediclinic
+DFNB has Kleinsee Private Hospital , oirignal file has it named as Kleinzee Private Hospital - Only Kleinzee Private Hospital exists in the search engine.It is located in Kleinsee.
+Most names have been short handed in the original file e.g Andrew Saffey Mine Hospital in DFNB, original file has A affey Mine Hospital
+Le Femme is what DFNB has , original file has La Femme - Google talks about La Femme
+Added Mooimed hospital 
+Medicilinic Barberton is shorthand in DFNB file but full Eureka Barberton on original file
+DFNB has Evander Gold Mining hospital and Evander but original file has just Evander
+Added private hospital Trichardt Mediclinic Hospital
+Amcoal Highveld Hospital is misspelled in DFNB - instead original has Angle Coal Highveld Hospital
+Added Kriel medical clinic
+EMalahleni day hospital and private hospital are all in the same location - I think I deleted one
+Added Vaalpark Hospital 
+St Helena replaced with Helena hospital 
+Hospital Park Hospital can't be found anywhere on the search engine
+Citymed day theatre added as Citymed day hospital because of results on the search engine
+Added Pelanomi hospital Netcare
+Added gemiston hospital and Natalspruit Hospital
+Rahima Moosa is how original file has it , DFNB has it as Raheema Moosa 
+Stanger Hospital is now renamed to General Justice Gizenga Mpanza Regional Hospital
+Crooke's hospital , original file has it as GJ Crooke's hospital
+Andrew's Hospital ,original file has it as ST Andrew's Hospital 
+Original file has it as C Booth while  DFNB has  Catherine Booth
+Added Lower Umfolozi War Memorial Hospital
+Removed Tygerberg hospital level 2 as it was showing the same location as just Tygerberg hospital
+Duplicate of Red Cross - one is for children other is not specified but location is the same, removed one
+Somerset hospital - Original file has it as new somerset hospital
+Renamed the short verion S Coetzee  to  stoffel Coetzee Hospital
+MM Mopeli Hospital  remaned to Mofumahadi Manapo Mopeli Hospital
+JD Newberry Hospital  renamed to John Daniel Newberry Hospital
+Added Metsimaholo Hospital 
+Original file has St Elizabeth's Hospital instead of just Elizabeth's Hospital - used intercheably
+St Patrick's Hospital is what Original file has as Patrick's Hospital
+Original file has St Lucy's Hospital instead of Lucy's Hospital but I used them both separetely
+Renamed T Bequest to Taylor Bequest Hospital
+Renamed PE Prov Hospital to Port Elizabeth Provincial Hospital
+Removed a duplicate of Livingstone Hospital
+Renamed N Knight to Nessie Knight Hospital
+Barnabas Hospital is how DFNB has it, original file has it as St Barnabas Hospital
+Renamed P Alfred to Port Alfred
+Instead Of Voster we have JB Voster
+Renamed W Stahl to Wilhelm Stahl
+Renamed  M Venter to Martje Venter
+Renamed Madikazane to Madikazane kaZulu
+Renamed Mt Ayliff Hospital  to Mount Ayliff Hospital
+SS Gida populated with Gita Hospital
+Renamed Victoria to Victoria Alice Hospital
+Renamed Amajuba Mem Hospital to Amajuba Mememorial Hospital
+Renamed Embuleni hospital to Embhuleni Hospital
+Renamed B Samuels to Bernice Samuels Hospital
+Added Ventersdorp Hospital
+Renamed JS Tabane to Job Shimankana Tabane Hospital
+Renamed Gnl de la Rey to General de la Rey Hospital
+Renamed Mahikeng Prv Hosp to Mahikeng Provincial Hospital
+Ranamed Schweizer-Ren Hospital to Schweizer-Reneke Hospital
+Renamed J Morolong Mem Hospital  to Joe Morolong Mem Hospital 
+Hartswater I ASSUMED IT IS SAME AS Hartswater (Connie Vorster) Hospital
+Added Jan Kempdorp Hospital
+Added Warrenton Hospital
+Kimberley hospital fixed
+De Aar used for Arr
+Added Keimoes Hospital
+Renamed M Mokotane to Moses Kotane Hospital
+Used Phatudi Hospital for DR CN Phatudi Hospital
+Renamed ML Malatjie to Maphutha L Malatjie Hospital
+Renamed D Fraser for Donald Fraser Hospital
+Renamed L Trichardt to Louis Trichardt /Mhkado Hospital
+Used FH Odendaal for Odendaal (Nylstroom) Hospital 
+Used Rita's Hospital for St Rita's Hospital
+Added Beaufort West Hospital
+Renamed P Albert Hospital to Prince Albert Hospital
+Used Alan Blyth Hospital  for Ladismith (Alan Blyth) Hospital
+
+
+
+MAIN  observation:
+DFNB had very little, if any TB hospitals
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
