@@ -1,4 +1,4 @@
-key,value
+key,district
 CT,City of Cape Town
 CT-WE,Western
 CT-SO,Southern
@@ -16,23 +16,23 @@ CW-SB,Stellenbosch
 CW-WB,Witzenberg
 CK,Central Karoo
 CK-BW,Beaufort West
-CK-LB,Langsburg
+CK-LB,Laingsburg
 CK-PA,Prince Albert
-GR,Garden Route
+GR,Eden
 GR-BT,Bitou
 GR-GE,George
 GR-HQ,Hessequa
 GR-KL,Kannaland
 GR-KN,Knysna
 GR-MB,Mossel Bay
-GR-OS,Oudstrhoorm
+GR-OS,Oudtshoorn
 OB,Overberg
 OB-CA,Cape Agulhas
 OB-OS,Overstrand
-OB-SD,Swellendam 
+OB-SD,Swellendam
 OB-TK,Theewaterskloof
 WC,West Coast
-WC-BR,Bergriver
+WC-BR,Bergrivier
 WC-CB,Cederberg
 WC-MZ,Matzikama
 WC-SB,Saldanha Bay
