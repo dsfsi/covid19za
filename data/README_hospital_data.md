@@ -1,7 +1,7 @@
 # Hospital data v1
 
 ## 0. Description
-The [health_system_za_hospitals_v1.csv](https://github.com/dsfsi/covid19za/tree/Hospital_Data/data) is the first version of a bigger collaborative file (contributed by about 4 people) with data ranging from clusters in which hospitals belong to, to the number of beds per hospital amongst other hospital related attributes.
+The [health_system_za_hospitals_v1.csv](https://github.com/dsfsi/covid19za/tree/master/data/health_system_za_hospitals_v1.csv) is the first version of a bigger collaborative file (contributed by about 4 people) with data ranging from clusters in which hospitals belong to, to the number of beds per hospital amongst other hospital related attributes.
 
 ## 1.The start
 [This issue](https://github.com/dsfsi/covid19za/issues/115) gives some context and background on how we worked together in collecting, contributing and combining the data. 
