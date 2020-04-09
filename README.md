@@ -48,8 +48,8 @@ Code [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](http
 * Department of Health - South Africa [Main Site](http://www.health.gov.za/), [Twitter](https://twitter.com/HealthZA/)
 * South African Government Media Statements [URL](https://www.gov.za/media-statements)
 * National Department of Health Data Dictionary [URL](https://dd.dhmis.org/)
-* MedPages[URL](https://www.medpages.info/sf/index.php?page=homepage)
-* Statistics South Africa[URL](http://www.statssa.gov.za/)
+* MedPages [URL](https://www.medpages.info/sf/index.php?page=homepage)
+* Statistics South Africa [URL](http://www.statssa.gov.za/)
 
 ## Contributing
 ### Options
