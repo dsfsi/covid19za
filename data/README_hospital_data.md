@@ -33,13 +33,13 @@ As it is apparent how incomplete this first version of hospital data is; from he
 
 
 ## 6. Other files worth looking at:
-In the hospital branch , there should be these files below. They are used for various purposes and they contribute this this main v1 of hospital data.
+In the hospital branch , there should be a couple of files related to hospitals (including the ones listed below). They contain portions of this main file (and a bit more in some files). They used for various purposes and they contributed to this main v1 of hospital data file.
 
-[health_system_za_hospital_id](https://github.com/dsfsi/covid19za/tree/Hospital_Data/data) It contains the ID and hospital name as they appear in the other four files shown below: <br>
-<li>health_system_za_private_hospitals</li>
-<li>health_system_za_public_hospitals</li>
-<li>health_system_za_public_hospitals_contacts</li>
-<li>health_system_za_public_hospitals_extended_details</li>
+1.[health_system_za_hospital_id](https://github.com/dsfsi/covid19za/blob/Hospital_Data/data/health_system_za_hospital_library.csv)- This file contains all  hospitals with their assigned ID's.<br>
+2.[health_system_za_private_hospitals](https://github.com/dsfsi/covid19za/blob/Hospital_Data/data/health_system_za_private_hospitals.csv) - This file has a list of  private hospitals, not classified into what types of hospitals becuase  access to private hospital data is limited at this point.<br>
+3.[health_system_za_public_hospitals](https://github.com/dsfsi/covid19za/blob/Hospital_Data/data/health_system_za_public_hospitals.csv) - This file has a list of different types of public hospitals.<br>
+4.[health_system_za_public_hospitals_contacts](https://github.com/dsfsi/covid19za/blob/master/data/health_system_za_public_hospitals_contacts.csv) - This file has contact details of some hospitals.
+5.[health_system_za_public_hospitals_extended_details](https://github.com/dsfsi/covid19za/blob/Hospital_Data/data/health_system_za_public_hospitals_extended_details.csv) - This file has a thorough description of hospitals and other details relating to minimum and maximum capacities in hospitals.
 
 ## 7. Other sources useful
 The sources below are indirectly used or to be used. For more healthcare data and research purposes, these links below are worth looking at: <br>
