@@ -48,8 +48,8 @@ Code [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](http
 * Department of Health - South Africa [Main Site](http://www.health.gov.za/), [Twitter](https://twitter.com/HealthZA/)
 * South African Government Media Statements [URL](https://www.gov.za/media-statements)
 * National Department of Health Data Dictionary [URL](https://dd.dhmis.org/)
-* MedPages[URL](https://www.medpages.info/sf/index.php?page=homepage)
-* Statistics South Africa[URL](http://www.statssa.gov.za/)
+* MedPages [URL](https://www.medpages.info/sf/index.php?page=homepage)
+* Statistics South Africa [URL](http://www.statssa.gov.za/)
 
 ## Contributing
 ### Options
@@ -57,11 +57,14 @@ Code [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](http
 * *I have an idea or new feature:* Create a new issue first, assign it to yourself and then fork the repo. 
 ### Submitting Changes [Pull Request]
 * See https://opensource.com/article/19/7/create-pull-request-github
+### Resources [Get some ideas]
+* [Data Science Africa COVID-19 Response](https://www.youtube.com/watch?v=9o0sa7gypMc)
+* [IndabaX South Africa: Vukosi Marivate - Using data science to inform the COVID-19 outbreak in Africa](https://www.youtube.com/watch?v=DZOpypSA85I)
+* [Stanford <> CS472 Data science and AI for COVID-19](https://sites.google.com/view/data-science-covid-19)
 ## Contributors
 <a href="https://github.com/dsfsi/covid19za/graphs/contributors">
   <img src="https://contributors-img.web.app/image?repo=dsfsi/covid19za" />
 </a>
-
 Made with [contributors-img](https://contributors-img.web.app).
 * See https://github.com/dsfsi/covid19za/graphs/contributors
 
