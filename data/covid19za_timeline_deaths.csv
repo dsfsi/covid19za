@@ -24,3 +24,5 @@ report_id,date,YYYYMMDD,province, geo, gender, age, confirmed_date,transmission_
 23,10-04-2020,20200410,WC,ZA-WC,,,,,,
 24,10-04-2020,20200410,WC,ZA-WC,,,,,,
 25,11-04-2020,20200411,WC,ZA-WC,,,,,,
+26,13-04-2020,20200413,WC,ZA-WC,,,,,,
+27,13-04-2020,20200413,GP,ZA-GP,,,,,,
