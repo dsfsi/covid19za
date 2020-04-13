@@ -86,7 +86,8 @@ Arxiv Preprint
     year={2020},
     eprint={2004.04813},
     archivePrefix={arXiv},
-    primaryClass={cs.CY}
+    primaryClass={cs.CY},
+    url = {[https://arxiv.org/abs/2004.04813](https://arxiv.org/abs/2004.04813)}
 }
 
 and Dataset
@@ -106,7 +107,7 @@ and Dataset
   year         = 2020,
   publisher    = {Zenodo},
   doi          = {10.5281/zenodo.3732419},
-  url          = {[https://doi.org/10.5281/zenodo.3732419(https://doi.org/10.5281/zenodo.3732419)}
+  url          = {[https://doi.org/10.5281/zenodo.3732419](https://doi.org/10.5281/zenodo.3732419)}
 }
 
 ### Showcase
