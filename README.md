@@ -78,6 +78,18 @@ Made with [contributors-img](https://contributors-img.web.app).
 
 
 **In a publication**
+
+> @misc{marivate2020framework,
+    title={A Framework For Sharing Publicly Available Data To Inform The COVID-19 Outbreak in Africa: A South African Case Study},
+    author={Vukosi Marivate and Herkulaas MvE Combrink},
+    year={2020},
+    eprint={2004.04813},
+    archivePrefix={arXiv},
+    primaryClass={cs.CY}
+}
+
+and 
+
 > @dataset{marivate_vukosi_2020_3732419,
   author       = {Marivate, Vukosi and
                   de Waal, Alta and
