@@ -50,5 +50,5 @@ The sources below are indirectly used or to be used. For more healthcare data an
 2.[South African Doctors](http://doctors-hospitals-medical-cape-town-south-africa.blaauwberg.net/hospitals_clinics_state_hospitals/state_public_hospitals_clinics_eastern_cape_south_africa/)<br>
 3.[South Africa administrative levels](https://data.humdata.org/dataset/south-africa-administrative-levels-0-3-population-statistics)<br>
 4.[South African Medical Journal](http://www.samj.org.za/index.php/samj/article/view/12143)<br>
-5.[Dell, Angela June's Thesis](https://open.uct.ac.za/handle/11427/22796)<br>
+5.[Dell, Angela June's Thesis](https://open.uct.ac.za/handle/11427/22796) and [raw data](https://figshare.com/articles/SURGICAL_RESOURCES_latestmarch2016_xlsx/12066711)<br>
 6.[Anelda van der Walt's open Hospital data githubpage](https://htmlpreview.github.io/?https://github.com/anelda/za_open_hospital_data/blob/master/reports/za_hospital_analysis_v2.html)
