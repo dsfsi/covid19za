@@ -16,11 +16,13 @@ The table below shows what sources were used and the year when sources were last
 | Source                                  | Contributor   |Use of the source    |Last Updated         |
 | --------------------------------------- | ------------- |---------------------|---------------------|
 | Data from [annual reports](https://github.com/dsfsi/covid19za/tree/Hospital_Data/data) of some public hospitals |Herkulaas| Identification of Hospitals per province,areas of locations etc.|  2019   |
-| Data from the [Data library](https://dd.dhmis.org/) from DOH     | Nompumelelo|Geo coordinates of public and private hospitals |   2018               |
+| Data from the [Data library](https://dd.dhmis.org/) ** from DOH     | Nompumelelo|Geo coordinates of public and private hospitals |   2018               |
 | Data from various [research outputs](https://htmlpreview.github.io/?https://github.com/anelda/za_open_hospital_data/blob/master/reports/za_hospital_analysis_v2.html)      |  Anelda|Hospital Bed numbers, number of surgeons  in  the public and private health sector. And more| From 2016                   |
 | Data from [Gauteng's Cluster Policy](https://drive.google.com/file/d/1AhafV1DoTGwNRIx26J12_ICh-3vSVnyt/view)      |   Vukosi  |Public Hospital Number of beds per cluster in Gauteng                   |  2019                   |
 
-Other sources used to validate minor data uncertainties like classification of a hospital include : this[ Gem file](https://drive.google.com/file/d/140PgnBOdeulGdEWcL6s1jV3JFjx19HZ7/view?usp=sharing) , [Medpages ](https://www.medpages.info/sf/index.php?page=homepage) and Google search engine.
+** To download health facility data from the data dictionary: Choose Data Dictionary > Data File > NIDS integrated > Groups > All Groups > Download > Org Unit Level > Down to Level 5 and then click submit.
+
+Other sources used to validate minor data uncertainties like classification of a hospital include : this[ Gem file](https://drive.google.com/file/d/140PgnBOdeulGdEWcL6s1jV3JFjx19HZ7/view?usp=sharing) , [Medpages ](https://www.medpages.info/sf/index.php?page=homepage) and Google search engine. Statistics of South Africa [URL](http://www.statssa.gov.za/) - For Estimates of population per distriction from 2002 -2021. Raw Data here [URL](https://github.com/elolelo/DataProject/blob/master/za_PopEstimates_Districts_StatsSA_WithFinYears_Jan17_coded.csv)
 
 
 ## 4. Data Limitations
@@ -48,5 +50,5 @@ The sources below are indirectly used or to be used. For more healthcare data an
 2.[South African Doctors](http://doctors-hospitals-medical-cape-town-south-africa.blaauwberg.net/hospitals_clinics_state_hospitals/state_public_hospitals_clinics_eastern_cape_south_africa/)<br>
 3.[South Africa administrative levels](https://data.humdata.org/dataset/south-africa-administrative-levels-0-3-population-statistics)<br>
 4.[South African Medical Journal](http://www.samj.org.za/index.php/samj/article/view/12143)<br>
-5.[Dell, Angela June's Thesis](https://open.uct.ac.za/handle/11427/22796)<br>
+5.[Dell, Angela June's Thesis](https://open.uct.ac.za/handle/11427/22796) and [raw data](https://figshare.com/articles/SURGICAL_RESOURCES_latestmarch2016_xlsx/12066711)<br>
 6.[Anelda van der Walt's open Hospital data githubpage](https://htmlpreview.github.io/?https://github.com/anelda/za_open_hospital_data/blob/master/reports/za_hospital_analysis_v2.html)

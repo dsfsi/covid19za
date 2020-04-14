@@ -38,7 +38,5 @@ See [LICENSE](LICENSE.md)
 
 ### Hospital information and Data Sources with descriptions
 
-* The National Department of Health Data Dictionary [URL](https://dd.dhmis.org/) - For all the information about healthcare facilites in South Africa. To get the data; Choose Data Dictionary > Data File > NIDS integrated > Groups > All Groups > Download > Org Unit Level > Down to Level 5 and then click submit.
-* Medpages[URL](https://www.medpages.info/sf/index.php?page=homepage) - For confirmation on names of private hospitals
-* Statistics of South Africa [URL](http://www.statssa.gov.za/) - For Estimates of population per distriction from 2002 -2021. Raw Data here[URL](https://github.com/elolelo/DataProject/blob/master/za_PopEstimates_Districts_StatsSA_WithFinYears_Jan17_coded.csv)
- * Data library for the hospital data. ID assigned to hospital name for easy merging [URL]
+* For detailed information about hospital data, please see [README_hospital_data.md](README_hospital_data.md) 
+
