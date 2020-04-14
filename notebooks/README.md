@@ -19,7 +19,7 @@ This folder contains notebooks for analysis and modelling of the COVID-19 data. 
 
 * Exploratory Data Analysis and Visualization on SA Covid 19 data sets [Source](https://github.com/karthik111/covid19za/blob/master/notebooks/COVID-19%20South%20Africa%20-%20Data%20Analysis%20and%20Visualization.ipynb)
 
-* Reproduction rate estimation from [https://github.com/k-sys/covid-19](https://github.com/k-sys/covid-19) adjusted for South Africa - Notebook](https://github.com/dsfsi/covid19za/blob/master/notebooks/Realtime%20R0.ipynb)
+* Reproduction rate estimation from [https://github.com/k-sys/covid-19](https://github.com/k-sys/covid-19) adjusted for South Africa - [Notebook](https://github.com/dsfsi/covid19za/blob/master/notebooks/Realtime%20R0.ipynb)
 
 ## Where do I start?
 ### Running the notebooks
