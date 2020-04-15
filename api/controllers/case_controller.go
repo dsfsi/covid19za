@@ -18,6 +18,8 @@ const (
 	conductedTestsPath = "covid19za_timeline_testing.csv"
 	reportedDeathsPath = "covid19za_timeline_deaths.csv"
 	cumulativeProvincialCasesPath = "covid19za_provincial_cumulative_timeline_confirmed.csv"
+	publicHospitalPath = "health_system_za_public_hospitals.csv"
+
 )
 
 type caseController struct {

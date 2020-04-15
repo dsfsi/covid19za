@@ -7,6 +7,7 @@ import (
 	"log"
 	"net/http"
 	"os"
+	controllers2 "covid19za/api/controllers"
 )
 
 func main() {
@@ -19,11 +20,13 @@ func main() {
 	}))
 
 	caseController := controllers.NewCaseController()
+	hospitalController := controllers.HospitalController()
 
 	api.GET("/", func(ctx echo.Context) error {
 		return ctx.String(http.StatusOK, "COVID 19 data API for South Africa")
 	})
 
+	api.GET("/hospitals/public", hospitalController.GetAllPublicHospitals)
 	api.GET("/cases/confirmed", caseController.GetAllConfirmedCases)
 	api.GET("/cases/deaths", caseController.GetAllReportedDeaths)
 	api.GET("/cases/timeline/tests", caseController.GetTestingTimeline)
