@@ -26,3 +26,12 @@ report_id,date,YYYYMMDD,province, geo, gender, age, confirmed_date,transmission_
 25,11-04-2020,20200411,WC,ZA-WC,,,,,,
 26,13-04-2020,20200413,WC,ZA-WC,,,,,,
 27,13-04-2020,20200413,GP,ZA-GP,,,,,,
+28,10-04-2020,20200410,KZN,ZA-KZN,female,71,,,Diabetes hypertension renal failure,
+29,10-04-2020,20200410,KZN,ZA-KZN,male,79,,,uknown,
+30,09-04-2020,20200409,KZN,ZA-KZN,female,86,,,hypertension,
+31,12-04-2020,20200412,KZN,ZA-KZN,male,91,,,diabetes,
+32,13-04-2020,20200413,KZN,ZA-KZN,female,73,,,diabetes hypertension,
+33,13-04-2020,20200413,KZN,ZA-KZN,female,79,,,unknown,
+34,13-04-2020,20200413,GP,ZA-GP,male,50,,,chronic asthma,
+
+
