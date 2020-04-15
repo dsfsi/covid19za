@@ -1,6 +1,6 @@
 package models
 
-type Hospital struct {
+type PublicHospital struct {
 	Id						string `json:"Id"`
 	Name					string `json:"Name"`
 	Longitude				string `json:"Long"`
@@ -8,13 +8,13 @@ type Hospital struct {
 	Category				string `json:"Category"`
 	Province				string `json:"Province"`
 	District				string `json:"district"`
-	Subdistrict				string `json:"subdistrict"`
-	DistrictEstPopulation	string `json:"district_estimated_population"`
-	ServiceOffered			string `json:"service_offered_by_hospital"`
-	Size					string `json:"size_hospital"`
-	NumberOfBeds			string `json:"number_of_beds"`
-	NumberOfPractitioners	string `json:"number_of_practitioners"`
-	Webpage					string `json:"webpage"`
+	Subdistrict				string `json:"Subdistrict"`
+	DistrictEstPopulation	string `json:"DistrictEstPopulation"`
+	ServiceOffered			string `json:"ServiceOffered"`
+	Size					string `json:"Size"`
+	NumberOfBeds			string `json:"NumberOfBeds"`
+	NumberOfPractitioners	string `json:"NumberOfPractitioners"`
+	Webpage					string `json:"Webpage"`
 }
 
-type PublicHospitals []Hospital
+type PublicHospitals []PublicHospital

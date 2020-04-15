@@ -72,8 +72,8 @@ func MapCsvLineToCumulativeProvincialCasesModel(line []string) models.Cumulative
 	}
 }
 
-func MapCsvLineToHospitalModel(line []string) models.Hospital {
-	return models.Hospital {
+func MapCsvLineToPublicHospitalModel(line []string) models.PublicHospital {
+	return models.PublicHospital {
 		Id:								line[0],
 		Name:							line[1],
 		Longitude:						line[2],
@@ -91,3 +91,13 @@ func MapCsvLineToHospitalModel(line []string) models.Hospital {
 	}
 }
 
+func MapCsvLineToPrivateHospitalModel(line []string) models.PrivateHospital {
+	return models.PrivateHospital {
+
+		Id:								line[0],
+		Name:							line[1],
+		Longitude:						line[2],
+		Latitude:						line[3],
+		Province:						line[4],
+	}
+}

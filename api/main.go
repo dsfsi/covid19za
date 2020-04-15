@@ -1,13 +1,12 @@
 package main
 
 import (
-	"github.com/dsfsi/covid19za/api/controllers"
+	"covid19za/api/controllers"
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"
 	"log"
 	"net/http"
 	"os"
-	controllers2 "covid19za/api/controllers"
 )
 
 func main() {
@@ -20,13 +19,14 @@ func main() {
 	}))
 
 	caseController := controllers.NewCaseController()
-	hospitalController := controllers.HospitalController()
+	hospitalController := controllers.NewHospitalController()
 
 	api.GET("/", func(ctx echo.Context) error {
 		return ctx.String(http.StatusOK, "COVID 19 data API for South Africa")
 	})
 
-	api.GET("/hospitals/public", hospitalController.GetAllPublicHospitals)
+	api.GET("/hospitals/public", hospitalController.GetPublicHospitals)
+	api.GET("/hospitals/private", hospitalController.GetPrivateHospitals)
 	api.GET("/cases/confirmed", caseController.GetAllConfirmedCases)
 	api.GET("/cases/deaths", caseController.GetAllReportedDeaths)
 	api.GET("/cases/timeline/tests", caseController.GetTestingTimeline)
