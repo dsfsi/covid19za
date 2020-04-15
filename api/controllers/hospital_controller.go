@@ -1,13 +1,13 @@
 package controllers
 
 import (
+	"fmt"
+	"github.com/dsfsi/covid19za/api/mappers"
+	"github.com/dsfsi/covid19za/api/models"
+	"github.com/dsfsi/covid19za/api/utils"
 	"github.com/labstack/echo"
 	"log"
 	"net/http"
-	"fmt"
-	"github.com/dsfsi/covid19za/api/utils"
-	"github.com/dsfsi/covid19za/api/mappers"
-	"github.com/dsfsi/covid19za/api/models"
 )
 
 type hospitalController struct {
