@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"fmt"
 	"github.com/dsfsi/covid19za/api/utils"
-	"covid19za/api/mappers"
-	"covid19za/api/models"
+	"github.com/dsfsi/covid19za/api/mappers"
+	"github.com/dsfsi/covid19za/api/models"
 )
 
 type hospitalController struct {

@@ -1,6 +1,6 @@
 package mappers
 
-import "covid19za/api/models"
+import "github.com/dsfsi/covid19za/api/models"
 
 func MapCsvLineToConfirmedCaseModel(line []string) models.ConfirmedCase {
 	return models.ConfirmedCase{

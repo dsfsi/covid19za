@@ -1,7 +1,7 @@
 package main
 
 import (
-	"covid19za/api/controllers"
+	"github.com/dsfsi/covid19za/api/controllers"
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"
 	"log"
