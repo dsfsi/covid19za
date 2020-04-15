@@ -16,11 +16,13 @@ The table below shows what sources were used and the year when sources were last
 | Source                                  | Contributor   |Use of the source    |Last Updated         |
 | --------------------------------------- | ------------- |---------------------|---------------------|
 | Data from [annual reports](https://github.com/dsfsi/covid19za/tree/Hospital_Data/data) of some public hospitals |Herkulaas| Identification of Hospitals per province,areas of locations etc.|  2019   |
-| Data from the [Data library](https://dd.dhmis.org/) from DOH     | Nompumelelo|Geo coordinates of public and private hospitals |   2018               |
+| Data from the [Data library](https://dd.dhmis.org/) ** from DOH     | Nompumelelo|Geo coordinates of public and private hospitals |   2018               |
 | Data from various [research outputs](https://htmlpreview.github.io/?https://github.com/anelda/za_open_hospital_data/blob/master/reports/za_hospital_analysis_v2.html)      |  Anelda|Hospital Bed numbers, number of surgeons  in  the public and private health sector. And more| From 2016                   |
 | Data from [Gauteng's Cluster Policy](https://drive.google.com/file/d/1AhafV1DoTGwNRIx26J12_ICh-3vSVnyt/view)      |   Vukosi  |Public Hospital Number of beds per cluster in Gauteng                   |  2019                   |
 
-Other sources used to validate minor data uncertainties like classification of a hospital include : this[ Gem file](https://drive.google.com/file/d/140PgnBOdeulGdEWcL6s1jV3JFjx19HZ7/view?usp=sharing) , [Medpages ](https://www.medpages.info/sf/index.php?page=homepage) and Google search engine.
+** To download health facility data from the data dictionary: Choose Data Dictionary > Data File > NIDS integrated > Groups > All Groups > Download > Org Unit Level > Down to Level 5 and then click submit.
+
+Other sources used to validate minor data uncertainties like classification of a hospital include : this[ Gem file](https://drive.google.com/file/d/140PgnBOdeulGdEWcL6s1jV3JFjx19HZ7/view?usp=sharing) , [Medpages ](https://www.medpages.info/sf/index.php?page=homepage) and Google search engine. Statistics of South Africa [URL](http://www.statssa.gov.za/) - For Estimates of population per distriction from 2002 -2021. Raw Data here [URL](https://github.com/elolelo/DataProject/blob/master/za_PopEstimates_Districts_StatsSA_WithFinYears_Jan17_coded.csv)
 
 
 ## 4. Data Limitations
@@ -33,13 +35,13 @@ As it is apparent how incomplete this first version of hospital data is; from he
 
 
 ## 6. Other files worth looking at:
-In the hospital branch , there should be these files below. They are used for various purposes and they contribute this this main v1 of hospital data.
+In the hospital branch , there should be a couple of files related to hospitals (including the ones listed below). They contain portions of this main file (and a bit more in some files). They used for various purposes and they contributed to this main v1 of hospital data file.
 
-[health_system_za_hospital_id](https://github.com/dsfsi/covid19za/tree/Hospital_Data/data) It contains the ID and hospital name as they appear in the other four files shown below: <br>
-<li>health_system_za_private_hospitals</li>
-<li>health_system_za_public_hospitals</li>
-<li>health_system_za_public_hospitals_contacts</li>
-<li>health_system_za_public_hospitals_extended_details</li>
+1.[health_system_za_hospital_id](https://github.com/dsfsi/covid19za/blob/Hospital_Data/data/health_system_za_hospital_library.csv)- This file contains all  hospitals with their assigned ID's.<br>
+2.[health_system_za_private_hospitals](https://github.com/dsfsi/covid19za/blob/Hospital_Data/data/health_system_za_private_hospitals.csv) - This file has a list of  private hospitals, not classified into what types of hospitals becuase  access to private hospital data is limited at this point.<br>
+3.[health_system_za_public_hospitals](https://github.com/dsfsi/covid19za/blob/Hospital_Data/data/health_system_za_public_hospitals.csv) - This file has a list of different types of public hospitals.<br>
+4.[health_system_za_public_hospitals_contacts](https://github.com/dsfsi/covid19za/blob/master/data/health_system_za_public_hospitals_contacts.csv) - This file has contact details of some hospitals.
+5.[health_system_za_public_hospitals_extended_details](https://github.com/dsfsi/covid19za/blob/Hospital_Data/data/health_system_za_public_hospitals_extended_details.csv) - This file has a thorough description of hospitals and other details relating to minimum and maximum capacities in hospitals.
 
 ## 7. Other sources useful
 The sources below are indirectly used or to be used. For more healthcare data and research purposes, these links below are worth looking at: <br>
@@ -48,5 +50,5 @@ The sources below are indirectly used or to be used. For more healthcare data an
 2.[South African Doctors](http://doctors-hospitals-medical-cape-town-south-africa.blaauwberg.net/hospitals_clinics_state_hospitals/state_public_hospitals_clinics_eastern_cape_south_africa/)<br>
 3.[South Africa administrative levels](https://data.humdata.org/dataset/south-africa-administrative-levels-0-3-population-statistics)<br>
 4.[South African Medical Journal](http://www.samj.org.za/index.php/samj/article/view/12143)<br>
-5.[Dell, Angela June's Thesis](https://open.uct.ac.za/handle/11427/22796)<br>
+5.[Dell, Angela June's Thesis](https://open.uct.ac.za/handle/11427/22796) and [raw data](https://figshare.com/articles/SURGICAL_RESOURCES_latestmarch2016_xlsx/12066711)<br>
 6.[Anelda van der Walt's open Hospital data githubpage](https://htmlpreview.github.io/?https://github.com/anelda/za_open_hospital_data/blob/master/reports/za_hospital_analysis_v2.html)
