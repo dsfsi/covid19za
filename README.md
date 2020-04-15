@@ -110,6 +110,12 @@ and Dataset
   url          = {[https://doi.org/10.5281/zenodo.3732419](https://doi.org/10.5281/zenodo.3732419)}
 }
 
-### Showcase
+## Showcase
 
-* [Covid19 SA Data](https://simonrosen173.github.io/Covid19SAData/)
+Some of COVID-19 Data for South Africa ( data in this repo) is currently being used by other independent projects shown in the table below :
+
+
+| Project Name  | Project Description |  Project Demo    |    Project owner |    Country   |
+| ------------- | ------------- |------------|-----------------|------------------|
+|1. Covid-19 SA Data  |  Data visualisations corresponding to the current Covid-19 outbreak in South Africa | View data visualizations [here](https://simonrosen173.github.io/Covid19SAData/) | [Simon Rosen](https://github.com/SimonRosen173)|          South Africa  |
+| 2. Covid-19 testing areas| A Covid-19 Testing Facilities Map |View testing areas [here](https://www.ineff.ch/cov19testmap/)|    [Yannick Zehnder](https://github.com/IneffableKoD/)    |  Switzerland               |                 
