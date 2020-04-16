@@ -51,4 +51,4 @@ The sources below are indirectly used or to be used. For more healthcare data an
 3.[South Africa administrative levels](https://data.humdata.org/dataset/south-africa-administrative-levels-0-3-population-statistics)<br>
 4.[South African Medical Journal](http://www.samj.org.za/index.php/samj/article/view/12143)<br>
 5.[Dell, Angela June's Thesis](https://open.uct.ac.za/handle/11427/22796) and [raw data](https://figshare.com/articles/SURGICAL_RESOURCES_latestmarch2016_xlsx/12066711)<br>
-6.[Anelda van der Walt: merging open hospital datasets](https://afrimapr.org/blog/2020/merging-health-facility-lists-part1/)
+6.[Anelda van der Walt: merging open hospital datasets](http://afrimapr.org/blog/2020/merging-health-facility-lists-part1/)
