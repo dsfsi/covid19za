@@ -67,7 +67,7 @@ https://covid-za-api.herokuapp.com/cases/confirmed?province=GP
 - [x] Expose an endpoint to get test timeline data.
 - [x] Expose an endpoint to get all fatalities (reported deaths).
 - [x] Allow filtering by province on the fatalities endpoint.
-- [ ] Expose an endpoint to get all available hospitals.
+- [X] Expose an endpoint to get all available hospitals.
 - [ ] Allow filtering by province on the hospitals endpoint.
 
 ## Issues
