@@ -20,3 +20,11 @@ Columns are named as follows
 - **col3**, **col8**, **col13**, **col19**, **col24** are districts
 - [**col4** - **col7**], [**col9** - **col12**], [**col14** - **col18**],[**col20** - **col23**], [**25** - **col29**] are subdistricts.
 
+## Western Cape
+
+### Sources
+    Daily updates by the Premier Alan Wilde 
+    https://www.westerncape.gov.za/department-of-health/news
+    
+    
+
