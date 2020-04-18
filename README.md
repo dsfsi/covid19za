@@ -1,6 +1,6 @@
 # Coronavirus COVID-19 (2019-nCoV) Data Repository for South Africa
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3732419.svg)](https://doi.org/10.5281/zenodo.3732419)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3732419.svg)](https://doi.org/10.5281/zenodo.3732419) [![arxiv](https://img.shields.io/badge/cs.CY-arXiv%3A2004.04813-B31B1B.svg)](https://arxiv.org/abs/2004.04813)
 
 COVID 19 Data for South Africa created, maintained and hosted by [Data Science for Social Impact research group](https://dsfsi.github.io/), led by Dr. Vukosi Marivate, at the University of Pretoria. 
 
@@ -38,11 +38,10 @@ Code [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](http
 
 \* NICD no longer gives individual case data. Please use **provincial_cumulative_timeline** from 26 March onwards.
 
-## Visualisation
+## Dashboard
 * Google Data Studio Dashboard [URL link](https://datastudio.google.com/reporting/1b60bdc7-bec7-44c9-ba29-be0e043d8534)
 ![Dashboard](/visualisation/dashboard.png)
-* Coronavirus Map [[Website](https://coronamap.co.za)] [[GitHub Repo](https://github.com/JayWelsh/coronamap)]
-![Dashboard](/visualisation/coronamap.png)
+
 ## Data Sources:
 * NICD - South Africa [URL](http://www.nicd.ac.za/media/alerts/)
 * Department of Health - South Africa [Main Site](http://www.health.gov.za/), [Twitter](https://twitter.com/HealthZA/)
@@ -78,6 +77,19 @@ Made with [contributors-img](https://contributors-img.web.app).
 
 
 **In a publication**
+
+Arxiv Preprint
+> @misc{marivate2020framework,
+    title={A Framework For Sharing Publicly Available Data To Inform The COVID-19 Outbreak in Africa: A South African Case Study},
+    author={Vukosi Marivate and Herkulaas MvE Combrink},
+    year={2020},
+    eprint={2004.04813},
+    archivePrefix={arXiv},
+    primaryClass={cs.CY},
+    url = {[https://arxiv.org/abs/2004.04813](https://arxiv.org/abs/2004.04813)}
+}
+
+and Dataset
 > @dataset{marivate_vukosi_2020_3732419,
   author       = {Marivate, Vukosi and
                   de Waal, Alta and
@@ -94,9 +106,16 @@ Made with [contributors-img](https://contributors-img.web.app).
   year         = 2020,
   publisher    = {Zenodo},
   doi          = {10.5281/zenodo.3732419},
-  url          = {[https://doi.org/10.5281/zenodo.3732419(https://doi.org/10.5281/zenodo.3732419)}
+  url          = {[https://doi.org/10.5281/zenodo.3732419](https://doi.org/10.5281/zenodo.3732419)}
 }
 
-### Showcase
+## Showcase
 
-* [Covid19 SA Data](https://simonrosen173.github.io/Covid19SAData/)
+Some of COVID-19 Data for South Africa ( data in this repo) is currently being used by other independent projects shown in the table below :
+
+
+| Project Name  | Project Description |  Project Demo    |    Project owner |    Country   |
+| ------------- | ------------- |------------|-----------------|------------------|
+|1. Covid-19 SA Data  |  Data visualisations corresponding to the current Covid-19 outbreak in South Africa | View data visualizations [here](https://simonrosen173.github.io/Covid19SAData/) | [Simon Rosen](https://github.com/SimonRosen173)|          South Africa  |
+| 2. Covid-19 testing areas| A Covid-19 Testing Facilities Map |View testing areas [here](https://www.ineff.ch/cov19testmap/)|    [Yannick Zehnder](https://github.com/IneffableKoD/)    |  Switzerland               |                 
+| 3. Covid-19 Map| A Coronavirus Map | [[Website](https://coronamap.co.za)] [[GitHub Repo](https://github.com/JayWelsh/coronamap)] | Jay Welsh |  South Africa |         
