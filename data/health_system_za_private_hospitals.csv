@@ -1,4 +1,4 @@
-hospital_id,Hospitalital_name,longitude,latitude,province
+hospital_id,Hospital_name,longitude,latitude,province
 464,Mediclinic Newcastle Day Hospital,29.931891,-27.7672,ZA-KZN
 465,Mediclinic Newcastle Hospital,29.931392,-27.7685,ZA-KZN
 466,Ahmed Al-Kadi Prv Hospital,30.978631,-29.844,ZA-KZN
@@ -58,7 +58,7 @@ hospital_id,Hospitalital_name,longitude,latitude,province
 543,Shelly Beach Priv Hospital,30.403837,-30.801178,ZA-KZN
 544,Shelly Beach Sub-Acute Hospital,30.403827,-30.801289,ZA-KZN
 547,Akeso PMB Hospital,30.410599,-29.6046,ZA-KZN
-549,Eden Gardens Priv Hospitalital,30.358003,-29.641302,ZA-KZN
+549,Eden Gardens Priv Hospital,30.358003,-29.641302,ZA-KZN
 550,Mediclinic Pmb Hospital,30.388683,-29.6086,ZA-KZN
 551,Mildlands Med Centre,30.391894,-29.592706,ZA-KZN
 552,Netcare St Anne's Hospital,30.384357,-29.6017,ZA-KZN
@@ -392,7 +392,7 @@ hospital_id,Hospitalital_name,longitude,latitude,province
 801,Life Kingsbury Hospital,18.468447,-33.9861,ZA-WC
 803,Mediclinic Constantiaberg Hospital,18.460908,-34.0265,ZA-WC
 804,Mediclinic Const Neonatal Hospital,18.46095,-34.0266,ZA-WC
-805,Melomed Tokai Priv Hospitalital,18.458959,-34.067535,ZA-WC
+805,Melomed Tokai Priv Hospital,18.458959,-34.067535,ZA-WC
 807,Netcare Southern Cross Hospital,18.46923,-34.0047,ZA-WC
 808,Newlands Surg Hospital,18.466055,-33.9769,ZA-WC
 809,NHN M-Care Newlands Hospital,18.467383,-33.9712,ZA-WC
