@@ -22,7 +22,7 @@ Code [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](http
 
 ## Data Available [[/data](/data)]
 
-**NOTE:** Since around 24 March, we have not gotten individual case data from DoH or NICD. For now if you need provincial counts use the *provincial_cumulative_timeline*. For indivividual cases up to 25 March, use the *confirmed_cases*.
+**NOTE:** Since around 24 March, we have not gotten individual case data from DoH or NICD. For now if you need provincial counts use the *provincial_cumulative_timeline*. For individual cases up to 25 March, use the *confirmed_cases*.
 
 | dataset         | url | raw_url[file] |
 |-----------------|-----|---------------|
@@ -52,18 +52,16 @@ Code [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](http
 
 ## Contributing
 ### Options
-* *I want to help, but dont have an idea:* You can take a look at the issues to see which one you might be interested in tackling.
+* *I want to help, but don't have an idea:* You can take a look at the issues to see which one you might be interested in tackling.
 * *I have an idea or new feature:* Create a new issue first, assign it to yourself and then fork the repo. 
 ### Submitting Changes [Pull Request]
 * See https://opensource.com/article/19/7/create-pull-request-github
 ### Resources [Get some ideas]
 * [Data Science Africa COVID-19 Response](https://www.youtube.com/watch?v=9o0sa7gypMc)
 * [IndabaX South Africa: Vukosi Marivate - Using data science to inform the COVID-19 outbreak in Africa](https://www.youtube.com/watch?v=DZOpypSA85I)
-* [Stanford <> CS472 Data science and AI for COVID-19](https://sites.google.com/view/data-science-covid-19)
+* [Stanford \<\> CS472 Data science and AI for COVID-19](https://sites.google.com/view/data-science-covid-19)
 ## Contributors
-<a href="https://github.com/dsfsi/covid19za/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=dsfsi/covid19za" />
-</a>
+[![Contributors](https://contributors-img.web.app/image?repo=dsfsi/covid19za)](https://github.com/dsfsi/covid19za/graphs/contributors)
 Made with [contributors-img](https://contributors-img.web.app).
 * See https://github.com/dsfsi/covid19za/graphs/contributors
 
@@ -111,7 +109,7 @@ and Dataset
 
 ## Showcase
 
-Some of COVID-19 Data for South Africa ( data in this repo) is currently being used by other independent projects shown in the table below :
+Some of COVID-19 Data for South Africa (data in this repo) is currently being used by other independent projects shown in the table below :
 
 
 | Project Name  | Project Description |  Project Demo    |    Project owner |    Country   |
