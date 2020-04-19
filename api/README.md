@@ -46,6 +46,12 @@ There is no rate limit of any kind but we hope that you use it in a sensible man
 #### /cases/timeline/provincial/cumulative
 * `GET` : Get cumulative provincial timeline data
 
+#### /hospitals/public
+* `GET` : Get public hospitals
+
+#### /hospitals/private
+* `GET` : Get private hospitals
+
 ### Example Usage
 
 You can get the confirmed cases by performing a `GET` request to:
