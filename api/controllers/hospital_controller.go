@@ -2,7 +2,6 @@ package controllers
 
 import (
 	"fmt"
-	"github.com/dsfsi/covid19za/api/mappers"
 	"github.com/dsfsi/covid19za/api/models"
 	"github.com/dsfsi/covid19za/api/utils"
 	"github.com/labstack/echo"
@@ -26,15 +25,10 @@ func (controller hospitalController) GetPublicHospitals(ctx echo.Context) error 
 	log.Println("Endpoint Hit: GetPublicHospitals")
 
 	url := fmt.Sprintf("%s%s", dataSetBaseUrl, publicHospitalPath)
-	publicHospitals, err := utils.DownloadCSV(url)
+	result := models.PublicHospitals{}
+	err := utils.UnmarshalCSV(url, &result)
 	if err != nil {
 		return err
-	}
-
-	result := models.PublicHospitals{}
-	for _, line := range publicHospitals[1:] {
-		hospital := mappers.MapCsvLineToPublicHospitalModel(line)
-		result = append(result, hospital)
 	}
 
 	return ctx.JSON(http.StatusOK, result)
@@ -44,15 +38,10 @@ func (controller hospitalController) GetPrivateHospitals(ctx echo.Context) error
 	log.Println("Endpoint Hit: GetPrivateHospitals")
 
 	url := fmt.Sprintf("%s%s", dataSetBaseUrl, privateHospitalPath)
-	privateHospitals, err := utils.DownloadCSV(url)
+	result := models.PrivateHospitals{}
+	err := utils.UnmarshalCSV(url, &result)
 	if err != nil {
 		return err
-	}
-
-	result := models.PrivateHospitals{}
-	for _, line := range privateHospitals[1:] {
-		hospital := mappers.MapCsvLineToPrivateHospitalModel(line)
-		result = append(result, hospital)
 	}
 
 	return ctx.JSON(http.StatusOK, result)
