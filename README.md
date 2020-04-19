@@ -40,7 +40,6 @@ Code [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](http
 
 ## Dashboard
 * Google Data Studio Dashboard [URL link](https://datastudio.google.com/reporting/1b60bdc7-bec7-44c9-ba29-be0e043d8534)
-![Dashboard](/visualisation/dashboard.png)
 
 ## Data Sources:
 * NICD - South Africa [URL](http://www.nicd.ac.za/media/alerts/)
