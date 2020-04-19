@@ -22,7 +22,7 @@ Code [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](http
 
 ## Data Available [[/data](/data)]
 
-**NOTE:** Since around 24 March, we have not gotten individual case data from DoH or NICD. For now if you need provincial counts use the *provincial_cumulative_timeline*. For indivividual cases up to 25 March, use the *confirmed_cases*.
+**NOTE:** Since around 24 March, we have not gotten individual case data from DoH or NICD. For now if you need provincial counts use the *provincial_cumulative_timeline*. For individual cases up to 25 March, use the *confirmed_cases*.
 
 | dataset         | url | raw_url[file] |
 |-----------------|-----|---------------|
@@ -52,7 +52,7 @@ Code [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](http
 
 ## Contributing
 ### Options
-* *I want to help, but dont have an idea:* You can take a look at the issues to see which one you might be interested in tackling.
+* *I want to help, but don't have an idea:* You can take a look at the issues to see which one you might be interested in tackling.
 * *I have an idea or new feature:* Create a new issue first, assign it to yourself and then fork the repo. 
 ### Submitting Changes [Pull Request]
 * See https://opensource.com/article/19/7/create-pull-request-github
