@@ -109,7 +109,7 @@ and Dataset
 
 ## Showcase
 
-Some of COVID-19 Data for South Africa ( data in this repo) is currently being used by other independent projects shown in the table below :
+Some of COVID-19 Data for South Africa (data in this repo) is currently being used by other independent projects shown in the table below :
 
 
 | Project Name  | Project Description |  Project Demo    |    Project owner |    Country   |
