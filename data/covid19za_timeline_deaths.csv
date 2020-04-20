@@ -47,9 +47,9 @@ report_id,date,YYYYMMDD,province, geo, gender, age, confirmed_date,transmission_
 46,16-04-2020,20200416,WC,ZA-WC,female,86,,,,https://www.westerncape.gov.za/department-of-health/news/update-coronavirus-premier-alan-winde-1
 47,16-04-2020,20200416,KZN,ZA-KZN,,,,,,https://sacoronavirus.co.za/2020/04/16/update-on-covid-19-16th-april-2020/
 48,16-04-2020,20200416,KZN,ZA-KZN,,,,,,https://sacoronavirus.co.za/2020/04/16/update-on-covid-19-16th-april-2020/
-49,17-04-2020,20200416,WP,ZA-WP,male,43,,,,https://www.westerncape.gov.za/department-of-health/news/coronavirus-update-premier-alan-winde-18-april
-50,17-04-2020,20200416,WP,ZA-WP,female,54,,,,https://www.westerncape.gov.za/department-of-health/news/coronavirus-update-premier-alan-winde-18-april
-51,18-04-2020,20200418,WP,ZA-WP,male,45,,,,https://www.westerncape.gov.za/department-of-health/news/coronavirus-update-premier-alan-winde-19-april
+49,17-04-2020,20200416,WC,ZA-WC,male,43,,,,https://www.westerncape.gov.za/department-of-health/news/coronavirus-update-premier-alan-winde-18-april
+50,17-04-2020,20200416,WC,ZA-WC,female,54,,,,https://www.westerncape.gov.za/department-of-health/news/coronavirus-update-premier-alan-winde-18-april
+51,18-04-2020,20200418,WC,ZA-WC,male,45,,,,https://www.westerncape.gov.za/department-of-health/news/coronavirus-update-premier-alan-winde-19-april
 52,18-04-2020,20200418,KZN,ZA-KZN,,,,,,https://sacoronavirus.co.za/2020/04/18/update-on-covid-19-18th-april-2020/
 53,19-04-2020,20200419,KZN,ZA-KZN,,,,,,https://sacoronavirus.co.za/2020/04/19/update-on-covid-19-19th-april-2020/
-54,19-04-2020,20200419,WP,ZA-WP,,,,,,https://sacoronavirus.co.za/2020/04/19/update-on-covid-19-19th-april-2020/
+54,19-04-2020,20200419,WC,ZA-WC,,,,,,https://sacoronavirus.co.za/2020/04/19/update-on-covid-19-19th-april-2020/
