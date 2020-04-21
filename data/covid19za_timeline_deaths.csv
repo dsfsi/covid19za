@@ -53,3 +53,7 @@ report_id,date,YYYYMMDD,province, geo, gender, age, confirmed_date,transmission_
 52,18-04-2020,20200418,KZN,ZA-KZN,,,,,,https://sacoronavirus.co.za/2020/04/18/update-on-covid-19-18th-april-2020/
 53,19-04-2020,20200419,KZN,ZA-KZN,,,,,,https://sacoronavirus.co.za/2020/04/19/update-on-covid-19-19th-april-2020/
 54,19-04-2020,20200419,WC,ZA-WC,,,,,,https://sacoronavirus.co.za/2020/04/19/update-on-covid-19-19th-april-2020/
+55,20-04-2020,20200420,,,,,,,,https://sacoronavirus.co.za/2020/04/20/update-on-covid-19-20th-april-2020/
+56,20-04-2020,20200420,,,,,,,,https://sacoronavirus.co.za/2020/04/20/update-on-covid-19-20th-april-2020/
+57,20-04-2020,20200420,,,,,,,,https://sacoronavirus.co.za/2020/04/20/update-on-covid-19-20th-april-2020/
+58,20-04-2020,20200420,WC,ZA-WC,male,48,,,,https://www.westerncape.gov.za/department-of-health/news/update-coronavirus-premier-alan-winde-2
