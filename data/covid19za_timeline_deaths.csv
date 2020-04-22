@@ -57,3 +57,10 @@ report_id,date,YYYYMMDD,province, geo, gender, age, confirmed_date,transmission_
 56,20-04-2020,20200420,,,,,,,,https://sacoronavirus.co.za/2020/04/20/update-on-covid-19-20th-april-2020/
 57,20-04-2020,20200420,,,,,,,,https://sacoronavirus.co.za/2020/04/20/update-on-covid-19-20th-april-2020/
 58,20-04-2020,20200420,WC,ZA-WC,male,48,,,,https://www.westerncape.gov.za/department-of-health/news/update-coronavirus-premier-alan-winde-2
+59,22-04-2020,20200422,WC,ZA-WC,male,43,,,,
+60,22-04-2020,20200422,WC,ZA-WC,male,49,,,,
+61,22-04-2020,20200422,WC,ZA-WC,male,79,,,,
+62,22-04-2020,20200422,WC,ZA-WC,female,54,,,,
+63,22-04-2020,20200422,WC,ZA-WC,female,95,,,,
+64,22-04-2020,20200422,KZN,ZA-KZN,,,,,,https://sacoronavirus.co.za/2020/04/22/update-on-covid-19-22nd-april-2020/
+65,22-04-2020,20200422,KZN,ZA-KZN,,,,,,https://sacoronavirus.co.za/2020/04/22/update-on-covid-19-22nd-april-2020/
