@@ -64,3 +64,13 @@ report_id,date,YYYYMMDD,province, geo, gender, age, confirmed_date,transmission_
 63,22-04-2020,20200422,WC,ZA-WC,female,95,,,,
 64,22-04-2020,20200422,KZN,ZA-KZN,,,,,,https://sacoronavirus.co.za/2020/04/22/update-on-covid-19-22nd-april-2020/
 65,22-04-2020,20200422,KZN,ZA-KZN,,,,,,https://sacoronavirus.co.za/2020/04/22/update-on-covid-19-22nd-april-2020/
+66,23-04-2020,20200423,KZN,ZA-KZN,,,,,,https://sacoronavirus.co.za/2020/04/23/update-on-covid-19-23rd-april-2020-2/
+67,23-04-2020,20200423,KZN,ZA-KZN,,,,,,https://sacoronavirus.co.za/2020/04/23/update-on-covid-19-23rd-april-2020-2/
+68,23-04-2020,20200423,GP,ZA-GP,,,,,,https://sacoronavirus.co.za/2020/04/23/update-on-covid-19-23rd-april-2020-2/
+69,23-04-2020,20200423,EC,ZA-EC,,,,,,https://sacoronavirus.co.za/2020/04/23/update-on-covid-19-23rd-april-2020-2/
+70,23-04-2020,20200423,WC,ZA-WC,female,62,,,,https://www.westerncape.gov.za/department-of-health/news/update-coronavirus-premier-alan-winde-23-april
+71,23-04-2020,20200423,WC,ZA-WC,female,61,,,,https://www.westerncape.gov.za/department-of-health/news/update-coronavirus-premier-alan-winde-23-april
+72,23-04-2020,20200423,WC,ZA-WC,male,41,,,,https://www.westerncape.gov.za/department-of-health/news/update-coronavirus-premier-alan-winde-23-april
+73,23-04-2020,20200423,WC,ZA-WC,,,,,,https://sacoronavirus.co.za/2020/04/23/update-on-covid-19-23rd-april-2020-2/
+74,23-04-2020,20200423,WC,ZA-WC,,,,,,https://sacoronavirus.co.za/2020/04/23/update-on-covid-19-23rd-april-2020-2/
+75,23-04-2020,20200423,WC,ZA-WC,,,,,,https://sacoronavirus.co.za/2020/04/23/update-on-covid-19-23rd-april-2020-2/
