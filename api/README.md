@@ -46,6 +46,12 @@ There is no rate limit of any kind but we hope that you use it in a sensible man
 #### /cases/timeline/provincial/cumulative
 * `GET` : Get cumulative provincial timeline data
 
+#### /hospitals/public
+* `GET` : Get public hospitals
+
+#### /hospitals/private
+* `GET` : Get private hospitals
+
 ### Example Usage
 
 You can get the confirmed cases by performing a `GET` request to:
@@ -67,7 +73,7 @@ https://covid-za-api.herokuapp.com/cases/confirmed?province=GP
 - [x] Expose an endpoint to get test timeline data.
 - [x] Expose an endpoint to get all fatalities (reported deaths).
 - [x] Allow filtering by province on the fatalities endpoint.
-- [ ] Expose an endpoint to get all available hospitals.
+- [X] Expose an endpoint to get all available hospitals.
 - [ ] Allow filtering by province on the hospitals endpoint.
 
 ## Issues

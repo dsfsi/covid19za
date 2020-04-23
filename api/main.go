@@ -19,11 +19,14 @@ func main() {
 	}))
 
 	caseController := controllers.NewCaseController()
+	hospitalController := controllers.NewHospitalController()
 
 	api.GET("/", func(ctx echo.Context) error {
 		return ctx.String(http.StatusOK, "COVID 19 data API for South Africa")
 	})
 
+	api.GET("/hospitals/public", hospitalController.GetPublicHospitals)
+	api.GET("/hospitals/private", hospitalController.GetPrivateHospitals)
 	api.GET("/cases/confirmed", caseController.GetAllConfirmedCases)
 	api.GET("/cases/deaths", caseController.GetAllReportedDeaths)
 	api.GET("/cases/timeline/tests", caseController.GetTestingTimeline)
