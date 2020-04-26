@@ -1,23 +1,18 @@
 package utils
 
 import (
+	"github.com/gocarina/gocsv"
 	"encoding/csv"
 	"log"
 	"net/http"
 )
 
-func DownloadCSV(url string) ([][]string, error) {
+func UnmarshalCSV(url string, out interface{}) error {
 	resp, err := http.Get(url)
 	if err != nil {
 		log.Fatalln("Couldn't open the csv file", err)
 	}
 
 	reader := csv.NewReader(resp.Body)
-	records, err := reader.ReadAll()
-	if err != nil {
-		log.Fatalln("An error encountered ::", err)
-		return nil, err
-	}
-
-	return records, nil
+	return gocsv.UnmarshalCSV(reader, out)
 }

@@ -28,6 +28,9 @@ There is no rate limit of any kind but we hope that you use it in a sensible man
 
 ### Endpoints
 
+#### /latest-update
+* `GET` : Get the timestamp of the latest update to the data
+
 #### /cases/confirmed
 * `GET` : Get all confirmed cases
 
@@ -41,10 +44,16 @@ There is no rate limit of any kind but we hope that you use it in a sensible man
 * `GET` : Get all reported deaths in a province
 
 #### /cases/timeline/tests
-* `GET` : Get test timeline data 
+* `GET` : Get test timeline data
 
 #### /cases/timeline/provincial/cumulative
 * `GET` : Get cumulative provincial timeline data
+
+#### /hospitals/public
+* `GET` : Get public hospitals
+
+#### /hospitals/private
+* `GET` : Get private hospitals
 
 ### Example Usage
 
@@ -73,4 +82,3 @@ https://covid-za-api.herokuapp.com/cases/confirmed?province=GP
 ## Issues
 
 - [x] Expose an endpoint to get provincial cumulative timeline data [Issue #122].
-

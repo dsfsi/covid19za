@@ -2,7 +2,6 @@ package controllers
 
 import (
 	"fmt"
-	"github.com/dsfsi/covid19za/api/mappers"
 	"github.com/dsfsi/covid19za/api/models"
 	"github.com/dsfsi/covid19za/api/utils"
 	"github.com/dsfsi/covid19za/api/validators"
@@ -46,7 +45,8 @@ func NewCaseController() CaseController {
 func (controller caseController) GetAllConfirmedCases(ctx echo.Context) error {
 	log.Println("Endpoint Hit: GetAllConfirmedCases")
 	url := fmt.Sprintf("%s%s", dataSetBaseUrl, confirmedCasesPath)
-	confirmedCases, err := utils.DownloadCSV(url)
+	confirmedCases := models.ConfirmedCases{}
+	err := utils.UnmarshalCSV(url, &confirmedCases)
 	if err != nil {
 		return err
 	}
@@ -57,14 +57,16 @@ func (controller caseController) GetAllConfirmedCases(ctx echo.Context) error {
 		return &echo.HTTPError{Code: http.StatusBadRequest, Message: "invalid province"}
 	}
 
-	result := models.ConfirmedCases{}
-	for _, line := range confirmedCases[1:] {
-		if province != "" && province != line[4] {
-			continue
+	var result models.ConfirmedCases
+	if province == "" {
+		result = confirmedCases
+	} else {
+		result = models.ConfirmedCases{}
+		for _, confirmedCase := range confirmedCases {
+			if province == confirmedCase.Province {
+				result = append(result, confirmedCase)
+			}
 		}
-
-		confirmedCase := mappers.MapCsvLineToConfirmedCaseModel(line)
-		result = append(result, confirmedCase)
 	}
 
 	return ctx.JSON(http.StatusOK, result)
@@ -80,7 +82,8 @@ func (controller caseController) GetAllConfirmedCases(ctx echo.Context) error {
 func (controller caseController) GetAllReportedDeaths(ctx echo.Context) error {
 	log.Println("Endpoint Hit: GetAllReportedDeaths")
 	url := fmt.Sprintf("%s%s", dataSetBaseUrl, reportedDeathsPath)
-	reportedDeaths, err := utils.DownloadCSV(url)
+	reportedDeaths := models.ReportedDeaths{}
+	err := utils.UnmarshalCSV(url, &reportedDeaths)
 	if err != nil {
 		return err
 	}
@@ -91,14 +94,16 @@ func (controller caseController) GetAllReportedDeaths(ctx echo.Context) error {
 		return &echo.HTTPError{Code: http.StatusBadRequest, Message: "invalid province"}
 	}
 
-	result := models.ReportedDeaths{}
-	for _, line := range reportedDeaths[1:] {
-		if province != "" && province != line[3] {
-			continue
+	var result models.ReportedDeaths
+	if province == "" {
+		result = reportedDeaths
+	} else {
+		result = models.ReportedDeaths{}
+		for _, reportedDeath := range reportedDeaths {
+			if province == reportedDeath.Province {
+				result = append(result, reportedDeath)
+			}
 		}
-
-		reportedDeath := mappers.MapCsvLineToReportedDeathModel(line)
-		result = append(result, reportedDeath)
 	}
 
 	return ctx.JSON(http.StatusOK, result)
@@ -114,15 +119,10 @@ func (controller caseController) GetAllReportedDeaths(ctx echo.Context) error {
 func (controller caseController) GetTestingTimeline(ctx echo.Context) error {
 	log.Println("Endpoint Hit: GetTestingTimeline")
 	url := fmt.Sprintf("%s%s", dataSetBaseUrl, conductedTestsPath)
-	conductedTests, err := utils.DownloadCSV(url)
+	result := models.AllConductedTests{}
+	err := utils.UnmarshalCSV(url, &result)
 	if err != nil {
 		return err
-	}
-
-	result := models.AllConductedTests{}
-	for _, line := range conductedTests[1:] {
-		conductedTests := mappers.MapCsvLineToConductedTestsModel(line)
-		result = append(result, conductedTests)
 	}
 
 	return ctx.JSON(http.StatusOK, result)
@@ -138,15 +138,10 @@ func (controller caseController) GetTestingTimeline(ctx echo.Context) error {
 func (controller caseController) GetCumulativeProvincialTimeline(ctx echo.Context) error {
 	log.Println("Endpoint Hit: GetCumulativeProvincialTimeline")
 	url := fmt.Sprintf("%s%s", dataSetBaseUrl, cumulativeProvincialCasesPath)
-	cumulativeProvincialCases, err := utils.DownloadCSV(url)
+	result := models.AllCumulativeProvincialCases{}
+	err := utils.UnmarshalCSV(url, &result)
 	if err != nil {
 		return err
-	}
-
-	result := models.AllCumulativeProvincialCases{}
-	for _, line := range cumulativeProvincialCases[1:] {
-		cumulativeProvincialCases := mappers.MapCsvLineToCumulativeProvincialCasesModel(line)
-		result = append(result, cumulativeProvincialCases)
 	}
 
 	return ctx.JSON(http.StatusOK, result)

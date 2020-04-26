@@ -18,6 +18,7 @@ func main() {
 		Level: 5,
 	}))
 
+	latestUpdateController := controllers.NewLatestUpdateController()
 	caseController := controllers.NewCaseController()
 	hospitalController := controllers.NewHospitalController()
 
@@ -25,6 +26,7 @@ func main() {
 		return ctx.String(http.StatusOK, "COVID 19 data API for South Africa")
 	})
 
+	api.GET("/latest-update", latestUpdateController.GetLatestUpdate)
 	api.GET("/hospitals/public", hospitalController.GetPublicHospitals)
 	api.GET("/hospitals/private", hospitalController.GetPrivateHospitals)
 	api.GET("/cases/confirmed", caseController.GetAllConfirmedCases)

@@ -1,7 +1,7 @@
 report_id,date,YYYYMMDD,province, geo, gender, age, confirmed_date,transmission_type, notes_comorbidity, source
-1,27-03-2020,20200327,WC,ZA-WC, female,48,,,Had prior Pulmonary Embolism, https://www.westerncape.gov.za/news/statement-premier-alan-winde-first-coronavirus-deaths
-2,28-03-2020,20200328,KZN,ZA-KZN, male,74,27-03-2020, travelled to Kruger National Park, underlying skin cancer condition (melanoma) which had already complicated. He presented with the following symptoms: respiratory distress shortness of breath cardiac failure decreased saturation and his temperature was above 38 degrees., https://www.gov.za/speeches/minister-zweli-mkhize-confirms2nd-death-and-total-1280-cases-coronavirus-covid-19-29-mar
-3,30-03-2020,20200330,FS,ZA-FS,male,86,,,,
+1,27-03-2020,20200327,WC,ZA-WC,female,48,,,Had prior Pulmonary Embolism, https://www.westerncape.gov.za/news/statement-premier-alan-winde-first-coronavirus-deaths
+2,28-03-2020,20200328,KZN,ZA-KZN,male,74,27-03-2020, travelled to Kruger National Park, underlying skin cancer condition (melanoma) which had already complicated. He presented with the following symptoms: respiratory distress shortness of breath cardiac failure decreased saturation and his temperature was above 38 degrees., https://www.gov.za/speeches/minister-zweli-mkhize-confirms2nd-death-and-total-1280-cases-coronavirus-covid-19-29-mar
+3,30-03-2020,20200330,FS,ZA-FS,male,85,,,,https://sacoronavirus.co.za/2020/04/08/update-on-covid-19-08th-april-2020/
 4,31-03-2020,20200331,GP,ZA-GP,male,79,,,presented with respiratory distress,https://sacoronavirus.co.za/2020/03/31/update-of-covid-19-31st-march-2020/
 5,31-03-2020,20200331,KZN,ZA-KZN,female,46,,,had an underlying condition of hypertension chronic asthma and at the time of admission presented with an acute asthmatic attack,https://sacoronavirus.co.za/2020/03/31/update-of-covid-19-31st-march-2020/
 6,03-04-2020,20200403,KZN,ZA-KZN,female,63,,,,https://www.gov.za/speeches/minister-zweli-mkhize-confirms-1585-cases
@@ -10,40 +10,67 @@ report_id,date,YYYYMMDD,province, geo, gender, age, confirmed_date,transmission_
 9,03-04-2020,20200403,KZN,ZA-KZN,male,80,,,local transmissionm no travel history,https://www.gov.za/speeches/minister-zweli-mkhize-confirmsminister-zweli-mkhize-confirms-7-deaths-and-total-1505cases-3
 10,05-04-2020,20200405,WC,ZA-WC,female,82,,,She had presented with fever;short breath; body pains; dry cough and sore throat. She also had comorbidities that included  hypertension; diabetes and cholesterol.,https://sacoronavirus.co.za/2020/04/05/update-of-covid-19-05th-april-2020/
 11,05-04-2020,20200405,KZN,ZA-KZN,male,86,,,diagnosis of bronchopneumonia and respiratory distress. He had an underlying condition of chronic obstructive airway disease (COAD),https://sacoronavirus.co.za/2020/04/05/update-of-covid-19-05th-april-2020/
-12,06-04-2020,20200406,WC,ZA-WC,male,57,,,He had co-morbidities that included diabetes and ischaemic heart disease.,
-13,07-04-2020,20200407,KZN,ZA-KZN,male,60,,,,
-14,08-04-2020,20200408,FS,ZA-FS,male,55,,,,
-15,08-04-2020,20200408,FS,ZA-FS,male,77,,,,
-16,08-04-2020,20200408,GP,ZA-GP,male,49,,,,
-17,08-04-2020,20200408,GP,ZA-GP,male,52,,,,
-18,08-04-2020,20200408,KZN,ZA-KZN,male,70,,,,
+12,06-04-2020,20200406,WC,ZA-WC,male,57,,,He had co-morbidities that included diabetes and ischaemic heart disease.,https://sacoronavirus.co.za/2020/04/08/update-on-covid-19-08th-april-2020/
+13,07-04-2020,20200407,KZN,ZA-KZN,male,60,,,,https://sacoronavirus.co.za/2020/04/08/update-on-covid-19-08th-april-2020/
+14,08-04-2020,20200408,FS,ZA-FS,male,55,,,,https://sacoronavirus.co.za/2020/04/08/update-on-covid-19-08th-april-2020/
+15,08-04-2020,20200408,FS,ZA-FS,male,77,,,,https://sacoronavirus.co.za/2020/04/08/update-on-covid-19-08th-april-2020/
+16,08-04-2020,20200408,GP,ZA-GP,male,49,,,,https://sacoronavirus.co.za/2020/04/08/update-on-covid-19-08th-april-2020/
+17,08-04-2020,20200408,GP,ZA-GP,male,52,,,,https://sacoronavirus.co.za/2020/04/08/update-on-covid-19-08th-april-2020/
+18,08-04-2020,20200408,KZN,ZA-KZN,male,70,,,,https://sacoronavirus.co.za/2020/04/08/update-on-covid-19-08th-april-2020/
 19,10-04-2020,20200410,KZN,ZA-KZN,,,,,,
 20,10-04-2020,20200410,KZN,ZA-KZN,,,,,,
 21,10-04-2020,20200410,KZN,ZA-KZN,,,,,,
-22,10-04-2020,20200410,WC,ZA-WC,,,,,,
-23,10-04-2020,20200410,WC,ZA-WC,,,,,,
-24,10-04-2020,20200410,WC,ZA-WC,,,,,,
-25,11-04-2020,20200411,WC,ZA-WC,,,,,,
-26,13-04-2020,20200413,WC,ZA-WC,,,,,,
+22,10-04-2020,20200410,WC,ZA-WC,male,63,,,,https://www.westerncape.gov.za/department-of-health/news/update-premier-alan-winde-coronavirus-10-april
+23,10-04-2020,20200410,WC,ZA-WC,male,79,,,,https://www.westerncape.gov.za/department-of-health/news/update-premier-alan-winde-coronavirus-10-april
+24,10-04-2020,20200410,WC,ZA-WC,male,47,,,,https://www.westerncape.gov.za/department-of-health/news/update-premier-alan-winde-coronavirus-10-april
+25,11-04-2020,20200411,WC,ZA-WC,male,61,,,,https://www.westerncape.gov.za/department-of-health/news/update-coronavirus-premier-alan-winde-12-april
+26,13-04-2020,20200413,,,,,,,,
 27,13-04-2020,20200413,GP,ZA-GP,,,,,,
-28,10-04-2020,20200410,KZN,ZA-KZN,female,71,,,Diabetes hypertension renal failure,
-29,10-04-2020,20200410,KZN,ZA-KZN,male,79,,,uknown,
-30,09-04-2020,20200409,KZN,ZA-KZN,female,86,,,hypertension,
-31,12-04-2020,20200412,KZN,ZA-KZN,male,91,,,diabetes,
-32,13-04-2020,20200413,KZN,ZA-KZN,female,73,,,diabetes hypertension,
-33,13-04-2020,20200413,KZN,ZA-KZN,female,79,,,unknown,
-34,13-04-2020,20200413,GP,ZA-GP,male,50,,,chronic asthma,
-35,16-04-2020,20200416,,,,,,,,
-36,16-04-2020,20200416,,,,,,,,
-37,16-04-2020,20200416,,,,,,,,
-38,16-04-2020,20200416,,,,,,,,
-39,16-04-2020,20200416,,,,,,,,
-40,16-04-2020,20200416,,,,,,,,
-41,16-04-2020,20200416,,,,,,,,
-42,16-04-2020,20200416,,,,,,,,
-43,16-04-2020,20200416,,,,,,,,
-44,16-04-2020,20200416,,,,,,,,
-45,16-04-2020,20200416,,,,,,,,
-46,16-04-2020,20200416,,,,,,,,
-47,16-04-2020,20200416,,,,,,,,
-48,16-04-2020,20200416,,,,,,,,
+28,10-04-2020,20200410,KZN,ZA-KZN,female,71,,,Diabetes hypertension renal failure,https://sacoronavirus.co.za/2020/04/15/update-on-covid-19-15th-april-2020/
+29,10-04-2020,20200410,KZN,ZA-KZN,male,79,,,uknown,https://sacoronavirus.co.za/2020/04/15/update-on-covid-19-15th-april-2020/
+30,09-04-2020,20200409,KZN,ZA-KZN,female,86,,,hypertension,https://sacoronavirus.co.za/2020/04/15/update-on-covid-19-15th-april-2020/
+31,12-04-2020,20200412,KZN,ZA-KZN,male,91,,,diabetes,https://sacoronavirus.co.za/2020/04/15/update-on-covid-19-15th-april-2020/
+32,13-04-2020,20200413,KZN,ZA-KZN,female,73,,,diabetes hypertension,https://sacoronavirus.co.za/2020/04/15/update-on-covid-19-15th-april-2020/
+33,13-04-2020,20200413,KZN,ZA-KZN,female,79,,,unknown,https://sacoronavirus.co.za/2020/04/15/update-on-covid-19-15th-april-2020/
+34,13-04-2020,20200413,GP,ZA-GP,male,50,,,chronic asthma,https://sacoronavirus.co.za/2020/04/15/update-on-covid-19-15th-april-2020/
+35,16-04-2020,20200416,EC,ZA-EC,,,,,,https://sacoronavirus.co.za/2020/04/16/update-on-covid-19-16th-april-2020/
+36,16-04-2020,20200416,EC,ZA-EC,,,,,,https://sacoronavirus.co.za/2020/04/16/update-on-covid-19-16th-april-2020/
+37,16-04-2020,20200416,EC,ZA-EC,,,,,,https://sacoronavirus.co.za/2020/04/16/update-on-covid-19-16th-april-2020/
+38,16-04-2020,20200416,EC,ZA-EC,,,,,,https://sacoronavirus.co.za/2020/04/16/update-on-covid-19-16th-april-2020/
+39,16-04-2020,20200416,LP,ZA-LP,,,,,,https://sacoronavirus.co.za/2020/04/16/update-on-covid-19-16th-april-2020/
+40,16-04-2020,20200416,FS,ZA-FS,,,,,,https://sacoronavirus.co.za/2020/04/16/update-on-covid-19-16th-april-2020/
+41,16-04-2020,20200416,WC,ZA-WC,female,43,,,,https://www.westerncape.gov.za/department-of-health/news/update-coronavirus-premier-alan-winde-1
+42,16-04-2020,20200416,WC,ZA-WC,female,51,,,,https://www.westerncape.gov.za/department-of-health/news/update-coronavirus-premier-alan-winde-1
+43,16-04-2020,20200416,WC,ZA-WC,female,56,,,,https://www.westerncape.gov.za/department-of-health/news/update-coronavirus-premier-alan-winde-1
+44,16-04-2020,20200416,WC,ZA-WC,female,59,,,,https://www.westerncape.gov.za/department-of-health/news/update-coronavirus-premier-alan-winde-1
+45,16-04-2020,20200416,WC,ZA-WC,female,68,,,,https://www.westerncape.gov.za/department-of-health/news/update-coronavirus-premier-alan-winde-1
+46,16-04-2020,20200416,WC,ZA-WC,female,86,,,,https://www.westerncape.gov.za/department-of-health/news/update-coronavirus-premier-alan-winde-1
+47,16-04-2020,20200416,KZN,ZA-KZN,,,,,,https://sacoronavirus.co.za/2020/04/16/update-on-covid-19-16th-april-2020/
+48,16-04-2020,20200416,KZN,ZA-KZN,,,,,,https://sacoronavirus.co.za/2020/04/16/update-on-covid-19-16th-april-2020/
+49,17-04-2020,20200416,WC,ZA-WC,male,43,,,,https://www.westerncape.gov.za/department-of-health/news/coronavirus-update-premier-alan-winde-18-april
+50,17-04-2020,20200416,WC,ZA-WC,female,54,,,,https://www.westerncape.gov.za/department-of-health/news/coronavirus-update-premier-alan-winde-18-april
+51,18-04-2020,20200418,WC,ZA-WC,male,45,,,,https://www.westerncape.gov.za/department-of-health/news/coronavirus-update-premier-alan-winde-19-april
+52,18-04-2020,20200418,KZN,ZA-KZN,,,,,,https://sacoronavirus.co.za/2020/04/18/update-on-covid-19-18th-april-2020/
+53,19-04-2020,20200419,KZN,ZA-KZN,,,,,,https://sacoronavirus.co.za/2020/04/19/update-on-covid-19-19th-april-2020/
+54,19-04-2020,20200419,WC,ZA-WC,,,,,,https://sacoronavirus.co.za/2020/04/19/update-on-covid-19-19th-april-2020/
+55,20-04-2020,20200420,,,,,,,,https://sacoronavirus.co.za/2020/04/20/update-on-covid-19-20th-april-2020/
+56,20-04-2020,20200420,,,,,,,,https://sacoronavirus.co.za/2020/04/20/update-on-covid-19-20th-april-2020/
+57,20-04-2020,20200420,,,,,,,,https://sacoronavirus.co.za/2020/04/20/update-on-covid-19-20th-april-2020/
+58,20-04-2020,20200420,WC,ZA-WC,male,48,,,,https://www.westerncape.gov.za/department-of-health/news/update-coronavirus-premier-alan-winde-2
+59,22-04-2020,20200422,WC,ZA-WC,male,43,,,,
+60,22-04-2020,20200422,WC,ZA-WC,male,49,,,,
+61,22-04-2020,20200422,WC,ZA-WC,male,79,,,,
+62,22-04-2020,20200422,WC,ZA-WC,female,54,,,,
+63,22-04-2020,20200422,WC,ZA-WC,female,95,,,,
+64,22-04-2020,20200422,KZN,ZA-KZN,,,,,,https://sacoronavirus.co.za/2020/04/22/update-on-covid-19-22nd-april-2020/
+65,22-04-2020,20200422,KZN,ZA-KZN,,,,,,https://sacoronavirus.co.za/2020/04/22/update-on-covid-19-22nd-april-2020/
+66,23-04-2020,20200423,KZN,ZA-KZN,,,,,,https://sacoronavirus.co.za/2020/04/23/update-on-covid-19-23rd-april-2020-2/
+67,23-04-2020,20200423,KZN,ZA-KZN,,,,,,https://sacoronavirus.co.za/2020/04/23/update-on-covid-19-23rd-april-2020-2/
+68,23-04-2020,20200423,GP,ZA-GP,,,,,,https://sacoronavirus.co.za/2020/04/23/update-on-covid-19-23rd-april-2020-2/
+69,23-04-2020,20200423,EC,ZA-EC,,,,,,https://sacoronavirus.co.za/2020/04/23/update-on-covid-19-23rd-april-2020-2/
+70,23-04-2020,20200423,WC,ZA-WC,female,62,,,,https://www.westerncape.gov.za/department-of-health/news/update-coronavirus-premier-alan-winde-23-april
+71,23-04-2020,20200423,WC,ZA-WC,female,61,,,,https://www.westerncape.gov.za/department-of-health/news/update-coronavirus-premier-alan-winde-23-april
+72,23-04-2020,20200423,WC,ZA-WC,male,41,,,,https://www.westerncape.gov.za/department-of-health/news/update-coronavirus-premier-alan-winde-23-april
+73,23-04-2020,20200423,WC,ZA-WC,,,,,,https://sacoronavirus.co.za/2020/04/23/update-on-covid-19-23rd-april-2020-2/
+74,23-04-2020,20200423,WC,ZA-WC,,,,,,https://sacoronavirus.co.za/2020/04/23/update-on-covid-19-23rd-april-2020-2/
+75,23-04-2020,20200423,WC,ZA-WC,,,,,,https://sacoronavirus.co.za/2020/04/23/update-on-covid-19-23rd-april-2020-2/
