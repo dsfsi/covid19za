@@ -214,7 +214,7 @@ func assertContains(t *testing.T, data []map[string]interface{},
 }
 
 func request(req *http.Request) *http.Response {
-	e := makeAPI()
+	e := makeAPI("../data/")
 	rec := httptest.NewRecorder()
 	e.ServeHTTP(rec, req)
 	return rec.Result()

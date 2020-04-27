@@ -12,7 +12,6 @@ import (
 )
 
 const (
-	dataSetBaseUrl     = "https://raw.githubusercontent.com/dsfsi/covid19za/master/data/"
 	confirmedCasesPath = "covid19za_timeline_confirmed.csv"
 	conductedTestsPath = "covid19za_timeline_testing.csv"
 	reportedDeathsPath = "covid19za_timeline_deaths.csv"
@@ -22,6 +21,7 @@ const (
 )
 
 type caseController struct {
+	BaseUrl string
 }
 
 type CaseController interface {
@@ -31,8 +31,8 @@ type CaseController interface {
 	GetCumulativeProvincialTimeline(ctx echo.Context) error
 }
 
-func NewCaseController() CaseController {
-	return &caseController{}
+func NewCaseController(baseUrl string) CaseController {
+	return &caseController{baseUrl}
 }
 
 //GetAllConfirmedCases returns all confirmed cases
@@ -44,7 +44,7 @@ func NewCaseController() CaseController {
 // @Router /cases/confirmed [GET]
 func (controller caseController) GetAllConfirmedCases(ctx echo.Context) error {
 	log.Println("Endpoint Hit: GetAllConfirmedCases")
-	url := fmt.Sprintf("%s%s", dataSetBaseUrl, confirmedCasesPath)
+	url := fmt.Sprintf("%s%s", controller.BaseUrl, confirmedCasesPath)
 	confirmedCases := models.ConfirmedCases{}
 	err := utils.UnmarshalCSV(url, &confirmedCases)
 	if err != nil {
@@ -81,7 +81,7 @@ func (controller caseController) GetAllConfirmedCases(ctx echo.Context) error {
 // @Router /cases/deaths [GET]
 func (controller caseController) GetAllReportedDeaths(ctx echo.Context) error {
 	log.Println("Endpoint Hit: GetAllReportedDeaths")
-	url := fmt.Sprintf("%s%s", dataSetBaseUrl, reportedDeathsPath)
+	url := fmt.Sprintf("%s%s", controller.BaseUrl, reportedDeathsPath)
 	reportedDeaths := models.ReportedDeaths{}
 	err := utils.UnmarshalCSV(url, &reportedDeaths)
 	if err != nil {
@@ -118,7 +118,7 @@ func (controller caseController) GetAllReportedDeaths(ctx echo.Context) error {
 // @Router /cases/timeline/tests [GET]
 func (controller caseController) GetTestingTimeline(ctx echo.Context) error {
 	log.Println("Endpoint Hit: GetTestingTimeline")
-	url := fmt.Sprintf("%s%s", dataSetBaseUrl, conductedTestsPath)
+	url := fmt.Sprintf("%s%s", controller.BaseUrl, conductedTestsPath)
 	result := models.AllConductedTests{}
 	err := utils.UnmarshalCSV(url, &result)
 	if err != nil {
@@ -137,7 +137,7 @@ func (controller caseController) GetTestingTimeline(ctx echo.Context) error {
 // @Router /cases/timeline/provincial/cumulative [GET]
 func (controller caseController) GetCumulativeProvincialTimeline(ctx echo.Context) error {
 	log.Println("Endpoint Hit: GetCumulativeProvincialTimeline")
-	url := fmt.Sprintf("%s%s", dataSetBaseUrl, cumulativeProvincialCasesPath)
+	url := fmt.Sprintf("%s%s", controller.BaseUrl, cumulativeProvincialCasesPath)
 	result := models.AllCumulativeProvincialCases{}
 	err := utils.UnmarshalCSV(url, &result)
 	if err != nil {
