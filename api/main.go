@@ -9,7 +9,7 @@ import (
 	"os"
 )
 
-func main() {
+func makeAPI() *echo.Echo {
 	api := echo.New()
 	api.Use(middleware.Logger())
 	api.Use(middleware.Recover())
@@ -33,6 +33,11 @@ func main() {
 	api.GET("/cases/deaths", caseController.GetAllReportedDeaths)
 	api.GET("/cases/timeline/tests", caseController.GetTestingTimeline)
 	api.GET("/cases/timeline/provincial/cumulative", caseController.GetCumulativeProvincialTimeline)
+	return api
+}
+
+func main() {
+	api := makeAPI()
 
 	addr, err := determineListenAddress()
 	if err != nil {
