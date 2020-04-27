@@ -144,5 +144,6 @@ func (controller caseController) GetCumulativeProvincialTimeline(ctx echo.Contex
 		return err
 	}
 
+	ctx.Response().Header().Set("Last-Modified", utils.GetLastModified(cumulativeProvincialCasesPath))
 	return ctx.JSON(http.StatusOK, result)
 }
