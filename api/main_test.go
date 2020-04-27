@@ -94,18 +94,18 @@ var (
 	}
 	expectedCumulativeProvincial = map[string]interface{}{
 		"timestamp": "20200418",
-		"date": "18-04-2020",
+		"date":      "18-04-2020",
 		"provinces": map[string]interface{}{
-			"eastern_cape": "270",
-			"free_state": "100",
-			"gauteng": "1101",
+			"eastern_cape":  "270",
+			"free_state":    "100",
+			"gauteng":       "1101",
 			"kwazulu_natal": "604",
-			"limpopo": "26",
-			"mpumlanga": "25",   // It is misspelt like this in the API
+			"limpopo":       "26",
+			"mpumlanga":     "25", // It is misspelt like this in the API
 			"northern_cape": "16",
-			"north_west": "24",
-			"western_cape": "836",
-			"unknown": "32",
+			"north_west":    "24",
+			"western_cape":  "836",
+			"unknown":       "32",
 		},
 		"total": "3034",
 	}

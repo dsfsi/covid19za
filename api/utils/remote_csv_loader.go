@@ -1,9 +1,9 @@
 package utils
 
 import (
-	"github.com/gocarina/gocsv"
 	"encoding/csv"
 	"fmt"
+	"github.com/gocarina/gocsv"
 	"log"
 	"net/http"
 	"net/url"
