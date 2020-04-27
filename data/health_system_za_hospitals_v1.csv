@@ -1,4 +1,4 @@
-Name,Long,Lat,Category,Province,District,Subdistrict,DistrictEstimatedPopulation,Main Health care Services Offered,5. Size,Beds Usable,Beds Approved,Beds Surgical Usable,Beds Surgical Approved,Surgeons Qualified,sugeons_unqualified,theatres,Total number of beds,Total number of staff ,Cluster,Webpage,geo_subdivision
+Name,Long,Lat,Category,Province,District,Subdistrict,DistrictEstimatedPopulation,Main Health care Services Offered,Size,Beds Usable,Beds Approved,Beds Surgical Usable,Beds Surgical Approved,Surgeons Qualified,Sugeons_unqualified,Theatres,Total number of beds,Total number of staff ,Cluster,Webpage,Geo_subdivision
 Fort England Hospital,26.54361,-33.3156,Specialised  Hospital,Eastern Cape,Sarah Baartman District Municipality,Makana Local Municipality,479923,Psychiatry and Occupational Services,,,,,,,,,313,,,http://doctors-hospitals-medical-cape-town-south-africa.blaauwberg.net/hospitals_clinics_state_hospitals/state_public_hospitals_clinics_eastern_cape_south_africa/fort_england_hospital_grahamstown_eastern_cape_south_africa,ZA-EC
 Fort Beaufort Hospital,26.633571,-32.7802,District Hospital,Eastern Cape,Amathole District Municipality,Raymond Mhlaba Local Municipality,880790,"Surgical Services,Medical Services, Paediatrics, Maternity Services, Gynaecology Services, Operating Theatre & CSSD Services, Anti-Retroviral Treatment Services (ARVs), X-Ray Services, Physiotherapy, Laundry Services, Kitchen Services, PMTC & VCT",,70,70,15,15,0,2,1,,,,http://doctors-hospitals-medical-cape-town-south-africa.blaauwberg.net/hospitals_clinics_state_hospitals/state_public_hospitals_clinics_eastern_cape_south_africa/fort_beaufort_hospital_fort_beaufort_eastern_cape_south_africa,ZA-EC
 Bhisho Hospital,27.45516,-32.8277,District Hospital,Eastern Cape,Buffalo City Metropolitan Municipality,Buffalo City Sub-District,834997,"Anti-Retroviral Treatment Services (ARVs), Emergency Services, Gynaecology Services,Kitchen Services,Laboratory Services,Laundry Services,Maternity Services,Medical Services,O.P.D. Services,Occupational Services,Operating Theatre & CSSD Services,Paediatrics,Pharmacy Services,Physiotherapy,Post Trauma Counselling Services,Surgical Services,X-Ray Services",,205,205,40,40,0,3,2,,,,http://doctors-hospitals-medical-cape-town-south-africa.blaauwberg.net/hospitals_clinics_state_hospitals/state_public_hospitals_clinics_eastern_cape_south_africa/bhisho_hospital_bhisho_eastern_cape_south_africa,ZA-EC
@@ -11,7 +11,7 @@ Humansdorp Hospital,24.78144,-34.0302,District Hospital,Eastern Cape,Sarah Baart
 Frere Hospital,27.89156,-32.9959,Tertiary  Hospital,Eastern Cape,Buffalo City Metropolitan Municipality,Buffalo City Sub-District,834997,,,840,916,187,233,5,14,8,,,,,ZA-EC
 Cecilia Makiwane Hospital,27.74422,-32.9278,Tertiary  Hospital,Eastern Cape,Buffalo City Metropolitan Municipality,Buffalo City Sub-District,834997,"Trauma and Emergency, Paediatrics, Obstetrics/Gynecology, Surgery, Internal Medicine, ARV clinic for HIV/AIDS in adults and children, Anaesthetics, Paediatric Surgery, Family Medicine, Psychiatry, Dermatology, Otolaryngology (ENT), Ophthalmology and burns unit.",,737,1000,130,130,6,7,5,,,,,ZA-EC
 Frontier Hospital,26.871347,-31.8892,Regional Hospital,Eastern Cape,Chris Hani District Municipality,Enoch Mgijima Local Municipality,840055,,,283,450,72,72,0,4,5,,,,,ZA-EC
-Livingstone Hospital,25.57074,-33.9251,Hospital  responds to COVID-19,Eastern Cape,Nelson Mandela Bay Municipality,Nelson Mandela C Health sub-District,487851,,,583,616,180,180,11,22,8,,,,,ZA-EC
+Livingstone Hospital,25.57074,-33.9251,Tertiary Hospital,Eastern Cape,Nelson Mandela Bay Municipality,Nelson Mandela C Health sub-District,487851,,,583,616,180,180,11,22,8,,,,,ZA-EC
 Basambilu Med Centre,28.19,-26.01,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg A Sub-District,4949347,,,,,,,,,,,,,,ZA-GP
 Diepsloot Med Centre,28.01873,-25.9205,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg A Sub-District,4949347,,,,,,,,,,,,,,ZA-GP
 Beaufort West Hospital,22.5949,-32.3529,District Hospital,Western Cape,Central Karoo District Municipality,Beaufort West Local Municipality,,,,57,,6,6,,5,2,,,,http://doctors-hospitals-medical-cape-town-south-africa.blaauwberg.net/hospitals_clinics_state_hospitals/state_public_hospitals_clinics_western_cape_south_africa/beaufort_west_hospital_beaufort_west_western_cape_south_africa,ZA-WC
@@ -34,11 +34,11 @@ Life Wilgeheuwel Hospital,27.92435,-26.0995,Private Hospital,Gauteng,City of Joh
 Mayo Hospital,27.92086,-26.1504,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg C Sub-District,4949347,,,20,,20,,,,2,,,,,ZA-GP
 Netcare Constantia Day Clinic,27.900218,-26.1476,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg C Sub-District,4949347,,,24,,24,,,,3,,,,,ZA-GP
 Netcare Olivedale Hospital,27.972147,-26.0548,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg C Sub-District,4949347,,,265,,166,,,,10,,,,,ZA-GP
-Netcare Protea Day Clinic,,,,,,,,,,10,,10,,,,2,,,,,
+Netcare Protea Day Clinic,27.777968,-26.106659,Private Hospital,Gauteng,West Rand District Municipality,Mogale City Local Municipality,,,,10,,10,,,,2,,,,https://www.netcare.co.za/Netcare-hospitals,
 Advanced Medgate Day Hospital,27.867123,-26.138,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg D Sub-District,4949347,,,,,,,,,,,,,,ZA-GP
 Lesedi Clinix Private Hospital,27.935847,-26.2581,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg D Sub-District,4949347,,,175,,26,,,,4,,,,,ZA-GP
 Life Poortview Hospital,27.851671,-26.0897,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg D Sub-District,4949347,,,,,,,,,,,,,,ZA-GP
-Life Pretoria North Surgical Centre,,,,,,,,,,12,,12,,,,2,,,,,
+Life Pretoria North Surgical Centre,28.171361,-25.675421,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,,,,,12,,12,,,,2,,,,https://www.lifehealthcare.co.za/hospitals/gauteng/pretoria/life-pretoria-north-surgical-centre/,
 Life Carstenhof Hospital,28.139385,-26.0309,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg E Sub-District,4949347,,,153,,56,,,,6,,,,,ZA-GP
 Mediclinic Morningside Hospital,28.05595,-26.0956,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg E Sub-District,4949347,,,230,,62,,,,8,,,,,ZA-GP
 Midrand Med Centre,28.129635,-25.9958,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg E Sub-District,4949347,,,,,,,,,,,,,,ZA-GP
@@ -155,9 +155,9 @@ Heidelberg Hospital,28.35131,-26.5036,District Hospital,Gauteng,Sedibeng Distric
 Carletonville Hospital,27.39446,-26.347,District Hospital,Gauteng,West Rand District Municipality,Merafong City Local Municipality,838594,,,230,,50,50,,1,2,230,,CMJAH,,ZA-GP
 Dr Yusuf Dadoo Hospital,27.78386,-26.0996,District Hospital,Gauteng,West Rand District Municipality,Mogale City Local Municipality,838594,,,245,,20,20,,2,1,,,,,ZA-GP
 Chris Hani Baragwanath Hospital,27.93799,-26.26,Tertiary  Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg D Sub-District,4949347,,,2639,,547,547,,127,30,2888,,CHBAC,,ZA-GP
-Charlotte Maxeke Hospital,28.04691,-26.174,Hospital  responds to COVID-19,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg F Sub-District,4949347,,,1066,,72,65,,34,34,1018,,CMJAH,,ZA-GP
+Charlotte Maxeke Hospital,28.04691,-26.174,Tertiary  Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg F Sub-District,4949347,,,1066,,72,65,,34,34,1018,,CMJAH,,ZA-GP
 Dr George Mukhari Hospital,28.01216,-25.619,Tertiary  Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 1 Sub-District,3275152,,,1236,,148,148,,24,17,,,DGMAH,,ZA-GP
-Steve Biko Academic Hospital,28.202561,-25.7295,Hospital  responds to COVID-19,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 3 Sub-District,3275152,,,780,,81,87,,27,18,,,SBAH,,ZA-GP
+Steve Biko Academic Hospital,28.202561,-25.7295,Tertiary  Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 3 Sub-District,3275152,,,780,,81,87,,27,18,,,SBAH,,ZA-GP
 C Hurwitz TB Hospital,27.94666,-26.2611,Specialised  Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg D Sub-District,4949347,,,,,,,,,,,,,,ZA-GP
 Tshepong TB Hospital,28.09372,-25.7638,Specialised  Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 3 Sub-District,3275152,,,,,,,,,,,,,,ZA-GP
 Kriel medical clinic,,,,,,,,,,6,,6,,,,1,,,,,
@@ -177,7 +177,7 @@ Sebokeng Hospital,27.84622,-26.6061,Regional Hospital,Gauteng,Sedibeng District 
 Leratong Hospital,27.80774,-26.1713,Regional Hospital,Gauteng,West Rand District Municipality,Mogale City Local Municipality,838594,,,813,,126,126,,13,8,855,,CHBAC,,ZA-GP
 Helen Joseph Hospital,27.9901,-26.1839,Tertiary  Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg B Sub-District,4949347,,,576,,120,120,,9,9,,,,,ZA-GP
 Kalafong Hospital,28.08948,-25.7627,Tertiary  Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 3 Sub-District,3275152,,,756,,371,371,,11,11,,,,,ZA-GP
-Tembisa Hospital,28.23756,-25.9828,Hospital  responds to COVID-19,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni N1 Sub-District,3379104,,,836,,120,120,,7,11,,,,,ZA-GP
+Tembisa Hospital,28.23756,-25.9828,Tertiary  Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni N1 Sub-District,3379104,,,836,,120,120,,7,11,,,,,ZA-GP
 Tara H Moross Centre Hospital,28.036464,-26.1087,Specialised  Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg B Sub-District,4949347,,,,,,,,,,141,,CMJAH,,ZA-GP
 Weskoppies Hospital,28.16057,-25.7638,Specialised  Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 3 Sub-District,3275152,,,,,,,,,,,,,,ZA-GP
 Sterkfontein Hospital,27.747403,-26.0581,Specialised  Hospital,Gauteng,West Rand District Municipality,Mogale City Local Municipality,838594,,,,,,,,,,673,,CMJAH,,ZA-GP
@@ -226,7 +226,7 @@ Itshelejuba Hospital,31.347971,-27.2774,District Hospital,KwaZuluNatal,Zululand 
 Inkosi Albert Luthuli Central Hospital,30.958756,-29.8739,Central Hospital,KwaZuluNatal,eThekwini Metropolitan Municipality,eThekwini MM Sub,3702231,"Mother and child services, peri -operative services, surgical services, medical services, professions allied medical support.",Large,852,,194,194,,2,19,846,,,,ZA-KZN
 King Edward VIII Hospital,30.989507,-29.8822,Central Hospital,KwaZuluNatal,eThekwini Metropolitan Municipality,eThekwini MM Sub,3702231,,Large,833,,194,194,,5,11,852,,,http://www.kznhealth.gov.za/kingedwardhospital.htm,ZA-KZN
 Ngwelezana Hospital,31.864116,-28.7795,Tertiary  Hospital,KwaZuluNatal,King Cetshwayo District Municipality,City of uMhlathuze Local Municipality,971135,,Medium,489,,45,50,,6,6,544,,,http://www.kznhealth.gov.za/ngwelezanahospital.htm,ZA-KZN
-Grey's Hospital,30.363784,-29.5796,Hospital  responds to COVID-19,KwaZuluNatal,uMgungundlovu District Municipality,Msunduzi Local Municipality,1095865,,Medium,507,,160,160,,13,13,530,,,http://www.kznhealth.gov.za/greyshospital.htm,ZA-KZN
+Grey's Hospital,30.363784,-29.5796,Tertiary  Hospital,KwaZuluNatal,uMgungundlovu District Municipality,Msunduzi Local Municipality,1095865,,Medium,507,,160,160,,13,13,530,,,http://www.kznhealth.gov.za/greyshospital.htm,ZA-KZN
 C James TB Hospital,30.885394,-30.017,Specialised  Hospital,KwaZuluNatal,eThekwini Metropolitan Municipality,eThekwini MM Sub,3702231,"Respiratory, TB related attention given",Small,,,,,,,,220,,,http://www.kznhealth.gov.za/charlesjameshospital.htm,ZA-KZN
 Don McKenzie TB Hospital,30.739534,-29.7382,Specialised  Hospital,KwaZuluNatal,eThekwini Metropolitan Municipality,eThekwini MM Sub,3702231,"Respiratory, TB related attention given",Small,,,,,,,,220,,,http://www.kznhealth.gov.za/donmckenziehospital.htm,ZA-KZN
 FOSA TB Hospital,30.968573,-29.7859,Specialised  Hospital,KwaZuluNatal,eThekwini Metropolitan Municipality,eThekwini MM Sub,3702231,"Respiratory, TB related attention given",Small,,,,,,,,187,,,http://www.kznhealth.gov.za/fosahospital.htm,ZA-KZN
@@ -277,7 +277,7 @@ Dr CN Phatudi Hospital,30.28098,-24.0265,District Hospital,Limpopo,Mopani Distri
 Van Velden Mem Hospital,30.16427,-23.8345,District Hospital,Limpopo,Mopani District Municipality,Greater Tzaneen Local Municipality,1159185,,,67,,25,25,,2,1,,,,,ZA-LP
 Sekororo Hospital,30.44767,-24.2515,District Hospital,Limpopo,Mopani District Municipality,Maruleng Local Municipality,1159185,,,208,,0,0,,6,2,,,,,ZA-LP
 Groblersdal Hospital,29.40387,-25.1762,District Hospital,Limpopo,Sekhukhune District Municipality,E Motsoaledi Local Municipality,1169762,,,10,,10,10,,4,0,,,,,ZA-LP
-Polokwane Hospital,29.440567,-23.799443,Hospital  responds to COVID-19,Limpopo,Polokwane Local Municipality,Polokwane,1330436,,,490,,100,100,,20,6,,,,,ZA-LP
+Polokwane Hospital,29.440567,-23.799443,Tertiary  Hospital,Limpopo,Polokwane Local Municipality,Polokwane,1330436,,,490,,100,100,,20,6,,,,,ZA-LP
 Matlala Hospital,29.50233,-24.8321,District Hospital,Limpopo,Sekhukhune District Municipality,Ephraim Mogale Local Municipality,1169762,,,60,,26,65,,7,1,,,,,ZA-LP
 Dilokong Hospital,30.17051,-24.6141,District Hospital,Limpopo,Sekhukhune District Municipality,Fetakgomo Tubatse Local Municipality,1169762,,,186,,46,72,,0,2,,,,,ZA-LP
 Mecklenburg Hospital,30.072501,-24.3853,District Hospital,Limpopo,Sekhukhune District Municipality,Fetakgomo Tubatse Local Municipality,1169762,,,124,,12,12,,7,2,,,,,ZA-LP
@@ -331,7 +331,7 @@ Impungwe Hospital,29.25281,-25.8727,District Hospital,Mpumalanga,Nkangala Distri
 Middelburg Hospital,29.45133,-25.7741,District Hospital,Mpumalanga,Nkangala District Municipality,Steve Tshwete Local Municipality,1445624,,,247,,64,64,,4,5,,,,,ZA-MP
 KwaMhlanga Hospital,28.70415,-25.418,District Hospital,Mpumalanga,Nkangala District Municipality,Thembisile Hani Local Municipality,1445624,,,150,,16,16,,4,1,,,,,ZA-MP
 Bernice Samuels Hospital,28.66699,-26.1521,District Hospital,Mpumalanga,Nkangala District Municipality,Victor Khanye Local Municipality,1445624,,,160,,60,60,,6,1,,,,,ZA-MP
-Rob Ferreira Hospital,30.97111,-25.4755,Hospital  responds to COVID-19,Mpumalanga,Ehlanzeni District Municipality,City of Mbombela Local Municipality,1754931,,,301,,50,50,,5,4,,,,,ZA-MP
+Rob Ferreira Hospital,30.97111,-25.4755,Tertiary  Hospital,Mpumalanga,Ehlanzeni District Municipality,City of Mbombela Local Municipality,1754931,,,301,,50,50,,5,4,,,,,ZA-MP
 Witbank Hospital,29.226596,-25.8756,District Hospital,Mpumalanga,Nkangala District Municipality,Emalahleni Local Municipality,1445624,,,349,,57,57,,5,5,,,,,ZA-MP
 Mapulaneng Hospital,31.06531,-24.8497,District Hospital,Mpumalanga,Ehlanzeni District Municipality,Bushbuckridge Local Municipality,1754931,,,269,,28,28,,0,3,,,,,ZA-MP
 Themba Hospital,31.1228,-25.3452,District Hospital,Mpumalanga,Ehlanzeni District Municipality,City of Mbombela Local Municipality,1754931,,,426,,40,40,,6,3,,,,,ZA-MP
@@ -353,7 +353,7 @@ John Daniel Newberry Hospital,27.57423,-28.91,District Hospital,Free State,Thabo
 Phuthuloha Hospital,27.87202,-28.8813,District Hospital,Free State,Thabo Mofutsanyana District Municipality,Setsoto Local Municipality,779330,,,55,,8,8,,0,0,,,,,ZA-FS
 Albert Nzula Dist Hospital,25.789656,-30.0348,District Hospital,Free State,Xhariep District Municipality,Kopanong Local Municipality,125884,,,,,,,,,,,,,,ZA-FS
 Universitas (C) Hospital,26.18432,-29.118,District Hospital,Free State,Mangaung Metropolitan Municipality,Bloemfontein Sub-District,787803,,,543,,60,60,,22,17,,,,,ZA-FS
-Pelonomi Hospital,26.24572,-29.1413,Hospital  responds to COVID-19,Free State,Mangaung Metropolitan Municipality,Bloemfontein Sub-District,787803,,,469,,52,52,,4,7,,,,,ZA-FS
+Pelonomi Hospital,26.24572,-29.1413,Tertiary  Hospital,Free State,Mangaung Metropolitan Municipality,Bloemfontein Sub-District,787803,,,469,,52,52,,4,7,,,,,ZA-FS
 Boitumelo Hospital,27.213172,-27.644,District Hospital,Free State,Fezile Dabi District Municipality,Moqhaka Local Municipality,494777,,,312,,60,60,,3,6,,,,,ZA-FS
 Bongani Hospital,26.7862,-27.9531,District Hospital,Free State,Lejweleputswa District Municipality,Matjhabeng Local Municipality,646920,,,420,,118,118,,4,4,,,,,ZA-FS
 Mofumahadi Manapo Mopeli Hospital,28.80507,-28.537,District Hospital,Free State,Thabo Mofutsanyana District Municipality,Maluti-a-Phofung Local Municipality,779330,,,270,,68,68,,4,4,,,,,ZA-FS
@@ -364,7 +364,7 @@ Moses Kotane Hospital,27.058001,-25.3809,District Hospital,North West,Bojanala P
 Mantsopa Hospital,,,,,,,,,,100,,20,25,,2,1,,,,,
 Nic Bodenstein Hospital,25.982959,-27.1893,District Hospital,North West,Dr Kenneth Kaunda District Municipality,Maquassi Hills Local Municipality,742821,,,88,,20,20,,6,1,,,,,ZA-NW
 Taung Hospital,24.79175,-27.5377,District Hospital,North West,Dr Ruth Segomotsi Mompati District Municipality,Greater Taung Local Municipality,459357,,,290,,50,50,,6,2,,,,,ZA-NW
-Klerksdorp Hospital,26.663295,-26.878627,Hospital  responds to COVID-19,North West,City of Matlosana,Klerksdorp,398676,,,,,,,,,,,,,,ZA-NW
+Klerksdorp Hospital,26.663295,-26.878627,Tertiary  Hospital,North West,City of Matlosana,Klerksdorp,398676,,,,,,,,,,,,,,ZA-NW
 Ganyesa Hospital,24.13858,-26.5449,District Hospital,North West,Dr Ruth Segomotsi Mompati District Municipality,Kagisano-Molopo Local Municipality,459357,,,60,,0,0,,4,2,,,,,ZA-NW
 Christiana Hospital,25.174237,-27.9081,District Hospital,North West,Dr Ruth Segomotsi Mompati District Municipality,Lekwa-Teemane Local Municipality,459357,,,42,,0,0,,0,0,,,,,ZA-NW
 Schweizer-Reneke Hospital,25.32879,-27.1818,District Hospital,North West,Dr Ruth Segomotsi Mompati District Municipality,Mamusa Local Municipality,459357,,,68,,0,0,,4,2,,,,,ZA-NW
@@ -384,8 +384,8 @@ Calvinia Hospital,19.77654,-31.4618,District Hospital,Northern Cape,Namakwa Dist
 Springbok Hospital,17.88323,-29.6605,District Hospital,Northern Cape,Namakwa District Municipality,Nama Khoi Local Municipality,115488,,Small,57,,6,6,,5,2,77,,,,ZA-NC
 De Aar Hospital,24.00825,-30.6596,District Hospital,Northern Cape,Pixley ka Seme District Municipality,Emthanjeni Local Municipality,195595,,Small,51,,0,0,,5,2,51,,,,ZA-NC
 RM Sobukwe Hospital,24.77263,-28.746,Tertiary  Hospital,Northern Cape,Frances Baard District Municipality,Sol Plaatje Local Municipality,387741,,,,,,,,,,,,,,ZA-NC
-Kimberly Hospital,24.773,-28.7462,Hospital  responds to COVID-19,Northern Cape,Frances Baard District Municipality,Sol Plaatjie Local  Municipality,387741,,,694,,146,146,,7,5,,,,,ZA-NC
-Tygerberg Hospital,18.611569,-33.9147,Hospital  responds to COVID-19,Western Cape,,Tygerberg Sub district,,,,1280,,352,352,,37,28,,,,,ZA-WC
+Kimberly Hospital,24.773,-28.7462,Tertiary  Hospital,Northern Cape,Frances Baard District Municipality,Sol Plaatjie Local  Municipality,387741,,,694,,146,146,,7,5,,,,,ZA-NC
+Tygerberg Hospital,18.611569,-33.9147,Tertiary  Hospital,Western Cape,,Tygerberg Sub district,,,,1280,,352,352,,37,28,,,,,ZA-WC
 Khotsong TB Hospital,28.82118,-30.3481,Specialised  Hospital,Eastern Cape,Alfred Nzo District Municipality,Matatiele Local Municipality,NaN,,,,,,,,,,,,,,ZA-EC
 NHN Matatiele Prv Hospital,28.808675,-30.3522,Private Hospital,Eastern Cape,Alfred Nzo District Municipality,Matatiele Local Municipality,NaN,,,31,,10,,,,0,,,,,ZA-EC
 Taylor  Bequest Hospital (Mat),28.80195,-30.3327,District Hospital,Eastern Cape,Alfred Nzo District Municipality,Matatiele Local Municipality,NaN,,,141,,16,16,,4,1,,,,,ZA-EC
@@ -810,7 +810,7 @@ Monte Vista Hospital,18.55638,-33.8775,Private Hospital,Western Cape,NaN,NaN,NaN
 NHN Icare Tyger Valley SA Hospital,18.637139,-33.8722,Private Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
 NHN M-Care Cape View Hospital,18.564195,-33.8926,Private Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
 DP Marais TB Hospital,18.46033,-34.0619,Specialised  Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-Mediclinic Marapong,,,,Western Cape,,,,,,12,,6,,,,1,,,,,ZA-WC
+Mediclinic Marapong,27.698209,-23.686846,Private Hospital,Western Cape,,,,,,12,,6,,,,1,,,,,ZA-WC
 False Bay Hospital,18.416805,-34.1319,District Hospital,Western Cape,Cape Town,Fish Hoek,NaN,,,65,,7,7,,1,2,,,,,ZA-WC
 Kenilworth Hospital,18.47313,-33.9948,Private Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
 Life Claremont Hospital,18.466387,-33.9865,Private Hospital,Western Cape,NaN,NaN,NaN,,,88,,33,,,,4,,,,,ZA-WC
@@ -895,7 +895,7 @@ Clanwilliam Hospital,18.89083,-32.1836,District Hospital,Western Cape,Cape Town,
 Vredendal Hospital,18.50472,-31.6694,District Hospital,Western Cape,Cape Town,Vredendal,NaN,,,75,,10,10,,2,1,,,,,ZA-WC
 Life West Coast Prv Hospital,17.990553,-32.9118,Private Hospital,Western Cape,Cape Town,NaN,NaN,,,60,,12,,,,2,,,,,ZA-WC
 Vredenburg Hospital,17.99083,-32.9136,District Hospital,Western Cape,Cape Town,NaN,NaN,,,81,,8,8,,3,1,,,,,ZA-WC
-Germiston Hospital,28.16422,-26.21972,District Hospital,,,,,,,230,,12,34,,0,4,,,,,
+Germiston Hospital,28.16422,-26.21972,District Hospital,Gauteng,,,,,,230,,12,34,,0,4,,,,,
 Die Wieg Hospital,18.664464,-33.150138,Specialised  Hospital,Western Cape,Cape Town,NaN,NaN,,,,,,,,,,,,,,ZA-WC
 Malmesbury Inf Hospital,18.7175,-33.4672,Specialised  Hospital,Western Cape,Cape Town,NaN,NaN,,,,,,,,,,,,,,ZA-WC
 Sonstraal TB Hospital,18.98694,-33.7119,Specialised  Hospital,Western Cape,West Coast District Municipality,Swartland Local Municipality,152 846,,,,,,,,,,,,,https://www.westerncape.gov.za/facility/sonstraal-hospital,ZA-WC
