@@ -74,6 +74,10 @@ report_id,date,YYYYMMDD,province, geo, gender, age, confirmed_date,transmission_
 73,23-04-2020,20200423,WC,ZA-WC,,,,,,https://sacoronavirus.co.za/2020/04/23/update-on-covid-19-23rd-april-2020-2/
 74,23-04-2020,20200423,WC,ZA-WC,,,,,,https://sacoronavirus.co.za/2020/04/23/update-on-covid-19-23rd-april-2020-2/
 75,23-04-2020,20200423,WC,ZA-WC,,,,,,https://sacoronavirus.co.za/2020/04/23/update-on-covid-19-23rd-april-2020-2/
+76,24-04-2020,20200424,WC,ZA-EC,,,,,,https://sacoronavirus.co.za/2020/04/24/update-on-covid-19-24th-april-2020/
+77,24-04-2020,20200424,WC,ZA-WC,,,,,,https://sacoronavirus.co.za/2020/04/24/update-on-covid-19-24th-april-2020/
+78,24-04-2020,20200424,KZN,ZA-KZN,,,,,,https://sacoronavirus.co.za/2020/04/24/update-on-covid-19-24th-april-2020/
+79,24-04-2020,20200424,KZN,ZA-KZN,,,,,,https://sacoronavirus.co.za/2020/04/24/update-on-covid-19-24th-april-2020/
 80,25-04-2020,20200425,LP,ZA-LP,,,,,,https://sacoronavirus.co.za/2020/04/25/update-on-covid-19-25th-april-2020/
 81,25-04-2020,20200425,WC,ZA-WC,,,,,,https://sacoronavirus.co.za/2020/04/25/update-on-covid-19-25th-april-2020/
 82,25-04-2020,20200425,WC,ZA-WC,,,,,,https://sacoronavirus.co.za/2020/04/25/update-on-covid-19-25th-april-2020/
