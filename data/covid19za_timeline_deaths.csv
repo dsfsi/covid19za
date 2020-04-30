@@ -88,7 +88,7 @@ report_id,date,YYYYMMDD,province, geo, gender, age, confirmed_date,transmission_
 87,26-04-2020,20200426,WC,ZA-WC,,,,,,https://sacoronavirus.co.za/2020/04/26/update-on-covid-19-26-april/
 88,27-04-2020,20200427,WC,ZA-WC,male,79,,,presented with shortness of breath and chest pain. His co-morbidities included diabetes hypertension chronic kidney disease and cardiac disease,https://sacoronavirus.co.za/2020/04/27/update-on-covid-19-27th-april-2020/
 89,27-04-2020,20200427,WC,ZA-WC,male,58,,,presented with imminent cardiovascular arrest. He was a person living with HIV and had obesity,https://sacoronavirus.co.za/2020/04/27/update-on-covid-19-27th-april-2020/
-90,27-04-2020,20200427,,,male,54,,,presented with respiratory distress. He had underlying diabetes,https://sacoronavirus.co.za/2020/04/27/update-on-covid-19-27th-april-2020/
+90,27-04-2020,20200427,KZN,ZA-KZN,male,54,,,presented with respiratory distress. He had underlying diabetes,https://sacoronavirus.co.za/2020/04/27/update-on-covid-19-27th-april-2020/
 91,28-04-2020,20200428,WC,ZA-WC,male,67,,,,https://sacoronavirus.co.za/2020/04/28/update-on-covid-19-28th-april-2020-with-media-presentation/
 92,28-04-2020,20200428,WC,ZA-WC,male,70,,,,https://sacoronavirus.co.za/2020/04/28/update-on-covid-19-28th-april-2020-with-media-presentation/
 93,28-04-2020,20200428,WC,ZA-WC,male,79,,,,https://sacoronavirus.co.za/2020/04/28/update-on-covid-19-28th-april-2020-with-media-presentation/
