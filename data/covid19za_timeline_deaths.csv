@@ -89,9 +89,9 @@ report_id,date,YYYYMMDD,province, geo, gender, age, confirmed_date,transmission_
 88,27-04-2020,20200427,WC,ZA-WC,male,79,,,presented with shortness of breath and chest pain. His co-morbidities included diabetes hypertension chronic kidney disease and cardiac disease,https://sacoronavirus.co.za/2020/04/27/update-on-covid-19-27th-april-2020/
 89,27-04-2020,20200427,WC,ZA-WC,male,58,,,presented with imminent cardiovascular arrest. He was a person living with HIV and had obesity,https://sacoronavirus.co.za/2020/04/27/update-on-covid-19-27th-april-2020/
 90,27-04-2020,20200427,,,male,54,,,presented with respiratory distress. He had underlying diabetes,https://sacoronavirus.co.za/2020/04/27/update-on-covid-19-27th-april-2020/
-91,28-04-2020,20200428,WC,ZA-WC,male,67,,,,
-92,28-04-2020,20200428,WC,ZA-WC,male,70,,,,
-93,28-04-2020,20200428,WC,ZA-WC,male,79,,,,
+91,28-04-2020,20200428,WC,ZA-WC,male,67,,,,https://sacoronavirus.co.za/2020/04/28/update-on-covid-19-28th-april-2020-with-media-presentation/
+92,28-04-2020,20200428,WC,ZA-WC,male,70,,,,https://sacoronavirus.co.za/2020/04/28/update-on-covid-19-28th-april-2020-with-media-presentation/
+93,28-04-2020,20200428,WC,ZA-WC,male,79,,,,https://sacoronavirus.co.za/2020/04/28/update-on-covid-19-28th-april-2020-with-media-presentation/
 94,29-04-2020,20200429,GP,ZA-GP,female,89,,,presented with shortness of breath,https://sacoronavirus.co.za/2020/04/29/update-on-covid-19-29th-april-2020/
 95,29-04-2020,20200429,GP,ZA-GP,female,82,,,had underlying chronic obstructive pulmonary disease. She presented with acute renal failure and a concomitant urinary tract infection,https://sacoronavirus.co.za/2020/04/29/update-on-covid-19-29th-april-2020/
 96,29-04-2020,20200429,GP,ZA-GP,male,80,,,presented with fever and shortness of breath. He too had underling COPD,https://sacoronavirus.co.za/2020/04/29/update-on-covid-19-29th-april-2020/
@@ -99,6 +99,6 @@ report_id,date,YYYYMMDD,province, geo, gender, age, confirmed_date,transmission_
 98,29-04-2020,20200429,WC,ZA-WC,female,61,,,presented with flu like symptoms and low blood oxygen. She was hypertensive.,https://sacoronavirus.co.za/2020/04/29/update-on-covid-19-29th-april-2020/
 99,29-04-2020,20200429,WC,ZA-WC,female,58,,,presented with fever and shortness of breath. She had poorly controlled hypertension,https://sacoronavirus.co.za/2020/04/29/update-on-covid-19-29th-april-2020/
 100,29-04-2020,20200429,WC,ZA-WC,female,33,,,presented with flu like symptoms and low blood oxygen. Her case is concerning as she was subsequently diagnosed with acute myocarditis (inflammation of the heart). She had no previously diagnosed co-morbidities,https://sacoronavirus.co.za/2020/04/29/update-on-covid-19-29th-april-2020/
-101,29-04-2020,20200429,KZN,ZA-KZN,female,89,,,underlying conditions of hypertension, diabetes and cardiac disease,https://sacoronavirus.co.za/2020/04/29/update-on-covid-19-29th-april-2020/
+101,29-04-2020,20200429,KZN,ZA-KZN,female,89,,,underlying conditions of hypertension diabetes and cardiac disease,https://sacoronavirus.co.za/2020/04/29/update-on-covid-19-29th-april-2020/
 102,29-04-2020,20200429,KZN,ZA-KZN,female,67,,,had underlying conditions of asthma and arthritis,https://sacoronavirus.co.za/2020/04/29/update-on-covid-19-29th-april-2020/
 103,29-04-2020,20200429,KZN,ZA-KZN,female,39,,, presented with pneumonia. She was a person living with HIV with superadded tuberculosis and cryptococcal meningitis.,https://sacoronavirus.co.za/2020/04/29/update-on-covid-19-29th-april-2020/
