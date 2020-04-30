@@ -77,7 +77,7 @@ Made with [contributors-img](https://contributors-img.web.app).
 
 Arxiv Preprint
 > @misc{marivate2020framework,
-    title={A Framework For Sharing Publicly Available Data To Inform The COVID-19 Outbreak in Africa: A South African Case Study},
+    title={Use of Available Data To Inform The COVID-19 Outbreak in South Africa: A Case Study},
     author={Vukosi Marivate and Herkulaas MvE Combrink},
     year={2020},
     eprint={2004.04813},

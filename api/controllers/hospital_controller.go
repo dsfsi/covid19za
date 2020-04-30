@@ -10,6 +10,7 @@ import (
 )
 
 type hospitalController struct {
+	BaseUrl string
 }
 
 type HospitalController interface {
@@ -17,14 +18,14 @@ type HospitalController interface {
 	GetPrivateHospitals(ctx echo.Context) error
 }
 
-func NewHospitalController() HospitalController {
-	return &hospitalController{}
+func NewHospitalController(baseUrl string) HospitalController {
+	return &hospitalController{baseUrl}
 }
 
 func (controller hospitalController) GetPublicHospitals(ctx echo.Context) error {
 	log.Println("Endpoint Hit: GetPublicHospitals")
 
-	url := fmt.Sprintf("%s%s", dataSetBaseUrl, publicHospitalPath)
+	url := fmt.Sprintf("%s%s", controller.BaseUrl, publicHospitalPath)
 	result := models.PublicHospitals{}
 	err := utils.UnmarshalCSV(url, &result)
 	if err != nil {
@@ -37,7 +38,7 @@ func (controller hospitalController) GetPublicHospitals(ctx echo.Context) error 
 func (controller hospitalController) GetPrivateHospitals(ctx echo.Context) error {
 	log.Println("Endpoint Hit: GetPrivateHospitals")
 
-	url := fmt.Sprintf("%s%s", dataSetBaseUrl, privateHospitalPath)
+	url := fmt.Sprintf("%s%s", controller.BaseUrl, privateHospitalPath)
 	result := models.PrivateHospitals{}
 	err := utils.UnmarshalCSV(url, &result)
 	if err != nil {

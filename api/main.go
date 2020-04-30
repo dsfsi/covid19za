@@ -4,12 +4,17 @@ import (
 	"github.com/dsfsi/covid19za/api/controllers"
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"
+	"flag"
 	"log"
 	"net/http"
 	"os"
 )
 
-func main() {
+const (
+	dataSetBaseUrl = "https://raw.githubusercontent.com/dsfsi/covid19za/master/data/"
+)
+
+func makeAPI(baseUrl string) *echo.Echo {
 	api := echo.New()
 	api.Use(middleware.Logger())
 	api.Use(middleware.Recover())
@@ -19,8 +24,8 @@ func main() {
 	}))
 
 	latestUpdateController := controllers.NewLatestUpdateController()
-	caseController := controllers.NewCaseController()
-	hospitalController := controllers.NewHospitalController()
+	caseController := controllers.NewCaseController(baseUrl)
+	hospitalController := controllers.NewHospitalController(baseUrl)
 
 	api.GET("/", func(ctx echo.Context) error {
 		return ctx.String(http.StatusOK, "COVID 19 data API for South Africa")
@@ -33,6 +38,14 @@ func main() {
 	api.GET("/cases/deaths", caseController.GetAllReportedDeaths)
 	api.GET("/cases/timeline/tests", caseController.GetTestingTimeline)
 	api.GET("/cases/timeline/provincial/cumulative", caseController.GetCumulativeProvincialTimeline)
+	return api
+}
+
+func main() {
+	baseUrlPtr := flag.String("base-url", dataSetBaseUrl, "Base URL from which to retrieve data")
+	flag.Parse()
+
+	api := makeAPI(*baseUrlPtr)
 
 	addr, err := determineListenAddress()
 	if err != nil {
