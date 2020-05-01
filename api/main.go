@@ -43,13 +43,18 @@ func makeAPI(baseUrl string) *echo.Echo {
 
 func main() {
 	baseUrlPtr := flag.String("base-url", dataSetBaseUrl, "Base URL from which to retrieve data")
+	bindPtr := flag.String("bind", "", "Address to listen on")
 	flag.Parse()
 
 	api := makeAPI(*baseUrlPtr)
 
-	addr, err := determineListenAddress()
-	if err != nil {
-		log.Fatal(err)
+	addr := *bindPtr
+	if addr == "" {
+		var err error
+		addr, err = determineListenAddress()
+		if err != nil {
+			log.Fatal(err)
+		}
 	}
 
 	log.Printf("Listening on %s...\n", addr)
@@ -59,7 +64,7 @@ func main() {
 func determineListenAddress() (string, error) {
 	port := os.Getenv("PORT")
 	if port == "" {
-		return ":5000" + port, nil
+		return ":5000", nil
 	}
 	return ":" + port, nil
 }
