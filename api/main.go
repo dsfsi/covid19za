@@ -1,10 +1,10 @@
 package main
 
 import (
+	"flag"
 	"github.com/dsfsi/covid19za/api/controllers"
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"
-	"flag"
 	"log"
 	"net/http"
 	"os"
