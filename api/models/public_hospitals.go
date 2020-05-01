@@ -10,7 +10,7 @@ type PublicHospital struct {
 	District              string `json:"district" csv:"district"`
 	Subdistrict           string `json:"Subdistrict" csv:"subdistrict"`
 	DistrictEstPopulation string `json:"DistrictEstPopulation" csv:"district_estimated_population"`
-	ServiceOffered        string `json:"ServiceOffered" csv:" service_offered_by_hospital"`
+	ServiceOffered        string `json:"ServiceOffered" csv:"service_offered_by_hospital"`
 	Size                  string `json:"Size" csv:"size_hospital"`
 	NumberOfBeds          string `json:"NumberOfBeds" csv:"number_of_beds"`
 	NumberOfPractitioners string `json:"NumberOfPractitioners" csv:"number_of_practitioners"`
