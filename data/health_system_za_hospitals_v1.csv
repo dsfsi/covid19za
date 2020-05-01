@@ -1,5 +1,5 @@
 Name,Long,Lat,Category,Province,District,Subdistrict,DistrictEstimatedPopulation,Main Health care Services Offered,Size,Beds Usable,Beds Approved,Beds Surgical Usable,Beds Surgical Approved,Surgeons Qualified,Sugeons_unqualified,Theatres,Total number of beds,Total number of staff ,Cluster,Webpage,Geo_subdivision
-Fort England Hospital,26.54361,-33.3156,Specialised  Hospital,Eastern Cape,Sarah Baartman District Municipality,Makana Local Municipality,479923,Psychiatry and Occupational Services,,,,,,,,,313,,,http://doctors-hospitals-medical-cape-town-south-africa.blaauwberg.net/hospitals_clinics_state_hospitals/state_public_hospitals_clinics_eastern_cape_south_africa/fort_england_hospital_grahamstown_eastern_cape_south_africa,ZA-EC
+Fort England Hospital,26.54361,-33.3156,Specialised  Hospital,Eastern Cape,Sarah Baartman District Municipality,Makana Local Municipality,479923,Psychiatry and Occupational Services,Large,,,,,,,,313,,,http://doctors-hospitals-medical-cape-town-south-africa.blaauwberg.net/hospitals_clinics_state_hospitals/state_public_hospitals_clinics_eastern_cape_south_africa/fort_england_hospital_grahamstown_eastern_cape_south_africa,ZA-EC
 Fort Beaufort Hospital,26.633571,-32.7802,District Hospital,Eastern Cape,Amathole District Municipality,Raymond Mhlaba Local Municipality,880790,"Surgical Services,Medical Services, Paediatrics, Maternity Services, Gynaecology Services, Operating Theatre & CSSD Services, Anti-Retroviral Treatment Services (ARVs), X-Ray Services, Physiotherapy, Laundry Services, Kitchen Services, PMTC & VCT",,70,70,15,15,0,2,1,,,,http://doctors-hospitals-medical-cape-town-south-africa.blaauwberg.net/hospitals_clinics_state_hospitals/state_public_hospitals_clinics_eastern_cape_south_africa/fort_beaufort_hospital_fort_beaufort_eastern_cape_south_africa,ZA-EC
 Bhisho Hospital,27.45516,-32.8277,District Hospital,Eastern Cape,Buffalo City Metropolitan Municipality,Buffalo City Sub-District,834997,"Anti-Retroviral Treatment Services (ARVs), Emergency Services, Gynaecology Services,Kitchen Services,Laboratory Services,Laundry Services,Maternity Services,Medical Services,O.P.D. Services,Occupational Services,Operating Theatre & CSSD Services,Paediatrics,Pharmacy Services,Physiotherapy,Post Trauma Counselling Services,Surgical Services,X-Ray Services",,205,205,40,40,0,3,2,,,,http://doctors-hospitals-medical-cape-town-south-africa.blaauwberg.net/hospitals_clinics_state_hospitals/state_public_hospitals_clinics_eastern_cape_south_africa/bhisho_hospital_bhisho_eastern_cape_south_africa,ZA-EC
 Grey Hospital,27.39579,-32.8793,District Hospital,Eastern Cape,Buffalo City Metropolitan Municipality,Buffalo City Sub-District,834997,,,67,67,18,18,0,4,1,,,,,ZA-EC
@@ -405,96 +405,96 @@ Nompumelelo Hospital,27.13244,-33.2092,District Hospital,Eastern Cape,Amathole D
 Adelaide Hospital,26.29427,-32.7009,District Hospital,Eastern Cape,Amathole District Municipality,Raymond Mhlaba Local Municipality,NaN,,,60,,15,15,,3,1,,,,,ZA-EC
 Bedford Hospital,26.083139,-32.6762,District Hospital,Eastern Cape,Amathole District Municipality,Amathole District Municipality,NaN,,,60,,0,0,,1,1,,,,,ZA-EC
 Tower Hospital,26.63678,-32.7702,Specialised  Hospital,Eastern Cape,Amathole District Municipality,Raymond Mhlaba Local Municipality,NaN,,,,,,,,,,,,,,ZA-EC
-Victoria Hospital,26.84678,-32.7752,District Hospital,Eastern Cape,Cape Town,Wynberg,NaN,,,193,,52,52,,3,3,,,,,ZA-EC
-Winterberg TB Hospital,26.656323,-32.7793,Specialised  Hospital,Eastern Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-EC
-Fort Grey TB Hospital,27.82122,-33.022,Specialised  Hospital,Eastern Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-EC
-Life Beacon Bay Hospital,27.939663,-32.9489,Private Hospital,Eastern Cape,NaN,NaN,NaN,,,168,,71,,,,6,,,,,ZA-EC
-Life East London Prv Hospital,27.900134,-33.0125,Private Hospital,Eastern Cape,NaN,NaN,NaN,,,100,,0,,,,0,,,,,ZA-EC
-Life Grey Monument Clinic Hospital,27.397414,-32.8787,Private Hospital,Eastern Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-EC
-Life St Dominic's Hospital,27.90313,-32.9983,Private Hospital,Eastern Cape,NaN,NaN,NaN,,,183,,76,,,,5,,,,,ZA-EC
-Life St James Hospital,27.901072,-33.0009,Private Hospital,Eastern Cape,NaN,NaN,NaN,,,28,,28,,,,4,,,,,ZA-EC
-Life St Mark's Hospital,27.901159,-32.9977,Private Hospital,Eastern Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-EC
-Newhaven Hospital,27.90592,-32.9828,Specialised  Hospital,Eastern Cape,NaN,NaN,NaN,,,45,,0,0,,0,0,,,,,ZA-EC
-NHN East London Eye Hospital,27.897928,-33.0019,Private Hospital,Eastern Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-EC
-NHN Icare Gonubie Med Centre,27.993444,-32.9362,Private Hospital,Eastern Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-EC
-Nkqubela Hospital,27.74088,-32.9328,Specialised  Hospital,Eastern Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-EC
-Dordrecht Hospital,27.045615,-31.3913,District Hospital,Eastern Cape,NaN,NaN,NaN,,,35,,0,0,,0,0,,,,,ZA-EC
-Glen Grey Hospital,27.19939,-31.7199,District Hospital,Eastern Cape,NaN,NaN,NaN,,,151,,0,0,,0,1,,,,,ZA-EC
-Indwe Hospital,27.34042,-31.4683,District Hospital,Eastern Cape,NaN,NaN,NaN,,,31,,0,0,,0,0,,,,,ZA-EC
-All Saints Hospital,28.05041,-31.6619,District Hospital,Eastern Cape,NaN,NaN,NaN,,,244,,48,48,,7,2,,,,,ZA-EC
-Mjanyana Hospital,28.1038,-31.836,District Hospital,Eastern Cape,NaN,NaN,NaN,,,100,,22,22,,2,1,,,,,ZA-EC
-Hewu Hospital,26.80522,-32.1727,District Hospital,Eastern Cape,NaN,NaN,NaN,,,208,,80,80,,4,2,,,,,ZA-EC
-Komani Hospital,26.907204,-31.9171,Specialised  Hospital,Eastern Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-EC
-Life Queenstown Prv Hospital,26.880087,-31.8979,Private Hospital,Eastern Cape,NaN,NaN,NaN,,,70,,15,,,,1,,,,,ZA-EC
-M Venter Hospital,26.25884,-32.0089,District Hospital,Eastern Cape,NaN,NaN,NaN,,,20,,0,0,,0,0,,,,,ZA-EC
-Molteno Hospital,26.3555,-31.3916,District Hospital,Eastern Cape,NaN,NaN,NaN,,,25,,0,0,,0,1,,,,,ZA-EC
-NHN Care Cure Queenstown Sub-Acute Hospital,26.858113,-31.8947,Private Hospital,Eastern Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-EC
-Sterkstroom Hospital,26.55338,-31.5531,District Hospital,Eastern Cape,NaN,NaN,NaN,,,8,,0,0,,0,0,,,,,ZA-EC
-Cofimvaba Hospital,27.58348,-32.0119,District Hospital,Eastern Cape,NaN,NaN,NaN,,,140,,28,28,,0,1,,,,,ZA-EC
-Cradock Hospital,25.62243,-32.1673,District Hospital,Eastern Cape,NaN,NaN,NaN,,,83,,0,0,,0,1,,,,,ZA-EC
-Wilhelm Stahl Hospital,24.99351,-31.4917,District Hospital,Eastern Cape,NaN,NaN,NaN,,,32,,10,10,,5,2,,,,,ZA-EC
-Cala Hospital,27.68274,-31.5223,District Hospital,Eastern Cape,NaN,NaN,NaN,,,64,,16,16,,9,2,,,,,ZA-EC
-Elliot Hospital,27.83797,-31.3371,District Hospital,Eastern Cape,NaN,NaN,NaN,,,52,,20,20,,2,1,,,,,ZA-EC
-Maclear Hospital,28.34775,-31.0759,District Hospital,Eastern Cape,NaN,NaN,NaN,,,38,,12,12,,0,0,,,,,ZA-EC
-Taylor Bequest  Hospital (Elu),28.50961,-30.6894,District Hospital,Eastern Cape,NaN,NaN,NaN,,,141,,16,16,,4,1,,,,,ZA-EC
-Cloete Joubert Hospital,27.58507,-30.9676,District Hospital,Eastern Cape,NaN,NaN,NaN,,,25,,0,0,,0,0,,,,,ZA-EC
-Empilisweni Hospital,27.35337,-30.5332,District Hospital,Eastern Cape,NaN,NaN,NaN,,,93,,15,15,,2,2,,,,,ZA-EC
-Lady  Grey Hospital,27.21188,-30.7128,District Hospital,Eastern Cape,NaN,NaN,NaN,,,30,,0,0,,0,1,,,,,ZA-EC
-Umlamli Hospital,27.47457,-30.5604,District Hospital,Eastern Cape,NaN,NaN,NaN,,,74,,0,0,,2,2,,,,,ZA-EC
-Aliwal North Hospital,26.70719,-30.6969,District Hospital,Eastern Cape,NaN,NaN,NaN,,,48,,10,10,,0,1,,,,,ZA-EC
-Burgersdorp Hospital,26.31398,-30.9935,District Hospital,Eastern Cape,NaN,NaN,NaN,,,24,,0,0,,0,1,,,,,ZA-EC
-Jamestown Hospital,26.8074,-31.1236,District Hospital,Eastern Cape,NaN,NaN,NaN,,,10,,0,0,,0,0,,,,,ZA-EC
-Steynsburg Hospital,25.813211,-31.2932,District Hospital,Eastern Cape,NaN,NaN,NaN,,,28,,0,0,,0,0,,,,,ZA-EC
-Dora Nginza Hospital,25.563114,-33.8825,Regional Hospital,Eastern Cape,NaN,NaN,NaN,,,650,,0,0,,0,4,,,,,ZA-EC
-J Pearson TB Hospital,25.46905,-33.8919,Specialised  Hospital,Eastern Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-EC
+Victoria Alice Hospital  ,26.84678,-32.77527,District Hospital,Eastern Cape,Amathole District Municipality,Raymond Mhlaba Local Municipality,NaN,,,193,,52,52,,3,3,,,,https://en.wikipedia.org/wiki/Victoria_Hospital_(Alice),ZA-EC
+Winterberg TB Hospital,26.656323,-32.7793,Specialised  Hospital,Eastern Cape,Amathole District Municipality,Raymond Mhlaba Local Municipality,NaN,,,,,,,,,,,,,,ZA-EC
+Fort Grey TB Hospital,27.82122,-33.022,Specialised  Hospital,Eastern Cape,Buffalo City Metropolitan Municipality,Buffalo City Sub-District,NaN,,,,,,,,,,,,,,ZA-EC
+Life Beacon Bay Hospital,27.939663,-32.9489,Private Hospital,Eastern Cape,Buffalo City Metropolitan Municipality,Buffalo City Sub-District,NaN,,,168,,71,,,,6,,,,,ZA-EC
+Life East London Prv Hospital,27.900134,-33.0125,Private Hospital,Eastern Cape,Buffalo City Metropolitan Municipality,Buffalo City Sub-District,NaN,,,100,,0,,,,0,,,,,ZA-EC
+Life Grey Monument Clinic Hospital,27.397414,-32.8787,Private Hospital,Eastern Cape,Buffalo City Metropolitan Municipality,NaN,NaN,,,,,,,,,,,,,,ZA-EC
+Life St Dominic's Hospital,27.90313,-32.9983,Private Hospital,Eastern Cape,Buffalo City Metropolitan Municipality,NaN,NaN,,,183,,76,,,,5,,,,,ZA-EC
+Life St James Hospital,27.901072,-33.0009,Private Hospital,Eastern Cape,Buffalo City Metropolitan Municipality,NaN,NaN,,,28,,28,,,,4,,,,,ZA-EC
+Life St Mark's Hospital,27.901159,-32.9977,Private Hospital,Eastern Cape,Buffalo City Metropolitan Municipality,NaN,NaN,,,,,,,,,,,,,,ZA-EC
+Newhaven Hospital,27.90592,-32.9828,Specialised  Hospital,Eastern Cape,Buffalo City Metropolitan Municipality,NaN,NaN,,,45,,0,0,,0,0,,,,,ZA-EC
+NHN East London Eye Hospital,27.897928,-33.0019,Private Hospital,Eastern Cape,Buffalo City Metropolitan Municipality,NaN,NaN,,,,,,,,,,,,,,ZA-EC
+NHN Icare Gonubie Med Centre,27.993444,-32.9362,Private Hospital,Eastern Cape,Buffalo City Metropolitan Municipality,NaN,NaN,,,,,,,,,,,,,,ZA-EC
+Nkqubela Hospital,27.74088,-32.9328,Specialised  Hospital,Eastern Cape,Buffalo City Metropolitan Municipality,NaN,NaN,,,,,,,,,,,,,,ZA-EC
+Dordrecht Hospital,27.045615,-31.3913,District Hospital,Eastern Cape,Chris Hani District Municipality,Emalahleni Local Municipality,NaN,,,35,,0,0,,0,0,,,,,ZA-EC
+Glen Grey Hospital,27.19939,-31.7199,District Hospital,Eastern Cape,Chris Hani District Municipality,NaN,NaN,,,151,,0,0,,0,1,,,,,ZA-EC
+Indwe Hospital,27.34042,-31.4683,District Hospital,Eastern Cape,Chris Hani District Municipality,NaN,NaN,,,31,,0,0,,0,0,,,,,ZA-EC
+All Saints Hospital,28.05041,-31.6619,District Hospital,Eastern Cape,Chris Hani District Municipality,Engcobo Local Municipality,NaN,,,244,,48,48,,7,2,,,,,ZA-EC
+Mjanyana Hospital,28.1038,-31.836,District Hospital,Eastern Cape,Chris Hani District Municipality,Engcobo Local Municipality,NaN,,,100,,22,22,,2,1,,,,,ZA-EC
+Hewu Hospital,26.80522,-32.1727,District Hospital,Eastern Cape,Chris Hani District Municipality,Enoch Mgijima Local Municipality,NaN,,,208,,80,80,,4,2,,,,,ZA-EC
+Komani Hospital,26.907204,-31.9171,Specialised  Hospital,Eastern Cape,Chris Hani District Municipality,Enoch Mgijima Local Municipality,NaN,,,,,,,,,,,,,,ZA-EC
+Life Queenstown Private Hospital,26.880087,-31.8979,Private Hospital,Eastern Cape,Chris Hani District Municipality,Enoch Mgijima Local Municipality,NaN,,,70,,15,,,,1,,,,,ZA-EC
+M Venter Hospital,26.25884,-32.0089,District Hospital,Eastern Cape,Chris Hani District Municipality,Enoch Mgijima Local Municipality,NaN,,,20,,0,0,,0,0,,,,,ZA-EC
+Molteno Hospital,26.3555,-31.3916,District Hospital,Eastern Cape,Chris Hani District Municipality,Enoch Mgijima Local Municipality,NaN,,,25,,0,0,,0,1,,,,,ZA-EC
+NHN Care Cure Queenstown Sub-Acute Hospital,26.858113,-31.8947,Private Hospital,Eastern Cape,Chris Hani District Municipality,Enoch Mgijima Local Municipality,NaN,,,,,,,,,,,,,,ZA-EC
+Sterkstroom Hospital,26.55338,-31.5531,District Hospital,Eastern Cape,Chris Hani District Municipality,Enoch Mgijima Local Municipality,NaN,,,8,,0,0,,0,0,,,,,ZA-EC
+Cofimvaba Hospital,27.58348,-32.0119,District Hospital,Eastern Cape,Chris Hani District Municipality,Intsika Yethu Local Municipality,NaN,,,140,,28,28,,0,1,,,,,ZA-EC
+Cradock Hospital,25.62243,-32.1673,District Hospital,Eastern Cape,Chris Hani District Municipality,Inxuba Yethemba Local Municipality,NaN,,,83,,0,0,,0,1,,,,,ZA-EC
+Wilhelm Stahl Hospital,24.99351,-31.4917,District Hospital,Eastern Cape,Chris Hani District Municipality,Inxuba Yethemba Local Municipality,NaN,,,32,,10,10,,5,2,,,,,ZA-EC
+Cala Hospital,27.68274,-31.5223,District Hospital,Eastern Cape,Chris Hani District Municipality,Sakhisizwe Local Municipality,NaN,,,64,,16,16,,9,2,,,,,ZA-EC
+Elliot Hospital,27.83797,-31.3371,District Hospital,Eastern Cape,Chris Hani District Municipality,Sakhisizwe Local Municipality,NaN,,,52,,20,20,,2,1,,,,,ZA-EC
+Maclear Hospital,28.34775,-31.0759,District Hospital,Eastern Cape,Joe Gqabi District Municipality,Elundini Local Municipality,NaN,,,38,,12,12,,0,0,,,,,ZA-EC
+Taylor Bequest  Hospital (Elu),28.50961,-30.6894,District Hospital,Eastern Cape,Joe Gqabi District Municipality,Elundini Local Municipality,NaN,,,141,,16,16,,4,1,,,,,ZA-EC
+Cloete Joubert Hospital,27.58507,-30.9676,District Hospital,Eastern Cape,Joe Gqabi District Municipality,Senqu Local Municipali,NaN,,,25,,0,0,,0,0,,,,,ZA-EC
+Empilisweni Hospital,27.35337,-30.5332,District Hospital,Eastern Cape,Joe Gqabi District Municipality,Senqu Local Municipality,NaN,,,93,,15,15,,2,2,,,,,ZA-EC
+Lady  Grey Hospital,27.21188,-30.7128,District Hospital,Eastern Cape,Joe Gqabi District Municipality,Senqu Local Municipality,NaN,,,30,,0,0,,0,1,,,,,ZA-EC
+Umlamli Hospital,27.47457,-30.5604,District Hospital,Eastern Cape,Joe Gqabi District Municipality,Senqu Local Municipality,NaN,,,74,,0,0,,2,2,,,,,ZA-EC
+Aliwal North Hospital,26.70719,-30.6969,District Hospital,Eastern Cape,Joe Gqabi District Municipality,Walter Sisulu Local Municipality,NaN,,,48,,10,10,,0,1,,,,,ZA-EC
+Burgersdorp Hospital,26.31398,-30.9935,District Hospital,Eastern Cape,Joe Gqabi District Municipality,Walter Sisulu Local Municipality,NaN,,,24,,0,0,,0,1,,,,,ZA-EC
+Jamestown Hospital,26.8074,-31.1236,District Hospital,Eastern Cape,Joe Gqabi District Municipality,Walter Sisulu Local Municipality,NaN,,,10,,0,0,,0,0,,,,,ZA-EC
+Steynsburg Hospital,25.813211,-31.2932,District Hospital,Eastern Cape,Joe Gqabi District Municipality,Walter Sisulu Local Municipality,NaN,,,28,,0,0,,0,0,,,,,ZA-EC
+Dora Nginza Hospital,25.563114,-33.8825,Regional Hospital,Eastern Cape,Nelson Mandela Bay Municipality,Nelson Mandela A Health sub-District,NaN,,,650,,0,0,,0,4,,,,,ZA-EC
+J Pearson TB Hospital,25.46905,-33.8919,Specialised  Hospital,Eastern Cape,Nelson Mandela Bay Municipality,Nelson Mandela B Health sub-District,NaN,,,,,,,,,,,,,,ZA-EC
 Ventersdorp Hospital,,,,North West,,,,,,40,,10,10,,0,1,,,,,ZA-NW
-Netcare Cuyler Hospital,25.391914,-33.765,Private Hospital,Eastern Cape,NaN,NaN,NaN,,,120,,52,,,,5,,,,,ZA-EC
-Orsmond TB Hospital,25.38002,-33.7474,Specialised  Hospital,Eastern Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-EC
-Uitenhage Hospital,25.40679,-33.7415,District Hospital,Eastern Cape,NaN,NaN,NaN,,,223,,40,40,,2,3,,,,,ZA-EC
-Elizabeth Donkin Hospital,25.62671,-33.9797,Specialised  Hospital,Eastern Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-EC
-Empilweni TB Hospital,25.58545,-33.9086,Specialised  Hospital,Eastern Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-EC
-Life Hunterscraig Hospital,25.60982,-33.9683,Private Hospital,Eastern Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-EC
-Life Mercantile Hospital,25.575102,-33.9306,Private Hospital,Eastern Cape,NaN,NaN,NaN,,,202,,59,,,,5,,,,,ZA-EC
+Netcare Cuyler Hospital,25.391914,-33.765,Private Hospital,Eastern Cape,Nelson Mandela Bay Municipality,Nelson Mandela B Health sub-District,NaN,,,120,,52,,,,5,,,,,ZA-EC
+Orsmond TB Hospital,25.38002,-33.7474,Specialised  Hospital,Eastern Cape,Nelson Mandela Bay Municipality,Nelson Mandela B Health sub-District,NaN,,,,,,,,,,,,,,ZA-EC
+Uitenhage Hospital,25.40679,-33.7415,District Hospital,Eastern Cape,Nelson Mandela Bay Municipality,Nelson Mandela B Health sub-District,NaN,,,223,,40,40,,2,3,,,,,ZA-EC
+Elizabeth Donkin Hospital,25.62671,-33.9797,Specialised  Hospital,Eastern Cape,Nelson Mandela Bay Municipality,Nelson Mandela C Health sub-District,NaN,,,,,,,,,,,,,,ZA-EC
+Empilweni TB Hospital,25.58545,-33.9086,Specialised  Hospital,Eastern Cape,Nelson Mandela Bay Municipality,Nelson Mandela C Health sub-District,NaN,,,,,,,,,,,,,,ZA-EC
+Life Hunterscraig Hospital,25.60982,-33.9683,Private Hospital,Eastern Cape,Nelson Mandela Bay Municipality,Nelson Mandela C Health sub-District,NaN,,,,,,,,,,,,,,ZA-EC
+Life Mercantile Hospital,25.575102,-33.9306,Private Hospital,Eastern Cape,Nelson Mandela Bay Municipality,Nelson Mandela C Health sub-District,NaN,,,202,,59,,,,5,,,,,ZA-EC
 Mercidoc Day Clinic,,,,Eastern Cape,,,,,,20,,20,,,,2,,,,,ZA-EC
-Life St George's Hospital,25.605816,-33.9678,Private Hospital,Eastern Cape,NaN,NaN,NaN,,,216,,106,,,,14,,,,,ZA-EC
-Netcare Greenacres Hospital,25.579902,-33.9517,Private Hospital,Eastern Cape,NaN,NaN,NaN,,,340,,157,,,,14,,,,,ZA-EC
-NHN Aurora Rehab Hospital,25.560195,-33.969,Private Hospital,Eastern Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-EC
-NHN Icare Walmer Med Centre,25.555528,-33.9913,Private Hospital,Eastern Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-EC
-Oasim Hospital,25.613479,-33.963,Private Hospital,Eastern Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-EC
-PE Prov Hospital,25.59982,-33.9584,Tertiary  Hospital,Eastern Cape,NaN,NaN,NaN,,,351,,208,208,,0,10,,,,,ZA-EC
-Westways Hospital,25.558915,-33.9478,Private Hospital,Eastern Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-EC
-Holy Cross Hospital,29.49531,-31.0812,District Hospital,Eastern Cape,NaN,NaN,NaN,,,224,,0,0,,1,1,,,,,ZA-EC
-St Elizabeth's Hospital,29.56532,-31.3598,Regional Hospital,Eastern Cape,NaN,NaN,NaN,,,272,,80,80,,2,3,,,,,ZA-EC
-Bedford Orth Hospital,28.70717,-31.576,Specialised  Hospital,Eastern Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-EC
-Life St Mary's Private Hospital,28.785432,-31.5909,Private Hospital,Eastern Cape,NaN,NaN,NaN,,,131,,38,,,,3,,,,,ZA-EC
-Mthatha Chest Hospital,28.76497,-31.5911,Specialised  Hospital,Eastern Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-EC
-Mthatha General Hospital,28.76593,-31.5903,Regional Hospital,Eastern Cape,NaN,NaN,NaN,,,348,,60,60,,10,7,,,,,ZA-EC
-Nelson Mandela Academic Hospital,28.764234,-31.5881,Central Hospital,Eastern Cape,NaN,NaN,NaN,,,520,,180,180,,16,11,,,,,ZA-EC
-NHN Crossmed Mthatha Prv Hospital,28.761941,-31.5938,Private Hospital,Eastern Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-EC
-NHN Mthatha Sub-Acute Hospital,28.785204,-31.5913,Private Hospital,Eastern Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-EC
-Zitulele Hospital,29.09162,-32.0505,District Hospital,Eastern Cape,NaN,NaN,NaN,,,130,,25,25,,13,1,,,,,ZA-EC
-Dr Malizo Mpehle Hospital,28.778056,-31.3165,District Hospital,Eastern Cape,NaN,NaN,NaN,,,155,,30,30,,0,1,,,,,ZA-EC
-Nessie Knight Hospital,28.68223,-31.0091,District Hospital,Eastern Cape,NaN,NaN,NaN,,,150,,30,30,,2,1,,,,,ZA-EC
-St Lucy's Hospital,28.62983,-31.3007,District Hospital,Eastern Cape,NaN,NaN,NaN,,,40,,0,0,,0,0,,,,,ZA-EC
-Canzibe Hospital,29.06588,-31.8088,District Hospital,Eastern Cape,NaN,NaN,NaN,,,140,,0,0,,0,1,,,,,ZA-EC
-St Barnabas Hospital,29.11617,-31.5642,District Hospital,Eastern Cape,NaN,NaN,NaN,,,169,,0,0,,0,0,,,,,ZA-EC
-Bambisana Hospital,29.45397,-31.4501,District Hospital,Eastern Cape,NaN,NaN,NaN,,,120,,0,0,,0,1,,,,,ZA-EC
-Isilimela Hospital,29.35888,-31.7342,District Hospital,Eastern Cape,NaN,NaN,NaN,,,110,,0,0,,2,1,,,,,ZA-EC
-Andries Vosloo Hospital,25.59525,-32.7218,District Hospital,Eastern Cape,NaN,NaN,NaN,,,74,,16,16,,8,1,,,,,ZA-EC
-Aberdeen Hospital,24.06093,-32.4862,District Hospital,Eastern Cape,NaN,NaN,NaN,,,18,,0,0,,0,0,,,,,ZA-EC
-M Parkes TB Hospital,24.55619,-32.2678,Specialised  Hospital,Eastern Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-EC
-Sawas Hospital,24.66203,-32.9422,District Hospital,Eastern Cape,NaN,NaN,NaN,,,38,,6,6,,0,0,,,,,ZA-EC
-Willowmore Hospital,23.46757,-33.3004,District Hospital,Eastern Cape,NaN,NaN,NaN,,,25,,0,0,,0,0,,,,,ZA-EC
-Life Isivivana Hospital,24.780218,-34.0299,Private Hospital,Eastern Cape,NaN,NaN,NaN,,,33,,12,,,,1,,,,,ZA-EC
-PZ Meyer Hospital,24.75869,-34.0225,Specialised  Hospital,Eastern Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-EC
-BJ Vorster Hospital,24.29786,-33.9515,District Hospital,Eastern Cape,NaN,NaN,NaN,,,42,,0,0,,0,0,,,,,ZA-EC
-Settlers Hospital,26.51464,-33.3024,District Hospital,Eastern Cape,NaN,NaN,NaN,,,178,,20,20,,2,1,,,,,ZA-EC
-Temba TB Hospital,26.54657,-33.3069,Specialised  Hospital,Eastern Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-EC
-Marjorie Parrish TB Hospital,26.88126,-33.5624,Specialised  Hospital,Eastern Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-EC
-Netcare Port Alfred Hospital,26.876792,-33.5966,Private Hospital,Eastern Cape,NaN,NaN,NaN,,,30,,14,,,,2,,,,,ZA-EC
+Life St George's Hospital,25.605816,-33.9678,Private Hospital,Eastern Cape,Nelson Mandela Bay Municipality,Nelson Mandela C Health sub-District,NaN,,,216,,106,,,,14,,,,,ZA-EC
+Netcare Greenacres Hospital,25.579902,-33.9517,Private Hospital,Eastern Cape,Nelson Mandela Bay Municipality,Nelson Mandela C Health sub-District,NaN,,,340,,157,,,,14,,,,,ZA-EC
+NHN Aurora Rehab Hospital,25.560195,-33.969,Private Hospital,Eastern Cape,Nelson Mandela Bay Municipality,Nelson Mandela C Health sub-District,NaN,,,,,,,,,,,,,,ZA-EC
+NHN Icare Walmer Med Centre,25.555528,-33.9913,Private Hospital,Eastern Cape,Nelson Mandela Bay Municipality,Nelson Mandela C Health sub-District,NaN,,,,,,,,,,,,,,ZA-EC
+Oasim Hospital,25.613479,-33.963,Private Hospital,Eastern Cape,Nelson Mandela Bay Municipality,Nelson Mandela C Health sub-District,NaN,,,,,,,,,,,,,,ZA-EC
+Port Elizabeth Provincial Hospital,25.59982,-33.9584,Tertiary  Hospital,Eastern Cape,Nelson Mandela Bay Municipality,Nelson Mandela C Health sub-District,NaN,,,351,,208,208,,0,10,,,,,ZA-EC
+Westways Hospital,25.558915,-33.9478,Private Hospital,Eastern Cape,Nelson Mandela Bay Municipality,Nelson Mandela C Health sub-District,NaN,,,,,,,,,,,,,,ZA-EC
+Holy Cross Hospital,29.49531,-31.0812,District Hospital,Eastern Cape,Oliver Tambo District Municipality,Ingquza Hill Local Municipality,NaN,,,224,,0,0,,1,1,,,,,ZA-EC
+St Elizabeth's Hospital,29.56532,-31.3598,Regional Hospital,Eastern Cape,Oliver Tambo District Municipality,Ingquza Hill Local Municipality,NaN,,,272,,80,80,,2,3,,,,,ZA-EC
+Bedford Orth Hospital,28.70717,-31.576,Specialised  Hospital,Eastern Cape,Oliver Tambo District Municipality,King Sabata Dalindyebo Local Municipality,NaN,,,,,,,,,,,,,,ZA-EC
+Life St Mary's Private Hospital,28.785432,-31.5909,Private Hospital,Eastern Cape,Oliver Tambo District Municipality,King Sabata Dalindyebo Local Municipality,NaN,,,131,,38,,,,3,,,,,ZA-EC
+Mthatha Chest Hospital,28.76497,-31.5911,Specialised  Hospital,Eastern Cape,Oliver Tambo District Municipality,King Sabata Dalindyebo Local Municipality,NaN,,,,,,,,,,,,,,ZA-EC
+Mthatha General Hospital,28.76593,-31.5903,Regional Hospital,Eastern Cape,Oliver Tambo District Municipality,King Sabata Dalindyebo Local Municipality,NaN,,,348,,60,60,,10,7,,,,,ZA-EC
+Nelson Mandela Academic Hospital,28.764234,-31.5881,Central Hospital,Eastern Cape,Oliver Tambo District Municipality,King Sabata Dalindyebo Local Municipality,NaN,,,520,,180,180,,16,11,,,,,ZA-EC
+NHN Crossmed Mthatha Private Hospital,28.761941,-31.5938,Private Hospital,Eastern Cape,Oliver Tambo District Municipality,King Sabata Dalindyebo Local Municipality,NaN,,,,,,,,,,,,,,ZA-EC
+NHN Mthatha Sub-Acute Hospital,28.785204,-31.5913,Private Hospital,Eastern Cape,Oliver Tambo District Municipality,King Sabata Dalindyebo Local Municipality,NaN,,,,,,,,,,,,,,ZA-EC
+Zitulele Hospital,29.09162,-32.0505,District Hospital,Eastern Cape,Oliver Tambo District Municipality,King Sabata Dalindyebo Local Municipality,NaN,,,130,,25,25,,13,1,,,,,ZA-EC
+Dr Malizo Mpehle Hospital,28.778056,-31.3165,District Hospital,Eastern Cape,Oliver Tambo District Municipality,Mhlontlo Local Municipality,NaN,,,155,,30,30,,0,1,,,,,ZA-EC
+Nessie Knight Hospital,28.68223,-31.0091,District Hospital,Eastern Cape,Oliver Tambo District Municipality,Mhlontlo Local Municipality,NaN,,,150,,30,30,,2,1,,,,,ZA-EC
+St Lucy's Hospital,28.62983,-31.3007,District Hospital,Eastern Cape,Oliver Tambo District Municipality,Mhlontlo Local Municipality,NaN,,,40,,0,0,,0,0,,,,,ZA-EC
+Canzibe Hospital,29.06588,-31.8088,District Hospital,Eastern Cape,Oliver Tambo District Municipality,Nyandeni Local Municipality,NaN,,,140,,0,0,,0,1,,,,,ZA-EC
+St Barnabas Hospital,29.11617,-31.5642,District Hospital,Eastern Cape,Oliver Tambo District Municipality,Nyandeni Local Municipality,NaN,,,169,,0,0,,0,0,,,,,ZA-EC
+Bambisana Hospital,29.45397,-31.4501,District Hospital,Eastern Cape,Oliver Tambo District Municipality,Port St Johns Local Municipality,NaN,,,120,,0,0,,0,1,,,,,ZA-EC
+Isilimela Hospital,29.35888,-31.7342,District Hospital,Eastern Cape,Oliver Tambo District Municipality,Port St Johns Local Municipality,NaN,,,110,,0,0,,2,1,,,,,ZA-EC
+Andries Vosloo Hospital,25.59525,-32.7218,District Hospital,Eastern Cape,Sarah Baartman District Municipality,Blue Crane Route Local Municipality,NaN,,,74,,16,16,,8,1,,,,,ZA-EC
+Aberdeen Hospital,24.06093,-32.4862,District Hospital,Eastern Cape,Sarah Baartman District Municipality,Dr Beyers Naudé Local Municipality,NaN,,,18,,0,0,,0,0,,,,,ZA-EC
+M Parkes TB Hospital,24.55619,-32.2678,Specialised  Hospital,Eastern Cape,Sarah Baartman District Municipality,Dr Beyers Naudé Local Municipality,NaN,,,,,,,,,,,,,,ZA-EC
+Sawas Hospital,24.66203,-32.9422,District Hospital,Eastern Cape,Sarah Baartman District Municipality,Dr Beyers Naudé Local Municipality,NaN,,,38,,6,6,,0,0,,,,,ZA-EC
+Willowmore Hospital,23.46757,-33.3004,District Hospital,Eastern Cape,Sarah Baartman District Municipality,Dr Beyers Naudé Local Municipality,NaN,,,25,,0,0,,0,0,,,,,ZA-EC
+Life Isivivana Hospital,24.780218,-34.0299,Private Hospital,Eastern Cape,Sarah Baartman District Municipality,Kouga Local Municipality,NaN,,,33,,12,,,,1,,,,,ZA-EC
+PZ Meyer Hospital,24.75869,-34.0225,Specialised  Hospital,Eastern Cape,Sarah Baartman District Municipality,Kouga Local Municipality,NaN,,,,,,,,,,,,,,ZA-EC
+BJ Vorster Hospital,24.29786,-33.9515,District Hospital,Eastern Cape,Sarah Baartman District Municipality,Kou-Kamma Local Municipality,NaN,,,42,,0,0,,0,0,,,,,ZA-EC
+Settlers Hospital,26.51464,-33.3024,District Hospital,Eastern Cape,Sarah Baartman District Municipality,Makana Local Municipality,NaN,,,178,,20,20,,2,1,,,,,ZA-EC
+Temba TB Hospital,26.54657,-33.3069,Specialised  Hospital,Eastern Cape,Sarah Baartman District Municipality,Makana Local Municipality,NaN,,,,,,,,,,,,,,ZA-EC
+Marjorie Parrish TB Hospital,26.88126,-33.5624,Specialised  Hospital,Eastern Cape,Sarah Baartman District Municipality,Ndlambe Local Municipality,NaN,,,,,,,,,,,,,,ZA-EC
+Netcare Port Alfred Hospital,26.876792,-33.5966,Private Hospital,Eastern Cape,Sarah Baartman District Municipality,Ndlambe Local Municipality,NaN,,,30,,14,,,,2,,,,,ZA-EC
 Netcare Setller's Hospital,,,,,,,,,,32,,25,,,,3,,,,,
-Port Alfred Hospital,26.88312,-33.5953,District Hospital,Eastern Cape,NaN,NaN,NaN,,,31,,15,15,,5,2,,,,,ZA-EC
-Sundays Valley Hospital,25.44001,-33.3947,District Hospital,Eastern Cape,NaN,NaN,NaN,,,37,,8,8,,0,0,,,,,ZA-EC
+Port Alfred Hospital,26.88312,-33.5953,District Hospital,Eastern Cape,Sarah Baartman District Municipality,Ndlambe Local Municipality,NaN,,,31,,15,15,,5,2,,,,,ZA-EC
+Sundays Valley Hospital,25.44001,-33.3947,District Hospital,Eastern Cape,Chris Hani District Municipality,Sundays River Valley Local Municipality,NaN,,,37,,8,8,,0,0,,,,,ZA-EC
 Mafube Hospital,28.50023,-27.2788,District Hospital,Free State,NaN,NaN,NaN,,,74,,0,0,,4,1,,,,,ZA-FS
 NHN Riemland Clinic Hospital,28.495123,-27.2798,Private Hospital,Free State,NaN,NaN,NaN,,,10,,3,,,,1,,,,,ZA-FS
 Fezi Ngumbentombi Hospital,27.82757,-26.8014,District Hospital,Free State,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-FS
@@ -826,7 +826,7 @@ NHN M-Care Newlands Hospital,18.467383,-33.9712,Private Hospital,Western Cape,Na
 Pr Alice Ortho Hospital,18.459306,-33.9427,Specialised  Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
 Red Cross Children's Hospital,18.48707,-33.9531,Tertiary  Hospital,Western Cape,NaN,NaN,NaN,,,270,,60,60,,2,11,,,,,ZA-WC
 SAMHS 2 Mil Hospital,18.453257,-34.0045,Military Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-Victoria Alice Hospital,26.84678,-32.7752,District Hospital,Western Cape,Cape Town,Wynberg,NaN,,,110,,0,0,,1,1,,,,,ZA-WC
+Victoria Hospital  ,18.459317,-34.011913,District Hospital,Western Cape,Cape Town,Wynberg,NaN,,,110,,0,0,,1,1,,,,https://www.westerncape.gov.za/facility/victoria-hospital,ZA-WC
 Alexandra Hospital,18.48448,-33.93,Specialised  Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
 Brooklyn Chest Hospital,18.4853,-33.8999,Specialised  Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
 Conradie Hospital,18.5212,-33.9237,Specialised  Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
