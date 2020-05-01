@@ -14,6 +14,13 @@ const (
 	dataSetBaseUrl = "https://raw.githubusercontent.com/dsfsi/covid19za/master/data/"
 )
 
+func cacheControl(next echo.HandlerFunc) echo.HandlerFunc {
+	return func(c echo.Context) error {
+		c.Response().Header().Set("Cache-control", "public, max-age=120")
+		return next(c)
+	}
+}
+
 func makeAPI(baseUrl string) *echo.Echo {
 	api := echo.New()
 	api.Use(middleware.Logger())
@@ -22,6 +29,7 @@ func makeAPI(baseUrl string) *echo.Echo {
 	api.Use(middleware.GzipWithConfig(middleware.GzipConfig{
 		Level: 5,
 	}))
+	api.Use(cacheControl)
 
 	latestUpdateController := controllers.NewLatestUpdateController()
 	caseController := controllers.NewCaseController(baseUrl)
