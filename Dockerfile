@@ -13,8 +13,11 @@ COPY api/ ./
 RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix nocgo -o /api .
 
 # ---- Final Image with api and varnish ----
+# bash, curl, openssh and python are for Heroku's ssh tunnel
 FROM alpine:latest
-RUN apk --no-cache add ca-certificates varnish supervisor
+RUN apk --no-cache add ca-certificates varnish supervisor bash curl openssh python
+COPY docker/heroku-exec.sh /app/.profile.d/
+RUN ln -sf /bin/bash /bin/sh
 COPY docker/supervisord.conf /etc/supervisord.conf
 COPY docker/varnish/default.vcl /etc/varnish/default.vcl
 COPY --from=apibuilder /api ./api

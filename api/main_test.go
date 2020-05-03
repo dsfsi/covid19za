@@ -21,6 +21,7 @@ var (
 		"district":              "eThekwini Metropolitan Municipality",
 		"Subdistrict":           "eThekwini MM Sub",
 		"DistrictEstPopulation": "3702231",
+		"GeoSubdivision":        "ZA-KZN",
 	}
 	expectedPrivateHospital = map[string]interface{}{
 		"Id":        "464",

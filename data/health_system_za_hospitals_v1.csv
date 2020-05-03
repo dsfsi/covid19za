@@ -410,17 +410,17 @@ Winterberg TB Hospital,26.656323,-32.7793,Specialised  Hospital,Eastern Cape,Ama
 Fort Grey TB Hospital,27.82122,-33.022,Specialised  Hospital,Eastern Cape,Buffalo City Metropolitan Municipality,Buffalo City Sub-District,NaN,,,,,,,,,,,,,,ZA-EC
 Life Beacon Bay Hospital,27.939663,-32.9489,Private Hospital,Eastern Cape,Buffalo City Metropolitan Municipality,Buffalo City Sub-District,NaN,,,168,,71,,,,6,,,,,ZA-EC
 Life East London Prv Hospital,27.900134,-33.0125,Private Hospital,Eastern Cape,Buffalo City Metropolitan Municipality,Buffalo City Sub-District,NaN,,,100,,0,,,,0,,,,,ZA-EC
-Life Grey Monument Clinic Hospital,27.397414,-32.8787,Private Hospital,Eastern Cape,Buffalo City Metropolitan Municipality,NaN,NaN,,,,,,,,,,,,,,ZA-EC
-Life St Dominic's Hospital,27.90313,-32.9983,Private Hospital,Eastern Cape,Buffalo City Metropolitan Municipality,NaN,NaN,,,183,,76,,,,5,,,,,ZA-EC
-Life St James Hospital,27.901072,-33.0009,Private Hospital,Eastern Cape,Buffalo City Metropolitan Municipality,NaN,NaN,,,28,,28,,,,4,,,,,ZA-EC
-Life St Mark's Hospital,27.901159,-32.9977,Private Hospital,Eastern Cape,Buffalo City Metropolitan Municipality,NaN,NaN,,,,,,,,,,,,,,ZA-EC
-Newhaven Hospital,27.90592,-32.9828,Specialised  Hospital,Eastern Cape,Buffalo City Metropolitan Municipality,NaN,NaN,,,45,,0,0,,0,0,,,,,ZA-EC
-NHN East London Eye Hospital,27.897928,-33.0019,Private Hospital,Eastern Cape,Buffalo City Metropolitan Municipality,NaN,NaN,,,,,,,,,,,,,,ZA-EC
-NHN Icare Gonubie Med Centre,27.993444,-32.9362,Private Hospital,Eastern Cape,Buffalo City Metropolitan Municipality,NaN,NaN,,,,,,,,,,,,,,ZA-EC
-Nkqubela Hospital,27.74088,-32.9328,Specialised  Hospital,Eastern Cape,Buffalo City Metropolitan Municipality,NaN,NaN,,,,,,,,,,,,,,ZA-EC
+Life Grey Monument Clinic Hospital,27.397414,-32.8787,Private Hospital,Eastern Cape,Buffalo City Metropolitan Municipality,Buffalo City Sub-District,NaN,,,,,,,,,,,,,,ZA-EC
+Life St Dominic's Hospital,27.90313,-32.9983,Private Hospital,Eastern Cape,Buffalo City Metropolitan Municipality,Buffalo City Sub-District,NaN,,,183,,76,,,,5,,,,,ZA-EC
+Life St James Hospital,27.901072,-33.0009,Private Hospital,Eastern Cape,Buffalo City Metropolitan Municipality,Buffalo City Sub-District,NaN,,,28,,28,,,,4,,,,,ZA-EC
+Life St Mark's Hospital,27.901159,-32.9977,Private Hospital,Eastern Cape,Buffalo City Metropolitan Municipality,Buffalo City Sub-District,NaN,,,,,,,,,,,,,,ZA-EC
+Newhaven Hospital,27.90592,-32.9828,Specialised  Hospital,Eastern Cape,Buffalo City Metropolitan Municipality,Buffalo City Sub-District,NaN,,,45,,0,0,,0,0,,,,,ZA-EC
+NHN East London Eye Hospital,27.897928,-33.0019,Private Hospital,Eastern Cape,Buffalo City Metropolitan Municipality,Buffalo City Sub-District,NaN,,,,,,,,,,,,,,ZA-EC
+NHN Icare Gonubie Med Centre,27.993444,-32.9362,Private Hospital,Eastern Cape,Buffalo City Metropolitan Municipality,Buffalo City Sub-District,NaN,,,,,,,,,,,,,,ZA-EC
+Nkqubela Hospital,27.74088,-32.9328,Specialised  Hospital,Eastern Cape,Buffalo City Metropolitan Municipality,Buffalo City Sub-District,NaN,,,,,,,,,,,,,,ZA-EC
 Dordrecht Hospital,27.045615,-31.3913,District Hospital,Eastern Cape,Chris Hani District Municipality,Emalahleni Local Municipality,NaN,,,35,,0,0,,0,0,,,,,ZA-EC
-Glen Grey Hospital,27.19939,-31.7199,District Hospital,Eastern Cape,Chris Hani District Municipality,NaN,NaN,,,151,,0,0,,0,1,,,,,ZA-EC
-Indwe Hospital,27.34042,-31.4683,District Hospital,Eastern Cape,Chris Hani District Municipality,NaN,NaN,,,31,,0,0,,0,0,,,,,ZA-EC
+Glen Grey Hospital,27.19939,-31.7199,District Hospital,Eastern Cape,Chris Hani District Municipality,Emalahleni Local Municipality,NaN,,,151,,0,0,,0,1,,,,,ZA-EC
+Indwe Hospital,27.34042,-31.4683,District Hospital,Eastern Cape,Chris Hani District Municipality,Emalahleni Local Municipality,NaN,,,31,,0,0,,0,0,,,,,ZA-EC
 All Saints Hospital,28.05041,-31.6619,District Hospital,Eastern Cape,Chris Hani District Municipality,Engcobo Local Municipality,NaN,,,244,,48,48,,7,2,,,,,ZA-EC
 Mjanyana Hospital,28.1038,-31.836,District Hospital,Eastern Cape,Chris Hani District Municipality,Engcobo Local Municipality,NaN,,,100,,22,22,,2,1,,,,,ZA-EC
 Hewu Hospital,26.80522,-32.1727,District Hospital,Eastern Cape,Chris Hani District Municipality,Enoch Mgijima Local Municipality,NaN,,,208,,80,80,,4,2,,,,,ZA-EC
@@ -495,58 +495,56 @@ Netcare Port Alfred Hospital,26.876792,-33.5966,Private Hospital,Eastern Cape,Sa
 Netcare Setller's Hospital,,,,,,,,,,32,,25,,,,3,,,,,
 Port Alfred Hospital,26.88312,-33.5953,District Hospital,Eastern Cape,Sarah Baartman District Municipality,Ndlambe Local Municipality,NaN,,,31,,15,15,,5,2,,,,,ZA-EC
 Sundays Valley Hospital,25.44001,-33.3947,District Hospital,Eastern Cape,Chris Hani District Municipality,Sundays River Valley Local Municipality,NaN,,,37,,8,8,,0,0,,,,,ZA-EC
-Mafube Hospital,28.50023,-27.2788,District Hospital,Free State,NaN,NaN,NaN,,,74,,0,0,,4,1,,,,,ZA-FS
-NHN Riemland Clinic Hospital,28.495123,-27.2798,Private Hospital,Free State,NaN,NaN,NaN,,,10,,3,,,,1,,,,,ZA-FS
-Fezi Ngumbentombi Hospital,27.82757,-26.8014,District Hospital,Free State,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-FS
-Netcare Vaalpark Hospital,27.840244,-26.7732,Private Hospital,Free State,NaN,NaN,NaN,,,68,,20,,,,3,,,,,ZA-FS
-Netcare Vaalpark(Free State),,,,,,,,,,36,,18,,,,3,,,,,
-Sasol Infrachem Hospital,27.849385,-26.826,Private Hospital,Free State,NaN,NaN,NaN,,,11,,7,,,,0,,,,,ZA-FS
-Netcare Kroon Hospital,27.230333,-27.6537,Private Hospital,Free State,NaN,NaN,NaN,,,80,,12,,,,2,,,,,ZA-FS
-Parys Hospital,27.47207,-26.8959,District Hospital,Free State,NaN,NaN,NaN,,,50,,0,0,,4,1,,,,,ZA-FS
-Winburg Hospital,27.00802,-28.5098,District Hospital,Free State,NaN,NaN,NaN,,,32,,3,3,,0,0,,,,,ZA-FS
-Katleho Hospital,26.85798,-28.1105,District Hospital,Free State,NaN,NaN,NaN,,,78,,4,4,,6,2,,,,,ZA-FS
-Kopano MDR Hospital,26.709676,-27.9811,Specialised  Hospital,Free State,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-FS
-Metsimaholo Hospital,,,,Free State,,,,,,82,,30,30,,5,1,,,,,ZA-FS
-Mediclinic Welkom Hospital,26.730057,-27.9879,Private Hospital,Free State,NaN,NaN,NaN,,,191,,60,,,,8,,,,,ZA-FS
-Trichardt Mediclinic Hospital,,,Private Hospital,Free State,,,,,,202,,64,,,,4,,,,,ZA-FS
-NHN E Oppenheimer Hospital,26.774142,-27.9667,Private Hospital,Free State,NaN,NaN,NaN,,,695,,197,,,,4,,,,,ZA-FS
-NHN St Helena Hospital,26.710868,-28.0019,Private Hospital,Free State,NaN,NaN,NaN,,,131,,42,,,,2,,,,,ZA-FS
-NHN Welkom Med Centre,26.727098,-27.9874,Private Hospital,Free State,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-FS
-NHN Welkom Sub-Acute Hospital,26.727098,-27.9874,Private Hospital,Free State,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-FS
-RH Matjhabeng Prv Hospital,26.774155,-27.966343,Private Hospital,Free State,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-FS
-Thusanong Hospital,26.65922,-27.8773,District Hospital,Free State,NaN,NaN,NaN,,,86,,0,0,,5,1,,,,,ZA-FS
-Mohau Hospital,25.91538,-27.8323,District Hospital,Free State,NaN,NaN,NaN,,,28,,0,0,,1,1,,,,,ZA-FS
-Bloemcare Psych Hospital,26.156533,-29.0864,Private Hospital,Free State,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-FS
-Bloemfontein Eye Centre,26.194441,-29.1346,Private Hospital,Free State,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-FS
-Bloemfontein Mediclinic Hospital,,,Private Hospital,Free State,,,,,,377,,148,,,,12,,,,,ZA-FS
-Cairnhall Hospital,26.184516,-29.118,Private Hospital,Free State,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-FS
-Pelanomi hospital Netcare,,,Private Hospital,,,,,,,87,,19,,,,2,,,,,
-Free State Psyc Comp Hospital,26.209264,-29.1338,Specialised  Hospital,Free State,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-FS
-Life Pasteur Hospital,26.194991,-29.1344,Private Hospital,Free State,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-FS
-Life Rosepark Hospital,26.176303,-29.1538,Private Hospital,Free State,NaN,NaN,NaN,,,235,,50,,,,10,,,,,ZA-FS
-Link - Hillcrest Private Hospital,30.742441,-29.789272,Private Hospital,Free State,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-FS
-Mediclinic Bfn Hospital,26.203516,-29.1094,Private Hospital,Free State,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-FS
-Netcare Pelonomi Prv Hospital,26.243918,-29.1385,Private Hospital,Free State,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-FS
-Netcare Universitas Prv Hospital,26.186748,-29.1164,Private Hospital,Free State,NaN,NaN,NaN,,,127,,60,,,,4,,,,,ZA-FS
-NHN CareCure Victoria Hospital,26.205302,-29.1223,Private Hospital,Free State,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-FS
-NHN EmoyaMed Prv Hospital,26.170889,-29.0633,Private Hospital,Free State,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-FS
-NHN Hillandale HCC Hospital,26.178331,-29.0499,Private Hospital,Free State,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-FS
-NHN M-Care Optima Hospital,26.193667,-29.1346,Private Hospital,Free State,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-FS
-NHN M-Care Pentagon Park Hospital,26.215478,-29.0774,Private Hospital,Free State,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-FS
-NHN Stirling Hospital,26.161423,-29.0828,Private Hospital,Free State,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-FS
-SAMHS 3 Mil Hospital,26.193444,-29.0944,Military Hospital,Free State,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-FS
-Bethlehem Med Centre,28.319261,-28.2325,Private Hospital,Free State,NaN,NaN,NaN,,,4,,4,,,,1,,,,,ZA-FS
-Dihlabeng Hospital,28.3197,-28.2331,Regional Hospital,Free State,NaN,NaN,NaN,,,135,,38,40,,1,3,,,,,ZA-FS
-Mediclinic Hoogland Hospital,28.322255,-28.229,Private Hospital,Free State,NaN,NaN,NaN,,,107,,40,,,,3,,,,,ZA-FS
-NHN Corona Hospital,28.321089,-28.2297,Private Hospital,Free State,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-FS
-Busamed Harrismith Prv Hospital,29.115483,-28.2618,Private Hospital,Free State,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-FS
-Thebe Hospital,29.13805,-28.2722,District Hospital,Free State,NaN,NaN,NaN,,,71,,0,0,,4,1,,,,,ZA-FS
-Senorita Ntlabathi Hospital,27.44807,-29.2029,District Hospital,Free State,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-FS
-Phumelela Hospital,29.15583,-27.4335,District Hospital,Free State,NaN,NaN,NaN,,,81,,0,0,,0,1,,,,,ZA-FS
-Itemoheng Hospital,27.60552,-28.3274,District Hospital,Free State,NaN,NaN,NaN,,,25,,0,0,,0,1,,,,,ZA-FS
-Diamond (Diamant) Hospital,25.42315,-29.7603,District Hospital,Free State,NaN,NaN,NaN,,,28,,0,0,,0,1,,,,,ZA-FS
-Embekweni Hospital,27.07542,-30.2921,District Hospital,Free State,NaN,NaN,NaN,,,23,,0,0,,0,0,,,,,ZA-FS
-Stoffel Coetzee Hospital,26.52442,-30.2177,District Hospital,Free State,NaN,NaN,NaN,,,23,,0,0,,0,0,,,,,ZA-FS
+Mafube Hospital,28.50023,-27.2788,District Hospital,Free State,Fezile Dabi District Municipality,Mafube Local Municipality,NaN,,,74,,0,0,,4,1,,,,,ZA-FS
+NHN Riemland Clinic Hospital,28.495123,-27.2798,Private Hospital,Free State,Fezile Dabi District Municipality,Mafube Local Municipality,NaN,,,10,,3,,,,1,,,,,ZA-FS
+Fezi Ngumbentombi Hospital,27.82757,-26.8014,District Hospital,Free State,Fezile Dabi District Municipality,Metsimaholo Local Municipality,NaN,,,,,,,,,,,,,,ZA-FS
+Netcare Vaalpark Hospital,27.840244,-26.7732,Private Hospital,Free State,Fezile Dabi District Municipality,Metsimaholo Local Municipality,NaN,,,68,,20,,,,3,,,,,ZA-FS
+Sasol Infrachem Hospital,27.849385,-26.826,Private Hospital,Free State,Fezile Dabi District Municipality,Metsimaholo Local Municipality,NaN,,,11,,7,,,,0,,,,,ZA-FS
+Netcare Kroon Hospital,27.230333,-27.6537,Private Hospital,Free State,Fezile Dabi District Municipality,Moqhaka Local Municipality,NaN,,,80,,12,,,,2,,,,,ZA-FS
+Parys Hospital,27.47207,-26.8959,District Hospital,Free State,Fezile Dabi District Municipality,Ngwathe Local Municipality,NaN,,,50,,0,0,,4,1,,,,,ZA-FS
+Winburg Hospital,27.00802,-28.5098,District Hospital,Free State,Lejweleputswa District Municipality,Masilonyana Local Municipality,NaN,,,32,,3,3,,0,0,,,,,ZA-FS
+Katleho Hospital,26.85798,-28.1105,District Hospital,Free State,Lejweleputswa District Municipality,Matjhabeng Local Municipality,NaN,,,78,,4,4,,6,2,,,,,ZA-FS
+Kopano MDR Hospital,26.709676,-27.9811,Specialised  Hospital,Free State,Lejweleputswa District Municipality,Matjhabeng Local Municipality,NaN,,,,,,,,,,,,,,ZA-FS
+Metsimaholo Parys Hospital  ,27.819911,-26.705952,District Hospital,Free State,Lejweleputswa District Municipality,Matjhabeng Local Municipality,,,,82,,30,30,,5,1,,,,http://doctors-hospitals-medical-cape-town-south-africa.blaauwberg.net/hospitals_clinics_state_hospitals/state_public_hospitals_clinics_free_state_south_africa/metsimaholo_parys_district_hospital_parys_sasolburg_free_state_south_africa,ZA-FS
+Mediclinic Welkom Hospital,26.730057,-27.9879,Private Hospital,Free State,Lejweleputswa District Municipality,Matjhabeng Local Municipality,NaN,,,191,,60,,,,8,,,,,ZA-FS
+Trichardt Mediclinic Hospital,29.232517,-26.493729,Private Hospital,Mpumalanga,Gert Sibande District Municipality,Govan Mbeki Local Municipality,,,,202,,64,,,,4,,,,,ZA-FS
+NHN E Oppenheimer Hospital,26.774142,-27.9667,Private Hospital,Free State,Lejweleputswa District Municipality,Matjhabeng Local Municipality,NaN,,,695,,197,,,,4,,,,,ZA-FS
+NHN St Helena Hospital,26.710868,-28.0019,Private Hospital,Free State,Lejweleputswa District Municipality,Matjhabeng Local Municipality,NaN,,,131,,42,,,,2,,,,,ZA-FS
+NHN Welkom Med Centre,26.727098,-27.9874,Private Hospital,Free State,Lejweleputswa District Municipality,Matjhabeng Local Municipality,NaN,,,,,,,,,,,,,,ZA-FS
+NHN Welkom Sub-Acute Hospital,26.727098,-27.9874,Private Hospital,Free State,Lejweleputswa District Municipality,Matjhabeng Local Municipality,NaN,,,,,,,,,,,,,,ZA-FS
+RH Matjhabeng Prv Hospital,26.774155,-27.966343,Private Hospital,Free State,Lejweleputswa District Municipality,Matjhabeng Local Municipality,NaN,,,,,,,,,,,,,,ZA-FS
+Thusanong Hospital,26.65922,-27.8773,District Hospital,Free State,Lejweleputswa District Municipality,Matjhabeng Local Municipality,NaN,,,86,,0,0,,5,1,,,,,ZA-FS
+Mohau Hospital,25.91538,-27.8323,District Hospital,Free State,Lejweleputswa District Municipality,Tswelopele Local Municipality,NaN,,,28,,0,0,,1,1,,,,,ZA-FS
+Bloemcare Psych Hospital,26.156533,-29.0864,Private Hospital,Free State,Mangaung Metropolitan Municipality,Bloemfontein Health sub-District,NaN,,,,,,,,,,,,,,ZA-FS
+Bloemfontein Eye Centre,26.194441,-29.1346,Private Hospital,Free State,Mangaung Metropolitan Municipality,Bloemfontein Health sub-District,NaN,,,,,,,,,,,,,,ZA-FS
+Mediclinic Bloemfontein  Hospital,26.203516,-29.109466,Private Hospital,Free State,Mangaung Metropolitan Municipality,Bloemfontein Health sub-District,,,,377,,148,,,,12,,,,,ZA-FS
+Cairnhall Hospital,26.184516,-29.118,Private Hospital,Free State,Mangaung Metropolitan Municipality,Bloemfontein Health sub-District,NaN,,,,,,,,,,,,,,ZA-FS
+Netcare Pelanomi Private hospital,26.244816,-29.139785,Private Hospital,Free State,Mangaung Metropolitan Municipality,Bloemfontein Health sub-District,,,,87,,19,,,,2,,,,https://www.netcarehospitals.co.za/Hospital/Pelonomi-Private-Hospital,
+Free State Psyc Comp Hospital,26.209264,-29.1338,Specialised  Hospital,Free State,Mangaung Metropolitan Municipality,Bloemfontein Health sub-District,NaN,,,,,,,,,,,,,,ZA-FS
+Life Pasteur Hospital,26.194991,-29.1344,Private Hospital,Free State,Mangaung Metropolitan Municipality,Bloemfontein Health sub-District,NaN,,,,,,,,,,,,,,ZA-FS
+Life Rosepark Hospital,26.176303,-29.1538,Private Hospital,Free State,Mangaung Metropolitan Municipality,Bloemfontein Health sub-District,NaN,,,235,,50,,,,10,,,,,ZA-FS
+Link - Hillcrest Private Hospital,30.742441,-29.789272,Private Hospital,Free State,Mangaung Metropolitan Municipality,Bloemfontein Health sub-District,NaN,,,,,,,,,,,,,,ZA-FS
+Mediclinic Bfn Hospital,26.203516,-29.1094,Private Hospital,Free State,Mangaung Metropolitan Municipality,Bloemfontein Health sub-District,NaN,,,,,,,,,,,,,,ZA-FS
+Netcare Universitas Private Hospital,26.186748,-29.1164,Private Hospital,Free State,Mangaung Metropolitan Municipality,Bloemfontein Health sub-District,NaN,,,127,,60,,,,4,,,,,ZA-FS
+NHN CareCure Victoria Hospital,26.205302,-29.1223,Private Hospital,Free State,Mangaung Metropolitan Municipality,Bloemfontein Health sub-District,NaN,,,,,,,,,,,,,,ZA-FS
+NHN EmoyaMed Prv Hospital,26.170889,-29.0633,Private Hospital,Free State,Mangaung Metropolitan Municipality,Bloemfontein Health sub-District,NaN,,,,,,,,,,,,,,ZA-FS
+NHN Hillandale HCC Hospital,26.178331,-29.0499,Private Hospital,Free State,Mangaung Metropolitan Municipality,Bloemfontein Health sub-District,NaN,,,,,,,,,,,,,,ZA-FS
+NHN M-Care Optima Hospital,26.193667,-29.1346,Private Hospital,Free State,Mangaung Metropolitan Municipality,Bloemfontein Health sub-District,NaN,,,,,,,,,,,,,,ZA-FS
+NHN M-Care Pentagon Park Hospital,26.215478,-29.0774,Private Hospital,Free State,Mangaung Metropolitan Municipality,Bloemfontein Health sub-District,NaN,,,,,,,,,,,,,,ZA-FS
+NHN Stirling Hospital,26.161423,-29.0828,Private Hospital,Free State,Mangaung Metropolitan Municipality,Bloemfontein Health sub-District,NaN,,,,,,,,,,,,,,ZA-FS
+SAMHS 3 Mil Hospital,26.193444,-29.0944,Military Hospital,Free State,Mangaung Metropolitan Municipality,Bloemfontein Health sub-District,NaN,,,,,,,,,,,,,,ZA-FS
+Bethlehem Med Centre,28.319261,-28.2325,Private Hospital,Free State,Thabo Mofutsanyana District Municipality,Dihlabeng Local Municipality,NaN,,,4,,4,,,,1,,,,,ZA-FS
+Dihlabeng Hospital,28.3197,-28.2331,Regional Hospital,Free State,Thabo Mofutsanyana District Municipality,Dihlabeng Local Municipality,NaN,,,135,,38,40,,1,3,,,,,ZA-FS
+Mediclinic Hoogland Hospital,28.322255,-28.229,Private Hospital,Free State,Thabo Mofutsanyana District Municipality,Dihlabeng Local Municipality,NaN,,,107,,40,,,,3,,,,,ZA-FS
+NHN Corona Hospital,28.321089,-28.2297,Private Hospital,Free State,Thabo Mofutsanyana District Municipality,Dihlabeng Local Municipality,NaN,,,,,,,,,,,,,,ZA-FS
+Busamed Harrismith Private Hospital,29.115483,-28.2618,Private Hospital,Free State,Thabo Mofutsanyana District Municipality,Maluti-a-Phofung Local Municipality,NaN,,,,,,,,,,,,,,ZA-FS
+Thebe Hospital,29.13805,-28.2722,District Hospital,Free State,Thabo Mofutsanyana District Municipality,Maluti-a-Phofung Local Municipality,NaN,,,71,,0,0,,4,1,,,,,ZA-FS
+Senorita Ntlabathi Hospital,27.44807,-29.2029,District Hospital,Free State,Thabo Mofutsanyana District Municipality,Mantsopa Local Municipality,NaN,,,,,,,,,,,,,,ZA-FS
+Phumelela Hospital,29.15583,-27.4335,District Hospital,Free State,Thabo Mofutsanyana District Municipality,Phumelela Local Municipality,NaN,,,81,,0,0,,0,1,,,,,ZA-FS
+Itemoheng Hospital,27.60552,-28.3274,District Hospital,Free State,Thabo Mofutsanyana District Municipality,Setsoto Local Municipality,NaN,,,25,,0,0,,0,1,,,,,ZA-FS
+Diamond (Diamant) Hospital,25.42315,-29.7603,District Hospital,Free State,Xhariep District Municipality,Kopanong Local Municipality,NaN,,,28,,0,0,,0,1,,,,,ZA-FS
+Embekweni Hospital,27.07542,-30.2921,District Hospital,Free State,Xhariep District Municipality,Mohokare Local Municipality,NaN,,,23,,0,0,,0,0,,,,,ZA-FS
+Stoffel Coetzee Hospital,26.52442,-30.2177,District Hospital,Free State,Xhariep District Municipality,Mohokare Local Municipality,NaN,,,23,,0,0,,0,0,,,,,ZA-FS
 HEALth-WorX Carlswald Med Centre,28.116646,-25.9795,Private Hospital,Gauteng,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-GP
 Life Fourways Hospital,27.993825,-26.0112,Private Hospital,Gauteng,NaN,NaN,NaN,,,194,,59,,,,10,,,,,ZA-GP
 Netcare Waterfall City Hospital,28.10258,-26.0146,Private Hospital,Gauteng,NaN,NaN,NaN,,,126,,36,,,,1,,,,,ZA-GP
