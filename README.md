@@ -82,7 +82,7 @@ Data Science Journal
 	Author = {Vukosi Marivate and Herkulaas MvE Combrink},
 	Journal = {Data Science Journal},
 	Number = {1},
-	Pages = {19},
+	Pages = {1-7},
 	Title = {Use of Available Data To Inform The COVID-19 Outbreak in South Africa: A Case Study.},
 	Volume = {19},
 	Year = {2020},
