@@ -769,133 +769,135 @@ Mediclinic Potchefstroom Hospital,27.08141,-26.689,Private Hospital,North West,D
 NHN Medi-Care Potch Hospital,27.083957,-26.7273,Private Hospital,North West,Dr K Kaunda District Municipality,JB Marks Local Municipality,NaN,,,,,,,,,,,,,,ZA-NW
 NHN Vryburg Private Hospital,24.721533,-26.9468,Private Hospital,North West,Dr Ruth Segomotsi Mompati District Municipality,Naledi Local Municipality,NaN,,,44,,8,,,,2,,,,,ZA-NW
 Clinix Victoria Private Hospital,25.64145,-25.86,Private Hospital,North West,Ngaka Modiri Molemada District Municipality,Mahikeng Local Municipality,NaN,,,93,,45,,,,3,,,,,ZA-NW
-Brewelskloof TB Hospital,19.45694,-33.6211,Specialised  Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-Mediclinic Worcester Hospital,19.450696,-33.6442,Private Hospital,Western Cape,NaN,NaN,NaN,,,187,,65,,,,5,,,,,ZA-WC
-Pines Clinic Hospital,19.44804,-33.6403,Private Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
+Brewelskloof TB Hospital,19.45694,-33.6211,Specialised  Hospital,Western Cape,Cape Winelands District Municipality,Breede Valley Local Municipality,NaN,,,,,,,,,,,,,,ZA-WC
+Mediclinic Worcester Hospital,19.450696,-33.6442,Private Hospital,Western Cape,Cape Winelands District Municipality,Breede Valley Local Municipality,NaN,,,187,,65,,,,5,,,,,ZA-WC
+Pines Clinic Hospital,19.44804,-33.6403,Private Hospital,Western Cape,Cape Winelands District Municipality,Breede Valley Local Municipality,NaN,,,,,,,,,,,,,,ZA-WC
 Regina Centre,19.445,-33.643,Specialised  Hospital,Western Cape,Cape Winelands District Municipality,Breede Valley Local Municipality,884 565 ,,,,,,,,,,,,,,ZA-WC
-Worcester Hospice,19.455455,-33.611946,Specialised  Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-Worcester Hospital,19.458072,-33.6444,Regional Hospital,Western Cape,NaN,NaN,NaN,,,269,,48,48,,6,6,,,,,ZA-WC
-Drakenstein Hospital,18.96904,-33.7188,Private Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-Mediclinic Paarl Hospital,18.969075,-33.7187,Private Hospital,Western Cape,NaN,NaN,NaN,,,143,,37,,,,5,,,,,ZA-WC
-Noncedo Hospitalice,,,Specialised  Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-Paarl Hospitalice,,,Specialised  Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-Paarl Hospital,18.97028,-33.7263,Regional Hospital,Western Cape,Cape Town,Paarl,NaN,,,301,,72,72,,5,5,,,,,ZA-WC
-Groenleegte care cure Paarl,,,,Western Cape,,,,,,21,,11,,,,3,,,,,ZA-WC
-Montagu Hospital,20.12333,-33.7977,District Hospital,Western Cape,Western Cape,Montagu,NaN,,,40,,10,10,,3,1,,,,,ZA-WC
-Mooimed hospital,,,,Western Cape,,,,,,35,,13,,,,2,,,,,ZA-WC
-Robertson Hospital,19.89133,-33.8016,District Hospital,Western Cape,Western Cape,Robertson,NaN,,,46,,12,12,,4,1,,,,,ZA-WC
-Mediclinic Stellenbosch Hospital,18.850752,-33.9443,Private Hospital,Western Cape,NaN,NaN,NaN,,,114,,47,,,,4,,,,,ZA-WC
-Stellenbosch Hospital,18.87028,-33.9305,District Hospital,Western Cape,NaN,NaN,NaN,,,85,,14,14,,8,2,,,,,ZA-WC
-Ceres Hospital,19.30083,-33.363,District Hospital,Western Cape,Western Cape,Ceres,NaN,,,86,,0,0,,1,1,,,,,ZA-WC
-Netcare Ceres Hospital,19.3094,-33.3607,Private Hospital,Western Cape,NaN,NaN,NaN,,,28,,6,,,,1,,,,,ZA-WC
-B West Hospital,22.6075,-32.3527,District Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-Murraysburg Hospital,23.76917,-31.9625,District Hospital,Western Cape,Central Karoo,Murraysburg,NaN,,,14,,1,1,,1,0,,,,,ZA-WC
-Laingsburg Hospital,20.85028,-33.1944,District Hospital,Western Cape,Central Karoo,Laingsburg,NaN,,,20,,1,1,,1,1,,,,,ZA-WC
-Prince Albert Hospital,22.02583,-33.2166,District Hospital,Western Cape,NaN,NaN,NaN,,,29,,3,3,,0,1,,,,,ZA-WC
-Busamed Paardevlei Prv Hospital,,,Private Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-Eerste River Hospital,18.71907,-33.9972,District Hospital,Western Cape,Cape Town,Eerste River,NaN,,,130,,32,32,,3,3,,,,,ZA-WC
-E River Medi-City Clinic,,,Private Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-Helderberg Hospital,18.856761,-34.0768,District Hospital,Western Cape,Cape Town,Somerset West,NaN,,,169,,34,34,,2,1,,,,,ZA-WC
-Mediclinic Strand Hospital,18.838289,-34.1137,Private Hospital,Western Cape,NaN,NaN,NaN,,,24,,14,,,,2,,,,,ZA-WC
-Mediclinic Vergelegen Hospital,18.858151,-34.0914,Private Hospital,Western Cape,NaN,NaN,NaN,,,237,,106,,,,7,,,,,ZA-WC
-Netcare Kuils River Hospital,18.674902,-33.9187,Private Hospital,Western Cape,NaN,NaN,NaN,,,182,,71,,,,5,,,,,ZA-WC
-NHN Life Path Helderberg Hospital,18.838131,-34.1127,Private Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-NHN Spescare Sub-Acute Hospital,18.838046,-34.1128,Private Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-Mediclinic Cape Gate Hospital,18.697091,-33.8494,Private Hospital,Western Cape,NaN,NaN,NaN,,,140,,45,,,,5,,,,,ZA-WC
-Mediclinic Durbanville Hospital,18.655261,-33.826,Private Hospital,Western Cape,NaN,NaN,NaN,,,210,,89,,,,8,,,,,ZA-WC
-Mediclinic Panorama Hospital,18.577052,-33.8753,Private Hospital,Western Cape,NaN,NaN,NaN,,,400,,200,,,,12,,,,,ZA-WC
-Monte Vista Hospital,18.55638,-33.8775,Private Hospital,Western Cape,NaN,NaN,NaN,,,24,,24,,,,3,,,,,ZA-WC
-NHN Icare Tyger Valley SA Hospital,18.637139,-33.8722,Private Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-NHN M-Care Cape View Hospital,18.564195,-33.8926,Private Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-DP Marais TB Hospital,18.46033,-34.0619,Specialised  Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-Mediclinic Marapong,27.698209,-23.686846,Private Hospital,Western Cape,,,,,,12,,6,,,,1,,,,,ZA-WC
-False Bay Hospital,18.416805,-34.1319,District Hospital,Western Cape,Cape Town,Fish Hoek,NaN,,,65,,7,7,,1,2,,,,,ZA-WC
-Kenilworth Hospital,18.47313,-33.9948,Private Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-Life Claremont Hospital,18.466387,-33.9865,Private Hospital,Western Cape,NaN,NaN,NaN,,,88,,33,,,,4,,,,,ZA-WC
-Life Kingsbury Hospital,18.468447,-33.9861,Private Hospital,Western Cape,NaN,NaN,NaN,,,138,,21,,,,11,,,,,ZA-WC
-Life Sports Science Ortho,18.467425,-33.9713,Specialised  Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-Mediclinic Constantiaberg Hospital,18.460908,-34.0265,Private Hospital,Western Cape,NaN,NaN,NaN,,,238,,36,,,,8,,,,,ZA-WC
-Mediclinic Const Neonatal Hospital,18.46095,-34.0266,Private Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-Melomed Tokai Priv Hospital,18.461124,-33.990979,Private Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-Mowbray Mat Hospital,18.47489,-33.949,Regional Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-Netcare Southern Cross Hospital,18.46923,-34.0047,Private Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-Newlands Surg Hospital,18.466055,-33.9769,Private Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-NHN M-Care Newlands Hospital,18.467383,-33.9712,Private Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-Pr Alice Ortho Hospital,18.459306,-33.9427,Specialised  Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-Red Cross Children's Hospital,18.48707,-33.9531,Tertiary  Hospital,Western Cape,NaN,NaN,NaN,,,270,,60,60,,2,11,,,,,ZA-WC
-SAMHS 2 Mil Hospital,18.453257,-34.0045,Military Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-Victoria Hospital  ,18.459317,-34.011913,District Hospital,Western Cape,Cape Town,Wynberg,NaN,,,110,,0,0,,1,1,,,,https://www.westerncape.gov.za/facility/victoria-hospital,ZA-WC
-Alexandra Hospital,18.48448,-33.93,Specialised  Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-Brooklyn Chest Hospital,18.4853,-33.8999,Specialised  Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-Conradie Hospital,18.5212,-33.9237,Specialised  Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-Groote Schuur Hospital,18.465164,-33.9408,Central Hospital,Western Cape,Cape Town,Observatory,NaN,,,945,,97,97,,57,26,,,,,ZA-WC
-GSH Level 2 Hospital,18.465164,-33.9408,Regional Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-Life Orthopaedic Hospital,18.489836,-33.9442,Specialised  Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-Life Vincent Pallotti Hospital,18.490442,-33.9432,Private Hospital,Western Cape,NaN,NaN,NaN,,,273,,64,,,,12,,,,,ZA-WC
-Mediclinic Cape Town Hospital,18.410452,-33.9357,Private Hospital,Western Cape,NaN,NaN,NaN,,,125,,37,,,,5,,,,,ZA-WC
-Mediclinic Milnerton Hospital,18.506922,-33.8654,Private Hospital,Western Cape,NaN,NaN,NaN,,,139,,60,,,,5,,,,,ZA-WC
-Netcare Blaauwberg Hospital,18.483991,-33.8033,Private Hospital,Western Cape,NaN,NaN,NaN,,,104,,26,,,,5,,,,,ZA-WC
-Netcare Christiaan Barnard Memorial Hospital,18.41816,-33.9217,Private Hospital,Western Cape,NaN,NaN,NaN,,,248,,72,,,,14,,,,,ZA-WC
-Netcare UCT Prv Hospital,18.462548,-33.942,Private Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-New Somerset Hospital,18.41683,-33.9044,Regional Hospital,Western Cape,NaN,NaN,NaN,,,334,,40,40,,4,4,,,,,ZA-WC
-NHN Icare Century City DH,18.512787,-33.8876,Private Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-Shirnell Clinic Hospital,18.44249,-33.9157,Private Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-St Monica's Hospital,18.41134,-33.9238,Specialised  Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-Valkenberg Hospital,18.48024,-33.9373,Specialised  Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-Wesfleur Clinic Hospital,18.49505,-33.5649,Private Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-Wesfleur Hospital,18.49541,-33.5643,District Hospital,Western Cape,NaN,NaN,NaN,,,31,,5,5,,1,1,,,,,ZA-WC
-Khayelitsha Hospital,18.673936,-34.0499,District Hospital,Western Cape,NaN,NaN,NaN,,,240,,45,45,,5,2,,,,,ZA-WC
-Gatesv Med Centre Hospital,18.53346,-33.9709,Private Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-GF Jooste Hospital,18.557927,-33.9846,District Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-Melomed Gatesville Hospital,18.532997,-33.9704,Private Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-Lentegeur Hospital,18.61771,-34.0248,Specialised  Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-Melomed Mitchells Plain Hospital,18.621214,-34.0494,Private Hospital,Western Cape,NaN,NaN,NaN,,,132,,22,,,,5,,,,,ZA-WC
-Mitchells Plain Hospital,18.61584,-34.0266,District Hospital,Western Cape,NaN,NaN,NaN,,,270,,60,60,,6,4,,,,,ZA-WC
-M Plain Med Centre Hospital,18.59641,-34.0082,Private Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-M Plain Hospital,18.6157,-34.0262,Private Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-Aevitas Hospital,18.49029,-33.9435,Private Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-Bellville Med Hospital,18.62955,-33.9025,Private Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-Cape Eye Hospital,18.60901,-33.8996,Private Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-Karl Bremer Hospital,18.610085,-33.8926,District Hospital,Western Cape,NaN,NaN,NaN,,,217,,37,37,,6,2,,,,,ZA-WC
-Libertas Hospital,18.5418,-33.9121,Private Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-Mediclinic Louis Leipoldt Hospital,18.612936,-33.901,Private Hospital,Western Cape,NaN,NaN,NaN,,,190,,70,,,,7,,,,,ZA-WC
-Melomed Bellville Hospital,18.623831,-33.9018,Private Hospital,Western Cape,NaN,NaN,NaN,,,123,,58,,,,4,,,,,ZA-WC
-Netcare N1 City Hospital,18.559056,-33.8936,Private Hospital,Western Cape,NaN,NaN,NaN,,,225,,104,,,,7,,,,,ZA-WC
-Origin Maternity Hospital,18.575818,-33.87498,Private Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-Stikland Hospital,18.65498,-33.8908,Specialised  Hospital,Western Cape,NaN,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-Tygerberg Hospital,18.611569,-33.9147,Central Hospital,Western Cape,Cape Town,Bellville,NaN,,,,,,,,,,,,,,ZA-WC
-Mediclinic Plettenberg Bay Hospital,23.364999,-34.0529,Private Hospital,Western Cape,Cape Town,NaN,NaN,,,27,,12,,,,1,,,,,ZA-WC
-George Hospital,22.45028,-33.9519,Regional Hospital,Western Cape,Cape Town,George,NaN,,,268,,50,50,,5,6,,,,,ZA-WC
-H Comay TB Hospital,22.4725,-33.9802,Specialised  Hospital,Western Cape,Cape Town,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-Mediclinic Geneva Hospital,22.452171,-33.9563,Private Hospital,Western Cape,Cape Town,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-Mediclinic George Hospital,22.456439,-33.9573,Private Hospital,Western Cape,Cape Town,NaN,NaN,,,122,,65,,,,5,,,,,ZA-WC
-Uniondale Hospital,23.12556,-33.6594,District Hospital,Western Cape,Cape Town,Uniondale,NaN,,,13,,2,2,,0,1,,,,,ZA-WC
-Riversdale Hospital,21.25472,-34.0936,District Hospital,Western Cape,Cape Town,Riversdale,NaN,,,50,,8,10,,6,1,,,,,ZA-WC
-Alan Blyth Hospital,21.26889,-33.4872,District Hospital,Western Cape,Cape Town,NaN,NaN,,,30,,6,6,,4,1,,,,,ZA-WC
-Knysna Hospital,23.05806,-34.0369,District Hospital,Western Cape,Cape Town,Knysna,NaN,,,90,,10,10,,9,2,,,,,ZA-WC
-Life Knysna Pvt Hospital,23.078486,-34.0521,Private Hospital,Western Cape,Cape Town,NaN,NaN,,,49,,15,,,,2,,,,,ZA-WC
-Meyer Zall Hospital,23.02,-34.02,Private Hospital,Western Cape,Cape Town,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-Life BayView Pvt Hospital,22.130775,-34.1813,Private Hospital,Western Cape,Cape Town,NaN,NaN,,,108,,10,,,,2,,,,,ZA-WC
-Mossel Bay Hospital,22.1275,-34.1858,District Hospital,Western Cape,Cape Town,Mossel Bay,NaN,,,90,,8,8,,14,2,,,,,ZA-WC
-Cango Hospital,22.202562,-33.5906,Private Hospital,Western Cape,Cape Town,NaN,NaN,,,14,,14,,,,2,,,,,ZA-WC
-Mediclinic Klein Karoo Hospital,22.185728,-33.5859,Private Hospital,Western Cape,Cape Town,NaN,NaN,,,38,,10,,,,2,,,,,ZA-WC
-NHN Kango Clinic,22.201612,-33.591,Private Hospital,Western Cape,Cape Town,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-Oudtshoorn Hospital,22.18889,-33.5888,District Hospital,Western Cape,Cape Town,Oudtshoorn,NaN,,,123,,20,20,,14,3,,,,,ZA-WC
-Otto Du Plessis Hospital,20.035636,-34.5372,District Hospital,Western Cape,Cape Town,Bredasdorp,NaN,,,30,,6,6,,2,1,,,,,ZA-WC
-Hermanus Hospital,19.22833,-34.4226,District Hospital,Western Cape,Cape Town,Hermanus,NaN,,,71,,0,0,,12,2,,,,,ZA-WC
-Mediclinic Hermanus Hospital,19.226345,-34.4229,Private Hospital,Western Cape,Cape Town,NaN,NaN,,,80,,37,,,,3,,,,,ZA-WC
-Swellendam Hospital,20.4488,-34.0234,District Hospital,Western Cape,Cape Town,Swellendam,NaN,,,51,,13,13,,5,1,,,,,ZA-WC
-Caledon Hospital,19.434458,-34.2244,District Hospital,Western Cape,Cape Town,Caledon,NaN,,,50,,4,4,,6,1,,,,,ZA-WC
-LAPA Munnik Hospital,18.99444,-33.018,District Hospital,Western Cape,Cape Town,Porterville,NaN,,,10,,1,1,,1,1,,,,,ZA-WC
+Worcester Hospice,19.455455,-33.611946,Specialised  Hospital,Western Cape,Cape Winelands District Municipality,Breede Valley Local Municipality,NaN,,,,,,,,,,,,,,ZA-WC
+Worcester Hospital,19.458072,-33.6444,Regional Hospital,Western Cape,Cape Winelands District Municipality,Breede Valley Local Municipality,NaN,,,269,,48,48,,6,6,,,,,ZA-WC
+Drakenstein Hospital,18.96904,-33.7188,Private Hospital,Western Cape,Cape Winelands District Municipality,Drakenstein Local Municipality,NaN,,,,,,,,,,,,,,ZA-WC
+Mediclinic Paarl Hospital,18.969075,-33.7187,Private Hospital,Western Cape,Cape Winelands District Municipality,Drakenstein Local Municipality,NaN,,,143,,37,,,,5,,,,,ZA-WC
+Noncedo Hospice,,,Specialised  Hospital,Western Cape,Cape Winelands District Municipality,Drakenstein Local Municipality,NaN,,,,,,,,,,,,,,ZA-WC
+Paarl Hospice,,,Specialised  Hospital,Western Cape,Cape Winelands District Municipality,Drakenstein Local Municipality,NaN,,,,,,,,,,,,,,ZA-WC
+Paarl Hospital,18.97028,-33.7263,Regional Hospital,Western Cape,Cape Winelands District Municipality,Drakenstein Local Municipality,NaN,,,301,,72,72,,5,5,,,,,ZA-WC
+Groenleegte care cure Paarl,18.964269,-33.709891,Specialised  Hospital,Western Cape,Cape Winelands District Municipality,Drakenstein Local Municipality,,,,21,,11,,,,3,,,,https://www.medpages.info/sf/index.php?page=organisation&orgcode=186384,ZA-WC
+Montagu Hospital,20.12333,-33.7977,District Hospital,Western Cape,Cape Winelands District Municipality,Langeberg Local Municipality,NaN,,,40,,10,10,,3,1,,,,,ZA-WC
+Mooimed hospital,,,Private Hospital,North West,Dr K Kaunda District Municipality,JB Marks Local Municipality,,,,35,,13,,,,2,,,,https://www.mooimed.com/,ZA-WC
+Robertson Hospital,19.89133,-33.8016,District Hospital,Western Cape,Cape Winelands District Municipality,Langeberg Local Municipality,NaN,,,46,,12,12,,4,1,,,,,ZA-WC
+Mediclinic Stellenbosch Hospital,18.850752,-33.9443,Private Hospital,Western Cape,Cape Winelands District Municipality,Stellenbosch Local Municipality,NaN,,,114,,47,,,,4,,,,,ZA-WC
+Stellenbosch Hospital,18.87028,-33.9305,District Hospital,Western Cape,Cape Winelands District Municipality,Stellenbosch Local Municipality,NaN,,,85,,14,14,,8,2,,,,,ZA-WC
+Ceres Hospital,19.30083,-33.363,District Hospital,Western Cape,Cape Winelands District Municipality,Witzenberg Local Municipality,NaN,,,86,,0,0,,1,1,,,,,ZA-WC
+Netcare Ceres Hospital,19.3094,-33.3607,Private Hospital,Western Cape,Cape Winelands District Municipality,Witzenberg Local Municipality,NaN,,,28,,6,,,,1,,,,,ZA-WC
+Beaufort West Hospital,22.6075,-32.3527,District Hospital,Western Cape,Central Karoo District Municipality,Beaufort West Local Municipality,NaN,,,,,,,,,,,,,,ZA-WC
+Murraysburg Hospital,23.76917,-31.9625,District Hospital,Western Cape,Central Karoo District Municipality,Beaufort West Local Municipality,NaN,,,14,,1,1,,1,0,,,,,ZA-WC
+Laingsburg Hospital,20.85028,-33.1944,District Hospital,Western Cape,Central Karoo District Municipality,Beaufort West Local Municipality,NaN,,,20,,1,1,,1,1,,,,,ZA-WC
+Prince Albert Hospital,22.02583,-33.2166,District Hospital,Western Cape,Central Karoo District Municipality,Prince Albert Local Municipality,NaN,,,29,,3,3,,0,1,,,,,ZA-WC
+Busamed Paardevlei Private Hospital,,,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Eastern Health sub-District,NaN,,,,,,,,,,,,,,ZA-WC
+Eerste River Hospital,18.71907,-33.9972,District Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Eastern Health sub-District,NaN,,,130,,32,32,,3,3,,,,,ZA-WC
+E River Medi-City Clinic,,,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Eastern Health sub-District,NaN,,,,,,,,,,,,,,ZA-WC
+Helderberg Hospital,18.856761,-34.0768,District Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Eastern Health sub-District,NaN,,,169,,34,34,,2,1,,,,,ZA-WC
+Mediclinic Strand Hospital,18.838289,-34.1137,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Eastern Health sub-District,NaN,,,24,,14,,,,2,,,,,ZA-WC
+Mediclinic Vergelegen Hospital,18.858151,-34.0914,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Eastern Health sub-District,NaN,,,237,,106,,,,7,,,,,ZA-WC
+Netcare Kuils River Hospital,18.674902,-33.9187,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Eastern Health sub-District,NaN,,,182,,71,,,,5,,,,,ZA-WC
+NHN Life Path Helderberg Hospital,18.838131,-34.1127,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Eastern Health sub-District,NaN,,,,,,,,,,,,,,ZA-WC
+NHN Spescare Sub-Acute Hospital,18.838046,-34.1128,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Eastern Health sub-District,NaN,,,,,,,,,,,,,,ZA-WC
+Mediclinic Cape Gate Hospital,18.697091,-33.8494,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Northern Health sub-District,NaN,,,140,,45,,,,5,,,,,ZA-WC
+Mediclinic Durbanville Hospital,18.655261,-33.826,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Northern Health sub-District,NaN,,,210,,89,,,,8,,,,,ZA-WC
+Mediclinic Panorama Hospital,18.577052,-33.8753,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Northern Health sub-District,NaN,,,400,,200,,,,12,,,,,ZA-WC
+Monte Vista Hospital,18.55638,-33.8775,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Northern Health sub-District,NaN,,,24,,24,,,,3,,,,,ZA-WC
+NHN Icare Tyger Valley SA Hospital,18.637139,-33.8722,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Northern Health sub-District,NaN,,,,,,,,,,,,,,ZA-WC
+NHN M-Care Cape View Hospital,18.564195,-33.8926,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Northern Health sub-District,NaN,,,,,,,,,,,,,,ZA-WC
+DP Marais TB Hospital,18.46033,-34.0619,Specialised  Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Southern Health sub-District,NaN,,,,,,,,,,,,,,ZA-WC
+Mediclinic Marapong,27.698209,-23.686846,Private Hospital,Limpopo,Waterberg District Municipality,Lephalale Local Municipality,,,,12,,6,,,,1,,,,https://www.mediclinic.co.za/en/lephalale/home.html,ZA-WC
+False Bay Hospital,18.416805,-34.1319,District Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Southern Health sub-District,NaN,,,65,,7,7,,1,2,,,,,ZA-WC
+Kenilworth Hospital,18.47313,-33.9948,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Southern Health sub-District,NaN,,,,,,,,,,,,,,ZA-WC
+Life Claremont Hospital,18.466387,-33.9865,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Southern Health sub-District,NaN,,,88,,33,,,,4,,,,,ZA-WC
+Life Kingsbury Hospital,18.468447,-33.9861,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Southern Health sub-District,NaN,,,138,,21,,,,11,,,,,ZA-WC
+Life Sports Science Ortho,18.467425,-33.9713,Specialised  Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Southern Health sub-District,NaN,,,,,,,,,,,,,,ZA-WC
+Mediclinic Constantiaberg Hospital,18.460908,-34.0265,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Southern Health sub-District,NaN,,,238,,36,,,,8,,,,,ZA-WC
+Mediclinic Const Neonatal Hospital,18.46095,-34.0266,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Southern Health sub-District,NaN,,,,,,,,,,,,,,ZA-WC
+Melomed Tokai Private Hospital,18.461124,-33.990979,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Southern Health sub-District,NaN,,,,,,,,,,,,,,ZA-WC
+Mowbray Maternal Hospital,18.47489,-33.949,Regional Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Southern Health sub-District,NaN,,,,,,,,,,,,,,ZA-WC
+Netcare Southern Cross Hospital,18.46923,-34.0047,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Southern Health sub-District,NaN,,,,,,,,,,,,,,ZA-WC
+Newlands Surgical Hospital,18.466055,-33.9769,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Southern Health sub-District,NaN,,,,,,,,,,,,,,ZA-WC
+NHN M-Care Newlands Hospital,18.467383,-33.9712,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Southern Health sub-District,NaN,,,,,,,,,,,,,,ZA-WC
+Pr Alice Ortho Hospital,18.459306,-33.9427,Specialised  Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Southern Health sub-District,NaN,,,,,,,,,,,,,,ZA-WC
+Red Cross Children's Hospital,18.48707,-33.9531,Tertiary  Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Southern Health sub-District,NaN,,,270,,60,60,,2,11,,,,,ZA-WC
+SAMHS 2 Mil Hospital,18.453257,-34.0045,Military Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Southern Health sub-District,NaN,,,,,,,,,,,,,,ZA-WC
+Victoria Hospital  ,18.459317,-34.011913,District Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Southern Health sub-District,NaN,,,110,,0,0,,1,1,,,,https://www.westerncape.gov.za/facility/victoria-hospital,ZA-WC
+Alexandra Hospital,18.48448,-33.93,Specialised  Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Western Health sub-District,NaN,,,,,,,,,,,,,,ZA-WC
+Brooklyn Chest Hospital,18.4853,-33.8999,Specialised  Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Western Health sub-District,NaN,,,,,,,,,,,,,,ZA-WC
+Conradie Hospital,18.5212,-33.9237,Specialised  Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Western Health sub-District,NaN,,,,,,,,,,,,,,ZA-WC
+Groote Schuur Hospital,18.465164,-33.9408,Central Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Western Health sub-District,NaN,,,945,,97,97,,57,26,,,,,ZA-WC
+Groote Schuur Level 2 Hospital,18.465164,-33.9408,District Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Western Health sub-District,NaN,,,,,,,,,,,,,,ZA-WC
+Life Orthopaedic Hospital,18.489836,-33.9442,Specialised  Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Western Health sub-District,NaN,,,,,,,,,,,,,,ZA-WC
+Groote Schuur Hospital (Private Ward G4),18.465164,-33.940849,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Western Health sub-District,,,,,,,,,,,,,,,
+Life Vincent Pallotti Hospital,18.490442,-33.9432,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Western Health sub-District,NaN,,,273,,64,,,,12,,,,,ZA-WC
+Mediclinic Cape Town Hospital,18.410452,-33.9357,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Western Health sub-District,NaN,,,125,,37,,,,5,,,,,ZA-WC
+Mediclinic Milnerton Hospital,18.506922,-33.8654,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Western Health sub-District,NaN,,,139,,60,,,,5,,,,,ZA-WC
+Netcare Blaauwberg Hospital,18.483991,-33.8033,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Western Health sub-District,NaN,,,104,,26,,,,5,,,,,ZA-WC
+Netcare Christiaan Barnard Memorial Hospital,18.41816,-33.9217,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Western Health sub-District,NaN,,,248,,72,,,,14,,,,,ZA-WC
+Netcare UCT Private Hospital,18.462548,-33.942,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Western Health sub-District,NaN,,,,,,,,,,,,,,ZA-WC
+New Somerset Hospital,18.41683,-33.9044,Regional Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Western Health sub-District,NaN,,,334,,40,40,,4,4,,,,,ZA-WC
+NHN Icare Century City DH,18.512787,-33.8876,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Western Health sub-District,NaN,,,,,,,,,,,,,,ZA-WC
+Shirnell Clinic Hospital,18.44249,-33.9157,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Western Health sub-District,NaN,,,,,,,,,,,,,,ZA-WC
+St Monica's Hospital,18.41134,-33.9238,Specialised  Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Southern Health sub-District,NaN,,,,,,,,,,,,,,ZA-WC
+Valkenberg Hospital,18.48024,-33.9373,Specialised  Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Southern Health sub-District,NaN,,,,,,,,,,,,,,ZA-WC
+Wesfleur Clinic Hospital,18.49505,-33.5649,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Southern Health sub-District,NaN,,,,,,,,,,,,,,ZA-WC
+Wesfleur Hospital,18.49541,-33.5643,District Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Southern Health sub-District,NaN,,,31,,5,5,,1,1,,,,,ZA-WC
+Khayelitsha Hospital,18.673936,-34.0499,District Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Khayelitsha Health sub-District,NaN,,,240,,45,45,,5,2,,,,,ZA-WC
+Gatesv Med Centre Hospital,18.53346,-33.9709,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Klipfontein Health sub-District,NaN,,,,,,,,,,,,,,ZA-WC
+GF Jooste Hospital,18.557927,-33.9846,District Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Klipfontein Health sub-District,NaN,,,,,,,,,,,,,,ZA-WC
+Melomed Gatesville Hospital,18.532997,-33.9704,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Klipfontein Health sub-District,NaN,,,,,,,,,,,,,,ZA-WC
+Lentegeur Hospital,18.61771,-34.0248,Specialised  Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Mitchells Plain Health sub-District,NaN,,,,,,,,,,,,,,ZA-WC
+Melomed Mitchells Plain Hospital,18.621214,-34.0494,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Mitchells Plain Health sub-District,NaN,,,132,,22,,,,5,,,,,ZA-WC
+Mitchells Plain Hospital,18.61584,-34.0266,District Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Mitchells Plain Health sub-District,NaN,,,270,,60,60,,6,4,,,,,ZA-WC
+Mitchells Plain Medical Centre Hospital,18.59641,-34.0082,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Mitchells Plain Health sub-District,NaN,,,,,,,,,,,,,,ZA-WC
+Mitchells Plain Hospital,18.6157,-34.0262,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Mitchells Plain Health sub-District,NaN,,,,,,,,,,,,,,ZA-WC
+Aevitas Hospital,18.49029,-33.9435,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Tygerberg Health sub-District,NaN,,,,,,,,,,,,,,ZA-WC
+Bellville Med Hospital,18.62955,-33.9025,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Tygerberg Health sub-District,NaN,,,,,,,,,,,,,,ZA-WC
+Cape Eye Hospital,18.60901,-33.8996,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Tygerberg Health sub-District,NaN,,,,,,,,,,,,,,ZA-WC
+Karl Bremer Hospital,18.610085,-33.8926,District Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Tygerberg Health sub-District,NaN,,,217,,37,37,,6,2,,,,,ZA-WC
+Libertas Hospital,18.5418,-33.9121,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Tygerberg Health sub-District,NaN,,,,,,,,,,,,,,ZA-WC
+Mediclinic Louis Leipoldt Hospital,18.612936,-33.901,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Tygerberg Health sub-District,NaN,,,190,,70,,,,7,,,,,ZA-WC
+Melomed Bellville Hospital,18.623831,-33.9018,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Tygerberg Health sub-District,NaN,,,123,,58,,,,4,,,,,ZA-WC
+Netcare N1 City Hospital,18.559056,-33.8936,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Tygerberg Health sub-District,NaN,,,225,,104,,,,7,,,,,ZA-WC
+Origin Maternity Hospital,18.575818,-33.87498,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Tygerberg Health sub-District,NaN,,,,,,,,,,,,,,ZA-WC
+Stikland Hospital,18.65498,-33.8908,Specialised  Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Tygerberg Health sub-District,NaN,,,,,,,,,,,,,,ZA-WC
+Tygerberg Hospital,18.611569,-33.9147,Central Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Tygerberg Health sub-District,NaN,,,,,,,,,,,,,,ZA-WC
+Mediclinic Plettenberg Bay Hospital,23.364999,-34.0529,Private Hospital,Western Cape,Garden Route District Municipality,Bitou Local Municipality,NaN,,,27,,12,,,,1,,,,,ZA-WC
+George Hospital,22.45028,-33.9519,Regional Hospital,Western Cape,Garden Route District Municipality,George Local Municipality,NaN,,,268,,50,50,,5,6,,,,,ZA-WC
+H Comay TB Hospital,22.4725,-33.9802,Specialised  Hospital,Western Cape,Garden Route District Municipality,George Local Municipality,NaN,,,,,,,,,,,,,,ZA-WC
+Mediclinic Geneva Hospital,22.452171,-33.9563,Private Hospital,Western Cape,Garden Route District Municipality,George Local Municipality,NaN,,,,,,,,,,,,,,ZA-WC
+Mediclinic George Hospital,22.456439,-33.9573,Private Hospital,Western Cape,Garden Route District Municipality,George Local Municipality,NaN,,,122,,65,,,,5,,,,,ZA-WC
+Uniondale Hospital,23.12556,-33.6594,District Hospital,Western Cape,Garden Route District Municipality,George Local Municipality,NaN,,,13,,2,2,,0,1,,,,,ZA-WC
+Riversdale Hospital,21.25472,-34.0936,District Hospital,Western Cape,Garden Route District Municipality,Hessequa Local Municipality,NaN,,,50,,8,10,,6,1,,,,,ZA-WC
+Alan Blyth Hospital,21.26889,-33.4872,District Hospital,Western Cape,Garden Route District Municipality,Kannaland Local Municipality,NaN,,,30,,6,6,,4,1,,,,,ZA-WC
+Knysna Hospital,23.05806,-34.0369,District Hospital,Western Cape,Garden Route District Municipality,Knysna Local Municipality,NaN,,,90,,10,10,,9,2,,,,,ZA-WC
+Life Knysna Private Hospital,23.078486,-34.0521,Private Hospital,Western Cape,Garden Route District Municipality,Knysna Local Municipality,NaN,,,49,,15,,,,2,,,,,ZA-WC
+Meyer Zall Hospital,23.02,-34.02,Private Hospital,Western Cape,Garden Route District Municipality,Knysna Local Municipality,NaN,,,,,,,,,,,,,,ZA-WC
+Life BayView Private Hospital,22.130775,-34.1813,Private Hospital,Western Cape,Garden Route District Municipality,Mossel Bay Local Municipality,NaN,,,108,,10,,,,2,,,,,ZA-WC
+Mossel Bay Hospital,22.1275,-34.1858,District Hospital,Western Cape,Garden Route District Municipality,Mossel Bay Local Municipality,NaN,,,90,,8,8,,14,2,,,,,ZA-WC
+Cango Hospital,22.202562,-33.5906,Private Hospital,Western Cape,Garden Route District Municipality,Oudtshoorn Local Municipality,NaN,,,14,,14,,,,2,,,,,ZA-WC
+Mediclinic Klein Karoo Hospital,22.185728,-33.5859,Private Hospital,Western Cape,Garden Route District Municipality,Oudtshoorn Local Municipality,NaN,,,38,,10,,,,2,,,,,ZA-WC
+NHN Kango Clinic,22.201612,-33.591,Private Hospital,Western Cape,Garden Route District Municipality,Oudtshoorn Local Municipality,NaN,,,,,,,,,,,,,,ZA-WC
+Oudtshoorn Hospital,22.18889,-33.5888,District Hospital,Western Cape,Garden Route District Municipality,Oudtshoorn Local Municipality,NaN,,,123,,20,20,,14,3,,,,,ZA-WC
+Otto Du Plessis Hospital,20.035636,-34.5372,District Hospital,Western Cape,Overberg District Municipality,Cape Agulhas Local Municipality,NaN,,,30,,6,6,,2,1,,,,,ZA-WC
+Otto Du Plessis Hospital (Private Ward),21.035636,-33.5372,Private Hospital,Western Cape,Overberg District Municipality,Cape Agulhas Local Municipality,,,,,,,,,,,,,,,
+Hermanus Hospital,19.22833,-34.4226,District Hospital,Western Cape,Overberg District Municipality,Overstrand Local Municipality,NaN,,,71,,0,0,,12,2,,,,,ZA-WC
+Mediclinic Hermanus Hospital,19.226345,-34.4229,Private Hospital,Western Cape,Overberg District Municipality,Overstrand Local Municipality,NaN,,,80,,37,,,,3,,,,,ZA-WC
+Swellendam Hospital,20.4488,-34.0234,District Hospital,Western Cape,Overberg District Municipality,Swellendam Local Municipality,NaN,,,51,,13,13,,5,1,,,,,ZA-WC
+Caledon Hospital,19.434458,-34.2244,District Hospital,Western Cape,Overberg District Municipality,Theewaterskloof Local Municipality,NaN,,,50,,4,4,,6,1,,,,,ZA-WC
+LAPA Munnik Hospital,18.99444,-33.018,District Hospital,Western Cape,West Coast District Municipality,Bergrivier Local Municipality,NaN,,,10,,1,1,,1,1,,,,,ZA-WC
 Radie Kotze Hospital,18.76222,-32.9063,District Hospital,Western Cape,West Coast District Municipality,Bergrivier Local Municipality,NaN,,,31,,7,7,,4,1,,,,,ZA-WC
-Citrusdal Hospital,19.0175,-32.5988,District Hospital,Western Cape,Cape Town,Citrusdal,NaN,,,34,,4,4,,1,1,,,,,ZA-WC
-Clanwilliam Hospital,18.89083,-32.1836,District Hospital,Western Cape,Cape Town,Clanwilliam,NaN,,,50,,9,9,,2,1,,,,,ZA-WC
-Vredendal Hospital,18.50472,-31.6694,District Hospital,Western Cape,Cape Town,Vredendal,NaN,,,75,,10,10,,2,1,,,,,ZA-WC
-Life West Coast Prv Hospital,17.990553,-32.9118,Private Hospital,Western Cape,Cape Town,NaN,NaN,,,60,,12,,,,2,,,,,ZA-WC
-Vredenburg Hospital,17.99083,-32.9136,District Hospital,Western Cape,Cape Town,NaN,NaN,,,81,,8,8,,3,1,,,,,ZA-WC
-Germiston Hospital,28.16422,-26.21972,District Hospital,Gauteng,,,,,,230,,12,34,,0,4,,,,,
-Die Wieg Hospital,18.664464,-33.150138,Specialised  Hospital,Western Cape,Cape Town,NaN,NaN,,,,,,,,,,,,,,ZA-WC
-Malmesbury Inf Hospital,18.7175,-33.4672,Specialised  Hospital,Western Cape,Cape Town,NaN,NaN,,,,,,,,,,,,,,ZA-WC
+Citrusdal Hospital,19.0175,-32.5988,District Hospital,Western Cape,West Coast District Municipality,Cederberg Local Municipality,NaN,,,34,,4,4,,1,1,,,,,ZA-WC
+Clanwilliam Hospital,18.89083,-32.1836,District Hospital,Western Cape,West Coast District Municipality,Cederberg Local Municipality,NaN,,,50,,9,9,,2,1,,,,,ZA-WC
+Vredendal Hospital,18.50472,-31.6694,District Hospital,Western Cape,West Coast District Municipality,Matzikama Local Municipality,NaN,,,75,,10,10,,2,1,,,,,ZA-WC
+Life West Coast Private Hospital,17.990553,-32.9118,Private Hospital,Western Cape,West Coast District Municipality,Saldanha Bay Local Municipality,NaN,,,60,,12,,,,2,,,,,ZA-WC
+Vredenburg Hospital,17.99083,-32.9136,District Hospital,Western Cape,West Coast District Municipality,Saldanha Bay Local Municipality,NaN,,,81,,8,8,,3,1,,,,,ZA-WC
+Germiston Hospital,28.16422,-26.21972,District Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg F Health sub-District,,,,230,,12,34,,0,4,,,,,
+Die Wieg Hospital,18.664464,-33.150138,Specialised  Hospital,Western Cape,West Coast District Municipality,Swartland Local Municipality,NaN,,,,,,,,,,,,,,ZA-WC
+Malmesbury Inf Hospital,18.7175,-33.4672,Specialised  Hospital,Western Cape,West Coast District Municipality,Swartland Local Municipality,NaN,,,,,,,,,,,,,,ZA-WC
 Sonstraal TB Hospital,18.98694,-33.7119,Specialised  Hospital,Western Cape,West Coast District Municipality,Swartland Local Municipality,152 846,,,,,,,,,,,,,https://www.westerncape.gov.za/facility/sonstraal-hospital,ZA-WC
-Citymed Day Hospital,26.212372,-29.0868,Private Hospital,Free State,Mangaung Metropolitan Municipality,Bloemfontein Sub-District,787803,,,20,,20,,,,2,,,,https://citymed.co.za/,ZA-FS
+Citymed Day Hospital,26.212372,-29.0868,Private Hospital,Free State,Mangaung Metropolitan Municipality,Bloemfontein Health sub-District,787803,,,20,,20,,,,2,,,,https://citymed.co.za/,ZA-FS
 Swartland Hospital,18.723322,-33.456,District Hospital,Western Cape,West Coast District Municipality,Swartland Local Municipality,152 846,,,88,,20,20,,5,2,,,,,ZA-WC
