@@ -15,6 +15,7 @@ type PublicHospital struct {
 	NumberOfBeds          string `json:"NumberOfBeds" csv:"number_of_beds"`
 	NumberOfPractitioners string `json:"NumberOfPractitioners" csv:"number_of_practitioners"`
 	Webpage               string `json:"Webpage" csv:"webpage"`
+	GeoSubdivision        string `json:"GeoSubdivision" csv:"geo_subdivision"`
 }
 
 type PublicHospitals []PublicHospital

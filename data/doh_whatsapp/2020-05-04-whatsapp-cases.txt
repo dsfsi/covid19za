@@ -1,0 +1,37 @@
+Current Status of Cases of COVID-19 in South Africa
+4 May 2020 - 20:28
+
+Total cases: 7220
+437 New cases
+2746 Full recoveries (Confirmed Negative)  
+138 Deaths
+
+The breakdown per province of total infections is as follows:
+GAUTENG 1661
+WESTERN CAPE 3362
+KWAZULU – NATAL 1106 
+EASTERN CAPE 814
+FREE STATE 125
+LIMPOPO 39
+MPUMALANGA 53 
+NORTH WEST 35
+NORTHERN CAPE 25
+UNALLOCATED 0
+
+- A total of 257 541 tests have been conducted to date with 11 794 tests done in the past 24 hours.
+- As at 2 May 2020 we had 411 people hospitalized in the country. This translates to approximately 5% of all COVID-19 confirmed patients and this is consistent with the hospitalization rates that were seen in China.
+- Our mortality rate has remained stable at around 1.9% since the first death was reported. This is below the world average which is 3.4% as estimated by the World Health Organisation.
+
+
+
+Due to differences in reporting methods, retrospective data consolidation, and reporting delays, the number of new cases may not always add up sequentially. We are constantly cleaning & deduplicating the data to ensure quality.
+
+--
+For the latest news go to https://twitter.com/HealthZA or https://sacoronavirus.co.za/category/press-releases-and-notices/ 
+
+--------------------------
+If you suspect that you may be infected with COVID-19, reply CHECK 💟 to use the risk-assessment screening tool now.
+--------------------------
+
+ 🆕 Reply NEWS for the latest news
+📌Reply MENU to return to the main menuo

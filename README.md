@@ -1,6 +1,6 @@
 # Coronavirus COVID-19 (2019-nCoV) Data Repository for South Africa
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3732419.svg)](https://doi.org/10.5281/zenodo.3732419) [![arxiv](https://img.shields.io/badge/cs.CY-arXiv%3A2004.04813-B31B1B.svg)](https://arxiv.org/abs/2004.04813)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3732419.svg)](https://doi.org/10.5281/zenodo.3732419) [![dsJournal](https://img.shields.io/badge/DSJournal-10.5334-B31B1B.svg)](https://doi.org/10.5334/dsj-2020-019)
 
 COVID 19 Data for South Africa created, maintained and hosted by [Data Science for Social Impact research group](https://dsfsi.github.io/), led by Dr. Vukosi Marivate, at the University of Pretoria. 
 
@@ -26,7 +26,9 @@ Code [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](http
 
 | dataset         | url | raw_url[file] |
 |-----------------|-----|---------------|
-| provincial_cumulative_timeline|  [provincial_cumulative_timeline](/data/covid19za_provincial_cumulative_timeline_confirmed.csv)   |       [provincial_cumulative_timeline.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_provincial_cumulative_timeline_confirmed.csv)         |
+| provincial_cumulative_timeline_confirmed|  [provincial_cumulative_timeline_confirmed](/data/covid19za_provincial_cumulative_timeline_confirmed.csv)   |       [provincial_cumulative_timeline_confirmed.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_provincial_cumulative_timeline_confirmed.csv)         |
+| provincial_cumulative_timeline_testing|  [provincial_cumulative_timeline_testing](/data/covid19za_provincial_cumulative_timeline_testing.csv)   |       [provincial_cumulative_timeline_testing.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_provincial_cumulative_timeline_testing.csv)         |
+| provincial_cumulative_timeline_deaths|  [provincial_cumulative_timeline_deaths](/data/covid19za_provincial_cumulative_timeline_deaths.csv)   |       [provincial_cumulative_timeline_deaths.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_provincial_cumulative_timeline_deaths.csv)         |
 | confirmed_cases* [updated to 25 March] |  [covid19za_timeline_confirmed](/data/covid19za_timeline_confirmed.csv)   |       [covid19za_timeline_confirmed.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_timeline_confirmed.csv)         |
 | deaths |  [covid19za_timeline_deaths](/data/covid19za_timeline_deaths.csv)   |       [covid19za_timeline_deaths.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_timeline_deaths.csv)         |
 | district_data |  [district_data](/data/district_data/)   |            |
@@ -72,21 +74,23 @@ Made with [contributors-img](https://contributors-img.web.app).
 
 > Data Science for Social Impact Research Group @ University of Pretoria, *Coronavirus COVID-19 (2019-nCoV) Data Repository for South Africa.* Available on: https://github.com/dsfsi/covid19za.
 
-
 **In a publication**
 
-Arxiv Preprint
-> @misc{marivate2020framework,
-    title={Use of Available Data To Inform The COVID-19 Outbreak in South Africa: A Case Study},
-    author={Vukosi Marivate and Herkulaas MvE Combrink},
-    year={2020},
-    eprint={2004.04813},
-    archivePrefix={arXiv},
-    primaryClass={cs.CY},
-    url = {[https://arxiv.org/abs/2004.04813](https://arxiv.org/abs/2004.04813)}
+Data Science Journal
+
+>@article{marivate2020use,
+	Author = {Vukosi Marivate and Herkulaas MvE Combrink},
+	Journal = {Data Science Journal},
+	Number = {1},
+	Pages = {1-7},
+	Title = {Use of Available Data To Inform The COVID-19 Outbreak in South Africa: A Case Study.},
+	Volume = {19},
+	Year = {2020},
+    url = {[https://doi.org/10.5334/dsj-2020-019](https://doi.org/10.5334/dsj-2020-019)}
 }
 
 and Dataset
+
 > @dataset{marivate_vukosi_2020_3732419,
   author       = {Marivate, Vukosi and
                   de Waal, Alta and
@@ -113,6 +117,7 @@ Some of COVID-19 Data for South Africa (data in this repo) is currently being us
 
 | Project Name  | Project Description |  Project Demo    |    Project owner |    Country   |
 | ------------- | ------------- |------------|-----------------|------------------|
-|1. Covid-19 SA Data  |  Data visualisations corresponding to the current Covid-19 outbreak in South Africa | View data visualizations [here](https://simonrosen173.github.io/Covid19SAData/) | [Simon Rosen](https://github.com/SimonRosen173)|          South Africa  |
-| 2. Covid-19 testing areas| A Covid-19 Testing Facilities Map |View testing areas [here](https://www.ineff.ch/cov19testmap/)|    [Yannick Zehnder](https://github.com/IneffableKoD/)    |  Switzerland               |                 
-| 3. Covid-19 Map| A Coronavirus Map | [[Website](https://coronamap.co.za)] [[GitHub Repo](https://github.com/JayWelsh/coronamap)] | Jay Welsh |  South Africa |         
+| 1. Covid-19 SA Data | Data visualisations corresponding to the current Covid-19 outbreak in South Africa | View data visualizations [here](https://simonrosen173.github.io/Covid19SAData/) | [Simon Rosen](https://github.com/SimonRosen173)| South Africa |
+| 2. Covid-19 testing areas| A Covid-19 Testing Facilities Map |View testing areas [here](https://www.ineff.ch/cov19testmap/)| [Yannick Zehnder](https://github.com/IneffableKoD/) | Switzerland |
+| 3. Covid-19 Map| A Coronavirus Map | [[Website](https://coronamap.co.za)] [[GitHub Repo](https://github.com/JayWelsh/coronamap)] | Jay Welsh | South Africa |
+| 4. Covid-19 Telegram Bot| Corona virus statistics via Telegram | [Link](https://t.me/CoronaZABot) | CodeChap | South Africa |
