@@ -1,6 +1,6 @@
 # Coronavirus COVID-19 (2019-nCoV) Data Repository for South Africa
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3732419.svg)](https://doi.org/10.5281/zenodo.3732419) [![dsJournal](https://img.shields.io/badge/DSJournal-10.5334-B31B1B.svg)](https://doi.org/10.5334/dsj-2020-019)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3819126.svg)](https://doi.org/10.5281/zenodo.3819126) [![dsJournal](https://img.shields.io/badge/DSJournal-10.5334-B31B1B.svg)](https://doi.org/10.5334/dsj-2020-019)
 
 COVID 19 Data for South Africa created, maintained and hosted by [Data Science for Social Impact research group](https://dsfsi.github.io/), led by Dr. Vukosi Marivate, at the University of Pretoria. 
 
@@ -91,23 +91,39 @@ Data Science Journal
 
 and Dataset
 
-> @dataset{marivate_vukosi_2020_3732419,
+> @dataset{marivate_vukosi_2020_3819126,
   author       = {Marivate, Vukosi and
-                  de Waal, Alta and
+                  Arbi, Riaz and
                   Combrink, Herkulaas and
+                  de Waal, Alta and
+                  Dryza, Henkho and
+                  Egersdorfer, Derrick and
+                  Garnett, Shaun and
+                  Gordon, Brent and
+                  Greyling,  Lizel and
                   Lebogo, Ofentswe and
+                  Mackie, Dave and
+                  Merry, Bruce and
+                  Mkhondwane, S'busiso and
+                  Mokoatle, Mpho and
                   Moodley, Shivan and
+                  Mtsweni, Jabu and
                   Mtsweni, Nompumelelo and
+                  Myburgh, Paul and
+                  Richter, Jannik and
                   Rikhotso, Vuthlari and
-                  Welsh, Jay and
-                  Mkhondwane, S'busiso},
+                  Rosen, Simon and
+                  Sefara, Joseph and
+                  van der Walt, Anelda and
+                  van Heerden, Schalk and
+                  Welsh, Jay},
   title        = {{Coronavirus disease (COVID-19) case data - South 
                    Africa}},
   month        = mar,
   year         = 2020,
   publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.3732419},
-  url          = {[https://doi.org/10.5281/zenodo.3732419](https://doi.org/10.5281/zenodo.3732419)}
+  doi          = {10.5281/zenodo.3819126},
+  url          = {[https://doi.org/10.5281/zenodo.3819126](https://doi.org/10.5281/zenodo.3819126)}
 }
 
 ## Showcase
