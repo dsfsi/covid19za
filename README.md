@@ -11,6 +11,7 @@ COVID 19 Data for South Africa created, maintained and hosted by [Data Science f
 See our blog posts: 
 * [Why we built this and how we are working](https://dsfsi.github.io/blog/covid19za-dashboard/),
 * [How this is a call to action across the African continent](https://dsfsi.github.io/blog/covida19africa-call-to-action/)
+* [A few weeks in, Data Science thoughts on COVID-19 in South Africa](https://dsfsi.github.io/blog/a-few-weeks-in-covid19/)
 
 *If you are interested in the **Africa-wide effort**:* Go to [https://github.com/dsfsi/covid19africa](https://github.com/dsfsi/covid19africa)
 
