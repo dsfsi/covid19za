@@ -1,6 +1,6 @@
 # Coronavirus COVID-19 (2019-nCoV) Data Repository for South Africa
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3732419.svg)](https://doi.org/10.5281/zenodo.3732419) [![dsJournal](https://img.shields.io/badge/DSJournal-10.5334-B31B1B.svg)](https://doi.org/10.5334/dsj-2020-019)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3819126.svg)](https://doi.org/10.5281/zenodo.3819126) [![dsJournal](https://img.shields.io/badge/DSJournal-10.5334-B31B1B.svg)](https://doi.org/10.5334/dsj-2020-019)
 
 COVID 19 Data for South Africa created, maintained and hosted by [Data Science for Social Impact research group](https://dsfsi.github.io/), led by Dr. Vukosi Marivate, at the University of Pretoria. 
 
@@ -11,6 +11,7 @@ COVID 19 Data for South Africa created, maintained and hosted by [Data Science f
 See our blog posts: 
 * [Why we built this and how we are working](https://dsfsi.github.io/blog/covid19za-dashboard/),
 * [How this is a call to action across the African continent](https://dsfsi.github.io/blog/covida19africa-call-to-action/)
+* [A few weeks in, Data Science thoughts on COVID-19 in South Africa](https://dsfsi.github.io/blog/a-few-weeks-in-covid19/)
 
 *If you are interested in the **Africa-wide effort**:* Go to [https://github.com/dsfsi/covid19africa](https://github.com/dsfsi/covid19africa)
 
@@ -91,23 +92,39 @@ Data Science Journal
 
 and Dataset
 
-> @dataset{marivate_vukosi_2020_3732419,
+> @dataset{marivate_vukosi_2020_3819126,
   author       = {Marivate, Vukosi and
-                  de Waal, Alta and
+                  Arbi, Riaz and
                   Combrink, Herkulaas and
+                  de Waal, Alta and
+                  Dryza, Henkho and
+                  Egersdorfer, Derrick and
+                  Garnett, Shaun and
+                  Gordon, Brent and
+                  Greyling,  Lizel and
                   Lebogo, Ofentswe and
+                  Mackie, Dave and
+                  Merry, Bruce and
+                  Mkhondwane, S'busiso and
+                  Mokoatle, Mpho and
                   Moodley, Shivan and
+                  Mtsweni, Jabu and
                   Mtsweni, Nompumelelo and
+                  Myburgh, Paul and
+                  Richter, Jannik and
                   Rikhotso, Vuthlari and
-                  Welsh, Jay and
-                  Mkhondwane, S'busiso},
+                  Rosen, Simon and
+                  Sefara, Joseph and
+                  van der Walt, Anelda and
+                  van Heerden, Schalk and
+                  Welsh, Jay},
   title        = {{Coronavirus disease (COVID-19) case data - South 
                    Africa}},
   month        = mar,
   year         = 2020,
   publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.3732419},
-  url          = {[https://doi.org/10.5281/zenodo.3732419](https://doi.org/10.5281/zenodo.3732419)}
+  doi          = {10.5281/zenodo.3819126},
+  url          = {[https://doi.org/10.5281/zenodo.3819126](https://doi.org/10.5281/zenodo.3819126)}
 }
 
 ## Showcase
@@ -121,3 +138,4 @@ Some of COVID-19 Data for South Africa (data in this repo) is currently being us
 | 2. Covid-19 testing areas| A Covid-19 Testing Facilities Map |View testing areas [here](https://www.ineff.ch/cov19testmap/)| [Yannick Zehnder](https://github.com/IneffableKoD/) | Switzerland |
 | 3. Covid-19 Map| A Coronavirus Map | [[Website](https://coronamap.co.za)] [[GitHub Repo](https://github.com/JayWelsh/coronamap)] | Jay Welsh | South Africa |
 | 4. Covid-19 Telegram Bot| Corona virus statistics via Telegram | [Link](https://t.me/CoronaZABot) | CodeChap | South Africa |
+| 5. Covid-19 Xitsonga Dashboard | Xitsonga Dashboard | [Link](http://xitsonga.org/covid19) | xitsonga.org | South Africa |

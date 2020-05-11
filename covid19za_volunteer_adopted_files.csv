@@ -1,0 +1,5 @@
+file,volunteer1,volunteer2,volunteer3,volunteer4
+data/district_data/provincial_gp_cumulative.csv,@vukosim,,,
+covid19za/data/covid19za_provincial_cumulative_timeline_confirmed.csv,@vukosim,,,
+covid19za/data/covid19za_timeline_testing.csv,@vukosim,,,
+data/district_data/provincial_mp_cumulative.csv,@lizelgreyling,@henkhodryza,,
