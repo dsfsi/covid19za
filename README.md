@@ -56,6 +56,10 @@ Code [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](http
 ### Options
 * *I want to help, but don't have an idea:* You can take a look at the issues to see which one you might be interested in tackling.
 * *I have an idea or new feature:* Create a new issue first, assign it to yourself and then fork the repo. 
+
+### Adopting a file
+Once you have chosen how you are going to contribute, you must list which files you will be working on by adding your name to the adopt-a-file csv file. Edit [covid19za_volunteer_adopted_file](https://github.com/dsfsi/covid19za/blob/master/covid19za_volunteer_adopted_files.csv).
+
 ### Submitting Changes [Pull Request]
 * See https://opensource.com/article/19/7/create-pull-request-github
 ### Resources [Get some ideas]
