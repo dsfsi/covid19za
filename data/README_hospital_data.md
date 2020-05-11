@@ -22,7 +22,7 @@ The table below shows what sources were used and the year when sources were last
 
 ** To download health facility data from the data dictionary: Choose Data Dictionary > Data File > NIDS integrated > Groups > All Groups > Download > Org Unit Level > Down to Level 5 and then click submit.
 
-Other sources used to validate minor data uncertainties like classification of a hospital include : this[ Gem file](https://drive.google.com/file/d/140PgnBOdeulGdEWcL6s1jV3JFjx19HZ7/view?usp=sharing) , [Medpages ](https://www.medpages.info/sf/index.php?page=homepage) and Google search engine. Statistics of South Africa [URL](http://www.statssa.gov.za/) - For Estimates of population per distriction from 2002 -2021. Raw Data here [URL](https://github.com/elolelo/DataProject/blob/master/za_PopEstimates_Districts_StatsSA_WithFinYears_Jan17_coded.csv)
+Other sources used to validate minor data uncertainties like classification of a hospital include : this[ Gem file](https://drive.google.com/file/d/140PgnBOdeulGdEWcL6s1jV3JFjx19HZ7/view?usp=sharing) , [Medpages ](https://www.medpages.info/sf/index.php?page=homepage) and Google search engine. For number of beds in some public hospitals, this [National Health Act doc](https://www.gov.za/sites/default/files/gcis_document/201409/35101rg9701gon185a.pdf)  was used. Statistics of South Africa [URL](http://www.statssa.gov.za/) - For Estimates of population per distriction from 2002 -2021. Raw Data here [URL](https://github.com/elolelo/DataProject/blob/master/za_PopEstimates_Districts_StatsSA_WithFinYears_Jan17_coded.csv)
 
 
 ## 4. Data Limitations
