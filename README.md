@@ -42,7 +42,7 @@ Code [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](http
 \* NICD no longer gives individual case data. Please use **provincial_cumulative_timeline** from 26 March onwards.
 
 ## Dashboard
-* Google Data Studio Dashboard [URL link](https://datastudio.google.com/reporting/1b60bdc7-bec7-44c9-ba29-be0e043d8534)
+* Google Data Studio Dashboard [URL link](https://dsfsi.github.io/covid19za-dash/)
 
 ## Data Sources:
 * NICD - South Africa [URL](http://www.nicd.ac.za/media/alerts/)
