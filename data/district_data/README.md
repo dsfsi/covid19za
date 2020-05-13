@@ -25,8 +25,17 @@
 
 - [Facebook](https://www.facebook.com/LimpopoDepartmentOfHealthBophelong/photos/a.442368809197087/2558887860878494/) for date 07-05-2020
 
+- [Facebook](https://www.facebook.com/photo/?fbid=2561354797298467&set=a.442368809197087) for date 08-05-2020
 
+- [Facebook](https://www.facebook.com/photo/?fbid=2563751797058767&set=a.442368809197087) for date 09-05-2020
 
+- [Facebook](https://www.facebook.com/photo/?fbid=2566079146826032&set=pcb.2566079210159359) for date 10-05-2020
+
+- [Facebook](https://www.facebook.com/photo?fbid=2568446006589346&set=pcb.2568446146589332) for date 11-05-2020
+
+- [Facebook](https://www.facebook.com/photo/?fbid=2570029573097656&set=pcb.2570029676430979) for date 12-05-2020
+
+- [Facebook](https://www.facebook.com/photo/?fbid=2566079146826032&set=pcb.2566079210159359) for date 13-05-2020
 
 ### Structure
 
