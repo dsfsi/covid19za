@@ -23,21 +23,25 @@ Code [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](http
 
 ## Data Available [[/data](/data)]
 
-**NOTE:** Since around 24 March, we have not gotten individual case data from DoH or NICD. For now if you need provincial counts use the *provincial_cumulative_timeline*. For individual cases up to 25 March, use the *confirmed_cases*.
-
+### Active
 | dataset         | url | raw_url[file] |
 |-----------------|-----|---------------|
 | provincial_cumulative_timeline_confirmed|  [provincial_cumulative_timeline_confirmed](/data/covid19za_provincial_cumulative_timeline_confirmed.csv)   |       [provincial_cumulative_timeline_confirmed.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_provincial_cumulative_timeline_confirmed.csv)         |
 | provincial_cumulative_timeline_testing|  [provincial_cumulative_timeline_testing](/data/covid19za_provincial_cumulative_timeline_testing.csv)   |       [provincial_cumulative_timeline_testing.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_provincial_cumulative_timeline_testing.csv)         |
 | provincial_cumulative_timeline_deaths|  [provincial_cumulative_timeline_deaths](/data/covid19za_provincial_cumulative_timeline_deaths.csv)   |       [provincial_cumulative_timeline_deaths.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_provincial_cumulative_timeline_deaths.csv)         |
-| confirmed_cases* [updated to 25 March] |  [covid19za_timeline_confirmed](/data/covid19za_timeline_confirmed.csv)   |       [covid19za_timeline_confirmed.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_timeline_confirmed.csv)         |
-| deaths |  [covid19za_timeline_deaths](/data/covid19za_timeline_deaths.csv)   |       [covid19za_timeline_deaths.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_timeline_deaths.csv)         |
 | district_data |  [district_data](/data/district_data/)   |            |
 | transmission_type |  [covid19za_timeline_transmission_type](/data/covid19za_timeline_transmission_type.csv)   |       [covid19za_timeline_transmission_type.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_timeline_transmission_type.csv)         |
 | testing |  [covid19za_timeline_testing](/data/covid19za_timeline_testing.csv)   |       [covid19za_timeline_testing.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_timeline_testing.csv)         |
 |   DoH PDFs and Extracted CSVs |  [doh_pdf](/data/doh_pdf)   |              |
 |   DoH Whatsapp case update archive |  [doh_whatsapp](/data/doh_whatsapp)   |              |
 |   public_hospitals [validation in progress] |  [health_system_za_public_hospitals](/data/health_system_za_public_hospitals.csv)   |         [health_system_za_public_hospitals.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/health_system_za_public_hospitals.csv)       |
+
+### Deprecated
+**NOTE:** Since around 24 March, we have not gotten individual case data from DoH or NICD. For now if you need provincial counts use the *provincial_cumulative_timeline*. For individual cases up to 25 March, use the *confirmed_cases*.
+| dataset         | url | raw_url[file] |
+|-----------------|-----|---------------|
+| confirmed_cases* [updated to 25 March] |  [covid19za_timeline_confirmed](/data/covid19za_timeline_confirmed.csv)   |       [covid19za_timeline_confirmed.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_timeline_confirmed.csv)         |
+| deaths |  [covid19za_timeline_deaths](/data/covid19za_timeline_deaths.csv)   |       [covid19za_timeline_deaths.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_timeline_deaths.csv)         |
 
 \* NICD no longer gives individual case data. Please use **provincial_cumulative_timeline** from 26 March onwards.
 
