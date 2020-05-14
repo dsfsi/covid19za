@@ -21,6 +21,8 @@ This folder contains notebooks for analysis and modelling of the COVID-19 data. 
 
 * Reproduction rate estimation from [https://github.com/k-sys/covid-19](https://github.com/k-sys/covid-19) adjusted for South Africa - [Notebook](https://github.com/dsfsi/covid19za/blob/master/notebooks/Realtime%20R0.ipynb)
 
+* Choropleth visualization showing the spread of Covid-19 across the provinces of South Africa - [Notebook](https://github.com/dsfsi/covid19za/blob/master/notebooks/ZA_Choropleth_Covid-19.ipynb)
+
 ## Where do I start?
 ### Running the notebooks
 You can pull the repo and then run the notebooks and make adjustments as I need. 
