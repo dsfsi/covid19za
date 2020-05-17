@@ -58,7 +58,10 @@ Columns are named as follows
     Daily updates by the Premier Alan Wilde 
     https://www.westerncape.gov.za/department-of-health/news
 
-## Testing data structure
+## Testing data
+
+NICD Epidemiology briefings are taken as source. Week 17 number of tests are computed from the provincial per capita tests given in the report. After that the report gives the data
+### Structure
 
 Columns separated by columns. For column labels tabs separate the province name from the data field
    
