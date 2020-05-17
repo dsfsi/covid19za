@@ -62,7 +62,7 @@ date,YYYYMMDD,cumulative_tests,recovered,hospitalisation,critical_icu,ventilatio
 29-04-2020,20200429,197127,2073,241,36,26,103,,,,,,https://sacoronavirus.co.za/2020/04/29/update-on-covid-19-29th-april-2020/
 30-04-2020,20200430,207530,2073,241,36,26,103,,,,,,https://sacoronavirus.co.za/2020/04/30/update-on-covid-19-30th-april-2020/
 01-05-2020,20200501,217522,2382,241,36,26,116,,,,,,https://sacoronavirus.co.za/2020/05/01/update-on-covid-19-1st-may-2020/
-02-05-2020,20200502,230686,2549,241,36,26,123,,,,,,
+02-05-2020,20200502,230686,2549,241,36,26,123,,,,,,https://sacoronavirus.co.za/2020/05/02/update-on-covid-19-2nd-may-2020/
 03-05-2020,20200503,245747,2549,241,36,26,131,,,,,,https://twitter.com/nicd_sa/status/1257006165889880069?s=20
 04-05-2020,20200504,257541,2746,411,36,26,138,,,,,,https://sacoronavirus.co.za/2020/05/04/update-on-covid-19-4th-may-2020/
 05-05-2020,20200505,268064,2746,411,36,26,148,,,,,,https://sacoronavirus.co.za/2020/05/05/update-on-covid-19-5th-may-2020/
@@ -74,3 +74,6 @@ date,YYYYMMDD,cumulative_tests,recovered,hospitalisation,critical_icu,ventilatio
 11-05-2020,20200511,356067,4357,411,36,26,206,,,,,,https://twitter.com/DrZweliMkhize/status/1259849590251098112?s=20
 12-05-2020,20200512,369697,4357,411,36,26,206,,,,,,https://twitter.com/nicd_sa/status/1260170708329672706?s=20
 13-05-2020,20200513,386352,4745,411,36,26,219,,,,,,https://twitter.com/nicd_sa/status/1260674090282684417/photo/1
+14-05-2020,20200514,403018,5676,411,36,26,238,,,,,,https://sacoronavirus.co.za/2020/05/14/update-on-covid-19-14th-may-2020/
+15-05-2020,20200515,421555,6083,411,36,26,247,,,,,,https://mobile.twitter.com/nicd_sa/status/1261360621804806145/photo/1
+16-05-2020,20200516,439559,6478,411,36,26,261,,,,,,https://sacoronavirus.co.za/2020/05/16/update-on-covid-19-16th-may-2020/
