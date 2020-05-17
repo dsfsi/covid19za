@@ -27,6 +27,7 @@ Code [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](http
 | dataset         | url | raw_url[file] |
 |-----------------|-----|---------------|
 | provincial_cumulative_timeline_confirmed|  [provincial_cumulative_timeline_confirmed](/data/covid19za_provincial_cumulative_timeline_confirmed.csv)   |       [provincial_cumulative_timeline_confirmed.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_provincial_cumulative_timeline_confirmed.csv)         |
+| provincial_cumulative_timeline_recoveries|  [provincial_cumulative_timeline_recoveries](/data/covid19za_provincial_cumulative_timeline_recoveries.csv)   |       [provincial_cumulative_timeline_recoveries.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_provincial_cumulative_timeline_recoveries.csv)         |
 | provincial_cumulative_timeline_testing|  [provincial_cumulative_timeline_testing](/data/covid19za_provincial_cumulative_timeline_testing.csv)   |       [provincial_cumulative_timeline_testing.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_provincial_cumulative_timeline_testing.csv)         |
 | provincial_cumulative_timeline_deaths|  [provincial_cumulative_timeline_deaths](/data/covid19za_provincial_cumulative_timeline_deaths.csv)   |       [provincial_cumulative_timeline_deaths.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_provincial_cumulative_timeline_deaths.csv)         |
 | district_data |  [district_data](/data/district_data/)   |            |
