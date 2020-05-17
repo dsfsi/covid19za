@@ -1,4 +1,4 @@
-date,YYYYMMDD,bushbuckridge,mbombela,nkomazi,thaba_chweru,albert_luthuli,dipaliseng,pixley_ka_seme,govan_mbeki,lekwa,mkhondo,msukaligwa,js_moroka,emakhazeni,emlahleni,steve_tshwete,thembisile_hani,victor_khanye,unknown,total,recoveries,sources
+date,YYYYMMDD,bushbuckridge,mbombela,nkomazi,thaba_chweru,albert_luthuli,dipaliseng,pixley_ka_seme,govan_mbeki,lekwa,mkhondo,msukaligwa,js_moroka,emakhazeni,emalahleni,steve_tshwete,thembisile_hani,victor_khanye,unknown,total,recoveries,sources
 05-03-2020,20200305,,,,,,,,,,,,,,,,,,,0,,https://twitter.com/nicd_sa
 07-03-2020,20200307,,,,,,,,,,,,,,,,,,,0,,https://twitter.com/nicd_sa
 08-03-2020,20200308,,,,,,,,,,,,,,,,,,,0,,https://twitter.com/nicd_sa
@@ -69,4 +69,4 @@ date,YYYYMMDD,bushbuckridge,mbombela,nkomazi,thaba_chweru,albert_luthuli,dipalis
 13-05-2020,20200513,,,,,,,,,,,,,,,,,,,66,24,No Update from MpuHealth. Total increased by 3 and recoveries unchanged based on https://twitter.com/nicd_sa
 14-05-2020,20200514,1,13,20,1,0,0,16,3,2,0,1,1,2,2,2,3,0,0,67,34,https://twitter.com/MpuHealth1
 15-05-2020,20200515,1,13,20,1,0,0,16,3,2,0,1,1,2,2,2,3,0,0,67,44,https://twitter.com/MpuHealth1
-16-05-2020,20200516,,,,,,,,,,,,,,,,,,,68,49,No Update from MpuHealth. Total confirmed increased by 1 and recoveries increased by 5 according to NICD on https://twitter.com/nicd_sa 
+16-05-2020,20200516,1,13,20,1,0,0,16,3,2,0,1,1,2,3,2,3,0,0,68,49,https://twitter.com/MpuHealth1
