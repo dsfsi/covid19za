@@ -1,4 +1,10 @@
 key,value
+Ekurhuleni East 1,Brakpan	Daveyton	Tsakane	Etwatwa
+Ekurhuleni East 1,Springs	Duduza	Kwa-Thema	Nigel
+Ekurhuleni North 1,Birchleigh	Birchleigh North	Bonaero Park	Crystal Park	Erin	Ethafeni	Kempton Park	Olifantsfontein	Tembisa	Winnie Mandela
+Ekurhuleni North 2,Bedfordview	Boksburg   Chief Albert Luthuli	Dan Khubeka	Edenvale	Endayeni	Esangweni	Itireleng	Kemston	Lethabong	Ramaphosa	Reiger Park	Van Dyk Park
+Ekurhuleni South 1,Alberton	Brackenhurst	 Eden Park	Primrose	Germiston	Leondale	Dawn Park	Tswelepele	Vosloorus		Villa Liza
+Ekurhuleni South 2,Thokoka	Greenfields	 Kathlehong	Molekeli	Zonkizizwe	Palm Ridge	Molekeli	Tsietsi Sunrise View			Tamaho	Motsamai
 JhbA,Diepsloot     KyaSands	Dainfern	Midrand
 JhbB,Randburg	     Rosebank	Emmarentia	Greenside	Melville	Mayfair		Northcliff	Parktown	Parktown North
 JhbC,Roodepoort	 Constantia Kloof	 Northgate	 Florida	 Bram Fischerville
@@ -6,3 +12,16 @@ JhbD,Doornkop	 Soweto	 Dobsonville	 Protea Glen
 JhbE,Alexandra	 Wynberg	 Sandton	 Orange Grove	 Houghton
 JhbF,Inner City	 Johannesburg South
 JhbU,Unallocate
+Citry of Tshwane 1,Ga-Rankuwe	Mabopane Winterveldt	Shoshanguve	Rosslyn	Karenpark	Wonderboom	Akasia	Nina Park	Orchards	Amandesig	Thereza Park	Pretoria North
+City of Tshwane 2,Hammanskraal, Temba, Suurman, Dilopye, Stinkwater, Ramotse, New Eersterus, Kameeldrift, Pyramid/Rooiwal, Doornpoort, Kekana Gardens, Kekanastad, Marokolong, Randstown, Kanana
+City of Tshwane 3,Atteridgeville, Laudium, Pretoria CBD, Hercules, Danville, Saulsville, Lotus, Pretoria West
+City of Tshwane 4,Lyttelton, Eldoraigne, Waterkloof, Olievenhoutsbosch, Rooihuiskraal, Silverton, Centurion, Brooklyn and Hatfield
+City of Tshwane 5,East Lynne, Rayton, Cullinan, De Wagensdrift, Refilwe, Onverwacht
+City of Tshwane 6,Eersterust, Lethabong, Mamelodi, Silverlakes, Garsfontein, Lynnwood, Queenswood, Wilgers, Waltloo, Equestria, Mooikloof, Brummeria
+City of Tshwane 7,Ekangala, Sokhulumi, Dark City, Zithobeni, Bronkhorstspruit, Kanana, Rethabiseng
+Sedibeng	Lesedi
+Sedibeng	Emfuleni
+Sedibdeng	Midvaal
+West Rand	Mogale City
+West Rand	Rand West City
+West Rand	Merafong City
