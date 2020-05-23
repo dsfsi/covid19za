@@ -1,4 +1,4 @@
-Date,YYYYMMDD,Johannesburg,Johannesburg Recoveries,Johannesburg A,Johannesburg B,Johannesburg C,Johannesburg D,Johannesburg E,Johannesburg F,Johannesburg G,Johannesburg U,source
+Date,YYYYMMDD,Johannesburg,Johannesburg Recoveries,Johannesburg A,Johannesburg B,Johannesburg C,Johannesburg D,Johannesburg E,Johannesburg F,Johannesburg G,Unallocated Johannesburg,source
 19-04-2020,20200419,690,NA,NA,NA,NA,NA,NA,NA,NA,NA,https://twitter.com/GautengHealth/status/1252150127474741248
 20-04-2020,20200420,698,NA,NA,NA,NA,NA,NA,NA,NA,NA,https://twitter.com/GautengHealth/status/1252540190725414914
 21-04-2020,20200421,712,NA,70,140,44,39,227,93,40,49,https://twitter.com/GautengHealth/status/1252960035489144833
@@ -30,3 +30,5 @@ Date,YYYYMMDD,Johannesburg,Johannesburg Recoveries,Johannesburg A,Johannesburg B
 18-05-2020,20200518,1204,1019,174,181,94,112,297,145,79,122,https://twitter.com/GautengHealth/status/1262623142067003392
 19-05-2020,20200519,1214,1032,176,181,94,118,297,147,79,122,https://twitter.com/GautengHealth/status/1263108613859676166/
 20-05-2020,20200520,1238,1036,179,184,98,122,299,150,80,126,https://twitter.com/GautengHealth/status/1263416943073263624
+21-05-2020,20200521,1273,1060,180,187,105,130,304,155,81,131,https://twitter.com/GautengHealth/status/126374892100592435
+22-05-2020,20200520,1313,1081,180,197,106,136,305,155,83,136,https://twitter.com/GautengHealth/status/1264163298070663169/

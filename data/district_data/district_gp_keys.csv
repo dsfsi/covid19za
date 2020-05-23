@@ -5,7 +5,7 @@ Ekurhuleni North 1,Birchleigh	Birchleigh North	Bonaero Park	Crystal Park	Erin	Et
 Ekurhuleni North 2,Bedfordview	Boksburg   Chief Albert Luthuli	Dan Khubeka	Edenvale	Endayeni	Esangweni	Itireleng	Kemston	Lethabong	Ramaphosa	Reiger Park	Van Dyk Park
 Ekurhuleni South 1,Alberton	Brackenhurst	 Eden Park	Primrose	Germiston	Leondale	Dawn Park	Tswelepele	Vosloorus		Villa Liza
 Ekurhuleni South 2,Thokoka	Greenfields	 Kathlehong	Molekeli	Zonkizizwe	Palm Ridge	Molekeli	Tsietsi Sunrise View			Tamaho	Motsamai
-Ekurhuleni Unallocated,Unallocated
+Ekurhuleni Unallocated,Unallocated Ekurhuleni
 Johannesburg A,Diepsloot     KyaSands	Dainfern	Midrand
 Johannesburg B,Randburg	     Rosebank	Emmarentia	Greenside	Melville	Mayfair		Northcliff	Parktown	Parktown North
 Johannesburg C,Roodepoort	 Constantia Kloof	 Northgate	 Florida	 Bram Fischerville
@@ -13,7 +13,7 @@ Johannesburg D,Doornkop	 Soweto	 Dobsonville	 Protea Glen
 Johannesburg E,Alexandra	 Wynberg	 Sandton	 Orange Grove	 Houghton
 Johannesburg F,Inner City	 Johannesburg South
 Johannesburg G,Orange Farm    Weilers Farm	Ennerdale	Lenasia	Eldorado Park	Protea South
-Johannesburg Unallocated,Unallocated
+Johannesburg Unallocated,Unallocated Johannesburg
 Tshwane 1,Ga-Rankuwe	Mabopane Winterveldt	Shoshanguve	Rosslyn	Karenpark	Wonderboom	Akasia	Nina Park	Orchards	Amandesig	Thereza Park	Pretoria North
 Tshwane 2,Hammanskraal	Temba	Suurman	Dilopye	Stinkwater	Ramotse	New Eersterus	Kameeldrift	Pyramid/Rooiwal	Doornpoort	Kekana Gardens	Kekanastad	Marokolong	Randstown	Kanana
 Tshwane 3,Atteridgeville	Laudium	Pretoria CBD	Hercules	Danville   Saulsville     Lotus	  Pretoria West
@@ -21,12 +21,12 @@ Tshwane 4,Lyttelton	Eldoraigne	Waterkloof Olievenhoutsbosch	      Rooihuiskraal	
 Tshwane 5,East Lynne	Rayton	Cullinan	De Wagensdrift	Refilwe	Onverwacht
 Tshwane 6,Eersterust	Lethabong	Mamelodi	Silverlakes	Garsfontein	Lynnwood	Queenswood	Wilgers	Waltloo	Equestria	Mooikloof	Brummeria
 Tshwane 7,Ekangala	Sokhulumi	Dark City	Zithobeni	Bronkhorstspruit	Kanana	Rethabiseng
-Tshwane Unallocated,Unallocated
+Tshwane Unallocated,Unallocated	Tshwane
 Sedibeng	Lesedi,Lesedi
 Sedibeng	Emfuleni,Emfuleni
 Sedibeng	Midvaal,Midvaal
-Sedibeng	Unallocated,Unallocated
+Sedibeng	Unallocated,Unallocated Sedibeng
 West Rand	Mogale City,Mogale City
-West Rand	Rand West City,Mogale City
+West Rand	Rand West City,Rand West City
 West Rand	Merafong City,Merafong City
-West Rand	Unallocated,Unallocated
+West Rand	Unallocated,Unallocated West Rand
