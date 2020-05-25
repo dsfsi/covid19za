@@ -20,6 +20,15 @@ Each model should be able to predict up to X days ahead.
 
 ### Model Ouputs
 
+### Licensing
+
+#### Mode Licensing
+
+Each model can be licensed under the license that the creator or author wishes. By default [without a license] all code on this repository is under a persive open source license, namely the MIT license. Make sure to make clear your license in your license files if you are using a different license.
+
+#### Output Data Licensing
+
+Data created by each model will be under a Creative Commons 4.0 Share Alike Attribution License. 
 
 ### FAQ
 
@@ -29,5 +38,3 @@ Once you think you have done most of the work to get your model ready, but are n
 ## Upkeep
 
 The model hub is currectly adopted by Tshepiso Mokoena and Vukosi Marivate. More volunteers welcome so that we can expand its usefulness.
-
-
