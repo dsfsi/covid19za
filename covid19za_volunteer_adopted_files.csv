@@ -1,6 +1,11 @@
 file,volunteer1,volunteer2,volunteer3,volunteer4
 data/district_data/provincial_gp_cumulative.csv,@vukosim,,,
-covid19za/data/covid19za_provincial_cumulative_timeline_confirmed.csv,@vukosim,,,
+covid19za/data/covid19za_provincial_cumulative_timeline_confirmed.csv,@vukosim,@chadwpetersen,,
 covid19za/data/covid19za_timeline_testing.csv,@vukosim,,,
 data/district_data/provincial_mp_cumulative.csv,@lizelgreyling,@henkhodryza,,
-data/covid19za_provincial_cumulative_timeline_deaths.csv,@dmackie,,,
+data/covid19za_provincial_cumulative_timeline_deaths.csv,@dmackie,@chadwpetersen,,
+data/district_data/gp_johannesburg.csv,@shaze,,,
+data/district_data/gp_tshwane.csv,@shaze,,,
+data/district_data/gp_ekurhuleni.csv,@shaze,,,
+data/district_data/provincial_testing_data.csv,@shaze,,,
+data/covid19za_provincial_cumulative_timeline_recoveries.csv,@chadwpetersen,,,
