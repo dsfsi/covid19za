@@ -22,11 +22,11 @@ Tshwane 5,East Lynne	Rayton	Cullinan	De Wagensdrift	Refilwe	Onverwacht
 Tshwane 6,Eersterust	Lethabong	Mamelodi	Silverlakes	Garsfontein	Lynnwood	Queenswood	Wilgers	Waltloo	Equestria	Mooikloof	Brummeria
 Tshwane 7,Ekangala	Sokhulumi	Dark City	Zithobeni	Bronkhorstspruit	Kanana	Rethabiseng
 Tshwane Unallocated,Unallocated	Tshwane
-Sedibeng	Lesedi,Lesedi
-Sedibeng	Emfuleni,Emfuleni
-Sedibeng	Midvaal,Midvaal
-Sedibeng	Unallocated,Unallocated Sedibeng
+Sedibeng	Lesedi,Sedibeng	Lesedi
+Sedibeng	Emfuleni,Sedibeng	Emfuleni
+Sedibeng	Midvaal,Sedibeng	Midvaal
+Sedibeng	Unallocated,Sedibeng Unallocated
 West Rand	Mogale City,Mogale City
 West Rand	Rand West City,Rand West City
 West Rand	Merafong City,Merafong City
-West Rand	Unallocated,Unallocated West Rand
+West Rand	Unallocated,West Rand Unallocated
