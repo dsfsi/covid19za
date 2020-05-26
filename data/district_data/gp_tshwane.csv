@@ -1,4 +1,4 @@
-Date,YYYYMMDD,Tshwane	Cases,Tshwane	Recoveries,Tshwane 1	Cases,Tshwane 2	Cases,Tshwane 3	Cases,Tshwane 4	Cases,Tshwane 5	Cases,Tshwane 6	Cases,Tshwane 7	Cases,Tswhane Unallocated	Cases,source
+date,YYYYMMDD,Tshwane	Cases,Tshwane	Recoveries,Tshwane 1	Cases,Tshwane 2	Cases,Tshwane 3	Cases,Tshwane 4	Cases,Tshwane 5	Cases,Tshwane 6	Cases,Tshwane 7	Cases,Tswhane Unallocated	Cases,source
 10-04-2020,20200410,90,,,,,,,,,,https://twitter.com/bandilemasuku/status/1248885756350906368?s=20
 11-04-2020,20200411,92,,,,,,,,,,https://twitter.com/bandilemasuku/status/1249256629809315840?s=20
 12-04-2020,20200412,101,,,,,,,,,,https://twitter.com/bandilemasuku/status/1249617706946527232?s=20
@@ -43,3 +43,4 @@ Date,YYYYMMDD,Tshwane	Cases,Tshwane	Recoveries,Tshwane 1	Cases,Tshwane 2	Cases,T
 22-05-2020,20200522,361,264,46,13,122,78,4,75,11,12,https://twitter.com/GautengHealth/status/1264163298070663169/
 23-05-2020,20200523,366,268,48,13,124,78,4,77,11,11,https://twitter.com/GautengHealth/status/1264510034635038721/
 24-05-2020,20200524,384,271,51,15,128,83,5,79,11,12,https://twitter.com/GautengHealth/status/1264858229651226627
+25-05-2020,20200525,399,272,55,16,133,86,5,81,11,12,itter.com/GautengHealth/status/1265207684694974470/p

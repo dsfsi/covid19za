@@ -1,4 +1,4 @@
-Date,YYYYMMDD,Sedibeng	Cases,Sedibeng	Recoveries,Sedibeng	Emfuleni,Sedbeng	Lesedi,Sedibeng	Midvaal,Sedibeng Unallocated	Cases,source
+date,YYYYMMDD,Sedibeng	Cases,Sedibeng	Recoveries,Sedibeng	Emfuleni,Sedbeng	Lesedi,Sedibeng	Midvaal,Sedibeng Unallocated	Cases,source
 10-04-2020,20200410,6,,,,,,https://twitter.com/bandilemasuku/status/1248885756350906368?s=20
 11-04-2020,20200411,6,,,,,,https://twitter.com/bandilemasuku/status/1249256629809315840?s=20
 12-04-2020,20200412,8,,,,,,https://twitter.com/bandilemasuku/status/1249617706946527232?s=20
@@ -43,3 +43,4 @@ Date,YYYYMMDD,Sedibeng	Cases,Sedibeng	Recoveries,Sedibeng	Emfuleni,Sedbeng	Lesed
 22-05-2020,20200522,43,20,31,5,8,0,https://twitter.com/GautengHealth/status/1264163298070663169/
 23-05-2020,20200523,45,20,32,5,8,0,https://twitter.com/GautengHealth/status/1264510034635038721/
 24-05-2020,20200524,49,21,33,6,9,1,https://twitter.com/GautengHealth/status/1264858229651226627
+25-05-2020,20200525,52,21,34,7,9,2,itter.com/GautengHealth/status/1265207684694974470/p

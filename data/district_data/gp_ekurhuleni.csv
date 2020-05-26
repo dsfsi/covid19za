@@ -1,4 +1,4 @@
-Date,YYYYMMDD,Ekurhuleni	Cases,Ekurhuleni	Recoveries,Ekurhuleni East 1,Ekurhuleni East 2,Ekurhuleni North 1,Ekurhuleni North 2,Ekurhuleni South 1,Ekurhuleni South 2,Ekurhuleni Unallocated,source
+date,YYYYMMDD,Ekurhuleni	Cases,Ekurhuleni	Recoveries,Ekurhuleni East 1,Ekurhuleni East 2,Ekurhuleni North 1,Ekurhuleni North 2,Ekurhuleni South 1,Ekurhuleni South 2,Ekurhuleni Unallocated,source
 10-04-2020,20200410,120,,,,,,,,,https://twitter.com/bandilemasuku/status/1248885756350906368?s=20
 11-04-2020,20200411,141,,,,,,,,,https://twitter.com/bandilemasuku/status/1249256629809315840?s=20
 12-04-2020,20200412,141,,,,,,,,,https://twitter.com/bandilemasuku/status/1249617706946527232?s=20
@@ -43,3 +43,4 @@ Date,YYYYMMDD,Ekurhuleni	Cases,Ekurhuleni	Recoveries,Ekurhuleni East 1,Ekurhulen
 22-05-2020,20200522,565,430,47,39,182,121,109,28,30,https://twitter.com/GautengHealth/status/1264163298070663169/
 23-05-2020,20200523,579,452,47,40,190,121,110,28,43,https://twitter.com/GautengHealth/status/1264510034635038721/
 24-05-2020,20200524,606,452,50,42,197,123,116,31,47,https://twitter.com/GautengHealth/status/1264858229651226627
+25-05-2020,20200525,639,466,53,43,206,131,123,46,47,itter.com/GautengHealth/status/1265207684694974470/p
