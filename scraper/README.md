@@ -123,8 +123,3 @@ shiv@LAPTOP-ENNNEGDS:~/dev/projects/covid19za/scraper$ ./scraper cov
 ```
 
 Maintained by @cishiv
-<hr>
-At a later stage
-`go.mod`, `go.sum`
-files will be added so that the tool can be compiled without having to use `go get...` to build dependencies.
-
