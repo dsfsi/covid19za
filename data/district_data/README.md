@@ -5,7 +5,7 @@
 Mid-year 2019 Estimates [Stats SA](https://www.statssa.gov.za/publications/P0302/P03022019.pdf)
 
 ## Limpopo Province
-
+**Naming**: See [issue](https://github.com/dsfsi/covid19za/issues/368)
 ### Sources
 - [Facebook](https://www.facebook.com/LimpopoDepartmentOfHealthBophelong)
 
