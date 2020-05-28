@@ -1,4 +1,4 @@
-date,YYYYMMDD,West Rand	Cases,West Rand	Recoveries,Westrand	Merafong City,West Rand	Mogale City,West Rand	Rand West City,West Rand Unallocated	Cases,source
+date,YYYYMMDD,West Rand	Cases,West Rand	Recoveries,West Rand Merafong City	Cases,West Rand Mogale City	Cases,West Rand Rand West City	Cases,West Rand Unallocated	Cases,source
 10-04-2020,20200410,12,,,,,,https://twitter.com/bandilemasuku/status/1248885756350906368?s=20
 11-04-2020,20200411,30,,,,,,https://twitter.com/bandilemasuku/status/1249256629809315840?s=20
 12-04-2020,20200412,30,,,,,,https://twitter.com/bandilemasuku/status/1249617706946527232?s=20
@@ -43,4 +43,5 @@ date,YYYYMMDD,West Rand	Cases,West Rand	Recoveries,Westrand	Merafong City,West R
 22-05-2020,20200522,79,,,,,,https://twitter.com/GautengHealth/status/1264163298070663169/
 23-05-2020,20200523,85,47,11,51,17,7,https://twitter.com/GautengHealth/status/1264510034635038721/
 24-05-2020,20200524,111,47,29,54,17,11,https://twitter.com/GautengHealth/status/1264858229651226627
-25-05-2020,20200525,282,55,126,55,17,84,itter.com/GautengHealth/status/1265207684694974470/p
+25-05-2020,20200525,282,55,126,55,17,84,https://twitter.com/GautengHealth/status/1265207684694974470/p
+26-05-2020,20200526,286,57,128,57,17,84,https://twitter.com/GautengHealth/status/1265665486336987141/
