@@ -1,30 +1,57 @@
 Name,Long,Lat,Category,Province,District,Subdistrict,DistrictEstimatedPopulation,Main Health care Services Offered,Size,Beds Usable,Beds Approved,Beds Surgical Usable,Beds Surgical Approved,Surgeons Qualified,Surgeons_unqualified,Theatres,Total number of beds,Total number of staff ,Cluster,Webpage,Geo_subdivision
+
 Fort England Hospital,26.54361,-33.3156,Specialised  Hospital,Eastern Cape,Sarah Baartman District Municipality,Makana Local Municipality,479923,Psychiatry and Occupational Services,Large,313,,,,,,,313,,,http://doctors-hospitals-medical-cape-town-south-africa.blaauwberg.net/hospitals_clinics_state_hospitals/state_public_hospitals_clinics_eastern_cape_south_africa/fort_england_hospital_grahamstown_eastern_cape_south_africa,ZA-EC
+
 Fort Beaufort Hospital,26.633571,-32.7802,District Hospital,Eastern Cape,Amathole District Municipality,Raymond Mhlaba Local Municipality,880790,"Surgical Services,Medical Services, Paediatrics, Maternity Services, Gynaecology Services, Operating Theatre & CSSD Services, Anti-Retroviral Treatment Services (ARVs), X-Ray Services, Physiotherapy, Laundry Services, Kitchen Services, PMTC & VCT",,70,70,15,15,0,2,1,,,,http://doctors-hospitals-medical-cape-town-south-africa.blaauwberg.net/hospitals_clinics_state_hospitals/state_public_hospitals_clinics_eastern_cape_south_africa/fort_beaufort_hospital_fort_beaufort_eastern_cape_south_africa,ZA-EC
+
 Bhisho Hospital,27.45516,-32.8277,District Hospital,Eastern Cape,Buffalo City Metropolitan Municipality,Buffalo City Sub-District,834997,"Anti-Retroviral Treatment Services (ARVs), Emergency Services, Gynaecology Services,Kitchen Services,Laboratory Services,Laundry Services,Maternity Services,Medical Services,O.P.D. Services,Occupational Services,Operating Theatre & CSSD Services,Paediatrics,Pharmacy Services,Physiotherapy,Post Trauma Counselling Services,Surgical Services,X-Ray Services",,205,205,40,40,0,3,2,,,,http://doctors-hospitals-medical-cape-town-south-africa.blaauwberg.net/hospitals_clinics_state_hospitals/state_public_hospitals_clinics_eastern_cape_south_africa/bhisho_hospital_bhisho_eastern_cape_south_africa,ZA-EC
+
 Grey Hospital,27.39579,-32.8793,District Hospital,Eastern Cape,Buffalo City Metropolitan Municipality,Buffalo City Sub-District,834997,,,67,67,18,18,0,4,1,,,,,ZA-EC
-St Francis Hospital,26.69921,-30.6887,District Hospital,Eastern Cape,Zululand District Municipality,Ulundi Local Municipality,892310,,,26,26,0,0,0,0,0,,,,,ZA-EC
+
+St Francis Hospital,26.69921,-30.6887,District Hospital,Eastern Cape,Zululand District Municipality,Ulundi Local Municipality,892310,,,26,26,0,0,0,0,0,,,,http://doctors-hospitals-medical-cape-town-south-africa.blaauwberg.net/hospitals_clinics_state_hospitals/state_public_hospitals_clinics_eastern_cape_south_africa/grey_hospital_king_william's_town_eastern_cape_south_africa,ZA-EC
+
 Midland Hospital,24.53619,-32.2608,District Hospital,Eastern Cape,Sarah Baartman District Municipality,Dr B Naud Local Municipality,479923,,,80,80,0,0,0,3,1,,,,,ZA-EC
-Midlands Medical Centre Hospital,30.391519,-29.592892,Private Hospital,KwaZuluNatal,Mgungundlovu District Municipality,Msunduzi Local Municipality,,,,225,,61,,,,5,,,,,ZA-KZN
+
+Midlands Medical Centre Hospital,30.391519,-29.592892,Private Hospital,KwaZuluNatal,Mgungundlovu District Municipality,Msunduzi Local Municipality,,,,225,,61,,,,5,,,,https://midlandsmedicalcentre.co.za,ZA-KZN
+
 Jan Kempdorp Hospital,24.500846,-27.551445,District Hospital,Northern Cape,Frances Baard District Municipality,Phokwane Local Municipality,,,,16,,0,0,,0,0,,,,http://doctors-hospitals-medical-cape-town-south-africa.blaauwberg.net/hospitals_clinics_state_hospitals/state_public_hospitals_clinics_northern_cape_south_africa/jan_kempdorp_hospital_jan_kempdorp_northern_cape_south_africa,ZA-NC
-Humansdorp Hospital,24.78144,-34.0302,District Hospital,Eastern Cape,Sarah Baartman District Municipality,Kouga Local Municipality,479923,,,80,80,0,0,0,5,1,,,,,ZA-EC
-Frere Hospital,27.89156,-32.9959,Tertiary  Hospital,Eastern Cape,Buffalo City Metropolitan Municipality,Buffalo City Sub-District,834997,,,840,916,187,233,5,14,8,,,,,ZA-EC
-Cecilia Makiwane Hospital,27.74422,-32.9278,Tertiary  Hospital,Eastern Cape,Buffalo City Metropolitan Municipality,Buffalo City Sub-District,834997,"Trauma and Emergency, Paediatrics, Obstetrics/Gynecology, Surgery, Internal Medicine, ARV clinic for HIV/AIDS in adults and children, Anaesthetics, Paediatric Surgery, Family Medicine, Psychiatry, Dermatology, Otolaryngology (ENT), Ophthalmology and burns unit.",,737,1000,130,130,6,7,5,,,,,ZA-EC
-Frontier Hospital,26.871347,-31.8892,Regional Hospital,Eastern Cape,Chris Hani District Municipality,Enoch Mgijima Local Municipality,840055,,,283,450,72,72,0,4,5,,,,,ZA-EC
-Livingstone Hospital,25.57074,-33.9251,Tertiary Hospital,Eastern Cape,Nelson Mandela Bay Municipality,Nelson Mandela C Health sub-District,487851,,,583,616,180,180,11,22,8,,,,,ZA-EC
+
+Humansdorp Hospital,24.78144,-34.0302,District Hospital,Eastern Cape,Sarah Baartman District Municipality,Kouga Local Municipality,479923,,,80,80,0,0,0,5,1,,,,https://www.medpages.info/sf/index.php?page=organisation&orgcode=58488,ZA-EC
+
+Frere Hospital,27.89156,-32.9959,Tertiary Hospital,Eastern Cape,Buffalo City Metropolitan Municipality,Buffalo City Sub-District,834997,,,840,916,187,233,5,14,8,,,,http://doctors-hospitals-medical-cape-town-south-africa.blaauwberg.net/hospitals_clinics_state_hospitals/state_public_hospitals_clinics_eastern_cape_south_africa/frere_hospital_east_london_eastern_cape_south_africa,ZA-EC
+
+Cecilia Makiwane Hospital,27.74422,-32.9278,Tertiary  Hospital,Eastern Cape,Buffalo City Metropolitan Municipality,Buffalo City Sub-District,834997,"Trauma and Emergency, Paediatrics, Obstetrics/Gynecology, Surgery, Internal Medicine, ARV clinic for HIV/AIDS in adults and children, Anaesthetics, Paediatric Surgery, Family Medicine, Psychiatry, Dermatology, Otolaryngology (ENT), Ophthalmology and burns unit.",,737,1000,130,130,6,7,5,,,,https://web.archive.org/web/20131021150537/http://www.ecdoh.gov.za/hospitals/68/Cecilia_Makiwane_Hospital,ZA-EC
+
+Frontier Hospital,26.871347,-31.8892,Regional Hospital,Eastern Cape,Chris Hani District Municipality,Enoch Mgijima Local Municipality,840055,,,283,450,72,72,0,4,5,,,,http://doctors-hospitals-medical-cape-town-south-africa.blaauwberg.net/hospitals_clinics_state_hospitals/state_public_hospitals_clinics_eastern_cape_south_africa/frontier_hospital_queenstown_eastern_cape_south_africa,ZA-EC
+
+Livingstone Hospital,25.57074,-33.9251,Tertiary Hospital,Eastern Cape,Nelson Mandela Bay Municipality,Nelson Mandela C Health sub-District,487851,,,583,616,180,180,11,22,8,,,,https://www.mylivingstonhospital.com/our-services,ZA-EC
+
 Basambilu Med Centre,28.19,-26.01,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg A Health Sub-District,4949347,,,,,,,,,,,,,,ZA-GP
+
 Diepsloot Med Centre,28.01873,-25.9205,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg A Health Sub-District,4949347,,,,,,,,,,,,,,ZA-GP
+
 Beaufort West Hospital,22.5949,-32.3529,District Hospital,Western Cape,Central Karoo District Municipality,Beaufort West Local Municipality,,,,57,,6,6,,5,2,,,,http://doctors-hospitals-medical-cape-town-south-africa.blaauwberg.net/hospitals_clinics_state_hospitals/state_public_hospitals_clinics_western_cape_south_africa/beaufort_west_hospital_beaufort_west_western_cape_south_africa,ZA-WC
+
 Mediwell Dainfern Square Med Centre,28.013146,-25.9929,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg A Health Sub-District,4949347,,,,,,,,,,,,,,ZA-GP
+
 Netcare Sunninghill Hospital,28.06941,-26.0384,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg A Health Sub-District,4949347,,,265,,90,,,,6,,,,,ZA-GP
+
 Phedisong Health Care,28.240658,-25.9984,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg A Health Sub-District,4949347,,,,,,,,,,,,,,ZA-GP
+
 Tanganani Health Care,28.011625,-25.9293,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg A Health Sub-District,4949347,,,,,,,,,,,,,,ZA-GP
+
 Life Riverfield Lodge Hospital,27.962992,-25.9451,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg B Health Sub-District,4949347,,,,,,,,,,,,,,ZA-GP
+
 Mediclinic Sandton Hospital,28.01204,-26.0772,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg B Health Sub-District,4949347,,,379,,114,,,,10,,,,,ZA-GP
+
 Netcare Milpark Hospital,28.01725,-26.1797,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg B Health Sub-District,4949347,,,346,,155,,,,13,,,,,ZA-GP
+
 Netcare Rehab Hospital,28.01224,-26.1885,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg B Health Sub-District,4949347,,,,,,,,,,,,,,ZA-GP
+
 Netcare Rosebank Hospital,28.03924,-26.1462,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg B Health Sub-District,4949347,,,128,,55,,,,6,,,,,ZA-GP
+
 Netcare Sports Med and Ortho Hospital,28.03962,-26.1461,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg B Health Sub-District,4949347,,,,,,,,,,,,,,ZA-GP
+
 NHN Akeso Crescent Randburg Hospital,27.958773,-26.0881,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg B Health Sub-District,4949347,,,,,,,,,,,,,,ZA-GP
 Clinix Dr SK Matseke Mem Hospital,27.87435,-26.2055,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg C Health Sub-District,4949347,,,,,,,,,,,,,,ZA-GP
 Clinix Tshepo-Themba Private Hospital,27.873921,-26.2059,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg C Health Sub-District,4949347,,,120,,28,,,,3,,,,,ZA-GP
