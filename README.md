@@ -2,13 +2,13 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3819126.svg)](https://doi.org/10.5281/zenodo.3819126) [![dsJournal](https://img.shields.io/badge/DSJournal-10.5334-B31B1B.svg)](https://doi.org/10.5334/dsj-2020-019)
 
-COVID 19 Data for South Africa created, maintained and hosted by [Data Science for Social Impact research group](https://dsfsi.github.io/), led by Dr. Vukosi Marivate, at the University of Pretoria. 
+COVID 19 Data for South Africa created, maintained and hosted by [Data Science for Social Impact research group](https://dsfsi.github.io/), led by Dr. Vukosi Marivate, at the University of Pretoria.
 
 **Disclaimer:** We have worked to keep the data as accurate as possible. We collate the COVID 19 reporting data from NICD and DoH. We only update that data once there is an official report or statement. For the other data, we work to keep the data as accurate as possible. If you find errors. Make a pull request.
 
 *If you use this repo for any research/development/innovation, please contact us (see contacts below)*
 
-See our blog posts: 
+See our blog posts:
 * [Why we built this and how we are working](https://dsfsi.github.io/blog/covid19za-dashboard/),
 * [How this is a call to action across the African continent](https://dsfsi.github.io/blog/covida19africa-call-to-action/)
 * [A few weeks in, Data Science thoughts on COVID-19 in South Africa](https://dsfsi.github.io/blog/a-few-weeks-in-covid19/)
@@ -60,7 +60,7 @@ Code [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](http
 ## Contributing
 ### Options
 * *I want to help, but don't have an idea:* You can take a look at the issues to see which one you might be interested in tackling.
-* *I have an idea or new feature:* Create a new issue first, assign it to yourself and then fork the repo. 
+* *I have an idea or new feature:* Create a new issue first, assign it to yourself and then fork the repo.
 
 ### Adopting a file
 Once you have chosen how you are going to contribute, you must list which files you will be working on by adding your name to the adopt-a-file csv file. Edit [covid19za_volunteer_adopted_file](https://github.com/dsfsi/covid19za/blob/master/covid19za_volunteer_adopted_files.csv).
@@ -127,7 +127,7 @@ and Dataset
                   van der Walt, Anelda and
                   van Heerden, Schalk and
                   Welsh, Jay},
-  title        = {{Coronavirus disease (COVID-19) case data - South 
+  title        = {{Coronavirus disease (COVID-19) case data - South
                    Africa}},
   month        = mar,
   year         = 2020,
@@ -148,4 +148,5 @@ Some of COVID-19 Data for South Africa (data in this repo) is currently being us
 | 3. Covid-19 Map| A Coronavirus Map | [[Website](https://coronamap.co.za)] [[GitHub Repo](https://github.com/JayWelsh/coronamap)] | Jay Welsh | South Africa |
 | 4. Covid-19 Telegram Bot| Corona virus statistics via Telegram | [Link](https://t.me/CoronaZABot) | CodeChap | South Africa |
 | 5. Covid-19 Xitsonga Dashboard | Xitsonga Dashboard | [Link](http://xitsonga.org/covid19) | xitsonga.org | South Africa |
-| 6. Hospitals' capacity to respond to Covid-19 | Data visualization mapping local hospitals (private ad public) in South Africa | [Explore](https://elolelo.github.io/covid19/) ,Read [here](https://github.com/elolelo/covid19) about the project |Nompumelelo|South Africa | 
+| 6. Hospitals' capacity to respond to Covid-19 | Data visualization mapping local hospitals (private ad public) in South Africa | [Explore](https://elolelo.github.io/covid19/) ,Read [here](https://github.com/elolelo/covid19) about the project |Nompumelelo|South Africa |
+| 7. Covid-19 Trends | Covid-19 analytics dashboard for South Africa | [[Website]](http://www.covid19trends.co.za) [[Repo]](https://github.com/heerden/Covid19TrendsZA) | [Schalk van Heerden](https://github.com/heerden) | South Africa | 
