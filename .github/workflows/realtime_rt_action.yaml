@@ -1,8 +1,8 @@
 on:
   #push
   push:
-    #branches:
-    #  - master
+    branches:
+      - master
     #tags:
     #  - dailyfinal
     paths:
