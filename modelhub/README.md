@@ -1,9 +1,11 @@
 # COVID-19 ModelHub
 
 ## What? - Introduction
-The goal of the ModelHub is to have a standard repository of COVID-19 forecasting/projection models for South Africa. This forms an extension of the open covid19za project. This ModelHub aimes to collect, standardise, visualise COVID-19 forecast models as well as the data they create. The ModelHub is inspired and derived from the UMass-Amherst Influenza Forecasting Center of Excellence based at the Reich Lab [COVID-19 Forecast Hub](https://github.com/reichlab/covid19-forecast-hub).
+The goal of the ModelHub is to have a standard repository of COVID-19 forecasting/projection models for South Africa. This forms an extension of the open covid19za project. This ModelHub aims to collect, standardise, visualise COVID-19 forecast models as well as the data they create. The ModelHub is inspired and derived from the UMass-Amherst Influenza Forecasting Center of Excellence based at the Reich Lab [COVID-19 Forecast Hub](https://github.com/reichlab/covid19-forecast-hub).
 
 ## Why? - Background
+
+It is important to be able to compare and contrast the forecasting models. Further, an ensemble can be much better than any individual model. 
 
 ## How? - Contributing your model
 
