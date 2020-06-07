@@ -1,0 +1,91 @@
+Table 1
+PROVINCE;DISTRICT_LEVEL;DATA_TITLE;DATA_TYPE;FIENDLY_TITLE;CAT_B;CAT_LINK;NOTES;DATA_FILE
+GT;1;Ekurhuleni	Cases;Cases;Ekurhuleni;EKU;;;provincial_gp_cumulative
+GT;1;Johannesburg	Cases;Cases;Johannesburg;JHB;;;provincial_gp_cumulative
+GT;1;Sedibeng	Cases;Cases;Sedibeng;DC42;;;provincial_gp_cumulative
+GT;1;Tshwane	Cases;Cases;Tshwane;TSH;;;provincial_gp_cumulative
+GT;1;West Rand	Cases;Cases;West Rand;DC48;;;provincial_gp_cumulative
+GT;0;GP Unallocated	Cases;Cases;Gauteng Unknown;;;;provincial_gp_cumulative
+GT;0;GP	Cases;Cases;Gauteng;;;;
+GT;0;GP	Recoveries;Recovery;Gauteng Recoveries;;;;provincial_gp_cumulative
+GT;0;GP	Hospitalisations;Hospital;Gauteng Hospitalisations;;;;provincial_gp_cumulative
+GT;1;Ekurhuleni	Cases;Cases;Ekurhuleni;;;;gp_ekurhuleni
+GT;1;Ekurhuleni	Recoveries;Recovery;Ekurhuleni Recoveries;;;;gp_ekurhuleni
+GT;2;Ekurhuleni East 1	Cases;Cases;Ekurhuleni East 1;;EKU;Brakpan	Daveyton	Tsakane	Etwatwa;gp_ekurhuleni
+GT;2;Ekurhuleni East 2	Cases;Cases;Ekurhuleni East 2;;EKU;Springs	Duduza	Kwa-Thema	Nigel;gp_ekurhuleni
+GT;2;Ekurhuleni North 1	Cases;Cases;Ekurhuleni North 1;;EKU;Birchleigh	Birchleigh North	Bonaero Park	Crystal Park	Erin	Ethafeni	Kempton Park	Olifantsfontein	Tembisa	Winnie Mandela;gp_ekurhuleni
+GT;2;Ekurhuleni North 2	Cases;Cases;Ekurhuleni North 2;;EKU;Bedfordview	Boksburg   Chief Albert Luthuli	Dan Khubeka	Edenvale	Endayeni	Esangweni	Itireleng	Kemston	Lethabong	Ramaphosa	Reiger Park	Van Dyk Park;gp_ekurhuleni
+GT;2;Ekurhuleni South 1	Cases;Cases;Ekurhuleni South 1;;EKU;Alberton	Brackenhurst	 Eden Park	Primrose	Germiston	Leondale	Dawn Park	Tswelepele	Vosloorus		Villa Liza;gp_ekurhuleni
+GT;2;Ekurhuleni South 2	Cases;Cases;Ekurhuleni South 2;;EKU;Thokoka	Greenfields	 Kathlehong	Molekeli	Zonkizizwe	Palm Ridge	Molekeli	Tsietsi Sunrise View			Tamaho	Motsamai;gp_ekurhuleni
+GT;2;Ekurhuleni Unallocated	Cases;Cases;Ekurhuleni Unknown;;EKU;;gp_ekurhuleni
+GT;1;Johannesburg	Cases;Cases;Johannesburg;;JHB;;gp_johannesburg
+GT;1;Johannesburg	Recoveries;Recovery;Johannesburg Recoveries;;JHB;;gp_johannesburg
+GT;2;Johannesburg A	Cases;Cases;Johannesburg A;;JHB;Diepsloot     KyaSands	Dainfern	Midrand;gp_johannesburg
+GT;2;Johannesburg B	Cases;Cases;Johannesburg B;;JHB;Randburg	     Rosebank	Emmarentia	Greenside	Melville	Mayfair		Northcliff	Parktown	Parktown North;gp_johannesburg
+GT;2;Johannesburg C	Cases;Cases;Johannesburg C;;JHB;Roodepoort	 Constantia Kloof	 Northgate	 Florida	 Bram Fischerville;gp_johannesburg
+GT;2;Johannesburg D	Cases;Cases;Johannesburg D;;JHB;Doornkop	 Soweto	 Dobsonville	 Protea Glen;gp_johannesburg
+GT;2;Johannesburg E	Cases;Cases;Johannesburg E;;JHB;Alexandra	 Wynberg	 Sandton	 Orange Grove	 Houghton;gp_johannesburg
+GT;2;Johannesburg F	Cases;Cases;Johannesburg F;;JHB;Inner City	 Johannesburg South;gp_johannesburg
+GT;2;Johannesburg G	Cases;Cases;Johannesburg G;;JHB;Orange Farm    Weilers Farm	Ennerdale	Lenasia	Eldorado Park	Protea South;gp_johannesburg
+GT;2;Johannesburg Unallocated	Cases;Cases;Johannesburg Unknown;;JHB;;gp_johannesburg
+GT;1;Tshwane	Cases;Cases;Tshwane;;;;gp_tshwane
+GT;1;Tshwane	Recoveries;Recovery;Tshwane Recoveries;;;;gp_tshwane
+GT;2;Tshwane 1	Cases;Cases;Tshwane 1;;TSH;Ga-Rankuwe	Mabopane Winterveldt	Shoshanguve	Rosslyn	Karenpark	Wonderboom	Akasia	Nina Park	Orchards	Amandesig	Thereza Park	Pretoria North;gp_tshwane
+GT;2;Tshwane 2	Cases;Cases;Tshwane 2;;TSH;Hammanskraal	Temba	Suurman	Dilopye	Stinkwater	Ramotse	New Eersterus	Kameeldrift	Pyramid/Rooiwal	Doornpoort	Kekana Gardens	Kekanastad	Marokolong	Randstown	Kanana;gp_tshwane
+GT;2;Tshwane 3	Cases;Cases;Tshwane 3;;TSH;Atteridgeville	Laudium	Pretoria CBD	Hercules	Danville   Saulsville     Lotus	  Pretoria West;gp_tshwane
+GT;2;Tshwane 4	Cases;Cases;Tshwane 4;;TSH;Lyttelton	Eldoraigne	Waterkloof Olievenhoutsbosch	      Rooihuiskraal	Silverton	Centurion	Brooklyn and Hatfield;gp_tshwane
+GT;2;Tshwane 5	Cases;Cases;Tshwane 5;;TSH;East Lynne	Rayton	Cullinan	De Wagensdrift	Refilwe	Onverwacht;gp_tshwane
+GT;2;Tshwane 6	Cases;Cases;Tshwane 6;;TSH;Eersterust	Lethabong	Mamelodi	Silverlakes	Garsfontein	Lynnwood	Queenswood	Wilgers	Waltloo	Equestria	Mooikloof	Brummeria;gp_tshwane
+GT;2;Tshwane 7	Cases;Cases;Tshwane 7;;TSH;Ekangala	Sokhulumi	Dark City	Zithobeni	Bronkhorstspruit	Kanana	Rethabiseng;gp_tshwane
+GT;2;Tshwane Unallocated	Cases;Cases;Tshwane Unknown;;TSH;;gp_tshwane
+GT;1;Sedibeng	Cases;Cases;Sedibeng;;;;gp_sedibeng
+GT;1;Sedibeng	Recoveries;Cases;Sedibeng Recoveries;;;;gp_sedibeng
+GT;2;Sedibeng Lesedi	Cases;Cases;Lesedi;GT423;DC42;;gp_sedibeng
+GT;2;Sedibeng Emfuleni	Cases;Cases;Emfuleni;GT421;DC42;;gp_sedibeng
+GT;2;Sedibeng Midvaal	Cases;Cases;Midvaal;GT422;DC42;;gp_sedibeng
+GT;2;Sedibeng Unallocated	Cases;Cases;Sedibeng Unknown;;DC42;;gp_sedibeng
+GT;1;West Rand	Cases;Cases;West Rand;;;;gp_westrand
+GT;1;West Rand	Recoveries;Recovery;West Rand Recoveries;;;;gp_westrand
+GT;2;West Rand Mogale City	Cases;Cases;Mogale City;GT481;DC48;;gp_westrand
+GT;2;West Rand Rand West City	Cases;Cases;Rand West City;GT485;DC48;;gp_westrand
+GT;2;West Rand Merafong City	Cases;Cases;Merafong City;GT484;DC48;;gp_westrand
+GT;2;West Rand Unallocated	Cases;Cases;West Rand Unknown;;;;gp_westrand
+WC;1;CT;Cases;City of Cape Town;CPT;;;provincial_wc_cumulative
+WC;2;CT-WE;Cases;Western;;CPT;;provincial_wc_cumulative
+WC;2;CT-SO;Cases;Southern;;CPT;;provincial_wc_cumulative
+WC;2;CT-NO;Cases;Northern;;CPT;;provincial_wc_cumulative
+WC;2;CT-TB;Cases;Tygerberg;;CPT;;provincial_wc_cumulative
+WC;2;CT-EA;Cases;Eastern;;CPT;;provincial_wc_cumulative
+WC;2;CT-KF;Cases;Klipfontein;;CPT;;provincial_wc_cumulative
+WC;2;CT-MP;Cases;Mitchells Plain;;CPT;;provincial_wc_cumulative
+WC;2;CT-KL;Cases;Khayelitsha;;CPT;;provincial_wc_cumulative
+WC;1;CW;Cases;Cape Winelands;CD2;;;provincial_wc_cumulative
+WC;2;CW-BV;Cases;Breede Valley;WC025;CD2;;provincial_wc_cumulative
+WC;2;CW-DS;Cases;Drakenstein;WC023;CD2;;provincial_wc_cumulative
+WC;2;CW-LB;Cases;Langeberg;WC026;CD2;;provincial_wc_cumulative
+WC;2;CW-SB;Cases;Stellenbosch;WC024;CD2;;provincial_wc_cumulative
+WC;2;CW-WB;Cases;Witzenberg;WC022;CD2;;provincial_wc_cumulative
+WC;1;CK;Cases;Central Karoo;DC5;;;provincial_wc_cumulative
+WC;2;CK-BW;Cases;Beaufort West;WC051;DC5;;provincial_wc_cumulative
+WC;2;CK-LB;Cases;Laingsburg;WC052;DC5;;provincial_wc_cumulative
+WC;2;CK-PA;Cases;Prince Albert;WC053;DC5;;provincial_wc_cumulative
+WC;1;GR;Cases;Eden;DC4;;;provincial_wc_cumulative
+WC;2;GR-BT;Cases;Bitou;WC047;DC4;;provincial_wc_cumulative
+WC;2;GR-GE;Cases;George;WC044;DC4;;provincial_wc_cumulative
+WC;2;GR-HQ;Cases;Hessequa;WC042;DC4;;provincial_wc_cumulative
+WC;2;GR-KL;Cases;Kannaland;WC041;DC4;;provincial_wc_cumulative
+WC;2;GR-KN;Cases;Knysna;WC048;DC4;;provincial_wc_cumulative
+WC;2;GR-MB;Cases;Mossel Bay;WC043;DC4;;provincial_wc_cumulative
+WC;2;GR-OS;Cases;Oudtshoorn;WC045;DC4;;provincial_wc_cumulative
+WC;1;OB;Cases;Overberg;DC3;;;provincial_wc_cumulative
+WC;2;OB-CA;Cases;Cape Agulhas;WC033;DC3;;provincial_wc_cumulative
+WC;2;OB-OS;Cases;Overstrand;WC032;DC3;;provincial_wc_cumulative
+WC;2;OB-SD;Cases;Swellendam;WC034;DC3;;provincial_wc_cumulative
+WC;2;OB-TK;Cases;Theewaterskloof;WC031;DC3;;provincial_wc_cumulative
+WC;1;WC;Cases;West Coast;DC1;;;provincial_wc_cumulative
+WC;2;WC-BR;Cases;Bergrivier;WC013;DC1;;provincial_wc_cumulative
+WC;2;WC-CB;Cases;Cederberg;WC012;DC1;;provincial_wc_cumulative
+WC;2;WC-MZ;Cases;Matzikama;WC011;DC1;;provincial_wc_cumulative
+WC;2;WC-SB;Cases;Saldanha Bay;WC014;DC1;;provincial_wc_cumulative
+WC;2;WC-SL;Cases;Swartland;WC015;DC1;;provincial_wc_cumulative
+WC;1;UNKNOWN;Cases;Unknown;;;;provincial_wc_cumulative
