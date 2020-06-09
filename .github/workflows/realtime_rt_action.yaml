@@ -1,8 +1,8 @@
 on:
   #push
   push:
-    #branches:
-    #  - master
+    branches:
+      - master
     #tags:
     #  - dailyfinal
     paths:
@@ -44,13 +44,35 @@ jobs:
         cd data/calc
         ls
 
-    - name: Commit csv Changes
-      uses: EndBug/add-and-commit@v4
+    # Note: some actions runs are skipped with this recipe, trying git-auto-commit-action
+    #- name: Commit csv Changes
+    #  uses: EndBug/add-and-commit@v4
+    #  with:
+    #    author_name: "Schalk van Heerden"
+    #    author_email: schalkv@heerden.com
+    #    message: "Rt action run"
+    #    #'calculated_r0_sa_provincial_cumulative.csv'
+    #    add: "data/calc/"
+    #  env:
+    #    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - uses: stefanzweifel/git-auto-commit-action@v4
       with:
-        author_name: "Schalk van Heerden"
-        author_email: schalkv@heerden.com
-        message: "Rt action run"
-        #'calculated_r0_sa_provincial_cumulative.csv'
-        add: "data/calc/"
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        # Required
+        commit_message: RT action run
+        # Optional branch to push to, defaults to the current branch
+        #branch: master
+        # Optional options appended to `git-commit`
+        #commit_options: '--no-verify --signoff'
+        # Optional glob pattern of files which should be added to the commit
+        file_pattern: data/calc/*.csv
+        # Optional local file path to the repository
+        #repository: .
+        # Optional commit user and author settings
+        commit_user_name: heerden
+        commit_user_email: schalkv@heerden.com
+        commit_author: Schalk van Heerden <schalkv@heerden.com>
+        # Optional tag message
+        # Action will create and push a new tag to the remote repository and the defined branch
+        #tagging_message: 'v1.0.0'
+        # Optional options appended to `git-push`
+        #push_options: '--force'
