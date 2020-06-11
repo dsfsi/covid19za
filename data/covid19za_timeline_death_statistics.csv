@@ -1,2 +1,4 @@
 date,YYYYMMDD,age_0-9,age_10-19,age_20-29,age_30-39,age_40-49,age_50-59,age_60-69,age_70-79,age_80-89,age_90-99,age_unknown,gender_male,gender_female,gender_unkown,source
+08-06-2020,20200608,2,3,14,58,126,261,299,201,92,23,2,567,513,0,https://sacoronavirus.co.za/2020/06/09/update-on-covid-19-09th-june-2020/
+09-06-2020,20200609,2,3,16,65,136,277,320,218,95,27,3,606,555,1,https://sacoronavirus.co.za/2020/06/09/update-on-covid-19-09th-june-2020/
 10-06-2020,20200610,3,3,17,68,145,290,335,221,96,28,4,621,588,1,https://sacoronavirus.co.za/2020/06/10/update-on-covid-19-10th-june-2020/
