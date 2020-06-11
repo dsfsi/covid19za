@@ -126,7 +126,9 @@ and Dataset
                   Sefara, Joseph and
                   van der Walt, Anelda and
                   van Heerden, Schalk and
-                  Welsh, Jay},
+                  Welsh, Jay and
+                  Hazelhurst, Scott and
+                  Petersen, Chad},
   title        = {{Coronavirus disease (COVID-19) case data - South
                    Africa}},
   month        = mar,
