@@ -1,3 +1,11 @@
 date,YYYYMMDD,male_total_cases,female_total_cases,unknown_sex_total_cases,testing_passive,testing_community_screening,testing_public,testing_private,source
 16-05-2020,20200516,6010,8183,162,333484,106075,226387,213272,https://www.nicd.ac.za/wp-content/uploads/2020/05/COVID19-Daily-Report-National-16May2020v1public.pdf
+17-05-2020,20200517,6458,8879,178,350005,110868,237255,223618,https://www.nicd.ac.za/wp-content/uploads/2020/05/COVID19-Daily-Report-National-17May2020_public.pdf
+18-05-2020,20200518,6820,9424,189,360142,114929,245004,230067,https://www.nicd.ac.za/wp-content/uploads/2020/05/COVID19-Daily-Report-National-18-May-2020_public.pdf
+19-05-2020,20200519,7127,9881,192,369702,118907,252799,235810,https://www.nicd.ac.za/wp-content/uploads/2020/05/COVID19-Daily-Report-National-19-May-2020_public.pdf
+20-05-2020,20200520,7453,10354,196,384441,122420,261229,245632,https://www.nicd.ac.za/wp-content/uploads/2020/05/COVID19-Daily-Report-National-20May2020_public_final.pdf
+21-05-2020,20200521,7930,11008,199,400060,125373,268430,257003,https://www.nicd.ac.za/wp-content/uploads/2020/05/COVID19-Daily-Report-National-21-May-2020_public.pdf
+22-05-2020,20200522,8345,11580,200,413430,129602,276924,266108,https://www.nicd.ac.za/wp-content/uploads/2020/05/COVID19-Daily-Report-National-22-May-2020_public.pdf
+23-05-2020,20200523,8875,12259,209,429055,135315,287833,276537,https://www.nicd.ac.za/wp-content/uploads/2020/05/COVID19-Daily-Report-National-23May2020_public.pdf
+
 10-06-2020,20200610,31578,23436,407,739811,258590,518390,480010,https://www.nicd.ac.za/wp-content/uploads/2020/06/COVID19-Daily-Report-National-Public-10June2020.pdf
