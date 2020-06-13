@@ -1,5 +1,6 @@
 ## Data Usage License
-See [LICENSE](LICENSE.md)
+See [LICENSE](https://github.com/dsfsi/covid19za/blob/master/data/LICENSE.md)
+
 ## Official Statistics Data
 
  Data in this folder is  all from the [Statistics SA](http://www.statssa.gov.za/). National,Provincial and District level datasets along with age, gender and population groups breakdown are all contained in this folder.
