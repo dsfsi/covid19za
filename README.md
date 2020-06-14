@@ -30,12 +30,13 @@ Code [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](http
 | provincial_cumulative_timeline_recoveries|  [provincial_cumulative_timeline_recoveries](/data/covid19za_provincial_cumulative_timeline_recoveries.csv)   |       [provincial_cumulative_timeline_recoveries.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_provincial_cumulative_timeline_recoveries.csv)         |
 | provincial_cumulative_timeline_testing|  [provincial_cumulative_timeline_testing](/data/covid19za_provincial_cumulative_timeline_testing.csv)   |       [provincial_cumulative_timeline_testing.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_provincial_cumulative_timeline_testing.csv)         |
 | provincial_cumulative_timeline_deaths|  [provincial_cumulative_timeline_deaths](/data/covid19za_provincial_cumulative_timeline_deaths.csv)   |       [provincial_cumulative_timeline_deaths.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_provincial_cumulative_timeline_deaths.csv)         |
-| district_data |  [district_data](/data/district_data/)   |            |
+| death_statistics |  [covid19za_timeline_death_statistics](/data/covid19za_timeline_death_statistics.csv)   |       [covid19za_timeline_death_statistics.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_timeline_deaths.csv)         |
 | transmission_type |  [covid19za_timeline_transmission_type](/data/covid19za_timeline_transmission_type.csv)   |       [covid19za_timeline_transmission_type.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_timeline_transmission_type.csv)         |
 | testing |  [covid19za_timeline_testing](/data/covid19za_timeline_testing.csv)   |       [covid19za_timeline_testing.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_timeline_testing.csv)         |
+| district_data |  [district_data](/data/district_data/)   |            |
 |   DoH PDFs and Extracted CSVs |  [doh_pdf](/data/doh_pdf)   |              |
 |   DoH Whatsapp case update archive |  [doh_whatsapp](/data/doh_whatsapp)   |              |
-|   public_hospitals [validation in progress] |  [health_system_za_public_hospitals](/data/health_system_za_public_hospitals.csv)   |         [health_system_za_public_hospitals.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/health_system_za_public_hospitals.csv)       |
+|   health facility data [public and private] |  [health_system_za_hospitals_v1](/data/health_system_za_hospitals_v1.csv)   |         [health_system_za_hospitals_v1.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/health_system_za_hospitals_v1.csv)       |
 
 ### Deprecated
 **NOTE:** Since around 24 March, we have not gotten individual case data from DoH or NICD. For now if you need provincial counts use the *provincial_cumulative_timeline*. For individual cases up to 25 March, use the *confirmed_cases*.
@@ -126,7 +127,9 @@ and Dataset
                   Sefara, Joseph and
                   van der Walt, Anelda and
                   van Heerden, Schalk and
-                  Welsh, Jay},
+                  Welsh, Jay and
+                  Hazelhurst, Scott and
+                  Petersen, Chad},
   title        = {{Coronavirus disease (COVID-19) case data - South
                    Africa}},
   month        = mar,

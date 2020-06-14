@@ -2,7 +2,7 @@ date,YYYYMMDD,Tshwane	Cases,Tshwane	Recoveries,Tshwane 1	Cases,Tshwane 2	Cases,T
 10-04-2020,20200410,90,,,,,,,,,,https://twitter.com/bandilemasuku/status/1248885756350906368?s=20
 11-04-2020,20200411,92,,,,,,,,,,https://twitter.com/bandilemasuku/status/1249256629809315840?s=20
 12-04-2020,20200412,101,,,,,,,,,,https://twitter.com/bandilemasuku/status/1249617706946527232?s=20
-13-04-2020,20200413,101,,,,,,,,,,https://twitter.com/GautengHealth/status/1250340813172666369?s=20
+13-04-2020,20200413,100,,,,,,,,,,https://twitter.com/GautengHealth/status/1250340813172666369?s=20
 15-04-2020,20200415,104,,,,,,,,,,https://twitter.com/bandilemasuku/status/1250794333344870401?s=20
 16-04-2020,20200416,109,,,,,,,,,,https://twitter.com/GautengProvince/status/1251063621674770434?s=20
 17-04-2020,20200417,110,,,,,,,,,,https://twitter.com/GautengProvince/status/1251412168605609985?s=20
@@ -25,7 +25,7 @@ date,YYYYMMDD,Tshwane	Cases,Tshwane	Recoveries,Tshwane 1	Cases,Tshwane 2	Cases,T
 04-05-2020,20200504,211,,,,,,,,,,https://twitter.com/GautengHealth/status/1257643880373268480/
 05-05-2020,20200505,224,,,,,,,,,,https://twitter.com/GautengHealth/status/1258009162438639616
 06-05-2020,20200506,235,,,,,,,,,,https://twitter.com/GautengHealth/status/1258347572256800769
-07-05-2020,20200507,235,109,38,8,90,63,4,57,11,7,https://twitter.com/GautengHealth/status/1258671507548639232
+07-05-2020,20200507,258,109,38,8,90,63,4,57,11,7,https://twitter.com/GautengHealth/status/1258671507548639232
 08-05-2020,20200508,278,,,,,,,,,,https://twitter.com/GautengHealth/status/1259051943487574018
 09-05-2020,20200509,283,,,,,,,,,,https://twitter.com/GautengHealth/status/1259455975863484418
 10-05-2020,20200510,285,117,39,10,99,64,4,58,11,9,https://twitter.com/GautengHealth/status/1259758510746808320/
@@ -33,7 +33,7 @@ date,YYYYMMDD,Tshwane	Cases,Tshwane	Recoveries,Tshwane 1	Cases,Tshwane 2	Cases,T
 12-05-2020,20200512,299,,,,,,,,,,https://twitter.com/GautengHealth/status/1260521861399617539
 13-05-2020,20200513,304,,,,,,,,,,https://twitter.com/GautengHealth/status/1260865969364316160
 14-05-2020,20200514,310,,,,,,,,,,https://twitter.com/GautengHealth/status/1261248539751047168
-15-05-2020,20200515,322,203,41,13,110,68,4,68,11,9,https://twitter.com/GautengHealth/status/1261551594967126016
+15-05-2020,20200515,322,197,41,13,110,68,4,68,11,9,https://twitter.com/GautengHealth/status/1261551594967126016
 16-05-2020,20200516,324,,,,,,,,,,https://twitter.com/GautengHealth/status/1261955293803618305/
 17-05-2020,20200517,,,,,,,,,,,https://twitter.com/nicd_sa/status/1262110389111791617/
 18-05-2020,20200518,341,213,41,13,111,68,4,70,11,23,https://twitter.com/GautengHealth/status/1262623142067003392
@@ -58,3 +58,8 @@ date,YYYYMMDD,Tshwane	Cases,Tshwane	Recoveries,Tshwane 1	Cases,Tshwane 2	Cases,T
 06-06-2020,20200606,709,354,95,41,238,153,22,118,19,23,https://twitter.com/GautengHealth/status/1269558466965917697
 07-06-2020,20200607,762,360,105,42,258,166,22,118,19,22,https://twitter.com/GautengHealth/status/1269943576135262215
 08-06-2020,20200608,811,368,112,44,283,179,25,125,20,23,https://twitter.com/GautengHealth/status/1270311020800737280
+09-06-2020,20200609,865,375,116,47,309,183,26,139,21,24,https://twitter.com/GautengHealth/status/1270692916177121281
+10-06-2020,20200610,960,376,130,59,336,208,28,152,22,25,https://twitter.com/GautengHealth/status/1271052015632814082
+11-06-2020,20200611,1071,388,148,68,371,246,28,161,24,25,https://twitter.com/GautengHealth/status/1271418643809697792
+13-06-2020,20200612,1219,405,169,75,437,268,29,181,35,35,https://twitter.com/GautengHealth/status/1271753639586148352
+14-06-2021,20200613,1385,405,198,85,496,301,30,209,25,41,https://twitter.com/GautengHealth/status/1272121584107520000
