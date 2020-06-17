@@ -286,7 +286,7 @@ Dr CN Phatudi Hospital,30.28098,-24.0265,District Hospital,Limpopo,Mopani Distri
 Van Velden Mem Hospital,30.16427,-23.8345,District Hospital,Limpopo,Mopani District Municipality,Greater Tzaneen Local Municipality,3624815,,,,67,,25,25,,2,1,,,,,ZA-LP
 Sekororo Hospital,30.44767,-24.2515,District Hospital,Limpopo,Mopani District Municipality,Maruleng Local Municipality,3624815,,,,208,,0,0,,6,2,,,,,ZA-LP
 Groblersdal Hospital,29.40387,-25.1762,District Hospital,Limpopo,Sekhukhune District Municipality,E Motsoaledi Local Municipality,1789364,,,,10,,10,10,,4,0,,,,,ZA-LP
-Polokwane Hospital,29.440567,-23.799443,Tertiary  Hospital,Limpopo,Polokwane Local Municipality,Polokwane,,YES,,,490,,100,100,,20,6,,,,,ZA-LP
+Polokwane Hospital,29.440567,-23.799443,Tertiary  Hospital,Limpopo,Capricorn District Municipality,Polokwane Local Municipality,1886527,YES,,,490,,100,100,,20,6,,,,,ZA-LP
 Matlala Hospital,29.50233,-24.8321,District Hospital,Limpopo,Sekhukhune District Municipality,Ephraim Mogale Local Municipality,1789364,,,,60,,26,65,,7,1,,,,,ZA-LP
 Dilokong Hospital,30.17051,-24.6141,District Hospital,Limpopo,Sekhukhune District Municipality,Fetakgomo Tubatse Local Municipality,1789364,,,,186,,46,72,,0,2,,,,,ZA-LP
 Mecklenburg Hospital,30.072501,-24.3853,District Hospital,Limpopo,Sekhukhune District Municipality,Fetakgomo Tubatse Local Municipality,1789364,,,,124,,12,12,,7,2,,,,,ZA-LP
@@ -374,7 +374,7 @@ Moses Kotane Hospital,27.058001,-25.3809,District Hospital,North West,Bojanala P
 Mantsopa Hospital,,,,,,,,,,,100,,20,25,,2,1,,,,,
 Nic Bodenstein Hospital,25.982959,-27.1893,District Hospital,North West,Dr Kenneth Kaunda District Municipality,Maquassi Hills Local Municipality,1061305,,,,88,,20,20,,6,1,,,,,ZA-NW
 Taung Hospital,24.79175,-27.5377,District Hospital,North West,Dr Ruth Segomotsi Mompati District Municipality,Greater Taung Local Municipality,704851,,,,290,,50,50,,6,2,,,,,ZA-NW
-Klerksdorp Hospital,26.663295,-26.878627,Tertiary  Hospital,North West,City of Matlosana,Klerksdorp,,,,,1015,,,,,,,,,,,ZA-NW
+Klerksdorp Hospital,26.663295,-26.878627,Tertiary  Hospital,North West,Dr Kenneth Kaunda District Municipality,City of Matlosana Local Municipality,1061305,,,,1015,,,,,,,,,,,ZA-NW
 Ganyesa Hospital,24.13858,-26.5449,District Hospital,North West,Dr Ruth Segomotsi Mompati District Municipality,Kagisano-Molopo Local Municipality,704851,,,,60,,0,0,,4,2,,,,,ZA-NW
 Christiana Hospital,25.174237,-27.9081,District Hospital,North West,Dr Ruth Segomotsi Mompati District Municipality,Lekwa-Teemane Local Municipality,704851,,,,42,,0,0,,0,0,,,,,ZA-NW
 Schweizer-Reneke Hospital,25.32879,-27.1818,District Hospital,North West,Dr Ruth Segomotsi Mompati District Municipality,Mamusa Local Municipality,704851,,,,68,,0,0,,4,2,,,,,ZA-NW
@@ -395,7 +395,7 @@ Springbok Hospital,17.88323,-29.6605,District Hospital,Northern Cape,Namakwa Dis
 De Aar Hospital,24.00825,-30.6596,District Hospital,Northern Cape,Pixley ka Seme District Municipality,Emthanjeni Local Municipality,287405,,,Small,51,,0,0,,5,2,51,,,,ZA-NC
 RM Sobukwe Hospital,24.77263,-28.746,Tertiary  Hospital,Northern Cape,Frances Baard District Municipality,Sol Plaatje Local Municipality,514278,,,,,,,,,,,,,,,ZA-NC
 Kimberly Hospital,24.773,-28.7462,Tertiary  Hospital,Northern Cape,Frances Baard District Municipality,Sol Plaatjie Local  Municipality,514278,,,,694,,146,146,,7,5,,,,,ZA-NC
-Tygerberg Hospital,18.611569,-33.9147,Tertiary  Hospital,Western Cape,,Tygerberg Sub district,,YES,,,1280,,352,352,,37,28,,,,,ZA-WC
+Tygerberg Hospital,18.611569,-33.9147,Tertiary  Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Tygerberg Health sub-District,5484412,YES,,,1280,,352,352,,37,28,,,,,ZA-WC
 Khotsong TB Hospital,28.82118,-30.3481,Specialised  Hospital,Eastern Cape,Alfred Nzo District Municipality,Matatiele Local Municipality,1308403,,TB and related services,,198,,,,,,,,,,http://doctors-hospitals-medical-cape-town-south-africa.blaauwberg.net/hospitals_clinics_state_hospitals/state_public_hospitals_clinics_eastern_cape_south_africa/khotsong_tb_hospital_matatiele_eastern_cape_south_africa,ZA-EC
 NHN Matatiele Private Hospital,28.808675,-30.3522,Private Hospital,Eastern Cape,Alfred Nzo District Municipality,Matatiele Local Municipality,1308403,,,,31,,10,,,,0,,,,https://matatprivatehospital.co.za/,ZA-EC
 Taylor  Bequest Hospital (Mat),28.80195,-30.3327,District Hospital,Eastern Cape,Alfred Nzo District Municipality,Matatiele Local Municipality,1308403,,,,141,,16,16,,4,1,,,,,ZA-EC
@@ -752,13 +752,13 @@ Kleinsee Private Hospital,,,Private Hospital,,,NaN,,,,,34,,10,,,,1,,,,,
 Prieska Hospital,22.73732,-29.6681,District Hospital,Northern Cape,Pixley ka Seme District Municipality,Siyathemba Local Municipality,287405,,,,30,,2,2,,2,1,,,,,ZA-NC
 Orania Hospital,,,Private Hospital,,,NaN,,,,,,,,,,,,,,,,
 Manne Dipico Hospital,25.08956,-30.73,District Hospital,Northern Cape,Pixley ka Seme District Municipality,Umsobomvu Local Municipality,287405,,,,32,,0,0,,0,0,,,,,ZA-NC
-Harry Surtie Hospital,21.26603,-28.446,Regional Hospital,Northern Cape,Mgcawu District Municipality,Dawid Kruiper Local Municipality,,,,,186,,45,46,,3,2,,,,,ZA-NC
-Mediclinic Upington Hospital,21.266934,-28.4399,Private Hospital,Northern Cape,Mgcawu District Municipality,Dawid Kruiper Local Municipality,,,,,50,,17,,,,2,,,,,ZA-NC
-Upington TB Hospital,21.26603,-28.446,Specialised  Hospital,Northern Cape,Mgcawu District Municipality,Dawid Kruiper Local Municipality,,,,,186,,,,,,,,,,,ZA-NC
-Kakamas Hospital,20.62249,-28.7805,District Hospital,Northern Cape,Mgcawu District Municipality,Kai !Garib Local Municipality,,,,,30,,4,4,,2,0,,,,,ZA-NC
-Keimoes Hospital,,,,Northern Cape,Mgcawu District Municipality,Kai !Garib Local Municipality,,,,,30,,2,2,,0,0,,,,,
+Harry Surtie Hospital,21.26603,-28.446,Regional Hospital,Northern Cape,Zwelentlanga Fatman Mgcawu District Municipality,Dawid Kruiper Local Municipality,352137,,,,186,,45,46,,3,2,,,,,ZA-NC
+Mediclinic Upington Hospital,21.266934,-28.4399,Private Hospital,Northern Cape,Zwelentlanga Fatman Mgcawu District Municipality,Dawid Kruiper Local Municipality,352137,,,,50,,17,,,,2,,,,,ZA-NC
+Upington TB Hospital,21.26603,-28.446,Specialised  Hospital,Northern Cape,Zwelentlanga Fatman Mgcawu District Municipality,Dawid Kruiper Local Municipality,352137,,,,186,,,,,,,,,,,ZA-NC
+Kakamas Hospital,20.62249,-28.7805,District Hospital,Northern Cape,Zwelentlanga Fatman Mgcawu District Municipality,Kai !Garib Local Municipality,352137,,,,30,,4,4,,2,0,,,,,ZA-NC
+Keimoes Hospital,,,,Northern Cape,Zwelentlanga Fatman Mgcawu District Municipality,Kai !Garib Local Municipality,352137,,,,30,,2,2,,0,0,,,,,
 Lime Acres Hospital,23.57222,-28.3694,Private Hospital,Northern Cape,Zwelentlanga Fatman Mgcawu District Municipality,Kgatelopele Local Municipality,352137,,,,,,,,,,,,,,,ZA-NC
-Postmasburg Hospital,23.06008,-28.3276,District Hospital,Northern Cape,Mgcawu District Municipality,Tsantsabane Local Municipality,,,,,42,,20,20,,0,0,,,,,ZA-NC
+Postmasburg Hospital,23.06008,-28.3276,District Hospital,Northern Cape,Zwelentlanga Fatman Mgcawu District Municipality,Tsantsabane Local Municipality,352137,,,,42,,20,20,,0,0,,,,,ZA-NC
 Mediclinic Brits Hospital,27.782926,-25.6328,Private Hospital,North West,Bojanala Platinum District Municipality,Madibeng Local Municipality,2365607,,,,80,,21,,,,3,,,,,ZA-NW
 Andrew Saffey Mine Hospital,27.23578,-25.6639,Military Hospital,North West,Bojanala Platinum District Municipality,Rustenburg Local Municipality,2365607,,,,56,,23,,,,0,,,,,ZA-NW
 Impala Mine Hospital,27.20101,-25.5335,Military Hospital,North West,Bojanala Platinum District Municipality,Rustenburg Local Municipality,2365607,,,,,,,,,,,,,,,ZA-NW
@@ -775,10 +775,10 @@ NHN Parkmed Neuro Hospital,26.660808,-26.8726,Private Hospital,North West,Dr Ken
 NHN Sunningdale Hospital,26.669377,-26.8468,Private Hospital,North West,Dr Kenneth Kaunda District Municipality,City of Matlosana Local Municipality,1061305,,,,62,,18,,,,2,,,,,ZA-NW
 NHN Wilmed Park Hospital,26.678519,-26.8309,Private Hospital,North West,Dr Kenneth Kaunda District Municipality,City of Matlosana Local Municipality,1061305,,,,144,,72,,,,6,,,,,ZA-NW
 West Vaal Hospital,26.67205,-26.9623,Private Hospital,North West,Dr Kenneth Kaunda District Municipality,City of Matlosana Local Municipality,1061305,,,,275,,94,,,,3,,,,,ZA-NW
-Mediclinic Potchefstroom Hospital,27.08141,-26.689,Private Hospital,North West,Dr K Kaunda District Municipality,JB Marks Local Municipality,,,,,127,,41,,,,4,,,,,ZA-NW
-NHN Medi-Care Potch Hospital,27.083957,-26.7273,Private Hospital,North West,Dr K Kaunda District Municipality,JB Marks Local Municipality,,,,,,,,,,,,,,,,ZA-NW
+Mediclinic Potchefstroom Hospital,27.08141,-26.689,Private Hospital,North West,Dr Kenneth Kaunda District Municipality,JB Marks Local Municipality,1061305,,,,127,,41,,,,4,,,,,ZA-NW
+NHN Medi-Care Potch Hospital,27.083957,-26.7273,Private Hospital,North West,Dr Kenneth Kaunda District Municipality,JB Marks Local Municipality,1061305,,,,,,,,,,,,,,,ZA-NW
 NHN Vryburg Private Hospital,24.721533,-26.9468,Private Hospital,North West,Dr Ruth Segomotsi Mompati District Municipality,Naledi Local Municipality,704851,,,,44,,8,,,,2,,,,,ZA-NW
-Clinix Victoria Private Hospital,25.64145,-25.86,Private Hospital,North West,Ngaka Modiri Molemada District Municipality,Mahikeng Local Municipality,,,,,93,,45,,,,3,,,,,ZA-NW
+Clinix Victoria Private Hospital,25.64145,-25.86,Private Hospital,North West,Ngaka Modiri Molema District Municipality,Mahikeng Local Municipality,1350777,,,,93,,45,,,,3,,,,,ZA-NW
 Brewelskloof TB Hospital,19.45694,-33.6211,Specialised  Hospital,Western Cape,Cape Winelands District Municipality,Breede Valley Local Municipality,1245415,,,,368,,,,,,,,,,,ZA-WC
 Mediclinic Worcester Hospital,19.450696,-33.6442,Private Hospital,Western Cape,Cape Winelands District Municipality,Breede Valley Local Municipality,1245415,,,,187,,65,,,,5,,,,,ZA-WC
 Pines Clinic Hospital,19.44804,-33.6403,Private Hospital,Western Cape,Cape Winelands District Municipality,Breede Valley Local Municipality,1245415,,,,,,,,,,,,,,,ZA-WC
@@ -792,7 +792,7 @@ Paarl Hospice,,,Specialised  Hospital,Western Cape,Cape Winelands District Munic
 Paarl Hospital,18.97028,-33.7263,Regional Hospital,Western Cape,Cape Winelands District Municipality,Drakenstein Local Municipality,1245415,,,,301,,72,72,,5,5,,,,,ZA-WC
 Groenleegte care cure Paarl,18.964269,-33.709891,Specialised  Hospital,Western Cape,Cape Winelands District Municipality,Drakenstein Local Municipality,1245415,,,,21,,11,,,,3,,,,https://www.medpages.info/sf/index.php?page=organisation&orgcode=186384,ZA-WC
 Montagu Hospital,20.12333,-33.7977,District Hospital,Western Cape,Cape Winelands District Municipality,Langeberg Local Municipality,1245415,,,,40,,10,10,,3,1,,,,,ZA-WC
-Mooimed hospital,,,Private Hospital,North West,Dr K Kaunda District Municipality,JB Marks Local Municipality,,,,,35,,13,,,,2,,,,https://www.mooimed.com/,ZA-WC
+Mooimed hospital,,,Private Hospital,North West,Dr Kenneth Kaunda District Municipality,JB Marks Local Municipality,1061305,,,,35,,13,,,,2,,,,https://www.mooimed.com/,ZA-WC
 Robertson Hospital,19.89133,-33.8016,District Hospital,Western Cape,Cape Winelands District Municipality,Langeberg Local Municipality,1245415,,,,46,,12,12,,4,1,,,,,ZA-WC
 Mediclinic Stellenbosch Hospital,18.850752,-33.9443,Private Hospital,Western Cape,Cape Winelands District Municipality,Stellenbosch Local Municipality,1245415,,,,114,,47,,,,4,,,,,ZA-WC
 Stellenbosch Hospital,18.87028,-33.9305,District Hospital,Western Cape,Cape Winelands District Municipality,Stellenbosch Local Municipality,1245415,,,,85,,14,14,,8,2,,,,,ZA-WC
@@ -875,23 +875,23 @@ Netcare N1 City Hospital,18.559056,-33.8936,Private Hospital,Western Cape,City o
 Origin Maternity Hospital,18.575818,-33.87498,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Tygerberg Health sub-District,5484412,,,,,,,,,,,,,,,ZA-WC
 Stikland Hospital,18.65498,-33.8908,Specialised  Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Tygerberg Health sub-District,5484412,,,,218,,,,,,,,,,,ZA-WC
 Tygerberg Hospital,18.611569,-33.9147,Central Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Tygerberg Health sub-District,5484412,,,,1310,,,,,,,,,,,ZA-WC
-Mediclinic Plettenberg Bay Hospital,23.364999,-34.0529,Private Hospital,Western Cape,Garden Route District Municipality,Bitou Local Municipality,,,,,27,,12,,,,1,,,,,ZA-WC
-George Hospital,22.45028,-33.9519,Regional Hospital,Western Cape,Garden Route District Municipality,George Local Municipality,,,,,268,,50,50,,5,6,,,,,ZA-WC
-Harry Comay TB Hospital,22.4725,-33.9802,Specialised  Hospital,Western Cape,Garden Route District Municipality,George Local Municipality,,,,,180,,,,,,,,,,,ZA-WC
-Mediclinic Geneva Hospital,22.452171,-33.9563,Private Hospital,Western Cape,Garden Route District Municipality,George Local Municipality,,,,,,,,,,,,,,,,ZA-WC
-Mediclinic George Hospital,22.456439,-33.9573,Private Hospital,Western Cape,Garden Route District Municipality,George Local Municipality,,,,,122,,65,,,,5,,,,,ZA-WC
-Uniondale Hospital,23.12556,-33.6594,District Hospital,Western Cape,Garden Route District Municipality,George Local Municipality,,,,,13,,2,2,,0,1,,,,,ZA-WC
-Riversdale Hospital,21.25472,-34.0936,District Hospital,Western Cape,Garden Route District Municipality,Hessequa Local Municipality,,,,,50,,8,10,,6,1,,,,,ZA-WC
-Alan Blyth Hospital,21.26889,-33.4872,District Hospital,Western Cape,Garden Route District Municipality,Kannaland Local Municipality,,,,,30,,6,6,,4,1,,,,,ZA-WC
-Knysna Hospital,23.05806,-34.0369,District Hospital,Western Cape,Garden Route District Municipality,Knysna Local Municipality,,,,,90,,10,10,,9,2,,,,,ZA-WC
-Life Knysna Private Hospital,23.078486,-34.0521,Private Hospital,Western Cape,Garden Route District Municipality,Knysna Local Municipality,,,,,49,,15,,,,2,,,,,ZA-WC
-Meyer Zall Hospital,23.02,-34.02,Private Hospital,Western Cape,Garden Route District Municipality,Knysna Local Municipality,,,,,,,,,,,,,,,,ZA-WC
-Life BayView Private Hospital,22.130775,-34.1813,Private Hospital,Western Cape,Garden Route District Municipality,Mossel Bay Local Municipality,,,,,108,,10,,,,2,,,,,ZA-WC
-Mossel Bay Hospital,22.1275,-34.1858,District Hospital,Western Cape,Garden Route District Municipality,Mossel Bay Local Municipality,,,,,90,,8,8,,14,2,,,,,ZA-WC
-Cango Hospital,22.202562,-33.5906,Private Hospital,Western Cape,Garden Route District Municipality,Oudtshoorn Local Municipality,,,,,14,,14,,,,2,,,,,ZA-WC
-Mediclinic Klein Karoo Hospital,22.185728,-33.5859,Private Hospital,Western Cape,Garden Route District Municipality,Oudtshoorn Local Municipality,,,,,38,,10,,,,2,,,,,ZA-WC
-NHN Kango Clinic,22.201612,-33.591,Private Hospital,Western Cape,Garden Route District Municipality,Oudtshoorn Local Municipality,,,,,,,,,,,,,,,,ZA-WC
-Oudtshoorn Hospital,22.18889,-33.5888,District Hospital,Western Cape,Garden Route District Municipality,Oudtshoorn Local Municipality,,,,,123,,20,20,,14,3,,,,,ZA-WC
+Mediclinic Plettenberg Bay Hospital,23.364999,-34.0529,Private Hospital,Western Cape,Garden Route District Municipality,Bitou Local Municipality,842110,,,,27,,12,,,,1,,,,,ZA-WC
+George Hospital,22.45028,-33.9519,Regional Hospital,Western Cape,Garden Route District Municipality,George Local Municipality,842110,,,,268,,50,50,,5,6,,,,,ZA-WC
+Harry Comay TB Hospital,22.4725,-33.9802,Specialised  Hospital,Western Cape,Garden Route District Municipality,George Local Municipality,842110,,,,180,,,,,,,,,,,ZA-WC
+Mediclinic Geneva Hospital,22.452171,-33.9563,Private Hospital,Western Cape,Garden Route District Municipality,George Local Municipality,842110,,,,,,,,,,,,,,,ZA-WC
+Mediclinic George Hospital,22.456439,-33.9573,Private Hospital,Western Cape,Garden Route District Municipality,George Local Municipality,842110,,,,122,,65,,,,5,,,,,ZA-WC
+Uniondale Hospital,23.12556,-33.6594,District Hospital,Western Cape,Garden Route District Municipality,George Local Municipality,842110,,,,13,,2,2,,0,1,,,,,ZA-WC
+Riversdale Hospital,21.25472,-34.0936,District Hospital,Western Cape,Garden Route District Municipality,Hessequa Local Municipality,842110,,,,50,,8,10,,6,1,,,,,ZA-WC
+Alan Blyth Hospital,21.26889,-33.4872,District Hospital,Western Cape,Garden Route District Municipality,Kannaland Local Municipality,842110,,,,30,,6,6,,4,1,,,,,ZA-WC
+Knysna Hospital,23.05806,-34.0369,District Hospital,Western Cape,Garden Route District Municipality,Knysna Local Municipality,842110,,,,90,,10,10,,9,2,,,,,ZA-WC
+Life Knysna Private Hospital,23.078486,-34.0521,Private Hospital,Western Cape,Garden Route District Municipality,Knysna Local Municipality,842110,,,,49,,15,,,,2,,,,,ZA-WC
+Meyer Zall Hospital,23.02,-34.02,Private Hospital,Western Cape,Garden Route District Municipality,Knysna Local Municipality,842110,,,,,,,,,,,,,,,ZA-WC
+Life BayView Private Hospital,22.130775,-34.1813,Private Hospital,Western Cape,Garden Route District Municipality,Mossel Bay Local Municipality,842110,,,,108,,10,,,,2,,,,,ZA-WC
+Mossel Bay Hospital,22.1275,-34.1858,District Hospital,Western Cape,Garden Route District Municipality,Mossel Bay Local Municipality,842110,,,,90,,8,8,,14,2,,,,,ZA-WC
+Cango Hospital,22.202562,-33.5906,Private Hospital,Western Cape,Garden Route District Municipality,Oudtshoorn Local Municipality,842110,,,,14,,14,,,,2,,,,,ZA-WC
+Mediclinic Klein Karoo Hospital,22.185728,-33.5859,Private Hospital,Western Cape,Garden Route District Municipality,Oudtshoorn Local Municipality,842110,,,,38,,10,,,,2,,,,,ZA-WC
+NHN Kango Clinic,22.201612,-33.591,Private Hospital,Western Cape,Garden Route District Municipality,Oudtshoorn Local Municipality,842110,,,,,,,,,,,,,,,ZA-WC
+Oudtshoorn Hospital,22.18889,-33.5888,District Hospital,Western Cape,Garden Route District Municipality,Oudtshoorn Local Municipality,842110,,,,123,,20,20,,14,3,,,,,ZA-WC
 Otto Du Plessis Hospital,20.035636,-34.5372,District Hospital,Western Cape,Overberg District Municipality,Cape Agulhas Local Municipality,391545,,,,30,,6,6,,2,1,,,,,ZA-WC
 Otto Du Plessis Hospital (Private Ward),21.035636,-33.5372,Private Hospital,Western Cape,Overberg District Municipality,Cape Agulhas Local Municipality,391545,,,,,,,,,,,,,,,
 Hermanus Hospital,19.22833,-34.4226,District Hospital,Western Cape,Overberg District Municipality,Overstrand Local Municipality,391545,,,,71,,0,0,,12,2,,,,,ZA-WC
