@@ -1,2 +1,4 @@
 date,YYYYMMDD,male_total_cases,female_total_cases,unknown_sex_total_cases,testing_passive,testing_community_screening,testing_public,testing_private,source
 10-06-2020,20200610,31578,23436,407,739811,258590,518390,480010,https://www.nicd.ac.za/wp-content/uploads/2020/06/COVID19-Daily-Report-National-Public-10June2020.pdf
+15-06-2020,20200615,31454,41553,526,846912,302021,592569,556364,https://www.nicd.ac.za/wp-content/uploads/2020/06/COVID19-Daily-Report-National-Public-15June2020.pdf
+16-06-2020,20200616,32603,43163,568,862775,309759,605359,567175,https://www.nicd.ac.za/wp-content/uploads/2020/06/COVID19-Daily-Report-National-Public-16June2020.pdf
