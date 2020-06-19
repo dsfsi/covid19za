@@ -153,3 +153,4 @@ Some of COVID-19 Data for South Africa (data in this repo) is currently being us
 | 5. Covid-19 Xitsonga Dashboard | Xitsonga Dashboard | [Link](http://xitsonga.org/covid19) | xitsonga.org | South Africa |
 | 6. Hospitals' capacity to respond to Covid-19 | Data visualization mapping local hospitals (private ad public) in South Africa | [Explore](https://elolelo.github.io/covid19/) ,Read [here](https://github.com/elolelo/covid19) about the project |Nompumelelo|South Africa |
 | 7. Covid-19 Trends | Covid-19 analytics dashboard for South Africa | [[Website]](http://www.covid19trends.co.za) [[Repo]](https://github.com/heerden/Covid19TrendsZA) | [Schalk van Heerden](https://github.com/heerden) | South Africa | 
+| 8. Covid-19 Tshivenda Dashboard | Tshivenda Dashboard | [Link](http://luvenda.com/covid/) | luvenda.com | South Africa |
