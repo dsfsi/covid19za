@@ -1,0 +1,34 @@
+Current Status of Cases of COVID-19 in South Africa
+7 May 2020 - 20:27
+
+Total cases: 8232
+424 New cases
+3153 Full recoveries (Confirmed Negative)  
+161 Deaths
+
+The breakdown per province of total infections is as follows:
+GAUTENG 1804
+WESTERN CAPE 3994
+KWAZULU – NATAL 1204 
+EASTERN CAPE 929
+FREE STATE 134
+LIMPOPO 41
+MPUMALANGA 59 
+NORTH WEST 40
+NORTHERN CAPE 27
+UNALLOCATED 0
+
+- A total of 292 153 tests have been conducted to date with 12 774 tests done in the past 24 hours.
+- Regrettably, there are  8 more COVID-19 related deaths: 2 from KwaZulu Natal and 6 from Western Cape. This brings the total national deaths to 161.
+
+Due to differences in reporting methods, retrospective data consolidation, and reporting delays, the number of new cases may not always add up sequentially. We are constantly cleaning & deduplicating the data to ensure quality.
+
+--
+For the latest news go to https://twitter.com/HealthZA or https://sacoronavirus.co.za/category/press-releases-and-notices/ 
+
+--------------------------
+If you suspect that you may be infected with COVID-19, reply CHECK 💟 to use the risk-assessment screening tool now.
+--------------------------
+
+ 🆕 Reply NEWS for the latest news
+📌Reply MENU to return to the main menu

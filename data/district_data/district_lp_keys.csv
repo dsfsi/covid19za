@@ -1,7 +1,28 @@
 key,value
-CP,Capricobn
-MP,Mopani
-SK,Sekhukhune
-VH,Vhembe
-WB,Waterberg
-UNKNOWN,Unknown
+DC33,Mopani
+DC35,Capricorn
+DC36,Waterberg
+DC47,Sekhukhune
+DC34,Vhembe
+LIM331,Greater Giyani
+LIM332,Greater Letaba
+LIM333,Greater Tzaneen
+LIM334,Ba-Phalaborwa
+LIM335,Maruleng
+LIM355,Lepele-Nkumpi
+LIM361,Thabazimbi
+LIM362,Lephalale
+LIM366,Bela-Bela
+LIM367,Mogalakwena
+LIM471,Ephraim Mogale
+LIM472,Elias Motsoaledi
+LIM473,Makhuduthamaga
+LIM351,Blouberg
+LIM353,Molemole
+LIM354,Polokwane
+LIM368,Modimolle/Mookgophong
+LIM476,Greater Tubatse/Fetakgomo
+LIM341,Musina
+LIM343,Thulamela
+LIM344,Makhado
+LIM345,Collins Chabane

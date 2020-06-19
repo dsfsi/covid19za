@@ -1,0 +1,28 @@
+Current Status of Cases of COVID-19 in South Africa
+27 April 2020 - 21:05
+
+Total cases: 4793
+247 New cases
+1473 Full recoveries (Confirmed Negative)  
+90 Deaths
+
+The breakdown per province of total infections is as follows:
+GAUTENG 1353
+WESTERN CAPE 1737
+KWAZULU – NATAL 902
+EASTERN CAPE 588
+FREE STATE 111
+LIMPOPO 31
+MPUMALANGA 26
+NORTH WEST 28
+NORTHERN CAPE 17 
+UNALLOCATED 0
+
+Due to differences in reporting methods, retrospective data consolidation, and reporting delays, the number of new cases may not always add up sequentially. We are constantly cleaning & deduplicating the data to ensure quality.
+
+--
+For the latest news go to https://twitter.com/HealthZA or https://sacoronavirus.co.za/category/press-releases-and-notices/ 
+
+NEWS to see the latest news
+
+📌Reply with MENU to return to the main menu

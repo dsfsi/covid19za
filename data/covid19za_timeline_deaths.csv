@@ -1,6 +1,6 @@
-report_id,date,YYYYMMDD,province, geo, gender, age, confirmed_date,transmission_type, notes_comorbidity, source
-1,27-03-2020,20200327,WC,ZA-WC,female,48,,,Had prior Pulmonary Embolism, https://www.westerncape.gov.za/news/statement-premier-alan-winde-first-coronavirus-deaths
-2,28-03-2020,20200328,KZN,ZA-KZN,male,74,27-03-2020, travelled to Kruger National Park, underlying skin cancer condition (melanoma) which had already complicated. He presented with the following symptoms: respiratory distress shortness of breath cardiac failure decreased saturation and his temperature was above 38 degrees., https://www.gov.za/speeches/minister-zweli-mkhize-confirms2nd-death-and-total-1280-cases-coronavirus-covid-19-29-mar
+report_id,date,YYYYMMDD,province,geo,gender,age,confirmed_date,transmission_type,notes_comorbidity,source
+1,27-03-2020,20200327,WC,ZA-WC,female,48,,,Had prior Pulmonary Embolism,https://www.westerncape.gov.za/news/statement-premier-alan-winde-first-coronavirus-deaths
+2,28-03-2020,20200328,KZN,ZA-KZN,male,74,27-03-2020,travelled to Kruger National Park,underlying skin cancer condition (melanoma) which had already complicated. He presented with the following symptoms: respiratory distress shortness of breath cardiac failure decreased saturation and his temperature was above 38 degrees.,https://www.gov.za/speeches/minister-zweli-mkhize-confirms2nd-death-and-total-1280-cases-coronavirus-covid-19-29-mar
 3,30-03-2020,20200330,FS,ZA-FS,male,85,,,,https://sacoronavirus.co.za/2020/04/08/update-on-covid-19-08th-april-2020/
 4,31-03-2020,20200331,GP,ZA-GP,male,79,,,presented with respiratory distress,https://sacoronavirus.co.za/2020/03/31/update-of-covid-19-31st-march-2020/
 5,31-03-2020,20200331,KZN,ZA-KZN,female,46,,,had an underlying condition of hypertension chronic asthma and at the time of admission presented with an acute asthmatic attack,https://sacoronavirus.co.za/2020/03/31/update-of-covid-19-31st-march-2020/
@@ -64,3 +64,41 @@ report_id,date,YYYYMMDD,province, geo, gender, age, confirmed_date,transmission_
 63,22-04-2020,20200422,WC,ZA-WC,female,95,,,,
 64,22-04-2020,20200422,KZN,ZA-KZN,,,,,,https://sacoronavirus.co.za/2020/04/22/update-on-covid-19-22nd-april-2020/
 65,22-04-2020,20200422,KZN,ZA-KZN,,,,,,https://sacoronavirus.co.za/2020/04/22/update-on-covid-19-22nd-april-2020/
+66,23-04-2020,20200423,KZN,ZA-KZN,,,,,,https://sacoronavirus.co.za/2020/04/23/update-on-covid-19-23rd-april-2020-2/
+67,23-04-2020,20200423,KZN,ZA-KZN,,,,,,https://sacoronavirus.co.za/2020/04/23/update-on-covid-19-23rd-april-2020-2/
+68,23-04-2020,20200423,GP,ZA-GP,,,,,,https://sacoronavirus.co.za/2020/04/23/update-on-covid-19-23rd-april-2020-2/
+69,23-04-2020,20200423,EC,ZA-EC,,,,,,https://sacoronavirus.co.za/2020/04/23/update-on-covid-19-23rd-april-2020-2/
+70,23-04-2020,20200423,WC,ZA-WC,female,62,,,,https://www.westerncape.gov.za/department-of-health/news/update-coronavirus-premier-alan-winde-23-april
+71,23-04-2020,20200423,WC,ZA-WC,female,61,,,,https://www.westerncape.gov.za/department-of-health/news/update-coronavirus-premier-alan-winde-23-april
+72,23-04-2020,20200423,WC,ZA-WC,male,41,,,,https://www.westerncape.gov.za/department-of-health/news/update-coronavirus-premier-alan-winde-23-april
+73,23-04-2020,20200423,WC,ZA-WC,female,76,,,,https://coronavirus.westerncape.gov.za/news/update-coronvirus-premier-alan-winde-24-april
+74,23-04-2020,20200423,WC,ZA-WC,female,44,,,,https://coronavirus.westerncape.gov.za/news/update-coronvirus-premier-alan-winde-24-april
+75,23-04-2020,20200423,WC,ZA-WC,male,31,,,,https://coronavirus.westerncape.gov.za/news/update-coronvirus-premier-alan-winde-24-april
+76,24-04-2020,20200424,WC,ZA-EC,,,,,,https://sacoronavirus.co.za/2020/04/24/update-on-covid-19-24th-april-2020/
+77,24-04-2020,20200424,WC,ZA-WC,,,,,,https://sacoronavirus.co.za/2020/04/24/update-on-covid-19-24th-april-2020/
+78,24-04-2020,20200424,KZN,ZA-KZN,,,,,,https://sacoronavirus.co.za/2020/04/24/update-on-covid-19-24th-april-2020/
+79,24-04-2020,20200424,KZN,ZA-KZN,,,,,,https://sacoronavirus.co.za/2020/04/24/update-on-covid-19-24th-april-2020/
+80,25-04-2020,20200425,LP,ZA-LP,,,,,,https://sacoronavirus.co.za/2020/04/25/update-on-covid-19-25th-april-2020/
+81,25-04-2020,20200425,WC,ZA-WC,female,51,,,,https://coronavirus.westerncape.gov.za/news/update-coronavirus-premier-alan-winde-25-april
+82,25-04-2020,20200425,WC,ZA-WC,male,30,,,,https://coronavirus.westerncape.gov.za/news/update-coronavirus-premier-alan-winde-25-april
+83,25-04-2020,20200425,EC,ZA-EC,,,,,,https://sacoronavirus.co.za/2020/04/25/update-on-covid-19-25th-april-2020/
+84,25-04-2020,20200425,EC,ZA-EC,,,,,,https://sacoronavirus.co.za/2020/04/25/update-on-covid-19-25th-april-2020/
+85,25-04-2020,20200425,EC,ZA-EC,,,,,,https://sacoronavirus.co.za/2020/04/25/update-on-covid-19-25th-april-2020/
+86,25-04-2020,20200425,EC,ZA-EC,,,,,,https://sacoronavirus.co.za/2020/04/25/update-on-covid-19-25th-april-2020/
+87,26-04-2020,20200426,WC,ZA-WC,,,,,,https://sacoronavirus.co.za/2020/04/26/update-on-covid-19-26-april/
+88,27-04-2020,20200427,WC,ZA-WC,male,79,,,presented with shortness of breath and chest pain. His co-morbidities included diabetes hypertension chronic kidney disease and cardiac disease,https://sacoronavirus.co.za/2020/04/27/update-on-covid-19-27th-april-2020/
+89,27-04-2020,20200427,WC,ZA-WC,male,58,,,presented with imminent cardiovascular arrest. He was a person living with HIV and had obesity,https://sacoronavirus.co.za/2020/04/27/update-on-covid-19-27th-april-2020/
+90,27-04-2020,20200427,KZN,ZA-KZN,male,54,,,presented with respiratory distress. He had underlying diabetes,https://sacoronavirus.co.za/2020/04/27/update-on-covid-19-27th-april-2020/
+91,28-04-2020,20200428,WC,ZA-WC,male,67,,,,https://sacoronavirus.co.za/2020/04/28/update-on-covid-19-28th-april-2020-with-media-presentation/
+92,28-04-2020,20200428,WC,ZA-WC,male,70,,,,https://sacoronavirus.co.za/2020/04/28/update-on-covid-19-28th-april-2020-with-media-presentation/
+93,28-04-2020,20200428,WC,ZA-WC,male,79,,,,https://sacoronavirus.co.za/2020/04/28/update-on-covid-19-28th-april-2020-with-media-presentation/
+94,29-04-2020,20200429,GP,ZA-GP,female,89,,,presented with shortness of breath,https://sacoronavirus.co.za/2020/04/29/update-on-covid-19-29th-april-2020/
+95,29-04-2020,20200429,GP,ZA-GP,female,82,,,had underlying chronic obstructive pulmonary disease. She presented with acute renal failure and a concomitant urinary tract infection,https://sacoronavirus.co.za/2020/04/29/update-on-covid-19-29th-april-2020/
+96,29-04-2020,20200429,GP,ZA-GP,male,80,,,presented with fever and shortness of breath. He too had underling COPD,https://sacoronavirus.co.za/2020/04/29/update-on-covid-19-29th-april-2020/
+97,29-04-2020,20200429,WC,ZA-WC,male,57,,,presenting with fever and shortness of breath. He had underlying hypertension,https://sacoronavirus.co.za/2020/04/29/update-on-covid-19-29th-april-2020/
+98,29-04-2020,20200429,WC,ZA-WC,female,61,,,presented with flu like symptoms and low blood oxygen. She was hypertensive.,https://sacoronavirus.co.za/2020/04/29/update-on-covid-19-29th-april-2020/
+99,29-04-2020,20200429,WC,ZA-WC,female,58,,,presented with fever and shortness of breath. She had poorly controlled hypertension,https://sacoronavirus.co.za/2020/04/29/update-on-covid-19-29th-april-2020/
+100,29-04-2020,20200429,WC,ZA-WC,female,33,,,presented with flu like symptoms and low blood oxygen. Her case is concerning as she was subsequently diagnosed with acute myocarditis (inflammation of the heart). She had no previously diagnosed co-morbidities,https://sacoronavirus.co.za/2020/04/29/update-on-covid-19-29th-april-2020/
+101,29-04-2020,20200429,KZN,ZA-KZN,female,89,,,underlying conditions of hypertension diabetes and cardiac disease,https://sacoronavirus.co.za/2020/04/29/update-on-covid-19-29th-april-2020/
+102,29-04-2020,20200429,KZN,ZA-KZN,female,67,,,had underlying conditions of asthma and arthritis,https://sacoronavirus.co.za/2020/04/29/update-on-covid-19-29th-april-2020/
+103,29-04-2020,20200429,KZN,ZA-KZN,female,39,,,presented with pneumonia. She was a person living with HIV with superadded tuberculosis and cryptococcal meningitis.,https://sacoronavirus.co.za/2020/04/29/update-on-covid-19-29th-april-2020/

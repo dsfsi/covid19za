@@ -1,34 +1,41 @@
 
 
-## Western Cape  
-* See premier statements
+## SA Population
 
+Mid-year 2019 Estimates [Stats SA](https://www.statssa.gov.za/publications/P0302/P03022019.pdf)
 
 ## Limpopo Province
-
+**Naming**: See [issue](https://github.com/dsfsi/covid19za/issues/368)
 ### Sources
-- [Facebook](https://www.facebook.com/LimpopoDepartmentOfHealthBophelong/photos/a.442368809197087/2484848634949084/) for date 01-04-2020 
-![Image of Data](https://scontent.fjnb9-1.fna.fbcdn.net/v/t1.0-9/91819308_2484848641615750_2165294125757235200_o.jpg?_nc_cat=111&_nc_sid=110474&_nc_ohc=Atg3Y5OhTTsAX_8OBRM&_nc_ht=scontent.fjnb9-1.fna&oh=fb6e7c23942b493dd46223308970e81c&oe=5EB6591E&dl=1)
-- [Facebook](https://www.facebook.com/LimpopoDepartmentOfHealthBophelong/photos/a.442368809197087/2501336259966988/) for date 09-04-2020
-![Image of Data](https://scontent.fjnb9-1.fna.fbcdn.net/v/t1.0-9/92927735_2501336266633654_7299290734799093760_o.jpg?_nc_cat=107&_nc_sid=110474&_nc_ohc=2z957ZucQbcAX99z41E&_nc_ht=scontent.fjnb9-1.fna&oh=aa9e742324bd73a0e55c8e0e26ff4e2c&oe=5EB977CE&dl=1)
-- [Facebook](https://www.facebook.com/LimpopoDepartmentOfHealthBophelong/photos/a.442368809197087/2516354765131804/) for date 17-04-2020
+- [Facebook](https://www.facebook.com/LimpopoDepartmentOfHealthBophelong)
 
-![Image of Data](https://scontent.fjnb1-1.fna.fbcdn.net/v/t1.0-9/s960x960/93702187_2516354768465137_7428241033302900736_o.jpg?_nc_cat=110&_nc_sid=110474&_nc_ohc=mMmwg59S8eEAX-fLauA&_nc_ht=scontent.fjnb1-1.fna&_nc_tp=7&oh=3f30c210a2a024d5a63d2477eaff161a&oe=5EC0C9B6)
-
-### Structure
-
-Columns are named as follows
-
-- **col1** is date
-- **col2** is date in format YYYYMMDD
-- **col3**, **col8**, **col13**, **col19**, **col24** are districts
-- [**col4** - **col7**], [**col9** - **col12**], [**col14** - **col18**],[**col20** - **col23**], [**25** - **col29**] are subdistricts.
 
 ## Western Cape
 
 ### Sources
     Daily updates by the Premier Alan Wilde 
     https://www.westerncape.gov.za/department-of-health/news
-    
-    
 
+## Gauteng
+
+ Primary source are daily figures released by the Gauteng Department of Health.
+
+ The format of data is as follows for people parsing the data
+
+  * `district_gp_keys.csv` The fist column is the names of the labels
+      of metros (e.g., Tshwane), districts (e.g. "Johannesburg A") and
+      pseudo-districts ("Johannesburg Unallocated"). The second column are the
+      areas covered by the districts where known. NB: TABS separate sub-regions/suburbs.
+      e.g. "Birchleigh North" is a sub-district of "Ekurhuleni North 1" and there's a tab between Birchleigh and "Birchleigh North". There is a space between "Birchleigh" and "North".
+
+   * `provincial_gp_cumulative.csv` (and the metro files).
+       * The column labels are comma separated
+       * Within a label a TAB separates the name of a place (e.g. Tshwane) or pseudo place ("GP Unallocated") and a category (e.g. "Cases" ,  "Recoveries", "Hospitalisations"). Within a name are spaces and should be treated as ordinary characters (e.g. West Rand Merafong City)
+
+## Testing data
+
+NICD Epidemiology briefings are taken as source. Week 17 number of tests are computed from the provincial per capita tests given in the report. After that the report gives the data
+### Structure
+
+Columns separated by columns. For column labels tabs separate the province name from the data field
+   

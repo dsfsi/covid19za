@@ -1,0 +1,914 @@
+level,category,rule,sentiment,updated_at
+1,"Health Products","Medical, Hospital Supplies incl medicine, equipment & protective equipment",1,1589195979
+1,"Health Products","Toilet Paper, sanitary pads, tampons, condoms",1,1589195979
+1,"Health Products","Hand sanitiser, disinfectants, soap, alcohol (industrial use), cleaning products",1,1589195979
+1,"Health Products","Products for the care of babies & toddlers",1,1589195979
+1,"Health Products","Personal toiletries, including haircare, body and face products, deodorants & dental care products",1,1589195979
+1,"Health Products","Veterinary & medical services",1,1589195979
+1,"Health Products","Mandatory use of masks and hand hygeine",1,1589195979
+1,"Health Products","Social distancing of 2m",1,1589195979
+2,"Health Products","Medical, Hospital Supplies incl medicine, equipment & protective equipment",1,1589195979
+2,"Health Products","Toilet Paper, sanitary pads, tampons, condoms",1,1589195979
+2,"Health Products","Hand sanitiser, disinfectants, soap, alcohol (industrial use), cleaning products",1,1589195979
+2,"Health Products","Products for the care of babies & toddlers",1,1589195979
+2,"Health Products","Personal toiletries, including haircare, body and face products, deodorants & dental care products",1,1589195979
+2,"Health Products","Veterinary & medical services",1,1589195979
+2,"Health Products","Mandatory use of masks and hand hygeine",1,1589195979
+2,"Health Products","Social distancing of 2m",1,1589195979
+3,"Health Products","Medical, Hospital Supplies incl medicine, equipment & protective equipment",1,1589195979
+3,"Health Products","Toilet Paper, sanitary pads, tampons, condoms",1,1589195979
+3,"Health Products","Hand sanitiser, disinfectants, soap, alcohol (industrial use), cleaning products",1,1589195979
+3,"Health Products","Products for the care of babies & toddlers",1,1589195979
+3,"Health Products","Personal toiletries, including haircare, body and face products, deodorants & dental care products",1,1589195979
+3,"Health Products","Veterinary & medical services",1,1589195979
+3,"Health Products","Mandatory use of masks and hand hygeine",1,1589195979
+3,"Health Products","Social distancing of 2m",1,1589195979
+4,"Health Products","Medical, Hospital Supplies incl medicine, equipment & protective equipment",1,1589195979
+4,"Health Products","Toilet Paper, sanitary pads, tampons, condoms",1,1589195979
+4,"Health Products","Hand sanitiser, disinfectants, soap, alcohol (industrial use), cleaning products",1,1589195979
+4,"Health Products","Products for the care of babies & toddlers",1,1589195979
+4,"Health Products","Personal toiletries, including haircare, body and face products, deodorants & dental care products",1,1589195979
+4,"Health Products","Veterinary & medical services",1,1589195979
+4,"Health Products","Mandatory use of masks and hand hygeine",1,1589195979
+4,"Health Products","Social distancing of 2m",1,1589195979
+5,"Health Products","Medical, Hospital Supplies incl medicine, equipment & protective equipment",1,1589195979
+5,"Health Products","Toilet Paper, sanitary pads, tampons, condoms",1,1589195979
+5,"Health Products","Hand sanitiser, disinfectants, soap, alcohol (industrial use), cleaning products",1,1589195979
+5,"Health Products","Products for the care of babies & toddlers",1,1589195979
+5,"Health Products","Personal toiletries, including haircare, body and face products, deodorants & dental care products",1,1589195979
+5,"Health Products","Veterinary & medical services",1,1589195979
+5,"Health Products","Mandatory use of masks and hand hygeine",1,1589195979
+5,"Health Products","Social distancing of 2m",1,1589195979
+1,Groceries,"Any food product, non-alcoholic beverages and animal food",1,1589195979
+1,Groceries,"All retail allowed, subject to directions",1,1589195979
+1,Groceries,"Mandatory use of masks and hand hygeine",1,1589195979
+1,Groceries,"Social distancing of 2m",1,1589195979
+2,Groceries,"Any food product, non-alcoholic beverages and animal food",1,1589195979
+2,Groceries,"All retail allowed, subject to directions",1,1589195979
+2,Groceries,"Mandatory use of masks and hand hygeine",1,1589195979
+2,Groceries,"Social distancing of 2m",1,1589195979
+3,Groceries,"Any food product, non-alcoholic beverages and animal food",1,1589195979
+3,Groceries,"Mandatory use of masks and hand hygeine",1,1589195979
+3,Groceries,"Social distancing of 2m",1,1589195979
+4,Groceries,"Any food product, non-alcoholic beverages and animal food",1,1589195979
+4,Groceries,"Sale of cooked food for home delivery only",1,1589195979
+4,Groceries,"Mandatory use of masks and hand hygeine",1,1589195979
+4,Groceries,"Social distancing of 2m",1,1589195979
+5,Groceries,"Any food product, non-alcoholic beverages and animal food",1,1589195979
+5,Groceries,"Mandatory use of masks and hand hygeine",1,1589195979
+5,Groceries,"Social distancing of 2m",1,1589195979
+1,Fuel,"Fuel, including coal, wood, parafin and gas",1,1589195979
+2,Fuel,"Fuel, including coal, wood, parafin and gas",1,1589195979
+3,Fuel,"Fuel, including coal, wood, parafin and gas",1,1589195979
+4,Fuel,"Fuel, including coal, wood, parafin and gas",1,1589195979
+5,Fuel,"Fuel, including coal, wood, parafin and gas",1,1589195979
+1,"Waste & Recycling","Cleaning, sanitation, pest control, sewerage, waste and refuse removal services",1,1589195979
+1,"Waste & Recycling","Recycling of glass, paper & metal including informal recyclers at full capacity",1,1589195979
+2,"Waste & Recycling","Cleaning, sanitation, pest control, sewerage, waste and refuse removal services",1,1589195979
+2,"Waste & Recycling","Recycling of glass, paper & metal including informal recyclers at full capacity",1,1589195979
+3,"Waste & Recycling","Cleaning, sanitation, pest control, sewerage, waste and refuse removal services",1,1589195979
+3,"Waste & Recycling","Recycling of glass, paper & metal including informal recyclers at full capacity",1,1589195979
+4,"Waste & Recycling","Cleaning, sanitation, pest control, sewerage, waste and refuse removal services",1,1589195979
+4,"Waste & Recycling","Recycling of glass, paper & metal including informal recyclers at half capacity",1,1589195979
+5,"Waste & Recycling","No Recycling services",0,1589195979
+5,"Waste & Recycling","Cleaning, sanitation, pest control, sewerage, waste and refuse removal services",1,1589195979
+1,Media,"Online services",1,1589195979
+1,Media,"Productions for local broadcast; and live streaming in support of COVID-19 subject to directions",1,1589195979
+1,Media,"Newspapers and broadcasting",1,1589195979
+2,Media,"Online services",1,1589195979
+2,Media,"Productions for local broadcast; and live streaming in support of COVID-19 subject to directions",1,1589195979
+2,Media,"Newspapers and broadcasting",1,1589195979
+3,Media,"Online services",1,1589195979
+3,Media,"Productions for local broadcast; and live streaming in support of COVID-19 subject to directions",1,1589195979
+3,Media,"Newspapers and broadcasting",1,1589195979
+4,Media,"Online services",1,1589195979
+4,Media,"Productions for local broadcast; and live streaming in support of COVID-19 subject to directions",1,1589195979
+4,Media,"Newspapers and broadcasting",1,1589195979
+5,Media,"Online services",1,1589195979
+5,Media,"Productions for local broadcast; and live streaming in support of COVID-19 subject to directions",1,1589195979
+5,Media,"Newspapers and broadcasting",1,1589195979
+1,"Mobile & I.T.","All telecommunication services and infrastructure",1,1589195979
+1,"Mobile & I.T.","Information and Communication Technology services for private and business customers",1,1589195979
+1,"Mobile & I.T.","Personal ICT equipment including computers, mobile telephones and home office equipment",1,1589195979
+2,"Mobile & I.T.","All telecommunication services and infrastructure",1,1589195979
+2,"Mobile & I.T.","Information and Communication Technology services for private and business customers",1,1589195979
+2,"Mobile & I.T.","Personal ICT equipment including computers, mobile telephones and home office equipment",1,1589195979
+3,"Mobile & I.T.","All telecommunication services and infrastructure",1,1589195979
+3,"Mobile & I.T.","Information and Communication Technology services for private and business customers",1,1589195979
+3,"Mobile & I.T.","Personal ICT equipment including computers, mobile telephones and home office equipment",1,1589195979
+4,"Mobile & I.T.","All telecommunication services and infrastructure",1,1589195979
+4,"Mobile & I.T.","Information and Communication Technology services for private and business customers",1,1589195979
+4,"Mobile & I.T.","Personal ICT equipment including computers, mobile telephones and home office equipment",1,1589195979
+5,"Mobile & I.T.","Restrictions apply to the sale & operation on non-essential Mobile & IT business",0,1589195979
+5,"Mobile & I.T.","All telecommunication services and infrastructure",1,1589195979
+5,"Mobile & I.T.","Information and Communication Technology services to support essential services only",1,1589195979
+5,"Mobile & I.T.","On-line delivery of ICT equipment to facilitate work-from-home arrangements including computers, mobile telephones and other home office equipment",1,1589195979
+1,Utilities,"All electricity, gas and water supply",1,1589195979
+1,Utilities,"Pre-paid services for electricity and water",1,1589195979
+2,Utilities,"All electricity, gas and water supply",1,1589195979
+2,Utilities,"Pre-paid services for electricity and water",1,1589195979
+3,Utilities,"All electricity, gas and water supply",1,1589195979
+3,Utilities,"Pre-paid services for electricity and water",1,1589195979
+4,Utilities,"All electricity, gas and water supply",1,1589195979
+4,Utilities,"Pre-paid services for electricity and water",1,1589195979
+5,Utilities,"All electricity, gas and water supply",1,1589195979
+5,Utilities,"Pre-paid services for electricity and water",1,1589195979
+1,Security,"Private security services may operate",1,1589195979
+2,Security,"Private security services may operate",1,1589195979
+3,Security,"Private security services may operate",1,1589195979
+4,Security,"Private security services may operate",1,1589195979
+5,Security,"Private security services may operate",1,1589195979
+1,Medical,"Restrictions apply to dental treatment",0,1589195979
+1,Medical,"All medical services (including physiotherapy, chiropractors, biokineticists, occupational therapists and psychologists) are allowed",1,1589195979
+1,Medical,"Emergency and restricted dental treatment allowed",1,1589195979
+1,Medical,"Health practitioners to ensure personal protective equipment is used to minimise risk of infection",1,1589195979
+1,Medical,"Telehealth is permitted and preferably be practiced where there is an existing practioner-patient relationship, and where such a relationship does not exist practitioners may still consult using Telehealth provided such consultations are in the best interest of patients",1,1589195979
+2,Medical,"Restrictions apply to dental treatment",0,1589195979
+2,Medical,"All medical services (including physiotherapy, chiropractors, biokineticists, occupational therapists and psychologists) are allowed",1,1589195979
+2,Medical,"Emergency and restricted dental treatment allowed",1,1589195979
+2,Medical,"Health practitioners to ensure personal protective equipment is used to minimise risk of infection",1,1589195979
+2,Medical,"Telehealth is permitted and preferably be practiced where there is an existing practioner-patient relationship, and where such a relationship does not exist practitioners may still consult using Telehealth provided such consultations are in the best interest of patients",1,1589195979
+3,Medical,"Restrictions apply to dental treatment",0,1589195979
+3,Medical,"All medical services (including physiotherapy, chiropractors, biokineticists, occupational therapists and psychologists) are allowed",1,1589195979
+3,Medical,"Emergency and restricted dental treatment allowed",1,1589195979
+3,Medical,"Health practitioners to ensure personal protective equipment is used to minimise risk of infection",1,1589195979
+3,Medical,"Telehealth is permitted and preferably be practiced where there is an existing practioner-patient relationship, and where such a relationship does not exist practitioners may still consult using Telehealth provided such consultations are in the best interest of patients",1,1589195979
+4,Medical,"Restrictions apply to dental treatment",0,1589195979
+4,Medical,"All medical services (including physiotherapy, chiropractors, biokineticists, occupational therapists and psychologists) are allowed",1,1589195979
+4,Medical,"Emergency and restricted dental treatment allowed",1,1589195979
+4,Medical,"Health practitioners to ensure personal protective equipment is used to minimise risk of infection",1,1589195979
+4,Medical,"Telehealth is permitted and preferably be practiced where there is an existing practioner-patient relationship, and where such a relationship does not exist practitioners may still consult using Telehealth provided such consultations are in the best interest of patients",1,1589195979
+5,Medical,"Restrictions apply to dental treatment",0,1589195979
+5,Medical,"All medical services (including physiotherapy, chiropractors, biokineticists, occupational therapists and psychologists) are allowed",1,1589195979
+5,Medical,"Emergency and restricted dental treatment allowed",1,1589195979
+5,Medical,"Health practitioners to ensure personal protective equipment is used to minimise risk of infection",1,1589195979
+5,Medical,"Telehealth is permitted and preferably be practiced where there is an existing practioner-patient relationship, and where such a relationship does not exist practitioners may still consult using Telehealth provided such consultations are in the best interest of patients",1,1589195979
+1,"Eating Out & Takeaway","Takeaway, delivery and sit-down allowed",1,1589195979
+2,"Eating Out & Takeaway","Takeaway, delivery allowed",1,1589195979
+2,"Eating Out & Takeaway","Sit-down is forbidden",0,1589195979
+3,"Eating Out & Takeaway","Food delivery subject to curfew",1,1589195979
+3,"Eating Out & Takeaway","Sit-down is forbidden",1,1589195979
+3,"Eating Out & Takeaway","Takeaway is forbidden",1,1589195979
+4,"Eating Out & Takeaway","Food delivery subject to curfew",1,1589195979
+4,"Eating Out & Takeaway","Sit-down is forbidden",1,1589195979
+4,"Eating Out & Takeaway","Takeaway is forbidden",1,1589195979
+5,"Eating Out & Takeaway","Takeaway, delivery and sit-down forbidden",0,1589195979
+1,Exercise,"Walking, jogging and cycling allowed",1,1589195979
+2,Exercise,"Walking, jogging and cycling allowed",1,1589195979
+3,Exercise,"Walking, jogging and cycling allowed",1,1589195979
+4,Exercise,"Cycling, running and walking is allowed within 5km radius of your home between 6am to 9am",1,1589195979
+4,Exercise,"Organised activities forbidden",0,1589195979
+4,Exercise,"Gyms forbidden to open",0,1589195979
+5,Exercise,"Cycling, running and walking outside of your home is forbidden",0,1589195979
+5,Exercise,"Organised activities forbidden",0,1589195979
+5,Exercise,"Gyms forbidden to open",0,1589195979
+1,Education,"Schools remain closed until 1 June 2020",0,1589195979
+1,Education,"Grade 7 and 12 to return from 1 June 2020",1,1589195979
+1,Education,"Subject to proper sanitation, use of PPE, santisers, hand washing soap, gloves, cloth masks and thermometers",1,1589195979
+1,Education,"Educators and learners to be screened on entry. Those with raised temperature will be considered for isolation",1,1589195979
+1,Education,"Physical distancing including no more than two learners sharing desks and no hugging or handshaking",1,1589195979
+1,Education,"Schools are expected to sanitise classrooms prior to start of each school day",1,1589195979
+1,Education,"Learners to sanitise hands before entering classrooms",1,1589195979
+1,Education,"Movement of learners between classes will be limited",1,1589195979
+1,Education,"School transport to undergo santisation prior to start of all trips",1,1589195979
+1,Education,"Cloth fask masks to be worn by all students and teachers at all times",1,1589195979
+1,Education,"All sports matches, choral practices, eisteddfods and festivals will be prohibted",1,1589195979
+2,Education,"Schools remain closed until 1 June 2020",0,1589195979
+2,Education,"Grade 7 and 12 to return from 1 June 2020",1,1589195979
+2,Education,"Subject to proper sanitation, use of PPE, santisers, hand washing soap, gloves, cloth masks and thermometers",1,1589195979
+2,Education,"Educators and learners to be screened on entry. Those with raised temperature will be considered for isolation",1,1589195979
+2,Education,"Physical distancing including no more than two learners sharing desks and no hugging or handshaking",1,1589195979
+2,Education,"Schools are expected to sanitise classrooms prior to start of each school day",1,1589195979
+2,Education,"Learners to sanitise hands before entering classrooms",1,1589195979
+2,Education,"Movement of learners between classes will be limited",1,1589195979
+2,Education,"School transport to undergo santisation prior to start of all trips",1,1589195979
+2,Education,"Cloth fask masks to be worn by all students and teachers at all times",1,1589195979
+2,Education,"All sports matches, choral practices, eisteddfods and festivals will be prohibted",1,1589195979
+3,Education,"Schools remain closed until 1 June 2020",0,1589195979
+3,Education,"Grade 7 and 12 to return from 1 June 2020",1,1589195979
+3,Education,"Subject to proper sanitation, use of PPE, santisers, hand washing soap, gloves, cloth masks and thermometers",1,1589195979
+3,Education,"Educators and learners to be screened on entry. Those with raised temperature will be considered for isolation",1,1589195979
+3,Education,"Physical distancing including no more than two learners sharing desks and no hugging or handshaking",1,1589195979
+3,Education,"Schools are expected to sanitise classrooms prior to start of each school day",1,1589195979
+3,Education,"Learners to sanitise hands before entering classrooms",1,1589195979
+3,Education,"Movement of learners between classes will be limited",1,1589195979
+3,Education,"School transport to undergo santisation prior to start of all trips",1,1589195979
+3,Education,"Cloth fask masks to be worn by all students and teachers at all times",1,1589195979
+3,Education,"All sports matches, choral practices, eisteddfods and festivals will be prohibted",1,1589195979
+4,Education,"Schools remain closed until 1 June 2020",0,1589195979
+4,Education,"Grade 7 and 12 to return from 1 June 2020",1,1589195979
+4,Education,"Subject to proper sanitation, use of PPE, santisers, hand washing soap, gloves, cloth masks and thermometers",1,1589195979
+4,Education,"Educators and learners to be screened on entry. Those with raised temperature will be considered for isolation",1,1589195979
+4,Education,"Physical distancing including no more than two learners sharing desks and no hugging or handshaking",1,1589195979
+4,Education,"Schools are expected to sanitise classrooms prior to start of each school day",1,1589195979
+4,Education,"Learners to sanitise hands before entering classrooms",1,1589195979
+4,Education,"Movement of learners between classes will be limited",1,1589195979
+4,Education,"School transport to undergo santisation prior to start of all trips",1,1589195979
+4,Education,"Cloth fask masks to be worn by all students and teachers at all times",1,1589195979
+4,Education,"All sports matches, choral practices, eisteddfods and festivals will be prohibted",1,1589195979
+5,Education,"Schools, Colleges and Universities remain closed",0,1589195979
+1,Movement,"Restrictions to international travel may apply",0,1589195979
+1,Movement,"International and domestic air travel is allowed",1,1589195979
+1,Movement,"Interprovincial movement allowed",1,1589195979
+1,Movement,"No curfew",1,1589195979
+2,Movement,"Restrictions on international travel apply",0,1589195979
+2,Movement,"Recreation movement is not allowed",0,1589195979
+2,Movement,"Restrictions apply when moving into provinces at Level 3 or above",0,1589195979
+2,Movement,"Limited domestic air travel is allowed",1,1589195979
+2,Movement,"Movement between provinces which are at Level 1 or 2 is allowed",1,1589195979
+2,Movement,"Stay at home, other than essential travel for work, purchase essential goods, seek medical care",1,1589195979
+2,Movement,"Daily commute between neighbouring provinces is permitted (court order required)",1,1589195979
+2,Movement,"Walking, running and cycling permitted (guidelines to be advised)",1,1589195979
+2,Movement,"Curfew in place between 8pm and 5am",1,1589195979
+3,Movement,"Restrictions on international and domestic travel apply",0,1589195979
+3,Movement,"Recreation movement is not allowed",0,1589195979
+3,Movement,"Movement between provinces and districts is restricted (except those with permit to perform essential services or attend funeral)",0,1589195979
+3,Movement,"Stay at home, other than essential travel for work, purchase essential goods, seek medical care",1,1589195979
+3,Movement,"Daily commute between neighbouring provinces is permitted (court order required)",1,1589195979
+3,Movement,"Once-off travel concession to move between provinces for persons (including children) to return to primary residence",1,1589195979
+3,Movement,"Movement of children between parents/caregivers (including interprovincial) is permitted (court order required)",1,1589195979
+3,Movement,"Walking, running and cycling permitted (guidelines to be advised)",1,1589195979
+3,Movement,"Curfew in place between 8pm and 5am",1,1589195979
+4,Movement,"Restrictions on international and domestic travel apply",0,1589195979
+4,Movement,"Recreation movement is not allowed",0,1589195979
+4,Movement,"Movement between provinces and districts is restricted (except those with permit to perform essential services or attend funeral)",0,1589195979
+4,Movement,"Stay at home, other than essential travel for work, purchase essential goods, seek medical care",1,1589195979
+4,Movement,"Daily commute between neighbouring provinces is permitted (court order required)",1,1589195979
+4,Movement,"Once-off travel concession to move between provinces for persons (including children) to return to primary residence",1,1589195979
+4,Movement,"Movement of children between parents/caregivers (including interprovincial) is permitted (court order required)",1,1589195979
+4,Movement,"Walking, running and cycling allowed within a 5km radius, between 6am and 9am",1,1589195979
+4,Movement,"Curfew in place between 8pm and 5am",1,1589195979
+5,Movement,"Restrictions on international and domestic travel apply",0,1589195979
+5,Movement,"Recreation movement is not allowed",0,1589195979
+5,Movement,"Movement between provinces and districts is restricted (except those with permit to perform essential services or attend funeral)",0,1589195979
+5,Movement,"Stay at home, other than essential travel for work, purchase essential goods, seek medical care",1,1589195979
+5,Movement,"Interprovincial travel only permitted under exceptional circumstances with necessary permit (e.g. funeral)",1,1589195979
+1,Repairs,"All repair and related emergency services allowed",1,1589195979
+2,Repairs,"Restrictions apply to general repairs",0,1589195979
+2,Repairs,"Tow trucks and vehicle recovery services",1,1589195979
+2,Repairs,"All repair work, including plumbers, electricians, locksmiths, glaziers, roof repair work",1,1589195979
+2,Repairs,"All automobile repairs",1,1589195979
+3,Repairs,"Non-essential repairs are not allowed",0,1589195979
+3,Repairs,"Tow trucks and vehicle recovery services",1,1589195979
+3,Repairs,"Emergency repair work, including plumbers, electricians, locksmiths, glaziers, roof repair work",1,1589195979
+3,Repairs,"Emergency automobile repairs for all persons",1,1589195979
+4,Repairs,"Non-essential repairs are not allowed",0,1589195979
+4,Repairs,"Tow trucks and vehicle recovery services",1,1589195979
+4,Repairs,"Emergency repair work, including plumbers, electricians, locksmiths, glaziers, roof repair work",1,1589195979
+4,Repairs,"Emergency automobile repairs for all persons",1,1589195979
+5,Repairs,"Non-essential repairs are not allowed",0,1589195979
+5,Repairs,"Tow trucks and vehicle recovery services",1,1589195979
+5,Repairs,"Emergency repair work, including plumbers, electricians, locksmiths, glaziers, roof repair work",1,1589195979
+5,Repairs,"Emergency automobile repairs for all persons",1,1589195979
+1,"Hair & Beauty","Personal toiletries, including haircare, body and face care products, roll-ons, deodorants, and dental care products",1,1589195979
+1,"Hair & Beauty","Full range of beauty products allowed for sale (e.g. cosmetics)",1,1589195979
+1,"Hair & Beauty","Other personal services like hair salons, spas and beauticians allowed, subject to directions",1,1589195979
+2,"Hair & Beauty","Restriction on sale of certain beauty products (e.g. luxury cosmetics)",0,1589195979
+2,"Hair & Beauty","Hair salons, spas and beauticians not allowed",0,1589195979
+2,"Hair & Beauty","Personal toiletries, including haircare, body and face care products, roll-ons, deodorants, and dental care products",1,1589195979
+3,"Hair & Beauty","Restriction on sale of certain beauty products (e.g. luxury cosmetics)",0,1589195979
+3,"Hair & Beauty","Hair salons, spas and beauticians not allowed",0,1589195979
+3,"Hair & Beauty","Personal toiletries, including haircare, body and face care products, roll-ons, deodorants, and dental care products",1,1589195979
+4,"Hair & Beauty","Restriction on sale of certain beauty products (e.g. luxury cosmetics)",0,1589195979
+4,"Hair & Beauty","Hair salons, spas and beauticians not allowed",0,1589195979
+4,"Hair & Beauty","Personal toiletries, including haircare, body and face care products, roll-ons, deodorants, and dental care products",1,1589195979
+5,"Hair & Beauty","Restriction on sale of certain beauty products (e.g. luxury cosmetics)",0,1589195979
+5,"Hair & Beauty","Hair salons, spas and beauticians not allowed",0,1589195979
+5,"Hair & Beauty","Personal toiletries, including haircare, body and face care products, roll-ons, deodorants, and dental care products",1,1589195979
+1,Pets,"Dog walking allowed (in accordance with guidelines)",1,1589195979
+1,Pets,"Pet food, accessories, health products and treats",1,1589195979
+1,Pets,"Veterinary services allowed",1,1589195979
+1,Pets,"Pet grooming - restrictions may apply, awaiting final guidelines from government",1,1589195979
+2,Pets,"Dog walking allowed (in accordance with guidelines)",1,1589195979
+2,Pets,"Pet food, accessories, health products and treats",1,1589195979
+2,Pets,"Veterinary services allowed - restrictions may apply",1,1589195979
+2,Pets,"Pet grooming - restrictions may apply, awaiting final guidelines from government",1,1589195979
+3,Pets,"Pet grooming services may not be allowed. Awaiting official guidance from government.",0,1589195979
+3,Pets,"Dog walking allowed (in accordance with guidelines)",1,1589195979
+3,Pets,"Pet food, accessories, health products and treats",1,1589195979
+3,Pets,"Veterinary services allowed - restrictions may apply",1,1589195979
+4,Pets,"Pet grooming services not allowed",0,1589195979
+4,Pets,"Animal hospitals, clinics, vetshops and petshops may not sell non-essential goods",0,1589195979
+4,Pets,"Wellness visits to be postponed",0,1589195979
+4,Pets,"All clinical and surgical interventions that do not pose harm to the animal's health and welfare must be postponed",0,1589195979
+4,Pets,"Routine vaccination can be postponed if the owner is able to manage the animal to minimise the risk of exposure until the animal can be vaccinated",0,1589195979
+4,Pets,"Routine diagnostic monitoring and testing should be postponed unless there are valid reasons that a delay would compromise the health and welfare of the animal",0,1589195979
+4,Pets,"Boarding, day care, grooming and other ancillary services",0,1589195979
+4,Pets,"Sterilisations, dehorning and other related procedures to be postponed unless non-performance may affect the health and welfare of the animal",0,1589195979
+4,Pets,"Routine post mortems must be postponed",0,1589195979
+4,Pets,"Dog walking allowed (in accordance with guidelines)",1,1589195979
+4,Pets,"Pet food, accessories, health products and treats",1,1589195979
+4,Pets,"Selected veterinary services, conditions apply:",1,1589195979
+4,Pets,"Treatment of sick and injured animals that cannot be postponed",1,1589195979
+4,Pets,"Minimum number of assistants should remain available",1,1589195979
+4,Pets,"Adminster boosters of vaccine series that have started if deemed necessary based on animal's condition and circumstances (e.g. risk of exposure)",1,1589195979
+4,Pets,"Control of parasites must be limited to instanced where the delays to provide treatment may negatively affect the health and welfare of animals",1,1589195979
+4,Pets,"Routine services including post-operative check-ups must be provided through telemedicine",1,1589195979
+4,Pets,"Sterilisations, dehorning and other related procedures under emergency situations",1,1589195979
+4,Pets,"Post mortems which necessitate urgent diagnosis to prevent spread of disease or high morbidities and mortalities may be performed",1,1589195979
+4,Pets,"Maintaining productivity of dairy animals e.g. interventions to support breeding cycle and udder health of dairy animals may continue",1,1589195979
+4,Pets,"Services relating to control of animal diseases may be implemented, subject to directions",1,1589195979
+4,Pets,"Veterinary diagnostic services for animal diseases and food safety to continue",1,1589195979
+4,Pets,"Veterinarians are required to wear proper personal protective equipment (PPE) at all times",1,1589195979
+4,Pets,"Drop offs of medicines and usage of e-commerce must be implemented to reduce human physical interaction",1,1589195979
+5,Pets,"Dog walking not allowed",0,1589195979
+5,Pets,"Pet grooming services not allowed",0,1589195979
+5,Pets,"Animal hospitals, clinics, vetshops and petshops may not sell non-essential goods",0,1589195979
+5,Pets,"Wellness visits to be postponed",0,1589195979
+5,Pets,"All clinical and surgical interventions that do not pose harm to the animal's health and welfare must be postponed",0,1589195979
+5,Pets,"Routine vaccination can be postponed if the owner is able to manage the animal to minimise the risk of exposure until the animal can be vaccinated",0,1589195979
+5,Pets,"Routine diagnostic monitoring and testing should be postponed unless there are valid reasons that a delay would compromise the health and welfare of the animal",0,1589195979
+5,Pets,"Boarding, day care, grooming and other ancillary services",0,1589195979
+5,Pets,"Sterilisations, dehorning and other related procedures to be postponed unless non-performance may affect the health and welfare of the animal",0,1589195979
+5,Pets,"Routine post mortems must be postponed",0,1589195979
+5,Pets,"Pet food, accessories, health products and treats",1,1589195979
+5,Pets,"Selected veterinary services, conditions apply:",1,1589195979
+5,Pets,"Treatment of sick and injured animals that cannot be postponed",1,1589195979
+5,Pets,"Minimum number of assistants should remain available",1,1589195979
+5,Pets,"Adminster boosters of vaccine series that have started if deemed necessary based on animal's condition and circumstances (e.g. risk of exposure)",1,1589195979
+5,Pets,"Control of parasites must be limited to instanced where the delays to provide treatment may negatively affect the health and welfare of animals",1,1589195979
+5,Pets,"Routine services including post-operative check-ups must be provided through telemedicine",1,1589195979
+5,Pets,"Sterilisations, dehorning and other related procedures under emergency situations",1,1589195979
+5,Pets,"Post mortems which necessitate urgent diagnosis to prevent spread of disease or high morbidities and mortalities may be performed",1,1589195979
+5,Pets,"Maintaining productivity of dairy animals e.g. interventions to support breeding cycle and udder health of dairy animals may continue",1,1589195979
+5,Pets,"Services relating to control of animal diseases may be implemented, subject to directions",1,1589195979
+5,Pets,"Veterinary diagnostic services for animal diseases and food safety to continue",1,1589195979
+5,Pets,"Veterinarians are required to wear proper personal protective equipment (PPE) at all times",1,1589195979
+5,Pets,"Drop offs of medicines and usage of e-commerce must be implemented to reduce human physical interaction",1,1589195979
+1,"Domestic Help","All private household employment allowed",1,1589195979
+2,"Domestic Help","All private household employment allowed",1,1589195979
+3,"Domestic Help","General private household employment not allowed (except live-in staff)",0,1589195979
+3,"Domestic Help","Live-in staff",1,1589195979
+3,"Domestic Help","Domestic staff that are supporting those permitted to work under level 3",1,1589195979
+3,"Domestic Help","Staff providing care to vulnerable people (sick, mentally ill, elderly, people with disabilities and children)",1,1589195979
+3,"Domestic Help","Gardening and swimming pool services",1,1589195979
+4,"Domestic Help","General private household employment not allowed (except live-in staff)",0,1589195979
+4,"Domestic Help","Live-in staff",1,1589195979
+4,"Domestic Help","Domestic staff that are supporting those permitted to work under level 4.",1,1589195979
+4,"Domestic Help","Staff providing care to vulnerable people (sick, mentally ill, elderly, people with disabilities and children)",1,1589195979
+5,"Domestic Help","No private household employment allowed (except live-in staff)",0,1589195979
+5,"Domestic Help","Live-in staff",1,1589195979
+5,"Domestic Help","Staff providing care to vulnerable people (sick, mentally ill, elderly, people with disabilities and children)",1,1589195979
+1,Transport,"All air travel allowed",1,1589195979
+1,Transport,"All ocean transport allowed",1,1589195979
+1,Transport,"Public rail, minibus taxi and bus services will resume, subject to restrictions on capacity and times",1,1589195979
+1,Transport,"E-hailing services subject to restrictions on capacity and times; and for permitted activities only",1,1589195979
+1,Transport,"Transport and logistics in respect of specified cargo, and permitted retail goods to neighbouring countries, which shall include all goods imported via SA ports of entry, for re-export to neighbouring countries",1,1589195979
+1,Transport,"Essential imported goods will be prioritised through ports of entry and for transport and handling to final users. Directions will be issued in respect of other goods.",1,1589195979
+1,Transport,"Social distancing when using public and private transport, as per transport guidelines",1,1589195979
+1,Transport,"Mandatory use of cloth masks (including home-made ones to cover nose and mouth) and ensure hand hygiene when in public",1,1589195979
+2,Transport,"No International passenger air travel except under exceptional circumstances",0,1589195979
+2,Transport,"Limited domestic air travel (restricted flights per day and authorised based on reason for travel and subject to ports of entry arrangements)",1,1589195979
+2,Transport,"Public rail, minibus taxi and bus services will resume, subject to restrictions on capacity and times",1,1589195979
+2,Transport,"E-hailing services subject to restrictions on capacity and times; and for permitted activities only",1,1589195979
+2,Transport,"Transport and logistics in respect of specified cargo, and permitted retail goods to neighbouring countries, which shall include all goods imported via SA ports of entry, for re-export to neighbouring countries",1,1589195979
+2,Transport,"Ocean and air transport permitted only for the shipment of cargo",1,1589195979
+2,Transport,"Essential imported goods will be prioritised through ports of entry and for transport and handling to final users. Directions will be issued in respect of other goods.",1,1589195979
+2,Transport,"Social distancing when using public and private transport, as per transport guidelines",1,1589195979
+2,Transport,"Mandatory use of cloth masks (including home-made ones to cover nose and mouth) and ensure hand hygiene when in public",1,1589195979
+3,Transport,"No International passenger air travel except under exceptional circumstances",0,1589195979
+3,Transport,"Limited domestic air travel (restricted flights per day and authorised based on reason for travel and subject to ports of entry arrangements)",1,1589195979
+3,Transport,"Public rail, minibus taxi and bus services will resume, subject to restrictions on capacity and times",1,1589195979
+3,Transport,"E-hailing services subject to restrictions on capacity and times; and for permitted activities only",1,1589195979
+3,Transport,"Transport and logistics in respect of specified cargo, and permitted retail goods to neighbouring countries, which shall include all goods imported via SA ports of entry, for re-export to neighbouring countries",1,1589195979
+3,Transport,"Ocean and air transport permitted only for the shipment of cargo",1,1589195979
+3,Transport,"Essential imported goods will be prioritised through ports of entry and for transport and handling to final users. Directions will be issued in respect of other goods.",1,1589195979
+3,Transport,"Social distancing when using public and private transport, as per transport guidelines",1,1589195979
+3,Transport,"Mandatory use of cloth masks (including home-made ones to cover nose and mouth) and ensure hand hygiene when in public",1,1589195979
+4,Transport,"No passenger air travel (Domestic & International) except under exceptional circumstances",0,1589195979
+4,Transport,"No travelling between provinces except under exceptional circumstances",0,1589195979
+4,Transport,"Public rail, minibus taxi and bus services will resume, subject to restrictions on capacity and times",1,1589195979
+4,Transport,"E-hailing services subject to restrictions on capacity and times; and for permitted activities only",1,1589195979
+4,Transport,"Transport and logistics in respect of specified cargo, and permitted retail goods to neighbouring countries, which shall include all goods imported via SA ports of entry, for re-export to neighbouring countries",1,1589195979
+4,Transport,"Ocean and air transport permitted only for the shipment of cargo",1,1589195979
+4,Transport,"Essential imported goods will be prioritised through ports of entry and for transport and handling to final users. Directions will be issued in respect of other goods.",1,1589195979
+4,Transport,"Social distancing when using public and private transport, as per transport guidelines",1,1589195979
+4,Transport,"Mandatory use of cloth masks (including home-made ones to cover nose and mouth) and ensure hand hygiene when in public",1,1589195979
+5,Transport,"No passenger air travel (Domestic & International) except under exceptional circumstances",0,1589195979
+5,Transport,"No travelling between provinces except under exceptional circumstances",0,1589195979
+5,Transport,"Taxis, buses, e-hailing services (subject to restricted capacity, times and for allowed activities only)",1,1589195979
+5,Transport,"Rail, ocean and air transport allowed only for shipment of cargo",1,1589195979
+5,Transport,"Transport and logistics in respect of specific cargo, and permitted retail goods to neighbouring countries, including all goods imported via SA ports of entry, for re-export to neighbouring countries",1,1589195979
+5,Transport,"Social distancing when using public and private transport, as per transport guidelines",1,1589195979
+5,Transport,"Mandatory use of cloth masks (including home-made ones to cover nose and mouth) and ensure hand hygiene when in public",1,1589195979
+1,Retail,"All retail allowed, subject to directions",1,1589195979
+2,Retail,"All retail allowed, subject to directions",1,1589195979
+3,Retail,"Any food product, including non-alcoholic beverages and animal food",1,1589195979
+3,Retail,"Toilet Paper, sanitary pads, sanitary tampons, condoms",1,1589195979
+3,Retail,"Hand sanitiser, disinfectants, soap, alcohol for industrial use, household cleaning products, and personal protective equipment",1,1589195979
+3,Retail,"Products for the care of babies and toddlers",1,1589195979
+3,Retail,"Personal toiletries, including haircare, body and face care products, roll-ons, deodorants, and dental care products",1,1589195979
+3,Retail,"Medical and Hospital Supplies, medicine, equipment and personal protective equipment",1,1589195979
+3,Retail,"Fuel, including coal, wood, paraffin and gas",1,1589195979
+3,Retail,"Airtime and electricity",1,1589195979
+3,Retail,"Hardware, components and supplies for sale to the general public",1,1589195979
+3,Retail,"Stationery and all books",1,1589195979
+3,Retail,"Components for vehicles undergoing emergency repairs where such vehicle is used by a person engaged in essential services work",1,1589195979
+3,Retail,"Chemicals, packaging and ancillary products used in the production of any these products",1,1589195979
+3,Retail,"All household appliances (including fridges, washing machines, dishwasher, irons etc.)",1,1589195979
+3,Retail,"All clothing, home textiles and footwear",1,1589195979
+3,Retail,"Tobacco products",1,1589195979
+3,Retail,"Motor vehicles sales, subject to directions",1,1589195979
+3,Retail,"Personal ICT equipment including computers, mobile telephones and other home office equipment",1,1589195979
+3,Retail,"Off-premises consumption of alcohol, subject to limited hours and subject to an approved industry plan on social distance and quantitative restrictions. No consumption on premises",1,1589195979
+4,Retail,"No sale of liquor allowed",0,1589195979
+4,Retail,"No sale of tobacco products allowed",0,1589195979
+4,Retail,"Any food product, including non-alcoholic beverages and animal food",1,1589195979
+4,Retail,"The sale of hot cooked food, only for home delivery",1,1589195979
+4,Retail,"Toilet Paper, sanitary pads, sanitary tampons, condoms",1,1589195979
+4,Retail,"Hand sanitiser, disinfectants, soap, alcohol for industrial use, household cleaning products, and personal protective equipment",1,1589195979
+4,Retail,"Products for the care of babies and toddlers",1,1589195979
+4,Retail,"Personal toiletries, including haircare, body and face care products, roll-ons, deodorants, and dental care products",1,1589195979
+4,Retail,"Medical and Hospital Supplies, medicine, equipment and personal protective equipment",1,1589195979
+4,Retail,"Fuel, including coal, wood, paraffin and gas",1,1589195979
+4,Retail,"Airtime and electricity",1,1589195979
+4,Retail,"Hardware, components and supplies required solely for the purpose of emergency repairs at residential homes or for any project related to the provision of water, electricity or other essential services",1,1589195979
+4,Retail,"Components for vehicles undergoing emergency repairs where such vehicle is used by a person engaged in essential services work",1,1589195979
+4,Retail,"Chemicals, packaging and ancillary products used in the production of any these products",1,1589195979
+4,Retail,"Textiles required to produce face masks, and other personal protective equipment",1,1589195979
+4,Retail,"Children’s clothing",1,1589195979
+4,Retail,"Stationery and educational books",1,1589195979
+4,Retail,"Winter clothing bedding and heaters",1,1589195979
+4,Retail,"On-line delivery of ICT equipment to facilitate work-from-home arrangements including computers, mobile telephones and other home office equipment",1,1589195979
+5,Retail,"No sale of liquor allowed",0,1589195979
+5,Retail,"No sale of tobacco products allowed",0,1589195979
+5,Retail,"Any food product, including non-alcoholic beverages and animal food, excluding the sale of cooked hot food",1,1589195979
+5,Retail,"Toilet Paper, sanitary pads, sanitary tampons, condoms",1,1589195979
+5,Retail,"Hand sanitiser, disinfectants, soap, alcohol for industrial use, household cleaning products, and personal protective equipment",1,1589195979
+5,Retail,"Products for the care of babies and toddlers",1,1589195979
+5,Retail,"Personal toiletries, including haircare, body and face care products, roll-ons, deodorants, and dental care products",1,1589195979
+5,Retail,"Medical and Hospital Supplies, medicine, equipment and personal protective equipment",1,1589195979
+5,Retail,"Fuel, including coal, wood, paraffin and gas",1,1589195979
+5,Retail,"Airtime and electricity",1,1589195979
+5,Retail,"Hardware, components and supplies required by any qualified tradespersons solely for the purpose of emergency repairs at residential homes, or for any project related to the provision of water, electricity or other essential services",1,1589195979
+5,Retail,"Components for vehicles undergoing emergency repairs where such vehicle is used by a person engaged in essential services work",1,1589195979
+5,Retail,"Chemicals, packaging and ancillary products used in the production of any these products",1,1589195979
+5,Retail,"Textiles required to produce face masks, and other personal protective equipment",1,1589195979
+5,Retail,"Children’s clothing",1,1589195979
+5,Retail,"Winter clothing bedding and heaters",1,1589195979
+5,Retail,"On-line delivery of ICT equipment to facilitate work-from-home arrangements including computers, mobile telephones and other home office equipment",1,1589195979
+1,Manufacturing,"All manufacturing scaling up towards 100% employment",1,1589195979
+2,Manufacturing,"All manufacturing scaling up towards 100% employment",1,1589195979
+3,Manufacturing,"Restrictions apply to manufacturing of certain products",0,1589195979
+3,Manufacturing,"Manufacturing for all products (including inputs) which can be sold under Level 3 is allowed",1,1589195979
+3,Manufacturing,"Manufacturers of Level 3 products (including inputs) are allowed to scale up to full employment",1,1589195979
+3,Manufacturing,"Manufacture of paper and paper products, excluding stationery, can scale to full employment",1,1589195979
+3,Manufacturing,"Manufacture of packaging, including glass, plastic bottles and containers, can scale to full employment",1,1589195979
+3,Manufacturing,"Manufacture of winter clothing, bedding and heaters, and all inputs required, can scale to full employment",1,1589195979
+3,Manufacturing,"Petroleum smelters, refineries and furnaces, can scale to full employment",1,1589195979
+3,Manufacturing,"Automotive manufacturing, including components, can scale up to 100% employment",1,1589195979
+3,Manufacturing,"Stationery production, can scale up in phases to 50% employment",1,1589195979
+3,Manufacturing,"Cement, other construction material, and hardware, can scale up in phases to 50% employment",1,1589195979
+3,Manufacturing,"Steel and other metal manufacturing, can scale up in phases to 100% employment",1,1589195979
+3,Manufacturing,"Clothing, textiles and footwear, can scale up in phases to 100% employment",1,1589195979
+3,Manufacturing,"Other chemicals manufacturing, can scale up in phases to 100% employment",1,1589195980
+3,Manufacturing,"All other manufacturing, can scale up to 50% employment",1,1589195980
+4,Manufacturing,"Restrictions apply to manufacturing of certain products",0,1589195980
+4,Manufacturing,"Manufacturing for all products (including inputs) which can be sold under Level 4 is allowed",1,1589195980
+4,Manufacturing,"Manufacturers of Level 4 products (including inputs) are allowed to scale up to full employment",1,1589195980
+4,Manufacturing,"Manufacture of paper and paper products, excluding stationery, can scale to full employment",1,1589195980
+4,Manufacturing,"Manufacture of packaging, including glass, plastic bottles and containers, can scale to full employment",1,1589195980
+4,Manufacturing,"Manufacture of winter clothing, bedding and heaters, and all inputs required, can scale to 50% employment",1,1589195980
+4,Manufacturing,"Petroleum smelters, refineries and furnaces, can scale to full employment",1,1589195980
+4,Manufacturing,"Automotive manufacturing, including components, can scale up in phases to 50% employment",1,1589195980
+4,Manufacturing,"Stationery production, can scale up in phases to 50% employment",1,1589195980
+4,Manufacturing,"Cement, other construction material, and hardware, can scale up in phases to 50% employment",1,1589195980
+4,Manufacturing,"All other manufacturing, can scale up to 20% employment",1,1589195980
+5,Manufacturing,"Restrictions apply to manufacturing of certain products",0,1589195980
+5,Manufacturing,"Manufacturing for all products (including inputs) which can be sold under Level 5 is allowed",1,1589195980
+5,Manufacturing,"Manufacturers of Level 5 products (including inputs) are allowed to scale up to full employment",1,1589195980
+5,Manufacturing,"Manufacture of paper and paper products, excluding stationery, can scale to full employment",1,1589195980
+5,Manufacturing,"Manufacture of packaging, including glass, plastic bottles and containers, can scale to full employment",1,1589195980
+5,Manufacturing,"Manufacture of winter clothing, bedding and heaters, and all inputs required, can scale to 50% employment",1,1589195980
+5,Manufacturing,"Petroleum smelters, refineries and furnaces, can scale to full employment",1,1589195980
+1,Mining,"All mining at 100% employment",1,1589195980
+2,Mining,"Restrictions apply in terms of scaling up to full employment",0,1589195980
+2,Mining,"All mining scaling up towards 100% employment",1,1589195980
+3,Mining,"Restrictions apply in terms of scaling up to full employment",0,1589195980
+3,Mining,"All mining scaling up towards 100% employment",1,1589195980
+4,Mining,"Restrictions apply in terms of scaling up to full employment",1,1589195980
+4,Mining,"Coal production for Eskom scaling up to full employment",1,1589195980
+4,Mining,"Open-cast mining scaling up to full employment",1,1589195980
+4,Mining,"All other mining starting in batches scaling up towards 50% employment",1,1589195980
+5,Mining,"Restrictions apply in terms of scaling up to full employment",0,1589195980
+5,Mining,"Coal production for Eskom scaling up to full employment",1,1589195980
+5,Mining,"All other mining starting in batches scaling up towards 50% employment",1,1589195980
+1,"Supply Chain","Restrictions apply to supply chain activity in relation to non-permitted goods",0,1589195980
+1,"Supply Chain","Production, manufacturing, supply, logistics, transport, delivery, critical maintenance and repair in relation to the rendering of permitted services including components and equipment",1,1589195980
+1,"Supply Chain","All workplaces or premises must have care and maintenance that is essential to the prevention of the destruction or significant impairment of working areas, plant, machinery or inventory, or to permit orderly shutdown arrangements, on such conditions as may be issued by means of directions by the relevant cabinet members",1,1589195980
+2,"Supply Chain","Restrictions apply to supply chain activity in relation to non-permitted goods",0,1589195980
+2,"Supply Chain","Production, manufacturing, supply, logistics, transport, delivery, critical maintenance and repair in relation to the rendering of permitted services including components and equipment",1,1589195980
+2,"Supply Chain","All workplaces or premises must have care and maintenance that is essential to the prevention of the destruction or significant impairment of working areas, plant, machinery or inventory, or to permit orderly shutdown arrangements, on such conditions as may be issued by means of directions by the relevant cabinet members",1,1589195980
+3,"Supply Chain","Restrictions apply to supply chain activity in relation to non-permitted goods",0,1589195980
+3,"Supply Chain","Production, manufacturing, supply, logistics, transport, delivery, critical maintenance and repair in relation to the rendering of permitted services including components and equipment",1,1589195980
+3,"Supply Chain","All workplaces or premises must have care and maintenance that is essential to the prevention of the destruction or significant impairment of working areas, plant, machinery or inventory, or to permit orderly shutdown arrangements, on such conditions as may be issued by means of directions by the relevant cabinet members",1,1589195980
+4,"Supply Chain","Restrictions apply to supply chain activity in relation to non-permitted goods",0,1589195980
+4,"Supply Chain","Production, manufacturing, supply, logistics, transport, delivery, critical maintenance and repair in relation to the rendering of permitted services including components and equipment",1,1589195980
+4,"Supply Chain","All workplaces or premises must have care and maintenance that is essential to the prevention of the destruction or significant impairment of working areas, plant, machinery or inventory, or to permit orderly shutdown arrangements, on such conditions as may be issued by means of directions by the relevant cabinet members",1,1589195980
+5,"Supply Chain","Restrictions apply to supply chain activity in relation to non-permitted goods",0,1589195980
+5,"Supply Chain","Production, manufacturing, supply, logistics, transport, delivery, critical maintenance and repair in relation to the rendering of permitted services including components and equipment",1,1589195980
+5,"Supply Chain","All workplaces or premises must have care and maintenance that is essential to the prevention of the destruction or significant impairment of working areas, plant, machinery or inventory, or to permit orderly shutdown arrangements, on such conditions as may be issued by means of directions by the relevant cabinet members",1,1589195980
+1,"Real Estate","All real estate activities are allowed",1,1589195980
+2,"Real Estate","All real estate activities are allowed",2,1589195980
+3,"Real Estate","Residential real estate activities are not allowed",0,1589195980
+3,"Real Estate","No show houses permitted",0,1589195980
+3,"Real Estate","Awaiting guidelines on moving into or out of properties",0,1589195980
+3,"Real Estate","Residential property viewings",0,1589195980
+3,"Real Estate","Commercial real-estate activities are allowed",1,1589195980
+3,"Real Estate","Virtual viewings by real estate agents with pre-recorded video footage of a property",1,1589195980
+3,"Real Estate","Deeds office is open",1,1589195980
+3,"Real Estate","Landlords may issue notices for eviction",1,1589195980
+3,"Real Estate","Estate agents may continue to take listings, mandates, sign Offer to Purchase agreements electronically and facilitate bond applications",1,1589195980
+4,"Real Estate","No show houses permitted",0,1589195980
+4,"Real Estate","No moving into or out of properties",0,1589195980
+4,"Real Estate","No evictions allowed",0,1589195980
+4,"Real Estate","Physical property viewings",0,1589195980
+4,"Real Estate","Virtual viewings by real estate agents with pre-recorded video footage of a property",1,1589195980
+4,"Real Estate","Deeds office is open",1,1589195980
+4,"Real Estate","Landlords may issue notices for eviction",1,1589195980
+4,"Real Estate","Tenants must communicate with a landlord if the tenants ability to pay rent has been impacted by the lockdown",1,1589195980
+4,"Real Estate","Tenants obligation to pay rent remains in place. No rule that a tenant will be automatically absolved",1,1589195980
+4,"Real Estate","Estate agents may continue to take listings, mandates, sign Offer to Purchase agreements electronically and facilitate bond applications",1,1589195980
+5,"Real Estate","Commercial and residential real estate activities are not permitted in Level 5, unless under exceptional circumstances (i.e. to support delivery of essential services)",0,1589195980
+5,"Real Estate","Tenants cannot be sued, because landlords cannot issue legal processes during the lockdown. However, tenants are still obliged to pay rent",0,1589195980
+1,Business,"Employees should work from home where possible",1,1589195980
+1,Business,"All financial and business services allowed",1,1589195980
+2,Business,"Restrictions apply to certain business activities",0,1589195980
+2,Business,"Employees should work from home where possible",1,1589195980
+2,Business,"Call centres, for local and all international markets, may operate subject to directions issues by the relevant cabinet members",1,1589195980
+2,Business,"Essential financial services may operate subject to directions issues by the relevant cabinet member",1,1589195980
+2,Business,"All real estate activities allowed",1,1589195980
+2,Business,"Private security services may operate",1,1589195980
+2,Business,"Implementation of payroll systems",1,1589195980
+2,Business,"Rental of motor vehicles, machinery and equipment, and of personal and household goods to support other Level Two services",1,1589195980
+2,Business,"Other professional services may operate only where work-from-home is not possible, and only to support other Level Two services",1,1589195980
+3,Business,"Restrictions apply to certain business activities",0,1589195980
+3,Business,"Employees should work from home where possible",1,1589195980
+3,Business,"Call centres, for local and all international markets, may operate subject to directions issues by the relevant cabinet members",1,1589195980
+3,Business,"Essential financial services may operate subject to directions issues by the relevant cabinet member",1,1589195980
+3,Business,"Commercial real estate allowed",1,1589195980
+3,Business,"Private security services may operate",1,1589195980
+3,Business,"Implementation of payroll systems",1,1589195980
+3,Business,"Rental of motor vehicles, machinery and equipment, and of personal and household goods to support other Level Three services",1,1589195980
+3,Business,"Other professional services may operate only where work-from-home is not possible, and only to support other Level Three services",1,1589195980
+4,Business,"Non-permitted business premises to remain closed",0,1589195980
+4,Business,"Employees should work from home where possible",1,1589195980
+4,Business,"Call centres, for local and all international markets, may operate subject to directions issues by the relevant cabinet members",1,1589195980
+4,Business,"Essential financial services may operate subject to directions issues by the relevant cabinet member",1,1589195980
+4,Business,"Private security services may operate",1,1589195980
+4,Business,"Implementation of payroll systems",1,1589195980
+4,Business,"Rental of motor vehicles, machinery and equipment, and of personal and household goods to support other Level Four services",1,1589195980
+4,Business,"Other professional services may operate only where work-from-home is not possible, and only to support other Level Four services",1,1589195980
+5,Business,"All non-essential business premises to remain closed",0,1589195980
+5,Business,"Employees should work from home where possible",1,1589195980
+5,Business,"Call centres, for local and international markets, may operate subject to directions issues by the relevant cabinet members",1,1589195980
+5,Business,"Essential financial services may operate subject to directions issues by the relevant cabinet member",1,1589195980
+5,Business,"Private security services may operate",1,1589195980
+5,Business,"Implementation of payroll systems",1,1589195980
+5,Business,"Rental of motor vehicles, machinery and equipment, and of personal and household goods to support other essential services",1,1589195980
+5,Business,"Other professional services may operate only where work-from-home is not possible, and only to support other essential services",1,1589195980
+1,Banking,"Employees should work from home where possible",1,1589195980
+1,Banking,"All financial and banking services allowed",1,1589195980
+2,Banking,"Restrictions apply to certain banking activities (e.g. limited branches will remain open)",0,1589195980
+2,Banking,"All customers are encouraged to use digital channels wherever possible to transact",1,1589195980
+2,Banking,"All essential banking services will remain open to ensure clients can continue to access financial services",1,1589195980
+2,Banking,"All digital financial services are allowed to continue serving clients remotely",1,1589195980
+2,Banking,"Employees should work from home where possible",1,1589195980
+2,Banking,"Call centres, for local and international markets, may operate subject to directions issues by the relevant cabinet members",1,1589195980
+3,Banking,"Restrictions apply to certain banking activities (e.g. limited branches will remain open)",0,1589195980
+3,Banking,"All customers are encouraged to use digital channels wherever possible to transact",1,1589195980
+3,Banking,"All essential banking services will remain open to ensure clients can continue to access financial services",1,1589195980
+3,Banking,"All digital financial services are allowed to continue serving clients remotely",1,1589195980
+3,Banking,"Employees should work from home where possible",1,1589195980
+3,Banking,"Call centres, for local and international markets, may operate subject to directions issues by the relevant cabinet members",1,1589195980
+4,Banking,"Restrictions apply to certain banking activities (e.g. limited branches will remain open)",0,1589195980
+4,Banking,"All customers are encouraged to use digital channels wherever possible to transact",1,1589195980
+4,Banking,"All essential banking services will remain open to ensure clients can continue to access financial services",1,1589195980
+4,Banking,"All digital financial services are allowed to continue serving clients remotely",1,1589195980
+4,Banking,"Employees should work from home where possible",1,1589195980
+4,Banking,"Call centres, for local and international markets, may operate subject to directions issues by the relevant cabinet members",1,1589195980
+5,Banking,"Restrictions apply to certain banking activities (e.g. limited branches will remain open)",0,1589195980
+5,Banking,"All customers are encouraged to use digital channels wherever possible to transact",1,1589195980
+5,Banking,"All essential banking services will remain open to ensure clients can continue to access financial services",1,1589195980
+5,Banking,"All digital financial services are allowed to continue serving clients remotely",1,1589195980
+5,Banking,"Employees should work from home where possible",1,1589195980
+5,Banking,"Call centres, for local and international markets, may operate subject to directions issues by the relevant cabinet members",1,1589195980
+1,Government,"All public adminstration and government services allowed",1,1589195980
+2,Government,"All non-essential government and adminstration services are not allowed",0,1589195980
+2,Government,"Disaster management services",1,1589195980
+2,Government,"Licensing, permitting and deeds offices, marriage certificates, birth and death certificates, and new and replacement identification documents",1,1589195980
+2,Government,"Any other service designated by the Executive Authority, HODs, Heads of Courts, and Heads of other Chapter 9 Institutions",1,1589195980
+2,Government,"Essential municipal services",1,1589195980
+2,Government,"Services related to the essential functioning of courts",1,1589195980
+2,Government,"Essential SARS services defined by the Commissioner of SARS",1,1589195980
+2,Government,"Police, peace officers, traffic officers, military medical personnel and soldiers, correctional services officials and traffic management services;",1,1589195980
+2,Government,"Services rendered by the Executive, members of Parliament, Members of the Provincial Legislature, Members of Local Councils, the Judiciary, traditional leaders and National Office Bearers of Political Parties represented in Parliament",1,1589195980
+2,Government,"Commissioners of the South African Human Rights Commission, Gender Commission, the Commission for the Promotion and Protection of the Rights of Cultural, Religious and Linguistic Communities, the Public Protector and Deputy Public Protector and the Independent Electoral Commission",1,1589195980
+3,Government,"All non-essential government and adminstration services are not allowed",0,1589195980
+3,Government,"Disaster management services",1,1589195980
+3,Government,"Licensing, permitting and deeds offices, marriage certificates, birth and death certificates, and replacement identification documents",1,1589195980
+3,Government,"Any other service designated by the Executive Authority, HODs, Heads of Courts, and Heads of other Chapter 9 Institutions",1,1589195980
+3,Government,"Essential municipal services",1,1589195980
+3,Government,"Services related to the essential functioning of courts",1,1589195980
+3,Government,"Essential SARS services defined by the Commissioner of SARS",1,1589195980
+3,Government,"Police, peace officers, traffic officers, military medical personnel and soldiers, correctional services officials and traffic management services;",1,1589195980
+3,Government,"Services rendered by the Executive, members of Parliament, Members of the Provincial Legislature, Members of Local Councils, the Judiciary, traditional leaders and National Office Bearers of Political Parties represented in Parliament",1,1589195980
+3,Government,"Commissioners of the South African Human Rights Commission, Gender Commission, the Commission for the Promotion and Protection of the Rights of Cultural, Religious and Linguistic Communities, the Public Protector and Deputy Public Protector and the Independent Electoral Commission",1,1589195980
+4,Government,"All non-essential government and adminstration services are not allowed",0,1589195980
+4,Government,"Disaster management services",1,1589195980
+4,Government,"Licensing, permitting and deeds offices; birth and death certificates, replacement identification documents",1,1589195980
+4,Government,"Any other service designated by the Executive Authority, HODs, Heads of Courts, and Heads of other Chapter 9 Institutions",1,1589195980
+4,Government,"Essential municipal services",1,1589195980
+4,Government,"Services related to the essential functioning of courts",1,1589195980
+4,Government,"Essential SARS services defined by the Commissioner of SARS",1,1589195980
+4,Government,"Police, peace officers, traffic officers, military medical personnel and soldiers, correctional services officials and traffic management services;",1,1589195980
+4,Government,"Services rendered by the Executive, members of Parliament, Members of the Provincial Legislature, Members of Local Councils, the Judiciary, traditional leaders and National Office Bearers of Political Parties represented in Parliament",1,1589195980
+4,Government,"Commissioners of the South African Human Rights Commission, Gender Commission, the Commission for the Promotion and Protection of the Rights of Cultural, Religious and Linguistic Communities, the Public Protector and Deputy Public Protector and the Independent Electoral Commission",1,1589195980
+5,Government,"All non-essential government and adminstration services are not allowed",0,1589195980
+5,Government,"Disaster management services",1,1589195980
+5,Government,"Birth and death certificates, replacement identification documents",1,1589195980
+5,Government,"Essential municipal services",1,1589195980
+5,Government,"Services related to the essential functioning of courts",1,1589195980
+5,Government,"Essential SARS services defined by the Commissioner of SARS",1,1589195980
+5,Government,"Police, peace officers, traffic officers, military medical personnel and soldiers, correctional services officials and traffic management services;",1,1589195980
+5,Government,"Services rendered by the Executive, members of Parliament, Members of the Provincial Legislature, Members of Local Councils, the Judiciary, traditional leaders and National Office Bearers of Political Parties represented in Parliament",1,1589195980
+5,Government,"Commissioners of the South African Human Rights Commission, Gender Commission, the Commission for the Promotion and Protection of the Rights of Cultural, Religious and Linguistic Communities, the Public Protector and Deputy Public Protector and the Independent Electoral Commission",1,1589195980
+1,Rental,"Rental of motor vehicles, machinery and equipment, and of personal and household goods allowed",1,1589195980
+2,Rental,"Rental of items not related to Level Two services is not allowed",0,1589195980
+2,Rental,"Rental of motor vehicles, machinery and equipment, and of personal and household goods to support other Level Two services",1,1589195980
+3,Rental,"Rental of items not related to Level Three services is not allowed",0,1589195980
+3,Rental,"Rental of motor vehicles, machinery and equipment, and of personal and household goods to support other Level Three services",1,1589195980
+4,Rental,"Rental of items not related to Level Four services is not allowed",0,1589195980
+4,Rental,"Rental of motor vehicles, machinery and equipment, and of personal and household goods to support other Level Four services",1,1589195980
+5,Rental,"Rental of items not related to essential services is not allowed",0,1589195980
+5,Rental,"Rental of motor vehicles, machinery and equipment, and of personal and household goods to support other essential services",1,1589195980
+1,"Trade Union","Trade union essential staff for workers covered by Level 1, subject to directions",1,1589195980
+2,"Trade Union","Trade union activites for organisations not permitted to operate during Level 2",0,1589195980
+2,"Trade Union","Trade union essential staff for workers covered by Level 2, subject to directions",1,1589195980
+3,"Trade Union","Trade union activites for organisations not permitted to operate during Level 3",0,1589195980
+3,"Trade Union","Trade union essential staff for workers covered by Level 3, subject to directions",1,1589195980
+4,"Trade Union","Trade union activites for organisations not permitted to operate during Level 4",0,1589195980
+4,"Trade Union","Trade union essential staff for workers covered by Level 4, subject to directions",1,1589195980
+5,"Trade Union","Trade union activites for organisations not permitted to operate during Level 5",0,1589195980
+5,"Trade Union","Trade union essential staff for workers covered by Level 5, subject to directions",1,1589195980
+1,DIY,"Hardware, components and supplies for sale to the general public",1,1589195980
+2,DIY,"Hardware, components and supplies for sale to the general public",1,1589195980
+3,DIY,"Hardware, components and supplies for sale to the general public",1,1589195980
+4,DIY,"Non-emergency repairs by tradespeople e.g. plumbers, electricians, locksmiths, glaziers and roof repair workers is not allowed at residences and businesses",0,1589195980
+4,DIY,"Hardware, components and supplies for sale to the general public",1,1589195980
+4,DIY,"Plumbers, electricians, locksmiths, glaziers and roof repair workers are allowed to do emergency repair work at residences and businesses",1,1589195980
+5,DIY,"Hardware, components and supplies for sale to the general public",0,1589195980
+5,DIY,"Non-emergency repairs by tradespeople e.g. plumbers, electricians, locksmiths, glaziers and roof repair workers is not allowed at residences and businesses",0,1589195980
+5,DIY,"Hardware, components and supplies for sale to qualified tradespersons only for the purpose of emergency repairs",1,1589195980
+1,E-Commerce,"All E-Commerce allowed",1,1589195980
+2,E-Commerce,"All E-Commerce allowed",1,1589195980
+3,E-Commerce,"Home delivery of selected goods are not allowed (subject to alteration during Level Three by government)",0,1589195980
+3,E-Commerce,"Home delivery of all essential goods including the following categories:",1,1589195980
+3,E-Commerce,"Any food product, including non-alcoholic beverages and animal food",1,1589195980
+3,E-Commerce,"Toilet Paper, sanitary pads, sanitary tampons, condoms",1,1589195980
+3,E-Commerce,"Hand sanitiser, disinfectants, soap, alcohol for industrial use, household cleaning products, and personal protective equipment",1,1589195980
+3,E-Commerce,"Products for the care of babies and toddlers",1,1589195980
+3,E-Commerce,"Personal toiletries, including haircare, body and face care products, roll-ons, deodorants, and dental care products",1,1589195980
+3,E-Commerce,"Medical and Hospital Supplies, medicine, equipment and personal protective equipment",1,1589195980
+3,E-Commerce,"Fuel, including coal, wood, paraffin and gas",1,1589195980
+3,E-Commerce,"Airtime and electricity",1,1589195980
+3,E-Commerce,"Hardware, components and supplies for sale to the general public",1,1589195980
+3,E-Commerce,"Stationery and all books",1,1589195980
+3,E-Commerce,"Components for vehicles undergoing emergency repairs where such vehicle is used by a person engaged in essential services work",1,1589195980
+3,E-Commerce,"Chemicals, packaging and ancillary products used in the production of any these products",1,1589195980
+3,E-Commerce,"All household appliances",1,1589195980
+3,E-Commerce,"All clothing, home textiles and footwear",1,1589195980
+3,E-Commerce,"Tobacco products",1,1589195980
+3,E-Commerce,"Motor vehicles sales, subject to directions",1,1589195980
+3,E-Commerce,"Personal ICT equipment including computers, mobile telephones and other home office equipment",1,1589195980
+3,E-Commerce,"Alcohol subject to restrictions",1,1589195980
+4,E-Commerce,"Home delivery of non-essential goods are not allowed",0,1589195980
+4,E-Commerce,"Home delivery of all essential goods including the following categories:",1,1589195980
+4,E-Commerce,"Any food product, including non-alcoholic beverages and animal food, excluding the sale of cooked hot food",1,1589195980
+4,E-Commerce,"Toilet Paper, sanitary pads, sanitary tampons, condoms",1,1589195980
+4,E-Commerce,"Hand sanitiser, disinfectants, soap, alcohol for industrial use, household cleaning products, and personal protective equipment",1,1589195980
+4,E-Commerce,"Products for the care of babies and toddlers",1,1589195980
+4,E-Commerce,"Personal toiletries, including haircare, body and face care products, roll-ons, deodorants, and dental care products",1,1589195980
+4,E-Commerce,"Medical and Hospital Supplies, medicine, equipment and personal protective equipment",1,1589195980
+4,E-Commerce,"Fuel, including coal, wood, paraffin and gas",1,1589195980
+4,E-Commerce,"Airtime and electricity",1,1589195980
+4,E-Commerce,"Hardware, components and supplies required by any qualified tradespersons solely for the purpose of emergency repairs at residential homes, or for any project related to the provision of water, electricity or other essential services",1,1589195980
+4,E-Commerce,"Components for vehicles undergoing emergency repairs where such vehicle is used by a person engaged in essential services work",1,1589195980
+4,E-Commerce,"Chemicals, packaging and ancillary products used in the production of any these products",1,1589195980
+4,E-Commerce,"Textiles required to produce face masks, and other personal protective equipment",1,1589195980
+4,E-Commerce,"Children’s clothing",1,1589195980
+4,E-Commerce,"Winter clothing bedding and heaters",1,1589195980
+4,E-Commerce,"ICT equipment to facilitate work-from-home arrangements including computers, mobile telephones and other home office equipment",1,1589195980
+5,E-Commerce,"Home delivery of non-essential goods are not allowed",0,1589195980
+5,E-Commerce,"Home delivery of all essential goods including the following categories:",1,1589195980
+5,E-Commerce,"Any food product, including non-alcoholic beverages and animal food, excluding the sale of cooked hot food",1,1589195980
+5,E-Commerce,"Toilet Paper, sanitary pads, sanitary tampons, condoms",1,1589195980
+5,E-Commerce,"Hand sanitiser, disinfectants, soap, alcohol for industrial use, household cleaning products, and personal protective equipment",1,1589195980
+5,E-Commerce,"Products for the care of babies and toddlers",1,1589195980
+5,E-Commerce,"Personal toiletries, including haircare, body and face care products, roll-ons, deodorants, and dental care products",1,1589195980
+5,E-Commerce,"Medical and Hospital Supplies, medicine, equipment and personal protective equipment",1,1589195980
+5,E-Commerce,"Fuel, including coal, wood, paraffin and gas",1,1589195980
+5,E-Commerce,"Airtime and electricity",1,1589195980
+5,E-Commerce,"Hardware, components and supplies required by any qualified tradespersons solely for the purpose of emergency repairs at residential homes, or for any project related to the provision of water, electricity or other essential services",1,1589195980
+5,E-Commerce,"Components for vehicles undergoing emergency repairs where such vehicle is used by a person engaged in essential services work",1,1589195980
+5,E-Commerce,"Chemicals, packaging and ancillary products used in the production of any these products",1,1589195980
+5,E-Commerce,"Textiles required to produce face masks, and other personal protective equipment",1,1589195980
+5,E-Commerce,"Children’s clothing",1,1589195980
+5,E-Commerce,"Winter clothing bedding and heaters",1,1589195980
+5,E-Commerce,"ICT equipment to facilitate work-from-home arrangements including computers, mobile telephones and other home office equipment",1,1589195980
+1,"Call Centres","Employees should work from home where possible",1,1589195980
+1,"Call Centres","Call centres services allowed",1,1589195980
+2,"Call Centres","Restrictions apply to call centre operations which support non-essential services",0,1589195980
+2,"Call Centres","Employees should work from home where possible",1,1589195980
+2,"Call Centres","Call centres, for local and international markets, may operate subject to directions issues by the relevant cabinet members",1,1589195980
+3,"Call Centres","Restrictions apply to call centre operations which support non-essential services",0,1589195980
+3,"Call Centres","Employees should work from home where possible",1,1589195980
+3,"Call Centres","Call centres, for local and international markets, may operate subject to directions issues by the relevant cabinet members",1,1589195980
+4,"Call Centres","Restrictions apply to call centre operations which support non-essential services",0,1589195980
+4,"Call Centres","Employees should work from home where possible",1,1589195980
+4,"Call Centres","Call centres, for local and international markets, may operate subject to directions issues by the relevant cabinet members",1,1589195980
+5,"Call Centres","Restrictions apply to call centre operations which support non-essential services",0,1589195980
+5,"Call Centres","Employees should work from home where possible",1,1589195980
+5,"Call Centres","Local and international call centres required to provide health, safety, social support, goverment and financial services",1,1589195980
+1,Construction,"All construction projects allowed",1,1589195980
+2,Construction,"Restrictions apply to construction activities that are not listed below",0,1589195980
+2,Construction,"Civil engineering for public works projects (including water, energy, sanitation)",1,1589195980
+2,Construction,"Critical public works construction",1,1589195980
+2,Construction,"Road and bridge projects",1,1589195980
+2,Construction,"Other public works civil engineering projects",1,1589195980
+2,Construction,"Commercial building projects",1,1589195980
+2,Construction,"Private residential projects",1,1589195980
+2,Construction,"Critical maintenance and repairs",1,1589195980
+3,Construction,"Restrictions apply to construction activities that are not listed below",0,1589195980
+3,Construction,"Private residential construction projects are not allowed",0,1589195980
+3,Construction,"Civil engineering for public works projects (including water, energy, sanitation)",1,1589195980
+3,Construction,"Critical public works construction",1,1589195980
+3,Construction,"Road and bridge projects",1,1589195980
+3,Construction,"Other public works civil engineering projects",1,1589195980
+3,Construction,"Commercial building projects",1,1589195980
+3,Construction,"Critical maintenance and repairs",1,1589195980
+4,Construction,"All non-critical construction work is not allowed",0,1589195980
+4,Construction,"Private residential construction projects are not allowed",0,1589195980
+4,Construction,"Commercial building projects are not allowed",0,1589195980
+4,Construction,"Civil engineering for public works projects (including water, energy, sanitation)",1,1589195980
+4,Construction,"Critical public works construction",1,1589195980
+4,Construction,"Road and bridge projects",1,1589195980
+4,Construction,"Other public works civil engineering projects",1,1589195980
+4,Construction,"Critical maintenance and repairs",1,1589195980
+5,Construction,"All non-critical construction work is not allowed",0,1589195980
+5,Construction,"Private residential construction projects are not allowed",0,1589195980
+5,Construction,"Commercial building projects are not allowed",0,1589195980
+5,Construction,"Civil engineering for public works projects (including water, energy, sanitation)",1,1589195980
+5,Construction,"Critical public works construction",1,1589195980
+5,Construction,"Critical maintenance and repairs",1,1589195980
+1,Agriculture,"All agriculture, hunting, forestry, fishing and related services allowed",1,1589195980
+2,Agriculture,"All agriculture, hunting, forestry, fishing and related services allowed",1,1589195980
+3,Agriculture,"All agriculture, hunting, forestry, fishing and related services allowed",1,1589195980
+4,Agriculture,"Restrictions and conditions apply to operation of agricultural activities",0,1589195980
+4,Agriculture,"All agriculture, hunting, forestry and fishing, bee-keeping, including preparation, cultivation, harvesting, storage, transport of live animals and auctions (subject to health directions)",1,1589195980
+4,Agriculture,"All related agricultural infrastructure and services (including research, inspection, certification and quality control",1,1589195980
+4,Agriculture,"All fishing, operation of fish hatcheries and fish farms, on conditions issued by cabinet members responsible for envionrment, forestry and fishery",1,1589195980
+4,Agriculture,"Harvesting and storage activities essential to prevent the wastage of primary agriculture, fishing and forestry goods",1,1589195980
+4,Agriculture,"Export of all agricultural, agro-processed, fishing and forestry products",1,1589195980
+5,Agriculture,"Restrictions and conditions apply to operation of agricultural activities",0,1589195980
+5,Agriculture,"Food-related agriculture, livestock, transport of live animals and auctions (subject to health directions) and related agricultural services",1,1589195980
+5,Agriculture,"All fishing, operation of fish hatcheries and fish farms",1,1589195980
+5,Agriculture,"Harvesting and storage activities essential to prevent the wastage of primary agricultural goods",1,1589195980
+5,Agriculture,"All agricultural products will be allowed to be exported",1,1589195980
+1,Alcohol,"Alcohol sale and on-premise consumption allowed with restrictions",1,1589195980
+2,Alcohol,"Alcohol sale and on-premise consumption allowed with restrictions",1,1589195980
+3,Alcohol,"No consumption on premises",0,1589195980
+3,Alcohol,"Alcohol sale allowed with restrictions",1,1589195980
+3,Alcohol,"Off-premises consumption of alcohol subject to limited hours and subject to industry approved plan on social distance and quantitative restrictions",1,1589195980
+4,Alcohol," No sale of liquor allowed",0,1589195980
+5,Alcohol," No sale of liquor allowed",0,1589195980
+1,"Laundry Services","Laundry and dry-cleaning services allowed",1,1589195980
+2,"Laundry Services","Laundry and dry-cleaning services allowed",1,1589195980
+3,"Laundry Services","Laundry and dry-cleaning services allowed",1,1589195980
+4,"Laundry Services","Laundry and dry-cleaning services forbidden",0,1589195980
+5,"Laundry Services","Laundry and dry-cleaning services forbidden",0,1589195980
+1,Flights,"International and Domestic Air Travel allowed",1,1589195980
+2,Flights,"No International Air Travel (except South Africans returning home and foreign nationals leaving South Africa)",0,1589195980
+2,Flights,"Limited Domestic Air Travel",1,1589195980
+3,Flights,"No International Air Travel (except South Africans returning home and foreign nationals leaving South Africa)",0,1589195980
+3,Flights,"Limited Domestic Air Travel",1,1589195980
+4,Flights,"No passenger air travel (Domestic & International)",0,1589195980
+4,Flights,"Except for repatriation of South African nationals and foreign citizens leaving South Africa",1,1589195980
+4,Flights,"South Africans returning home must be quarantined for 14 days before returning to their families or work",1,1589195980
+5,Flights,"No passenger air travel (Domestic & International)",0,1589195980
+5,Flights,"Except for repatriation of South African nationals and foreign citizens leaving South Africa",1,1589195980
+5,Flights,"South Africans returning home must be quarantined for 14 days before returning to their families or work",1,1589195980
+1,"Domestic Travel","No recreational travel or to meet friends or family.",0,1589195980
+1,"Domestic Travel","No limitation on personal movement but persons are encouraged to limit movement to essential travel",1,1589195980
+1,"Domestic Travel","Inter-provincial travel allowed",1,1589195980
+1,"Domestic Travel","Limited domestic air travel",1,1589195980
+1,"Domestic Travel","Mandatory use of cloth masks (including home-made ones to cover nose and mouth) and ensure hand hygiene when in public.",1,1589195980
+1,"Domestic Travel","Social distancing when using public and private transport, as per transport guidelines",1,1589195980
+2,"Domestic Travel","No recreational travel or to meet friends or family.",0,1589195980
+2,"Domestic Travel","Inter-provincial travel allowed",1,1589195980
+2,"Domestic Travel","Limited domestic air travel",1,1589195980
+2,"Domestic Travel","Stay at home, other than essential travel for work and to purchase essential goods.",1,1589195980
+2,"Domestic Travel","Mandatory use of cloth masks (including home-made ones to cover nose and mouth) and ensure hand hygiene when in public.",1,1589195980
+2,"Domestic Travel","Social distancing when using public and private transport, as per transport guidelines",1,1589195980
+3,"Domestic Travel","Interprovincial travel is not allowed except to return to work with proof of employment; for movement of learners, with permit; in exceptional circumstances such as funerals (with approval) or essential services.",0,1589195980
+3,"Domestic Travel","No recreational travel or to meet friends or family.",0,1589195980
+3,"Domestic Travel","No passenger air or sea travel",0,1589195980
+3,"Domestic Travel","Stay at home, other than essential travel for work and to purchase essential goods.",1,1589195980
+3,"Domestic Travel","Mandatory use of cloth masks (including home-made ones to cover nose and mouth) and ensure hand hygiene when in public.",1,1589195980
+3,"Domestic Travel","Emergencies for medical reasons.",1,1589195980
+3,"Domestic Travel","Those who have an exemption to travel for funerals",1,1589195980
+3,"Domestic Travel","Social distancing when using public and private transport, as per transport guidelines",1,1589195980
+4,"Domestic Travel","Interprovincial travel is not allowed except to return to work with proof of employment; for movement of learners, with permit; in exceptional circumstances such as funerals (with approval) or essential services.",0,1589195980
+4,"Domestic Travel","No recreational travel or to meet friends or family.",0,1589195980
+4,"Domestic Travel","No passenger air or sea travel",0,1589195980
+4,"Domestic Travel","Stay at home, other than essential travel for work and to purchase essential goods.",1,1589195980
+4,"Domestic Travel","Mandatory use of cloth masks (including home-made ones to cover nose and mouth) and ensure hand hygiene when in public.",1,1589195980
+4,"Domestic Travel","Emergencies for medical reasons.",1,1589195980
+4,"Domestic Travel","Travel to funerals is allowed by exception for close relatives. A 50-person limit applies and night vigils are not allowed.",1,1589195980
+4,"Domestic Travel","Social distancing when using public and private transport, as per transport guidelines",1,1589195980
+5,"Domestic Travel","Interprovincial travel is not allowed except to return to work with proof of employment; for movement of learners, with permit; in exceptional circumstances such as funerals (with approval) or essential services.",0,1589195980
+5,"Domestic Travel","No recreational travel or to meet friends or family.",0,1589195980
+5,"Domestic Travel","No passenger air or sea travel",0,1589195980
+5,"Domestic Travel","Stay at home, other than essential travel for work and to purchase essential goods.",1,1589195980
+5,"Domestic Travel","Mandatory use of cloth masks (including home-made ones to cover nose and mouth) and ensure hand hygiene when in public.",1,1589195980
+5,"Domestic Travel","Emergencies for medical reasons.",1,1589195980
+5,"Domestic Travel","Travel to funerals is allowed by exception for close relatives. A 50-person limit applies and night vigils are not allowed.",1,1589195980
+5,"Domestic Travel","Social distancing when using public and private transport, as per transport guidelines",1,1589195980
+1,Accommodation,"Normal services resumed",1,1589195980
+2,Accommodation,"Business travel only",1,1589195980
+3,Accommodation,"Closed with the exception of isolation, quarantine accomodation allowed",0,1589195980
+4,Accommodation,"Closed with the exception of isolation, quarantine accomodation allowed",0,1589195980
+5,Accommodation,"Closed with the exception of isolation, quarantine accomodation allowed",0,1589195980
+1,Tobacco,"Sale of tobacco will be allowed",1,1589195980
+2,Tobacco,"Sale of tobacco will be allowed",1,1589195980
+3,Tobacco,"Sale of tobacco will be allowed",1,1589195980
+4,Tobacco,"Sale of tobacco forbidden",0,1589195980
+5,Tobacco,"Sale of tobacco forbidden",0,1589195980
+1,Bars,"Bars and shebeens closed",0,1589195980
+2,Bars,"Bars and shebeens closed",0,1589195980
+3,Bars,"Bars and shebeens closed",0,1589195980
+4,Bars,"Bars and shebeens closed",0,1589195980
+5,Bars,"Bars and shebeens closed",0,1589195980
+1,Conferences,"Conference and convention centres closed",0,1589195980
+2,Conferences,"Conference and convention centres closed",0,1589195980
+3,Conferences,"Conference and convention centres closed",0,1589195980
+4,Conferences,"Conference and convention centres closed",0,1589195980
+5,Conferences,"Conference and convention centres closed",0,1589195980
+1,"Entertainment & Sports Events","Entertainment venues and Sporting events are prohibited",0,1589195980
+2,"Entertainment & Sports Events","Entertainment venues and Sporting events are prohibited",0,1589195980
+3,"Entertainment & Sports Events","Entertainment venues and Sporting events are prohibited",0,1589195980
+4,"Entertainment & Sports Events","Entertainment venues and Sporting events are prohibited",0,1589195980
+5,"Entertainment & Sports Events","Entertainment venues and Sporting events are prohibited",0,1589195980
+1,"Cultural & Religious","Religious, cultural and social gatherings are prohibited",0,1589195980
+2,"Cultural & Religious","Religious, cultural and social gatherings are prohibited",0,1589195980
+3,"Cultural & Religious","Religious, cultural and social gatherings are prohibited",0,1589195980
+4,"Cultural & Religious","Religious, cultural and social gatherings are prohibited",0,1589195980
+5,"Cultural & Religious","Religious, cultural and social gatherings are prohibited",0,1589195980
+1,"Postal Services","All postal and courier services are allowed",1,1589195980
+2,"Postal Services","General postal and courier services are forbidden",0,1589195980
+2,"Postal Services","Postal and courier of medical and selected E-Commerce products",1,1589195980
+3,"Postal Services","General postal and courier services are forbidden",0,1589195980
+3,"Postal Services","Postal and courier of medical and selected E-Commerce products",1,1589195980
+4,"Postal Services","Postal and courier services not permitted unless related to transport of medical products",0,1589195980
+5,"Postal Services","Postal and courier services not permitted unless related to transport of medical products",0,1589195980
+1,Beach,Unknown,0,1589195980
+2,Beach,Unknown,0,1589195980
+3,Beach,Unknown,0,1589195980
+4,Beach,"Beach (including sunbathing, surfing, paddling, sailing, windsurfing, kiteboarding, fishing and diving activities are not allowed",0,1589195980
+5,Beach,"Beach (including sunbathing, surfing, paddling, sailing, windsurfing, kiteboarding, fishing and diving activities are not allowed",0,1589195980
+1,"Visiting Others","Restrictions apply to visiting others. Awaiting guidelines from government.",0,1589195980
+1,"Visiting Others","Stay at home, other than essential travel for work and to purchase essential goods",1,1589195980
+2,"Visiting Others","Restrictions apply to visiting others. Awaiting guidelines from government.",0,1589195980
+2,"Visiting Others","Stay at home, other than essential travel for work and to purchase essential goods",1,1589195980
+3,"Visiting Others","No recreational travel to meet friends or family",0,1589195980
+3,"Visiting Others","Stay at home, other than essential travel for work and to purchase essential goods",1,1589195980
+3,"Visiting Others","Movement of children between parents/caregivers (including interprovincial) is permitted (court order required)",1,1589195980
+4,"Visiting Others","No recreational travel to meet friends or family",0,1589195980
+4,"Visiting Others","Stay at home, other than essential travel for work and to purchase essential goods",1,1589195980
+1,"Social Activity","Restrictions apply to selected social activities. Awaiting full guidelines",0,1589195980
+1,"Social Activity","Recreational, cultural and sporting activities and facilities, re-opening subject to directions",1,1589195980
+1,"Social Activity","No limitation on personal movement but persons are encouraged to limit movement to essential travel",1,1589195980
+2,"Social Activity","All public gatherings are prohibited",0,1589195980
+2,"Social Activity","No recreational travel to meet friends or family",0,1589195980
+2,"Social Activity","Religious, cultural and social gatherings not allowed",0,1589195980
+2,"Social Activity","Weddings are not allowed",0,1589195980
+2,"Social Activity","Entertainment venues, including cinemas, theatres and concerts remain closed",0,1589195980
+2,"Social Activity","Sporting events will not be allowed",0,1589195980
+3,"Social Activity","All public gatherings are prohibited",0,1589195980
+3,"Social Activity","No recreational travel to meet friends or family",0,1589195980
+3,"Social Activity","Religious, cultural and social gatherings not allowed",0,1589195980
+3,"Social Activity","Weddings are not allowed",0,1589195980
+3,"Social Activity","Entertainment venues, including cinemas, theatres and concerts remain closed",0,1589195980
+3,"Social Activity","Sporting events will not be allowed",0,1589195980
+4,"Social Activity","All public gatherings are prohibited",0,1589195980
+4,"Social Activity","No recreational travel to meet friends or family",0,1589195980
+4,"Social Activity","Religious, cultural and social gatherings not allowed",0,1589195980
+4,"Social Activity","Weddings are not allowed",0,1589195980
+4,"Social Activity","Entertainment venues, including cinemas, theatres and concerts remain closed",0,1589195980
+4,"Social Activity","Sporting events will not be allowed",0,1589195980
+5,"Social Activity","All public gatherings are prohibited",0,1589195980
+5,"Social Activity","No recreational travel to meet friends or family",0,1589195980
+5,"Social Activity","Religious, cultural and social gatherings not allowed",0,1589195980
+5,"Social Activity","Weddings are not allowed",0,1589195980
+5,"Social Activity","Entertainment venues, including cinemas, theatres and concerts remain closed",0,1589195980
+5,"Social Activity","Sporting events will not be allowed",0,1589195980
