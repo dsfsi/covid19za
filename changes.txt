@@ -105,7 +105,12 @@ Used Alan Blyth Hospital  for Ladismith (Alan Blyth) Hospital
 MAIN  observation:
 DFNB had very little, if any TB hospitals
 
-
+In row 275 used sub-district name Polokwane Local Municipality and put Capricorn District Municipality in the right district column then recorded population. 
+Used full name City of Matlosana Local Municipality in row 363.
+In Row 384  used City of Cape Town Metropolitan Municipality as the district and changed Tygerberg Sub district to Tygerberg Health Sub district, the population estimate was then populated
+Changed Dr K Kaunda District Municipality to Dr Kenneth Kaunda District Municipality
+Changed Ngaka Modiri Molemada District Municipality to Ngaka Modiri Molema District Municipality row 767    
+Populated Garden Route District Municipality population estimates column cells with Eden District Municipality population estimates.
 
 
 
