@@ -44,11 +44,11 @@ Mediclinic Morningside Hospital,28.05595,-26.0956,Private Hospital,Gauteng,City 
 Midrand Med Centre,28.129635,-25.9958,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg E Health Sub-District,6975929,,,,,,,,,,,,,,,ZA-GP
 Netcare Linksfield Park Hospital,28.0954,-26.1594,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg E Health Sub-District,6975929,,,,283,,107,,,,10,,,,,ZA-GP
 Prime Cure Bagleyston Day Clinic,28.0866,-26.1513,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg E Health Sub-District,6975929,,,,,,,,,,,,,,,ZA-GP
-Cure Day clinic Midstream,28.190971,-25.922757,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg A Health sub-District,6975929,,,,20,,20,,,,2,,,,,
+Cure Day clinic Midstream,28.190971,-25.922757,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg A Health sub-District,6975929,,,,20,,20,,,,2,,,,,ZA-GP
 Argyle Hospital,28.0434,-26.1929,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg F Health Sub-District,6975929,,,,,,,,,,,,,,,ZA-GP
-Life Sandton Surgical Centre,28.063306,-26.078861,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg A Health sub-District,6975929,,,,20,,20,,,,3,,,,,
+Life Sandton Surgical Centre,28.063306,-26.078861,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg A Health sub-District,6975929,,,,20,,20,,,,3,,,,,ZA-GP
 Clinix Solomon Stix Morewa Mem Hospital (Selby Park),28.04278,-26.2208,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg F Health Sub-District,6975929,,"Physical rehabilitation, Physiotherapy, Occupational Therapy, Psychology,  Speech Therapy, Dietary,Psychiatry and Occupational Services , Social Support and Medical support",,642,,55,,,,5,,,,https://www.clinix.co.za/solomon-stix-morewa-memorial,ZA-GP
-Clinix GM Pitje Day Hospital,28.035152,-26.124564,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg F Health Sub-District,6975929,,,,37,,,,,,,,,,https://www.clinix.co.za/gm-pitje-day-hospital,
+Clinix GM Pitje Day Hospital,28.035152,-26.124564,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg F Health Sub-District,6975929,,,,37,,,,,,,,,,https://www.clinix.co.za/gm-pitje-day-hospital,ZA-GP
 Fordsburg Hospital,28.02157,-26.2099,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg F Health Sub-District,6975929,,,,30,,30,,,,4,,,,,ZA-GP
 Life Brenthurst Hospital,28.0466,-26.1842,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg F Health Sub-District,6975929,,,,233,,60,,,,8,,,,,ZA-GP
 Netcare Garden City Hospital,28.006889,-26.1973,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg F Health Sub-District,6975929,,,,363,,104,,,,12,,,,,ZA-GP
@@ -61,7 +61,7 @@ NHN Lenmed Daxina Hospital,27.841045,-26.3818,Private Hospital,Gauteng,City of J
 Mediclinic Legae Hospital,28.03835,-25.5251,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 1 Health Sub-District,4696626,,,,147,,38,,,,4,,,,,ZA-GP
 Netcare Akasia Hospital,28.10867,-25.6742,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 1 HealthSub-District,4696626,,,,162,,52,,,,5,,,,,ZA-GP
 Wisani Med Centre Hospital,27.97686,-25.6115,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 1 Health Sub-District,4696626,,,,12,,0,,,,0,,,,,ZA-GP
-Life Little Company of Mary Hospital,28.216357,-25.77161,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 3 Health Sub-District,4696626,,,,214,,85,,,,8,,,,,
+Life Little Company of Mary Hospital,28.216357,-25.77161,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 3 Health Sub-District,4696626,,,,214,,85,,,,8,,,,,ZA-GP
 Netcare Montana Hospital,28.24418,-25.6752,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 2 Health Sub-District,4696626,,,,170,,60,,,,6,,,,,ZA-GP
 Astrid Hospital,28.209688,-25.7475,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 3 Health Sub-District,4696626,,,,,,,,,,,,,,,ZA-GP
 Curamed Hospital,28.203429,-25.7551,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 3 Health Sub-District,4696626,,,,,,,,,,,,,,,ZA-GP
@@ -82,7 +82,7 @@ University of Pta Med Centre,28.200165,-25.7303,Private Hospital,Gauteng,City of
 Zuid Afrikaans Hospital,28.20571,-25.762,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 3 Health Sub-District,4696626,,,,139,,92,,,,9,,,,,ZA-GP
 Erasmia Med Centre,28.09319,-25.8114,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 4 Health Sub-District,4696626,,,,,,,,,,,,,,,ZA-GP
 Netcare Unitas Hospital,28.1959,-25.8323,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 4 Health Sub-District,4696626,,,,469,,168,,,,16,,,,,ZA-GP
-Leslie Williams Memorial Hospital,27.422992,-26.401881,Private Hospital,Gauteng,West Rand District Municipality,Merafong City Local Municipality,1190154,,,,109,,52,,,,3,,,,https://www.africahealthcare.co.za/hospitals/fountain-private-hospital/,
+Leslie Williams Memorial Hospital,27.422992,-26.401881,Private Hospital,Gauteng,West Rand District Municipality,Merafong City Local Municipality,1190154,,,,109,,52,,,,3,,,,https://www.africahealthcare.co.za/hospitals/fountain-private-hospital/,ZA-GP
 NHN Icare Irene Med Centre,28.205361,-25.8851,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 4 Health Sub-District,4696626,,,,,,,,,,,,,,,ZA-GP
 NHN Vista Hospital,28.19321,-25.8439,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 4 Health Sub-District,4696626,,,,,,,,,,,,,,,ZA-GP
 Clinix Cullinan Private Hospital,28.515781,-25.6659,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 5 Health Sub-District,4696626,,,,,,,,,,,,,,,ZA-GP
@@ -99,28 +99,28 @@ Life Dalview Hospital,28.354391,-26.2451,Private Hospital,Gauteng,Ekurhuleni Met
 Life Springs Parkland Hospital,28.43466,-26.2657,Private Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni E2 Health Sub-District,4758690,,,,205,,81,,,,5,,,,,ZA-GP
 Life St Mary's Women Private Hospital,28.43471,-26.2587,Private Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni E2 Health Sub-District,4758690,,,,37,,6,,,,2,,,,,ZA-GP
 Netcare East Rand N17 Private Hospital,28.42802,-26.2713,Private Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni E2 Health Sub-District,4758690,,,,171,,70,,,,5,,,,,ZA-GP
-Netcare Pretoria East Hospital,28.304539,-25.821124,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 6 Health sub-District,,,,,358,,92,,,,14,,,,,
+Netcare Pretoria East Hospital,28.304539,-25.821124,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 6 Health sub-District,,,,,358,,92,,,,14,,,,,ZA-GP
 Kloof Med Centre,28.13315,-26.1847,Private Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni N1 Health Sub-District,4758690,,,,,,,,,,,,,,,ZA-GP
 NHN Arwyp Med Centre Hospital,28.22923,-26.1065,Private Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni N1 Health Sub-District,4758690,,,,343,,131,,,,11,,,,,ZA-GP
 NHN Lenmed Zamokuhle Private Hospital,28.238093,-25.9829,Private Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni N1 Health Sub-District,4758690,,,,36,,8,,,,2,,,,,ZA-GP
 Dinwiddie Med Centre,28.330783,-26.1454,Private Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni N2 Health Sub-District,4758690,,,,,,,,,,,,,,,ZA-GP
-Daxina Medical Clinic,27.841722,-26.385232,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg G Health sub-District,,,,,64,,20,,,,2,,,,,
-Daxina Private Hospital,27.841468,-26.384641,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg G Health sub-District,,,,,,,,,,,,,,,,
-Lenmed Daxina Hospital,27.841879,-26.385285,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg G Health sub-District,,,,,,,,,,,,,,,,
+Daxina Medical Clinic,27.841722,-26.385232,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg G Health sub-District,,,,,64,,20,,,,2,,,,,ZA-GP
+Daxina Private Hospital,27.841468,-26.384641,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg G Health sub-District,,,,,,,,,,,,,,,,ZA-GP
+Lenmed Daxina Hospital,27.841879,-26.385285,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg G Health sub-District,,,,,,,,,,,,,,,,ZA-GP
 Life Bedford Gardens Hospital,28.12093,-26.1898,Private Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni N2 Health Sub-District,4758690,,,,140,,31,,,,6,,,,,ZA-GP
 Life Glynnview Hospital,28.307291,-26.1928,Private Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni N2 Health Sub-District,4758690,,,,,,,,,,,,,,,ZA-GP
 Life The Glynwood Hospital,28.308109,-26.1954,Private Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni N2 Health Sub-District,4758690,,,,292,,112,,,,10,,,,,ZA-GP
 Netcare Linmed Hospital,28.330783,-26.1454,Private Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni N2 Health Sub-District,4758690,,,,172,,51,,,,6,,,,,ZA-GP
 Netcare Sunward Park Hospital,28.256035,-26.2605,Private Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni N2 Health Sub-District,4758690,,,,214,,87,,,,7,,,,,ZA-GP
-Birchmed Surgical Centre,28.219187,-26.068037,Private Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni North 1 Health sub-District,,,,,21,,21,,,,3,,,,,
+Birchmed Surgical Centre,28.219187,-26.068037,Private Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni North 1 Health sub-District,,,,,21,,21,,,,3,,,,,ZA-GP
 NHN Sunshine Hospital,28.302914,-26.2115,Private Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni N2 Health Sub-District,4758690,,,,200,,5,,,,5,,,,,ZA-GP
-Actonville/Sunshine Hospital,28.300822,-26.213169,Private Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni North 2 Health sub-District,,,,,200,,61,,,,5,,,,,
+Actonville/Sunshine Hospital,28.300822,-26.213169,Private Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni North 2 Health sub-District,,,,,200,,61,,,,5,,,,,ZA-GP
 Clinix Botshelong-Empilweni Private Hospital,28.216395,-26.3455,Private Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni S1 Health Sub-District,4758690,,,,104,,40,,,,3,,,,,ZA-GP
 Life Roseacres Hospital,28.169563,-26.1789,Private Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni S1 Health Sub-District,4758690,,,,124,,31,,,,4,,,,,ZA-GP
 Netcare Clinton Hospital,28.12019,-26.2732,Private Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni S1 Health Sub-District,4758690,,,,165,,99,,,,5,,,,,ZA-GP
 Netcare Union Hospital,28.119647,-26.2698,Private Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni S1 Health Sub-District,4758690,,,,222,,138,,,,7,,,,,ZA-GP
 Clinix Naledi-Nkanyezi Private Hospital,27.842933,-26.5814,Private Hospital,Gauteng,Sedibeng District Municipality,Emfuleni Local Municipality,1334614,,,,160,,50,,,,3,,,,,ZA-GP
-Clinix Private Hospital Soweto,27.935824,-26.258371,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg D Health sub-District,,,,,146,,28,,,,3,,,,,
+Clinix Private Hospital Soweto,27.935824,-26.258371,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg D Health sub-District,,,,,146,,28,,,,3,,,,,ZA-GP
 Cormed Hospital,27.832318,-26.7022,Private Hospital,Gauteng,Sedibeng District Municipality,Emfuleni Local Municipality,1334614,,,,32,,8,,,,2,,,,,ZA-GP
 Hlulani Med Centre,27.846783,-26.590498,Private Hospital,Gauteng,Sedibeng District Municipality,Emfuleni Local Municipality,1334614,,,,,,,,,,,,,,,ZA-GP
 NHN Lakeview Med Centre,28.312829,-26.1844,Private Hospital,Gauteng,Sedibeng District Municipality,Emfuleni Local Municipality,1334614,,,,71,,34,,,,7,,,,,ZA-GP
@@ -136,7 +136,7 @@ Netcare KrugerSub-Districtorp Hospital,27.77518,-26.1047,Private Hospital,Gauten
 Life Robinson Hospital,27.70915,-26.1606,Private Hospital,Gauteng,West Rand District Municipality,Rand West City Local Municipality,1190154,,,,109,,40,,,,4,,,,,ZA-GP
 NHN Lenmed Randfontein Private Hospital,27.718959,-26.1679,Private Hospital,Gauteng,West Rand District Municipality,Rand West City Local Municipality,1190154,,,,,,,,,,,,,,,ZA-GP
 Sir Albert Med Centre,27.71868,-26.1675,Private Hospital,Gauteng,West Rand District Municipality,Rand West City Local Municipality,1190154,,,,174,,65,,,,5,,,,,ZA-GP
-Anglogold Western Deep Levels Hospital,27.400661,-26.427425,Mining Hospital,North West,Dr Kenneth Kaunda District Municipality,JB Marks Local Municipality,,,,,294,,93,,,,4,,,,,
+Anglogold Western Deep Levels Hospital,27.400661,-26.427425,Mining Hospital,North West,Dr Kenneth Kaunda District Municipality,JB Marks Local Municipality,,,,,294,,93,,,,4,,,,,ZA-NW
 Bheki Mlangeni Dist Hospital,27.856929,-26.2478,District Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg D Health Sub-District,6975929,,,,300,,,,,,,,,CHBAC,,ZA-GP
 South Rand Hospital,28.06211,-26.2529,District Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg F Health Sub-District,6975929,,"Audiological services
 Dentistry services
@@ -150,7 +150,7 @@ Pretoria West Hospital,28.13962,-25.7365,District Hospital,Gauteng,City of Tshwa
 Radiology Department",,153,,30,30,,14,2,,,,,ZA-GP
 Tshwane District Hospital,28.202561,-25.7327,District Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 3 Health Sub-District,4696626,,,,197,,40,60,,5,4,,,,,ZA-GP
 Bronkhorstspruit Hospital,28.716892,-25.8033,District Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 7 Health Sub-District,4696626,,,,,,,,,,,,,,,ZA-GP
-Natalspruit Hospital,28.224311,-26.356928,District Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni South 1 Health sub-District,,,,,800,,0,0,,0,8,,,,,
+Natalspruit Hospital,28.224311,-26.356928,District Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni South 1 Health sub-District,,,,,800,,0,0,,0,8,,,,,ZA-GP
 Bertha Gxowa Hospital,28.16305,-26.2197,District Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni S1 Health Sub-District,4758690,,,,,,,,,,,300,,CMJAH,,ZA-GP
 Kopanong Hospital,27.93328,-26.614048,District Hospital,Gauteng,Sedibeng District Municipality,Emfuleni Local Municipality,1334614,,,,248,,24,24,,8,2,248,,CHBAC,,ZA-GP
 Heidelberg Hospital,28.35131,-26.5036,District Hospital,Gauteng,Sedibeng District Municipality,Lesedi Local Municipality,1334614,,,,126,,23,23,,12,2,,,,,ZA-GP
@@ -162,7 +162,7 @@ Dr George Mukhari Hospital,28.01216,-25.619,Tertiary  Hospital,Gauteng,City of T
 Steve Biko Academic Hospital,28.202561,-25.7295,Tertiary  Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 3 Health Sub-District,4696626,YES,,,780,,81,87,,27,18,,,SBAH,,ZA-GP
 C Hurwitz TB Hospital,27.94666,-26.2611,Specialised  Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg D Health Sub-District,6975929,,,,,,,,,,,,,,,ZA-GP
 Tshepong TB Hospital,28.09372,-25.7638,Specialised  Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 3 Health Sub-District,4696626,YES,,,,,,,,,,,,,,ZA-GP
-Kriel medical clinic,29.262925,-26.246156,Private Hospital,Mpumalanga,Nkangala District Municipality,Emalahleni Local Municipality,,,,,6,,6,,,,1,,,,,
+Kriel medical clinic,29.262925,-26.246156,Private Hospital,Mpumalanga,Nkangala District Municipality,Emalahleni Local Municipality,,,,,6,,6,,,,1,,,,,ZA-MP
 East Rand TB Hospital,28.41141,-26.188,Specialised  Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni N2 Health Sub-District,4758690,,,,,,,,,,,,,,,ZA-GP
 Knights Chest Hospital,28.19389,-26.1933,Specialised  Hospital,Gauteng,Ekurhuleni Metropolitan Municipality,Ekurhuleni S1 Health Sub-District,4758690,,,,,,,,,,,,,,,ZA-GP
 Sizwe Tropical Hospital,28.124964,-26.1374,Specialised  Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg E Health  Sub-District,6975929,,,,286,,,,,,,266,,CMJAH,,ZA-GP
@@ -370,7 +370,7 @@ Busamed BFIA Hospital,26.298027,-29.107567,District Hospital,Free State,Mangaung
 Koster Hospital,26.894543,-25.8563,District Hospital,North West,Bojanala Platinum District Municipality,Kgetlengrivier Local Municipality,2365607,,,,35,,0,0,,2,1,,,,,ZA-NW
 Brits Hospital,27.78452,-25.6314,District Hospital,North West,Bojanala Platinum District Municipality,Madibeng Local Municipality,2365607,,,,100,,20,20,,8,1,,,,,ZA-NW
 Moses Kotane Hospital,27.058001,-25.3809,District Hospital,North West,Bojanala Platinum District Municipality,Moses Kotane Local Municipality,2365607,,,,196,,44,44,,10,2,,,,,ZA-NW
-Mantsopa Hospital,,,District Hospital,Free State,Thabo Mofutsanyana District Municipality,Mantsopa Local Municipality,,,,,100,,20,25,,2,1,,,,,
+Mantsopa Hospital,,,District Hospital,Free State,Thabo Mofutsanyana District Municipality,Mantsopa Local Municipality,,,,,100,,20,25,,2,1,,,,,ZA-FS
 Nic Bodenstein Hospital,25.982959,-27.1893,District Hospital,North West,Dr Kenneth Kaunda District Municipality,Maquassi Hills Local Municipality,1061305,,,,88,,20,20,,6,1,,,,,ZA-NW
 Taung Hospital,24.79175,-27.5377,District Hospital,North West,Dr Ruth Segomotsi Mompati District Municipality,Greater Taung Local Municipality,704851,,,,290,,50,50,,6,2,,,,,ZA-NW
 Klerksdorp Hospital,26.663295,-26.878627,Tertiary  Hospital,North West,Dr Kenneth Kaunda District Municipality,City of Matlosana Local Municipality,1061305,,,,1015,,,,,,,,,,,ZA-NW
@@ -594,7 +594,7 @@ NHN Icare Mall@55 Med Dental Centre,28.105073,-25.8853,Private Hospital,Gauteng,
 HEALth-WorX Montana Med Centre,28.241145,-25.6775,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 6 Health sub-District,4696626,,,,,,,,,,,,,,,ZA-GP
 NHN Intercare Glenfair Med Centre,28.280361,-25.7655,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 6 Health sub-District,4696626,,,,,,,,,,,,,,,ZA-GP
 NHN Icare Hazeldean Day Hospital,28.360911,-25.7824,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 6 Health sub-District,4696626,,,,,,,,,,,,,,,ZA-GP
-Phelang Private Hospital,28.378808,-25.713919,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 6 Health sub-District,4696626,,,,,,,,,,,,,,,
+Phelang Private Hospital,28.378808,-25.713919,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 6 Health sub-District,4696626,,,,,,,,,,,,,,,ZA-GP
 NHN Icare Hazeldean Sub-Acute Hospital,28.360911,-25.7824,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 6 Health sub-District,4696626,,,,,,,,,,,,,,,ZA-GP
 NHN Icare Silver Lake Med Centre,28.353222,-25.7848,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 6 Health sub-District,4696626,,,,,,,,,,,,,,,ZA-GP
 NHN Icare Woodhill Med Centre,28.304361,-25.8193,Private Hospital,Gauteng,City of Tshwane Metropolitan Municipality,Tshwane 6 Health sub-District,4696626,,,,,,,,,,,,,,,ZA-GP
@@ -625,7 +625,7 @@ Akeso Umhlanga Hospital,31.068422,-29.7129,Private Hospital,KwaZuluNatal,eThekwi
 Alliance Care Umhlanga Hospital,31.021882,-29.7547,Private Hospital,KwaZuluNatal,eThekwini Metropolitan Municipality,eThekwini Metropolitan Municipality Sub,5225930,,,,,,,,,,,,,,,ZA-KZN
 Bluff Centre Hospital,31.020005,-29.9086,Private Hospital,KwaZuluNatal,eThekwini Metropolitan Municipality,eThekwini Metropolitan Municipality Sub,5225930,,,,,,,,,,,,,,,ZA-KZN
 Broadwalk Med Centre,31.018172,-29.8602,Private Hospital,KwaZuluNatal,eThekwini Metropolitan Municipality,eThekwini Metropolitan Municipality Sub,5225930,,,,,,,,,,,,,,,ZA-KZN
-Broad Road Surgical clinic,18.47455,-34.00422,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Southern Health sub-District,,,,,27,,27,,,,4,,,,,
+Broad Road Surgical clinic,18.47455,-34.00422,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Southern Health sub-District,,,,,27,,27,,,,4,,,,,ZA-WC
 Busamed Gateway Hospital,31.072501,-29.7226,Private Hospital,KwaZuluNatal,eThekwini Metropolitan Municipality,eThekwini Metropolitan Municipality Sub,5225930,,,,,,,,,,,,,,,ZA-KZN
 Busamed Hillcrest Private Hospital,30.74085,-29.7899,Private Hospital,KwaZuluNatal,eThekwini Metropolitan Municipality,eThekwini Metropolitan Municipality Sub,5225930,,,,,,,,,,,,,,,ZA-KZN
 Capital Oncology and General Hospital,30.98583,-29.8517,Private Hospital,KwaZuluNatal,eThekwini Metropolitan Municipality,eThekwini Metropolitan Municipality Sub,5225930,,,,,,,,,,,,,,,ZA-KZN
@@ -746,9 +746,9 @@ West End Spec TB Hospital,24.77374,-28.8067,Specialised  Hospital,Northern Cape,
 NHN Lenmed Kathu Hospital,23.054137,-27.6945,Private Hospital,Northern Cape,John Taolo Gaetsewe District Municipality,Gamagara Local Municipality,347808,,,,25,,8,,,,1,,,,,ZA-NC
 Tshwaragano Hospital,23.34494,-27.3067,District Hospital,Northern Cape,John Taolo Gaetsewe District Municipality,Ga-Segonyana Local Municipality,347808,,,,214,,40,40,,5,1,,,,,ZA-NC
 Aggeneys (Black Mountain) Private Hospital,18.842602,-29.2413,Private Hospital,Northern Cape,Namakwa District Municipality,Khâi-Ma Local Municipality,151300,,,,,,,,,,,,,,,ZA-NC
-Kleinzee Private Hospital,17.065201,-29.67675,Private Hospital,Northern Cape,Namakwa District Municipality,Nama Khoi Local Municipality,,,,,34,,10,,,,1,,,,,
+Kleinzee Private Hospital,17.065201,-29.67675,Private Hospital,Northern Cape,Namakwa District Municipality,Nama Khoi Local Municipality,,,,,34,,10,,,,1,,,,,ZA-NC
 Prieska Hospital,22.73732,-29.6681,District Hospital,Northern Cape,Pixley ka Seme District Municipality,Siyathemba Local Municipality,287405,,,,30,,2,2,,2,1,,,,,ZA-NC
-OraniaMed 24,24.409733,-29.812101,Private Hospital,Northern Cape,Pixley ka Seme District Municipality,Thembelihle Local Municipality,,,,,,,,,,,,,,,,
+OraniaMed 24,24.409733,-29.812101,Private Hospital,Northern Cape,Pixley ka Seme District Municipality,Thembelihle Local Municipality,,,,,,,,,,,,,,,,ZA-NC
 Manne Dipico Hospital,25.08956,-30.73,District Hospital,Northern Cape,Pixley ka Seme District Municipality,Umsobomvu Local Municipality,287405,,,,32,,0,0,,0,0,,,,,ZA-NC
 Harry Surtie Hospital,21.26603,-28.446,Regional Hospital,Northern Cape,Zwelentlanga Fatman Mgcawu District Municipality,Dawid Kruiper Local Municipality,352137,,,,186,,45,46,,3,2,,,,,ZA-NC
 Mediclinic Upington Hospital,21.266934,-28.4399,Private Hospital,Northern Cape,Zwelentlanga Fatman Mgcawu District Municipality,Dawid Kruiper Local Municipality,352137,,,,50,,17,,,,2,,,,,ZA-NC
@@ -765,7 +765,7 @@ Life La Femme Clinic Hospital,27.238413,-25.6721,Private Hospital,North West,Boj
 Life Peglerae Hospital,27.242302,-25.6737,Private Hospital,North West,Bojanala Platinum District Municipality,Rustenburg Local Municipality,2365607,,,,159,,103,,,,6,,,,,ZA-NW
 Netcare Ferncrest Hospital,27.214149,-25.6478,Private Hospital,North West,Bojanala Platinum District Municipality,Rustenburg Local Municipality,2365607,,,,163,,60,,,,5,,,,,ZA-NW
 NHN Medi-Care Rustenburg Hospital,27.226595,-25.6852,Private Hospital,North West,Bojanala Platinum District Municipality,Rustenburg Local Municipality,2365607,,,,,,,,,,,,,,,ZA-NW
-Rustenburg Platinum Mine Hospital ,27.242922,-25.671632,Military Hospital,North West,Bojanala Platinum District Municipality,Rustenburg Local Municipality,,,,,,,,,,,,,,,,
+Rustenburg Platinum Mine Hospital ,27.242922,-25.671632,Military Hospital,North West,Bojanala Platinum District Municipality,Rustenburg Local Municipality,,,,,,,,,,,,,,,,ZA-NW
 Duff Scott Memorial Hospital,26.80489,-26.8622,Private Hospital,North West,Dr Kenneth Kaunda District Municipality,City of Matlosana Local Municipality,1061305,,,,,,,,,,,,,,,ZA-NW
 Klerksdorp-Tshepong Hospital,26.662715,-26.8789,Tertiary  Hospital,North West,Dr Kenneth Kaunda District Municipality,City of Matlosana Local Municipality,1061305,,,,803,,169,169,,2,13,,,,,ZA-NW
 Life Anncron Clinic Hospital,26.668083,-26.8411,Private Hospital,North West,Dr Kenneth Kaunda District Municipality,City of Matlosana Local Municipality,1061305,,,,150,,56,,,,6,,,,,ZA-NW
@@ -838,7 +838,7 @@ Conradie Hospital,18.5212,-33.9237,Specialised  Hospital,Western Cape,City of Ca
 Groote Schuur Hospital,18.465164,-33.9408,Central Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Western Health sub-District,5484412,,,,945,,97,97,,57,26,,,,,ZA-WC
 Groote Schuur Level 2 Hospital,18.465164,-33.9408,District Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Western Health sub-District,5484412,,,,,,,,,,,,,,,ZA-WC
 Life Orthopaedic Hospital,18.489836,-33.9442,Specialised  Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Western Health sub-District,5484412,,,,,,,,,,,,,,,ZA-WC
-Groote Schuur Hospital (Private Ward G4),18.465164,-33.940849,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Western Health sub-District,5484412,,,,,,,,,,,,,,,
+Groote Schuur Hospital (Private Ward G4),18.465164,-33.940849,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Western Health sub-District,5484412,,,,,,,,,,,,,,,ZA-WC
 Life Vincent Pallotti Hospital,18.490442,-33.9432,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Western Health sub-District,5484412,,,,273,,64,,,,12,,,,,ZA-WC
 Mediclinic Cape Town Hospital,18.410452,-33.9357,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Western Health sub-District,5484412,,,,125,,37,,,,5,,,,,ZA-WC
 Mediclinic Milnerton Hospital,18.506922,-33.8654,Private Hospital,Western Cape,City of Cape Town Metropolitan Municipality,Cape Town Western Health sub-District,5484412,,,,139,,60,,,,5,,,,,ZA-WC
@@ -890,7 +890,7 @@ Mediclinic Klein Karoo Hospital,22.185728,-33.5859,Private Hospital,Western Cape
 NHN Kango Clinic,22.201612,-33.591,Private Hospital,Western Cape,Garden Route District Municipality,Oudtshoorn Local Municipality,842110,,,,,,,,,,,,,,,ZA-WC
 Oudtshoorn Hospital,22.18889,-33.5888,District Hospital,Western Cape,Garden Route District Municipality,Oudtshoorn Local Municipality,842110,,,,123,,20,20,,14,3,,,,,ZA-WC
 Otto Du Plessis Hospital,20.035636,-34.5372,District Hospital,Western Cape,Overberg District Municipality,Cape Agulhas Local Municipality,391545,,,,30,,6,6,,2,1,,,,,ZA-WC
-Otto Du Plessis Hospital (Private Ward),21.035636,-33.5372,Private Hospital,Western Cape,Overberg District Municipality,Cape Agulhas Local Municipality,391545,,,,,,,,,,,,,,,
+Otto Du Plessis Hospital (Private Ward),21.035636,-33.5372,Private Hospital,Western Cape,Overberg District Municipality,Cape Agulhas Local Municipality,391545,,,,,,,,,,,,,,,ZA-WC
 Hermanus Hospital,19.22833,-34.4226,District Hospital,Western Cape,Overberg District Municipality,Overstrand Local Municipality,391545,,,,71,,0,0,,12,2,,,,,ZA-WC
 Mediclinic Hermanus Hospital,19.226345,-34.4229,Private Hospital,Western Cape,Overberg District Municipality,Overstrand Local Municipality,391545,,,,80,,37,,,,3,,,,,ZA-WC
 Swellendam Hospital,20.4488,-34.0234,District Hospital,Western Cape,Overberg District Municipality,Swellendam Local Municipality,391545,,,,51,,13,13,,5,1,,,,,ZA-WC
@@ -902,9 +902,10 @@ Clanwilliam Hospital,18.89083,-32.1836,District Hospital,Western Cape,West Coast
 Vredendal Hospital,18.50472,-31.6694,District Hospital,Western Cape,West Coast District Municipality,Matzikama Local Municipality,624824,,,,75,,10,10,,2,1,,,,,ZA-WC
 Life West Coast Private Hospital,17.990553,-32.9118,Private Hospital,Western Cape,West Coast District Municipality,Saldanha Bay Local Municipality,624824,,,,60,,12,,,,2,,,,,ZA-WC
 Vredenburg Hospital,17.99083,-32.9136,District Hospital,Western Cape,West Coast District Municipality,Saldanha Bay Local Municipality,624824,,,,81,,8,8,,3,1,,,,,ZA-WC
-Germiston Hospital,28.16422,-26.21972,District Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg F Health sub-District,6975929,,,,230,,12,34,,0,4,,,,,
+Germiston Hospital,28.16422,-26.21972,District Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg F Health sub-District,6975929,,,,230,,12,34,,0,4,,,,,ZA-GP
 Die Wieg Hospital,18.664464,-33.150138,Specialised  Hospital,Western Cape,West Coast District Municipality,Swartland Local Municipality,624824,,,,,,,,,,,,,,,ZA-WC
 Malmesbury Inf Hospital,18.7175,-33.4672,Specialised  Hospital,Western Cape,West Coast District Municipality,Swartland Local Municipality,624824,,,,,,,,,,,,,,,ZA-WC
 Sonstraal TB Hospital,18.98694,-33.7119,Specialised  Hospital,Western Cape,West Coast District Municipality,Swartland Local Municipality,624824,,,,90,,,,,,,,,,https://www.westerncape.gov.za/facility/sonstraal-hospital,ZA-WC
 Citymed Day Hospital,26.212372,-29.0868,Private Hospital,Free State,Mangaung Metropolitan Municipality,Bloemfontein Health sub-District,1061684,,,,20,,20,,,,2,,,,https://citymed.co.za/,ZA-FS
 Swartland Hospital,18.723322,-33.456,District Hospital,Western Cape,West Coast District Municipality,Swartland Local Municipality,624824,,,,88,,20,20,,5,2,,,,,ZA-WC
+Lenasia South District Hospital,,,District Hospital,Gauteng,,,,,,,,,,,,,,,,,,ZA-GP
