@@ -1,2 +1,2 @@
-date, YYYYMMDD, total_admissions, total_healthcare_workers_admitted, num_currently_in_hospital, num_discharged_alive, hospital_deaths, num_transferred, source
-17-06-2020, 20200617, 8902, 249, 2661, 1265, 4878, 98, https://www.nicd.ac.za/wp-content/uploads/2020/06/NICD-COVID-19-Daily-Sentinel-Hospital-Surveillance-report-National-20200617.pdf
+date, YYYYMMDD, total_admissions, total_healthcare_workers_admitted, num_currently_in_hospital, num_discharged_alive, hospital_deaths, source
+17-06-2020, 20200617, 8902, 249, 2661, 1265, 4878, https://www.nicd.ac.za/wp-content/uploads/2020/06/NICD-COVID-19-Daily-Sentinel-Hospital-Surveillance-report-National-20200617.pdf
