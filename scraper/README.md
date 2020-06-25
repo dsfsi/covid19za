@@ -1,6 +1,6 @@
 # COVID-19 South Africa Media Release Scraping Tool
 
-A simple CLI tool that allows the user to scrape `http://ww.nicd.ac.za/` for new updates related to COVID-19
+A simple CLI tool that allows the user to scrape `http://www.nicd.ac.za/` for new updates related to COVID-19
 The original intent was to scrape `gov.za` directly, however the site seems to be intermittently down.
 
 The tool is written in Golang, and as such, is compiled into a stand-alone executable binary that can be run for a command-line on any UNIX based or Windows operating system.
