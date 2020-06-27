@@ -1,3 +1,9 @@
+# This workflow was created by @heerden
+# Do not modify this action before discussing
+
+# If you have an analysis notebook or script that can export data, chat to @heerden and @vukosim
+# Every analysis has unique triggers so a new Github Action might be required
+
 on:
   #push
   push:
@@ -68,9 +74,6 @@ jobs:
         # Optional local file path to the repository
         #repository: .
         # Optional commit user and author settings
-        commit_user_name: heerden
-        commit_user_email: schalkv@heerden.com
-        commit_author: Schalk van Heerden <schalkv@heerden.com>
         # Optional tag message
         # Action will create and push a new tag to the remote repository and the defined branch
         #tagging_message: 'v1.0.0'
