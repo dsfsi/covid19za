@@ -1,0 +1,36 @@
+date, YYYYMMDD, total_admissions, current_num_in_hospital, general, high_care, ICU, isolation, total_healthcare_workers_admitted, num_discharged_alive, hospital_deaths, source
+24-05-2020, 20200524, 3046, 991, 715, 94, 151, 31, 165, 1615, 389, https://www.nicd.ac.za/wp-content/uploads/2020/05/NICD-COVID-19-Daily-Sentinel-Hospital-Surveillance-report-National-20200524.pdf
+25-05-2020, 20200525, 3216, 1086, 805, 100, 146, 35, 156, 1669, 409, https://www.nicd.ac.za/wp-content/uploads/2020/05/NICD-COVID-19-Daily-Sentinel-Hospital-Surveillance-report-National-20200525.pdf
+26-05-2020, 20200526, 3439, 1139, 848, 96, 151, 44, 164, 1800, 447, https://www.nicd.ac.za/wp-content/uploads/2020/05/NICD-COVID-19-Daily-Sentinel-Hospital-Surveillance-report-National-20200526.pdf
+27-05-2020, 20200527, 3802, 1364, 1042, 119, 162, 41, 180, 1910, 472, https://www.nicd.ac.za/wp-content/uploads/2020/05/NICD-COVID-19-Daily-Sentinel-Hospital-Surveillance-report-National-20200527.pdf
+28-05-2020, 20200528, 4145, 1581, 1218, 119, 198, 46, 187, 2011, 497, https://www.nicd.ac.za/wp-content/uploads/2020/05/NICD-COVID-19-Daily-Sentinel-Hospital-Surveillance-report-National-20200528.pdf
+29-05-2020, 20200529, 4090, 1395, 1046, 117, 188, 44, 182, 2118, 519, https://www.nicd.ac.za/wp-content/uploads/2020/05/NICD-COVID-19-Daily-Sentinel-Hospital-Surveillance-report-National-20200529.pdf
+30-05-2020, 20200530, 4361, 1458, 1098, 115, 205, 40, 187, 2285, 559, https://www.nicd.ac.za/wp-content/uploads/2020/06/NICD-COVID-19-Daily-Sentinel-Hospital-Surveillance-report-National-20200530.pdf
+31-05-2020, 20200531, 4546, 1555, 1204, 108, 203, 40, 188, 2346, 587, https://www.nicd.ac.za/wp-content/uploads/2020/06/NICD-COVID-19-Daily-Sentinel-Hospital-Surveillance-report-National-20200531.pdf
+01-06-2020, 20200601, 4718, 1607, 1255, 101, 208, 43, 189, 2441, 608, https://www.nicd.ac.za/wp-content/uploads/2020/06/NICD-COVID-19-Daily-Sentinel-Hospital-Surveillance-report-National-20200601.pdf
+02-06-2020, 20200602, 4927, 1659, 1283, 115, 217, 44, 193, 2562, 643, https://www.nicd.ac.za/wp-content/uploads/2020/06/NICD-COVID-19-Daily-Sentinel-Hospital-Surveillance-report-National-20200602.pdf
+03-06-2020, 20200603, 5078, 1638, 1258, 114, 219, 47, 195, 2713, 663, https://www.nicd.ac.za/wp-content/uploads/2020/06/NICD-COVID-19-Daily-Sentinel-Hospital-Surveillance-report-National-20200603.pdf
+04-06-2020, 20200604, 5377, 1717, 1316, 115, 242, 44, 204, 2893, 702, https://www.nicd.ac.za/wp-content/uploads/2020/06/NICD-COVID-19-Daily-Sentinel-Hospital-Surveillance-report-National-20200604.pdf
+06-06-2020, 20200606, 5945, 1916, 1456, 138, 265, 57, 210, 3175, 775, https://www.nicd.ac.za/wp-content/uploads/2020/06/NICD-COVID-19-Daily-report-National-20200606.pdf
+07-06-2020, 20200607, 6180, 1928, 1466, 133, 268, 61, 214, 3348, 825, https://www.nicd.ac.za/wp-content/uploads/2020/06/NICD-COVID-19-Daily-report-National-20200607.pdf
+08-06-2020, 20200608, 6353, 1974, 1500, 100, 300, 100, 215, 3446, 854, https://www.nicd.ac.za/wp-content/uploads/2020/06/NICD-COVID-19-Daily-Sentinel-Hospital-Surveillance-report-National-20200608.pdf
+09-06-2020, 20200609, 6682, 2054, 1540, 159, 286, 69, 219, 3628, 921, https://www.nicd.ac.za/wp-content/uploads/2020/06/NICD-COVID-19-Daily-Sentinel-Hospital-Surveillance-report-National-20200609.pdf
+10-06-2020, 2020610, 6992, 2113, 1583, 157, 301, 72, 227, 3836, 960, https://www.nicd.ac.za/wp-content/uploads/2020/06/NICD-COVID-19-Daily-Sentinel-Hospital-Surveillance-report-National-20200610.pdf
+11-06-2020, 20200611, 7291, 2140, 1601, 169, 300, 70, 230, 4052, 1016, https://www.nicd.ac.za/wp-content/uploads/2020/06/NICD-COVID-19-Daily-Sentinel-Hospital-Surveillance-report-National-20200611.pdf
+12-06-2020, 20200612, 7556, 2287, 1709, 174, 326, 78, 233, 4148, 1035, https://www.nicd.ac.za/wp-content/uploads/2020/06/NICD-COVID-19-Daily-Sentinel-Hospital-Surveillance-report-National-20200611-1.pdf
+13-06-2020, 20200613, 7837, 2263, 1684, 176, 329, 71, 237, 4396, 1088, https://www.nicd.ac.za/wp-content/uploads/2020/06/NICD-COVID-19-Daily-Sentinel-Hospital-Surveillance-report-National-20200613.pdf
+14-06-2020, 20200614, 8053, 2332, 1739, 183, 338, 72, 238, 4502, 1128, https://www.nicd.ac.za/wp-content/uploads/2020/06/NICD-COVID-19-Daily-Sentinel-Hospital-Surveillance-report-National-20200614.pdf
+15-06-2020, 20200615, 8292, 2468, 1869, 189, 340, 70, 239, 4576, 1156, https://www.nicd.ac.za/wp-content/uploads/2020/06/NICD-COVID-19-Daily-Sentinel-Hospital-Surveillance-report-National-20200615.pdf
+16-06-2020, 20200616, 8688, 2565, 1922, 216, 352, 75, 245, 4804, 1226, https://www.nicd.ac.za/wp-content/uploads/2020/06/NICD-COVID-19-Daily-report-National-20200616.pdf
+17-06-2020, 20200617, 8902, 2661, 1983, 223, 380, 75, 249, 4878, 1265, https://www.nicd.ac.za/wp-content/uploads/2020/06/NICD-COVID-19-Daily-Sentinel-Hospital-Surveillance-report-National-20200617.pdf
+18-06-2020, 20200618, 9321, 2741, 2008, 249, 398, 86, 264, 5147, 1333, https://www.nicd.ac.za/wp-content/uploads/2020/06/NICD-COVID-19-Daily-Sentinel-Hospital-Surveillance-report-National-20200618.pdf
+19-06-2020, 20200619, 9693, 2949, 2164, 263, 443, 79, 265, 5257, 1372, https://www.nicd.ac.za/wp-content/uploads/2020/06/NICD-COVID-19-Daily-Sentinel-Hospital-Surveillance-report-National-20200619.pdf
+20-06-2020, 20200620, 10020, 3005, 2163, 292, 468, 82, 272, 5479, 1420, https://www.nicd.ac.za/wp-content/uploads/2020/06/NICD-COVID-19-Daily-Sentinel-Hospital-Surveillance-report-National-20200620.pdf
+21-06-2020, 20200621, 10360, 3088, 2199, 315, 490, 84, 278, 5669, 1484, https://www.nicd.ac.za/wp-content/uploads/2020/06/NICD-COVID-19-Daily-Sentinel-Hospital-Surveillance-report-National-20200621.pdf
+22-06-2020, 20200622, 10700, 3263, 2348, 333, 499, 83, 290, 5805, 1515, https://www.nicd.ac.za/wp-content/uploads/2020/06/NICD-COVID-19-Daily-Sentinel-Hospital-Surveillance-report-National-20200622.pdf
+23-06-2020, 20200623, 11320, 3501, 2529, 341, 538, 93, 302, 6096, 1592, https://www.nicd.ac.za/wp-content/uploads/2020/06/NICD-COVID-19-Daily-Sentinel-Hospital-Surveillance-report-National-20200623.pdf
+24-06-2020, 20200624, 11850, 3622, 2619, 371, 545, 87, 314, 6397, 1678, https://www.nicd.ac.za/wp-content/uploads/2020/06/NICD-COVID-19-Daily-Sentinel-Hospital-Surveillance-report-National-20200624.pdf
+25-06-2020, 20200625, 12260, 3567, 2526, 376, 571, 94, 317, 6807, 1739, https://www.nicd.ac.za/wp-content/uploads/2020/06/NICD-COVID-19-Daily-report-National-20200625.pdf
+27-06-2020, 20200627, 13850, 4051, 2861, 412, 645, 124, 357, 7682, 1966, https://www.nicd.ac.za/wp-content/uploads/2020/06/NICD-COVID-19-Daily-Sentinel-Hospital-Surveillance-report-National-20200627.pdf
+
+
