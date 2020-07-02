@@ -1,0 +1,679 @@
+Province,District,LocalMunicipality,Name,Longitude,Latitude,ContactPerson,Address,OrgUnitType
+Eastern Cape,ec Alfred Nzo District Municipality,ec Matatiele Local Municipality,ec Matatiele EMS Station,28.82022,-30.348,,"Main Street, Matatiele, Private Bag X836",EMS Station
+Eastern Cape,ec Alfred Nzo District Municipality,ec Mbizana Local Municipality,ec Bizana EMS Station,29.854648,-30.8621,,,EMS Station
+Eastern Cape,ec Alfred Nzo District Municipality,ec Mbizana Local Municipality,ec Mzamba EMS Station,30.183295,-31.0781,,,EMS Station
+Eastern Cape,ec Alfred Nzo District Municipality,ec Ntabankulu Local Municipality,ec Sipetu EMS Station,29.18,-31.09,,,EMS Station
+Eastern Cape,ec Alfred Nzo District Municipality,ec Ntabankulu Local Municipality,ec Tabankulu EMS Station,29.29,-30.96,,,EMS Station
+Eastern Cape,ec Alfred Nzo District Municipality,ec Umzimvubu Local Municipality,ec Mount Ayliff EMS Station,29.37102,-30.7977,,,EMS Station
+Eastern Cape,ec Alfred Nzo District Municipality,ec Umzimvubu Local Municipality,ec Mount Frere EMS Station,28.99,-30.9,,,EMS Station
+Eastern Cape,ec Amathole District Municipality,ec Amahlathi Local Municipality,ec Cathcart EMS Station,27.143,-32.298,,,EMS Station
+Eastern Cape,ec Amathole District Municipality,ec Amahlathi Local Municipality,ec Keiskammahoek EMS Station,27.13396,-32.6835,,,EMS Station
+Eastern Cape,ec Amathole District Municipality,ec Amahlathi Local Municipality,ec Stutterheim EMS Station,27.42,-32.56,,,EMS Station
+Eastern Cape,ec Amathole District Municipality,ec Great Kei Local Municipality,ec Komga EMS Station,27.89576,-32.576,,,EMS Station
+Eastern Cape,ec Amathole District Municipality,ec Mbhashe Local Municipality,ec Willowvale EMS Station,28.498,-32.265,,,EMS Station
+Eastern Cape,ec Amathole District Municipality,ec Mnquma Local Municipality,ec Butterworth EMS Station,28.138,-32.332,,,EMS Station
+Eastern Cape,ec Amathole District Municipality,ec Ngqushwa Local Municipality,ec Peddie EMS Station,27.132,-33.21,,,EMS Station
+Eastern Cape,ec Amathole District Municipality,ec Raymond Mhlaba Local Municipality,ec Adelaide EMS Station,26.294,-32.699,,,EMS Station
+Eastern Cape,ec Amathole District Municipality,ec Raymond Mhlaba Local Municipality,ec Bedford EMS Station,26.083139,-32.6762,,,EMS Station
+Eastern Cape,ec Amathole District Municipality,ec Raymond Mhlaba Local Municipality,ec Fort Beaufort EMS Station,26.634,-32.781,,,EMS Station
+Eastern Cape,ec Amathole District Municipality,ec Raymond Mhlaba Local Municipality,ec Victoria EMS Station,26.846,-32.775,,,EMS Station
+Eastern Cape,ec Buffalo City Metropolitan Municipality,ec Buffalo City Health sub-District,ec East London EMS Station,27.89822,-32.9785,,,EMS Station
+Eastern Cape,ec Buffalo City Metropolitan Municipality,ec Buffalo City Health sub-District,ec Grey EMS Station,27.39,-32.87,,,EMS Station
+Eastern Cape,ec Buffalo City Metropolitan Municipality,ec Buffalo City Health sub-District,ec Mdantsane EMS Station,27.74,-32.92,,,EMS Station
+Eastern Cape,ec Chris Hani District Municipality,ec Emalahleni Local Municipality,ec Dordrecht EMS Station,27.044,-31.391,,,EMS Station
+Eastern Cape,ec Chris Hani District Municipality,ec Emalahleni Local Municipality,ec Indwe EMS Station,27.34042,-31.4683,,,EMS Station
+Eastern Cape,ec Chris Hani District Municipality,ec Emalahleni Local Municipality,ec Lady Frere EMS Station,27.199,-31.719,,,EMS Station
+Eastern Cape,ec Chris Hani District Municipality,ec Engcobo Local Municipality,ec Ngcobo EMS Station,28.005,-31.678,,,EMS Station
+Eastern Cape,ec Chris Hani District Municipality,ec Enoch Mgijima Local Municipality,ec Hewu EMS Station,26.805,-32.172,,,EMS Station
+Eastern Cape,ec Chris Hani District Municipality,ec Enoch Mgijima Local Municipality,ec Hofmeyer EMS Station,25.805,-31.654,,,EMS Station
+Eastern Cape,ec Chris Hani District Municipality,ec Enoch Mgijima Local Municipality,ec Ilinge EMS Station,27.04,-31.977,,,EMS Station
+Eastern Cape,ec Chris Hani District Municipality,ec Enoch Mgijima Local Municipality,ec Molteno EMS Station,26.355,-31.391,,,EMS Station
+Eastern Cape,ec Chris Hani District Municipality,ec Enoch Mgijima Local Municipality,ec Queenstown EMS Station,26.90854,-31.9225,,,EMS Station
+Eastern Cape,ec Chris Hani District Municipality,ec Enoch Mgijima Local Municipality,ec Sterkstroom EMS Station,26.553,-31.553,,,EMS Station
+Eastern Cape,ec Chris Hani District Municipality,ec Enoch Mgijima Local Municipality,ec Tarkastad EMS Station,26.259,-32.01,,,EMS Station
+Eastern Cape,ec Chris Hani District Municipality,ec Enoch Mgijima Local Municipality,ec Thornhill EMS Station,26.613,-31.987,,,EMS Station
+Eastern Cape,ec Chris Hani District Municipality,ec Intsika Yethu Local Municipality,ec Cofimvaba EMS Station,27.583,-32.011,,,EMS Station
+Eastern Cape,ec Chris Hani District Municipality,ec Intsika Yethu Local Municipality,ec Ncora EMS Station,27.74,-31.818,,,EMS Station
+Eastern Cape,ec Chris Hani District Municipality,ec Intsika Yethu Local Municipality,ec Tsomo EMS Station,27.82,-32.038,,,EMS Station
+Eastern Cape,ec Chris Hani District Municipality,ec Inxuba Yethemba Local Municipality,ec Cradock EMS Station,25.622,-32.167,,,EMS Station
+Eastern Cape,ec Chris Hani District Municipality,ec Inxuba Yethemba Local Municipality,ec Middelburg EMS Station,25.008,-31.495,,,EMS Station
+Eastern Cape,ec Chris Hani District Municipality,ec Sakhisizwe Local Municipality,ec Cala EMS Station,27.682,-31.522,,,EMS Station
+Eastern Cape,ec Chris Hani District Municipality,ec Sakhisizwe Local Municipality,ec Elliot EMS Station,27.837,-31.337,,,EMS Station
+Eastern Cape,ec Joe Gqabi District Municipality,ec Elundini Local Municipality,ec Maclear EMS Station,28.347,-31.075,,,EMS Station
+Eastern Cape,ec Joe Gqabi District Municipality,ec Elundini Local Municipality,ec Tayler Bequest EMS Station,28.509,-30.689,,"Hospital St, Mount Fletcher, 4770",EMS Station
+Eastern Cape,ec Joe Gqabi District Municipality,ec Senqu Local Municipality,ec Barkly East EMS Station,27.594,-30.972,,,EMS Station
+Eastern Cape,ec Joe Gqabi District Municipality,ec Senqu Local Municipality,ec Lady Grey EMS Station,25.819,-31.29,,,EMS Station
+Eastern Cape,ec Joe Gqabi District Municipality,ec Senqu Local Municipality,ec Sterkspruit EMS Station,27.532,-30.454,,,EMS Station
+Eastern Cape,ec Joe Gqabi District Municipality,ec Walter Sisulu Local Municipality,ec Aliwal North EMS Station,26.707,-30.696,,,EMS Station
+Eastern Cape,ec Joe Gqabi District Municipality,ec Walter Sisulu Local Municipality,ec Burgersdorp EMS Station,26.332,-30.994,,,EMS Station
+Eastern Cape,ec Joe Gqabi District Municipality,ec Walter Sisulu Local Municipality,ec Jamestown EMS Station,26.807,-31.123,,,EMS Station
+Eastern Cape,ec Joe Gqabi District Municipality,ec Walter Sisulu Local Municipality,ec Steynsburg EMS Station,25.811,-31.296,,,EMS Station
+Eastern Cape,ec Joe Gqabi District Municipality,ec Walter Sisulu Local Municipality,ec Venterstad EMS Station,25.796,-30.778,,,EMS Station
+Eastern Cape,ec Nelson Mandela Bay Municipality,ec Nelson Mandela A Health sub-District,ec Motherwell EMS Station,25.597,-33.811,,,EMS Station
+Eastern Cape,ec Nelson Mandela Bay Municipality,ec Nelson Mandela B Health sub-District,ec Despatch EMS Station,25.470391,-33.8029,,,EMS Station
+Eastern Cape,ec Nelson Mandela Bay Municipality,ec Nelson Mandela B Health sub-District,ec Uitenhage EMS Station,25.406,-33.741,,,EMS Station
+Eastern Cape,ec Nelson Mandela Bay Municipality,ec Nelson Mandela C Health sub-District,ec Port Elizabeth EMS Station,25.59,-33.95,,,EMS Station
+Eastern Cape,ec Oliver Tambo District Municipality,ec Ingquza Hill Local Municipality,ec Flagstaff EMS Station,29.496,-31.08,,,EMS Station
+Eastern Cape,ec Oliver Tambo District Municipality,ec Ingquza Hill Local Municipality,ec Lusikisiki EMS Station,29.572,-31.374,,,EMS Station
+Eastern Cape,ec Oliver Tambo District Municipality,ec King Sabata Dalindyebo Local Municipality,ec Mqanduli EMS Station,28.765,-31.823,,,EMS Station
+Eastern Cape,ec Oliver Tambo District Municipality,ec King Sabata Dalindyebo Local Municipality,ec Mthatha EMS Station,28.77493,-31.5911,,,EMS Station
+Eastern Cape,ec Oliver Tambo District Municipality,ec Mhlontlo Local Municipality,ec Qumbu EMS Station,28.869,-31.167,,,EMS Station
+Eastern Cape,ec Oliver Tambo District Municipality,ec Mhlontlo Local Municipality,ec Tsolo EMS Station,28.758,-31.307,,,EMS Station
+Eastern Cape,ec Oliver Tambo District Municipality,ec Nyandeni Local Municipality,ec Libode EMS Station,29.016,-31.545,,,EMS Station
+Eastern Cape,ec Oliver Tambo District Municipality,ec Nyandeni Local Municipality,ec Ngqeleni EMS Station,28.841,-31.624,,,EMS Station
+Eastern Cape,ec Oliver Tambo District Municipality,ec Port St Johns Local Municipality,ec Port St Johns EMS Station,29.545,-31.632,,,EMS Station
+Eastern Cape,ec Sarah Baartman District Municipality,ec Blue Crane Route Local Municipality,ec Cookhouse EMS Station,25.81,-32.74,,,EMS Station
+Eastern Cape,ec Sarah Baartman District Municipality,ec Blue Crane Route Local Municipality,ec Pearston EMS Station,25.12,-32.57,,,EMS Station
+Eastern Cape,ec Sarah Baartman District Municipality,ec Blue Crane Route Local Municipality,ec Somerset East EMS Station,25.58,-32.71,,,EMS Station
+Eastern Cape,ec Sarah Baartman District Municipality,ec Dr Beyers Naud������ Local Municipality,ec Aberdeen EMS Station,24.06093,-32.4862,,,EMS Station
+Eastern Cape,ec Sarah Baartman District Municipality,ec Dr Beyers Naud������ Local Municipality,ec Graaff-Reinet EMS Station,24.55239,-32.2728,,,EMS Station
+Eastern Cape,ec Sarah Baartman District Municipality,ec Dr Beyers Naud������ Local Municipality,ec Jansenville EMS Station,24.66,-32.94,,,EMS Station
+Eastern Cape,ec Sarah Baartman District Municipality,ec Dr Beyers Naud������ Local Municipality,ec Klipplaat EMS Station,24.33,-33.02,,,EMS Station
+Eastern Cape,ec Sarah Baartman District Municipality,ec Dr Beyers Naud������ Local Municipality,ec Steytlerville EMS Station,24.34,-33.33,,,EMS Station
+Eastern Cape,ec Sarah Baartman District Municipality,ec Dr Beyers Naud������ Local Municipality,ec Willowmore EMS Station,23.46,-33.3,,,EMS Station
+Eastern Cape,ec Sarah Baartman District Municipality,ec Kouga Local Municipality,ec Humansdorp EMS Station,24.78144,-34.0302,,,EMS Station
+Eastern Cape,ec Sarah Baartman District Municipality,ec Kouga Local Municipality,ec Jeffreys Bay EMS Station,24.918,-34.028,,,EMS Station
+Eastern Cape,ec Sarah Baartman District Municipality,ec Kouga Local Municipality,ec Patensie EMS Station,24.81,-33.758,,,EMS Station
+Eastern Cape,ec Sarah Baartman District Municipality,ec Kou-Kamma Local Municipality,ec Joubertina EMS Station,23.864,-33.826,,,EMS Station
+Eastern Cape,ec Sarah Baartman District Municipality,ec Kou-Kamma Local Municipality,ec Kareedouw EMS Station,24.306,-33.952,,,EMS Station
+Eastern Cape,ec Sarah Baartman District Municipality,ec Kou-Kamma Local Municipality,ec Sanddrift EMS Station,23.97,-33.99,,,EMS Station
+Eastern Cape,ec Sarah Baartman District Municipality,ec Makana Local Municipality,ec Alicedale EMS Station,26.09,-33.317,,,EMS Station
+Eastern Cape,ec Sarah Baartman District Municipality,ec Makana Local Municipality,ec Grahamstown EMS Station,26.552,-33.317,,,EMS Station
+Eastern Cape,ec Sarah Baartman District Municipality,ec Ndlambe Local Municipality,ec Alexandria EMS Station,26.414,-33.651,,,EMS Station
+Eastern Cape,ec Sarah Baartman District Municipality,ec Ndlambe Local Municipality,ec Bushmans EMS Station,26.644729,-33.6778,,,EMS Station
+Eastern Cape,ec Sarah Baartman District Municipality,ec Ndlambe Local Municipality,ec Port Alfred EMS Station,26.883,-33.594,,,EMS Station
+Eastern Cape,ec Sarah Baartman District Municipality,ec Sundays River Valley Local Municipality,ec Addo EMS Station,25.69029,-33.5476,,,EMS Station
+Eastern Cape,ec Sarah Baartman District Municipality,ec Sundays River Valley Local Municipality,ec Kirkwood EMS Station,25.442,-33.4,,,EMS Station
+Eastern Cape,ec Sarah Baartman District Municipality,ec Sundays River Valley Local Municipality,ec Paterson EMS Station,25.974,-33.439,,,EMS Station
+Free State,fs Fezile Dabi District Municipality,fs Mafube Local Municipality,fs Frankfort EMS Station,28.50023,-27.2788,,,EMS Station
+Free State,fs Fezile Dabi District Municipality,fs Mafube Local Municipality,fs Frankfort Private EMS Station,28.5000074,-27.2774,,,EMS Station
+Free State,fs Fezile Dabi District Municipality,fs Mafube Local Municipality,fs Villiers EMS Station,28.597,-27.029,,,EMS Station
+Free State,fs Fezile Dabi District Municipality,fs Mafube Local Municipality,fs Villiers Private EMS Station,28.5992,-27.0259,,,EMS Station
+Free State,fs Fezile Dabi District Municipality,fs Metsimaholo Local Municipality,fs Sasolburg EMS Station,27.82757,-26.8014,,,EMS Station
+Free State,fs Fezile Dabi District Municipality,fs Metsimaholo Local Municipality,fs Sasolburg Private EMS Station,27.823888,-26.8115,,,EMS Station
+Free State,fs Fezile Dabi District Municipality,fs Moqhaka Local Municipality,fs Kroonstad EMS Station,27.21355,-27.6425,,,EMS Station
+Free State,fs Fezile Dabi District Municipality,fs Moqhaka Local Municipality,fs Kroonstad Private EMS Station,27.230361,-27.6531,,,EMS Station
+Free State,fs Fezile Dabi District Municipality,fs Moqhaka Local Municipality,fs Steynsrus EMS Station,27.234,-27.656,,,EMS Station
+Free State,fs Fezile Dabi District Municipality,fs Moqhaka Local Municipality,fs Steynsrus Private EMS Station,27.564867,-27.9516,,,EMS Station
+Free State,fs Fezile Dabi District Municipality,fs Moqhaka Local Municipality,fs Viljoenskroon EMS Station,26.9503,-27.1989,,,EMS Station
+Free State,fs Fezile Dabi District Municipality,fs Moqhaka Local Municipality,fs Viljoenskroon Private EMS Station,26.946406,-27.207,,,EMS Station
+Free State,fs Fezile Dabi District Municipality,fs Ngwathe Local Municipality,fs Heilbron EMS Station,27.96168,-27.2891,,,EMS Station
+Free State,fs Fezile Dabi District Municipality,fs Ngwathe Local Municipality,fs Heilbron Private EMS Station,27.965945,-27.283,,,EMS Station
+Free State,fs Fezile Dabi District Municipality,fs Ngwathe Local Municipality,fs Koppies EMS Station,27.587,-27.234,,,EMS Station
+Free State,fs Fezile Dabi District Municipality,fs Ngwathe Local Municipality,fs Koppies Private EMS Station,27.574838,-27.2443,,,EMS Station
+Free State,fs Fezile Dabi District Municipality,fs Ngwathe Local Municipality,fs Parys EMS Station,27.47206,-26.8959,,,EMS Station
+Free State,fs Fezile Dabi District Municipality,fs Ngwathe Local Municipality,fs Parys Private EMS Station,27.471363,-26.8926,,,EMS Station
+Free State,fs Lejweleputswa District Municipality,fs Masilonyana Local Municipality,fs Brandfort EMS Station,26.46232,-28.6916,,,EMS Station
+Free State,fs Lejweleputswa District Municipality,fs Masilonyana Local Municipality,fs Brandfort Private EMS Station,26.45886,-28.7012,,,EMS Station
+Free State,fs Lejweleputswa District Municipality,fs Masilonyana Local Municipality,fs Theunissen EMS Station,26.71,-28.398,,,EMS Station
+Free State,fs Lejweleputswa District Municipality,fs Masilonyana Local Municipality,fs Theunissen Private EMS Station,26.712241,-28.3741,,,EMS Station
+Free State,fs Lejweleputswa District Municipality,fs Masilonyana Local Municipality,fs Verkeerdevlei EMS Station,26.7,-28.4,,,EMS Station
+Free State,fs Lejweleputswa District Municipality,fs Masilonyana Local Municipality,fs Verkeerdevlei Private EMS Station,26.778909,-28.8322,,,EMS Station
+Free State,fs Lejweleputswa District Municipality,fs Masilonyana Local Municipality,fs Winburg EMS Station,27.00801,-28.5098,,,EMS Station
+Free State,fs Lejweleputswa District Municipality,fs Masilonyana Local Municipality,fs Winburg Private EMS Station,27.009378,-28.5208,,,EMS Station
+Free State,fs Lejweleputswa District Municipality,fs Matjhabeng Local Municipality,fs Allanridge EMS Station,26.645,-27.753,,,EMS Station
+Free State,fs Lejweleputswa District Municipality,fs Matjhabeng Local Municipality,fs Allanridge Private EMS Station,26.6421,-27.7546,,,EMS Station
+Free State,fs Lejweleputswa District Municipality,fs Matjhabeng Local Municipality,fs Hennenman EMS Station,27.019,-27.97,,,EMS Station
+Free State,fs Lejweleputswa District Municipality,fs Matjhabeng Local Municipality,fs Hennenman Private EMS Station,27.027699,-27.9788,,,EMS Station
+Free State,fs Lejweleputswa District Municipality,fs Matjhabeng Local Municipality,fs Odendaalsrus EMS Station,26.65922,-27.8773,,,EMS Station
+Free State,fs Lejweleputswa District Municipality,fs Matjhabeng Local Municipality,fs Odendaalsrus Private EMS Station,26.682641,-27.8701,,,EMS Station
+Free State,fs Lejweleputswa District Municipality,fs Matjhabeng Local Municipality,fs Ventersburg EMS Station,27.15,-28.09,,,EMS Station
+Free State,fs Lejweleputswa District Municipality,fs Matjhabeng Local Municipality,fs Ventersburg Private EMS Station,27.136176,-28.0861,,,EMS Station
+Free State,fs Lejweleputswa District Municipality,fs Matjhabeng Local Municipality,fs Virginia EMS Station,26.85799,-28.1105,,,EMS Station
+Free State,fs Lejweleputswa District Municipality,fs Matjhabeng Local Municipality,fs Virginia Private EMS Station,26.864,-28.09,,,EMS Station
+Free State,fs Lejweleputswa District Municipality,fs Matjhabeng Local Municipality,fs Welkom EMS Station,26.73,-27.98,,,EMS Station
+Free State,fs Lejweleputswa District Municipality,fs Matjhabeng Local Municipality,fs Welkom Private EMS Station,26.730348,-27.9877,,,EMS Station
+Free State,fs Lejweleputswa District Municipality,fs Nala Local Municipality,fs Bothaville EMS Station,26.62,-27.39,,,EMS Station
+Free State,fs Lejweleputswa District Municipality,fs Nala Local Municipality,fs Bothaville Private EMS Station,26.61702,-27.3858,,,EMS Station
+Free State,fs Lejweleputswa District Municipality,fs Nala Local Municipality,fs Wesselsbron EMS Station,26.3668,-27.8362,,,EMS Station
+Free State,fs Lejweleputswa District Municipality,fs Nala Local Municipality,fs Wesselsbron Private EMS Station,26.363578,-27.8577,,,EMS Station
+Free State,fs Lejweleputswa District Municipality,fs Tokologo Local Municipality,fs Boshof EMS Station,25.2516,-28.5504,,,EMS Station
+Free State,fs Lejweleputswa District Municipality,fs Tokologo Local Municipality,fs Boshof Private EMS Station,25.239329,-28.5387,,,EMS Station
+Free State,fs Lejweleputswa District Municipality,fs Tokologo Local Municipality,fs Dealesville EMS Station,25.77142,-28.6579,,,EMS Station
+Free State,fs Lejweleputswa District Municipality,fs Tokologo Local Municipality,fs Dealsville Private EMS Station,25.767533,-28.6755,,,EMS Station
+Free State,fs Lejweleputswa District Municipality,fs Tokologo Local Municipality,fs Hertzogville EMS Station,25.5,-28.12,,,EMS Station
+Free State,fs Lejweleputswa District Municipality,fs Tokologo Local Municipality,fs Hertzogville Private EMS Station,25.504113,-28.1282,,,EMS Station
+Free State,fs Lejweleputswa District Municipality,fs Tswelopele Local Municipality,fs Bultfontein EMS Station,26.14,-28.28,,,EMS Station
+Free State,fs Lejweleputswa District Municipality,fs Tswelopele Local Municipality,fs Bultfontein Private EMS Station,26.153087,-28.2929,,,EMS Station
+Free State,fs Lejweleputswa District Municipality,fs Tswelopele Local Municipality,fs Hoopstad EMS Station,25.91538,-27.8323,,,EMS Station
+Free State,fs Lejweleputswa District Municipality,fs Tswelopele Local Municipality,fs Hoopstad Private EMS Station,25.905371,-27.8367,,,EMS Station
+Free State,fs Mangaung Metropolitan Municipality,fs Bloemfontein Health sub-District,fs Bloemfontein EMS Station,26.21411,-29.1276,,,EMS Station
+Free State,fs Mangaung Metropolitan Municipality,fs Bloemfontein Health sub-District,fs Bloemfontein Private EMS Station,26.23,-29.14,,,EMS Station
+Free State,fs Mangaung Metropolitan Municipality,fs Bloemfontein Health sub-District,fs Soutpan EMS Station,26.10485,-28.7361,,,EMS Station
+Free State,fs Mangaung Metropolitan Municipality,fs Bloemfontein Health sub-District,fs Soutpan Private EMS Station,26.058979,-28.7208,,,EMS Station
+Free State,fs Mangaung Metropolitan Municipality,fs Botshabelo Health sub-District,fs Botshabelo EMS Station,26.71572,-29.2325,,,EMS Station
+Free State,fs Mangaung Metropolitan Municipality,fs Botshabelo Health sub-District,fs Botshabelo Private EMS Station,26.715,-29.232,,,EMS Station
+Free State,fs Mangaung Metropolitan Municipality,fs Naledi Health sub-District,fs Dewetsdorp EMS Station,26.66,-29.57,,,EMS Station
+Free State,fs Mangaung Metropolitan Municipality,fs Naledi Health sub-District,fs Dewetsdorp Private EMS Station,26.660455,-28.583,,,EMS Station
+Free State,fs Mangaung Metropolitan Municipality,fs Naledi Health sub-District,fs Wepener EMS Station,27.038,-29.728,,,EMS Station
+Free State,fs Mangaung Metropolitan Municipality,fs Naledi Health sub-District,fs Wepner Private EMS Station,27.036956,-29.731,,,EMS Station
+Free State,fs Mangaung Metropolitan Municipality,fs Thaba N'chu Health sub-District,fs Thaba Nchu EMS Station,26.847,-29.218,,,EMS Station
+Free State,fs Mangaung Metropolitan Municipality,fs Thaba N'chu Health sub-District,fs Thaba Nchu Private EMS Station,26.848,-29.215,,,EMS Station
+Free State,fs Thabo Mofutsanyana District Municipality,fs Dihlabeng Local Municipality,fs Bethlehem EMS Station,28.307,-28.232,,,EMS Station
+Free State,fs Thabo Mofutsanyana District Municipality,fs Dihlabeng Local Municipality,fs Bethlehem Private EMS Station,28.322701,-28.2287,,,EMS Station
+Free State,fs Thabo Mofutsanyana District Municipality,fs Dihlabeng Local Municipality,fs Clarens EMS Station,28.42,-28.51,,,EMS Station
+Free State,fs Thabo Mofutsanyana District Municipality,fs Dihlabeng Local Municipality,fs Clarens Private EMS Station,28.422394,-28.5153,,,EMS Station
+Free State,fs Thabo Mofutsanyana District Municipality,fs Dihlabeng Local Municipality,fs Fouriesburg EMS Station,28.211,-28.62,,,EMS Station
+Free State,fs Thabo Mofutsanyana District Municipality,fs Dihlabeng Local Municipality,fs Paul Roux EMS Station,27.955,-28.296,,,EMS Station
+Free State,fs Thabo Mofutsanyana District Municipality,fs Maluti-a-Phofung Local Municipality,fs Harrismith EMS Station,29.13806,-28.2722,,,EMS Station
+Free State,fs Thabo Mofutsanyana District Municipality,fs Maluti-a-Phofung Local Municipality,fs Harrismith Private EMS Station,29.127827,-28.2694,,,EMS Station
+Free State,fs Thabo Mofutsanyana District Municipality,fs Maluti-a-Phofung Local Municipality,fs Kestell EMS Station,28.698,-28.331,,,EMS Station
+Free State,fs Thabo Mofutsanyana District Municipality,fs Maluti-a-Phofung Local Municipality,fs Qwa-Qwa EMS Station,28.795,-28.563,,,EMS Station
+Free State,fs Thabo Mofutsanyana District Municipality,fs Maluti-a-Phofung Local Municipality,fs Qwa-Qwa Private EMS Station,28.825363,-28.5132,,,EMS Station
+Free State,fs Thabo Mofutsanyana District Municipality,fs Mantsopa Local Municipality,fs Excelsior EMS Station,27.056,-28.933,,,EMS Station
+Free State,fs Thabo Mofutsanyana District Municipality,fs Mantsopa Local Municipality,fs Hobhouse EMS Station,27.147,-29.521,,,EMS Station
+Free State,fs Thabo Mofutsanyana District Municipality,fs Mantsopa Local Municipality,fs Ladybrand EMS Station,27.45951,-29.1928,,,EMS Station
+Free State,fs Thabo Mofutsanyana District Municipality,fs Mantsopa Local Municipality,fs Ladybrand Private EMS Station,27.45673,-29.196,,,EMS Station
+Free State,fs Thabo Mofutsanyana District Municipality,fs Mantsopa Local Municipality,fs Tweespruit EMS Station,27.025,-29.187,,,EMS Station
+Free State,fs Thabo Mofutsanyana District Municipality,fs Mantsopa Local Municipality,fs Tweespruit Private EMS Station,27.023874,-29.1869,,,EMS Station
+Free State,fs Thabo Mofutsanyana District Municipality,fs Nketoana Local Municipality,fs Lindley EMS Station,27.904,-27.881,,,EMS Station
+Free State,fs Thabo Mofutsanyana District Municipality,fs Nketoana Local Municipality,fs Lindley Private EMS Station,27.921674,-27.8833,,,EMS Station
+Free State,fs Thabo Mofutsanyana District Municipality,fs Nketoana Local Municipality,fs Petrus Steyn EMS Station,28.128,-27.65,,,EMS Station
+Free State,fs Thabo Mofutsanyana District Municipality,fs Nketoana Local Municipality,fs Reitz EMS Station,28.41893,-27.8028,,,EMS Station
+Free State,fs Thabo Mofutsanyana District Municipality,fs Nketoana Local Municipality,fs Reitz Private EMS Station,28.431609,-27.7993,,,EMS Station
+Free State,fs Thabo Mofutsanyana District Municipality,fs Phumelela Local Municipality,fs Memel EMS Station,29.56,-27.68,,,EMS Station
+Free State,fs Thabo Mofutsanyana District Municipality,fs Phumelela Local Municipality,fs Memel Private EMS Station,29.567782,-27.6812,,,EMS Station
+Free State,fs Thabo Mofutsanyana District Municipality,fs Phumelela Local Municipality,fs Vrede EMS Station,29.15583,-27.4335,,,EMS Station
+Free State,fs Thabo Mofutsanyana District Municipality,fs Phumelela Local Municipality,fs Vrede Private EMS Station,29.168715,-27.4229,,,EMS Station
+Free State,fs Thabo Mofutsanyana District Municipality,fs Phumelela Local Municipality,fs Warden EMS Station,28.98208,-27.8433,,,EMS Station
+Free State,fs Thabo Mofutsanyana District Municipality,fs Phumelela Local Municipality,fs Warden Private EMS Station,28.9606,-27.8538,,,EMS Station
+Free State,fs Thabo Mofutsanyana District Municipality,fs Setsoto Local Municipality,fs Arlington EMS Station,27.851239,-28.0289,,,EMS Station
+Free State,fs Thabo Mofutsanyana District Municipality,fs Setsoto Local Municipality,fs Arlington Private EMS Station,27.851457,-28.0279,,,EMS Station
+Free State,fs Thabo Mofutsanyana District Municipality,fs Setsoto Local Municipality,fs Clocolan EMS Station,27.57424,-28.91,,,EMS Station
+Free State,fs Thabo Mofutsanyana District Municipality,fs Setsoto Local Municipality,fs Clocolan Private EMS Station,27.565459,-28.9158,,,EMS Station
+Free State,fs Thabo Mofutsanyana District Municipality,fs Setsoto Local Municipality,fs Ficksburg EMS Station,27.87201,-28.8813,,,EMS Station
+Free State,fs Thabo Mofutsanyana District Municipality,fs Setsoto Local Municipality,fs Ficksburg Private EMS Station,27.873979,-28.8705,,,EMS Station
+Free State,fs Thabo Mofutsanyana District Municipality,fs Setsoto Local Municipality,fs Marquard EMS Station,27.45455,-28.6547,,,EMS Station
+Free State,fs Thabo Mofutsanyana District Municipality,fs Setsoto Local Municipality,fs Rosendal EMS Station,27.935441,-28.5014,,,EMS Station
+Free State,fs Thabo Mofutsanyana District Municipality,fs Setsoto Local Municipality,fs Rosendal Private EMS Station,27.9304,-28.5039,,,EMS Station
+Free State,fs Thabo Mofutsanyana District Municipality,fs Setsoto Local Municipality,fs Senekal EMS Station,27.60551,-28.3272,,,EMS Station
+Free State,fs Thabo Mofutsanyana District Municipality,fs Setsoto Local Municipality,fs Senekal Private EMS Station,27.6225,-28.3211,,,EMS Station
+Free State,fs Xhariep District Municipality,fs Kopanong Local Municipality,fs Bethulie EMS Station,25.97981,-30.4978,,,EMS Station
+Free State,fs Xhariep District Municipality,fs Kopanong Local Municipality,fs Bethulie Private EMS Station,25.976507,-30.4958,,,EMS Station
+Free State,fs Xhariep District Municipality,fs Kopanong Local Municipality,fs Edenburg EMS Station,25.94156,-29.731,,,EMS Station
+Free State,fs Xhariep District Municipality,fs Kopanong Local Municipality,fs Edenburg Private EMS Station,25.934608,-29.7355,,,EMS Station
+Free State,fs Xhariep District Municipality,fs Kopanong Local Municipality,fs Fauresmith EMS Station,25.309,-29.745,,,EMS Station
+Free State,fs Xhariep District Municipality,fs Kopanong Local Municipality,fs Fauresmith Private EMS Station,25.312555,-29.7471,,,EMS Station
+Free State,fs Xhariep District Municipality,fs Kopanong Local Municipality,fs Gariepdam EMS Station,25.49486,-30.593,,,EMS Station
+Free State,fs Xhariep District Municipality,fs Kopanong Local Municipality,fs Jagersfontein EMS Station,25.42316,-29.7603,,,EMS Station
+Free State,fs Xhariep District Municipality,fs Kopanong Local Municipality,fs Jagersfontein Private EMS Station,25.423572,-29.7611,,,EMS Station
+Free State,fs Xhariep District Municipality,fs Kopanong Local Municipality,fs Philippolis EMS Station,25.27,-30.26,,,EMS Station
+Free State,fs Xhariep District Municipality,fs Kopanong Local Municipality,fs Philippolis Private EMS Station,25.273765,-30.2685,,,EMS Station
+Free State,fs Xhariep District Municipality,fs Kopanong Local Municipality,fs Reddersburg EMS Station,26.17,-29.65,,,EMS Station
+Free State,fs Xhariep District Municipality,fs Kopanong Local Municipality,fs Reddersburg Private EMS Station,26.16761,-29.653,,,EMS Station
+Free State,fs Xhariep District Municipality,fs Kopanong Local Municipality,fs Springfontein EMS Station,25.7,-30.25,,,EMS Station
+Free State,fs Xhariep District Municipality,fs Kopanong Local Municipality,fs Springfontein Private EMS Station,25.703989,-30.266,,,EMS Station
+Free State,fs Xhariep District Municipality,fs Kopanong Local Municipality,fs Trompsburg EMS Station,25.78,-30.03,,,EMS Station
+Free State,fs Xhariep District Municipality,fs Kopanong Local Municipality,fs Trompsburg Private EMS Station,,,Reuben Ruiters,Trompsburg,EMS Station
+Free State,fs Xhariep District Municipality,fs Letsemeng Local Municipality,fs Jacobsdal EMS Station,24.77157,-29.1299,,,EMS Station
+Free State,fs Xhariep District Municipality,fs Letsemeng Local Municipality,fs Jacobsdal Private EMS Station,24.774448,-29.1412,,,EMS Station
+Free State,fs Xhariep District Municipality,fs Letsemeng Local Municipality,fs Koffiefontein EMS Station,25.01,-29.4,,,EMS Station
+Free State,fs Xhariep District Municipality,fs Letsemeng Local Municipality,fs Koffiefontein Private EMS Station,25.00361,-29.4094,,,EMS Station
+Free State,fs Xhariep District Municipality,fs Letsemeng Local Municipality,fs Petrusburg EMS Station,25.41846,-29.1189,,,EMS Station
+Free State,fs Xhariep District Municipality,fs Letsemeng Local Municipality,fs Petrusburg Private EMS Station,25.413062,-29.1127,,,EMS Station
+Free State,fs Xhariep District Municipality,fs Mohokare Local Municipality,fs Rouxville EMS Station,26.835,-30.415,,,EMS Station
+Free State,fs Xhariep District Municipality,fs Mohokare Local Municipality,fs Rouxville Private EMS Station,26.833807,-30.4206,,,EMS Station
+Free State,fs Xhariep District Municipality,fs Mohokare Local Municipality,fs Smithfield EMS Station,26.52333,-30.2234,,,EMS Station
+Free State,fs Xhariep District Municipality,fs Mohokare Local Municipality,fs Smithfield Private EMS Station,26.530819,-30.2089,,,EMS Station
+Free State,fs Xhariep District Municipality,fs Mohokare Local Municipality,fs Zastron EMS Station,27.09436,-30.296,,,EMS Station
+Free State,fs Xhariep District Municipality,fs Mohokare Local Municipality,fs Zastron Private EMS Station,27.081635,-30.3042,,,EMS Station
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg A Health sub-District,gp Diepsloot EMS Station,,,Mr. M. S. Maphanga,No. 383 Ingwenyama Street; Diepsloot; 2189,EMS Station
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg A Health sub-District,gp Diepsloot LA EMS Station,28.018,-25.92,,,EMS Station
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg A Health sub-District,gp Discovery EMS Station,28.05318,-26.1042,,,EMS Station
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg A Health sub-District,gp Edenvale EMS Station,28.138968,-25.988,,,EMS Station
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg A Health sub-District,gp Hillbrow EMS Station,28.044,-26.193,,,EMS Station
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg A Health sub-District,gp Ivory Park LA EMS Station,28.20142,-25.9905,,"21st August Drive, Ivory Park",EMS Station
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg A Health sub-District,gp Lonehill LA EMS Station,28.02615,-26.012,,"Cnr Lonehill Boulevard and Crestwood Drive, Lonehill",EMS Station
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg A Health sub-District,gp Midrand EMS Station,28.123465,-26.0014,Mrs Zanele P Tobolo,Continuity SA Cr Tonetti & Old Pretoria Road Midrand,EMS Station
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg A Health sub-District,gp Midrand LA EMS Station,28.13565,-25.9822,,Cnr Smuts Street and 1st Avenue,EMS Station
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg A Health sub-District,gp Obstetric PPT Johannesburg,,,,,EMS Station
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg A Health sub-District,gp Planned Patient Transport Johannesburg,,,,,EMS Station
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg B Health sub-District,gp Brixton LA EMS Station,28.01064,-26.1979,,"Cnr Brixton Road and High Street, Brixton",EMS Station
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg B Health sub-District,gp Randburg LA EMS Station,28.00268,-26.1034,,"Cnr Republic and Braam Fischer Drive, Randburg",EMS Station
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg B Health sub-District,gp Rooseveld Park LA EMS Station,27.98943,-26.1514,,"Cnr Beyers Naude and Preller Drive, Franklin Roosevelt park, Florida",EMS Station
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg C Health sub-District,gp Cosmo City LA EMS Station,,,Rory Clark,"9446 South Africa Drive, Cosmo City Ext 8",EMS Station
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg C Health sub-District,gp Florida Park LA EMS Station,27.90536,-26.1511,,"Golf Club Terrace and Ontdekkers Road, Roodepoort",EMS Station
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg C Health sub-District,gp Hodgsonstreet LA EMS Station,27.86492,-26.1602,,"Hodgson Street, Roodepoort",EMS Station
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg C Health sub-District,gp Huntershill LA EMS Station,27.95234,-26.064,,"Maple Street, Huntershill, Hunters Hill",EMS Station
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg D Health sub-District,gp Chiawelo EMS Station,27.86479,-26.279,,"Cnr Chris Hani Road and Rihlampfu Street, Chiawelo",EMS Station
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg D Health sub-District,gp Diepkloof LA EMS Station,27.94014,-26.2406,,"227 Marthinus Smuts Drive, Diepkloof Zone 1",EMS Station
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg D Health sub-District,gp Dobsonville LA EMS Station,27.86359,-26.222,,"2332 Luthuli Street, Dobsonville",EMS Station
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg D Health sub-District,gp Eldorado Park LA EMS Station,27.92418,-26.2962,,"Cnr Jan de Necker Drive and Golden Highway, Eldorado, Eldorado Park",EMS Station
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg D Health sub-District,gp Jabulani LA EMS Station,27.85486,-26.2482,,"Cnr Koma and Bolani Road, Jabulani, Soweto",EMS Station
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg D Health sub-District,gp Mofolo EMS Station,27.883,-26.247,,,EMS Station
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg D Health sub-District,gp Protea Glen LA EMS Station,27.803,-26.274,,,EMS Station
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg D Health sub-District,gp Zola EMS Station,27.831,-26.244,,,EMS Station
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg E Health sub-District,gp Alex LA EMS Station,28.06892,-26.1025,,"Linden Road, Sandown",EMS Station
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg E Health sub-District,gp Modderfontein LA EMS Station,28.15706,-26.1019,,"2 Thornhill Road, Estate Modderfontein",EMS Station
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg E Health sub-District,gp Northview LA EMS Station,28.09215,-26.1339,,"Cnr Northview Road and Waverly Road, Gresswold",EMS Station
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg E Health sub-District,gp Rosebank LA EMS Station,28.04068,-26.1483,,"Cnr Bath Avenue and Baker Street, Rosebank",EMS Station
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg E Health sub-District,gp Sandown LA EMS Station,28.068444,-26.103,,,EMS Station
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg E Health sub-District,gp Sandton LA EMS Station,28.06896,-26.1028,,"Cnr Linden Street and Grayston Drive, Sandton",EMS Station
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg F Health sub-District,gp Berea LA EMS Station,28.05062,-26.182,,"Cnr Mitchell Street and Fife Avenue, Berea",EMS Station
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg F Health sub-District,gp Central LA EMS Station,28.04595,-26.2077,,"Cnr Kruis and Frederick Streets, Marshalltown",EMS Station
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg F Health sub-District,gp Fairview LA EMS Station,28.07062,-26.2023,,"400 Commissioner Street, Johannesburg, 2094",EMS Station
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg F Health sub-District,gp Kibler Park LA EMS Station,28.02303,-26.3053,,"Impala Drive, Cnr Springbok Street, Kibler Park",EMS Station
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg F Health sub-District,gp Malvern LA EMS Station,28.10531,-26.2012,,"Persimmon Street, Malvern, Johannesburg, 2094",EMS Station
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg F Health sub-District,gp Turffontein LA EMS Station,28.03844,-26.24,,,EMS Station
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg G Health sub-District,gp Lawley LA EMS Station,27.85686,-26.4155,,"Cnr Beatrice and 4th Street, Ennerdale South",EMS Station
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg G Health sub-District,gp Lenasia EMS station,27.870654,-26.3927,,,EMS Station
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg G Health sub-District,gp Orange Farm EMS Station,27.867633,-26.4457,,,EMS Station
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg G Health sub-District,gp Orange Farm LA EMS Station,27.868217,-26.4824,,"Chris Hani Street, Orange Farm Ext 4",EMS Station
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg G Health sub-District,gp Rietfontein LA EMS Station,27.8844,-26.334,,"Nirvana Drive (R554), Rietfontein",EMS Station
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 1 Health sub-District,gp Dr George Mukhari Hospital EMS Station,28.011289,-25.6176,Mr Ricardo Barradas,"Dr George Mukhari Academic Hospital, 3111 Setlogelo Drive, Ga-Rankuwa Unit 2, 0208",EMS Station
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 1 Health sub-District,gp Garankuwa LA EMS Station,28.00683,-25.5882,,,EMS Station
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 1 Health sub-District,gp Mabopane LA EMS Station,28.087187,-25.4926,,,EMS Station
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 1 Health sub-District,gp Odi Hospital EMS Station,28.02248,-25.5184,,,EMS Station
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 1 Health sub-District,gp Rosslyn LA EMS Station,28.09554,-25.6262,,"3 Piet Rautenbach Street, Rosslyn",EMS Station
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 1 Health sub-District,gp Soshanguve Block JJ EMS Station,,,Sipho Sithole,"972 Rivoningo St, Soshanguve JJ, Soshanguve, 0164",EMS Station
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 1 Health sub-District,gp Spectrum LA EMS Station,,,,,EMS Station
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 2 Health sub-District,gp Hammanskraal LA EMS Station,28.282444,-25.4084,,,EMS Station
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 2 Health sub-District,gp Jubilee LA EMS Station,28.26494,-25.4025,,"Plot 92, Jubilee Road, Temba",EMS Station
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 2 Health sub-District,gp Maggalies LA EMS Station,28.19268,-25.6787,,"Cnr Lavender and Borage, Annelin",EMS Station
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 2 Health sub-District,gp Temba EMS Station,28.283156,-25.3621,,"Stand 9 and 10 Street 1, Babelegi",EMS Station
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 2 Health sub-District,gp Temba LA EMS Station,28.252871,-25.3859,,,EMS Station
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 2 Health sub-District,gp Wonderboom LA EMS Station,28.197033,-25.6822,,,EMS Station
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 3 Health sub-District,gp Atteridgeville LA EMS Station,28.06083,-25.7643,,"Marivate Street, Saulsville",EMS Station
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 3 Health sub-District,gp Hatfield LA EMS Station,28.23076,-25.7501,,"Park Street, Hatfield",EMS Station
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 3 Health sub-District,gp Innesdale LA EMS Station,28.2124,-25.7214,,"14th Avenue, Rietfontein",EMS Station
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 3 Health sub-District,gp Obstetric PPT Tshwane,,,,,EMS Station
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 3 Health sub-District,gp Phillip Nel Park LA EMS Station,28.13641,-25.7407,,"Cnr Transoranjie Road and Morkel Street, Phillip Nel Park",EMS Station
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 3 Health sub-District,gp Planned Patient Transport Tshwane,28.20256,-25.7322,,,EMS Station
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 3 Health sub-District,gp Prinshof EMS Station,28.140142,-25.742,,,EMS Station
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 3 Health sub-District,gp Tshwane 3 LA EMS Station,28.185936,-25.7526,,,EMS Station
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 4 Health sub-District,gp Centurion LA EMS Station,28.19552,-25.836,,"Basden Avenue, Die Hoewes, Centurion",EMS Station
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 4 Health sub-District,gp Laudium EMS Station,,,Mr ZM Shibambo,"405 Bengal St, Laudium, Centurion, 0037",EMS Station
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 5 Health sub-District,gp Cullinan EMS Station,28.53852,-25.691,,"Zonderwater Road, Cullinan",EMS Station
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 5 Health sub-District,gp De Wagensdrift EMS Station,28.528,-25.514,,,EMS Station
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 5 Health sub-District,gp Jabulani Tshwane LA EMS Station,28.4451,-25.4479,,"Soutpan Road, Block V, Soshanguve",EMS Station
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 5 Health sub-District,gp Rayton LA EMS Station,28.532,-25.739,,,EMS Station
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 6 Health sub-District,gp Erasmuskloof LA EMS Station,28.27104,-25.8191,,"Cnr Hans Strijdom and Lois Avenue, Erasmuskloof",EMS Station
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 6 Health sub-District,gp Heuweloord LA EMS Station,28.109334,-25.8836,,,EMS Station
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 6 Health sub-District,gp Mamelodi LA EMS Station,28.37364,-25.7119,,"Sibande Street, Mamelodi",EMS Station
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 6 Health sub-District,gp Silverton LA EMS Station,28.297,-25.733,,,EMS Station
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 7 Health sub-District,gp Bronkhorstspruit EMS Station,28.746972,-25.8146,,"Lanham Street, Bronkhorstspruit",EMS Station
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 7 Health sub-District,gp Bronkhorstspruit LA EMS Station,28.713347,-25.8051,,,EMS Station
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 7 Health sub-District,gp Ekangala EMS Station,28.752,-25.697,,,EMS Station
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni East 1 Health sub-District,gp Brakpan LA EMS Station,28.36832,-26.2381,,"116 Wenden Avenue, Brakpan, 1540",EMS Station
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni East 1 Health sub-District,gp Commercia LA EMS Station,28.1777,-26.0306,,"Cnr Rethabile and Banana Streets, Commercia 9",EMS Station
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni East 1 Health sub-District,gp Daveyton LA EMS Station,28.41861,-26.1394,,"Aliance Street, Benoni, 1507",EMS Station
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni East 1 Health sub-District,gp Etwatwa LA EMS Station,28.45421,-26.1156,,"Etwatwa Farm House, Daveyton",EMS Station
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni East 1 Health sub-District,gp Faranani LA EMS Station,28.37123,-26.3534,,"Modjadji Street, Tsakane, Brakpan",EMS Station
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni East 1 Health sub-District,gp Pholosong EMS Station,28.377,-26.339,,,EMS Station
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni East 2 Health sub-District,gp Duduza LA EMS Station,28.41419,-26.3753,,"3 Nala Street, Duduza",EMS Station
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni East 2 Health sub-District,gp Far East Rand EMS Station,28.403,-26.235,,,EMS Station
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni East 2 Health sub-District,gp Kwa-Thema LA EMS Station,28.43576,-26.2774,,"Hills Road, Selection Park",EMS Station
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni East 2 Health sub-District,gp Nigel LA EMS Station,28.46975,-26.4201,,"Kerk and Police Road, Nigel",EMS Station
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni East 2 Health sub-District,gp Selection Park LA EMS Station,28.435888,-26.2773,,"Hill Road, Section Park, Springs",EMS Station
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni East 2 Health sub-District,gp Springs LA EMS Station,28.43986,-26.2465,,"Boksburg Street, Springs",EMS Station
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni North 1 Health sub-District,gp Kempton Park LA EMS Station,28.22282,-26.1146,,"Kelvin Street, Kempton Park",EMS Station
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni North 1 Health sub-District,gp Olifantsfontein LA EMS Station,28.24063,-25.9726,,"Nut Avenue, Clayville, Olifantsfontein",EMS Station
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni North 1 Health sub-District,gp Tembisa EMS Station,28.225863,-26.0143,,,EMS Station
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni North 1 Health sub-District,gp Tembisa LA EMS Station,28.22586,-26.0143,,"Cnr George Nyanga Drive and Sam Molele Street, Tembisa",EMS Station
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni North 2 Health sub-District,gp Bedfordview LA EMS Station,28.13192,-26.1792,,"Nicol Road, Opp Bedfordview Testing Station",EMS Station
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni North 2 Health sub-District,gp Benoni LA EMS Station,28.3146,-26.1947,,"Cnr Harpur And Kimbolton Streets, Benoni, 1501",EMS Station
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni North 2 Health sub-District,gp Boksburg Central LA EMS Station,28.24869,-26.2239,,"Leeuwpoort Road, Boksburg, 1459",EMS Station
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni North 2 Health sub-District,gp Boksburg Leon Ferreira LA EMS Station,28.25384,-26.1788,,"Cnr Trichardt Street and North Rand Road, Boksburg",EMS Station
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni North 2 Health sub-District,gp Edenvale LA EMS Station,28.14932,-26.1356,,"Cnr De Wet Street and Van Riebeeck Avenue, Edenvale",EMS Station
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni North 2 Health sub-District,gp Farramere LA EMS Station,28.29949,-26.1503,,"Sapphire Street, Farramere, Benoni",EMS Station
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni North 2 Health sub-District,gp Rynefield LA EMS Station,28.333,-26.156,,,EMS Station
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni South 1 Health sub-District,gp Alberton LA EMS Station,28.12262,-26.2893,,"10 Bloekom Avenue, Alberton, 1449",EMS Station
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni South 1 Health sub-District,gp Germiston Central EMS Station,28.170131,-26.2196,,,EMS Station
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni South 1 Health sub-District,gp Germiston Central LA EMS Station,28.164392,-26.2207,,"Cnr Angus and Joubert Streets, Germiston",EMS Station
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni South 1 Health sub-District,gp Obstetric PPT Ekurhuleni,,,,,EMS Station
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni South 1 Health sub-District,gp Planned Patient Transport Ekurhuleni,,,,,EMS Station
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni South 1 Health sub-District,gp Primrose LA EMS Station,28.15718,-26.1821,,"Cnr Pretoria and Morse Roads, Primrose",EMS Station
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni South 1 Health sub-District,gp Thelle Mogoerane EMS Station,28.224311,-26.3569,,,EMS Station
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni South 1 Health sub-District,gp Vosloorus LA EMS Station,28.21049,-26.3348,,"Bierman Road, Vosloorus",EMS Station
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni South 1 Health sub-District,gp Wadeville LA EMS Station,28.19846,-26.2738,,"Cnr Osborn Road and Moore Street, Wadeville",EMS Station
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni South 2 Health sub-District,gp Hlahatsi LA EMS Station,28.15322,-26.3349,,"Ramaboea Street, Hlahatsi, Khatlehong",EMS Station
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni South 2 Health sub-District,gp Palm Ridge LA EMS Station,28.14039,-26.3881,,"Cnr Teebos Avenue and Soetdoring Street, Palm Ridge",EMS Station
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni South 2 Health sub-District,gp Thokoza LA EMS Station,28.13686,-26.3441,,"Kumalo Street, Tokoza, 1426",EMS Station
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni South 2 Health sub-District,gp Zonkezizwe LA EMS Station,28.176719,-26.415,,,EMS Station
+Gauteng,gp Sedibeng District Municipality,gp Emfuleni Local Municipality,gp Evaton EMS Station,27.85983,-26.5319,,,EMS Station
+Gauteng,gp Sedibeng District Municipality,gp Emfuleni Local Municipality,gp Johan Heyns EMS Station,27.833173,-26.7027,,"Johan Heyns CHC, 6th Floor Room 33, cnr Frikkie Meyer and Pasteur Boulevard Street, Vanderbijlpark",EMS Station
+Gauteng,gp Sedibeng District Municipality,gp Emfuleni Local Municipality,gp Kopanong EMS Station,27.933,-26.637,,,EMS Station
+Gauteng,gp Sedibeng District Municipality,gp Emfuleni Local Municipality,gp Obstetric PPT Sedibeng,27.83411,-26.703,,,EMS Station
+Gauteng,gp Sedibeng District Municipality,gp Emfuleni Local Municipality,gp Planned Patient Transport Sedibeng,27.84622,-26.6061,,,EMS Station
+Gauteng,gp Sedibeng District Municipality,gp Emfuleni Local Municipality,gp Sebokeng EMS Station,27.84622,-26.6061,,"Moeshoeshoe Street, Sebokeng",EMS Station
+Gauteng,gp Sedibeng District Municipality,gp Emfuleni Local Municipality,gp Vanderbijlpark EMS Station,27.842,-26.734,,,EMS Station
+Gauteng,gp Sedibeng District Municipality,gp Emfuleni Local Municipality,gp Vereeniging EMS Station,27.927967,-26.6654,,"De Villiers Avenue and Joubert Street, Vereeniging Central",EMS Station
+Gauteng,gp Sedibeng District Municipality,gp Lesedi Local Municipality,gp Devon EMS Station,28.782045,-26.3609,,"Devon Road (R550), Devon",EMS Station
+Gauteng,gp Sedibeng District Municipality,gp Lesedi Local Municipality,gp Heidelberg EMS Station,28.359688,-26.504,,"Voortrekker Street, Heidelberg",EMS Station
+Gauteng,gp Sedibeng District Municipality,gp Midvaal Local Municipality,gp Meyerton EMS Station,28.014439,-26.5673,,"Johan Le Roux Road and Galloway Street, Meyerton",EMS Station
+Gauteng,gp West Rand District Municipality,gp Merafong City Local Municipality,gp Carletonville EMS Station,27.39711,-26.3509,,"Annan Road and Onxy Drive, Carletonville",EMS Station
+Gauteng,gp West Rand District Municipality,gp Merafong City Local Municipality,gp Fochville EMS Station,27.496,-26.481,,,EMS Station
+Gauteng,gp West Rand District Municipality,gp Merafong City Local Municipality,gp Khutsong EMS Station,27.328,-26.328,,,EMS Station
+Gauteng,gp West Rand District Municipality,gp Merafong City Local Municipality,gp Merafong LA EMS Station,27.39702,-26.3508,,,EMS Station
+Gauteng,gp West Rand District Municipality,gp Mogale City Local Municipality,gp Dr Yusuf Dadoo EMS Station,27.783,-26.099,,,EMS Station
+Gauteng,gp West Rand District Municipality,gp Mogale City Local Municipality,gp Krugersdorp EMS Station,27.767365,-26.0997,,,EMS Station
+Gauteng,gp West Rand District Municipality,gp Mogale City Local Municipality,gp Krugersdorp LA EMS Station,27.775,-26.104,,"Cnr Commissioner and Biccard Street, Krugersdorp",EMS Station
+Gauteng,gp West Rand District Municipality,gp Mogale City Local Municipality,gp Leratong EMS Station,27.807,-26.171,,,EMS Station
+Gauteng,gp West Rand District Municipality,gp Mogale City Local Municipality,gp Magaliesburg EMS Station,27.542712,-25.9982,,"Koster Road, Magaliesburg",EMS Station
+Gauteng,gp West Rand District Municipality,gp Mogale City Local Municipality,gp Planned Patient Transport West Rand,27.78386,-26.0996,,,EMS Station
+Gauteng,gp West Rand District Municipality,gp Rand West City Local Municipality,gp Bekkersdal West CHC EMS Station,27.6974,-26.2861,,,EMS Station
+Gauteng,gp West Rand District Municipality,gp Rand West City Local Municipality,gp Obstetric PPT West Rand,27.6974,-26.2861,,,EMS Station
+Gauteng,gp West Rand District Municipality,gp Rand West City Local Municipality,gp Randfontein EMS Station,27.69952,-26.2013,,"Cnr Retief and Ralerata Streets, Toekomsrus, Randfontein",EMS Station
+Gauteng,gp West Rand District Municipality,gp Rand West City Local Municipality,gp Westonaria LA EMS Station,27.70836,-26.2838,,"Bekkersdal West Clinic, Westonaria, Stand 3540, Khomoeahlaba Street",EMS Station
+KwaZulu-Natal,kz Amajuba District Municipality,kz Dannhauser Local Municipality,kz Dannhauser EMS Station,30.05917,-28.0283,,"Greytown Hospital, Bell Street, Greytown",EMS Station
+KwaZulu-Natal,kz Amajuba District Municipality,kz Emadlangeni Local Municipality,kz Utrecht EMS Station,30.31626,-27.6622,,,EMS Station
+KwaZulu-Natal,kz Amajuba District Municipality,kz Newcastle Local Municipality,kz Charlestown EMS Station,29.866,-27.417,,,EMS Station
+KwaZulu-Natal,kz Amajuba District Municipality,kz Newcastle Local Municipality,kz Madadeni EMS Station,30.04987,-27.7584,,,EMS Station
+KwaZulu-Natal,kz Amajuba District Municipality,kz Newcastle Local Municipality,kz Newcastle EMS Station,29.94112,-27.7696,,,EMS Station
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,kz Central EMS Station,31.00133,-29.8519,,,EMS Station
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,kz Clermont EMS Station,30.893,-29.795,,,EMS Station
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,kz FOSA EMS Station,30.9685,-29.7859,,,EMS Station
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,kz Illovo EMS Station,30.826571,-30.0905,,,EMS Station
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,kz KwaMashu EMS Station,30.97056,-29.76,,,EMS Station
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,kz Mariannhill EMS Station,30.82473,-29.8489,,,EMS Station
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,kz Mpumalanga EMS Station,30.62133,-29.8038,,,EMS Station
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,kz Phoenix EMS Station,30.99913,-29.7128,,,EMS Station
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,kz RK Khan EMS Station,30.79973,-29.9189,,,EMS Station
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,kz Tongaat EMS Station,31.11694,-29.5697,,,EMS Station
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,kz Umlazi EMS Station,30.93773,-29.9586,,,EMS Station
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,kz Wentworth EMS Station,30.98693,-29.9283,,,EMS Station
+KwaZulu-Natal,kz Harry Gwala District Municipality,kz Dr Nkosazana Dlamini Zuma Local Municipality,kz Creighton EMS Station,29.84405,-30.0275,,,EMS Station
+KwaZulu-Natal,kz Harry Gwala District Municipality,kz Dr Nkosazana Dlamini Zuma Local Municipality,kz Pholela EMS Station,29.85848,-29.7631,,,EMS Station
+KwaZulu-Natal,kz Harry Gwala District Municipality,kz Dr Nkosazana Dlamini Zuma Local Municipality,kz Underberg EMS Station,29.505,-29.7889,,,EMS Station
+KwaZulu-Natal,kz Harry Gwala District Municipality,kz Greater Kokstad Local Municipality,kz Kokstad EMS Station,29.41357,-30.5461,,,EMS Station
+KwaZulu-Natal,kz Harry Gwala District Municipality,kz Ubuhlebezwe Local Municipality,kz Ixopo EMS Station,30.078138,-30.1621,,,EMS Station
+KwaZulu-Natal,kz Harry Gwala District Municipality,kz uMzimkhulu Local Municipality,kz Umzimkhulu EMS Station,29.926,-30.255,,,EMS Station
+KwaZulu-Natal,kz iLembe District Municipality,kz KwaDukuza Local Municipality,kz Kwadukuza EMS Station,31.289,-29.342,,,EMS Station
+KwaZulu-Natal,kz iLembe District Municipality,kz Mandeni Local Municipality,kz Isithebe EMS Station,31.429376,-29.0906,,,EMS Station
+KwaZulu-Natal,kz iLembe District Municipality,kz Mandeni Local Municipality,kz Sundumbili EMS Station,31.4011,-29.1337,,,EMS Station
+KwaZulu-Natal,kz iLembe District Municipality,kz Maphumulo Local Municipality,kz Maphumulo EMS Station,31.04259,-29.1425,,,EMS Station
+KwaZulu-Natal,kz iLembe District Municipality,kz Maphumulo Local Municipality,kz Untunjambili EMS Station,30.94846,-28.942,,,EMS Station
+KwaZulu-Natal,kz iLembe District Municipality,kz Ndwedwe Local Municipality,kz Isidumbini EMS Station,31.003869,-29.3772,,,EMS Station
+KwaZulu-Natal,kz iLembe District Municipality,kz Ndwedwe Local Municipality,kz Ndwedwe EMS Station,30.93717,-29.5105,,,EMS Station
+KwaZulu-Natal,kz King Cetshwayo District Municipality,kz City of uMhlathuze Local Municipality,kz Empangeni EMS Station,31.8964,-28.7391,,,EMS Station
+KwaZulu-Natal,kz King Cetshwayo District Municipality,kz City of uMhlathuze Local Municipality,kz Esikhaleni EMS Station,32.021537,-28.665,,,EMS Station
+KwaZulu-Natal,kz King Cetshwayo District Municipality,kz Mthonjaneni Local Municipality,kz Melmoth EMS Station,31.397,-28.589,,,EMS Station
+KwaZulu-Natal,kz King Cetshwayo District Municipality,kz Nkandla Local Municipality,kz Ekhombe EMS Station,30.89308,-28.6429,,,EMS Station
+KwaZulu-Natal,kz King Cetshwayo District Municipality,kz Nkandla Local Municipality,kz Nkandla EMS Station,31.08597,-28.6239,,,EMS Station
+KwaZulu-Natal,kz King Cetshwayo District Municipality,kz uMfolozi Local Municipality,kz Mbonambi EMS Station,32.250665,-28.5894,,,EMS Station
+KwaZulu-Natal,kz King Cetshwayo District Municipality,kz uMfolozi Local Municipality,kz Ntambanana EMS Station,31.853,-28.563,,,EMS Station
+KwaZulu-Natal,kz King Cetshwayo District Municipality,kz uMlalazi Local Municipality,kz Eshowe EMS Station,31.46764,-28.8978,,,EMS Station
+KwaZulu-Natal,kz King Cetshwayo District Municipality,kz uMlalazi Local Municipality,kz Gingindlovu EMS Station,31.587,-29.029,,,EMS Station
+KwaZulu-Natal,kz King Cetshwayo District Municipality,kz uMlalazi Local Municipality,kz Mbongolwane EMS Station,31.195027,-28.9335,,,EMS Station
+KwaZulu-Natal,kz Ugu District Municipality,kz Ray Nkonyeni Local Municipality,kz Port Shepstone EMS Station,30.43873,-30.7572,,,EMS Station
+KwaZulu-Natal,kz Ugu District Municipality,kz Ray Nkonyeni Local Municipality,kz Turton EMS Station,30.593,-30.503,,,EMS Station
+KwaZulu-Natal,kz Ugu District Municipality,kz Umdoni Local Municipality,kz Umzinto EMS Station,30.66721,-30.3041,,,EMS Station
+KwaZulu-Natal,kz Ugu District Municipality,kz Umuziwabantu Local Municipality,kz Harding EMS Station,29.88379,-30.5747,,,EMS Station
+KwaZulu-Natal,kz uMgungundlovu District Municipality,kz Msunduzi Local Municipality,kz COEC EMS Station,,,,,EMS Station
+KwaZulu-Natal,kz uMgungundlovu District Municipality,kz Msunduzi Local Municipality,kz Greys EMS Station,30.3612,-29.5807,,,EMS Station
+KwaZulu-Natal,kz uMgungundlovu District Municipality,kz Msunduzi Local Municipality,kz Imbali EMS Station,30.356198,-29.6589,,,EMS Station
+KwaZulu-Natal,kz uMgungundlovu District Municipality,kz Richmond Local Municipality,kz Richmond EMS Station,30.27743,-29.8694,,,EMS Station
+KwaZulu-Natal,kz uMgungundlovu District Municipality,kz uMngeni Local Municipality,kz Howick EMS Station,30.2322,-29.5005,,,EMS Station
+KwaZulu-Natal,kz uMgungundlovu District Municipality,kz uMshwathi Local Municipality,kz Appelsbosch EMS Station,30.84289,-29.3903,,"Noordsburg Road, Dalton",EMS Station
+KwaZulu-Natal,kz Umkhanyakude District Municipality,kz Big 5 Hlabisa Local Municipality,kz Hlabisa EMS Station,31.88007,-28.1457,,,EMS Station
+KwaZulu-Natal,kz Umkhanyakude District Municipality,kz Big 5 Hlabisa Local Municipality,kz Hluhluwe EMS Station,32.268615,-28.0206,,,EMS Station
+KwaZulu-Natal,kz Umkhanyakude District Municipality,kz Jozini Local Municipality,kz Bethesda EMS Station,32.0061,-27.1365,,Jozini Main Road,EMS Station
+KwaZulu-Natal,kz Umkhanyakude District Municipality,kz Jozini Local Municipality,kz Mosvold EMS Station,32.0061,-27.1365,,,EMS Station
+KwaZulu-Natal,kz Umkhanyakude District Municipality,kz Mtubatuba Local Municipality,kz Mtubatuba EMS Station,32.185,-28.411,,,EMS Station
+KwaZulu-Natal,kz Umkhanyakude District Municipality,kz uMhlabuyalingana Local Municipality,kz Manguzi EMS Station,32.7576,-26.9842,,,EMS Station
+KwaZulu-Natal,kz Umkhanyakude District Municipality,kz uMhlabuyalingana Local Municipality,kz Mseleni EMS Station,32.55675,-27.3254,,,EMS Station
+KwaZulu-Natal,kz Umzinyathi District Municipality,kz Endumeni Local Municipality,kz Dundee EMS Station,30.22612,-28.16,,"121 Mckenzie Str, Dundee",EMS Station
+KwaZulu-Natal,kz Umzinyathi District Municipality,kz Msinga Local Municipality,kz Tugela Ferry EMS Station,30.44994,-28.747,,"Hospital Street, Newcastle",EMS Station
+KwaZulu-Natal,kz Umzinyathi District Municipality,kz Nquthu Local Municipality,kz Nquthu EMS Station,30.67184,-28.2073,,"Main Road, Nqutu",EMS Station
+KwaZulu-Natal,kz Umzinyathi District Municipality,kz Umvoti Local Municipality,kz Greytown EMS Station,30.60663,-29.0607,,,EMS Station
+KwaZulu-Natal,kz Uthukela District Municipality,kz Alfred Duma Local Municipality,kz Ezakheni EMS Station,29.9265,-28.5964,,,EMS Station
+KwaZulu-Natal,kz Uthukela District Municipality,kz Alfred Duma Local Municipality,kz Ladysmith EMS Station,29.78586,-28.5404,,,EMS Station
+KwaZulu-Natal,kz Uthukela District Municipality,kz Inkosi Langalibalele Local Municipality,kz Estcourt EMS Station,29.89311,-29.0221,,,EMS Station
+KwaZulu-Natal,kz Uthukela District Municipality,kz Okhahlamba Local Municipality,kz Bergville EMS Station,29.37586,-28.8501,,"Sharat Street, Bergville",EMS Station
+KwaZulu-Natal,kz Uthukela District Municipality,kz Okhahlamba Local Municipality,kz Emmaus EMS Station,29.37586,-28.8501,,,EMS Station
+KwaZulu-Natal,kz Zululand District Municipality,kz AbaQulusi Local Municipality,kz Mondlo EMS Station,30.72576,-27.9954,,,EMS Station
+KwaZulu-Natal,kz Zululand District Municipality,kz AbaQulusi Local Municipality,kz Vryheid EMS Station,30.79807,-27.7578,,,EMS Station
+KwaZulu-Natal,kz Zululand District Municipality,kz eDumbe Local Municipality,kz Paulpietersburg EMS Station,30.82339,-27.4047,,,EMS Station
+KwaZulu-Natal,kz Zululand District Municipality,kz Nongoma Local Municipality,kz Nongoma EMS Station,31.63951,-27.8926,,"Main Road, Nongoma.",EMS Station
+KwaZulu-Natal,kz Zululand District Municipality,kz Ulundi Local Municipality,kz Ceza EMS Station,31.37775,-27.9961,,,EMS Station
+KwaZulu-Natal,kz Zululand District Municipality,kz Ulundi Local Municipality,kz Ulundi EMS Station,31.41913,-28.2641,,,EMS Station
+KwaZulu-Natal,kz Zululand District Municipality,kz uPhongolo Local Municipality,kz Pongola EMS Station,31.34687,-27.2774,,,EMS Station
+Limpopo,lp Capricorn District Municipality,lp Blouberg Local Municipality,lp Alldays EMS Station,29.105883,-22.6831,,,EMS Station
+Limpopo,lp Capricorn District Municipality,lp Blouberg Local Municipality,lp Helene Franz EMS Station,29.113967,-23.2834,,,EMS Station
+Limpopo,lp Capricorn District Municipality,lp Blouberg Local Municipality,lp Ratshaatshaa EMS Station,28.824517,-22.8977,,,EMS Station
+Limpopo,lp Capricorn District Municipality,lp Lepelle-Nkumpi Local Municipality,lp Lebowakgomo EMS Station,29.481083,-24.3186,,,EMS Station
+Limpopo,lp Capricorn District Municipality,lp Lepelle-Nkumpi Local Municipality,lp Zebediela EMS Station,29.336217,-24.3094,,,EMS Station
+Limpopo,lp Capricorn District Municipality,lp Molemole Local Municipality,lp Botlokwa EMS Station,29.744083,-23.4922,,,EMS Station
+Limpopo,lp Capricorn District Municipality,lp Molemole Local Municipality,lp Dendron EMS Station,29.32,-23.36,,,EMS Station
+Limpopo,lp Capricorn District Municipality,lp Polokwane Local Municipality,lp Mankweng EMS Station,29.7248,-23.8764,,,EMS Station
+Limpopo,lp Capricorn District Municipality,lp Polokwane Local Municipality,lp Mashashane EMS Station,29.133867,-23.9238,,,EMS Station
+Limpopo,lp Capricorn District Municipality,lp Polokwane Local Municipality,lp Moletjie EMS Station,29.340617,-23.7268,,,EMS Station
+Limpopo,lp Capricorn District Municipality,lp Polokwane Local Municipality,lp Polokwane EMS Station,29.442333,-23.872,,,EMS Station
+Limpopo,lp Capricorn District Municipality,lp Polokwane Local Municipality,lp Polokwane HQ EMS Station,29.461914,-23.8915,,,EMS Station
+Limpopo,lp Capricorn District Municipality,lp Polokwane Local Municipality,lp WF Knobel EMS Station,29.12065,-23.6338,,,EMS Station
+Limpopo,lp Mopani District Municipality,lp Ba-Phalaborwa Local Municipality,lp Ba-Phalaborwa EMS Station,31.036317,-23.9248,,,EMS Station
+Limpopo,lp Mopani District Municipality,lp Greater Giyani Local Municipality,lp Dzumeri EMS Station,30.708267,-23.5765,,,EMS Station
+Limpopo,lp Mopani District Municipality,lp Greater Giyani Local Municipality,lp Giyani EMS Station,30.692183,-23.3118,,,EMS Station
+Limpopo,lp Mopani District Municipality,lp Greater Giyani Local Municipality,lp Muyexe EMS Station,30.920083,-23.1959,,,EMS Station
+Limpopo,lp Mopani District Municipality,lp Greater Letaba Local Municipality,lp Kgapane EMS Station,30.218483,-23.6481,,,EMS Station
+Limpopo,lp Mopani District Municipality,lp Greater Letaba Local Municipality,lp Raphahlelo EMS Station,30.155717,-23.4096,,,EMS Station
+Limpopo,lp Mopani District Municipality,lp Greater Tzaneen Local Municipality,lp CN Phatudi EMS Station,30.280433,-24.027,,,EMS Station
+Limpopo,lp Mopani District Municipality,lp Greater Tzaneen Local Municipality,lp Grace Mugodeni EMS Station,30.4365,-23.7165,,,EMS Station
+Limpopo,lp Mopani District Municipality,lp Greater Tzaneen Local Municipality,lp Tzaneen EMS Station,30.165317,-23.8352,,,EMS Station
+Limpopo,lp Mopani District Municipality,lp Maruleng Local Municipality,lp Hoedspruit EMS Station,30.95025,-24.3553,,,EMS Station
+Limpopo,lp Mopani District Municipality,lp Maruleng Local Municipality,lp Sekororo EMS Station,30.4486,-24.2512,,,EMS Station
+Limpopo,lp Sekhukhune District Municipality,lp Elias Motsoaledi Local Municipality,lp Bosele EMS Station,29.740567,-25.0089,,,EMS Station
+Limpopo,lp Sekhukhune District Municipality,lp Elias Motsoaledi Local Municipality,lp Groblersdal EMS Station,29.4034,-25.1775,,,EMS Station
+Limpopo,lp Sekhukhune District Municipality,lp Elias Motsoaledi Local Municipality,lp Philadelphia EMS Station,29.149967,-25.2578,,,EMS Station
+Limpopo,lp Sekhukhune District Municipality,lp Elias Motsoaledi Local Municipality,lp Roossenekal EMS Station,29.924433,-25.1927,,,EMS Station
+Limpopo,lp Sekhukhune District Municipality,lp Elias Motsoaledi Local Municipality,lp Zaaiplaas EMS Station,29.7468,-25.1708,,,EMS Station
+Limpopo,lp Sekhukhune District Municipality,lp Ephraim Mogale Local Municipality,lp Matlala EMS Station,29.502717,-24.8336,,,EMS Station
+Limpopo,lp Sekhukhune District Municipality,lp Fetakgomo Tubatse Local Municipality,lp Dilokong EMS Station,30.17115,-24.6141,,,EMS Station
+Limpopo,lp Sekhukhune District Municipality,lp Fetakgomo Tubatse Local Municipality,lp Leboeng EMS Station,30.647183,-24.5088,,,EMS Station
+Limpopo,lp Sekhukhune District Municipality,lp Fetakgomo Tubatse Local Municipality,lp Masemola EMS Station,29.642733,-24.5616,,,EMS Station
+Limpopo,lp Sekhukhune District Municipality,lp Fetakgomo Tubatse Local Municipality,lp Mecklenburg EMS Station,30.074333,-24.3863,,,EMS Station
+Limpopo,lp Sekhukhune District Municipality,lp Fetakgomo Tubatse Local Municipality,lp Nchabeleng EMS Station,29.800567,-24.4396,,,EMS Station
+Limpopo,lp Sekhukhune District Municipality,lp Makhuduthamaga Local Municipality,lp Jane Furse EMS Station,29.856733,-24.7307,,,EMS Station
+Limpopo,lp Sekhukhune District Municipality,lp Makhuduthamaga Local Municipality,lp Schoonoord EMS Station,29.993133,-24.7633,,,EMS Station
+Limpopo,lp Vhembe District Municipality,lp Collins Chabane Local Municipality,lp Majosi EMS Station,30.343267,-23.2307,,,EMS Station
+Limpopo,lp Vhembe District Municipality,lp Collins Chabane Local Municipality,lp Malamulele EMS Station,30.694967,-22.9969,,,EMS Station
+Limpopo,lp Vhembe District Municipality,lp Makhado Local Municipality,lp Makhado EMS Station,29.904383,-23.0281,,,EMS Station
+Limpopo,lp Vhembe District Municipality,lp Makhado Local Municipality,lp Siloam EMS Station,30.194933,-22.8985,,,EMS Station
+Limpopo,lp Vhembe District Municipality,lp Musina Local Municipality,lp Masisi EMS Station,30.867233,-22.4213,,,EMS Station
+Limpopo,lp Vhembe District Municipality,lp Musina Local Municipality,lp Musina EMS Station,30.038517,-22.3368,,,EMS Station
+Limpopo,lp Vhembe District Municipality,lp Thulamela Local Municipality,lp Makuya EMS Station,30.829517,-22.6502,,,EMS Station
+Limpopo,lp Vhembe District Municipality,lp Thulamela Local Municipality,lp Mutale EMS Station,30.55955,-22.7132,,,EMS Station
+Limpopo,lp Vhembe District Municipality,lp Thulamela Local Municipality,lp Thohoyandou EMS Station,30.478667,-22.966,,,EMS Station
+Limpopo,lp Vhembe District Municipality,lp Thulamela Local Municipality,lp Tshaulu EMS Station,30.7366,-22.8061,,,EMS Station
+Limpopo,lp Waterberg District Municipality,lp Bela-Bela Local Municipality,lp Bela-Bela EMS Station,28.287167,-24.8858,,,EMS Station
+Limpopo,lp Waterberg District Municipality,lp Bela-Bela Local Municipality,lp Pienaarsrivier EMS Station,28.301717,-25.2165,,,EMS Station
+Limpopo,lp Waterberg District Municipality,lp Lephalale Local Municipality,lp Lephalale EMS Station,27.703217,-23.6787,,,EMS Station
+Limpopo,lp Waterberg District Municipality,lp Lephalale Local Municipality,lp Witpoort EMS Station,28.009333,-23.3308,,,EMS Station
+Limpopo,lp Waterberg District Municipality,lp Mogalakwena Local Municipality,lp George Masebe EMS Station,28.693317,-23.8764,,,EMS Station
+Limpopo,lp Waterberg District Municipality,lp Mogalakwena Local Municipality,lp Mokopane EMS Station,29.00925,-24.1954,,,EMS Station
+Limpopo,lp Waterberg District Municipality,lp Mogalakwena Local Municipality,lp Rebone EMS Station,28.661233,-23.4894,,,EMS Station
+Limpopo,lp Waterberg District Municipality,lp Mookgophong/Modimolle Local Municipality,lp Modimolle EMS Station,28.395233,-24.7098,,,EMS Station
+Limpopo,lp Waterberg District Municipality,lp Mookgophong/Modimolle Local Municipality,lp Mookgophong EMS Station,28.709567,-24.5177,,,EMS Station
+Limpopo,lp Waterberg District Municipality,lp Mookgophong/Modimolle Local Municipality,lp Vaalwater EMS Station,28.113233,-24.2942,,,EMS Station
+Limpopo,lp Waterberg District Municipality,lp Thabazimbi Local Municipality,lp Northam EMS Station,27.271517,-24.9647,,,EMS Station
+Limpopo,lp Waterberg District Municipality,lp Thabazimbi Local Municipality,lp Thabazimbi EMS Station,27.391583,-24.5893,,,EMS Station
+Mpumalanga,mp Ehlanzeni District Municipality,mp Bushbuckridge Local Municipality,mp Matikwana EMS Station,31.236,-24.987,,,EMS Station
+Mpumalanga,mp Ehlanzeni District Municipality,mp Bushbuckridge Local Municipality,mp Tintswalo EMS Station,31.059,-24.591,,,EMS Station
+Mpumalanga,mp Ehlanzeni District Municipality,mp City of Mbombela Local Municipality,mp Barberton EMS Station,31.054,-25.79,,,EMS Station
+Mpumalanga,mp Ehlanzeni District Municipality,mp City of Mbombela Local Municipality,mp Bongani EMS Station,31.126,-25.089,,,EMS Station
+Mpumalanga,mp Ehlanzeni District Municipality,mp City of Mbombela Local Municipality,mp Eureka EMS Station,31.18608,-25.681,,,EMS Station
+Mpumalanga,mp Ehlanzeni District Municipality,mp City of Mbombela Local Municipality,mp Matsulu EMS Station,31.352,-25.517,,,EMS Station
+Mpumalanga,mp Ehlanzeni District Municipality,mp City of Mbombela Local Municipality,mp Nelspruit EMS Station,30.97,-25.47,,,EMS Station
+Mpumalanga,mp Ehlanzeni District Municipality,mp City of Mbombela Local Municipality,mp Rob Ferreira EMS Station,30.971,-25.475,,,EMS Station
+Mpumalanga,mp Ehlanzeni District Municipality,mp City of Mbombela Local Municipality,mp Themba EMS Station,31.122,-25.345,,,EMS Station
+Mpumalanga,mp Ehlanzeni District Municipality,mp Nkomazi Local Municipality,mp Shongwe EMS Station,31.491,-25.686,,,EMS Station
+Mpumalanga,mp Ehlanzeni District Municipality,mp Nkomazi Local Municipality,mp Tonga EMS Station,31.788,-25.694,,,EMS Station
+Mpumalanga,mp Ehlanzeni District Municipality,mp Thaba Chweu Local Municipality,mp Lydenburg EMS Station,30.451,-25.108,,,EMS Station
+Mpumalanga,mp Ehlanzeni District Municipality,mp Thaba Chweu Local Municipality,mp Matibidi EMS Station,30.769,-24.588,,,EMS Station
+Mpumalanga,mp Ehlanzeni District Municipality,mp Thaba Chweu Local Municipality,mp Sabie EMS Station,30.782,-25.092,,,EMS Station
+Mpumalanga,mp Gert Sibande District Municipality,mp Chief Albert Luthuli Local Municipality,mp Carolina EMS Station,30.112,-26.075,,,EMS Station
+Mpumalanga,mp Gert Sibande District Municipality,mp Chief Albert Luthuli Local Municipality,mp Embhuleni EMS Station,30.814,-26.048,,,EMS Station
+Mpumalanga,mp Gert Sibande District Municipality,mp Chief Albert Luthuli Local Municipality,mp Mayflower EMS Station,30.775,-26.299,,,EMS Station
+Mpumalanga,mp Gert Sibande District Municipality,mp Dipaleseng Local Municipality,mp Balfour EMS Station,28.578,-26.634,,,EMS Station
+Mpumalanga,mp Gert Sibande District Municipality,mp Dr Pixley Ka Isaka Seme Local Municipality,mp Volksrust EMS Station,29.891,-27.35,,,EMS Station
+Mpumalanga,mp Gert Sibande District Municipality,mp Govan Mbeki Local Municipality,mp Bethal EMS Station,29.467,-26.464,,,EMS Station
+Mpumalanga,mp Gert Sibande District Municipality,mp Govan Mbeki Local Municipality,mp Evander EMS Station,29.126,-26.458,,,EMS Station
+Mpumalanga,mp Gert Sibande District Municipality,mp Govan Mbeki Local Municipality,mp Secunda EMS Station,29.182,-26.507,,,EMS Station
+Mpumalanga,mp Gert Sibande District Municipality,mp Govan Mbeki Local Municipality,mp Trichardt EMS Station,29.209,-26.48,,,EMS Station
+Mpumalanga,mp Gert Sibande District Municipality,mp Lekwa Local Municipality,mp Standerton EMS Station,29.2454,-26.939,,,EMS Station
+Mpumalanga,mp Gert Sibande District Municipality,mp Mkhondo Local Municipality,mp Piet Retief EMS Station,30.806,-27.018,,,EMS Station
+Mpumalanga,mp Gert Sibande District Municipality,mp Msukaligwa Local Municipality,mp Ermelo EMS Station,29.975,-26.523,,,EMS Station
+Mpumalanga,mp Gert Sibande District Municipality,mp Msukaligwa Local Municipality,mp Sesifuba EMS Station,29.977,-26.52,,,EMS Station
+Mpumalanga,mp Nkangala District Municipality,mp Dr JS Moroka Local Municipality,mp Mmametlhake EMS Station,28.558,-25.1046,,,EMS Station
+Mpumalanga,mp Nkangala District Municipality,mp Emakhazeni Local Municipality,mp Belfast EMS Station,30.044,-25.696,,,EMS Station
+Mpumalanga,mp Nkangala District Municipality,mp Emakhazeni Local Municipality,mp Waterval Boven EMS Station,30.338,-25.647,,,EMS Station
+Mpumalanga,mp Nkangala District Municipality,mp Emalahleni Local Municipality,mp Cosmos EMS Station,29.218,-25.874,,,EMS Station
+Mpumalanga,mp Nkangala District Municipality,mp Emalahleni Local Municipality,mp Greenside EMS Station,29.178193,-25.9586,,,EMS Station
+Mpumalanga,mp Nkangala District Municipality,mp Emalahleni Local Municipality,mp Impungwe EMS Station,29.276,-25.982,,,EMS Station
+Mpumalanga,mp Nkangala District Municipality,mp Emalahleni Local Municipality,mp Rietspruit EMS Station,29.2,-26.162,,,EMS Station
+Mpumalanga,mp Nkangala District Municipality,mp Emalahleni Local Municipality,mp Witbank EMS Station,29.234,-25.881,,,EMS Station
+Mpumalanga,mp Nkangala District Municipality,mp Steve Tshwete Local Municipality,mp Hendrina EMS Station,29.715,-26.159,,,EMS Station
+Mpumalanga,mp Nkangala District Municipality,mp Steve Tshwete Local Municipality,mp Middelburg EMS Station,29.451,-25.774,,,EMS Station
+Mpumalanga,mp Nkangala District Municipality,mp Steve Tshwete Local Municipality,mp Midmed EMS Station,29.457693,-25.7621,,,EMS Station
+Mpumalanga,mp Nkangala District Municipality,mp Thembisile Hani Local Municipality,mp KwaMhlanga EMS Station,28.704,-25.418,,,EMS Station
+Mpumalanga,mp Nkangala District Municipality,mp Victor Khanye Local Municipality,mp Bernice Samuels EMS Station,28.666,-26.152,,,EMS Station
+Northern Cape,nc Frances Baard District Municipality,nc Dikgatlong Local Municipality,nc Barkly West EMS Station,24.51424,-28.5344,,,EMS Station
+Northern Cape,nc Frances Baard District Municipality,nc Magareng Local Municipality,nc Warrenton EMS Station,24.85864,-28.1065,,,EMS Station
+Northern Cape,nc Frances Baard District Municipality,nc Phokwane Local Municipality,nc Hartswater EMS Station,24.81349,-27.7574,,,EMS Station
+Northern Cape,nc Frances Baard District Municipality,nc Phokwane Local Municipality,nc Jan Kempdorp EMS Station,24.83342,-27.9218,,,EMS Station
+Northern Cape,nc Frances Baard District Municipality,nc Phokwane Local Municipality,nc Pampierstad EMS Station,24.688,-27.779,,,EMS Station
+Northern Cape,nc Frances Baard District Municipality,nc Sol Plaatje Local Municipality,nc Air Mercy Services EMS Station,,,,,EMS Station
+Northern Cape,nc Frances Baard District Municipality,nc Sol Plaatje Local Municipality,nc Kimberley EMS Station,24.74583,-28.7285,,,EMS Station
+Northern Cape,nc Frances Baard District Municipality,nc Sol Plaatje Local Municipality,nc Ritchie EMS Station,24.588,-29.028,,,EMS Station
+Northern Cape,nc John Taolo Gaetsewe District Municipality,nc Gamagara Local Municipality,nc Kathu EMS Station,23.051,-27.697,,,EMS Station
+Northern Cape,nc John Taolo Gaetsewe District Municipality,nc Gamagara Local Municipality,nc Olifantshoek EMS Station,22.735,-27.938,,,EMS Station
+Northern Cape,nc John Taolo Gaetsewe District Municipality,nc Ga-Segonyana Local Municipality,nc Ga-Segonyana EMS Station,23.4425,-27.4607,,,EMS Station
+Northern Cape,nc John Taolo Gaetsewe District Municipality,nc Ga-Segonyana Local Municipality,nc Kuruman EMS Station,23.26563,-27.276,,,EMS Station
+Northern Cape,nc John Taolo Gaetsewe District Municipality,nc Joe Morolong Local Municipality,nc Cassels EMS Station,23.991,-26.965,,,EMS Station
+Northern Cape,nc John Taolo Gaetsewe District Municipality,nc Joe Morolong Local Municipality,nc Heuningvlei EMS Station,23.139,-26.3051,,,EMS Station
+Northern Cape,nc John Taolo Gaetsewe District Municipality,nc Joe Morolong Local Municipality,nc Kudumane EMS Station,,,,,EMS Station
+Northern Cape,nc John Taolo Gaetsewe District Municipality,nc Joe Morolong Local Municipality,nc Loopeng EMS Station,23.351,-26.796,,,EMS Station
+Northern Cape,nc John Taolo Gaetsewe District Municipality,nc Joe Morolong Local Municipality,nc Madibeng EMS Station,22.848441,-26.5719,,,EMS Station
+Northern Cape,nc John Taolo Gaetsewe District Municipality,nc Joe Morolong Local Municipality,nc Van Zylsrus EMS Station,22.053,-26.878,,,EMS Station
+Northern Cape,nc Namakwa District Municipality,nc Hantam Local Municipality,nc Brandvlei EMS Station,20.481,-30.462,,,EMS Station
+Northern Cape,nc Namakwa District Municipality,nc Hantam Local Municipality,nc Calvinia EMS Station,19.776,-31.461,,,EMS Station
+Northern Cape,nc Namakwa District Municipality,nc Hantam Local Municipality,nc Loeriesfontein EMS Station,19.443,-30.963,,,EMS Station
+Northern Cape,nc Namakwa District Municipality,nc Hantam Local Municipality,nc Nieuwoudtville EMS Station,19.116,-31.367,,,EMS Station
+Northern Cape,nc Namakwa District Municipality,nc Kamiesberg Local Municipality,nc Garies EMS Station,17.989,-30.565,,,EMS Station
+Northern Cape,nc Namakwa District Municipality,nc Kamiesberg Local Municipality,nc Hondeklipbaai EMS Station,17.278,-30.318,,,EMS Station
+Northern Cape,nc Namakwa District Municipality,nc Kamiesberg Local Municipality,nc Kamieskroon EMS Station,17.56112,-30.1251,,,EMS Station
+Northern Cape,nc Namakwa District Municipality,nc Kamiesberg Local Municipality,nc Leliefontein EMS Station,18.082,-30.314,,,EMS Station
+Northern Cape,nc Namakwa District Municipality,nc Karoo Hoogland Local Municipality,nc Fraserburg EMS Station,21.503,-31.917,,,EMS Station
+Northern Cape,nc Namakwa District Municipality,nc Karoo Hoogland Local Municipality,nc Sutherland EMS Station,20.665,-32.398,,,EMS Station
+Northern Cape,nc Namakwa District Municipality,nc Karoo Hoogland Local Municipality,nc Williston EMS Station,20.915,-31.335,,,EMS Station
+Northern Cape,nc Namakwa District Municipality,nc Kh������i-Ma Local Municipality,nc Pella EMS Station,19.154,-29.032,,,EMS Station
+Northern Cape,nc Namakwa District Municipality,nc Kh������i-Ma Local Municipality,nc Pofadder EMS Station,19.394,-29.128,,,EMS Station
+Northern Cape,nc Namakwa District Municipality,nc Nama Khoi Local Municipality,nc Komaggas EMS Station,17.488,-29.796,,,EMS Station
+Northern Cape,nc Namakwa District Municipality,nc Nama Khoi Local Municipality,nc Springbok EMS Station,17.883,-29.66,,,EMS Station
+Northern Cape,nc Namakwa District Municipality,nc Nama Khoi Local Municipality,nc Steinkopf EMS Station,17.736,-29.262,,,EMS Station
+Northern Cape,nc Namakwa District Municipality,nc Richtersveld Local Municipality,nc Alexander Bay EMS Station,16.483,-28.612,,,EMS Station
+Northern Cape,nc Namakwa District Municipality,nc Richtersveld Local Municipality,nc Kuboes EMS Station,16.992,-28.447,,,EMS Station
+Northern Cape,nc Namakwa District Municipality,nc Richtersveld Local Municipality,nc Port Nolloth EMS Station,16.871,-29.25,,,EMS Station
+Northern Cape,nc Pixley ka Seme District Municipality,nc Emthanjeni Local Municipality,nc Britstown EMS Station,23.501,-30.583,,,EMS Station
+Northern Cape,nc Pixley ka Seme District Municipality,nc Emthanjeni Local Municipality,nc De Aar EMS Station,24.008,-30.659,,,EMS Station
+Northern Cape,nc Pixley ka Seme District Municipality,nc Emthanjeni Local Municipality,nc Hanover EMS Station,24.447,-31.067,,,EMS Station
+Northern Cape,nc Pixley ka Seme District Municipality,nc Kareeberg Local Municipality,nc Carnarvon EMS Station,22.126,-30.963,,,EMS Station
+Northern Cape,nc Pixley ka Seme District Municipality,nc Kareeberg Local Municipality,nc Van Wyksvlei EMS Station,21.824,-30.348,,,EMS Station
+Northern Cape,nc Pixley ka Seme District Municipality,nc Kareeberg Local Municipality,nc Vosburg EMS Station,22.878,-30.576,,,EMS Station
+Northern Cape,nc Pixley ka Seme District Municipality,nc Renosterberg Local Municipality,nc Petrusville EMS Station,24.657,-30.078,,,EMS Station
+Northern Cape,nc Pixley ka Seme District Municipality,nc Renosterberg Local Municipality,nc Phillipstown EMS Station,24.471,-30.436,,,EMS Station
+Northern Cape,nc Pixley ka Seme District Municipality,nc Siyancuma Local Municipality,nc Douglas EMS Station,23.768,-29.059,,,EMS Station
+Northern Cape,nc Pixley ka Seme District Municipality,nc Siyancuma Local Municipality,nc Griekwastad EMS Station,23.253,-28.843,,,EMS Station
+Northern Cape,nc Pixley ka Seme District Municipality,nc Siyathemba Local Municipality,nc Marydale EMS Station,22.104,-29.409,,,EMS Station
+Northern Cape,nc Pixley ka Seme District Municipality,nc Siyathemba Local Municipality,nc Prieska EMS Station,22.737,-29.668,,,EMS Station
+Northern Cape,nc Pixley ka Seme District Municipality,nc Thembelihle Local Municipality,nc Hopetown EMS Station,24.088,-29.627,,,EMS Station
+Northern Cape,nc Pixley ka Seme District Municipality,nc Thembelihle Local Municipality,nc Strydenburg EMS Station,23.668,-29.637,,,EMS Station
+Northern Cape,nc Pixley ka Seme District Municipality,nc Ubuntu Local Municipality,nc Richmond EMS Station,23.95,-31.409,,,EMS Station
+Northern Cape,nc Pixley ka Seme District Municipality,nc Ubuntu Local Municipality,nc Victoria West EMS Station,23.117,-31.406,,,EMS Station
+Northern Cape,nc Pixley ka Seme District Municipality,nc Umsobomvu Local Municipality,nc Colesberg EMS Station,25.101,-30.708,,,EMS Station
+Northern Cape,nc Pixley ka Seme District Municipality,nc Umsobomvu Local Municipality,nc Norvalspont EMS Station,25.454,-30.629,,,EMS Station
+Northern Cape,nc Pixley ka Seme District Municipality,nc Umsobomvu Local Municipality,nc Noupoort EMS Station,24.951,-31.184,,,EMS Station
+Northern Cape,nc Zwelentlanga Fatman Mgcawu District Municipality,nc Dawid Kruiper Local Municipality,nc Askham EMS Station,20.782,-26.981,,,EMS Station
+Northern Cape,nc Zwelentlanga Fatman Mgcawu District Municipality,nc Dawid Kruiper Local Municipality,nc Karos EMS Station,,,,,EMS Station
+Northern Cape,nc Zwelentlanga Fatman Mgcawu District Municipality,nc Dawid Kruiper Local Municipality,nc Mier EMS Station,,,,,EMS Station
+Northern Cape,nc Zwelentlanga Fatman Mgcawu District Municipality,nc Dawid Kruiper Local Municipality,nc Rietfontein EMS Station,20.029,-26.736,,,EMS Station
+Northern Cape,nc Zwelentlanga Fatman Mgcawu District Municipality,nc Dawid Kruiper Local Municipality,nc Upington EMS Station,21.218,-28.464,,,EMS Station
+Northern Cape,nc Zwelentlanga Fatman Mgcawu District Municipality,nc Kai !Garib Local Municipality,nc Augrabies EMS Station,20.428,-28.671,,,EMS Station
+Northern Cape,nc Zwelentlanga Fatman Mgcawu District Municipality,nc Kai !Garib Local Municipality,nc Kakamas EMS Station,20.622,-28.78,,,EMS Station
+Northern Cape,nc Zwelentlanga Fatman Mgcawu District Municipality,nc Kai !Garib Local Municipality,nc Keimoes EMS Station,20.955,-28.705,,,EMS Station
+Northern Cape,nc Zwelentlanga Fatman Mgcawu District Municipality,nc Kai !Garib Local Municipality,nc Kenhardt EMS Station,21.158,-29.353,,,EMS Station
+Northern Cape,nc Zwelentlanga Fatman Mgcawu District Municipality,nc Kgatelopele Local Municipality,nc Danielskuil EMS Station,23.547,-28.182,,,EMS Station
+Northern Cape,nc Zwelentlanga Fatman Mgcawu District Municipality,nc Kgatelopele Local Municipality,nc Kgatelopele EMS Station,,,,,EMS Station
+Northern Cape,nc Zwelentlanga Fatman Mgcawu District Municipality,nc !Kheis Local Municipality,nc Groblershoop EMS Station,21.982,-28.895,,,EMS Station
+Northern Cape,nc Zwelentlanga Fatman Mgcawu District Municipality,nc !Kheis Local Municipality,nc Grootdrink EMS Station,,,,,EMS Station
+Northern Cape,nc Zwelentlanga Fatman Mgcawu District Municipality,nc Tsantsabane Local Municipality,nc Postmasburg EMS Station,23.06,-28.327,,,EMS Station
+North West,nw Bojanala Platinum District Municipality,nw Kgetlengrivier Local Municipality,nw Kgetlengrivier EMS Station,26.898392,-25.8598,,,EMS Station
+North West,nw Bojanala Platinum District Municipality,nw Madibeng Local Municipality,nw Madibeng EMS Station,27.776,-25.636,,,EMS Station
+North West,nw Bojanala Platinum District Municipality,nw Moretele Local Municipality,nw Moretele EMS Station,27.96,-25.145,,,EMS Station
+North West,nw Bojanala Platinum District Municipality,nw Moses Kotane Local Municipality,nw Moses Kotane EMS Station,27.161,-25.18,,,EMS Station
+North West,nw Bojanala Platinum District Municipality,nw Rustenburg Local Municipality,nw Rustenburg EMS Station,27.244,-25.677,,,EMS Station
+North West,nw Dr Kenneth Kaunda District Municipality,nw City of Matlosana Local Municipality,nw Klerksdorp EMS Station,26.662,-26.877,,,EMS Station
+North West,nw Dr Kenneth Kaunda District Municipality,nw JB Marks Local Municipality,nw Potchefstroom EMS Station,27.083,-26.726,,,EMS Station
+North West,nw Dr Kenneth Kaunda District Municipality,nw JB Marks Local Municipality,nw Ventersdorp EMS Station,26.819,-26.31,,,EMS Station
+North West,nw Dr Kenneth Kaunda District Municipality,nw Maquassi Hills Local Municipality,nw Maquassi Hills EMS Station,25.998615,-27.3129,,,EMS Station
+North West,nw Dr Ruth Segomotsi Mompati District Municipality,nw Greater Taung Local Municipality,nw Taung EMS Station,24.791,-27.537,,,EMS Station
+North West,nw Dr Ruth Segomotsi Mompati District Municipality,nw Kagisano-Molopo Local Municipality,nw Kagisano EMS Station,24.1804,-26.6007,,,EMS Station
+North West,nw Dr Ruth Segomotsi Mompati District Municipality,nw Kagisano-Molopo Local Municipality,nw Molopo EMS Station,24.72984,-26.9582,,,EMS Station
+North West,nw Dr Ruth Segomotsi Mompati District Municipality,nw Lekwa-Teemane Local Municipality,nw Lekwa-Teemane EMS Station,25.163785,-27.9116,,,EMS Station
+North West,nw Dr Ruth Segomotsi Mompati District Municipality,nw Mamusa Local Municipality,nw Mamusa EMS Station,25.182,-27.149,,,EMS Station
+North West,nw Dr Ruth Segomotsi Mompati District Municipality,nw Naledi Local Municipality,nw Naledi EMS Station,24.722556,-26.9465,,,EMS Station
+North West,nw Ngaka Modiri Molema District Municipality,nw Ditsobotla Local Municipality,nw Ditsobotla EMS Station,26.24,-26.32,,,EMS Station
+North West,nw Ngaka Modiri Molema District Municipality,nw Mahikeng Local Municipality,nw Mahikeng EMS Station,25.637389,-25.8463,,,EMS Station
+North West,nw Ngaka Modiri Molema District Municipality,nw Ramotshere Moiloa Local Municipality,nw Ramotshere Moiloa EMS Station,26.037,-25.525,,,EMS Station
+North West,nw Ngaka Modiri Molema District Municipality,nw Ratlou Local Municipality,nw Ratlou EMS Station,25.122,-26.262,,,EMS Station
+North West,nw Ngaka Modiri Molema District Municipality,nw Tswaing Local Municipality,nw Tswaing EMS Station,25.368,-26.5,,,EMS Station
+Western Cape,wc Cape Winelands District Municipality,wc Breede Valley Local Municipality,wc De Doorns EMS Station,19.671,-33.481,,,EMS Station
+Western Cape,wc Cape Winelands District Municipality,wc Breede Valley Local Municipality,wc Touws River EMS Station,20.028,-33.34,,,EMS Station
+Western Cape,wc Cape Winelands District Municipality,wc Breede Valley Local Municipality,wc Worcester EMS Station,19.458,-33.6455,,,EMS Station
+Western Cape,wc Cape Winelands District Municipality,wc Drakenstein Local Municipality,wc Paarl EMS Station,18.966,-33.731,,,EMS Station
+Western Cape,wc Cape Winelands District Municipality,wc Langeberg Local Municipality,wc Bonnievale EMS Station,20.077,-33.936,,,EMS Station
+Western Cape,wc Cape Winelands District Municipality,wc Langeberg Local Municipality,wc Montagu EMS Station,20.123,-33.797,,,EMS Station
+Western Cape,wc Cape Winelands District Municipality,wc Langeberg Local Municipality,wc Robertson EMS Station,19.891,-33.801,,,EMS Station
+Western Cape,wc Cape Winelands District Municipality,wc Stellenbosch Local Municipality,wc Stellenbosch EMS Station,18.87,-33.93,,,EMS Station
+Western Cape,wc Cape Winelands District Municipality,wc Witzenberg Local Municipality,wc Ceres EMS Station,19.30083,-33.363,,,EMS Station
+Western Cape,wc Cape Winelands District Municipality,wc Witzenberg Local Municipality,wc Tulbagh EMS Station,19.146,-33.284,,,EMS Station
+Western Cape,wc Central Karoo District Municipality,wc Beaufort West Local Municipality,wc Beaufort West EMS Station,22.607,-32.352,,,EMS Station
+Western Cape,wc Central Karoo District Municipality,wc Beaufort West Local Municipality,wc Murraysburg EMS Station,23.769,-31.962,,,EMS Station
+Western Cape,wc Central Karoo District Municipality,wc Beaufort West Local Municipality,wc Nelspoort EMS Station,23.005,-32.088,,,EMS Station
+Western Cape,wc Central Karoo District Municipality,wc Laingsburg Local Municipality,wc Laingsburg EMS Station,20.85,-33.194,,,EMS Station
+Western Cape,wc Central Karoo District Municipality,wc Prince Albert Local Municipality,wc Klaarstroom EMS Station,22.535,-33.33,,,EMS Station
+Western Cape,wc Central Karoo District Municipality,wc Prince Albert Local Municipality,wc Leeu-Gamka EMS Station,21.967,-32.767,,,EMS Station
+Western Cape,wc Central Karoo District Municipality,wc Prince Albert Local Municipality,wc Merweville EMS Station,21.515,-32.664,,,EMS Station
+Western Cape,wc Central Karoo District Municipality,wc Prince Albert Local Municipality,wc Prince Albert EMS Station,22.02583,-33.2166,,,EMS Station
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Eastern Health sub-District,wc Khayelitsha Eastern EMS Station,18.674944,-34.0471,,,EMS Station
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Eastern Health sub-District,wc Somerset West EMS Station,18.848,-34.085,,,EMS Station
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Northern Health sub-District,wc Tygerberg Northern EMS Station,18.636784,-33.8819,,,EMS Station
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Southern Health sub-District,wc Atlantis/False Bay/Hout Bay EMS Station,,,,,EMS Station
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Southern Health sub-District,wc Southern EMS Station,,,,,EMS Station
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Western Health sub-District,wc ICU and Flying Squad Program EMS Station,,,,,EMS Station
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Western Health sub-District,wc Pinelands Western EMS Station,18.495,-33.936,,,EMS Station
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Mitchells Plain Health sub-District,wc Lentegeur Southern EMS Station,18.613125,-34.0219,,,EMS Station
+Western Cape,wc Garden Route District Municipality,wc Bitou Local Municipality,wc Plettenberg Bay EMS Station,23.367,-34.055,,,EMS Station
+Western Cape,wc Garden Route District Municipality,wc George Local Municipality,wc George EMS Station,22.453,-33.96,,,EMS Station
+Western Cape,wc Garden Route District Municipality,wc George Local Municipality,wc Uniondale EMS Station,23.125,-33.659,,,EMS Station
+Western Cape,wc Garden Route District Municipality,wc George Local Municipality,wc Wilderness EMS Station,22.474,-33.963,,,EMS Station
+Western Cape,wc Garden Route District Municipality,wc Hessequa Local Municipality,wc Albertinia EMS Station,21.584,-34.204,,,EMS Station
+Western Cape,wc Garden Route District Municipality,wc Hessequa Local Municipality,wc Heidelberg EMS Station,20.962,-34.102,,,EMS Station
+Western Cape,wc Garden Route District Municipality,wc Hessequa Local Municipality,wc Langeberg EMS Station,18.705109,-33.8392,,,EMS Station
+Western Cape,wc Garden Route District Municipality,wc Hessequa Local Municipality,wc Riversdale EMS Station,21.254,-34.093,,,EMS Station
+Western Cape,wc Garden Route District Municipality,wc Kannaland Local Municipality,wc Calitzdorp EMS Station,21.681,-33.528,,,EMS Station
+Western Cape,wc Garden Route District Municipality,wc Kannaland Local Municipality,wc Ladismith EMS Station,21.268,-33.487,,,EMS Station
+Western Cape,wc Garden Route District Municipality,wc Knysna Local Municipality,wc Knysna EMS Station,23.058,-34.036,,,EMS Station
+Western Cape,wc Garden Route District Municipality,wc Mossel Bay Local Municipality,wc Mossel Bay EMS Station,22.127,-34.185,,,EMS Station
+Western Cape,wc Garden Route District Municipality,wc Oudtshoorn Local Municipality,wc Dysselsdorp EMS Station,22.439,-33.575,,,EMS Station
+Western Cape,wc Garden Route District Municipality,wc Oudtshoorn Local Municipality,wc Oudtshoorn EMS Station,22.188,-33.588,,,EMS Station
+Western Cape,wc Overberg District Municipality,wc Cape Agulhas Local Municipality,wc Bredasdorp EMS Station,20.047,-34.535,,,EMS Station
+Western Cape,wc Overberg District Municipality,wc Overstrand Local Municipality,wc Hermanus EMS Station,19.228,-34.422,,,EMS Station
+Western Cape,wc Overberg District Municipality,wc Overstrand Local Municipality,wc Riviersonderend EMS Station,19.925,-34.148,,,EMS Station
+Western Cape,wc Overberg District Municipality,wc Swellendam Local Municipality,wc Barrydale EMS Station,20.722,-33.907,,,EMS Station
+Western Cape,wc Overberg District Municipality,wc Swellendam Local Municipality,wc Swellendam EMS Station,20.449,-34.023,,,EMS Station
+Western Cape,wc Overberg District Municipality,wc Theewaterskloof Local Municipality,wc Caledon EMS Station,19.433,-34.224,,,EMS Station
+Western Cape,wc Overberg District Municipality,wc Theewaterskloof Local Municipality,wc Grabouw EMS Station,19.181,-34.204,,,EMS Station
+Western Cape,wc Overberg District Municipality,wc Theewaterskloof Local Municipality,wc Villiersdorp EMS Station,19.31,-33.99,,,EMS Station
+Western Cape,wc West Coast District Municipality,wc Bergrivier Local Municipality,wc Piketberg EMS Station,18.698,-32.865,,,EMS Station
+Western Cape,wc West Coast District Municipality,wc Bergrivier Local Municipality,wc Porterville EMS Station,18.993,-33.018,,,EMS Station
+Western Cape,wc West Coast District Municipality,wc Cederberg Local Municipality,wc Citrusdal EMS Station,19.017,-32.598,,,EMS Station
+Western Cape,wc West Coast District Municipality,wc Cederberg Local Municipality,wc Clanwilliam EMS Station,18.89,-32.183,,,EMS Station
+Western Cape,wc West Coast District Municipality,wc Cederberg Local Municipality,wc Lamberts Bay EMS Station,18.306,-32.094,,,EMS Station
+Western Cape,wc West Coast District Municipality,wc Matzikama Local Municipality,wc Bitterfontein EMS Station,18.264153,-31.0394,,,EMS Station
+Western Cape,wc West Coast District Municipality,wc Matzikama Local Municipality,wc Van Rhynsdorp EMS Station,18.751,-31.6,,,EMS Station
+Western Cape,wc West Coast District Municipality,wc Matzikama Local Municipality,wc Vredendal EMS Station,18.504,-31.669,,,EMS Station
+Western Cape,wc West Coast District Municipality,wc Saldanha Bay Local Municipality,wc Vredenburg EMS Station,17.99,-32.913,,,EMS Station
+Western Cape,wc West Coast District Municipality,wc Swartland Local Municipality,wc Darling EMS Station,18.386,-33.37,,,EMS Station
+Western Cape,wc West Coast District Municipality,wc Swartland Local Municipality,wc Malmesbury EMS Station,18.717,-33.467,,,EMS Station
+Western Cape,wc West Coast District Municipality,wc Swartland Local Municipality,wc Moorreesburg EMS Station,18.664,-33.15,,,EMS Station
