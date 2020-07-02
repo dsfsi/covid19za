@@ -146,12 +146,12 @@ Some of COVID-19 Data for South Africa (data in this repo) is currently being us
 
 | Project Name  | Project Description |  Project Demo    |    Project owner |    Country   |
 | ------------- | ------------- |------------|-----------------|------------------|
-| 1. Covid-19 SA Data | Data visualizations corresponding to the current Covid-19 outbreak in South Africa | View data visualizations [here](https://simonrosen173.github.io/Covid19SAData/) | [Simon Rosen](https://github.com/SimonRosen173)| South Africa |
-| 2. Covid-19 testing areas| A Covid-19 Testing Facilities Map |View testing areas [here](https://www.ineff.ch/cov19testmap/)| [Yannick Zehnder](https://github.com/IneffableKoD/) | Switzerland |
+| 1. Covid-19 SA Data | Data visualizations corresponding to the current Covid-19 outbreak in South Africa |  [Website](https://simonrosen173.github.io/Covid19SAData/),[GitHub Repo](https://github.com/SimonRosen173/Covid19SAData) | [Simon Rosen](https://github.com/SimonRosen173)| South Africa |
+| 2. Covid-19 testing areas| A Covid-19 Testing Facilities Map |[Website](https://www.ineff.ch/cov19testmap/),[GitHub Repo](https://github.com/IneffableKoD/cov19testmap)| [Yannick Zehnder](https://github.com/IneffableKoD/) | Switzerland |
 | 3. Covid-19 Map| A Coronavirus Map | [[Website](https://coronamap.co.za)] [[GitHub Repo](https://github.com/JayWelsh/coronamap)] | Jay Welsh | South Africa |
 | 4. Covid-19 Telegram Bot| Corona virus statistics via Telegram | [Link](https://t.me/CoronaZABot) | CodeChap | South Africa |
 | 5. Covid-19 Xitsonga Dashboard | Xitsonga Dashboard | [Link](http://xitsonga.org/covid19) | xitsonga.org | South Africa |
-| 6. Hospitals' capacity to respond to Covid-19 | Data visualization mapping local hospitals (private ad public) in South Africa | [Explore](https://elolelo.github.io/covid19/) ,Read [here](https://github.com/elolelo/covid19) about the project |Nompumelelo|South Africa |
+| 6. Hospitals' capacity to respond to Covid-19 | Data visualization mapping local hospitals (private ad public) in South Africa | [Map Viz](https://elolelo.github.io/covid19/) ,[Repo](https://github.com/elolelo/covid19) |Nompumelelo|South Africa |
 | 7. Covid-19 Trends | Covid-19 analytics dashboard for South Africa | [[Website]](http://www.covid19trends.co.za) [[Repo]](https://github.com/heerden/Covid19TrendsZA) | [Schalk van Heerden](https://github.com/heerden) | South Africa | 
 | 8. Covid-19 Tshivenda Dashboard | Tshivenda Dashboard | [Link](http://luvenda.com/covid/) | luvenda.com | South Africa |
-| 9. Map of Health facilites around me  | Map showing comparable details of hospitals around my location in response to Covid-19  | [Website](https://dsfsi.github.io/healthfacilitymap/) | [These authors](https://dsfsi.github.io/blog/mapping-healthsystem/)  | South Africa |
+| 9. Map of Health facilites around me  | Map showing comparable details of hospitals around my location in response to Covid-19  | [Website](https://dsfsi.github.io/healthfacilitymap/) , [GitHub Repo](https://github.com/dsfsi/healthfacilitymap) | [These authors](https://dsfsi.github.io/blog/mapping-healthsystem/)  | South Africa |
