@@ -1,0 +1,122 @@
+Province,District,Local Municipality,Name,Longitude,Latitude,ContactPerson,Address,OrgUnitOwnership
+Eastern Cape,ec Nelson Mandela Bay Municipality,ec Nelson Mandela C Health sub-District,Life Esidimeni Algoa Frail Care,25.471429,-33.8891,,Mission Road,Private
+Eastern Cape,ec Nelson Mandela Bay Municipality,ec Nelson Mandela C Health sub-District,Life Esidimeni Lorraine Frail Care,25.504988,-33.9725,,3 Sedan Avenue,Private
+Eastern Cape,ec Nelson Mandela Bay Municipality,ec Nelson Mandela C Health sub-District,St Francis Hospice,25.533969,-33.9449,,,Not-for-profit
+Eastern Cape,ec Sarah Baartman District Municipality,ec Sundays River Valley Local Municipality,Life Esidimeni Kirkwood Frail Care,25.449802,-33.3953,,,Gov Province
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg B Health sub-District,Caro House OAH,27.982829,-26.1463,,,Not-for-profit
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg B Health sub-District,Cosmos House OAH,28.296479,-26.2589,,,Not-for-profit
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg B Health sub-District,Ekklesia Park OAH,28.002472,-26.1039,,,Private
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg B Health sub-District,Ephraim Zulu OAH,27.886509,-26.2408,,,Not-for-profit
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg B Health sub-District,Frederic Place OAH,27.971961,-26.1901,,,Gov Province
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg B Health sub-District,Garden Village OAH,,,,,Not-for-profit
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg B Health sub-District,Huis Hoeveld OAH,27.979199,-26.1659,,,Not-for-profit
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg C Health sub-District,Andries Meyer OAH,27.914376,-26.3008,,,Province Aided
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg C Health sub-District,Florona OAH,,,,,Not-for-profit
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg D Health sub-District,Ons Huis OAH,,,,,Province Aided
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg D Health sub-District,Roodepoort OAH,,,,,Not-for-profit
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg D Health sub-District,Soweto OAH,27.876161,-26.244,,,Not-for-profit
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg D Health sub-District,Witwatersrand OAH,28.027915,-26.1779,,,Not-for-profit
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg E Health sub-District,Greek OAH,,,,,Not-for-profit
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg E Health sub-District,Ithuteng OAH,,,,,Not-for-profit
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg E Health sub-District,Itlhokomeleng OAH,,,,,Not-for-profit
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg E Health sub-District,Jordan House OAH,27.973661,-26.1787,,,Not-for-profit
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg E Health sub-District,Pioneer House OAH,28.070504,-26.1477,,,Not-for-profit
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg E Health sub-District,Reuven OAH,,,,,Not-for-profit
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg E Health sub-District,Saudringham Gard OAH,28.109486,-26.1432,,,Not-for-profit
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg E Health sub-District,Thembalami OAH,,,,,Not-for-profit
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg F Health sub-District,Casarene OAH,,,,,Not-for-profit
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg F Health sub-District,Gerald Fitzpatrick OAH,28.066816,-26.1903,,,Not-for-profit
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg F Health sub-District,Jafta Alkamade OAH,,,,,Not-for-profit
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg F Health sub-District,Nazareth House OAH,28.059458,-26.1841,,,Gov Province
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg F Health sub-District,Park Care OAH,,,,,Not-for-profit
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg F Health sub-District,Queenshaven OAH,,,,,Not-for-profit
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg F Health sub-District,St Giles OAH,,,,,Not-for-profit
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg F Health sub-District,St Mary Convent OAH,,,,,Not-for-profit
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg F Health sub-District,Tswelopele OAH,,,,,Not-for-profit
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni East 1 Health sub-District,Bethany OAH,,,,,Gov Province
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni East 1 Health sub-District,Daveyton OAH,28.427344,-26.1469,,,Gov Province
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni East 1 Health sub-District,Ebenhaeser OAH,28.376339,-26.2366,,,Gov Province
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni East 1 Health sub-District,Epilepsy SA Daggafont OAH,28.474665,-26.2924,,,Gov Municipality
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni East 1 Health sub-District,Epilepsy SA Geduld OAH,,,,,Gov Municipality
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni East 1 Health sub-District,Eric Holltman OAH,,,,,Gov Province
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni East 1 Health sub-District,ESDA OAH,28.408216,-26.2441,,,Gov Province
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni East 1 Health sub-District,Eventide OAH,28.377149,-26.238,,,Gov Province
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni East 1 Health sub-District,Fairlands OAH,,,,,Gov Province
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni East 1 Health sub-District,Frank Mynhardt OAH,28.381305,-26.2295,,,Gov Province
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni East 1 Health sub-District,Nigel Tehuis OAH,28.479619,-26.422,,,Gov Province
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni East 1 Health sub-District,Old Peoples Home OAH,,,,,Gov Province
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni East 1 Health sub-District,Rus `n Bietjie OAH,28.429438,-26.2393,,,Gov Province
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni East 1 Health sub-District,Ryn Park OAH,,,,,Gov Province
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni East 1 Health sub-District,San Michele OAH,,,,,Gov Province
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni East 1 Health sub-District,Springs Retirement OAH,28.44641,-26.2549,,,Gov Province
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni East 1 Health sub-District,Tsakane OAH,28.372103,-26.3597,,,Gov Province
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni East 1 Health sub-District,Vita Nova OAH,,,,,Gov Province
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni East 1 Health sub-District,Zanele Mbeki OAH,,,,,Gov Province
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni East 2 Health sub-District,Kwa-Thema Geriatric Clinic,28.405826,-26.2999,,"11472 Thokolo Street, Interland, Kwa-Thema",Gov Province
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni North 1 Health sub-District,Allen Park OAH,28.234299,-26.0803,,,Gov Province
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni North 1 Health sub-District,Casa Serena OAH,28.139515,-26.1624,,,Gov Province
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni North 1 Health sub-District,Edenhaven OAH,28.142187,-26.1265,,,Gov Province
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni North 1 Health sub-District,Herfsland OAH,28.234321,-26.0803,,,Gov Province
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni North 1 Health sub-District,Igugulethu Place Safety,,,,,Gov Province
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni North 1 Health sub-District,Oranjehof OAH,,,,,Province Aided
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni North 1 Health sub-District,Rynpark OAH,28.347464,-26.1403,,,Gov Province
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni North 1 Health sub-District,St Anne OAH,,,,,Province Aided
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni North 2 Health sub-District,Van Rhyn Place of Safety,28.33404,-26.1996,,"Cnr van Ryn and Tsessebe Street, Benoni",Gov Municipality
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni South 1 Health sub-District,Alberton OAH,28.113901,-26.28,,,Gov Province
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni South 1 Health sub-District,Ark of Love OAH,,,,,Province Aided
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni South 1 Health sub-District,Avril Elizabeth Home,28.16816,-26.179,,,Private
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni South 1 Health sub-District,Colonel Rowland OAH,28.153709,-26.1755,,,Gov Province
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni South 1 Health sub-District,Cosmos OAH,,,,,Gov Province
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni South 1 Health sub-District,Elandsvallei OAH,28.150168,-26.1949,,,Gov Province
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni South 1 Health sub-District,Huis Dien Bothma OAH,28.240589,-26.189,,,Gov Province
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni South 1 Health sub-District,Kowa Pienaar OAH,28.226116,-26.2677,,,Gov Province
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni South 1 Health sub-District,Marian House OAH,28.06012,-26.254,,,Gov Province
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni South 1 Health sub-District,Prim Villa OAH,28.142529,-26.193,,,Gov Province
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni South 1 Health sub-District,Solheim OAH,28.168894,-26.1754,,,Gov Province
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni South 1 Health sub-District,Strelitzia OAH,,,,,Gov Province
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni South 1 Health sub-District,Vosloorus OAH,28.211879,-26.3626,,,Gov Province
+Gauteng,gp Sedibeng District Municipality,gp Emfuleni Local Municipality,Age in Action OAH,27.836479,-26.5778,,,Not-for-profit
+Gauteng,gp Sedibeng District Municipality,gp Emfuleni Local Municipality,Aventide OAH,27.934789,-26.6425,,,Not-for-profit
+Gauteng,gp Sedibeng District Municipality,gp Emfuleni Local Municipality,Busy Bee OAH,,,,,Not-for-profit
+Gauteng,gp Sedibeng District Municipality,gp Emfuleni Local Municipality,Els Medsorg OAH,28.006843,-26.5875,,,Not-for-profit
+Gauteng,gp Sedibeng District Municipality,gp Emfuleni Local Municipality,Huis Siesta OAH,27.836467,-26.6978,,,Not-for-profit
+Gauteng,gp Sedibeng District Municipality,gp Emfuleni Local Municipality,Jeugland OAH,27.828818,-26.714,,,Not-for-profit
+Gauteng,gp Sedibeng District Municipality,gp Emfuleni Local Municipality,Vaal Echoes OAH,27.871016,-26.6871,,,Not-for-profit
+Gauteng,gp Sedibeng District Municipality,gp Emfuleni Local Municipality,Vereeniging Hos OAH,,,,,Not-for-profit
+Gauteng,gp Sedibeng District Municipality,gp Emfuleni Local Municipality,Vukazenzele OAH,,,,,Not-for-profit
+Gauteng,gp Sedibeng District Municipality,gp Lesedi Local Municipality,Advent Haven OAH,28.360541,-26.4923,,,Not-for-profit
+Gauteng,gp Sedibeng District Municipality,gp Lesedi Local Municipality,Suikerbos Oord OAH,,,,,Not-for-profit
+Gauteng,gp Sedibeng District Municipality,gp Midvaal Local Municipality,Huis Meyerton OAH,,,,,Not-for-profit
+Gauteng,gp West Rand District Municipality,gp Mogale City Local Municipality,Life Esidimeni Baneng Care Centre,27.738233,-26.1282,,91 Leader Road,Private
+Gauteng,gp West Rand District Municipality,gp Mogale City Local Municipality,Luipaardsvlei OAH,27.815272,-26.1238,,"Cnr 1 Hompes Road and Chamdor Road, Lewinsham",Province Aided
+Gauteng,gp West Rand District Municipality,gp Mogale City Local Municipality,Moreglans Frail Care,27.776422,-26.0938,,,Private
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,Austerville House,30.98339,-29.9403,,,Province Aided
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,Azalea House,30.31865,-29.6893,,,Province Aided
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,Highway Hospice,30.96897,-29.8324,,,Not-for-profit
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,Jewel House,30.997199,-29.8515,,,Province Aided
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,Jona Vaughan House,30.891552,-30.037,,,Province Aided
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,Khanya Hospice,,,,,Not-for-profit
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,Scadifa Chatsworth House,,,,,Province Aided
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,St Luke's Home,,,,,Province Aided
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,St Mary's Outreach Hospice,,,,,Not-for-profit
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,The Manor House,,,,,Province Aided
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,Umlazi House,30.93773,-29.9586,,,Province Aided
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,Verulam Frail Care,31.039444,-29.6436,,,Province Aided
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,Verulam Hospice,31.052308,-29.6519,,,Not-for-profit
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,Wentworth House,,,,,Province Aided
+KwaZulu-Natal,kz iLembe District Municipality,kz Mandeni Local Municipality,Blessed Gerard Care Centre,,,,,Not-for-profit
+KwaZulu-Natal,kz King Cetshwayo District Municipality,kz City of uMhlathuze Local Municipality,Zululand Hospice,,,,,Not-for-profit
+KwaZulu-Natal,kz King Cetshwayo District Municipality,kz uMlalazi Local Municipality,Holy Cross Hospice,,,,,Not-for-profit
+KwaZulu-Natal,kz uMgungundlovu District Municipality,kz Msunduzi Local Municipality,Msunduzi Hospice,,,,,Not-for-profit
+KwaZulu-Natal,kz uMgungundlovu District Municipality,kz uMngeni Local Municipality,Howick Hospice,30.23167,-29.4869,,,Not-for-profit
+KwaZulu-Natal,kz Umzinyathi District Municipality,kz Msinga Local Municipality,Philanjalo Hospice,,,,,Not-for-profit
+Limpopo,lp Capricorn District Municipality,lp Polokwane Local Municipality,Pietersburg Place of Safety,29.43771,-23.8724,,,Gov Province
+Northern Cape,nc Frances Baard District Municipality,nc Sol Plaatje Local Municipality,Helen Bishop Home,24.766311,-28.7238,,,Gov Province
+Northern Cape,nc Pixley ka Seme District Municipality,nc Emthanjeni Local Municipality,Hanover Wellness,,,,,Gov Other
+Northern Cape,nc Pixley ka Seme District Municipality,nc Umsobomvu Local Municipality,Colesberg Truck Wellness,,,,,Gov Other
+North West,nw Ngaka Modiri Molema District Municipality,nw Ramotshere Moiloa Local Municipality,SAVF Zeerust,,,,,Province Aided
+Western Cape,wc Central Karoo District Municipality,wc Beaufort West Local Municipality,Beaufort West RTC Pal,,,,,Not-for-profit
+Western Cape,wc Central Karoo District Municipality,wc Beaufort West Local Municipality,Nelspoort RTC Pal,,,,,Not-for-profit
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Southern Health sub-District,Claremont House Frail Care,18.466,-33.982,,,Gov Province
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Tygerberg Health sub-District,Tygerberg Hospice Trust,,,,,Not-for-profit
+Western Cape,wc Garden Route District Municipality,wc Knysna Local Municipality,Life Knysna Frail Care,23.080507,-34.0527,,Hunters Drive,Private

@@ -1,0 +1,524 @@
+Province,District MUnicipality,Local Municipality,Name,Longitude,Latitude,ContactPerson,Address,OrgUnitOwnership
+Eastern Cape,ec Alfred Nzo District Municipality,ec Matatiele Local Municipality,NHLS Maluti Lab,28.7805,-30.256,,"Maluti CHC, Maluti, 4740",Gov NHLS
+Eastern Cape,ec Alfred Nzo District Municipality,ec Matatiele Local Municipality,NHLS Taylor Bequest (Matatiele) Lab,28.5092,-30.6888,,"Taylor Bequest Hospital (Matatiele), Matatiele, 4730",Gov NHLS
+Eastern Cape,ec Alfred Nzo District Municipality,ec Mbizana Local Municipality,NHLS Greenville Lab,29.838,-30.8509,,"Greenville Hospital, Bizana, 4800",Gov NHLS
+Eastern Cape,ec Alfred Nzo District Municipality,ec Mbizana Local Municipality,NHLS St Patrick's Lab,29.8545,-30.8636,,"St Patrick's Hospital, Bizana, 4800",Gov NHLS
+Eastern Cape,ec Alfred Nzo District Municipality,ec Ntabankulu Local Municipality,NHLS Sipetu Lab,28.977041,-30.8965,,Sipetu Hospital,Gov NHLS
+Eastern Cape,ec Alfred Nzo District Municipality,ec Umzimvubu Local Municipality,NHLS Madzikane kaZulu Mem Lab,29.0043,-30.8817,,"Madzikane kaZulu Memorial Hospital, Mount Frere, 5090",Gov NHLS
+Eastern Cape,ec Alfred Nzo District Municipality,ec Umzimvubu Local Municipality,NHLS Mount Ayliff Lab,29.3704,-30.7967,,"Mount Ayliff Hospital, Mount Ayliff, 4735",Gov NHLS
+Eastern Cape,ec Amathole District Municipality,ec Amahlathi Local Municipality,NHLS SS Gida Lab,27.1481,-32.6812,,"SS Gida Hospital, Cata Road, Keiskammahoek, 5670",Gov NHLS
+Eastern Cape,ec Amathole District Municipality,ec Mbhashe Local Municipality,NHLS Madwaleni Lab,28.8788,-32.0958,,"Madwaleni Hospital, Elliotdale, 5070",Gov NHLS
+Eastern Cape,ec Amathole District Municipality,ec Mbhashe Local Municipality,NHLS Willowvale Lab,28.512,-32.265,,"Willowvale CHC, Willowvale, 5040",Gov NHLS
+Eastern Cape,ec Amathole District Municipality,ec Mnquma Local Municipality,NHLS Butterworth Lab,28.1388,-32.3323,,"Butterworth Hospital, Scanlen Street, Butterworth, 4960",Gov NHLS
+Eastern Cape,ec Amathole District Municipality,ec Mnquma Local Municipality,NHLS Tafalofefe Lab,28.4751,-32.4296,,"Tafalofefe Hospital, Kabakazi Centane, Butterworth, 4960",Gov NHLS
+Eastern Cape,ec Amathole District Municipality,ec Raymond Mhlaba Local Municipality,NHLS Bedford Lab,26.09012,-32.6753,,Bedford Hospital,Gov NHLS
+Eastern Cape,ec Amathole District Municipality,ec Raymond Mhlaba Local Municipality,NHLS Victoria Lab,26.8231,-32.7892,,"Victoria Hospital, Alice, 5700",Gov NHLS
+Eastern Cape,ec Buffalo City Metropolitan Municipality,ec Buffalo City Health sub-District,Ampath East London Lab,27.904421,-32.9997,,"58 St James Street, Southernwood, East London",Private
+Eastern Cape,ec Buffalo City Metropolitan Municipality,ec Buffalo City Health sub-District,Ampath King William's Town Lab,27.399826,-32.8838,,"Shop 4, Abantu Mall, King William's Town",Private
+Eastern Cape,ec Buffalo City Metropolitan Municipality,ec Buffalo City Health sub-District,NHLS Bhisho Lab,27.4374,-32.8494,,"Bhisho Hospital, Komga Road, Bhisho, 5605",Gov NHLS
+Eastern Cape,ec Buffalo City Metropolitan Municipality,ec Buffalo City Health sub-District,NHLS Cecilia Makiwane Lab,27.7409,-32.9328,,"Cecilia Makiwane Hospital, Billie Road, Mdantsane, 5219",Gov NHLS
+Eastern Cape,ec Buffalo City Metropolitan Municipality,ec Buffalo City Health sub-District,NHLS Duncan Village Lab,27.88599,-33.0078,,Duncan Village CHC,Gov NHLS
+Eastern Cape,ec Buffalo City Metropolitan Municipality,ec Buffalo City Health sub-District,NHLS East London Lab,27.8916,-32.996,,"Frere Hospital, Amalinda Drive, East London, 5201",Gov NHLS
+Eastern Cape,ec Chris Hani District Municipality,ec Emalahleni Local Municipality,NHLS Glen Grey Lab,27.1994,-31.7026,,"Glen Grey Hospital, Indwe Road, Lady Frere, 5410",Gov NHLS
+Eastern Cape,ec Chris Hani District Municipality,ec Engcobo Local Municipality,NHLS All Saints Lab,28.0504,-31.662,,"All Saints Hospital, All Saints Mission, Engcobo 5050",Gov NHLS
+Eastern Cape,ec Chris Hani District Municipality,ec Enoch Mgijima Local Municipality,NHLS Hewu Lab,26.8052,-32.1727,,"Hewu Hospital, Ekuphumleni Main Road, Whittlesea, 5360",Gov NHLS
+Eastern Cape,ec Chris Hani District Municipality,ec Enoch Mgijima Local Municipality,NHLS Queenstown Lab,26.87858,-31.8987,,"Frontier Hospital, Kingsway Avenue, Queenstown, 5320",Gov NHLS
+Eastern Cape,ec Chris Hani District Municipality,ec Intsika Yethu Local Municipality,NHLS Cofimvaba Lab,27.583,-32.0124,,"Cofimvaba Hospital, Cofimvaba 5380",Gov NHLS
+Eastern Cape,ec Chris Hani District Municipality,ec Inxuba Yethemba Local Municipality,NHLS Cradock Lab,25.6494,-32.1751,,"Hospital Street, Cradock, 5880",Gov NHLS
+Eastern Cape,ec Chris Hani District Municipality,ec Sakhisizwe Local Municipality,NHLS Cala Lab,27.6827,-31.5224,,"Cala Hospital, Cala 5455",Gov NHLS
+Eastern Cape,ec Joe Gqabi District Municipality,ec Elundini Local Municipality,NHLS Taylor Bequest (Elundini) Lab,28.510426,-30.6901,,"Taylor Bequest Hospital (Elundini), Police Road, Mount Fletcher, 4770",Gov NHLS
+Eastern Cape,ec Joe Gqabi District Municipality,ec Senqu Local Municipality,NHLS Empilisweni Lab,27.3744,-30.532,,"Empilisweni Hospital, 937 Zastron Street, Sterkspruit, 9762",Gov NHLS
+Eastern Cape,ec Joe Gqabi District Municipality,ec Walter Sisulu Local Municipality,NHLS Aliwal North Lab,26.7072,-30.697,,"Aliwal North Hospital, Park Avenue, Aliwal North 9750",Gov NHLS
+Eastern Cape,ec Joe Gqabi District Municipality,ec Walter Sisulu Local Municipality,Walter Sisulu Univ NHLS,,,Ernesto Blanco,"Walter Sisulu University Private Bag X1 UNITRA 5117, Nelson Mandela Drive",Gov NHLS
+Eastern Cape,ec Nelson Mandela Bay Municipality,ec Nelson Mandela A Health sub-District,NHLS Dora Nginza Lab,25.5592,-33.8756,,"Dora Nginza Hospital, Spondo Road, Zwide, Port Elizabeth, 6001",Gov NHLS
+Eastern Cape,ec Nelson Mandela Bay Municipality,ec Nelson Mandela B Health sub-District,Ampath Pickering Street Lab,25.5714,-33.9473,,"13 Pickering Street, Newton Park",Private
+Eastern Cape,ec Nelson Mandela Bay Municipality,ec Nelson Mandela B Health sub-District,Ampath Uitenhage Lab,25.391914,-33.765,,"Cuyler Hospital, Cuyler Street, Uitenhage",Private
+Eastern Cape,ec Nelson Mandela Bay Municipality,ec Nelson Mandela B Health sub-District,NHLS St Alban's Corr Lab,25.34376,-33.9072,,"St Albans Correctional Centre, Port Elizabeth, 6000",Gov NHLS
+Eastern Cape,ec Nelson Mandela Bay Municipality,ec Nelson Mandela B Health sub-District,NHLS Uitenhage Lab,25.4068,-33.7416,,"Uitenhage Hospital, Channer Street, Uitenhage, 6230",Gov NHLS
+Eastern Cape,ec Nelson Mandela Bay Municipality,ec Nelson Mandela C Health sub-District,Ampath Greenacres Lab,25.5799,-33.9517,,"Netcare Greenacres Hospital, Suite 200, Rochelle Drive, Greenacres, Port Elizabeth",Private
+Eastern Cape,ec Nelson Mandela Bay Municipality,ec Nelson Mandela C Health sub-District,Ampath Lovemore Heights Lab,25.536569,-33.994,,"Greenways Office Park, 4 Greenways Avenue, Cnr Buffelsfontein and Melsetter Roads, Port Elizabeth",Private
+Eastern Cape,ec Nelson Mandela Bay Municipality,ec Nelson Mandela C Health sub-District,Ampath Mercantile Lab,25.583805,-33.9361,,"Mercantile Hospital, Suite 307, Durban Road, Korsten",Private
+Eastern Cape,ec Nelson Mandela Bay Municipality,ec Nelson Mandela C Health sub-District,Ampath St Georges Lab,25.604959,-33.968,,"St Georges Hospital, Suite 302B, Park Drive, Port Elizabeth",Private
+Eastern Cape,ec Nelson Mandela Bay Municipality,ec Nelson Mandela C Health sub-District,NHLS Livingstone Lab,25.5707,-33.9252,,"Livingstone Hospital, Stanford Road, Korsten, Port Elizabeth, 6000",Gov NHLS
+Eastern Cape,ec Nelson Mandela Bay Municipality,ec Nelson Mandela C Health sub-District,NHLS Port Elizabeth Prov Lab,25.5968,-33.9577,,"Port Elizabeth Provincial Hospital, Buckingham Road, Mount Croix, Port Elizabeth, 6001",Gov NHLS
+Eastern Cape,ec Oliver Tambo District Municipality,ec Ingquza Hill Local Municipality,NHLS Holy Cross Lab,29.4954,-31.0813,,"Holy Cross Hospital, Flagstaff, 4810",Gov NHLS
+Eastern Cape,ec Oliver Tambo District Municipality,ec Ingquza Hill Local Municipality,NHLS St Elizabeth's Lab,29.5655,-31.36,,"St Elizabeth's Hospital, Lusikisiki, 4820",Gov NHLS
+Eastern Cape,ec Oliver Tambo District Municipality,ec King Sabata Dalindyebo Local Municipality,Ampath Mthatha Lab,28.784933,-31.5908,,"St Mary's Private Hospital, Mthatha",Private
+Eastern Cape,ec Oliver Tambo District Municipality,ec King Sabata Dalindyebo Local Municipality,Lancet St Mary's Lab,28.785432,-31.5909,,"St Mary's Private Hospital, 30 Durham Street, Norwood, Mthatha",Private
+Eastern Cape,ec Oliver Tambo District Municipality,ec King Sabata Dalindyebo Local Municipality,NHLS Mthatha Lab,28.7644,-31.5875,,"Nelson Mandela Academic Hospital, Sissons Street, Mthatha, 5100",Gov NHLS
+Eastern Cape,ec Oliver Tambo District Municipality,ec King Sabata Dalindyebo Local Municipality,NHLS Zitulele Lab,28.7592,-31.8079,,"Zitulele Hospital, Mqanduli, 5080",Gov NHLS
+Eastern Cape,ec Oliver Tambo District Municipality,ec Mhlontlo Local Municipality,NHLS Dr Malizo Mpehle Mem Lab,28.778056,-31.3165,,"Dr Malizo Mpehle Memorial Hospital, Main Road, Tsolo, 5170",Gov NHLS
+Eastern Cape,ec Oliver Tambo District Municipality,ec Mhlontlo Local Municipality,NHLS Nessie Knight Lab,28.86957656,-31.1578,,Nessie Knight Hospital,Gov NHLS
+Eastern Cape,ec Oliver Tambo District Municipality,ec Mhlontlo Local Municipality,NHLS Qumbu Lab,28.8704,-31.1619,,"Qumbu CHC, Goqwana Road, Qumbu, 5180",Gov NHLS
+Eastern Cape,ec Oliver Tambo District Municipality,ec Mhlontlo Local Municipality,NHLS St Lucy's Lab,28.7508,-31.3034,,St Lucy's Hospital,Gov NHLS
+Eastern Cape,ec Oliver Tambo District Municipality,ec Nyandeni Local Municipality,NHLS Canzibe Lab,29.0658,-31.8089,,"Canzibe Hospital, Ngqeleni, 5140",Gov NHLS
+Eastern Cape,ec Oliver Tambo District Municipality,ec Nyandeni Local Municipality,NHLS St Barnabas Lab,29.0247,-31.5191,,"St Barnabas Hospital, Port St John Road, Libode, 5160",Gov NHLS
+Eastern Cape,ec Oliver Tambo District Municipality,ec Port St Johns Local Municipality,NHLS Bambisana Lab,29.5645,-31.3386,,"Bambisana Hospital, Lusikisiki, 4820",Gov NHLS
+Eastern Cape,ec Oliver Tambo District Municipality,ec Port St Johns Local Municipality,NHLS Isilimela Lab,29.5427,-31.6285,,"Isilimela Hospital, Port St Johns, 5120",Gov NHLS
+Eastern Cape,ec Oliver Tambo District Municipality,ec Port St Johns Local Municipality,NHLS Port St John Lab,29.542709,-31.6284,,Port St Johns CHC,Gov NHLS
+Eastern Cape,ec Sarah Baartman District Municipality,ec Blue Crane Route Local Municipality,NHLS Somerset East Lab,25.5909,-32.7329,,"Andries Vosloo Hospital, Somerset East, 5850",Gov NHLS
+Eastern Cape,ec Sarah Baartman District Municipality,ec Dr Beyers Naud������ Local Municipality,NHLS Graaff-Reinet Lab,24.5355,-32.2606,,"Midland Hospital, Albertyn Street, Graaff-Reinet, 6280",Gov NHLS
+Eastern Cape,ec Sarah Baartman District Municipality,ec Kouga Local Municipality,Ampath Jeffreys Bay Lab,24.922806,-34.0503,,"Da Schelda Centre, Cnr Da Gama and Schelde Street, Jeffreys Bay",Private
+Eastern Cape,ec Sarah Baartman District Municipality,ec Kouga Local Municipality,NHLS Humansdorp Lab,24.7667,-34.0254,,"Humansdorp Hospital, Du Plessis Street, Humansdorp, 6300",Gov NHLS
+Eastern Cape,ec Sarah Baartman District Municipality,ec Makana Local Municipality,Ampath Grahamstown Lab,26.52198,-33.3088,,"Shop 26, Peppergrove Mall, Grahamstown",Private
+Eastern Cape,ec Sarah Baartman District Municipality,ec Makana Local Municipality,NHLS Grahamstown Lab,26.5188,-33.3021,,"Settlers Hospital, Milner Street, Grahamstown, 6139",Gov NHLS
+Eastern Cape,ec Sarah Baartman District Municipality,ec Ndlambe Local Municipality,NHLS Port Alfred Lab,26.8834,-33.5947,,"Port Alfred Hospital, Southwell Road, Port Alfred, 6170",Gov NHLS
+Free State,fs Fezile Dabi District Municipality,fs Metsimaholo Local Municipality,NHLS Groenpunt Corr Lab,27.9284,-26.7451,,"Groenpunt Correctional Centre, Vereeniging, 1930",Gov NHLS
+Free State,fs Fezile Dabi District Municipality,fs Metsimaholo Local Municipality,NHLS Sasolburg Lab,27.8254,-26.8005,,"Fezi Ngumbentombi Hospital, 8 Langehoven Street, Sasolburg, 1947",Gov NHLS
+Free State,fs Fezile Dabi District Municipality,fs Moqhaka Local Municipality,Ampath Kroonstad Lab,27.23889,-27.6619,,"47 Brand Street, Kroonstad",Private
+Free State,fs Fezile Dabi District Municipality,fs Moqhaka Local Municipality,NHLS Kroonstad Lab,27.215,-27.6455,,"Boitumelo Hospital, Small Deel Road, Kroonstad, 9500",Gov NHLS
+Free State,fs Lejweleputswa District Municipality,fs Matjhabeng Local Municipality,Ampath Welkom Lab,26.728849,-27.9893,,"18 Lategang Street, St Helena, Welkom",Private
+Free State,fs Lejweleputswa District Municipality,fs Matjhabeng Local Municipality,NHLS Bongani Mob Lab,26.7862,-27.9531,,,Gov NHLS
+Free State,fs Lejweleputswa District Municipality,fs Matjhabeng Local Municipality,NHLS Welkom Lab,26.73625,-27.9846,,"Bongani Hospital, Mothusi Road, Thabong, Welkom, 9459",Gov NHLS
+Free State,fs Mangaung Metropolitan Municipality,fs Bloemfontein Health sub-District,Ampath Bloemfontein Lab,26.203667,-29.1096,,"Room 401, Kellner Street, Westdene, Bloemfontein",Private
+Free State,fs Mangaung Metropolitan Municipality,fs Bloemfontein Health sub-District,Ampath House Lab,26.204834,-29.1082,,"114 Kellner Street, Westdene, Bloemfontein",Private
+Free State,fs Mangaung Metropolitan Municipality,fs Bloemfontein Health sub-District,Ampath Pelonomi Lab,26.241142,-29.1361,,"Dr Belcher Road, Heidedal, Bloemfontein",Private
+Free State,fs Mangaung Metropolitan Municipality,fs Bloemfontein Health sub-District,Lancet Main/Micro Lab,26.209028,-29.1062,,"30 Reid Street, Westdene, Bloemfontein",Private
+Free State,fs Mangaung Metropolitan Municipality,fs Bloemfontein Health sub-District,Lancet Rosepark Lab,26.178952,-29.1493,,"Suite 105, Rosepark Hospital, Bloemfontein",Private
+Free State,fs Mangaung Metropolitan Municipality,fs Bloemfontein Health sub-District,NHLS 3 Military Lab,26.1938,-29.0948,,"SAMHS 3 Military Hospital, Furstenburg Road, Bloemfontein, 9300",Gov NHLS
+Free State,fs Mangaung Metropolitan Municipality,fs Bloemfontein Health sub-District,NHLS Pelonomi Lab,26.2457,-29.1414,,"Pelonomi Hospital, Dr Belcher Road, Bloemfontein, 9300",Gov NHLS
+Free State,fs Mangaung Metropolitan Municipality,fs Bloemfontein Health sub-District,NHLS Universitas Academic Lab,26.1871,-29.1173,,"National District Hospital, DF Malherbe Road, Bloemfontein, 9300",Gov NHLS
+Free State,fs Mangaung Metropolitan Municipality,fs Bloemfontein Health sub-District,NHLS Universitas National Lab,26.1871,-29.1173,,"National District Hospital, 7 Roth Avenue, Bloemfontein, 9300",Gov NHLS
+Free State,fs Mangaung Metropolitan Municipality,fs Bloemfontein Health sub-District,Univ of Free State NHLS,,,Jocelyn Naicker,"205 Nelson Mandela Dr, Park West, Bloemfontein, 9301",Gov NHLS
+Free State,fs Mangaung Metropolitan Municipality,fs Botshabelo Health sub-District,NHLS Botshabelo Lab,26.7372,-29.2595,,"Botshabelo Hospital, Police Station Road, Botshabelo, 9781",Gov NHLS
+Free State,fs Thabo Mofutsanyana District Municipality,fs Dihlabeng Local Municipality,NHLS Bethlehem Lab,28.3197,-28.2334,,"Dihlabeng Hospital, Eeufees Street, Bethlehem, 9700",Gov NHLS
+Free State,fs Thabo Mofutsanyana District Municipality,fs Maluti-a-Phofung Local Municipality,Lancet Qwa Qwa Lab,28.808797,-28.5335,,"Absa Building, Motloung Street, Phuthaditjhaba",Private
+Free State,fs Thabo Mofutsanyana District Municipality,fs Maluti-a-Phofung Local Municipality,NHLS Manapo Lab,28.8212,-28.5095,,"Mofumahadi Manapo Mopeli Hospital, Motebang Street, Phuthaditjhaba, 9869",Gov NHLS
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg A Health sub-District,Ampath Cedar Road Lab,27.99475,-26.0123,,"Cnr Cedar Avenue West and Cedar Road, Fourways, Johannesburg North",Private
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg A Health sub-District,Ampath Sunninghill Lab,28.070167,-26.038,,"Ground Floor, Cnr Nanyuki and Witkoppen Road, Sunninghill, Johannesburg North",Private
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg A Health sub-District,NHLS Witkoppen Lab,28.011062,-26.0087,,"105 William Nicol Drive, Fourways, 2055",Gov NHLS
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg B Health sub-District,Ampath Garden City Lab,28.004131,-26.1974,,"1st Floor, 9 Bartlett Road, Mayfair West, Johannesburg Central",Private
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg B Health sub-District,Ampath Milpark Lab,28.018094,-26.1806,,"Netcare Milpark Hospital, Suite M1, 9 Guild Road, Parktown, Johannesburg Central",Private
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg B Health sub-District,Ampath Sandton Lab,28.012239,-26.0777,,"Room 304, Cnr Main Road and Peter Place, Bryanston, Johannesburg North",Private
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg B Health sub-District,Lancet Blairgowrie Lab,28.01367,-26.1131,,"Premier Health Centre, 13 Mackay Avenue, Blairgowrie, Randburg",Private
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg B Health sub-District,Lancet Donald Gordon Lab,28.034502,-26.1796,,"21 Eton Road, Parktown",Private
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg B Health sub-District,Lancet Hyde Park Lab,28.033222,-26.1256,,"Hydepark Shopping Centre, 1st Floor, 103 Hyde Park Cnr, Jan Smuts Avenue, Hyde Park, Sandton, 2196",Private
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg B Health sub-District,Lancet Oxford Lab,28.045586,-26.1549,,"127B Oxford Road, Cnr Northwold and Oxford Road, Rosebank, Johannesburg",Private
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg B Health sub-District,Lancet Rosebank PPI House Lab,28.038451,-26.1467,,"PPI House Ground Floor, 9A Sturdee Avenue, Rosebank",Private
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg B Health sub-District,Lancet Rosebank Rosepark Lab,28.038449,-26.1467,,"3rd Floor, Rosepark Rosebank, 8 Sturdee Avenue, Rosebank, Johannesburg, 2196",Private
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg B Health sub-District,Lancet Sandton Mediclinic 1st Floor Lab,28.01204,-26.0772,,"South Wing, 1st Floor, Sandton Mediclinic, Cnr Peter Place and Main Road, Bryanston",Private
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg B Health sub-District,Lancet Sandton Mediclinic 2nd Floor Lab,28.01204,-26.0772,,"South Wing, 2nd Floor, Sandton Mediclinic, Cnr Peter Place and Main Road, Bryanston",Private
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg B Health sub-District,NHLS Donald Gordon Lab,28.03437,-26.1791,,,Gov NHLS
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg B Health sub-District,NHLS Helen Joseph Lab,27.9901,-26.1839,,"Helen Joseph Hospital, Perth Road, Westdene, 2092",Gov NHLS
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg B Health sub-District,NHLS Rahima Moosa Lab,27.971322,-26.1886,,"Rahima Moosa Hospital, Crn Fuel And Oudtshoorn Roads, Newclare, 2093",Gov NHLS
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg C Health sub-District,Ampath Flora Lab,27.915958,-26.1577,,"1st Floor, William Nicol Drive, Floracliff, Johannesburg West",Private
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg C Health sub-District,Ampath Olivedale Lab,27.972117,-26.0547,,"Suite 102, 1st Floor, Cnr President Fouche and Windsor Avenue, Olivedale, Johannesburg North",Private
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg C Health sub-District,Ampath Wilgeheuwel Lab,27.925219,-26.0993,,"Suite 2, 1st Floor, Amplifier Road, Radiokop, Johannesburg West",Private
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg C Health sub-District,Lancet Depot 2 Lab,27.919787,-26.1516,,"Entrance In Joseph Lister Street, Gate 2 Mayo 6 Ground Floor",Private
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg C Health sub-District,Lancet Witpoortjie Lab,27.825281,-26.1631,,"28 McGrath Street, Witpoortjie, Krugersdorp",Private
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg C Health sub-District,NHLS Discoverers Lab,27.8941,-26.1657,,"Discoverers CHC, Cnr Nourse and Harrison Streets, Discovery, 1709",Gov NHLS
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg D Health sub-District,NHLS Bheki Mlangeni Lab,27.8577,-26.2481,,"Bheki Mlangeni District Hospital, 2190 Bolani Street, Jabulani, 1868",Gov NHLS
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg D Health sub-District,NHLS Chris Hani Bara Lab,27.938,-26.2601,,"Chris Hani Baragwanath Hospital, Chris Hani Road, Diepkloof Ext 6, 1804",Gov NHLS
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg D Health sub-District,NHLS Chris Hani Bara Stat Lab,27.938,-26.2601,,"Chris Hani Baragwanath Hospital, Chris Hani Road, Diepkloof Ext 6, 1804",Gov NHLS
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg D Health sub-District,NHLS Johannesburg Corr Lab,27.998,-26.271,,"Johannesburg Correctional Centre, Mondeor, 2110",Gov NHLS
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg E Health sub-District,Ampath Carstenhof Lab,28.13938,-26.0309,,"Room 106, Ground Floor, Dane Road, Midrand",Private
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg E Health sub-District,Ampath Linksfield Lab,28.09545,-26.1594,,"Level 1, 12th Avenue, Orange Grove, Johannesburg North",Private
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg E Health sub-District,Ampath Morningside Lab,28.054667,-26.0945,,"2nd floor East Wing, Room 225, Cnr Hill and Rivonia Road, Morningside, Johannesburg North",Private
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg E Health sub-District,Lancet Alexandra Lab,28.086364,-26.1044,,"Cnr First Avenue and Chadwick, Wynberg, Alexandra",Private
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg E Health sub-District,Lancet Houghton Lab,28.057809,-26.1549,,"81 Central Street, Houghton, Johannesburg",Private
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg E Health sub-District,Lancet Linksfield Lab,28.0954,-26.1594,,"Linksfield Park Clinic Level 1, 24 12th Avenue, Linksfield West",Private
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg E Health sub-District,Lancet Lonehill Lab,28.034662,-26.0171,,"Lonehill Medical Centre, 17 Aston Road, Lone Hill, Sandton, 2191",Private
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg E Health sub-District,Lancet Norwood Dr Setzer Lab,28.074709,-26.1574,,"96 William Road, Norwood, Johannesburg",Private
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg E Health sub-District,Lancet Rochester Block A Lab,28.05518,-26.0956,,"Block A, Rochester Place, 173 Rivonia Road, Rivonia, Morningside, Sandton, 2196",Private
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg E Health sub-District,Lancet Rochester Block B Lab,28.055183,-26.0956,,"Block B, First Floor, Rochester Place, 173 Rivonia Road, Rivonia",Private
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg E Health sub-District,NHLS,28.117694,-26.1354,Brent,Johannesburg,Gov National
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg E Health sub-District,NHLS Edenvale Lab,28.1496,-26.1419,,"Edenvale Hospital, Modderfontein Road, Edenvale, 1609",Gov NHLS
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg E Health sub-District,NHLS NICD Lab,28.117585,-26.1314,,"1 Modderfontein Road, Johannesburg, 2000",Gov NHLS
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg E Health sub-District,NHLS Sizwe Lab,28.12367,-26.1361,,"Sizwe Tropical Diseases Hospital, Modderfontein Road, Edenvale, 1609",Gov NHLS
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg F Health sub-District,Ampath Mulbarton Lab,28.053825,-26.2982,,"Room 106, 25 True North Road, Mulbarton, Johannesburg South",Private
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg F Health sub-District,Lancet Bank City Lab,28.039297,-26.2033,,"FNB Bank City, Srs Preston/West, Cnr Simmonds and Pritchard Streets, Johannesburg",Private
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg F Health sub-District,Lancet Lister Building Lab,28.046209,-26.2008,,"4th Floor, Lister Building, 195 Jeppe Street",Private
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg F Health sub-District,Lancet Meredale Lab,27.96094,-26.2762,,"Cnr Main and Ino Road, Meredale, Johannesburg",Private
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg F Health sub-District,Lancet Mondeor Lab,28.010861,-26.2771,,"274 Columbine Avenue, Mondeor, Johannesburg",Private
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg F Health sub-District,Lancet Mulbarton Lab,28.05302,-26.298,,"25 True North Road, Mulbarton, Johannesburg",Private
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg F Health sub-District,Lancet Oakdene Lab,28.059621,-26.2641,,"95 Victoria Street, Oakdene, Johannesburg",Private
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg F Health sub-District,Lancet Robertsham Lab,28.00819,-26.2473,,"82 Anson Street, Cnr Anson and Bently Road, Robertsham, Johannesburg",Private
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg F Health sub-District,NHLS Braamfontein Central Lab,28.0434,-26.1924,,"Cnr Hospital and De Korte Street, Johannesburg, 2000",Gov NHLS
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg F Health sub-District,NHLS Charlotte Maxeke Academic Lab,28.0469,-26.1741,,"Charlotte Maxeke Hospital, Cnr York and Jubilee Roads, Parktown, 2193",Gov NHLS
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg F Health sub-District,NHLS Charlotte Maxeke IC Lab,28.04691,-26.174,,Charlotte Maxeke Hospital,Gov NHLS
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg F Health sub-District,NHLS NIOH Lab,28.043327,-26.1914,,"25 Hospital Street, Braamfontein, 2001",Gov NHLS
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg F Health sub-District,NHLS South Rand Lab,28.0634,-26.2535,,"South Rand Hospital, 1 Friars Hill Road, Rosettenville, 2190",Gov NHLS
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg F Health sub-District,Univ Witwatersrand NHLS,28.046307,-26.1761,Johnny Mahlangu,"Room 3n29 3rd Floor Wits Med School, 7 York Road, Parktown, Johannesburg, 2193",Gov NHLS
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg G Health sub-District,Ampath Lenpath Lab,27.867851,-26.3271,,"Trade Route Mall, Cnr of K43 and Nirvana Road, Lenasia",Private
+Gauteng,gp City of Johannesburg Metropolitan Municipality,gp Johannesburg G Health sub-District,Lancet Kliptown Lab,27.890179,-26.2793,,"9 Union Road, Kliptown",Private
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 1 Health sub-District,Ampath Akasia Lab,28.107472,-25.6729,,"Suite 108, Ground Floor, Cnr Brits Road and Heinrich Avenue, Karen Park, Pretoria North",Private
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 1 Health sub-District,NHLS Dr George Mukhari Lab,28.0114,-25.6173,,"Dr George Mukhari Hospital, Clinical Pathology Building, Medunsa Campus, Ga-Rankuwa, 0208",Gov NHLS
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 1 Health sub-District,NHLS Odi Lab,28.0594,-25.5392,,"Odi Hospital, Long Klipgat Road, Mabopane, 0190",Gov NHLS
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 1 Health sub-District,Sefako Makgatho HS Univ NHLS,28.020946,-25.6135,Maphoshane Nchabeleng,"Rm S304 Medunsa Campus - Nhls Labs, R55, Ga-Rankuwa, 0208",Gov NHLS
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 2 Health sub-District,Ampath Montana Lab,28.244283,-25.6744,,"Suite 26, Cnr Rooibos Street and Dr van der Merwe Road, Montana, Pretoria North",Private
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 2 Health sub-District,NHLS Jubilee Lab,28.2863,-25.4094,,"Jubilee Hospital, Stand 9, Jubilee Road, Hammanskraal, 0400",Gov NHLS
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 3 Health sub-District,Ampath Eugene Marais Lab,28.193922,-25.71,,"679 5th Avenue, Les Marais, Pretoria",Private
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 3 Health sub-District,Ampath Groenkloof Lab,28.2164,-25.7715,,"1st Floor, Mary Potter Oncology Centre, Totius Street, Groenkloof, Pretoria",Private
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 3 Health sub-District,Ampath Louis Pasteur Lab,28.19666,-25.7485,,"Room 1025, Francis Baard Street, Pretoria Central",Private
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 3 Health sub-District,Ampath Zuid Afrikaans Stat Lab,28.20571,-25.762,,"Cnr Bourke and Berea Street, Muckleneuk, Pretoria",Private
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 3 Health sub-District,Lancet Hatfield Plaza Lab,28.235569,-25.751,,"Hatfield Plaza, 4th Floor, 1122 Burnett Street",Private
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 3 Health sub-District,Lancet Pencardia 1 Lab,28.203307,-25.7467,,"1st Floor Pencardia, 509 Pretorius Street, Arcadia, Pretoria",Private
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 3 Health sub-District,Lancet Pencardia 2 Lab,28.203307,-25.7467,,"1st Floor Pencardia, 509 Pretorius Street, Arcadia, Pretoria",Private
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 3 Health sub-District,Lancet Zuid Afrikaans Lab,28.20571,-25.762,,"255 Bourke Street, Muckelneuck, Pretoria",Private
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 3 Health sub-District,NHLS Folang Clinic Lab,28.1998,-25.7327,,Folang Clinic,Gov NHLS
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 3 Health sub-District,NHLS Kalafong Lab,28.0899,-25.7635,,"Kalafong Hospital, 1 Klipspringer Road, Pretoria West, 0183",Gov NHLS
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 3 Health sub-District,NHLS Tshwane Corr Lab,28.110386,-25.4446,,"Kgosi Mampuru II Correctional Centre, Pretoria, 0001",Gov NHLS
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 3 Health sub-District,NHLS Pretoria West Lab,28.1394,-25.7366,,"Pretoria West Hospital, 380 Sytze Wierda Avenue, Philip Nel Park, 0183",Gov NHLS
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 3 Health sub-District,NHLS Tshwane Academic Lab,28.2031,-25.7322,,"Tshwane Academic Division NHLS, Arcadia, 0007",Gov NHLS
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 3 Health sub-District,Univ of Pretoria NHLS,28.204227,-25.733,Tahir Pillay,"Tad-Nhls Dept of Medical Microbiology, Cnr Steve Biko & Dr Savage Road, Riviera, Pretoria, 0084",Gov NHLS
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 4 Health sub-District,Ampath Unitas Lab,28.196925,-25.8317,,"Suite L4, Lower Ground Floor, Cnr Clifton and Cantonments Avenues, Lyttelton, Centurion",Private
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 4 Health sub-District,Lancet Laudium Lab,28.108298,-25.7819,,"Jhina City Centre, 190 Bengals Street, Legae, Pretoria",Private
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 6 Health sub-District,Ampath Garsfontein Lab,28.291695,-25.7835,,"314 Trevor Gething Road, Garsfontein, Pretoria",Private
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 6 Health sub-District,Ampath Pretoria East Lab,28.304528,-25.8195,,"Cnr Netcare and Garsfontein Roads, Moreleta Park, Pretoria",Private
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 6 Health sub-District,Ampath Wilgers Lab,28.318918,-25.7678,,"Ground Floor, Suite 13, Wilgers Hospital, Denneboom Road, Wilgers, Pretoria",Private
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 6 Health sub-District,Lancet Mamelodi Lab,28.36788,-25.7186,,"D31 Metropolitan Life Gateway, Denneboom Station, Tsamaya Street",Private
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 6 Health sub-District,Lancet Wilgers Life Lab,28.318918,-25.7678,,"Ground Floor, Suite 7, Wilgers Hospital, Denneboom Road, Wilgers, Pretoria",Private
+Gauteng,gp City of Tshwane Metropolitan Municipality,gp Tshwane 6 Health sub-District,NHLS Mamelodi Lab,28.3685,-25.718,,"Mamelodi Hospital, 19472 Serapeng Street, Bufferzone, Mamelodi East, 0122",Gov NHLS
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni East 1 Health sub-District,NHLS Pholosong Lab,28.125515,-26.1384,,"Pholosong Hospital, 90 Ndaba Street, Tsakane 1550",Gov NHLS
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni East 2 Health sub-District,Ampath N17 Lab,28.428597,-26.2723,,"Tonk Meter Drive, Pollak Park, Springs",Private
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni East 2 Health sub-District,Ampath Nigel Lab,28.468,-26.4187,,"25 Breytenbach Street, Nigel",Private
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni East 2 Health sub-District,Ampath Springs Parkland Lab,28.435711,-26.2663,,"Artemis Road, Pollak Park, Springs",Private
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni East 2 Health sub-District,Lancet Petersfield Lab,28.429544,-26.2333,,"57 Kruger Street, Petersfield, Springs, Johannesburg",Private
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni East 2 Health sub-District,Lancet Springs Parkland Lab,28.43466,-26.2657,,"12 Artemis Road, Pollak Park",Private
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni East 2 Health sub-District,NHLS Far East Rand Lab,28.4049,-26.2357,,"Hospital Road, New Estate, Springs, 1560",Gov NHLS
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni North 1 Health sub-District,Ampath Arwyp 1 Lab,28.23402,-26.107,,"Arwyp Medical Centre, South Wing, 2nd Floor Room 203, 23 Central Avenue, Kempton Park",Private
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni North 1 Health sub-District,Ampath Arwyp 2 Lab,28.234461,-26.1066,,"Arwyp Medical Suites, 1st Floor, 22 Pine Avenue, Kempton Park",Private
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni North 1 Health sub-District,Ampath Pomona Ref Lab,28.271999,-26.0902,,"29 Pomona Road, Kempton Park",Private
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni North 1 Health sub-District,Lancet Arwyp Lab,28.233795,-26.1066,,"Ground Floor, Pine Avenue, Kempton Park, Johannesburg",Private
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni North 1 Health sub-District,Lancet Bennie Jacobs Lab,28.211108,-26.081,,"Bennie Jacobs Sentrum, Cnr De Wiekus and Blackthorn",Private
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni North 1 Health sub-District,Lancet Edleen Lab,28.20707,-26.0973,,"94 Green Avenue, Edleen, Kempton Park",Private
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni North 1 Health sub-District,Lancet Zamokuhle Lab,28.24157,-25.9827,,"128 Mazibuko Drive, Hospital View, Thembisa, Johannesburg",Private
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni North 1 Health sub-District,NHLS Tembisa Lab,28.2325,-26.0101,,"Tembisa Hospital, Cnr Flint Mazibuko and Rev Namane Drive, Tembisa, 1632",Gov NHLS
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni North 2 Health sub-District,Ampath Glynnwood Lab,28.307983,-26.1957,,"2 Glynn Eden Medical Suites, Cnr Princess and Harrison Street, Benoni",Private
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni North 2 Health sub-District,Ampath Linmed Lab,28.330783,-26.1454,,"Room 2/5, Hull Road, Rynfield, Benoni",Private
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni North 2 Health sub-District,Ampath Sunward Park Lab,28.257899,-26.2599,,"6 Albrecht Street, Sunward Park, Boksburg",Private
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni North 2 Health sub-District,Lancet Greenstone Lab,28.137968,-26.1208,,"Eden Meadows, Shop 32, Cnr V Riebeck and Modderfontein Roads, Greenstone",Private
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni North 2 Health sub-District,Lancet Mercury Street Lab,28.295208,-26.1521,,"38 Mercury Street, Farramere, Benoni",Private
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni North 2 Health sub-District,Lancet Rynfield Lab,28.332981,-26.1501,,"19 Struben Street, Rynfield, Benoni",Private
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni North 2 Health sub-District,NHLS Tambo Mem Lab,28.2444,-26.2183,,"Tambo Memorial Hospital, Railway Road, Boksburg, 1459",Gov NHLS
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni South 1 Health sub-District,Ampath Alberton Lab,28.119653,-26.2698,,"47 Clinton Road, New Redruth, Alberton",Private
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni South 1 Health sub-District,Ampath Waterfall City Lab,28.120597,-26.2732,,"Room GF10, Cnr Magwa Crescent and Mac Mac Avenue, Midrand",Private
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni South 1 Health sub-District,Lancet Alberton Lab,28.121985,-26.2712,,"109 Nevada Centre, 68 Voortrekker Road, New Redruth, Alberton, Johannesburg",Private
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni South 1 Health sub-District,Lancet Germiston Lab,28.165459,-26.225,,"76 Queen Street, Germiston",Private
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni South 1 Health sub-District,NHLS Bertha Gxowa Lab,28.1639,-26.22,,"Bertha Gxowa Hospital, Cross Street, Germiston 1401",Gov NHLS
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni South 1 Health sub-District,NHLS Thelle Mogoerane Reg Lab,27.848,-26.6067,,"Thelle Mogoerane Regional Hospital, 2nd Floor Block B, 12390 Nguza Street, Vosloorus, 1431",Gov NHLS
+Gauteng,gp Sedibeng District Municipality,gp Emfuleni Local Municipality,Ampath Emfuleni Lab,27.83785,-26.7046,,"6 Jan van Riebeeck Boulevard, Town Centre, Vanderbijlpark",Private
+Gauteng,gp Sedibeng District Municipality,gp Emfuleni Local Municipality,Ampath Three Rivers Lab,27.970743,-26.6648,,"River Gables Building, Cnr Nile and Circus Drive, Three Rivers, Vereeniging",Private
+Gauteng,gp Sedibeng District Municipality,gp Emfuleni Local Municipality,Lancet Sebokeng Lab,27.846829,-26.6092,,"Moshoeshoe Road, Sebokeng, Vanderbijlpark",Private
+Gauteng,gp Sedibeng District Municipality,gp Emfuleni Local Municipality,NHLS Kopanong Lab,27.931887,-26.6386,,"Kopanong Hospital, Casino Drive, Duncanville, Vereeniging, 1939",Gov NHLS
+Gauteng,gp Sedibeng District Municipality,gp Emfuleni Local Municipality,NHLS Sebokeng Lab,27.8343,-26.5758,,"Sebokeng Hospital, Moshoeshoe Street, Sebokeng, 1982",Gov NHLS
+Gauteng,gp Sedibeng District Municipality,gp Lesedi Local Municipality,Ampath Heidelberg Lab,28.352404,-26.5007,,"85 Begeman Street, Heidelberg",Private
+Gauteng,gp West Rand District Municipality,gp Merafong City Local Municipality,Lancet Fochville Lab,27.49689,-26.4812,,"Dr Steyn and Van Tonder Streets, Fochville",Private
+Gauteng,gp West Rand District Municipality,gp Merafong City Local Municipality,Lancet Oberholzer Lab,27.390241,-26.347,,"54 Van Zyl Smit Street, Oberholzer, Carletonville",Private
+Gauteng,gp West Rand District Municipality,gp Merafong City Local Municipality,NHLS Carletonville Lab,27.4036,-26.346,,"Carletonville Hospital, Cnr Falcon and Annan Roads, Carletonville, 2500",Gov NHLS
+Gauteng,gp West Rand District Municipality,gp Merafong City Local Municipality,NHLS Carletonville Mob Lab,27.39446,-26.347,,,Gov NHLS
+Gauteng,gp West Rand District Municipality,gp Mogale City Local Municipality,Ampath Krugersdorp Lab,27.775258,-26.105,,"Ground Floor, 9 Burger Street, Krugersdorp, Johannesburg West",Private
+Gauteng,gp West Rand District Municipality,gp Mogale City Local Municipality,Ampath Pinehaven Lab,27.831309,-26.0619,,"Suite 003, 1 Gateway Road, Pinehaven Estate, Krugersdorp",Private
+Gauteng,gp West Rand District Municipality,gp Mogale City Local Municipality,Lancet Krugersdorp Boshof Lab,27.775482,-26.1058,,"3 Boshoff Street, Krugersdorp",Private
+Gauteng,gp West Rand District Municipality,gp Mogale City Local Municipality,NHLS Leratong Lab,27.8076,-26.1705,,"Leratong Hospital, Cnr Adcock and Randfontein Roads, Krugersdorp, 1739",Gov NHLS
+Gauteng,gp West Rand District Municipality,gp Mogale City Local Municipality,NHLS Yusuf Dadoo Lab,27.7832,-26.0998,,"Cnr Hospital and Memorial Avenue, Krugersdorp, 1740",Gov NHLS
+KwaZulu-Natal,kz Amajuba District Municipality,kz Emadlangeni Local Municipality,NHLS Niemeyer Microscopy,30.316,-27.6618,,"Niemeyer Memorial Hospital, Utrecht, 2980",Gov NHLS
+KwaZulu-Natal,kz Amajuba District Municipality,kz Newcastle Local Municipality,Ampath Newcastle Lab,29.936211,-27.7605,,"Cnr Hospital and Bird Street, Newcastle",Private
+KwaZulu-Natal,kz Amajuba District Municipality,kz Newcastle Local Municipality,Lancet Newcastle Lab,29.931907,-27.7682,,"Newcastle Private Hospital, 78 Bird Street, Newcastle, 2940",Private
+KwaZulu-Natal,kz Amajuba District Municipality,kz Newcastle Local Municipality,NHLS Madadeni Lab,30.054302,-27.7697,,"Madadeni Hospital, Newcastle, 2940",Gov NHLS
+KwaZulu-Natal,kz Amajuba District Municipality,kz Newcastle Local Municipality,NHLS Newcastle Lab,29.93564,-27.7631,,"Newcastle Hospital, Newcastle, 2940",Gov NHLS
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,Ampath Chatsmed Hosp Lab,30.906607,-29.9095,,"Life Chatsmed Garden Hospital, Lower ground floor, 80 Woodhurst Drive, Chatsworth, Durban",Private
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,Ampath Gateway Lab,31.072501,-29.7226,,"Busamed Gateway Private Hospital, 38 Aurora Drive, Umhlanga Rocks, Durban North",Private
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,Ampath Hillcrest Hosp Lab,30.741884,-29.7896,,"Hillcrest Private Hospital, 471 Kassier Road, Assagay",Private
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,Ampath Kingsway Hosp Lab,30.905125,-30.0324,,"Kingsway Hospital, Suite B2, 607 Kingsway Road, Amanzimtoti",Private
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,Ampath Parklands Hosp Lab,30.998647,-29.8342,,"Parklands Medical Mews 4, 75 Hopelands Road, Overport, Durban",Private
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,Ampath St Augustine's Hosp Lab,30.990361,-29.8556,,"Chelmsford Medical Centre 3, St Augustine's Hospital, Chelmsford/JB Marks Road, Berea, Durban",Private
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,Ampath Umhlanga Rocks Hosp Lab,31.085433,-29.7249,,"Netcare Umhlanga Hospital, Suite 611, 321 Umhlanga Rocks Drive, Umhlanga",Private
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,Ampath Westridge Lab,30.985818,-29.8517,,"95 King Cetshwayo Highway, Mayville, Durban",Private
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,Ampath Westville Hosp Lab,30.918152,-29.8581,,"115 Hiway Centre, Spine Road, Westville",Private
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,Lancet Durban Oncology Lab,30.985661,-29.8512,,"94/99 Jan Smuts Highway, Westridge",Private
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,Lancet Ethekwini Lab,30.947469,-29.8219,,"No 13, Ground Floor, Riverhorse Valley Business Estate, Nandi Drive",Private
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,Lancet Gateway Lab,31.072115,-29.7226,,"38 Aurora Drive, Ground Floor, Gateway Private Hospital, Umhlanga",Private
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,Lancet Med Centre Lab,31.015188,-29.851,,"102 Lancet Medical Centre, 74 Ismail C Meer Street",Private
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,Lancet Nu Shifa Lab,30.984954,-29.8308,,"482 Randles Road, Nu Shifa Lenmed Medical Towers, Nu Shifa Hospital, 1st Floor, Sydenham, 4091",Private
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,Lancet Parklands Lab,30.998478,-29.834,,"Parklands Hospital, 45 Hopelands Road, Durban",Private
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,Lancet Parklands Oncology Lab,30.998684,-29.8345,,"535 Peter Makhoba Ridge, Ridge Road, Overport, Durban",Private
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,Lancet Sunningdale Lab,31.04529,-29.7489,,"4 Village Way, Sunningdale, Durban North",Private
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,Lancet Tongaat Lab,31.118449,-29.5731,,"Victoria Hospital, High Street",Private
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,Lancet Umhlanga Lab,31.068697,-29.7275,,"Ground Floor, Umhlanga Hospital, 323 Umhlanga Rocks Drive",Private
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,NHLS Addington Lab,31.04229,-29.8616,,"Addington Hospital, Durban 4000",Gov NHLS
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,NHLS Charles James Microscopy,30.6624,-30.2116,,"Charles James TB Hospital, Amanzimtoti, 4125",Gov NHLS
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,NHLS Clairwood Lab,30.9607,-29.9407,,"Clairwood Hospital, Mobeni, 4060",Gov NHLS
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,NHLS Don Mckenzie Microscopy,30.5125,-30.5357,,"Don McKenzie TB Hospital, 10 Zulu Reserve Road, Botha's Hill, 3660",Gov NHLS
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,NHLS Durban Westville Corr Lab,30.553,-29.4952,,"Durban Correctional Centre, Westville, 3630",Gov NHLS
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,NHLS Durban Public Health Lab,31.0412,-29.8635,,"Durban, 4000",Gov NHLS
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,NHLS FOSA Microscopy,30.96857267,-29.7859,,"60 Fosa Road, Newlands 4037",Gov NHLS
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,NHLS Hlengisizwe Microscopy,30.6548,-29.8228,,"Hlengisizwe CHC, Hammarsdale, 3700",Gov NHLS
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,NHLS Inanda C Microscopy,30.972767,-29.7115,,"Hlengisizwe CHC, Phoenix, 4080",Gov NHLS
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,NHLS IALC Lab,30.950837,-29.8566,,"Inkosi Albert Luthuli Central Hospital, 800 Bellair Road, Cato Manor, 4058",Gov NHLS
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,NHLS King Dinuzulu Lab,30.987036,-29.8235,,"King Dinuzulu Hospital, Dormerton, 4015",Gov NHLS
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,NHLS King Edward VIII Lab,30.9895,-29.8822,,"King Edward VIII Hospital, Durban, 4000",Gov NHLS
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,NHLS KwaDabeka Microscopy,30.9130435,-29.7682,,"KwaDabeka CHC, Clernaville, 3602",Gov NHLS
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,NHLS KwaMashu Poly Lab,30.975948,-29.7309,,"KwaMashu Poly CHC, P61 Mkhiwane Road, Kwa-Mashu, 4360",Gov NHLS
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,NHLS Mahatma Gandhi Lab,31.02825,-29.717,,"Mahatma Gandhi Hospital, Mount Edgecombe, 4068",Gov NHLS
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,NHLS Osindisweni Lab,24.7624,-34.026,,"Osindisweni Hospital, Verulam, 4340",Gov NHLS
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,NHLS Pinetown Microscopy,30.8591,-29.8175,,"18 Chapel Street, Pinetown 3600",Gov NHLS
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,NHLS Prince Zulu Microscopy,31.009346,-29.8587,,"Prince Zulu Communicable Diseases Centre Clinic, Durban, 4000",Gov NHLS
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,NHLS Prince Mshiyeni Mem Lab,30.93662,-29.9548,,"Prince Mshiyeni Memorial Hospital, 2 Mangosuthu Highway, Umlazi, 4031",Gov NHLS
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,NHLS RK Khan Lab,30.886087,-29.9153,,"RK Khan Hospital, Chatsworth, 4030",Gov NHLS
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,NHLS Tongaat Microscopy,31.116867,-29.568,,"Tongaat CHC, 7 Sanele Nxumalo Lane, Tongaat, 4399",Gov NHLS
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,NHLS Verulam Microscopy,24.7624,-34.026,,"Oakford Road, Verulam, 4340",Gov NHLS
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,NHLS Wentworth Lab,30.9525,-29.9211,,"Wentworth Hospital, Wentworth, 4026",Gov NHLS
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,Roux and Partners Lab,,,,,Private
+KwaZulu-Natal,kz eThekwini Metropolitan Municipality,kz eThekwini Metropolitan Municipality Sub,Univ KZN NHLS,,,Verena Gounden,"238 Mazisi Kunene Rd, Glenwood, Durban, 4041",Gov NHLS
+KwaZulu-Natal,kz Harry Gwala District Municipality,kz Dr Nkosazana Dlamini Zuma Local Municipality,NHLS Pholela Microscopy,29.858087,-29.7633,,"Pholela CHC, D1213 Hlanganani Road, Bulwer 3244",Gov NHLS
+KwaZulu-Natal,kz Harry Gwala District Municipality,kz Dr Nkosazana Dlamini Zuma Local Municipality,NHLS St Apollinaris Lab,29.84467,-30.0279,,"St Apollinaris Hospital, Creighton, 3263",Gov NHLS
+KwaZulu-Natal,kz Harry Gwala District Municipality,kz Greater Kokstad Local Municipality,Ampath Kokstad Hosp Lab,29.423392,-30.5481,,"Delta Centre, Lot 266, Cnr Barker and Hope Street, Kokstad",Private
+KwaZulu-Natal,kz Harry Gwala District Municipality,kz Greater Kokstad Local Municipality,NHLS Kokstad Lab,29.4128,-30.5441,,"Kokstad, Kokstad, 4700",Gov NHLS
+KwaZulu-Natal,kz Harry Gwala District Municipality,kz Ubuhlebezwe Local Municipality,NHLS Christ The King Lab,30.07793,-30.1627,,"Christ The King Hospital, Ixopo, 3276",Gov NHLS
+KwaZulu-Natal,kz Harry Gwala District Municipality,kz uMzimkhulu Local Municipality,NHLS Rietvlei Lab,29.82481,-30.4878,,"Rietvlei Hospital, Stafford's Post, 4686",Gov NHLS
+KwaZulu-Natal,kz Harry Gwala District Municipality,kz uMzimkhulu Local Municipality,NHLS St Margaret's Lab,29.93276,-30.2692,,St Margaret's TB MDR Hospital,Gov NHLS
+KwaZulu-Natal,kz iLembe District Municipality,kz KwaDukuza Local Municipality,Ampath Alberlito Lab,31.201856,-29.5304,,"Netcare Alberlito Hospital, Ground Floor, Suite 1, 1 Kirsty Close, Ballito",Private
+KwaZulu-Natal,kz iLembe District Municipality,kz KwaDukuza Local Municipality,Lancet Stanger 1 Lab,31.290796,-29.3396,,"Shop 5M, OK Mall, Albert Luthuli Street, Stanger",Private
+KwaZulu-Natal,kz iLembe District Municipality,kz KwaDukuza Local Municipality,NHLS Stanger Lab,31.28516,-29.3327,,"Stanger Hospital, Stanger, 4450",Gov NHLS
+KwaZulu-Natal,kz iLembe District Municipality,kz Mandeni Local Municipality,NHLS Sundumbili Microscopy,31.40104,-29.1366,,"Sundumbili CHC, A682/3 Sundumbili Township, Mandeni, 4490",Gov NHLS
+KwaZulu-Natal,kz iLembe District Municipality,kz Maphumulo Local Municipality,NHLS Umphumulo Lab,31.0393,-29.1574,,"Umphumulo Hospital, Maphumulo, 4470",Gov NHLS
+KwaZulu-Natal,kz iLembe District Municipality,kz Maphumulo Local Municipality,NHLS Untunjambili Lab,30.94846,-28.942,,"Untunjambili Hospital, Kranskop, 3268",Gov NHLS
+KwaZulu-Natal,kz iLembe District Municipality,kz Ndwedwe Local Municipality,NHLS Montebello Lab,30.807162,-29.4394,,"Montebello Hospital, Dalton, 3236",Gov NHLS
+KwaZulu-Natal,kz iLembe District Municipality,kz Ndwedwe Local Municipality,NHLS Ndwedwe Microscopy,30.9357,-29.5155,,,Gov NHLS
+KwaZulu-Natal,kz King Cetshwayo District Municipality,kz City of uMhlathuze Local Municipality,Ampath Richards Bay Hosp Lab,32.052661,-28.7502,,"Suite 3, The Bay Hospital, Kruger Rand, Richards Bay",Private
+KwaZulu-Natal,kz King Cetshwayo District Municipality,kz City of uMhlathuze Local Municipality,Lancet Richards Bay Lab,32.052822,-28.7495,,"Suite 10, Bay Hospital, 	Krugerrand Road, Richards Bay",Private
+KwaZulu-Natal,kz King Cetshwayo District Municipality,kz City of uMhlathuze Local Municipality,NHLS Empangeni Lab,31.8957,-28.7401,,"Durban Medium B Correctional Centre, Empangeni, 3880",Gov NHLS
+KwaZulu-Natal,kz King Cetshwayo District Municipality,kz City of uMhlathuze Local Municipality,NHLS Ngwelezana Lab,31.86412,-28.7795,,"Ngwelezana Hospital, Empangeni, 3880",Gov NHLS
+KwaZulu-Natal,kz King Cetshwayo District Municipality,kz City of uMhlathuze Local Municipality,NHLS Nseleni Microscopy,32.025999,-28.6659,,"Nseleni CHC, Ubhejane Road, Nseleni, 3882",Gov NHLS
+KwaZulu-Natal,kz King Cetshwayo District Municipality,kz Mthonjaneni Local Municipality,NHLS St Mary's Lab,31.3408,-28.6291,,"kwaMagwaza Hospital, Kwamagwaza Road, Melmoth, 3835",Gov NHLS
+KwaZulu-Natal,kz King Cetshwayo District Municipality,kz Nkandla Local Municipality,NHLS Ekhombe Lab,30.9332,-28.6499,,"Ekhombe Hospital, Kranskop, 3268",Gov NHLS
+KwaZulu-Natal,kz King Cetshwayo District Municipality,kz Nkandla Local Municipality,NHLS Nkandla Lab,31.0833,-28.6167,,"Nkandla Hospital, Nkandla, 3855",Gov NHLS
+KwaZulu-Natal,kz King Cetshwayo District Municipality,kz uMlalazi Local Municipality,NHLS Catherine Booth Lab,31.47471,-28.9976,,"Catherine Booth Hospital, Amathikulu, 3801",Gov NHLS
+KwaZulu-Natal,kz King Cetshwayo District Municipality,kz uMlalazi Local Municipality,NHLS Eshowe Lab,31.46646,-28.891,,"Eshowe Hospital, Eshowe, 3815",Gov NHLS
+KwaZulu-Natal,kz King Cetshwayo District Municipality,kz uMlalazi Local Municipality,NHLS Mbongolwane Lab,31.186064,-28.895,,"Mbongolwane Hospital, Kwa-Pett, 3820",Gov NHLS
+KwaZulu-Natal,kz Ugu District Municipality,kz Ray Nkonyeni Local Municipality,Ampath Margate Hosp Lab,30.358178,-30.8618,,"Margate Hospital, Room 5, Margate, South Coast",Private
+KwaZulu-Natal,kz Ugu District Municipality,kz Ray Nkonyeni Local Municipality,Ampath Port Shepstone Lab,30.450846,-30.7414,,"Hibiscus Medical Centre, 24 Bazley Street, Port Shepstone, South Coast",Private
+KwaZulu-Natal,kz Ugu District Municipality,kz Ray Nkonyeni Local Municipality,Lancet Port Shepstone Lab,30.450606,-30.741,,"28 Bazley Street, Port Shepstone",Private
+KwaZulu-Natal,kz Ugu District Municipality,kz Ray Nkonyeni Local Municipality,NHLS Murchison Lab,30.34402,-30.728,,"Murchison Hospital, Port Shepstone, 4240",Gov NHLS
+KwaZulu-Natal,kz Ugu District Municipality,kz Ray Nkonyeni Local Municipality,NHLS Port Shepstone Lab,30.45088,-30.7435,,"Port Shepstone Hospital, Port Shepstone, 4240",Gov NHLS
+KwaZulu-Natal,kz Ugu District Municipality,kz Umdoni Local Municipality,NHLS GJ Crooke's Lab,30.7449,-30.2888,,"GJ Crooke's Hospital, Scottburgh, 4180",Gov NHLS
+KwaZulu-Natal,kz Ugu District Municipality,kz Umuziwabantu Local Municipality,NHLS St Andrew's Lab,29.883325,-30.5795,,"St Andrew's Hospital, Harding, 4680",Gov NHLS
+KwaZulu-Natal,kz Ugu District Municipality,kz Umzumbe Local Municipality,NHLS Turton Lab,30.593548,-30.5031,,"Turton CHC, Mtwalume, Scottburgh, 4180",Gov NHLS
+KwaZulu-Natal,kz uMgungundlovu District Municipality,kz Msunduzi Local Municipality,Ampath Pietermaritzburg Lab,30.392444,-29.6082,,"381 Boshoff Street, Pietermaritzburg",Private
+KwaZulu-Natal,kz uMgungundlovu District Municipality,kz Msunduzi Local Municipality,Lancet Pmb Mediclinic Lab,30.388683,-29.6086,,"Suite C, Block 3, Pietermaritzburg Mediclinic, Payne Street, Scottsville, Pietermaritzburg",Private
+KwaZulu-Natal,kz uMgungundlovu District Municipality,kz Msunduzi Local Municipality,Lancet Pmb Raimed Lab,30.408012,-29.5634,,"Raimed Centre, 590 Old Greytown Road, Raisethorpe, Pietermaritzburg",Private
+KwaZulu-Natal,kz uMgungundlovu District Municipality,kz Msunduzi Local Municipality,Lancet Pmb Burger Street Lab,30.384357,-29.6017,,"330 Burger Street, Pietermaritzburg",Private
+KwaZulu-Natal,kz uMgungundlovu District Municipality,kz Msunduzi Local Municipality,NHLS Church Street Microscopy,30.382017,-29.599,,"333 Church Street, Pietermaritzburg 3200",Gov NHLS
+KwaZulu-Natal,kz uMgungundlovu District Municipality,kz Msunduzi Local Municipality,NHLS Edendale Lab,30.33276,-29.6473,,"Edendale Hospital, Plessislaer 3216",Gov NHLS
+KwaZulu-Natal,kz uMgungundlovu District Municipality,kz Msunduzi Local Municipality,NHLS Grey's Lab,30.36378,-29.5796,,"Grey's Hospital, Pietermaritzburg, 3201",Gov NHLS
+KwaZulu-Natal,kz uMgungundlovu District Municipality,kz Msunduzi Local Municipality,NHLS Imbalenhle Microscopy,30.3476,-29.6424,,"Imbalenhle CHC, Thwala Road, Unit 3 Imbali, Pietermaritzburg, 3200",Gov NHLS
+KwaZulu-Natal,kz uMgungundlovu District Municipality,kz Msunduzi Local Municipality,NHLS Northdale Lab,30.3999,-29.5749,,"Northdale Hospital, Pietermaritzburg, 3200",Gov NHLS
+KwaZulu-Natal,kz uMgungundlovu District Municipality,kz Richmond Local Municipality,NHLS Richmond Microscopy,30.274875,-29.8647,,"Richmond Chest Hospital, Durban Road, Richmond, 3780",Gov NHLS
+KwaZulu-Natal,kz uMgungundlovu District Municipality,kz uMngeni Local Municipality,Lancet Howick Lab,30.21833,-29.4773,,"Suite 101, Howick Mediclinic, 11 Main Street, Howick, Pietermaritzburg",Private
+KwaZulu-Natal,kz uMgungundlovu District Municipality,kz uMngeni Local Municipality,NHLS Mpophomeni Microscopy,30.1755,-29.5652,,"2692 Umtholampilo Road, Merrivale, 3291",Gov NHLS
+KwaZulu-Natal,kz uMgungundlovu District Municipality,kz uMshwathi Local Municipality,NHLS Appelsbosch Lab,30.8427,-29.3898,,"Appelsbosch Hospital, Ozwatini, 3242",Gov NHLS
+KwaZulu-Natal,kz Umkhanyakude District Municipality,kz Big 5 Hlabisa Local Municipality,NHLS Hlabisa Lab,31.8807,-28.1455,,"Hlabisa Hospital, Hlabisa, 3937",Gov NHLS
+KwaZulu-Natal,kz Umkhanyakude District Municipality,kz Jozini Local Municipality,Makanis Malara Unit Lab,,,,,Gov Province
+KwaZulu-Natal,kz Umkhanyakude District Municipality,kz Jozini Local Municipality,NHLS Bethesda Lab,32.0811,-27.5745,,"Bethesda Hospital, Ubombo, 3970",Gov NHLS
+KwaZulu-Natal,kz Umkhanyakude District Municipality,kz Jozini Local Municipality,NHLS Mosvold Lab,32.00475,-27.1383,,"Mosvold Hospital, Ingwavuma, 3968",Gov NHLS
+KwaZulu-Natal,kz Umkhanyakude District Municipality,kz Mtubatuba Local Municipality,NHLS KwaMsane Microscopy,32.14819033,-28.4278,,"KwaMsane Clinic, Hlabisa, 3937",Gov NHLS
+KwaZulu-Natal,kz Umkhanyakude District Municipality,kz uMhlabuyalingana Local Municipality,NHLS Manguzi Lab,32.75637,-26.984,,"Manguzi Hospital, Kwa-Ngwanase, 3973",Gov NHLS
+KwaZulu-Natal,kz Umkhanyakude District Municipality,kz uMhlabuyalingana Local Municipality,NHLS Mseleni Lab,32.55664,-27.3256,,"Mseleni Hospital, Sibaya, 3967",Gov NHLS
+KwaZulu-Natal,kz Umzinyathi District Municipality,kz Endumeni Local Municipality,Lancet Dundee Lab,30.230656,-28.1612,,"58 Anne Street, Dundee",Private
+KwaZulu-Natal,kz Umzinyathi District Municipality,kz Endumeni Local Municipality,NHLS Dundee Lab,30.22973983,-28.1729,,"Dundee Hospital, Dundee, 3000",Gov NHLS
+KwaZulu-Natal,kz Umzinyathi District Municipality,kz Msinga Local Municipality,NHLS Church of Scotland Lab,30.45092,-28.7476,,"Church of Scotland Hospital, Tugela Ferry, 3010",Gov NHLS
+KwaZulu-Natal,kz Umzinyathi District Municipality,kz Nquthu Local Municipality,NHLS Charles Johnson Mem Lab,30.67292,-28.2119,,"Charles Johnson Memorial Hospital, Nqutu, 3135",Gov NHLS
+KwaZulu-Natal,kz Umzinyathi District Municipality,kz Umvoti Local Municipality,NHLS Greytown Lab,30.60005,-29.0657,,"Greytown Hospital, Greytown, 3250",Gov NHLS
+KwaZulu-Natal,kz Uthukela District Municipality,kz Alfred Duma Local Municipality,Ampath Ladysmith Lab,29.781369,-28.5529,,"25 Convent Road, Ladysmith",Private
+KwaZulu-Natal,kz Uthukela District Municipality,kz Alfred Duma Local Municipality,Lancet Ladysmith Med Centre Lab,29.783315,-28.5562,,271 Murchinson Street,Private
+KwaZulu-Natal,kz Uthukela District Municipality,kz Alfred Duma Local Municipality,NHLS Ezakheni Microscopy,29.916748,-28.6189,,"C Section, Ezakheni, 3381",Gov NHLS
+KwaZulu-Natal,kz Uthukela District Municipality,kz Alfred Duma Local Municipality,NHLS Ladysmith Lab,29.76606,-28.5567,,"Ladysmith Hospital, Ladysmith, 3370",Gov NHLS
+KwaZulu-Natal,kz Uthukela District Municipality,kz Inkosi Langalibalele Local Municipality,NHLS Estcourt Lab,29.89393,-29.0205,,"Estcourt Hospital, Estcourt, 3310",Gov NHLS
+KwaZulu-Natal,kz Uthukela District Municipality,kz Okhahlamba Local Municipality,NHLS Bergville Microscopy Lab,29.353191,-28.734,,"10 Broadway Road, Bergville 3350",Gov NHLS
+KwaZulu-Natal,kz Uthukela District Municipality,kz Okhahlamba Local Municipality,NHLS Emmaus Lab,29.38133,-28.8524,,"Emmaus Hospital, Winterton 3340",Gov NHLS
+KwaZulu-Natal,kz Zululand District Municipality,kz AbaQulusi Local Municipality,Ampath Vryheid Lab,30.971746,-27.7656,,"Shop 4, 153 High Street, Vryheid, Northern Natal",Private
+KwaZulu-Natal,kz Zululand District Municipality,kz AbaQulusi Local Municipality,Lancet Vryheid Lab,30.796718,-27.7651,,"Shop 5, Taiba Centre, 234 Utrecht Street, Vryheid",Private
+KwaZulu-Natal,kz Zululand District Municipality,kz AbaQulusi Local Municipality,NHLS Siloah Microscopy,31.28159523,-27.5734,,"Siloah Lutheran Mission Hospital, Vryheid, 3100",Gov NHLS
+KwaZulu-Natal,kz Zululand District Municipality,kz AbaQulusi Local Municipality,NHLS Vryheid Lab,30.79709,-27.7583,,"Vryheid Hospital, Vryheid, 3100",Gov NHLS
+KwaZulu-Natal,kz Zululand District Municipality,kz eDumbe Local Municipality,NHLS Dumbe Lab,30.8242,-27.4081,,"Stand 463, Dumbe Main Street, Paulpietersburg, 3180",Gov NHLS
+KwaZulu-Natal,kz Zululand District Municipality,kz Nongoma Local Municipality,NHLS Benedictine Lab,31.63932,-27.891,,"Benedictine Hospital, Private Bag X 5007, Nongoma, 3950",Gov NHLS
+KwaZulu-Natal,kz Zululand District Municipality,kz Ulundi Local Municipality,NHLS Ceza Lab,31.37719,-27.996,,"Ceza Hospital, Ceza, 3866",Gov NHLS
+KwaZulu-Natal,kz Zululand District Municipality,kz Ulundi Local Municipality,NHLS Nkonjeni Lab,31.41477,-28.2266,,"Nkonjeni Hospital, Mahlabathini, 3863",Gov NHLS
+KwaZulu-Natal,kz Zululand District Municipality,kz uPhongolo Local Municipality,NHLS Itshelejuba Lab,30.9834,-29.8778,,"Itshelejuba Hospital, Pongola, 3170",Gov NHLS
+Limpopo,lp Capricorn District Municipality,lp Blouberg Local Municipality,NHLS Helene Franz Lab,29.1095,-23.2829,,"Helene Franz Hospital, Bochum, 0790",Gov NHLS
+Limpopo,lp Capricorn District Municipality,lp Lepelle-Nkumpi Local Municipality,Lancet Medleb Lab,29.475437,-24.3026,,"Lebowakgomo, Medleb Private Hospital, R579 Road Next-Parliament",Private
+Limpopo,lp Capricorn District Municipality,lp Lepelle-Nkumpi Local Municipality,NHLS Groothoek Lab,29.336371,-24.3106,,,Gov NHLS
+Limpopo,lp Capricorn District Municipality,lp Lepelle-Nkumpi Local Municipality,NHLS Lebowakgomo Lab,29.6499,-24.2586,,"Lebowakgomo Hospital, R518 Zebediela Road, Lebowakgomo, 0737",Gov NHLS
+Limpopo,lp Capricorn District Municipality,lp Lepelle-Nkumpi Local Municipality,NHLS Zebediela Lab,29.4014,-24.4586,,"Zebediela Hospital, Magatle Village, Gompies, 0631",Gov NHLS
+Limpopo,lp Capricorn District Municipality,lp Molemole Local Municipality,NHLS Botlokwa Lab,29.7428,-23.493,,"Botlokwa Hospital, Matoks Village, Dwarsrivier, 0812",Gov NHLS
+Limpopo,lp Capricorn District Municipality,lp Polokwane Local Municipality,Ampath Polokwane Lab,29.463261,-23.9107,,"41B Burger Street, Polokwane",Private
+Limpopo,lp Capricorn District Municipality,lp Polokwane Local Municipality,Lancet Polokwane Lab,29.463503,-23.9069,,"44A Grobler Street, Polokwane",Private
+Limpopo,lp Capricorn District Municipality,lp Polokwane Local Municipality,NHLS Mankweng Lab,29.7277,-23.8865,,"Mankweng Hospital, Housbos Road, Sovenga, 0727",Gov NHLS
+Limpopo,lp Capricorn District Municipality,lp Polokwane Local Municipality,NHLS Polokwane Lab,29.4613,-23.8898,,"Polokwane, Polokwane, 0700",Gov NHLS
+Limpopo,lp Capricorn District Municipality,lp Polokwane Local Municipality,NHLS Seshego Lab,29.3952,-23.8552,,"Seshego Hospital, Crn Bookelo and Nelson Mandela Street, Seshego, 0742",Gov NHLS
+Limpopo,lp Capricorn District Municipality,lp Polokwane Local Municipality,NHLS WF Knobel Lab,29.1516,-23.6086,,"WF Knobel Hospital, Lonsdale, 0710",Gov NHLS
+Limpopo,lp Capricorn District Municipality,lp Polokwane Local Municipality,Univ Limpopo NHLS,,,M Lekalakala,"University Rd, Mankweng-B, Mankweng, 0727",Gov NHLS
+Limpopo,lp Mopani District Municipality,lp Ba-Phalaborwa Local Municipality,Lancet Phalaborwa Lab,31.133809,-23.9509,,"71 Sealene Avenue, Phalaborwa",Private
+Limpopo,lp Mopani District Municipality,lp Ba-Phalaborwa Local Municipality,NHLS Namakgale Lab,31.0399,-23.938,,"Maphutha L Malatjie Hospital, Maphutha Drive, Namakgale, 1391",Gov NHLS
+Limpopo,lp Mopani District Municipality,lp Greater Giyani Local Municipality,NHLS Giyani Lab,30.7039,-23.3086,,"Nkhensani Hospital, Giyani, 0826",Gov NHLS
+Limpopo,lp Mopani District Municipality,lp Greater Letaba Local Municipality,NHLS Duiwelskloof Lab,30.1412,-23.6974,,,Gov NHLS
+Limpopo,lp Mopani District Municipality,lp Greater Letaba Local Municipality,NHLS Kgapane Lab,30.2168,-23.6332,,"Kgapane Hospital, Modjadji Road, Ga-Kgapane, 0838",Gov NHLS
+Limpopo,lp Mopani District Municipality,lp Greater Tzaneen Local Municipality,Ampath Tzaneen Lab,30.153267,-23.823,,"Medclinic Drs Rooms, Wolkberg Street R71, Tzaneen",Private
+Limpopo,lp Mopani District Municipality,lp Greater Tzaneen Local Municipality,Lancet Tzaneen Lab,30.152807,-23.8226,,"Tzaneen Mediclinic, 71 Wolkeberg Drive, Tzaneen",Private
+Limpopo,lp Mopani District Municipality,lp Greater Tzaneen Local Municipality,NHLS CN Phatudi Lab,30.2588,-24.0233,,"Dr CN Phatudi Hospital, Tzaneen, 0850",Gov NHLS
+Limpopo,lp Mopani District Municipality,lp Greater Tzaneen Local Municipality,NHLS Letaba Lab,30.2676,-23.8735,,"Letaba Hospital, Cnr Lydenburg and Tarantaal Road, Letaba, 0870",Gov NHLS
+Limpopo,lp Mopani District Municipality,lp Greater Tzaneen Local Municipality,NHLS Tzaneen Lab,30.1648,-23.8354,,"Van Velden Memorial (Tzaneen) Hospital, 3rd Avenue, Tzaneen, 0850",Gov NHLS
+Limpopo,lp Mopani District Municipality,lp Maruleng Local Municipality,NHLS Hoedspruit Lab,30.95138,-24.3557,,,Gov NHLS
+Limpopo,lp Mopani District Municipality,lp Maruleng Local Municipality,NHLS Sekororo Lab,30.4475,-24.2534,,"Sekororo Hospital, R74 Road, Trichardtsdal, 0890",Gov NHLS
+Limpopo,lp Sekhukhune District Municipality,lp Elias Motsoaledi Local Municipality,NHLS Groblersdal Lab,29.3999,-25.1679,,"Groblersdal Hospital, 18 Voortrekker Road, Groblersdal, 0470",Gov NHLS
+Limpopo,lp Sekhukhune District Municipality,lp Elias Motsoaledi Local Municipality,NHLS Philadelphia Lab,29.1656,-25.2577,,"Hospital Road, Dennilton, 1030",Gov NHLS
+Limpopo,lp Sekhukhune District Municipality,lp Ephraim Mogale Local Municipality,NHLS Matlala Lab,29.2828,-24.9804,,"Matlala Hospital, Tsimanyane Village, Marble Hall, 0450",Gov NHLS
+Limpopo,lp Sekhukhune District Municipality,lp Fetakgomo Tubatse Local Municipality,NHLS Dilokong Lab,30.173,-24.6191,,"Dilokong Hospital, Driekop Village, Burgersfort, 1150",Gov NHLS
+Limpopo,lp Sekhukhune District Municipality,lp Fetakgomo Tubatse Local Municipality,NHLS Mecklenburg Lab,30.072501,-24.3853,,"Mecklenburg Hospital, Moroke Village, Burgersfort, 1150",Gov NHLS
+Limpopo,lp Sekhukhune District Municipality,lp Makhuduthamaga Local Municipality,NHLS Jane Furse Mob Lab,29.86767,-24.7638,,,Gov NHLS
+Limpopo,lp Sekhukhune District Municipality,lp Makhuduthamaga Local Municipality,NHLS St Rita's Lab,29.772,-24.8317,,"St Rita's Hospital, Glen Cowie, 1061",Gov NHLS
+Limpopo,lp Vhembe District Municipality,lp Collins Chabane Local Municipality,NHLS Malamulele Lab,30.6898,-23.0002,,"Hospital Street, Malamulele, 0982",Gov NHLS
+Limpopo,lp Vhembe District Municipality,lp Makhado Local Municipality,Ampath Louis Trichardt Lab,29.897381,-23.0406,,"47 Joubert Street, Makhado",Private
+Limpopo,lp Vhembe District Municipality,lp Makhado Local Municipality,Lancet Louis Trichardt Lab,29.906411,-23.0446,,"Louis Trichardt, Makhado, 24 A Joubert Street",Private
+Limpopo,lp Vhembe District Municipality,lp Makhado Local Municipality,NHLS Elim Lab,30.0592,-23.1525,,"Elim Hospital, Elim, 0960",Gov NHLS
+Limpopo,lp Vhembe District Municipality,lp Makhado Local Municipality,NHLS Louis Trichardt Lab,29.9054,-23.0284,,"Cnr Hospital and Snyman Street, Louis Trichardt, 0920",Gov NHLS
+Limpopo,lp Vhembe District Municipality,lp Makhado Local Municipality,NHLS Siloam Lab,30.1956,-22.9004,,"Siloam Hospital, Louis Trichardt 0920",Gov NHLS
+Limpopo,lp Vhembe District Municipality,lp Musina Local Municipality,Ampath Musina Lab,30.043691,-22.3421,,"7 Limpopo Avenue, Musina, 0900",Private
+Limpopo,lp Vhembe District Municipality,lp Musina Local Municipality,NHLS Messina Lab,30.0434,-22.3431,,"Messina Hospital, 1 National Road, Musina, 0900",Gov NHLS
+Limpopo,lp Vhembe District Municipality,lp Thulamela Local Municipality,Lancet Thohoyandou Lab,30.468706,-22.961,,"Shop 1, Yusaf Centre, Cnr Mphephu and Mvusuludzo, Thohoyandou, 0950",Private
+Limpopo,lp Vhembe District Municipality,lp Thulamela Local Municipality,NHLS Donald Fraser Lab,30.4793,-22.8863,,"Donald Fraser Hospital, Vhufuli, 0971",Gov NHLS
+Limpopo,lp Vhembe District Municipality,lp Thulamela Local Municipality,NHLS Tshilidzini Lab,30.4146,-22.9947,,"Tshilidzini Hospital, R524 Phunda Maria Road, Shayandima, 0945",Gov NHLS
+Limpopo,lp Waterberg District Municipality,lp Bela-Bela Local Municipality,NHLS Bela-Bela Lab,28.2893,-24.8857,,"Warmbaths Hospital, Chris Hani Road, Bela-Bela, 0480",Gov NHLS
+Limpopo,lp Waterberg District Municipality,lp Lephalale Local Municipality,Lancet Lephalale Lab,27.700321,-23.6867,,"Cnr Drif and Joe Slovo, Sunset Point Shopping Plaza, Onverwacht, Lephalale",Private
+Limpopo,lp Waterberg District Municipality,lp Lephalale Local Municipality,NHLS Ellisras Lab,27.7044,-23.6792,,"Ellisras Hospital, Onverwacht, 0557",Gov NHLS
+Limpopo,lp Waterberg District Municipality,lp Lephalale Local Municipality,NHLS Witpoort Lab,27.7431,-23.6697,,"Witpoort Hospital, Stand 1, Thabo Mbeki Road, Lephalale, 0555",Gov NHLS
+Limpopo,lp Waterberg District Municipality,lp Mogalakwena Local Municipality,Lancet Mokopane Lab,29.009358,-24.1867,,"97 Ruiter Street, Mokopane",Private
+Limpopo,lp Waterberg District Municipality,lp Mogalakwena Local Municipality,NHLS George Masebe Lab,28.693698,-23.8754,,"George Masebe Hospital, Bakenberg Location, Suswe, 0612",Gov NHLS
+Limpopo,lp Waterberg District Municipality,lp Mogalakwena Local Municipality,NHLS Mokopane Lab,29.0208,-24.1927,,"Mokopane Hospital, Mokopane, 0600",Gov NHLS
+Limpopo,lp Waterberg District Municipality,lp Mogalakwena Local Municipality,NHLS Potgietersrus Lab,29.0143,-24.1965,,"Voortrekker Memorial (Potgietersrus) Hospital, 2 Geyser Street, Potgietersrus, 0601",Gov NHLS
+Limpopo,lp Waterberg District Municipality,lp Mogalakwena Local Municipality,NHLS Voortrekker Mob Lab,29.01405,-24.1962,,,Gov NHLS
+Limpopo,lp Waterberg District Municipality,lp Mookgophong/Modimolle Local Municipality,NHLS Nylstroom Lab,28.4226,-24.7022,,"FH Odendaal (Nylstroom) Hospital, 65 Alf Makaleng Street, Modimolle, 0510",Gov NHLS
+Limpopo,lp Waterberg District Municipality,lp Thabazimbi Local Municipality,Ampath Thabazimbi Lab,27.404453,-24.5849,,"Medicum Building 11, Watsonia, Thabazimbi",Private
+Limpopo,lp Waterberg District Municipality,lp Thabazimbi Local Municipality,Lancet Northam Lab,27.794324,-26.7045,,"Salom Medical Centre, Opal Street, Northam",Private
+Limpopo,lp Waterberg District Municipality,lp Thabazimbi Local Municipality,Lancet Thabazimbi Lab,27.417516,-24.5885,,"Carpe Diem Centre, 13th Avenue, Thabazimbi",Private
+Limpopo,lp Waterberg District Municipality,lp Thabazimbi Local Municipality,NHLS Thabazimbi Lab,27.4064,-24.5982,,"Thabazimbi Hospital, 10 First Avenue, Thabazimbi, 0380",Gov NHLS
+Mpumalanga,mp Ehlanzeni District Municipality,mp Bushbuckridge Local Municipality,NHLS Mapulaneng Lab,31.0554,-24.8444,,"Mapulaneng Hospital, 1 Masana Trust, Graskop Road, Bushbuckridge, 1280",Gov NHLS
+Mpumalanga,mp Ehlanzeni District Municipality,mp Bushbuckridge Local Municipality,NHLS Matikwana Lab,31.2418,-24.9825,,"Matikwana Hospital, 413 C, Main Road, Mkhuhlu, 1246",Gov NHLS
+Mpumalanga,mp Ehlanzeni District Municipality,mp Bushbuckridge Local Municipality,NHLS Tintswalo Lab,31.0598,-24.5918,,"Tintswalo Hospital, Acornhoek, 1360",Gov NHLS
+Mpumalanga,mp Ehlanzeni District Municipality,mp City of Mbombela Local Municipality,Ampath Barberton Lab,31.051078,-25.7617,,"Mediclinic Barberton, Shiba Street",Private
+Mpumalanga,mp Ehlanzeni District Municipality,mp City of Mbombela Local Municipality,Ampath Nelmed Lab,30.977634,-25.4758,,"Medicross Nelmed, Cnr Nel and Rothery Streetn, Nelspruit",Private
+Mpumalanga,mp Ehlanzeni District Municipality,mp City of Mbombela Local Municipality,Ampath Nelspruit Lab,30.9625,-25.4934,,"Mediclinic Nelspruit, 1 Louise Street, Sonheuweln",Private
+Mpumalanga,mp Ehlanzeni District Municipality,mp City of Mbombela Local Municipality,Lancet Hazyview Lab,31.127128,-25.0424,,"Simunye Centre, Next-Pharmacy",Private
+Mpumalanga,mp Ehlanzeni District Municipality,mp City of Mbombela Local Municipality,Lancet Lowveld Lab,30.977583,-25.4761,,"Unit G10, Busamed Lowveld Private Hospital, Cnr Rothery and Nel Streets, Nelspruit, 1200",Private
+Mpumalanga,mp Ehlanzeni District Municipality,mp City of Mbombela Local Municipality,Lancet Mlondolozi Lab,30.979256,-25.4756,,"Mhlondolozi House, 6 Ehmke Street, Nelspruit",Private
+Mpumalanga,mp Ehlanzeni District Municipality,mp City of Mbombela Local Municipality,Lancet Nelspruit Lab,30.961882,-25.4935,,"Nelspruit Mediclinic, 1 Louise Street, Sonheuwel, Nelspruit",Private
+Mpumalanga,mp Ehlanzeni District Municipality,mp City of Mbombela Local Municipality,Lancet Promenade Lab,30.979586,-25.4706,,"No 23 Promenade Shopping Centre, Louis Trichardt Street, Nelspruit, 1201",Private
+Mpumalanga,mp Ehlanzeni District Municipality,mp City of Mbombela Local Municipality,NHLS Barberton Corr Lab,31.0531,-25.7861,,"Barberton Correctional Centre, Barberton, 1300",Gov NHLS
+Mpumalanga,mp Ehlanzeni District Municipality,mp City of Mbombela Local Municipality,NHLS Barberton Lab,31.0419,-25.7814,,"1 Hospital Street, Barberton 1300",Gov NHLS
+Mpumalanga,mp Ehlanzeni District Municipality,mp City of Mbombela Local Municipality,NHLS Kanyamazane Lab,31.184073,-25.4656,,"Cobra Street, Kanyamazane-A, Nelspruit, 1214",Gov NHLS
+Mpumalanga,mp Ehlanzeni District Municipality,mp City of Mbombela Local Municipality,NHLS Nelspruit Lab,30.9711,-25.4756,,"Rob Ferreira Hospital, Cnr Madiba Drive and Piet Retief Street, Nelspruit, 1200",Gov NHLS
+Mpumalanga,mp Ehlanzeni District Municipality,mp City of Mbombela Local Municipality,NHLS Themba Lab,31.1228,-25.3452,,"Themba Hospital, Main Street, Kabokweni, 1245",Gov NHLS
+Mpumalanga,mp Ehlanzeni District Municipality,mp Nkomazi Local Municipality,Ampath Komatipoort Lab,31.954268,-25.434,,"61 Rissik Street, Komatipoort",Private
+Mpumalanga,mp Ehlanzeni District Municipality,mp Nkomazi Local Municipality,Mpumalanga Malaria Lab,31.77972,-25.68,,,Gov Province
+Mpumalanga,mp Ehlanzeni District Municipality,mp Nkomazi Local Municipality,NHLS Shongwe Lab,31.4913,-25.6869,,"Shongwe Hospital, Jeppes Reef Main Road, Shongwe Mission, 1331",Gov NHLS
+Mpumalanga,mp Ehlanzeni District Municipality,mp Nkomazi Local Municipality,NHLS Tonga Lab,31.7881,-25.6947,,"Tonga Hospital, Kwa-Lugedlane, 1341",Gov NHLS
+Mpumalanga,mp Ehlanzeni District Municipality,mp Thaba Chweu Local Municipality,Ampath Lydenburg Lab,30.455212,-25.0933,,"Cnr Church and Viljoen Street, Lydenburg",Private
+Mpumalanga,mp Ehlanzeni District Municipality,mp Thaba Chweu Local Municipality,NHLS Lydenburg Lab,30.4517,-25.1085,,"Lydenburg Hospital, 32 Berg Street, Lydenburg, 1120",Gov NHLS
+Mpumalanga,mp Gert Sibande District Municipality,mp Chief Albert Luthuli Local Municipality,NHLS Embhuleni Lab,30.81682205,-26.0477,,"Embhuleni Hospital, Stand No 40b, Diepgesig Road, Elukwatini, 1192",Gov NHLS
+Mpumalanga,mp Gert Sibande District Municipality,mp Dr Pixley Ka Isaka Seme Local Municipality,NHLS Volksrust Lab,29.8906,-27.3517,,"Hospital Street, Volksrust 2470",Gov NHLS
+Mpumalanga,mp Gert Sibande District Municipality,mp Govan Mbeki Local Municipality,Ampath SASOL Medical Centre Lab,29.180267,-26.5035,,"Sasol Secunda Mining Hospital, Paul Kruger Street",Private
+Mpumalanga,mp Gert Sibande District Municipality,mp Govan Mbeki Local Municipality,Ampath Trichardt Lab,29.231043,-26.4914,,"42 Barney Molekwane Street, Trichardt",Private
+Mpumalanga,mp Gert Sibande District Municipality,mp Govan Mbeki Local Municipality,Lancet Secunda Lab,29.185465,-26.5069,,"Ground Floor, Game Park Sentrum, Horwood Street, Secunda",Private
+Mpumalanga,mp Gert Sibande District Municipality,mp Govan Mbeki Local Municipality,Lancet Trichardt Lab,29.230509,-26.4905,,"Room 210, 2nd Floor, Hydromed Hospital, Barney Molokwane Street, Trichardt, Secunda",Private
+Mpumalanga,mp Gert Sibande District Municipality,mp Govan Mbeki Local Municipality,NHLS Bethal Lab,29.4674,-26.4646,,"Bethal Hospital, Cnr Wicht and Eeufees Streets, Bethal, 2309",Gov NHLS
+Mpumalanga,mp Gert Sibande District Municipality,mp Govan Mbeki Local Municipality,NHLS Evander Lab,29.1197,-26.4672,,"Evander Hospital, Cnr Bologna Street and Lausanne Road, Evander, 2280",Gov NHLS
+Mpumalanga,mp Gert Sibande District Municipality,mp Lekwa Local Municipality,Lancet Standerton Lab,29.243804,-26.9502,,"Central Park, Shop 5, Cnr Kerk and Princess Street, Standerton",Private
+Mpumalanga,mp Gert Sibande District Municipality,mp Lekwa Local Municipality,NHLS Standerton Lab,29.2441,-26.9407,,"Standerton Hospital, Cnr Kruger and Beyers Naude Street, Standerton, 2430",Gov NHLS
+Mpumalanga,mp Gert Sibande District Municipality,mp Mkhondo Local Municipality,Ampath Piet Retief Lab,30.811,-26.997,,"18 Zuidend Street, Piet Retief",Private
+Mpumalanga,mp Gert Sibande District Municipality,mp Mkhondo Local Municipality,Lancet Piet Retief Lab,30.804783,-27.0199,,"Piet Retief Life Hospital, Mansoor Street, Kempville, Piet Retief",Private
+Mpumalanga,mp Gert Sibande District Municipality,mp Mkhondo Local Municipality,NHLS Piet Retief Lab,30.8063,-27.0189,,"Piet Retief Hospital, Pretorius Street, Piet Retief, 2380",Gov NHLS
+Mpumalanga,mp Gert Sibande District Municipality,mp Msukaligwa Local Municipality,Ampath Ermelo Lab,29.987617,-26.5425,,"Mediclinic Ermelo, 25 Mel Mentz Street",Private
+Mpumalanga,mp Gert Sibande District Municipality,mp Msukaligwa Local Municipality,NHLS Ermelo Lab,29.9752,-26.5232,,"Ermelo Hospital, 1 Joubert Street, Ermelo, 2350",Gov NHLS
+Mpumalanga,mp Nkangala District Municipality,mp Dr JS Moroka Local Municipality,NHLS Mmametlhake Lab,28.55872,-25.1046,,"Mmametlhake Hospital, Napier Section, Bamokgoko, 0432",Gov NHLS
+Mpumalanga,mp Nkangala District Municipality,mp Emalahleni Local Municipality,Ampath Emalahleni Lab,29.231474,-25.8843,,"Room 101, Centre de la Vie, Beatty Avenue, Emalahleni",Private
+Mpumalanga,mp Nkangala District Municipality,mp Emalahleni Local Municipality,Lancet Kriel Lab,29.258536,-26.25,,"Shop 10, Zinaida Centre, Bronwen Street, Kriel, 2271",Private
+Mpumalanga,mp Nkangala District Municipality,mp Emalahleni Local Municipality,Lancet Witbank Cosmos Lab,29.232742,-25.8841,,"Ground Floor, Life Cosmos Hospital, Cnr Beauty and Or Tambo Drive, Witbank",Private
+Mpumalanga,mp Nkangala District Municipality,mp Emalahleni Local Municipality,NHLS Witbank Lab,29.2375,-25.8751,,"Witbank Hospital, Cnr Coert Steynberg and Mandela Street, Witbank, 1035",Gov NHLS
+Mpumalanga,mp Nkangala District Municipality,mp Steve Tshwete Local Municipality,Ampath Middelburg Lab,29.463366,-25.7638,,"Cnr Joubert and OR Tambo Street, Middelburg",Private
+Mpumalanga,mp Nkangala District Municipality,mp Steve Tshwete Local Municipality,Lancet Middelburg Lab,29.457539,-25.7628,,"Ground Floor, Midmed Building, Joubert Street, Middelburg",Private
+Mpumalanga,mp Nkangala District Municipality,mp Steve Tshwete Local Municipality,NHLS Middelburg Lab,29.4504,-25.7758,,"Cnr Walter Sizulu And Hospital Street, Middelburg 1050",Gov NHLS
+Mpumalanga,mp Nkangala District Municipality,mp Thembisile Hani Local Municipality,NHLS Kwamhlanga Lab,28.7139,-25.4315,,"Kwamhlanga Hospital, 1128 Solomon Mahlangu Drive, Kwa-Mhlanga, 1022",Gov NHLS
+Mpumalanga,mp Nkangala District Municipality,mp Victor Khanye Local Municipality,Lancet Delmas Lab,28.676674,-26.1482,,"Mareu Building, 5 Samuel Road, Delmas, 2210",Private
+Mpumalanga,mp Nkangala District Municipality,mp Victor Khanye Local Municipality,NHLS Delmas Lab,28.667,-26.1521,,"2 Hospital Road, Delmas 2210",Gov NHLS
+Northern Cape,nc Frances Baard District Municipality,nc Sol Plaatje Local Municipality,Ampath Kimberley Lab,24.773951,-28.7452,,"9 Spencer Lane, Belgravia, Kimberley",Private
+Northern Cape,nc Frances Baard District Municipality,nc Sol Plaatje Local Municipality,Lancet Lenmed Kimberley Lab,24.762109,-28.7564,,"Room G012, Royal Hospital and Heart Centre, 3 Welgevonden Street, Royldene, Kimberley, 8301",Private
+Northern Cape,nc Frances Baard District Municipality,nc Sol Plaatje Local Municipality,NHLS Kimberley Lab,24.7697,-28.7429,,"Kimberley Hospital, Du Toitspan Road, Kimberley, 8301",Gov NHLS
+Northern Cape,nc John Taolo Gaetsewe District Municipality,nc Ga-Segonyana Local Municipality,NHLS Tshwaragano Lab,23.4357,-27.451,,"Tshwaragano Hospital, Tsineng Road, Kuruman, 8460",Gov NHLS
+Northern Cape,nc Namakwa District Municipality,nc Nama Khoi Local Municipality,NHLS Springbok Lab,17.8866,-29.6576,,"Hospital Street, Springbok, 8240",Gov NHLS
+Northern Cape,nc Pixley ka Seme District Municipality,nc Emthanjeni Local Municipality,NHLS De Aar Lab,24.007745,-30.6598,,"De Aar (Central Karoo) Hospital, Visser Street, De Aar, 7000",Gov NHLS
+Northern Cape,nc Zwelentlanga Fatman Mgcawu District Municipality,nc Dawid Kruiper Local Municipality,NHLS Upington Lab,21.266,-28.446,,"Dr Harry Surtie Hospital, Schroder Street, Upington, 8800",Gov NHLS
+North West,nw Bojanala Platinum District Municipality,nw Kgetlengrivier Local Municipality,NHLS Swartruggens Lab,26.6835,-25.6389,,"Swartruggens CHC, Cnr Mandela and Lindleyspoort Road, Borolelo, 2835",Gov NHLS
+North West,nw Bojanala Platinum District Municipality,nw Madibeng Local Municipality,Ampath Brits Medi-Clinic Lab,27.782906,-25.6333,,"12 Church Street, Brits",Private
+North West,nw Bojanala Platinum District Municipality,nw Madibeng Local Municipality,Lancet Brits Safari Centre Lab,27.781102,-25.6315,,"Shop 19, Safari Centre, Van Velden Street, Brits",Private
+North West,nw Bojanala Platinum District Municipality,nw Madibeng Local Municipality,NHLS Brits Lab,27.7835,-25.6326,,"Brits Hospital, 127 Crocodile Street, Brits, 0250",Gov NHLS
+North West,nw Bojanala Platinum District Municipality,nw Moses Kotane Local Municipality,NHLS Mogwase Lab,27.248764,-25.2595,,,Gov NHLS
+North West,nw Bojanala Platinum District Municipality,nw Moses Kotane Local Municipality,NHLS Moses Kotane Lab,27.057912,-25.3806,,"Moses Kotane Hospital, 4 Patsima Road, Ledig, 0316",Gov NHLS
+North West,nw Bojanala Platinum District Municipality,nw Rustenburg Local Municipality,Ampath Ferncrest Lab,27.215321,-25.6478,,"Moumo Street, Thlabane, Rustenburg",Private
+North West,nw Bojanala Platinum District Municipality,nw Rustenburg Local Municipality,Ampath Medicare Lab,27.226595,-25.6852,,"Ground Floor, 271 Beyers Naude Avenue, Rustenburg",Private
+North West,nw Bojanala Platinum District Municipality,nw Rustenburg Local Municipality,Ampath Rustenburg Lab,27.24033,-25.6742,,"56 Heystek Street, Rustenburg",Private
+North West,nw Bojanala Platinum District Municipality,nw Rustenburg Local Municipality,Lancet Ferncrest Lab,27.214149,-25.6478,,"Netcare Ferncrest Hospital, Moumo Street",Private
+North West,nw Bojanala Platinum District Municipality,nw Rustenburg Local Municipality,Lancet La Femme Lab,27.238413,-25.6721,,"La Femme Building, 148 Kerk Street",Private
+North West,nw Bojanala Platinum District Municipality,nw Rustenburg Local Municipality,Lancet Medi-Care Lab,27.226595,-25.6852,,"54 Zand Street, Rustenburg",Private
+North West,nw Bojanala Platinum District Municipality,nw Rustenburg Local Municipality,Lancet Rustenburg Lab,27.242918,-25.6749,,"Ground Floor, Medical Centre, 102 Kock Street, Rustenburg",Private
+North West,nw Bojanala Platinum District Municipality,nw Rustenburg Local Municipality,NHLS Bafokeng Lab,26.2661,-27.8658,,,Gov NHLS
+North West,nw Bojanala Platinum District Municipality,nw Rustenburg Local Municipality,NHLS Rustenburg Lab,27.2489,-25.6755,,"Job Shimankana Tabane Hospital, Cnr Bosch and Nelson Mandela Street, Rustenburg, 0300",Gov NHLS
+North West,nw Bojanala Platinum District Municipality,nw Rustenburg Local Municipality,NHLS Rustenburg Mob Lab,27.244388,-25.6774,,,Gov NHLS
+North West,nw Dr Kenneth Kaunda District Municipality,nw City of Matlosana Local Municipality,Ampath Klerksdorp Lab,26.678459,-26.8307,,"4 Philip Gerber Crescent, Wilkoppies, Klerksdorp",Private
+North West,nw Dr Kenneth Kaunda District Municipality,nw City of Matlosana Local Municipality,NHLS Klerksdorp Lab,26.665076,-26.8675,,Klerksdorp Tertiary Hospital,Gov NHLS
+North West,nw Dr Kenneth Kaunda District Municipality,nw City of Matlosana Local Municipality,NHLS Tshepong Lab,26.6177,-26.8868,,"Tshepong Tertiary Hospital, 41 Benji Oliphant Street, Klerksdorp, 2571",Gov NHLS
+North West,nw Dr Kenneth Kaunda District Municipality,nw City of Matlosana Local Municipality,NHLS West Vaal Lab,26.6692,-26.9789,,West Vaal Hospital,Gov NHLS
+North West,nw Dr Kenneth Kaunda District Municipality,nw JB Marks Local Municipality,Ampath Potchefstroom Mooimed Lab,27.095556,-26.7001,,"Suite 6, 1 Albert Luthuli Avenue, Potchefstroom, Johannesburg West",Private
+North West,nw Dr Kenneth Kaunda District Municipality,nw JB Marks Local Municipality,Lancet Potchefstroom Lab,27.094532,-26.6924,,"Shop 24, Cachet Park, Steve Biko Avenue, Potchefstroom",Private
+North West,nw Dr Kenneth Kaunda District Municipality,nw JB Marks Local Municipality,NHLS Potchefstroom Lab,27.0839,-26.7273,,"Potchefstroom Hospital, Cnr Chris Hani and Kruis Street, Potchefstroom, 2531",Gov NHLS
+North West,nw Dr Kenneth Kaunda District Municipality,nw JB Marks Local Municipality,NHLS Potchefstroom Mob Lab,27.08418,-26.7286,,,Gov NHLS
+North West,nw Dr Kenneth Kaunda District Municipality,nw Maquassi Hills Local Municipality,NHLS Wolmaransstad Lab,25.9793,-27.1886,,"Nic Bodenstein Hospital, Cnr van Riebeeck and van Rensburg Streets, Wolmaransstad, 2630",Gov NHLS
+North West,nw Dr Ruth Segomotsi Mompati District Municipality,nw Greater Taung Local Municipality,NHLS Taung Lab,24.7466,-27.5674,,"Taung Hospital, Mathe Road, Taung, 8584",Gov NHLS
+North West,nw Dr Ruth Segomotsi Mompati District Municipality,nw Kagisano-Molopo Local Municipality,NHLS Ganyesa Lab,24.17121,-26.5918,,"Ganyesa Hospital, 2153 Tosca Road, Ganyesa, 8613",Gov NHLS
+North West,nw Dr Ruth Segomotsi Mompati District Municipality,nw Mamusa Local Municipality,NHLS Schweizer-Reneke Lab,25.318776,-27.1813,,Schweizer-Reneke Hospital,Gov NHLS
+North West,nw Dr Ruth Segomotsi Mompati District Municipality,nw Naledi Local Municipality,NHLS Joe Morolong Lab,24.72199,-26.9683,,"Joe Morolong Memorial Hospital, 506 South Street, Vryburg, 8600",Gov NHLS
+North West,nw Ngaka Modiri Molema District Municipality,nw Ditsobotla Local Municipality,NHLS Thusong Lab,25.9499,-26.053,,"Thusong Hospital, Lichtenburg-Mahikeng Road, Itsoseng, 2744",Gov NHLS
+North West,nw Ngaka Modiri Molema District Municipality,nw Mahikeng Local Municipality,Ampath Mahikeng Lab,25.638363,-25.8424,,"Plaza Centre, Shop 11M, Nelson Mandela Drive, Mahikeng",Private
+North West,nw Ngaka Modiri Molema District Municipality,nw Mahikeng Local Municipality,Lancet Mahikeng Lab,25.64145,-25.86,,"Victoria Private Hospital, 13 Victoria Road, Mahikeng, 2745",Private
+North West,nw Ngaka Modiri Molema District Municipality,nw Mahikeng Local Municipality,NHLS Gelukspan Lab,25.6011,-26.199,,"Gelukspan Hospital, Village Road, Radithuso, 2738",Gov NHLS
+North West,nw Ngaka Modiri Molema District Municipality,nw Mahikeng Local Municipality,NHLS Mafikeng Lab,25.706811,-25.8886,,"Mahikeng Provincial Hospital, Vryburg/mareetsane Road, Danville, 2745",Gov NHLS
+North West,nw Ngaka Modiri Molema District Municipality,nw Ramotshere Moiloa Local Municipality,NHLS Lehurutshe Lab,25.984,-25.4792,,"Lehurutshe Hospital, Lerato, 2880",Gov NHLS
+North West,nw Ngaka Modiri Molema District Municipality,nw Tswaing Local Municipality,NHLS Delareyville Lab,25.46344,-26.6901,,Delareyville CHC,Gov NHLS
+Western Cape,wc Cape Winelands District Municipality,wc Breede Valley Local Municipality,NHLS Worcester Lab,19.4581,-33.6456,,Worcester Hospital,Gov NHLS
+Western Cape,wc Cape Winelands District Municipality,wc Drakenstein Local Municipality,NHLS Paarl Lab,18.97,-33.727,,Paarl Hospital,Gov NHLS
+Western Cape,wc Cape Winelands District Municipality,wc Stellenbosch Local Municipality,Univ Stellenbosch NHLS,,,Andrew Whitelaw,"Andries Pretorius St, Somerset West, 7130",Gov NHLS
+Western Cape,wc Central Karoo District Municipality,wc Beaufort West Local Municipality,NHLS Beaufort West Lab,22.5949,-32.3529,,Beaufort West Hospital,Gov NHLS
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Eastern Health sub-District,Ampath Somerset West Lab,18.85743,-34.0906,,"7F Arun Place, Sir Lowry's Pass Road, Somerset West",Private
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Eastern Health sub-District,Lancet Somerset West Lab,18.860187,-34.093,,"Arun Place, Block 6, Unit F, Sir Lowry Road, Somerset West",Private
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Eastern Health sub-District,NHLS Helderberg Lab,18.82146,-34.1095,,Helderberg Hospital,Gov NHLS
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Northern Health sub-District,Ampath Durbanville Lab,18.656742,-33.8254,,"Loerie Park, Unit 1B, Cnr Wellington and Paul Kruger Street, Durbanville, Cape Town",Private
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Northern Health sub-District,Ampath Kuils River Lab,18.709717,-33.7152,,"Riverside View, 3rd Floor, Room 3A, 33 Van Riebeeck Road, Kuilsrivier, Cape Town",Private
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Northern Health sub-District,Lancet Panorama Lab,18.577052,-33.8753,,"2nd Floor, Panorama Healthcare Centre, Cnr Hennie Winterbach and Rothschild Boulevard, Panorama",Private
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Southern Health sub-District,Lancet Rondebosch Lab,18.492173,-33.9554,,"Stonefountain Terrace Building, 1st Floor, 95 Klipfontein Road",Private
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Southern Health sub-District,NHLS Pollsmoor Corr Lab,18.4319,-34.0684,,"Pollsmoor Correctional Centre, Tokai, 7966",Gov NHLS
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Southern Health sub-District,NHLS Red Cross War Mem Children's Lab,18.4878,-33.9546,,"Kliptown Road, Rondebosch",Gov NHLS
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Southern Health sub-District,Univ Cape Town NHLS,,,Raj Ramesar,"Block C Old City Hosp Complex Greenpoint Lab, 1 Portswood Road, Green Point, Cape Town, 8005",Gov NHLS
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Western Health sub-District,Ampath Blaauwberg Lab,18.483295,-33.8026,,"1st Floor, Suite A1-9, Waterville Crescent, Sunningdale, Cape Town",Private
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Western Health sub-District,Ampath Christiaan Barnard Lab,18.41816,-33.9217,,"Suite 1609, Cnr DF Malan Street and Rua Bartholemeu Dias Plain, Foreshore, Cape Town",Private
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Western Health sub-District,Ampath Vincent Pallotti Lab,18.489304,-33.9319,,"Suite 86, Alexandra Road, Pinelands, Cape Town",Private
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Western Health sub-District,Lancet Century City Lab,18.515245,-33.8923,,"Smartsurv Building, 1st Floor, 32 Century Boulevard, Century City",Private
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Western Health sub-District,Lancet Chr Barnard Lab,18.430349,-33.9177,,"Cnr DF Malan Street and Rua Bartholemeu Dias Plain, Foreshore, Cape Town",Private
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Western Health sub-District,Lancet Milnerton Lab,18.506922,-33.8654,,"Milnerton Mediclinic Annex, 117 Cnr Koeberg and Racecourse Road, Milnerton",Private
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Western Health sub-District,Lancet Parklane Lab,18.490378,-33.9429,,"Parklane Block C, 1st Floor, Suite 18, Cnr Alexander and Park Road, Pinelands",Private
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Western Health sub-District,NHLS Green Point Lab,18.4147,-33.9066,,Green Point,Gov NHLS
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Western Health sub-District,NHLS Groote Schuur Lab,18.4624,-33.9421,,Groote Schuur Hospital,Gov NHLS
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Khayelitsha Health sub-District,NHLS Khayelitsha Lab,18.665,-34.0275,,Khayelitsha Hospital,Gov NHLS
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Mitchells Plain Health sub-District,NHLS Mitchells Plain Lab,18.5591,-33.9856,,"Mitchells Plain Hospital, AZ Berman Drive, Mitchells Plain, 7785",Gov NHLS
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Tygerberg Health sub-District,Ampath Western Cape Lab,18.566322,-33.8916,,"5 Fairways Close, Cnr Frans Conradie and Giel Basson Drive, Parow, Cape Town",Private
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Tygerberg Health sub-District,Lancet Louis Leipoldt Lab,18.612936,-33.901,,"7C On Solway, Bellville",Private
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Tygerberg Health sub-District,NHLS Karl Bremer Lab,18.609,-33.8921,,Karl Bremer Hospital,Gov NHLS
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Tygerberg Health sub-District,NHLS Tygerberg Lab,18.613,-33.91,,Tygerberg Hospital,Gov NHLS
+Western Cape,wc Garden Route District Municipality,wc George Local Municipality,Ampath George Lab,22.448269,-33.9562,,"Shop 8A, Prince Vincent Square, Gloucester Avenue, George",Private
+Western Cape,wc Garden Route District Municipality,wc George Local Municipality,NHLS George Lab,22.4503,-33.9519,,George Hospital,Gov NHLS
+Western Cape,wc Garden Route District Municipality,wc Knysna Local Municipality,NHLS Knysna Lab,23.0494,-34.0356,,Knysna Hospital,Gov NHLS
+Western Cape,wc Garden Route District Municipality,wc Mossel Bay Local Municipality,Ampath Mossel Bay Lab,22.131226,-34.1825,,"4 Da Gama Street, Da Nova, Mossel Bay",Private
+Western Cape,wc Garden Route District Municipality,wc Mossel Bay Local Municipality,NHLS Mossel Bay Lab,22.1275,-34.1858,,Mossel Bay Hospital,Gov NHLS
+Western Cape,wc Garden Route District Municipality,wc Oudtshoorn Local Municipality,NHLS Oudtshoorn Lab,22.1963,-33.6042,,Oudtshoorn Hospital,Gov NHLS
+Western Cape,wc Overberg District Municipality,wc Overstrand Local Municipality,NHLS Hermanus Lab,19.4332,-34.224,,Hermanus Hospital,Gov NHLS
+Western Cape,wc West Coast District Municipality,wc Matzikama Local Municipality,NHLS Vredendal Lab,18.5051,-31.6667,,Vredendal Hospital,Gov NHLS
+Western Cape,wc West Coast District Municipality,wc Saldanha Bay Local Municipality,NHLS West Coast District Lab,17.991,-32.9133,,Vredenburg,Gov NHLS
