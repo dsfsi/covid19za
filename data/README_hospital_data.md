@@ -17,7 +17,7 @@ The table below shows what sources were used and the year when sources were last
 | --------------------------------------- | ------------- |---------------------|---------------------|
 | Data from [annual reports](https://github.com/dsfsi/covid19za/tree/Hospital_Data/data) of some public hospitals |Herkulaas| Identification of Hospitals per province,areas of locations etc.|  2019   |
 | Data from the [Data library](https://dd.dhmis.org/) ** from DOH     | Nompumelelo|Geo coordinates of public and private hospitals |   2018               |
-| Data from various [research outputs](https://htmlpreview.github.io/?https://github.com/anelda/za_open_hospital_data/blob/master/reports/za_hospital_analysis_v2.html)      |  Anelda|Hospital Bed numbers, number of surgeons  in  the public and private health sector. And more| From 2016                   |
+| Data from various [research outputs](https://figshare.com/articles/dataset/South_African_Hospital_Beds/12073596)      |  Anelda |Hospital Bed numbers, number of surgeons  in  the public and private health sector. And more| From 2016                   |
 | Data from [Gauteng's Cluster Policy](https://drive.google.com/file/d/1AhafV1DoTGwNRIx26J12_ICh-3vSVnyt/view)      |   Vukosi  |Public Hospital Number of beds per cluster in Gauteng                   |  2019                   |
 
 ** To download health facility data from the data dictionary: Choose Data Dictionary > Data File > NIDS integrated > Groups > All Groups > Download > Org Unit Level > Down to Level 5 and then click submit.
