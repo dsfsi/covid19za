@@ -30,6 +30,10 @@ Since this work is work in progress, it is incomplete. There could be inconsiste
 The classification of hospitals is also a grey area.Some hospitals could classified as Regional hospital in one source and District in another. So at this point, there is no one complete perfect and reliable way of classifying hospitals.
 There are still about 353 hospitals without the bed numbers data. And there is also a small number of hospitals with hospital bed data but no geo coordinates. These limitations are to make the potential users of this data aware of the level of accurancy (or lack thereof) of this data at this point and that it might not be exactly the actual current real information about hospitals.
 
+### To note:
+
+Earlier versions of this file had estimations of population per district as one of the columns for each row of hospital data i.e The district level population data was added as a variable describing the hospital data. Not only was this not a best practise but it was technically not correct and not conducive to reproducible research practices. For population data , visit [this folder](https://github.com/dsfsi/covid19za/tree/master/data/official_stats)
+
 ## 5. What's next?
 As it is apparent how incomplete this first version of hospital data is; from here we will work with the recent hospital data contributions made by other github users.[This link](https://docs.google.com/spreadsheets/d/1ujiuSd656BfIO3AT86GTr17oveaev-qBuYbu_v45RC4/edit) shows what types of information is still missing.
 
