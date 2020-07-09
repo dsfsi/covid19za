@@ -160,4 +160,7 @@ Some of COVID-19 Data for South Africa (data in this repo) is currently being us
 
 ## Support 
 
-From [IAU](http://www.astro4dev.org/)
+We want to acknowledge support from these organisations
+
+* [International Astronomical Union - Astronomy for Development](http://www.astro4dev.org/)
+* [Google Cloud Platform](http://cloud.google.com/)
