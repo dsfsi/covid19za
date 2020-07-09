@@ -46,6 +46,7 @@ In the hospital branch , there should be a couple of files related to hospitals 
 3.[health_system_za_public_hospitals](https://github.com/dsfsi/covid19za/blob/Hospital_Data/data/health_system_za_public_hospitals.csv) - This file has a list of different types of public hospitals.<br>
 4.[health_system_za_public_hospitals_contacts](https://github.com/dsfsi/covid19za/blob/master/data/health_system_za_public_hospitals_contacts.csv) - This file has contact details of some hospitals.
 5.[health_system_za_public_hospitals_extended_details](https://github.com/dsfsi/covid19za/blob/Hospital_Data/data/health_system_za_public_hospitals_extended_details.csv) - This file has a thorough description of hospitals and other details relating to minimum and maximum capacities in hospitals.
+6.[health_system_za_district_counts](https://github.com/dsfsi/covid19za/blob/master/data/health_system_za_district_counts.csv) - This file has ( counts) numbers of all different health facilities and services that each district has. The populations per  district estimate  is from [this](https://github.com/dsfsi/covid19za/blob/master/data/staging_area/population-estimates-districts.csv) file - which contains numbers that have been used by the Health System Trust in the their 2018/2019 [District Health Barometer](https://www.hst.org.za/publications/Pages/HSTDistrictHealthBarometer.aspx).
 
 ## 7. Other sources useful
 The sources below are indirectly used or to be used. For more healthcare data and research purposes, these links below are worth looking at: <br>
