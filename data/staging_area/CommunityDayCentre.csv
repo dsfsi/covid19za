@@ -1,0 +1,75 @@
+Province,DistrictName,LocalMunicapalityName,FacilityName,longitude,latitude,contactPerson,Address,OrgUnitType
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni East 1 Health sub-District,gp Daveyton Main CDC,28.41445,-26.1526,,"9307 Empilweni Street, Daveyton",Community Day Centre
+Gauteng,gp Ekurhuleni Metropolitan Municipality,gp Ekurhuleni North 2 Health sub-District,gp Mary Moodley Memorial CDC,28.30066,-26.2141,,"732 Khan Crescent, Actonville, Benoni, 1501",Community Day Centre
+Gauteng,gp Sedibeng District Municipality,gp Emfuleni Local Municipality,gp Bophelong CDC (Emfuleni),27.79729,-26.6939,,"632 Matheo Street, Bophelong",Community Day Centre
+Gauteng,gp Sedibeng District Municipality,gp Emfuleni Local Municipality,gp Empilisweni CDC,27.8735,-26.5476,,"7724 Ezindimevini and Johan van der Merwe Streets, Sebokeng Unit 7",Community Day Centre
+Gauteng,gp Sedibeng District Municipality,gp Lesedi Local Municipality,gp Ratanda CDC,28.32676,-26.5547,,"2844 Boschoek Street, Ratanda, Heidelberg",Community Day Centre
+Gauteng,gp Sedibeng District Municipality,gp Midvaal Local Municipality,gp Midvaal CDC,28.01704,-26.5573,,"28 Mitchell Road, Meyerton",Community Day Centre
+Western Cape,wc Cape Winelands District Municipality,wc Breede Valley Local Municipality,wc Worcester CDC,19.46008,-33.6449,,Sugget Street,Community Day Centre
+Western Cape,wc Cape Winelands District Municipality,wc Drakenstein Local Municipality,wc Mbekweni CDC,18.99278,-33.675,,,Community Day Centre
+Western Cape,wc Cape Winelands District Municipality,wc Drakenstein Local Municipality,wc TC Newman CDC,18.9875,-33.723,,Cnr Rosary and Broadway School,Community Day Centre
+Western Cape,wc Cape Winelands District Municipality,wc Drakenstein Local Municipality,wc Wellington CDC,19.00472,-33.6391,,"Van Wykvlei, Wellington",Community Day Centre
+Western Cape,wc Cape Winelands District Municipality,wc Stellenbosch Local Municipality,wc Cloetesville CDC,18.85583,-33.9227,,"Cnr Tenant Street and Bell Street, Stellenbosch",Community Day Centre
+Western Cape,wc Cape Winelands District Municipality,wc Witzenberg Local Municipality,wc Ceres CDC,19.30133,-33.3634,,"Rivierkant Street, Ceres",Community Day Centre
+Western Cape,wc Central Karoo District Municipality,wc Beaufort West Local Municipality,wc Beaufort West CDC,22.6075,-32.3527,,Van Schalkwyk Street,Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Eastern Health sub-District,wc Dr Ivan Toms CDC,18.672228,-33.9918,,,Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Eastern Health sub-District,wc Gordon's Bay CDC,18.87944,-34.1532,,"Moumtainside Boulevard and Sir Lowrys Pass Road, Gordons Bay",Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Eastern Health sub-District,wc Gustrouw CDC,18.85211,-34.1347,,"89 Hassan Khan Avenue, Strand",Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Eastern Health sub-District,wc Ikhwezi CDC,18.86622,-34.1137,,,Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Eastern Health sub-District,wc Kleinvlei CDC,18.71758,-33.9869,,Cnr Melkbos and Albert Philander Road,Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Eastern Health sub-District,wc Macassar CDC,18.76369,-34.061,,"Cnr Hospital and Musica Street, Macassar, Cape Town, 7130",Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Eastern Health sub-District,wc Mfuleni CDC,18.68186,-34.0052,,"Church Street, Mfuleni, Blackheath",Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Eastern Health sub-District,wc Nomzamo CDC,18.424045,-33.9248,,,Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Eastern Health sub-District,wc Sir Lowry's Pass CDC,18.90741,-34.1205,,Ndan Street,Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Eastern Health sub-District,wc Somerset West CDC,18.84815,-34.0857,,,Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Eastern Health sub-District,wc Strand CDC,18.83046,-34.1167,,"Gortland Place, 37 Main Road, Strand, 7140",Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Northern Health sub-District,wc Bothasig CDC,,,,,Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Northern Health sub-District,wc Durbanville CDC,18.65422,-33.8301,,"De Villiers Avenue, Durbanville, Cape Town, 7550",Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Northern Health sub-District,wc Scottsdene CDC,18.71931,-33.8654,,"Eoan Avenue, Northpine, Cape Town, 7560",Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Southern Health sub-District,wc Grassy Park CDC,18.49159,-34.0437,,"Victoria Road, Grassy Park",Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Southern Health sub-District,wc Hout Bay Harbour CDC,18.34268,-34.0541,,Karbonkel Street,Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Southern Health sub-District,wc Lady Michaelis CDC,18.46472,-34.0215,,"Burnham Road, Plumstead, Cape Town, 7800",Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Southern Health sub-District,wc Lotus River CDC,18.5078,-34.0265,,Cnr Anita and Delia Road,Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Southern Health sub-District,wc Ocean View CDC,18.35092,-34.148,,,Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Southern Health sub-District,wc Pelican Park CDC,,,Tessa Carolissen,"Cnr Babbler Street & Oystercatcher Road, Pelican Park, 7941",Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Western Health sub-District,wc Albow Gardens CDC,18.49092,-33.8978,,Cnr Albow and Soul Streets,Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Western Health sub-District,wc Albow Gardens CDC (Old),18.49,-33.897,,,Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Western Health sub-District,wc District Six CDC,18.49092,-33.9283,Ada Smith,"Cnr Primrose and Caledon Streets, Cape Town, 8000",Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Western Health sub-District,wc Good Hope CDC,18.47975,-33.9064,,"Koeberg Road, Brookland",Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Western Health sub-District,wc Green Point CDC,18.41596,-33.9057,,"Portswood Road, Greenpoint",Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Western Health sub-District,wc Kensington CDC,18.50373,-33.9115,,"85-6th Avenue, Kensington",Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Western Health sub-District,wc Maitland CDC,18.48622,-33.9336,,3 Norfolk Street Maitland,Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Western Health sub-District,wc Mamre CDC,18.47658,-33.5132,,"25 Adam Street, Mamre, Cape Town, 7347",Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Western Health sub-District,wc Robbie Nurock CDC,18.42083,-33.9306,,"89 Buitekant Street, Cape Town",Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Cape Town Western Health sub-District,wc Woodstock CDC,18.44889,-33.9321,,"9 Mountair Road, Woodstock",Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Khayelitsha Health sub-District,wc Kuyasa CDC,18.65621,-34.0492,,Ntlazane Road,Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Khayelitsha Health sub-District,wc Luvuyo CDC,18.70949,-34.052,,"Hlela Road, Bus Terminus Makaza, Kayelitsha",Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Khayelitsha Health sub-District,wc Matthew Goniwe CDC,18.70551,-34.0443,,"9 Kwahlaza Road, Makaza",Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Khayelitsha Health sub-District,wc Michael Mapongwana CDC,18.67013,-34.0517,,"Steve Biko Road, Harare, Khayelitsha",Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Khayelitsha Health sub-District,wc Nolungile CDC,18.64979,-34.0158,,"Solomon Tshuku Street, Khayelitsha Site C, Ikwezi Park, Cape Town, 7784",Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Khayelitsha Health sub-District,wc Town 2 CDC,18.66589,-34.0272,,Cnr Lansdowne and Basil Amos Zondi Street,Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Klipfontein Health sub-District,wc Dr Abdurahman CDC,18.51781,-33.9589,,Cnr Eland and Ebbe Hout Street,Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Klipfontein Health sub-District,wc Heideveld CDC,18.55143,-33.968,,"Heideveld Road, Heideveld, Cape Town, 7764",Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Klipfontein Health sub-District,wc Nyanga CDC,18.58334,-33.9916,,Terminal Road,Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Mitchells Plain Health sub-District,wc Crossroads CDC,18.59768,-33.9982,,Lansdowne Road,Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Mitchells Plain Health sub-District,wc Inzame Zabantu CDC,18.57892,-34.0097,,"Msingizane Street, Brown's Farm, Cape Town",Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Mitchells Plain Health sub-District,wc Tafelsig CDC,18.63715,-34.0623,,,Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Tygerberg Health sub-District,wc Bellville South CDC,18.64389,-33.9152,,"Kasselsvlei Road, Bellville South",Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Tygerberg Health sub-District,wc Bishop Lavis CDC,18.58164,-33.949,,"Lavis Drive, Bishop Lavis",Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Tygerberg Health sub-District,wc Goodwood CDC,18.55041,-33.9106,,"Dingle Road, Vasco Estate, Cape Town, 7460",Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Tygerberg Health sub-District,wc Parow CDC,18.58726,-33.9053,,"22 Smith Street, Parow",Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Tygerberg Health sub-District,wc Ravensmead CDC,18.59773,-33.9246,,"Florida Street, Ravensmead, Cape Town, 7493",Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Tygerberg Health sub-District,wc Reed Street CDC,18.63838,-33.9044,,Reed Street,Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Tygerberg Health sub-District,wc Ruyterwacht CDC,18.55691,-33.9183,,Vereeniging Circle,Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Tygerberg Health sub-District,wc St Vincent (CCT) CDC,18.64867,-33.9454,Geraldine Cane,"Cnr Belhar and St Vincent Drive, Belhar, 7493",Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Tygerberg Health sub-District,wc St Vincent CDC,18.64867,-33.9454,,"St Vincent Drive, Belhar 20, Cape Town, 7493",Community Day Centre
+Western Cape,wc City of Cape Town Metropolitan Municipality,wc Tygerberg Health sub-District,wc Symphony Way CDC,18.627164,-33.9645,,,Community Day Centre
+Western Cape,wc Garden Route District Municipality,wc Bitou Local Municipality,wc KwaNokuthula CDC,23.32361,-34.0477,,Sishuba Street,Community Day Centre
+Western Cape,wc Garden Route District Municipality,wc George Local Municipality,wc Conville CDC,22.47389,-33.9819,,"Pienaar Street, Conville, George",Community Day Centre
+Western Cape,wc Garden Route District Municipality,wc George Local Municipality,wc Thembalethu CDC,22.49194,-34.0033,,Ngcakani Road,Community Day Centre
+Western Cape,wc Garden Route District Municipality,wc Knysna Local Municipality,wc Knysna CDC,23.06028,-34.0288,,Gijima Street,Community Day Centre
+Western Cape,wc Garden Route District Municipality,wc Mossel Bay Local Municipality,wc Alma CDC,22.09222,-34.1808,,Bill Jefferey Rylaan,Community Day Centre
+Western Cape,wc Garden Route District Municipality,wc Mossel Bay Local Municipality,wc D'Almeida CDC,22.11667,-34.1766,,Strand Street,Community Day Centre
+Western Cape,wc Garden Route District Municipality,wc Oudtshoorn Local Municipality,wc Bridgeton CDC,22.22083,-33.6025,,23 Springbok Road,Community Day Centre
+Western Cape,wc Overberg District Municipality,wc Overstrand Local Municipality,wc Hermanus CDC,19.2203,-34.4258,,,Community Day Centre
+Western Cape,wc West Coast District Municipality,wc Swartland Local Municipality,wc Malmesbury CDC,18.703215,-33.4656,,,Community Day Centre

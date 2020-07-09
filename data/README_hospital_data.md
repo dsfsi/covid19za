@@ -17,7 +17,7 @@ The table below shows what sources were used and the year when sources were last
 | --------------------------------------- | ------------- |---------------------|---------------------|
 | Data from [annual reports](https://github.com/dsfsi/covid19za/tree/Hospital_Data/data) of some public hospitals |Herkulaas| Identification of Hospitals per province,areas of locations etc.|  2019   |
 | Data from the [Data library](https://dd.dhmis.org/) ** from DOH     | Nompumelelo|Geo coordinates of public and private hospitals |   2018               |
-| Data from various [research outputs](https://htmlpreview.github.io/?https://github.com/anelda/za_open_hospital_data/blob/master/reports/za_hospital_analysis_v2.html)      |  Anelda|Hospital Bed numbers, number of surgeons  in  the public and private health sector. And more| From 2016                   |
+| Data from various [research outputs](https://figshare.com/articles/dataset/South_African_Hospital_Beds/12073596)      |  Anelda |Hospital Bed numbers, number of surgeons  in  the public and private health sector. And more| From 2016                   |
 | Data from [Gauteng's Cluster Policy](https://drive.google.com/file/d/1AhafV1DoTGwNRIx26J12_ICh-3vSVnyt/view)      |   Vukosi  |Public Hospital Number of beds per cluster in Gauteng                   |  2019                   |
 
 ** To download health facility data from the data dictionary: Choose Data Dictionary > Data File > NIDS integrated > Groups > All Groups > Download > Org Unit Level > Down to Level 5 and then click submit.
@@ -29,6 +29,10 @@ Other sources used to validate minor data uncertainties like classification of a
 Since this work is work in progress, it is incomplete. There could be inconsistencies with actual names used for hospitals or districts from which the hospitals are located to. These inconsistencies are mainly due to different sources of data from different times and mostly have hospital naming conventions that are not the same across various files used.
 The classification of hospitals is also a grey area.Some hospitals could classified as Regional hospital in one source and District in another. So at this point, there is no one complete perfect and reliable way of classifying hospitals.
 There are still about 353 hospitals without the bed numbers data. And there is also a small number of hospitals with hospital bed data but no geo coordinates. These limitations are to make the potential users of this data aware of the level of accurancy (or lack thereof) of this data at this point and that it might not be exactly the actual current real information about hospitals.
+
+### To note:
+
+Earlier versions of this file had estimations of population per district as one of the columns for each row of hospital data i.e The district level population data was added as a variable describing the hospital data. Not only was this not a best practise but it was technically not correct and not conducive to reproducible research practices. For population data , visit [this folder](https://github.com/dsfsi/covid19za/tree/master/data/official_stats)
 
 ## 5. What's next?
 As it is apparent how incomplete this first version of hospital data is; from here we will work with the recent hospital data contributions made by other github users.[This link](https://docs.google.com/spreadsheets/d/1ujiuSd656BfIO3AT86GTr17oveaev-qBuYbu_v45RC4/edit) shows what types of information is still missing.
