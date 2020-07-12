@@ -64,7 +64,7 @@ jobs:
     - uses: stefanzweifel/git-auto-commit-action@v4
       with:
         # Required
-        commit_message: RT action run
+        commit_message: Rt action run
         # Optional branch to push to, defaults to the current branch
         #branch: master
         # Optional options appended to `git-commit`
