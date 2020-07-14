@@ -15,14 +15,14 @@ Livingstone Hospital,25.57074,-33.9251,Tertiary Hospital,Eastern Cape,Nelson Man
 Basambilu Med Centre,28.19,-26.01,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg A Health Sub-District,,,,,,,,,,,,,,,ZA-GP
 Diepsloot Med Centre,28.01873,-25.9205,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg A Health Sub-District,,,,,,,,,,,,,,,ZA-GP
 Beaufort West Hospital,22.5949,-32.3529,District Hospital,Western Cape,Central Karoo District Municipality,Beaufort West Local Municipality,,,,57,,6,6,,5,2,,,,http://doctors-hospitals-medical-cape-town-south-africa.blaauwberg.net/hospitals_clinics_state_hospitals/state_public_hospitals_clinics_western_cape_south_africa/beaufort_west_hospital_beaufort_west_western_cape_south_africa,ZA-WC
-Mediwell Dainfern Square Med Centre,28.013146,-25.9929,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg A Health Sub-District,,,,,,,,,,,,,,,ZA-GP
-Netcare Sunninghill Hospital,28.06941,-26.0384,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg A Health Sub-District,,,,265,,90,,,,6,,,,,ZA-GP
+Mediwell Dainfern Square Med Centre,28.013146,-25.9929,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg A Health Sub-District,,,,,,,,,,,,,,https://www.mediwell.co.za/,ZA-GP
+Netcare Sunninghill Hospital,28.06941,-26.0384,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg A Health Sub-District,,,,265,,90,,,,6,,,,https://www.netcarehospitals.co.za/Hospital/Netcare-Sunninghill-Hospital,ZA-GP
 Phedisong Health Care,28.240658,-25.9984,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg A Health Sub-District,,,,,,,,,,,,,,,ZA-GP
-Tanganani Health Care,28.011625,-25.9293,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg A Health Sub-District,,,,,,,,,,,,,,,ZA-GP
-Life Riverfield Lodge Hospital,27.962992,-25.9451,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg B Health Sub-District,,,,,,,,,,,,,,,ZA-GP
-Mediclinic Sandton Hospital,28.01204,-26.0772,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg B Health Sub-District,,,,379,,114,,,,10,,,,,ZA-GP
-Netcare Milpark Hospital,28.01725,-26.1797,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg B Health Sub-District,,,,346,,155,,,,13,,,,,ZA-GP
-Netcare Rehab Hospital,28.01224,-26.1885,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg B Health Sub-District,,,,,,,,,,,,,,,ZA-GP
+Tanganani Health Care,28.011625,-25.9293,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg A Health Sub-District,,,,,,,,,,,,,,https://bophelong-medical-and-dental-centre.business.site/,ZA-GP
+Life Riverfield Lodge Hospital,27.962992,-25.9451,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg B Health Sub-District,,,,,,,,,,,,,,https://www.lifehealthcare.co.za/hospitals/gauteng/johannesburg/life-riverfield-lodge/,ZA-GP
+Mediclinic Sandton Hospital,28.01204,-26.0772,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg B Health Sub-District,,,,379,,114,,,,10,,,,https://www.mediclinic.co.za/en/sandton/home.html,ZA-GP
+Netcare Milpark Hospital,28.01725,-26.1797,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg B Health Sub-District,,,,346,,155,,,,13,,,,https://www.netcarehospitals.co.za/Hospital/Netcare-Milpark-Hospital,ZA-GP
+Netcare Rehab Hospital,28.01224,-26.1885,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg B Health Sub-District,,,,,,,,,,,,,,https://www.netcarehospitals.co.za/Hospital/netcare-rehabilitation-hospital,ZA-GP
 Netcare Rosebank Hospital,28.03924,-26.1462,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg B Health Sub-District,,,,128,,55,,,,6,,,,,ZA-GP
 Netcare Sports Med and Ortho Hospital,28.03962,-26.1461,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg B Health Sub-District,,,,,,,,,,,,,,,ZA-GP
 NHN Akeso Crescent Randburg Hospital,27.958773,-26.0881,Private Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg B Health Sub-District,,,,,,,,,,,,,,,ZA-GP
@@ -903,7 +903,7 @@ Life West Coast Private Hospital,17.990553,-32.9118,Private Hospital,Western Cap
 Vredenburg Hospital,17.99083,-32.9136,District Hospital,Western Cape,West Coast District Municipality,Saldanha Bay Local Municipality,,,,81,,8,8,,3,1,,,,,ZA-WC
 Germiston Hospital,28.16422,-26.21972,District Hospital,Gauteng,City of Johannesburg Metropolitan Municipality,Johannesburg F Health sub-District,,,,230,,12,34,,0,4,,,,,ZA-GP
 Die Wieg Hospital,18.664464,-33.150138,Specialised Hospital,Western Cape,West Coast District Municipality,Swartland Local Municipality,,,,,,,,,,,,,,,ZA-WC
-Malmesbury Inf Hospital,18.7175,-33.4672,Specialised Hospital,Western Cape,West Coast District Municipality,Swartland Local Municipality,,,,,,,,,,,,,,,ZA-WC
+Malmesbury Infectious diseases Hospital,18.7175,-33.4672,Specialised Hospital,Western Cape,West Coast District Municipality,Swartland Local Municipality,,,,,,,,,,,,,,,ZA-WC
 Sonstraal TB Hospital,18.98694,-33.7119,Specialised Hospital,Western Cape,West Coast District Municipality,Swartland Local Municipality,,,,90,,,,,,,,,,https://www.westerncape.gov.za/facility/sonstraal-hospital,ZA-WC
 Citymed Day Hospital,26.212372,-29.0868,Private Hospital,Free State,Mangaung Metropolitan Municipality,Bloemfontein Health sub-District,,,,20,,20,,,,2,,,,https://citymed.co.za/,ZA-FS
 Swartland Hospital,18.723322,-33.456,District Hospital,Western Cape,West Coast District Municipality,Swartland Local Municipality,,,,88,,20,20,,5,2,,,,,ZA-WC
