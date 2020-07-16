@@ -9,7 +9,7 @@ The [health_system_za_hospitals_v1.csv](https://github.com/dsfsi/covid19za/tree/
 ## 2. The process
 Since there are  various sources in various formats used; I did not programmatically populate the datasets into that one file. Instead, I manually made changes per hospital row using data given about it. [The changes.txt](https://github.com/dsfsi/covid19za/blob/master/changes.txt)  file has a record of what changes have I made from the original file when populating data that is in the file with bed numbers then turned it to this Hospitals v1 file. The main reason for manually populating data is because some of the hospital names have changed over time (different sources have different names) and for the hospitals whose names have not been changed, the naming convention differs from one source file to the other. Eg in [this file](https://github.com/dsfsi/covid19za/blob/Hospital_Data/data/health_system_za_public_hospitals.csv) where I started to work from, most names are shortened while on [this file](https://github.com/anelda/za_open_hospital_data/blob/master/data/tidy_data/hosp_bed_clean.csv) - full names are given. So it’s not easy to immediately identify a correct hospital match from one data source (where it could be shortened) to another different data sources (where it could be written in full name).
 
-## 3. The sources used
+## 3. Initial sources used
 The table below shows what sources were used and the year when sources were last updated.
 
 
@@ -24,6 +24,10 @@ The table below shows what sources were used and the year when sources were last
 
 Other sources used to validate minor data uncertainties like classification of a hospital include : this[ Gem file](https://drive.google.com/file/d/140PgnBOdeulGdEWcL6s1jV3JFjx19HZ7/view?usp=sharing) , [Medpages ](https://www.medpages.info/sf/index.php?page=homepage) and Google search engine. For number of beds in some public hospitals, this [National Health Act doc](https://www.gov.za/sites/default/files/gcis_document/201409/35101rg9701gon185a.pdf)  was used. Statistics of South Africa [URL](http://www.statssa.gov.za/) - For Estimates of population per distriction from 2002 -2021. Raw Data here [URL](https://github.com/elolelo/DataProject/blob/master/za_PopEstimates_Districts_StatsSA_WithFinYears_Jan17_coded.csv)
 
+### 3.1 Subsequent sources used
+
+For the services recorded to as offered by each health facility/hospital in the public sector - the data used is mainly [wikipedia](https://en.wikipedia.org/wiki/Main_Page) for the  commonly known  public facilities. For other public facilities, lesser known or whose details were not on wikipedia, government statements and [briefings](https://www.gov.za/speeches) were used get the relevant information.  Other sources used (not so much) include [this article](https://www.denosa.org.za/Media_View.php?id=36107) and a few pages from [South African Doctors](http://doctors-hospitals-medical-cape-town-south-africa.blaauwberg.net/). Since the private sector services are shown in their webpages, instead of stating them , we have simply left a phrase to direct where to get their(private sector facilities) services.
+ 
 
 ## 4. Data Limitations
 Since this work is work in progress, it is incomplete. There could be inconsistencies with actual names used for hospitals or districts from which the hospitals are located to. These inconsistencies are mainly due to different sources of data from different times and mostly have hospital naming conventions that are not the same across various files used.
