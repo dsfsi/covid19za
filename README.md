@@ -129,7 +129,10 @@ and Dataset
                   van Heerden, Schalk and
                   Welsh, Jay and
                   Hazelhurst, Scott and
-                  Petersen, Chad},
+                  Petersen, Chad and
+                  Mbuvha, Rendani and
+                  Dhlamini, Nelisiwe and
+                  James, Vaibhavi},
   title        = {{Coronavirus disease (COVID-19) case data - South
                    Africa}},
   month        = mar,
