@@ -26,7 +26,10 @@ Other sources used to validate minor data uncertainties like classification of a
 
 ### 3.1 Subsequent sources used
 
-For the services recorded to as offered by each health facility/hospital in the public sector - the data used is mainly [wikipedia](https://en.wikipedia.org/wiki/Main_Page) for the  commonly known  public facilities. For other public facilities, lesser known or whose details were not on wikipedia, government statements and [briefings](https://www.gov.za/speeches) were used get the relevant information.  Other sources used (not so much) include [this article](https://www.denosa.org.za/Media_View.php?id=36107) and a few pages from [South African Doctors](http://doctors-hospitals-medical-cape-town-south-africa.blaauwberg.net/). Since the private sector services are shown in their webpages, instead of stating them , we have simply left a phrase to direct where to get their(private sector facilities) services.
+For the services recorded to be offered by each health facility/hospital in the public sector - the data used is mainly from [wikipedia](https://en.wikipedia.org/wiki/Main_Page) for the  commonly known  public facilities whose Provincial Health websites does not give details about the services offered. For other public facilities, lesser known or whose details were not on wikipedia, government statements and [briefings](https://www.gov.za/speeches) were used get the relevant information.  Other sources used (not so much) include [this article](https://www.denosa.org.za/Media_View.php?id=36107) and a few pages from [South African Doctors](http://doctors-hospitals-medical-cape-town-south-africa.blaauwberg.net/). Since the private sector services are shown in their webpages, instead of stating them , we have simply stated using a phrase to direct where to get their (private sector facilities) services. 
+
+It should be noted that in Mpumalanga, [this wepage](http://www.mpuhealth.gov.za/Hospitals%20In%20Mpumalanga.html) was used to get the services for each facility. Services are all the same across the public facilites , according to the webapage and besides this webpage, other sources with details could not be found during this step of data collection process. 
+
  
 
 ## 4. Data Limitations
