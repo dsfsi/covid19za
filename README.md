@@ -159,6 +159,8 @@ Some of COVID-19 Data for South Africa (data in this repo) is currently being us
 | 8. Covid-19 Tshivenda Dashboard | Tshivenda Dashboard | [Link](http://luvenda.com/covid/) | luvenda.com | South Africa |
 | 9. Map of Health facilites around me  | Map showing comparable details of hospitals around my location in response to Covid-19  | [[Webpage](https://dsfsi.github.io/healthfacilitymap/)] , [[GitHub Repo](https://github.com/dsfsi/healthfacilitymap)] | [These authors](https://dsfsi.github.io/blog/mapping-healthsystem/)  | South Africa |
 |10. R-based Interactive health facilties Map | Afrimapr, mapping health facilities using R-building blocks |[[Webpage](https://andysouth.shinyapps.io/hosp-viewer-SA-v02/)] [[Repo](https://github.com/afrimapr/afrimapr_dev/tree/master/hospitals-viewer-south-africa/hosp-viewer-SA-v02)] | [Dr Andy South](http://andysouth.co.uk/)  |  United Kingdom |
+|11. Estimating the Reproductive Number of COVID-19 | Estimating effective reproductive number for SA, it's provinces and other countries. |  [[Website](https://lrossouw.github.io/covid-19/estimating_r.html)] | [Louis Rossouw](https://github.com/lrossouw) | South Africa |
+|12. Modelling COVID-19 in South Africa at a Provincial Level | Modelling COVID-19 in South Africa at a Provincial Level using reported and excess deaths. |  [[Website](https://lrossouw.github.io/covid-19/modelling_covid-19_in_south_africa_at_a_provincial_level.html)] | [Louis Rossouw](https://github.com/lrossouw) | South Africa |
 
 
 ## Support 
