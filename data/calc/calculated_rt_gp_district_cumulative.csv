@@ -1,103 +1,179 @@
 state,date,ML,High_90,Low_90
-Johannesburg Deaths,2020-04-11,0.26,2.35,0.00
-Johannesburg Deaths,2020-04-12,0.39,1.91,0.00
-Johannesburg Deaths,2020-04-13,0.44,1.65,0.00
-Johannesburg Deaths,2020-04-15,0.63,1.60,0.00
-Johannesburg Deaths,2020-04-16,0.78,1.61,0.01
-Johannesburg Deaths,2020-04-17,0.82,1.58,0.01
-Johannesburg Deaths,2020-04-18,0.85,1.57,0.03
-Johannesburg Deaths,2020-04-19,0.83,1.53,0.04
-Johannesburg Deaths,2020-04-20,0.69,1.37,0.00
-Johannesburg Deaths,2020-04-21,0.54,1.26,0.00
-Johannesburg Deaths,2020-04-22,0.41,1.20,0.00
-Johannesburg Deaths,2020-04-23,0.40,1.20,0.00
-Johannesburg Deaths,2020-04-24,0.43,1.23,0.00
-Johannesburg Deaths,2020-04-25,0.42,1.23,0.00
-Johannesburg Deaths,2020-04-26,0.46,1.25,0.00
-Johannesburg Deaths,2020-04-27,0.44,1.25,0.00
-Johannesburg Deaths,2020-04-28,0.53,1.31,0.00
-Johannesburg Deaths,2020-04-29,0.76,1.47,0.01
-Johannesburg Deaths,2020-04-30,0.91,1.62,0.07
-Johannesburg Deaths,2020-05-01,1.03,1.75,0.15
-Johannesburg Deaths,2020-05-02,1.10,1.83,0.23
-Johannesburg Deaths,2020-05-03,1.01,1.72,0.17
-Johannesburg Deaths,2020-05-04,0.94,1.61,0.10
-Johannesburg Deaths,2020-05-05,0.88,1.53,0.06
-Johannesburg Deaths,2020-05-06,0.85,1.50,0.05
-Johannesburg Deaths,2020-05-07,0.93,1.59,0.09
-Johannesburg Deaths,2020-05-08,0.93,1.60,0.10
-Johannesburg Deaths,2020-05-09,0.94,1.60,0.10
-Johannesburg Deaths,2020-05-10,0.91,1.57,0.09
-Johannesburg Deaths,2020-05-11,0.88,1.56,0.10
-Johannesburg Deaths,2020-05-12,0.92,1.59,0.10
-Johannesburg Deaths,2020-05-13,0.92,1.61,0.12
-Johannesburg Deaths,2020-05-14,0.96,1.66,0.15
-Johannesburg Deaths,2020-05-15,1.03,1.72,0.18
-Johannesburg Deaths,2020-05-16,0.96,1.65,0.15
-Johannesburg Deaths,2020-05-17,0.89,1.54,0.07
-Johannesburg Deaths,2020-05-18,0.90,1.54,0.06
-Johannesburg Deaths,2020-05-19,1.00,1.69,0.16
-Johannesburg Deaths,2020-05-20,1.13,1.85,0.29
-Johannesburg Deaths,2020-05-21,1.24,1.95,0.40
-Johannesburg Deaths,2020-05-22,1.36,2.07,0.56
-Johannesburg Deaths,2020-05-23,1.39,2.07,0.60
-Johannesburg Deaths,2020-05-24,1.36,2.02,0.59
-Johannesburg Deaths,2020-05-25,1.33,1.98,0.58
-Johannesburg Deaths,2020-05-26,1.40,2.07,0.71
-Johannesburg Deaths,2020-05-27,1.55,2.19,0.87
-Johannesburg Deaths,2020-05-28,1.69,2.30,1.03
-Johannesburg Deaths,2020-05-29,1.81,2.37,1.15
-Johannesburg Deaths,2020-05-30,1.80,2.35,1.19
-Johannesburg Deaths,2020-05-31,1.76,2.29,1.18
-Johannesburg Deaths,2020-06-01,1.70,2.21,1.14
-Johannesburg Deaths,2020-06-02,1.72,2.20,1.16
-Johannesburg Deaths,2020-06-03,1.82,2.29,1.29
-Johannesburg Deaths,2020-06-04,1.85,2.30,1.34
-Johannesburg Deaths,2020-06-05,1.77,2.22,1.30
-Johannesburg Deaths,2020-06-06,1.63,2.04,1.14
-Johannesburg Deaths,2020-06-07,1.57,1.97,1.09
-Johannesburg Deaths,2020-06-08,1.62,2.02,1.16
-Johannesburg Deaths,2020-06-09,1.79,2.18,1.35
-Johannesburg Deaths,2020-06-10,2.04,2.41,1.62
-Johannesburg Deaths,2020-06-11,2.26,2.60,1.86
-Johannesburg Deaths,2020-06-12,2.24,2.57,1.88
-Johannesburg Deaths,2020-06-13,2.05,2.36,1.71
-Johannesburg Deaths,2020-06-14,1.83,2.12,1.49
-Johannesburg Deaths,2020-06-15,1.64,1.92,1.30
-Johannesburg Deaths,2020-06-16,1.51,1.78,1.17
-Johannesburg Deaths,2020-06-17,1.43,1.70,1.10
-Johannesburg Deaths,2020-06-18,1.48,1.74,1.15
-Johannesburg Deaths,2020-06-19,1.50,1.75,1.17
-Johannesburg Deaths,2020-06-20,1.50,1.76,1.20
-Johannesburg Deaths,2020-06-21,1.43,1.68,1.13
-Johannesburg Deaths,2020-06-22,1.47,1.71,1.17
-Johannesburg Deaths,2020-06-23,1.49,1.72,1.19
-Johannesburg Deaths,2020-06-24,1.55,1.79,1.28
-Johannesburg Deaths,2020-06-25,1.55,1.77,1.27
-Johannesburg Deaths,2020-06-26,1.58,1.81,1.33
-Johannesburg Deaths,2020-06-27,1.49,1.71,1.24
-Johannesburg Deaths,2020-06-28,1.41,1.63,1.17
-Johannesburg Deaths,2020-06-29,1.36,1.57,1.11
-Johannesburg Deaths,2020-06-30,1.42,1.62,1.17
-Johannesburg Deaths,2020-07-01,1.52,1.72,1.28
-Johannesburg Deaths,2020-07-02,1.53,1.73,1.31
-Johannesburg Deaths,2020-07-03,1.41,1.60,1.19
-Johannesburg Deaths,2020-07-04,1.24,1.43,1.02
-Johannesburg Deaths,2020-07-05,0.97,1.16,0.75
-Johannesburg Deaths,2020-07-06,0.98,1.16,0.74
-Johannesburg Deaths,2020-07-07,1.05,1.23,0.81
-Johannesburg Deaths,2020-07-08,1.26,1.44,1.03
-Johannesburg Deaths,2020-07-09,1.42,1.60,1.20
-Johannesburg Deaths,2020-07-10,1.37,1.54,1.15
-Johannesburg Deaths,2020-07-11,1.09,1.26,0.87
-Johannesburg Deaths,2020-07-12,0.91,1.09,0.70
-Johannesburg Deaths,2020-07-13,0.66,0.84,0.44
-Johannesburg Deaths,2020-07-14,0.69,0.87,0.46
-Johannesburg Deaths,2020-07-15,0.75,0.95,0.54
-Johannesburg Deaths,2020-07-16,0.90,1.08,0.66
-Johannesburg Deaths,2020-07-17,1.04,1.24,0.83
-Johannesburg Deaths,2020-07-18,1.13,1.31,0.90
-Johannesburg Deaths,2020-07-19,1.00,1.18,0.77
+Ekurhuleni,2020-05-07,2.28,4.74,0.00
+Ekurhuleni,2020-05-08,1.89,3.64,0.03
+Ekurhuleni,2020-05-09,1.57,3.04,0.06
+Ekurhuleni,2020-05-10,1.13,2.43,0.00
+Ekurhuleni,2020-05-11,0.81,2.10,0.00
+Ekurhuleni,2020-05-12,0.82,2.03,0.00
+Ekurhuleni,2020-05-13,0.69,1.91,0.00
+Ekurhuleni,2020-05-14,0.85,1.95,0.00
+Ekurhuleni,2020-05-15,0.96,1.98,0.00
+Ekurhuleni,2020-05-16,1.05,2.00,0.00
+Ekurhuleni,2020-05-17,1.04,1.96,0.01
+Ekurhuleni,2020-05-18,1.03,1.93,0.02
+Ekurhuleni,2020-05-19,0.95,1.83,0.00
+Ekurhuleni,2020-05-20,0.95,1.81,0.00
+Ekurhuleni,2020-05-21,1.01,1.89,0.06
+Ekurhuleni,2020-05-22,1.19,2.07,0.15
+Ekurhuleni,2020-05-23,1.27,2.14,0.21
+Ekurhuleni,2020-05-24,1.39,2.25,0.33
+Ekurhuleni,2020-05-25,1.43,2.29,0.43
+Ekurhuleni,2020-05-26,1.42,2.24,0.44
+Ekurhuleni,2020-05-27,1.48,2.29,0.55
+Ekurhuleni,2020-05-28,1.56,2.36,0.69
+Ekurhuleni,2020-05-29,1.65,2.40,0.80
+Ekurhuleni,2020-05-30,1.67,2.39,0.86
+Ekurhuleni,2020-05-31,1.62,2.31,0.84
+Ekurhuleni,2020-06-01,1.54,2.22,0.80
+Ekurhuleni,2020-06-02,1.54,2.20,0.82
+Ekurhuleni,2020-06-03,1.57,2.22,0.88
+Ekurhuleni,2020-06-04,1.61,2.23,0.93
+Ekurhuleni,2020-06-05,1.61,2.21,0.95
+Ekurhuleni,2020-06-06,1.54,2.11,0.88
+Ekurhuleni,2020-06-07,1.45,2.02,0.82
+Ekurhuleni,2020-06-08,1.46,2.03,0.85
+Ekurhuleni,2020-06-09,1.61,2.14,0.98
+Ekurhuleni,2020-06-10,1.95,2.46,1.35
+Ekurhuleni,2020-06-11,2.25,2.73,1.69
+Ekurhuleni,2020-06-12,2.34,2.79,1.83
+Ekurhuleni,2020-06-13,2.19,2.62,1.73
+Ekurhuleni,2020-06-14,2.04,2.43,1.58
+Ekurhuleni,2020-06-15,1.81,2.19,1.37
+Ekurhuleni,2020-06-16,1.66,2.03,1.23
+Ekurhuleni,2020-06-17,1.58,1.95,1.17
+Ekurhuleni,2020-06-18,1.54,1.89,1.12
+Ekurhuleni,2020-06-19,1.52,1.86,1.10
+Ekurhuleni,2020-06-20,1.50,1.84,1.10
+Ekurhuleni,2020-06-21,1.47,1.80,1.07
+Ekurhuleni,2020-06-22,1.57,1.90,1.19
+Ekurhuleni,2020-06-23,1.67,1.98,1.29
+Ekurhuleni,2020-06-24,1.74,2.07,1.41
+Ekurhuleni,2020-06-25,1.75,2.04,1.40
+Ekurhuleni,2020-06-26,1.67,1.95,1.33
+Ekurhuleni,2020-06-27,1.57,1.86,1.26
+Ekurhuleni,2020-06-28,1.43,1.71,1.12
+Ekurhuleni,2020-06-29,1.41,1.70,1.12
+Ekurhuleni,2020-06-30,1.46,1.74,1.17
+Ekurhuleni,2020-07-01,1.61,1.86,1.30
+Ekurhuleni,2020-07-02,1.67,1.91,1.37
+Ekurhuleni,2020-07-03,1.57,1.81,1.29
+Ekurhuleni,2020-07-04,1.39,1.63,1.12
+Ekurhuleni,2020-07-05,1.17,1.40,0.89
+Ekurhuleni,2020-07-06,1.09,1.33,0.82
+Ekurhuleni,2020-07-07,1.09,1.33,0.82
+Ekurhuleni,2020-07-08,1.24,1.46,0.95
+Ekurhuleni,2020-07-09,1.37,1.59,1.09
+Ekurhuleni,2020-07-10,1.44,1.65,1.16
+Ekurhuleni,2020-07-11,1.20,1.42,0.94
+Ekurhuleni,2020-07-12,1.04,1.26,0.78
+Ekurhuleni,2020-07-13,0.82,1.04,0.55
+Ekurhuleni,2020-07-14,0.76,1.00,0.51
+Ekurhuleni,2020-07-15,0.75,0.98,0.48
+Ekurhuleni,2020-07-16,0.93,1.16,0.65
+Ekurhuleni,2020-07-17,0.91,1.15,0.65
+Ekurhuleni,2020-07-18,1.05,1.29,0.79
+Ekurhuleni,2020-07-19,0.88,1.12,0.62
+Ekurhuleni,2020-07-20,0.81,1.05,0.54
+Johannesburg,2020-04-11,0.26,2.35,0.00
+Johannesburg,2020-04-12,0.39,1.91,0.00
+Johannesburg,2020-04-13,0.44,1.65,0.00
+Johannesburg,2020-04-15,0.63,1.60,0.00
+Johannesburg,2020-04-16,0.78,1.61,0.01
+Johannesburg,2020-04-17,0.82,1.58,0.01
+Johannesburg,2020-04-18,0.85,1.57,0.03
+Johannesburg,2020-04-19,0.83,1.53,0.04
+Johannesburg,2020-04-20,0.69,1.37,0.00
+Johannesburg,2020-04-21,0.54,1.26,0.00
+Johannesburg,2020-04-22,0.41,1.20,0.00
+Johannesburg,2020-04-23,0.40,1.20,0.00
+Johannesburg,2020-04-24,0.43,1.23,0.00
+Johannesburg,2020-04-25,0.42,1.23,0.00
+Johannesburg,2020-04-26,0.46,1.25,0.00
+Johannesburg,2020-04-27,0.44,1.25,0.00
+Johannesburg,2020-04-28,0.53,1.31,0.00
+Johannesburg,2020-04-29,0.76,1.47,0.01
+Johannesburg,2020-04-30,0.91,1.62,0.07
+Johannesburg,2020-05-01,1.03,1.75,0.15
+Johannesburg,2020-05-02,1.10,1.83,0.23
+Johannesburg,2020-05-03,1.01,1.72,0.17
+Johannesburg,2020-05-04,0.94,1.61,0.10
+Johannesburg,2020-05-05,0.88,1.53,0.06
+Johannesburg,2020-05-06,0.85,1.50,0.05
+Johannesburg,2020-05-07,0.93,1.59,0.09
+Johannesburg,2020-05-08,0.93,1.60,0.10
+Johannesburg,2020-05-09,0.94,1.60,0.10
+Johannesburg,2020-05-10,0.91,1.57,0.09
+Johannesburg,2020-05-11,0.88,1.56,0.10
+Johannesburg,2020-05-12,0.92,1.59,0.10
+Johannesburg,2020-05-13,0.92,1.61,0.12
+Johannesburg,2020-05-14,0.96,1.66,0.15
+Johannesburg,2020-05-15,1.03,1.72,0.18
+Johannesburg,2020-05-16,0.96,1.65,0.15
+Johannesburg,2020-05-17,0.89,1.54,0.07
+Johannesburg,2020-05-18,0.90,1.54,0.06
+Johannesburg,2020-05-19,1.00,1.69,0.16
+Johannesburg,2020-05-20,1.13,1.85,0.29
+Johannesburg,2020-05-21,1.24,1.95,0.40
+Johannesburg,2020-05-22,1.36,2.07,0.56
+Johannesburg,2020-05-23,1.39,2.07,0.60
+Johannesburg,2020-05-24,1.36,2.02,0.59
+Johannesburg,2020-05-25,1.33,1.98,0.58
+Johannesburg,2020-05-26,1.40,2.07,0.71
+Johannesburg,2020-05-27,1.55,2.19,0.87
+Johannesburg,2020-05-28,1.69,2.30,1.03
+Johannesburg,2020-05-29,1.81,2.37,1.15
+Johannesburg,2020-05-30,1.80,2.35,1.19
+Johannesburg,2020-05-31,1.76,2.29,1.18
+Johannesburg,2020-06-01,1.70,2.21,1.14
+Johannesburg,2020-06-02,1.72,2.20,1.16
+Johannesburg,2020-06-03,1.82,2.29,1.29
+Johannesburg,2020-06-04,1.85,2.30,1.34
+Johannesburg,2020-06-05,1.77,2.22,1.30
+Johannesburg,2020-06-06,1.63,2.04,1.14
+Johannesburg,2020-06-07,1.57,1.97,1.09
+Johannesburg,2020-06-08,1.62,2.02,1.16
+Johannesburg,2020-06-09,1.79,2.18,1.35
+Johannesburg,2020-06-10,2.04,2.41,1.62
+Johannesburg,2020-06-11,2.26,2.60,1.86
+Johannesburg,2020-06-12,2.24,2.57,1.88
+Johannesburg,2020-06-13,2.05,2.36,1.71
+Johannesburg,2020-06-14,1.83,2.12,1.49
+Johannesburg,2020-06-15,1.64,1.92,1.30
+Johannesburg,2020-06-16,1.51,1.78,1.17
+Johannesburg,2020-06-17,1.43,1.70,1.10
+Johannesburg,2020-06-18,1.48,1.74,1.15
+Johannesburg,2020-06-19,1.50,1.75,1.17
+Johannesburg,2020-06-20,1.50,1.76,1.20
+Johannesburg,2020-06-21,1.43,1.68,1.13
+Johannesburg,2020-06-22,1.47,1.71,1.17
+Johannesburg,2020-06-23,1.49,1.72,1.19
+Johannesburg,2020-06-24,1.55,1.79,1.28
+Johannesburg,2020-06-25,1.55,1.77,1.27
+Johannesburg,2020-06-26,1.58,1.81,1.33
+Johannesburg,2020-06-27,1.49,1.71,1.24
+Johannesburg,2020-06-28,1.41,1.63,1.17
+Johannesburg,2020-06-29,1.36,1.57,1.11
+Johannesburg,2020-06-30,1.42,1.62,1.17
+Johannesburg,2020-07-01,1.52,1.72,1.28
+Johannesburg,2020-07-02,1.53,1.73,1.31
+Johannesburg,2020-07-03,1.41,1.60,1.19
+Johannesburg,2020-07-04,1.24,1.43,1.02
+Johannesburg,2020-07-05,0.97,1.16,0.75
+Johannesburg,2020-07-06,0.98,1.16,0.74
+Johannesburg,2020-07-07,1.05,1.23,0.81
+Johannesburg,2020-07-08,1.26,1.44,1.03
+Johannesburg,2020-07-09,1.42,1.60,1.20
+Johannesburg,2020-07-10,1.37,1.54,1.15
+Johannesburg,2020-07-11,1.09,1.26,0.87
+Johannesburg,2020-07-12,0.91,1.09,0.70
+Johannesburg,2020-07-13,0.66,0.84,0.44
+Johannesburg,2020-07-14,0.69,0.87,0.46
+Johannesburg,2020-07-15,0.75,0.95,0.54
+Johannesburg,2020-07-16,0.90,1.08,0.66
+Johannesburg,2020-07-17,0.82,1.01,0.59
+Johannesburg,2020-07-18,0.83,1.03,0.61
+Johannesburg,2020-07-19,0.67,0.87,0.44
+Johannesburg,2020-07-20,0.67,0.86,0.42
 Sedibeng,2020-06-10,3.17,5.53,0.34
 Sedibeng,2020-06-11,3.28,5.07,1.26
 Sedibeng,2020-06-12,3.16,4.53,1.63
@@ -135,9 +211,10 @@ Sedibeng,2020-07-13,1.20,1.51,0.83
 Sedibeng,2020-07-14,1.17,1.48,0.80
 Sedibeng,2020-07-15,1.12,1.43,0.75
 Sedibeng,2020-07-16,1.09,1.40,0.72
-Sedibeng,2020-07-17,1.05,1.35,0.67
-Sedibeng,2020-07-18,1.03,1.34,0.66
-Sedibeng,2020-07-19,1.04,1.35,0.67
+Sedibeng,2020-07-17,0.91,1.23,0.55
+Sedibeng,2020-07-18,0.84,1.16,0.47
+Sedibeng,2020-07-19,0.78,1.11,0.41
+Sedibeng,2020-07-20,0.78,1.11,0.40
 Tshwane,2020-04-30,2.28,4.74,0.00
 Tshwane,2020-05-01,1.61,3.41,0.00
 Tshwane,2020-05-02,1.20,2.73,0.00
@@ -216,9 +293,10 @@ Tshwane,2020-07-13,0.98,1.22,0.72
 Tshwane,2020-07-14,0.93,1.16,0.65
 Tshwane,2020-07-15,1.03,1.26,0.75
 Tshwane,2020-07-16,1.12,1.35,0.84
-Tshwane,2020-07-17,1.14,1.37,0.87
-Tshwane,2020-07-18,1.16,1.38,0.88
-Tshwane,2020-07-19,0.91,1.13,0.63
+Tshwane,2020-07-17,1.11,1.34,0.84
+Tshwane,2020-07-18,1.09,1.32,0.82
+Tshwane,2020-07-19,0.89,1.12,0.62
+Tshwane,2020-07-20,0.92,1.15,0.64
 West Rand,2020-05-23,4.58,6.54,2.32
 West Rand,2020-05-24,3.74,5.02,2.27
 West Rand,2020-05-25,2.83,3.88,1.72
@@ -274,6 +352,7 @@ West Rand,2020-07-13,1.05,1.37,0.68
 West Rand,2020-07-14,0.97,1.30,0.61
 West Rand,2020-07-15,0.87,1.20,0.50
 West Rand,2020-07-16,0.82,1.15,0.44
-West Rand,2020-07-17,0.78,1.11,0.39
-West Rand,2020-07-18,0.85,1.18,0.45
-West Rand,2020-07-19,0.79,1.15,0.42
+West Rand,2020-07-17,0.66,1.00,0.28
+West Rand,2020-07-18,0.65,1.00,0.26
+West Rand,2020-07-19,0.56,0.90,0.15
+West Rand,2020-07-20,0.60,0.96,0.19
