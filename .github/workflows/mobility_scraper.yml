@@ -1,4 +1,4 @@
-name: Scrape Reports
+name: Scrape Mobility Reports for South Africa
 on:
   schedule:
     - cron: '0 5 * * *'
