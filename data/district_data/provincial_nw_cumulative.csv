@@ -1,4 +1,4 @@
-date,YYYYMMDD,dr_ruth_segomotsi_mompati,ngaka_modiri_molema,bojanala_platinum,dr_kenneth_kaunda,unallocated,total,recovered,deaths,tested,source
+date,YYYYMMDD,dr_ruth_segomotsi_mompati,ngaka_modiri_molema,dr_kenneth_kaunda,bojanala_platinum,unallocated,total,recovered,deaths,tested,source
 23-03-2020,20200323,,,,,,4,,,,https://twitter.com/northwestdoh/status/1242057938740621312?s=21
 26-03-2020,20200326,,,,,,4,,,,https://twitter.com/northwestdoh/status/1242057938740621312?s=21
 28-03-2020,20200328,,,,,,6,,,,https://twitter.com/northwestdoh/status/1243976802571337729?s=21
@@ -90,3 +90,10 @@ date,YYYYMMDD,dr_ruth_segomotsi_mompati,ngaka_modiri_molema,bojanala_platinum,dr
 11-07-2020,20200711,180,612,2322,6246,58,9418,2191,36,,https://twitter.com/northwestdoh/status/1282207661258399744?s=12
 12-07-2020,20200712,201,657,2417,6565,84,9924,2474,36,,https://twitter.com/northwestdoh/status/1282575663245987840?s=12
 13-07-2020,20200713,224,699,2556,6986,60,10525,2575,36,,https://twitter.com/northwestdoh/status/1282938952253661185?s=12
+14-07-2020,20200714,228,728,2654,7117,57,10784,2577,36,,https://twitter.com/northwestdoh/status/1283299648598351872?s=12
+15-07-2020,20200715,256,767,2784,7368,50,11225,2694,48,,https://twitter.com/northwestdoh/status/1283682846444605440?s=12
+16-07-2020,20200716,278,841,2916,7796,60,11891,2694,48,,https://twitter.com/northwestdoh/status/1284027700768919554?s=12
+17-07-2020,20200717,305,1011,3130,8176,100,12722,2839,48,,https://twitter.com/northwestdoh/status/1284388516902862850?s=12
+18-07-2020,20200718,327,1102,3323,8555,93,13400,2890,48,,https://twitter.com/northwestdoh/status/1284755126331244545?s=12
+19-07-2020,20200719,358,1211,3470,8847,120,14006,3241,48,,https://twitter.com/northwestdoh/status/1285113522465263617?s=12
+20-07-2020,20200720,392,1256,3577,9023,89,14337,3856,48,,https://twitter.com/northwestdoh/status/1285481602596909057?s=12
