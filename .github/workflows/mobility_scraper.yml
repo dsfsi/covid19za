@@ -1,7 +1,7 @@
 name: Scrape Mobility Reports for South Africa
 on:
   schedule:
-    - cron: '0 5 * * *'
+    - cron: '0 5 * * 1'
 
 jobs:
   build:
