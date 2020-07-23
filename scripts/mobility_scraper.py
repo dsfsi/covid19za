@@ -111,7 +111,7 @@ def run():
     new_files_status_google = download_google_report()
     google_za = build_google_report(report_type="ZA")
     google_za.to_csv(os.path.join("../data/mobility/google_mobility/", "mobility_report_ZA.csv"), index=False)
-    print("Saved Mobility Report"
+    print("Saved Mobility Report")
 
 if __name__ == '__main__':
     run()
