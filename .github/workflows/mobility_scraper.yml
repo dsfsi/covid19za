@@ -21,7 +21,7 @@ jobs:
         run: |
           git config --local user.name github-actions
           git config --local user.email "action@github.com"
-          git git add data/mobility/google_mobility/mobility_report_ZA.csv
+          git add data/mobility/google_mobility/mobility_report_ZA.csv
           if [[ "$(git status --porcelain)" != "" ]]; then
               git commit -m "Update Google Mobility data ZA" -a
               git push origin master
