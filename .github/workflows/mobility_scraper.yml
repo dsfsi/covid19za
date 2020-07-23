@@ -1,6 +1,5 @@
 name: Scrape Reports
 on:
-  push:
   schedule:
     - cron: '0 5 * * *'
 
