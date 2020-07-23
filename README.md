@@ -37,7 +37,9 @@ Code [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](http
 |   DoH PDFs and Extracted CSVs |  [doh_pdf](/data/doh_pdf)   |              |
 |   DoH Whatsapp case update archive |  [doh_whatsapp](/data/doh_whatsapp)   |              |
 |   health facility data [public and private] |  [health_system_za_hospitals_v1](/data/health_system_za_hospitals_v1.csv)   |         [health_system_za_hospitals_v1.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/health_system_za_hospitals_v1.csv)       |
-
+|   nicd_daily_national_report |  [nicd_daily_national_report](/data/nicd_daily_national_report.csv)   |         [nicd_daily_national_report.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/nicd_daily_national_report.csv)       |
+|   nicd_hospital_surveillance_data |  [nicd_hospital_surveillance_data](/data/nicd_hospital_surveillance_data.csv)   |         [nicd_hospital_surveillance_data.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/nicd_hospital_surveillance_data.csv)       |
+|   samrc_excess_deaths_province |  [samrc_excess_deaths_province](/data/samrc_excess_deaths_province.csv)   |         [samrc_excess_deaths_province.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/samrc_excess_deaths_province.csv)       |
 ### Deprecated
 **NOTE:** Since around 24 March, we have not gotten individual case data from DoH or NICD. For now if you need provincial counts use the *provincial_cumulative_timeline*. For individual cases up to 25 March, use the *confirmed_cases*.
 | dataset         | url | raw_url[file] |
