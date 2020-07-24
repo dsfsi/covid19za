@@ -1,3 +1,5 @@
+**Note: This is now deprecated. It can no longer be used as NICD and NDoH no longer provide line/patient info in their releases**
+
 # COVID-19 South Africa Media Release Scraping Tool
 
 A simple CLI tool that allows the user to scrape `http://www.nicd.ac.za/` for new updates related to COVID-19
