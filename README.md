@@ -37,7 +37,9 @@ Code [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](http
 |   DoH PDFs and Extracted CSVs |  [doh_pdf](/data/doh_pdf)   |              |
 |   DoH Whatsapp case update archive |  [doh_whatsapp](/data/doh_whatsapp)   |              |
 |   health facility data [public and private] |  [health_system_za_hospitals_v1](/data/health_system_za_hospitals_v1.csv)   |         [health_system_za_hospitals_v1.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/health_system_za_hospitals_v1.csv)       |
-
+|   nicd_daily_national_report |  [nicd_daily_national_report](/data/nicd_daily_national_report.csv)   |         [nicd_daily_national_report.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/nicd_daily_national_report.csv)       |
+|   nicd_hospital_surveillance_data |  [nicd_hospital_surveillance_data](/data/nicd_hospital_surveillance_data.csv)   |         [nicd_hospital_surveillance_data.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/nicd_hospital_surveillance_data.csv)       |
+|   samrc_excess_deaths_province |  [samrc_excess_deaths_province](/data/samrc_excess_deaths_province.csv)   |         [samrc_excess_deaths_province.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/samrc_excess_deaths_province.csv)       |
 ### Deprecated
 **NOTE:** Since around 24 March, we have not gotten individual case data from DoH or NICD. For now if you need provincial counts use the *provincial_cumulative_timeline*. For individual cases up to 25 March, use the *confirmed_cases*.
 | dataset         | url | raw_url[file] |
@@ -159,6 +161,8 @@ Some of COVID-19 Data for South Africa (data in this repo) is currently being us
 | 8. Covid-19 Tshivenda Dashboard | Tshivenda Dashboard | [Link](http://luvenda.com/covid/) | luvenda.com | South Africa |
 | 9. Map of Health facilites around me  | Map showing comparable details of hospitals around my location in response to Covid-19  | [[Webpage](https://dsfsi.github.io/healthfacilitymap/)] , [[GitHub Repo](https://github.com/dsfsi/healthfacilitymap)] | [These authors](https://dsfsi.github.io/blog/mapping-healthsystem/)  | South Africa |
 |10. R-based Interactive health facilties Map | Afrimapr, mapping health facilities using R-building blocks |[[Webpage](https://andysouth.shinyapps.io/hosp-viewer-SA-v02/)] [[Repo](https://github.com/afrimapr/afrimapr_dev/tree/master/hospitals-viewer-south-africa/hosp-viewer-SA-v02)] | [Dr Andy South](http://andysouth.co.uk/)  |  United Kingdom |
+|11. Estimating the Reproductive Number of COVID-19 | Estimating effective reproductive number for SA, it's provinces and other countries. |  [[Website](https://lrossouw.github.io/covid-19/estimating_r.html)] | [Louis Rossouw](https://github.com/lrossouw) | South Africa |
+|12. Modelling COVID-19 in South Africa at a Provincial Level | Modelling COVID-19 in South Africa at a Provincial Level using reported and excess deaths. |  [[Website](https://lrossouw.github.io/covid-19/modelling_covid-19_in_south_africa_at_a_provincial_level.html)] | [Louis Rossouw](https://github.com/lrossouw) | South Africa |
 
 
 ## Support 
