@@ -3,8 +3,7 @@
 
 ### What data is contained in these folders?
 
-* Data about district health services in each province, according to the provincial department of health's annual reports of 2018/2019
-* Data related to Sub-Programmes rendered such as District Management , Community Health Clinics , Community Health Centres , Community-Based Service and other Community Services
+* Data about the number/counts of public district health facilities offering  health services in each province, according to the provincial department of healths' annual reports of 2018/2019
 
 ### Sources of this data 
 
@@ -37,11 +36,12 @@
 
 ## Why collect this data ?
 
+
 * To reconcile this data with the initial collected data that is documented [here](https://github.com/dsfsi/covid19za/tree/Hospital_Data/data)
 
 * To maintain accuracy of the hospital data described in the [README_hospital_data.md](README_hospital_data.md) 
 
-* To create machine readeable documents that can also be used for fact-checking  and cross referencing 
+* To create machine readeable documents that can also be used for fact-checking ,  cross referencing  and validation per province as shown in the last rows of [this sheet](https://docs.google.com/spreadsheets/d/1ujiuSd656BfIO3AT86GTr17oveaev-qBuYbu_v45RC4/edit#gid=0)
 
 * To use alongside with other sources such as [Open Data South Africa Toolkit](https://opendataza.gitbook.io/toolkit/open-data-resources/healthcare-data-resources#healthcare-services-locations-and-standards) on locations and healthcare services and standards , [Open Data South Africa Toolkit](https://opendataza.gitbook.io/toolkit/open-data-resources/healthcare-data-resources#health-and-healthcare-indicators) on health and healthcare indicator and also 
 governance and [financial](https://opendataza.gitbook.io/toolkit/open-data-resources/political-and-governance-data-resources) resources in health.
