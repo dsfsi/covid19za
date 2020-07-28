@@ -26,9 +26,32 @@ Other sources used to validate minor data uncertainties like classification of a
 
 ### 3.1 Subsequent sources used
 
-For the services recorded to be offered by each health facility/hospital in the public sector - the data used is mainly from [wikipedia](https://en.wikipedia.org/wiki/Main_Page) for the  commonly known  public facilities whose Provincial Health websites does not give details about the services offered. For other public facilities, lesser known or whose details were not on wikipedia, government statements and [briefings](https://www.gov.za/speeches) were used get the relevant information.  Other sources used (not so much) include [this article](https://www.denosa.org.za/Media_View.php?id=36107) and a few pages from [South African Doctors](http://doctors-hospitals-medical-cape-town-south-africa.blaauwberg.net/). Since the private sector services are shown in their webpages, instead of stating them , we have simply stated using a phrase to direct where to get their (private sector facilities) services. 
+#### On Services offered by public hospitals:
+For the services recorded as offered by each public hospital in the public sector - the data used is mainly from [wikipedia](https://en.wikipedia.org/wiki/Main_Page) mostly for the  commonly known  public facilities whose Provincial Health websites does not give details about the services offered. For other public facilities, lesser known or whose details were not on wikipedia, government statements and [briefings](https://www.gov.za/speeches) were used get the relevant information.  Other sources used (not so much) include [this article](https://www.denosa.org.za/Media_View.php?id=36107) and a few pages from [South African Doctors](http://doctors-hospitals-medical-cape-town-south-africa.blaauwberg.net/). 
 
-It should be noted that in Mpumalanga, [this wepage](http://www.mpuhealth.gov.za/Hospitals%20In%20Mpumalanga.html) was used to get the services for each facility. Services are all the same across the public facilites , according to the webapage and besides this webpage, other sources with details could not be found during this step of data collection process. 
+It should be noted that in Mpumalanga, [this webpage](http://www.mpuhealth.gov.za/Hospitals%20In%20Mpumalanga.html) was used to get the services for each facility. Services are all the same across the public facilites , according to the webapage and besides this webpage, other sources with details could not be found during this step of data collection process. 
+
+For most  hospitals whose services offered details are currently not stated - a note :
+
+> Services for this public hospital could not be found at the time of recording this data.
+
+Is used to highlight that from the sources we are using, at the time that we searched for the services of that specific hospital - we could not find details. This will be updated as we gather more sources to look from.
+
+For some hospitals whose details about services  offered were not clear, a note:
+
+> Services for this public hospital still need to be clerified     
+
+An example of a hospital whose details were not clear is Klerksdorp-Tshepong Hospital,  where from our sources the services are separated between Klerksdorp Hospital and Tshepong Hospital while on some of the previous recordings of this data we have found that this is one hospital. So, more clearity will still be applied.
+
+#### On Services offered by private hospitals/facilites:
+Since most private hospitals ( and other private health facilities contained in the [main file](https://github.com/dsfsi/covid19za/blob/master/data/health_system_za_hospitals_v1.csv)) have their own websites , detailing the types of departments available in their facilities and the types of services they offer; instead of re-stating these services on the main file , a note is populated in all the cells for services offered by private hospitals. The note is:
+ 
+> Relevant Private Facility services – visit their website for more details
+
+
+
+#### On webpages of hospitals and private health facilities
+Most commintly used sources for webpages is [doctors-sa](http://doctors-hospitals-medical-cape-town-south-africa.blaauwberg.net/) , the provincial health websites and for private facilities - the group under which the facilites belong to e.g[ Life Healthcare](https://www.lifehealthcare.co.za/)
 
  
 
@@ -53,6 +76,7 @@ In the hospital branch , there should be a couple of files related to hospitals 
 3.[health_system_za_public_hospitals](https://github.com/dsfsi/covid19za/blob/Hospital_Data/data/health_system_za_public_hospitals.csv) - This file has a list of different types of public hospitals.<br>
 4.[health_system_za_public_hospitals_contacts](https://github.com/dsfsi/covid19za/blob/master/data/health_system_za_public_hospitals_contacts.csv) - This file has contact details of some hospitals.
 5.[health_system_za_public_hospitals_extended_details](https://github.com/dsfsi/covid19za/blob/Hospital_Data/data/health_system_za_public_hospitals_extended_details.csv) - This file has a thorough description of hospitals and other details relating to minimum and maximum capacities in hospitals.
+
 6.[health_system_za_district_counts](https://github.com/dsfsi/covid19za/blob/master/data/health_system_za_district_counts.csv) - This file has ( counts) numbers of all different health facilities and services that each district has. The populations per  district estimate  is from [this](https://github.com/dsfsi/covid19za/blob/master/data/staging_area/population-estimates-districts.csv) file - which contains numbers that have been used by the Health System Trust in the their 2018/2019 [District Health Barometer](https://www.hst.org.za/publications/Pages/HSTDistrictHealthBarometer.aspx).
 
 ## 7. Other sources useful
