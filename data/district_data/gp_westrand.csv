@@ -114,5 +114,5 @@ date,YYYYMMDD,West Rand	Cases,West Rand	Recoveries,West Rand	Deaths,West Rand Me
 01-08-2020,20200801,,,,,,,,,,,GDOH did not release figures due to audit/harmonisation
 02-08-2020,20200802,,,,,,,,,,,GDOH did not release figures
 03-08-2020,20200803,,,,,,,,,,,GDOH did not release figures
-04-08-2020,20200804,,,,,,,,,,,GDOH did not release figures
-05-08-2020,20200805,,,,,,,,,,,GDOH did not release figures
+04-08-2020,20200804,11902,,,,,,,,,,GDOH did not release figures
+05-08-2020,20200805,12028,9272,186,2573,6263,3101,91,2101,4705,2466,
