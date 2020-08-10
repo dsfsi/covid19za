@@ -39,7 +39,7 @@
 
 * To reconcile this data with the initial collected data that is documented [here](https://github.com/dsfsi/covid19za/tree/Hospital_Data/data)
 
-* To maintain accuracy of the hospital data described in the [README_hospital_data.md](README_hospital_data.md) 
+* To maintain accuracy of the hospital data described in the [README_hospital_data.md](https://github.com/dsfsi/covid19za/blob/master/data/README_hospital_data.md) 
 
 * To create machine readeable documents that can also be used for fact-checking ,  cross referencing  and validation per province as shown in the last rows of [this sheet](https://docs.google.com/spreadsheets/d/1ujiuSd656BfIO3AT86GTr17oveaev-qBuYbu_v45RC4/edit#gid=0)
 
