@@ -2,6 +2,7 @@ import pdfplumber
 import re
 import pandas as pd
 from datetime import datetime
+import sys
 
 # AUTHOR: Simon Rosen
 
@@ -78,6 +79,7 @@ def extract_data(file_path):
     def get_district_data():
         district_table_list = pdfp_obj.pages[0].extract_tables()[0]
         all_list = [[x[i] for x in district_table_list] for i in range(0, len(district_table_list[0]))]
+
         gp_breakdown_dict = {curr_list[0]: curr_list[1:] for curr_list in all_list}
         gp_breakdown_df = pd.DataFrame.from_dict(gp_breakdown_dict)
         gp_breakdown_df.fillna(0, inplace=True)
@@ -205,13 +207,17 @@ def extract_data(file_path):
 
     # List later gets converted to formatted string
 
+    jhb_districts = [x for x in 'ABCDEFG']+['Unallocated']
+    tsh_districts = [x for x in range(1,8)]+['Unallocated']
+    wr_districts=['Mogale',"Rand_West","Merafong","Unallocated"]
+    
     out_list = [
         # Date
         date_yyyymmdd, date_formatted,
 
         # Gauteng Data
-        gp_covid_stats['cases'], ' ',
-        gp_covid_stats['recoveries'], gp_covid_stats['deaths'], ' ',
+        gp_covid_stats['cases'], 'Check',
+        gp_covid_stats['recoveries'], gp_covid_stats['deaths'], 'Check','Check',
         gp_covid_stats['hospitalised'],
 
         #  DISTRICT TOTALS DATA
@@ -219,145 +225,52 @@ def extract_data(file_path):
 
         # Johannesburg
         gp_district_df.loc['Johannesburg']['CASES'],
-        ' ',
-        gp_district_df.loc['Johannesburg']['RECOVERIES'],
-        gp_district_df.loc['Johannesburg']['DEATHS'],
-        ' ',
-
-        # Ekurhuleni
         gp_district_df.loc['Ekurhuleni']['CASES'],
-        gp_district_df.loc['Ekurhuleni']['DEATHS'],
-        gp_district_df.loc['Ekurhuleni']['RECOVERIES'],
-
-        # Tshwane
         gp_district_df.loc['Tshwane']['CASES'],
-        gp_district_df.loc['Tshwane']['DEATHS'],
-        gp_district_df.loc['Tshwane']['RECOVERIES'],
-
-        # Sedibeng
         gp_district_df.loc['Sedibeng']['CASES'],
-        gp_district_df.loc['Sedibeng']['DEATHS'],
-        gp_district_df.loc['Sedibeng']['RECOVERIES'],
-
-        # West Rand
         gp_district_df.loc['West Rand']['CASES'],
-        gp_district_df.loc['West Rand']['DEATHS'],
-        gp_district_df.loc['West Rand']['RECOVERIES'],
-
-        # GP Unallocated Cases
         gp_district_df.loc['Unallocated']['CASES'],
+        ' Check',
+        gp_district_df.loc['Johannesburg']['DEATHS'],
+        gp_district_df.loc['Ekurhuleni']['DEATHS'],
+        gp_district_df.loc['Tshwane']['DEATHS'],
+        gp_district_df.loc['Sedibeng']['DEATHS'],
+        gp_district_df.loc['West Rand']['DEATHS'],
+        
+        gp_district_df.loc['Johannesburg']['RECOVERIES'],
+        gp_district_df.loc['Ekurhuleni']['RECOVERIES'],
+        gp_district_df.loc['Tshwane']['RECOVERIES'],
+        gp_district_df.loc['Sedibeng']['RECOVERIES'],
+        gp_district_df.loc['West Rand']['RECOVERIES'], ' Check', ' Check'] + \
+        [district_map['Johannesburg'][x][0] for x in jhb_districts]+\
+        ['Check']+\
+        [district_map['Johannesburg'][x][1] for x in jhb_districts]+\
+        ['Check']+\
+        [district_map['Tshwane'][x][0] for x in tsh_districts]+\
+        ['Check']+\
+        [district_map['Tshwane'][x][1] for x in tsh_districts]+\
+        ['Check']+\
+        [district_map['Ekurhuleni'][x][0] for x in ['e1','e2','n1','n2','s1','s2','Unallocated']]+\
+        ['Check']+\
+        [district_map['Ekurhuleni'][x][1] for x in ['e1','e2','n1','n2','s1','s2','Unallocated']]+\
+        ['Check']+\
+        [district_map['Sedibeng'][x][0] for x in ['Lesedi','Emfuleni','Midvaal','Unallocated']]+\
+        ['Check']+\
+        [district_map['Sedibeng'][x][1] for x in ['Lesedi','Emfuleni','Midvaal','Unallocated']]+\
+        ['Check']+\
+        [district_map['West Rand'][x][0] for x in wr_districts]+\
+        ['Check']+\
+        [district_map['West Rand'][x][1] for x in wr_districts]+\
+        ['Check']
 
-        '[Check]',
-        ' ',
 
-        #  SUB-DISTRICTS DATA
-        # --------------------
-
-        # Johannesburg
-        district_map['Johannesburg']['A'][0],  # Cases
-        district_map['Johannesburg']['A'][1],  # Recoveries
-
-        district_map['Johannesburg']['B'][0],
-        district_map['Johannesburg']['B'][1],
-
-        district_map['Johannesburg']['C'][0],
-        district_map['Johannesburg']['C'][1],
-
-        district_map['Johannesburg']['D'][0],
-        district_map['Johannesburg']['D'][1],
-
-        district_map['Johannesburg']['E'][0],
-        district_map['Johannesburg']['E'][1],
-
-        district_map['Johannesburg']['F'][0],
-        district_map['Johannesburg']['F'][1],
-
-        district_map['Johannesburg']['G'][0],
-        district_map['Johannesburg']['G'][1],
-
-        district_map['Johannesburg']['Unallocated'][0],
-        district_map['Johannesburg']['Unallocated'][1],
-
-        ' ',
-        ' ',
-
-        # Tshwane Cases
-        district_map['Tshwane'][1][0],
-        district_map['Tshwane'][2][0],
-        district_map['Tshwane'][3][0],
-        district_map['Tshwane'][4][0],
-        district_map['Tshwane'][5][0],
-        district_map['Tshwane'][6][0],
-        district_map['Tshwane'][7][0],
-        district_map['Tshwane']['Unallocated'][0],
-
-        ' ',
-
-        # Ekurhuleni Cases
-        district_map['Ekurhuleni']['e1'][0],
-        district_map['Ekurhuleni']['e2'][0],
-        district_map['Ekurhuleni']['n1'][0],
-        district_map['Ekurhuleni']['n2'][0],
-        district_map['Ekurhuleni']['s1'][0],
-        district_map['Ekurhuleni']['s2'][0],
-        district_map['Ekurhuleni']['Unallocated'][0],
-
-        ' ',
-
-        # Sedibeng Cases
-        district_map['Sedibeng']['Lesedi'][0],
-        district_map['Sedibeng']['Emfuleni'][0],
-        district_map['Sedibeng']['Midvaal'][0],
-        district_map['Sedibeng']['Unallocated'][0],
-
-        ' ',
-
-        # West Rand Cases
-        district_map['West Rand']['Mogale'][0],
-        district_map['West Rand']['Rand_West'][0],
-        district_map['West Rand']['Merafong'][0],
-        district_map['West Rand']['Unallocated'][0],
-
-        ' ',
-        '[source]',
-        '[Comment]',
-
-        # Tshwane Recoveries
-        district_map['Tshwane'][1][1],
-        district_map['Tshwane'][2][1],
-        district_map['Tshwane'][3][1],
-        district_map['Tshwane'][4][1],
-        district_map['Tshwane'][5][1],
-        district_map['Tshwane'][6][1],
-        district_map['Tshwane'][7][1],
-        district_map['Tshwane']['Unallocated'][1],
-
-        # Ekurhuleni Recoveries
-        district_map['Ekurhuleni']['e1'][0],
-        district_map['Ekurhuleni']['e2'][0],
-        district_map['Ekurhuleni']['n1'][0],
-        district_map['Ekurhuleni']['n2'][0],
-        district_map['Ekurhuleni']['s1'][0],
-        district_map['Ekurhuleni']['s2'][0],
-        district_map['Ekurhuleni']['Unallocated'][0],
-
-        # Sedibeng Recoveries
-        district_map['Sedibeng']['Lesedi'][1],
-        district_map['Sedibeng']['Emfuleni'][1],
-        district_map['Sedibeng']['Midvaal'][1],
-        # district_map['Sedibeng']['Unallocated'][1],  # Does not seem to be used
-
-        # West Rand Recoveries
-        district_map['West Rand']['Mogale'][1],
-        district_map['West Rand']['Rand_West'][1],
-        district_map['West Rand']['Merafong'][1],
-        # district_map['West Rand']['Unallocated'][1],  # Does not seem to be used
-
-    ]
-
-    def list_to_formatted(in_list, delimiter='|'):
+    def list_to_formatted(in_list, delimiter='\t'):
         return delimiter.join(map(str, in_list))
 
     out_str = list_to_formatted(out_list)
     # return district_map
     return out_str
+
+
+if __name__ == "__main__":
+    print(extract_data(sys.argv[1]))
