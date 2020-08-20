@@ -5,7 +5,7 @@ numpy
 scipy
 mkl
 conda-build
-mkl-service
+#mkl-service
 boto3
 paramiko
 s3fs
