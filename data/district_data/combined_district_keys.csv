@@ -1,11 +1,17 @@
 Province,District_level,Data_title,Data_type,Friendly_title,Cat,District,Order,Data_file,Notes
 GP,1,Ekurhuleni	Cases,Case,Ekurhuleni,EKU,,1,provincial_gp_cumulative,
+GP,1,Ekurhuleni	Deaths,Deaths,Ekurhuleni,EKU,,1,gp_ekurhuleni,
 GP,1,Johannesburg	Cases,Case,Johannesburg,JHB,,2,provincial_gp_cumulative,
+GP,1,Johannesburg	Deaths,Deaths,Johannesburg Deaths,JHB,,2,gp_johannesburg,
 GP,1,Sedibeng	Cases,Case,Sedibeng,DC42,,3,provincial_gp_cumulative,
+GP,1,Sedibeng	Deaths,Deaths,Sedibeng Deaths,DC42,,2,gp_sedibeng,
 GP,1,Tshwane	Cases,Case,Tshwane,TSH,,4,provincial_gp_cumulative,
+GP,1,Tshwane	Deaths,Deaths,Tshwane Deaths,TSH,,4,gp_tshwane,
 GP,1,West Rand	Cases,Case,West Rand,DC48,,5,provincial_gp_cumulative,
+GP,1,West Rand	Deaths,Deaths,West Rand Deaths,DC48,,5,gp_westrand,
 GP,0,GP Unallocated	Cases,Case,Gauteng Unknown,,,6,provincial_gp_cumulative,
 GP,0,GP	Cases,Case,Gauteng,,,7,provincial_gp_cumulative,
+GP,0,GP	Deaths,Case,Gauteng Deaths,,,7,provincial_gp_cumulative,
 GP,0,GP	Recoveries,Recovery,Gauteng Recoveries,,,8,provincial_gp_cumulative,
 GP,0,GP	Hospitalisations,Hospital,Gauteng Hospitalisations,,,9,provincial_gp_cumulative,
 GP,1,Ekurhuleni	Cases,Cases,Ekurhuleni,,,1,gp_ekurhuleni,
@@ -45,6 +51,7 @@ GP,2,Sedibeng Midvaal	Cases,Case,Midvaal,GT422,DC42,5,gp_sedibeng,
 GP,2,Sedibeng Unallocated	Cases,Case,Sedibeng Unknown,,DC42,6,gp_sedibeng,
 GP,1,West Rand	Cases,Case,West Rand,,,1,gp_westrand,
 GP,1,West Rand	Recoveries,Recovery,West Rand Recoveries,,,2,gp_westrand,
+GP,1,West Rand	Deaths,Deaths,West Rand Deaths,,,2,gp_westrand,
 GP,2,West Rand Mogale City	Cases,Case,Mogale City,GT481,DC48,3,gp_westrand,
 GP,2,West Rand Rand West City	Cases,Case,Rand West City,GT485,DC48,4,gp_westrand,
 GP,2,West Rand Merafong City	Cases,Case,Merafong City,GT484,DC48,5,gp_westrand,
@@ -140,8 +147,8 @@ LP,0,deaths,Death,Limpopo Deaths,,,31,provincial_lp_cumulative,
 LP,0,active,Active,Limpopo Active,,,32,provincial_lp_cumulative,
 LP,0,tests,Test,Limpopo Tests,,,33,provincial_lp_cumulative,
 MP,1,Ehlanzeni,Case,Ehlanzeni,DC32,,,,RECORD DOES NOT EXISIT YET
-MP,1,Gert Sibande,Case,Gert Sibande,DC30,,,"",RECORD DOES NOT EXISIT YET
-MP,1,Nkangala,Case,Nkangala,DC31,,,"",RECORD DOES NOT EXISIT YET
+MP,1,Gert Sibande,Case,Gert Sibande,DC30,,,,RECORD DOES NOT EXISIT YET
+MP,1,Nkangala,Case,Nkangala,DC31,,,,RECORD DOES NOT EXISIT YET
 MP,2,bushbuckridge,Case,Bushbuckridge,DC32,DC32,1,provincial_mp_cumulative,
 MP,2,mbombela,Case,City of Mbombela,DC32,DC32,2,provincial_mp_cumulative,
 MP,2,nkomazi,Case,Nkomazi,DC32,DC32,3,provincial_mp_cumulative,
@@ -198,5 +205,5 @@ KZN,1,Umkhanyakude,Case,Umkhanyakude,DC27,,8,,RECORD DOES NOT EXISIT YET
 KZN,1,Umzinyathi,Case,Umzinyathi,DC24,,9,,RECORD DOES NOT EXISIT YET
 KZN,1,Uthukela,Case,Uthukela,DC23,,10,,RECORD DOES NOT EXISIT YET
 KZN,1,Zululand,Case,Zululand,DC26,,11,,RECORD DOES NOT EXISIT YET
-KZN,1,Unknown,Case,KwaZula Natal Unknown,"","",12,,RECORD DOES NOT EXISIT YET
-KZN,0,Total,Case,KwaZulu Natal Total,"","",13,,RECORD DOES NOT EXISIT YET
+KZN,1,Unknown,Case,KwaZula Natal Unknown,,,12,,RECORD DOES NOT EXISIT YET
+KZN,0,Total,Case,KwaZulu Natal Total,,,13,,RECORD DOES NOT EXISIT YET

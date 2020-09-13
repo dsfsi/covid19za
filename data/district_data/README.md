@@ -122,7 +122,8 @@ To rename a column:
 
 **Province lead:** [@shaze](https://github.com/shaze)
 
-The primary source is daily figures released by the Gauteng Department of Health.
+The primary source is daily figures released by the Gauteng Department of Health (GDHOH). The contributor to this file (shaze) receives the daily release from the GDOH WhatsApp group. This is usually tweeted by the GDOH and the tweet is given as the source. Sometimes the GDOH tweet is delayed by some hours in which case the source will be updated at a later time. If the release is not tweeted the date of the release is given.
+
 
 Data file: `provincial_gp_cumulative.csv`
 
