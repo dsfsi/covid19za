@@ -194,16 +194,19 @@ NW,0,total,Case,North West Total,,,21,provincial_nw_cumulative,
 NW,0,recovered,Recovery,North West Recoveries,,,22,provincial_nw_cumulative,
 NW,0,deaths,Death,North West Deaths,,,23,provincial_nw_cumulative,
 NW,0,tested,Test,North West Tested,,,24,provincial_nw_cumulative,
-KZN,1,Amajuba,Case,Amajuba,DC25,,1,,RECORD DOES NOT EXISIT YET
-KZN,1,eThekwini,Case,eThekwini,ETH,,2,,RECORD DOES NOT EXISIT YET
-KZN,1,Harry Gwala,Case,Harry Gwala,DC43,,3,,RECORD DOES NOT EXISIT YET
-KZN,1,iLembe,Case,iLembe,DC29,,4,,RECORD DOES NOT EXISIT YET
-KZN,1,King Cetshwayo,Case,King Cetshwayo,DC28,,5,,RECORD DOES NOT EXISIT YET
-KZN,1,Ugu,Case,Ugu,DC21,,6,,RECORD DOES NOT EXISIT YET
-KZN,1,Umgungundlovu,Case,Umgungundlovu,DC22,,7,,RECORD DOES NOT EXISIT YET
-KZN,1,Umkhanyakude,Case,Umkhanyakude,DC27,,8,,RECORD DOES NOT EXISIT YET
-KZN,1,Umzinyathi,Case,Umzinyathi,DC24,,9,,RECORD DOES NOT EXISIT YET
-KZN,1,Uthukela,Case,Uthukela,DC23,,10,,RECORD DOES NOT EXISIT YET
-KZN,1,Zululand,Case,Zululand,DC26,,11,,RECORD DOES NOT EXISIT YET
-KZN,1,Unknown,Case,KwaZula Natal Unknown,,,12,,RECORD DOES NOT EXISIT YET
-KZN,0,Total,Case,KwaZulu Natal Total,,,13,,RECORD DOES NOT EXISIT YET
+KZN,1,Amajuba,Case,Amajuba,DC25,,1,provincial_kzn_cumulative,
+KZN,1,eThekwini,Case,eThekwini,ETH,,2,provincial_kzn_cumulative,
+KZN,1,Harry Gwala,Case,Harry Gwala,DC43,,3,provincial_kzn_cumulative,
+KZN,1,iLembe,Case,iLembe,DC29,,4,provincial_kzn_cumulative,
+KZN,1,King Cetshwayo,Case,King Cetshwayo,DC28,,5,provincial_kzn_cumulative,
+KZN,1,Ugu,Case,Ugu,DC21,,6,provincial_kzn_cumulative,
+KZN,1,Umgungundlovu,Case,Umgungundlovu,DC22,,7,provincial_kzn_cumulative,
+KZN,1,Umkhanyakude,Case,Umkhanyakude,DC27,,8,provincial_kzn_cumulative,
+KZN,1,Umzinyathi,Case,Umzinyathi,DC24,,9,provincial_kzn_cumulative,
+KZN,1,Uthukela,Case,Uthukela,DC23,,10,provincial_kzn_cumulative,
+KZN,1,Zululand,Case,Zululand,DC26,,11,provincial_kzn_cumulative,
+KZN,1,Unknown,Case,KwaZula Natal Unknown,,,12,provincial_kzn_cumulative,
+KZN,0,Total,Case,KwaZulu Natal Total,,,13,provincial_kzn_cumulative,
+KZN,0,recovered,Recovery,KwaZulu Natal Recovery,,,14,provincial_kzn_cumulative,
+KZN,0,deaths,Deaths,KwaZulu Natal Deaths,,,15,provincial_kzn_cumulative,
+KZN,0,tested,Test,KwaZulu Natal Tests,,,16,provincial_kzn_cumulative,
