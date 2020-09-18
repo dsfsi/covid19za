@@ -2,7 +2,7 @@
 # Do not modify this action before discussing
 
 # If you have an analysis notebook or script that can export data, chat to @heerden and @vukosim
-
+name: Rt Bayesian model (1)
 on:
   push:
     branches:
@@ -29,19 +29,25 @@ jobs:
     - name: Setup Python Dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install pandas numpy matplotlib scipy IPython
+        pip install pandas numpy matplotlib scipy
+    #IPython
 
-    - name: Run Jupyter Notebook and Export csv
-      uses: yaananth/run-notebook@v1
-      env:
-        RUNNER: ${{ toJson(runner) }}
-        SECRETS: ${{ toJson(secrets) }}
-        GITHUB: ${{ toJson(github) }}
-      with:
-        notebook: "notebooks/Realtime R0.ipynb"
-        params: ""
-        isReport: False
-        poll: True
+    - name: Run Python Script
+      run: |
+        cd scripts
+        python realtime_r0.py
+
+    #- name: Run Jupyter Notebook and Export csv
+    #  uses: yaananth/run-notebook@v1
+    #  env:
+    #    RUNNER: ${{ toJson(runner) }}
+    #    SECRETS: ${{ toJson(secrets) }}
+    #    GITHUB: ${{ toJson(github) }}
+    #  with:
+    #    notebook: "notebooks/Realtime R0.ipynb"
+    #    params: ""
+    #    isReport: False
+    #    poll: True
 
     - uses: stefanzweifel/git-auto-commit-action@v4
       with:

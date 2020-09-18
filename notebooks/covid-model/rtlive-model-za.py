@@ -15,11 +15,11 @@ from covid.data import summarize_inference_data
 
 from covid.data import get_and_process_covidtracking_data, summarize_inference_data
 
-url = 'https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_provincial_cumulative_timeline_confirmed.csv'
+url = '../../data/covid19za_provincial_cumulative_timeline_confirmed.csv'
 states_cases = pd.read_csv(url, parse_dates=['date'], dayfirst=True, index_col=0)
 states_cases.tail()
 
-url = 'https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_timeline_testing.csv'
+url = '../../data/covid19za_timeline_testing.csv'
 states_tests = pd.read_csv(url, parse_dates=['date'], dayfirst=True, index_col=0)
 states_tests.tail()
 
