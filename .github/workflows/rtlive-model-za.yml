@@ -2,7 +2,7 @@
 # Do not modify this action before discussing
 
 # If you have an analysis notebook or script that can export data, chat to @heerden and @vukosim
-
+name: Rt MCMC model (2)
 on:
   push:
     branches:
