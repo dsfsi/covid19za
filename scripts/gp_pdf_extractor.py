@@ -82,6 +82,7 @@ def extract_data(file_path):
 
         gp_breakdown_dict = {curr_list[0]: curr_list[1:] for curr_list in all_list}
         gp_breakdown_df = pd.DataFrame.from_dict(gp_breakdown_dict)
+        print(gp_breakdown_df)
         gp_breakdown_df.fillna(0, inplace=True)
         gp_breakdown_df.set_index("DISTRICT", inplace=True)
         gp_breakdown_df.rename(inplace=True, columns={gp_breakdown_df.columns[0]: "CASES",
