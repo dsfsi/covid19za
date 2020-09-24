@@ -9,3 +9,4 @@ conda-build
 boto3
 paramiko
 s3fs
+xarray==0.16.0
