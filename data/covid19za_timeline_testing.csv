@@ -1,4 +1,4 @@
-	date,YYYYMMDD,cumulative_tests,recovered,hospitalisation,critical_icu,ventilation,deaths,contacts_identified,contacts_traced,scanned_travellers,passengers_elevated_temperature,covid_suspected_criteria,source
+date,YYYYMMDD,cumulative_tests,recovered,hospitalisation,critical_icu,ventilation,deaths,contacts_identified,contacts_traced,scanned_travellers,passengers_elevated_temperature,covid_suspected_criteria,source
 11-02-2020,20200211,61,0,,0,0,0,,,,,,
 13-02-2020,20200213,67,0,,0,0,0,,,,,,
 14-02-2020,20200214,71,0,,0,0,0,,,,,,
