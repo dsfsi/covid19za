@@ -2,7 +2,7 @@
 # Do not modify this action before discussing
 
 # If you have an analysis notebook or script that can export data, chat to @heerden and @vukosim
-
+name: Rt MCMC model (2)
 on:
   push:
     branches:
@@ -18,6 +18,8 @@ jobs:
 
     - name: Setup Python
       uses: actions/setup-python@v1
+      with:
+        python-version: '3.6'
 
     - name: Setup Python Dependencies
       run: |
@@ -46,5 +48,5 @@ jobs:
         # Action will create and push a new tag to the remote repository and the defined branch
         #tagging_message: 'v1.0.0'
         # Optional options appended to `git-push`
-        #push_options: '--force'
+        push_options: '--force'
         commit_author: github-actions <action@github.com>

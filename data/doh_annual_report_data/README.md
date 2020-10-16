@@ -11,7 +11,7 @@
 
 * Annual reports for:
 
-    1.[KwaZulu Natal](http://www.kznhealth.gov.za/reports.htm)   on page 39
+    1.[KwaZulu Natal](http://www.kznhealth.gov.za/2018-2019-annual-report.pdf)   on page 39
 
     2.[Mpumalanga](http://www.mpuhealth.gov.za/AnnualReport.html) 2018/19  annual report is currently not on the website
 
@@ -25,7 +25,7 @@
 
     7.[Free State](http://www.fshealth.gov.za/portal/page/portal/fshp/intranet/resource_documents) 2018/19  annual report is currently  not on the website
 
-    8.[North West](http://health.nwpg.gov.za/index.php/latest-developments/all-documents/category/5-annual-reports) 2018/19  annual report is currently  not on the website
+    8.[North West](https://drive.google.com/file/d/1eXWtDTS4QRxIZYk4mT0dH_FcETBiOvb9/view) 2018/19  annual report was not not on the website but emailed upon request
 
     9.[Northern Cape](http://www.northern-cape.gov.za/health/index.php/resource/more-info/app) 2018/19  annual report is currently  not on the website
 
