@@ -152,7 +152,10 @@ def extract_data(file_path):
             all_sub_districts.extend(get_sub_districts_data(get_table_list(i)))
 
         def remove_spaces(str_no):
-            return str_no.replace(" ", "")
+            if type(str_no)==str:
+                return str_no.replace(" ", "")
+            else:
+                return str_no
 
         all_sub_districts = [[x[0], remove_spaces(x[1]), remove_spaces(x[2])] for x in all_sub_districts]
 
