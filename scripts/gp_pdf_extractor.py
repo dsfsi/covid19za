@@ -88,7 +88,7 @@ def extract_data(file_path):
         gp_breakdown_df.rename(inplace=True, columns={gp_breakdown_df.columns[0]: "CASES",
                                                       gp_breakdown_df.columns[1]: "NEW CASES"})
         for i in range(0, 4):
-            gp_breakdown_df.iloc[:, i] = gp_breakdown_df.iloc[:, i].apply(lambda x: x.replace(' ', ''))
+            gp_breakdown_df.iloc[:, i] = gp_breakdown_df.iloc[:, i].apply(lambda x: x if type(x)==int else x.replace(' ', ''))
         return gp_breakdown_df
 
     gp_district_df = get_district_data()
@@ -152,7 +152,10 @@ def extract_data(file_path):
             all_sub_districts.extend(get_sub_districts_data(get_table_list(i)))
 
         def remove_spaces(str_no):
-            return str_no.replace(" ", "")
+            if type(str_no)==str:
+                return str_no.replace(" ", "")
+            else:
+                return str_no
 
         all_sub_districts = [[x[0], remove_spaces(x[1]), remove_spaces(x[2])] for x in all_sub_districts]
 
@@ -217,7 +220,7 @@ def extract_data(file_path):
         date_yyyymmdd, date_formatted,
 
         # Gauteng Data
-        gp_covid_stats['cases'], 'Check',
+        gp_covid_stats['cases'], 'Check', 'Check',
         gp_covid_stats['recoveries'], gp_covid_stats['deaths'], 'Check','Check',
         gp_covid_stats['hospitalised'],
 
@@ -260,7 +263,6 @@ def extract_data(file_path):
         [district_map['Sedibeng'][x][1] for x in ['Lesedi','Emfuleni','Midvaal','Unallocated']]+\
         ['Check']+\
         [district_map['West Rand'][x][0] for x in wr_districts]+\
-        ['Check']+\
         [district_map['West Rand'][x][1] for x in wr_districts]+\
         ['Check']
 
