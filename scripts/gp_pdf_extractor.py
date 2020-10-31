@@ -91,8 +91,15 @@ def extract_data(file_path):
     # DISTRICT BREAKDOWN
     def get_district_data():
         district_table_list = pdfp_obj.pages[district_pg].extract_tables()[0]
-        all_list = [[x[i] for x in district_table_list] for i in range(0, len(district_table_list[0]))]
-
+        print(type(district_table_list))
+        dl = []
+        for i, row in enumerate(district_table_list):
+            print(i,row)
+            dl.append(list(filter(lambda x: x != None and len(x) !=0, row)))
+        dl[-2]=dl[-2]+[0,0,0]
+        print(dl)
+        all_list = [[x[i] for x in dl] for i in range(0, len(dl[0]))]
+        print(all_list,"*******")
         gp_breakdown_dict = {curr_list[0]: curr_list[1:] for curr_list in all_list}
         gp_breakdown_df = pd.DataFrame.from_dict(gp_breakdown_dict)
         print(gp_breakdown_df)
