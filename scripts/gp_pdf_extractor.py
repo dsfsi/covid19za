@@ -56,7 +56,7 @@ def extract_data(file_path):
         sentences = str_body.split('.')
 
         def find_date(text):
-            return re.search(r'(\d{2}|\d{1}) [a-zA-Z]* \d{4}', text).group(0)
+            return re.search(r'(\d{2}|\d{1}) +[a-zA-Z]* +\d{4}', text).group(0)
 
         def get_nums(text, exclude_texts=['COVID-19']):
             for exclude_text in exclude_texts:
@@ -65,7 +65,9 @@ def extract_data(file_path):
             num_list = [int(x[0] + x[1].replace(' ', '')) for x in num_tuples]
             return num_list
 
-        date_txt = get_string_between_2_strings(pdfp_obj.pages[0].extract_text(), heading_txt_1, "$")
+        date_txt = re.sub("\n"," ",get_string_between_2_strings(pdfp_obj.pages[0].extract_text(), heading_txt_1, "$"))
+        
+        print("@"*20,date_txt)
         sentences = "".join(date_txt).split(".")
 
 
@@ -86,6 +88,7 @@ def extract_data(file_path):
 
         return district_pg, _gp_covid_stats
 
+
     district_pg, gp_covid_stats = get_gp_breakdown_data()
 
     # DISTRICT BREAKDOWN
@@ -99,7 +102,7 @@ def extract_data(file_path):
         dl[-2]=dl[-2]+[0,0,0]
         print(dl)
         all_list = [[x[i] for x in dl] for i in range(0, len(dl[0]))]
-        print(all_list,"*******")
+        print(all_list,"*DISTRICT_DATA****")
         gp_breakdown_dict = {curr_list[0]: curr_list[1:] for curr_list in all_list}
         gp_breakdown_df = pd.DataFrame.from_dict(gp_breakdown_dict)
         print(gp_breakdown_df)
@@ -216,7 +219,9 @@ def extract_data(file_path):
         }
         return district_map
 
+    print("&"*10,"Get_district_mp")
     district_map = get_district_map()
+    print(gp_covid_stats)
 
     # DATE
     curr_date = datetime.strptime(gp_covid_stats['date'], '%d %B %Y')
