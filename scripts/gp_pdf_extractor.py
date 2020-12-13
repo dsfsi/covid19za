@@ -245,9 +245,9 @@ def extract_data(file_path):
         date_yyyymmdd, date_formatted,
 
         # Gauteng Data
-        gp_covid_stats['cases'], 'Check', 'Check',
+        gp_covid_stats['cases'], 'Check', 'Check','Check',
         gp_covid_stats['recoveries'], gp_covid_stats['deaths'], 'Check','Check',
-        gp_covid_stats['hospitalised'],
+        gp_covid_stats['hospitalised'],'Check',
 
         #  DISTRICT TOTALS DATA
         # ----------------------
@@ -270,7 +270,9 @@ def extract_data(file_path):
         gp_district_df.loc['Ekurhuleni']['RECOVERIES'],
         gp_district_df.loc['Tshwane']['RECOVERIES'],
         gp_district_df.loc['Sedibeng']['RECOVERIES'],
-        gp_district_df.loc['West Rand']['RECOVERIES'], ' Check', ' Check'] + \
+        gp_district_df.loc['West Rand']['RECOVERIES'],
+        gp_district_df.loc['Unallocated']['RECOVERIES'],        
+        ' Check', ' Check'] + \
         [district_map['Johannesburg'][x][0] for x in jhb_districts]+\
         ['Check']+\
         [district_map['Johannesburg'][x][1] for x in jhb_districts]+\
