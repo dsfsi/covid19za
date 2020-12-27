@@ -49,8 +49,9 @@ def extract_data(file_path):
         if len(breakdown_txt)==0:
             breakdown_txt = get_string_between_2_strings(pdfp_obj.pages[1].extract_text(), "^", heading_txt_2)
             district_pg=1
-        
-            
+        if len(breakdown_txt)==0:
+            breakdown_txt = get_string_between_2_strings(first_page_txt, "^", ".*private facilities.*")            
+        print(breakdown_txt)            
         str_list = list(filter(lambda x: False if x == ' ' else True, breakdown_txt.splitlines()))
         str_body = "".join(str_list)
         sentences = str_body.split('.')
