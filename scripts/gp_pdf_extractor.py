@@ -126,9 +126,9 @@ def extract_data(file_path):
         bounding_box = (300, 0, currPage.width, currPage.height)
         cropped_page = currPage.crop(bounding_box)
         # table_settings = {"vertical_strategy": "text"}
-        table_settings = {"snap_tolerance": 10, "join_tolerance": 15}
+        table_settings = {"vertical_strategy":"lines_strict", "horizontal_strategy":"lines_strict", "snap_tolerance": 10, "join_tolerance": 15}
         extracted_raw_list = cropped_page.extract_tables(table_settings)[0]
-        return extracted_raw_list
+        return list(filter(lambda x:x[-1] == '12628', extracted_raw_list))
 
     def get_sub_districts_data(raw_list):
         sub_districts_list = []
@@ -168,6 +168,8 @@ def extract_data(file_path):
         # table_settings = {"vertical_strategy": "text"}
         table_settings = {"snap_tolerance": 10, "join_tolerance": 15}
         extracted_raw_list = cropped_page.extract_tables(table_settings)[0]
+        extracted_raw_list = list(filter(lambda y:y[-1]!=None,extracted_raw_list))
+        print(page_no,extracted_raw_list)
         return extracted_raw_list
 
     def get_all_sub_districts(page_start, page_end):
