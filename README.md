@@ -41,13 +41,13 @@ Code [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](http
 |   nicd_hospital_surveillance_data |  [nicd_hospital_surveillance_data](/data/nicd_hospital_surveillance_data.csv)   |         [nicd_hospital_surveillance_data.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/nicd_hospital_surveillance_data.csv)       |
 |   samrc_excess_deaths_province |  [samrc_excess_deaths_province](/data/samrc_excess_deaths_province.csv)   |         [samrc_excess_deaths_province.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/samrc_excess_deaths_province.csv)       |
 ### Deprecated
-**NOTE:** Since around 24 March, we have not gotten individual case data from DoH or NICD. For now if you need provincial counts use the *provincial_cumulative_timeline*. For individual cases up to 25 March, use the *confirmed_cases*.
+**NOTE:** Since around 24 March 2020, we have not gotten individual case data from DoH or NICD. For now if you need provincial counts use the *provincial_cumulative_timeline*. For individual cases up to 25 March 2020, use the *confirmed_cases*.
 | dataset         | url | raw_url[file] |
 |-----------------|-----|---------------|
-| confirmed_cases* [updated to 25 March] |  [covid19za_timeline_confirmed](/data/covid19za_timeline_confirmed.csv)   |       [covid19za_timeline_confirmed.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_timeline_confirmed.csv)         |
+| confirmed_cases* [updated to 25 March 2020] |  [covid19za_timeline_confirmed](/data/covid19za_timeline_confirmed.csv)   |       [covid19za_timeline_confirmed.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_timeline_confirmed.csv)         |
 | deaths |  [covid19za_timeline_deaths](/data/covid19za_timeline_deaths.csv)   |       [covid19za_timeline_deaths.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_timeline_deaths.csv)         |
 
-\* NICD no longer gives individual case data. Please use **provincial_cumulative_timeline** from 26 March onwards.
+\* NICD no longer gives individual case data. Please use **provincial_cumulative_timeline** from 26 March 2020 onwards.
 
 ## Dashboard
 * Google Data Studio Dashboard [URL link](https://dsfsi.github.io/covid19za-dash/)
