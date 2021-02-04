@@ -1,4 +1,4 @@
-# Facebook Movement Rande Maps for South Africa (ZAF)
+# Facebook Movement Range Maps for South Africa (ZAF)
 
 Data collected from https://data.humdata.org/dataset/movement-range-maps
 
