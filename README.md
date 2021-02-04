@@ -40,6 +40,7 @@ Code [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](http
 |   nicd_daily_national_report |  [nicd_daily_national_report](/data/nicd_daily_national_report.csv)   |         [nicd_daily_national_report.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/nicd_daily_national_report.csv)       |
 |   nicd_hospital_surveillance_data |  [nicd_hospital_surveillance_data](/data/nicd_hospital_surveillance_data.csv)   |         [nicd_hospital_surveillance_data.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/nicd_hospital_surveillance_data.csv)       |
 |   samrc_excess_deaths_province |  [samrc_excess_deaths_province](/data/samrc_excess_deaths_province.csv)   |         [samrc_excess_deaths_province.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/samrc_excess_deaths_province.csv)       |
+|   Apple, Google, Facebook Mobility Data |  [mobility](/data/mobility)   |              |
 ### Deprecated
 **NOTE:** Since around 24 March 2020, we have not gotten individual case data from DoH or NICD. For now if you need provincial counts use the *provincial_cumulative_timeline*. For individual cases up to 25 March 2020, use the *confirmed_cases*.
 | dataset         | url | raw_url[file] |
