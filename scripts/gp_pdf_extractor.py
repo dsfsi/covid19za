@@ -101,7 +101,6 @@ def extract_data(file_path):
             print(i,row)
             dl.append(list(filter(lambda x: x != None and len(x) !=0, row)))
         dl[-2]=dl[-2]+[0,0,0]
-        print(dl)
         all_list = [[x[i] for x in dl] for i in range(0, len(dl[0]))]
         print(all_list,"*DISTRICT_DATA****")
         gp_breakdown_dict = {curr_list[0]: curr_list[1:] for curr_list in all_list}
@@ -130,10 +129,22 @@ def extract_data(file_path):
         extracted_raw_list = cropped_page.extract_tables(table_settings)[0]
         return list(filter(lambda x:x[-1] == '12628', extracted_raw_list))
 
-    def get_sub_districts_data(raw_list):
+    def get_sub_districts_data(rl):
         sub_districts_list = []
         curr_sub_district = []
         prev_sub_district = []
+        raw_list=[rl[0]]
+        i=1
+        while i<len(rl):
+            (curr_name,cases,recs)=rl[i]
+            if cases in ['',None] or recs in['',None]:
+                i=i+1
+                if not cases: cases=rl[i][1]
+                if not recs: recs=rl[i][2]
+            raw_list.append((curr_name,cases,recs))
+            i=i+1
+            while i<len(rl) and (rl[i][0]==None or not re.search("City|Ekurhuleni|Unallocated|Lesedi|Emfuleni|Midvaal|Mogale|Rand West|Merafong",rl[i][0])):
+                i=i+1
         for i in range(1, len(raw_list)):
             curr_list = raw_list[i]
             if curr_sub_district == [] or not (curr_list[0] == None or curr_list[0] == ''):
@@ -268,6 +279,7 @@ def extract_data(file_path):
         gp_district_df.loc['Tshwane']['DEATHS'],
         gp_district_df.loc['Sedibeng']['DEATHS'],
         gp_district_df.loc['West Rand']['DEATHS'],
+        gp_district_df.loc['Unallocated']['DEATHS'],        
         
         gp_district_df.loc['Johannesburg']['RECOVERIES'],
         gp_district_df.loc['Ekurhuleni']['RECOVERIES'],
@@ -290,9 +302,10 @@ def extract_data(file_path):
         ['Check']+\
         [district_map['Sedibeng'][x][0] for x in ['Lesedi','Emfuleni','Midvaal','Unallocated']]+\
         ['Check']+\
-        [district_map['Sedibeng'][x][1] for x in ['Lesedi','Emfuleni','Midvaal','Unallocated']]+\
+        [district_map['Sedibeng'][x][1] for x in ['Lesedi','Emfuleni','Midvaal']]+\
         ['Check']+\
         [district_map['West Rand'][x][0] for x in wr_districts]+\
+        ['Check']+\
         [district_map['West Rand'][x][1] for x in wr_districts]+\
         ['Check']
 
