@@ -23,6 +23,8 @@ Code [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](http
 
 ## Data Available [[/data](/data)]
 
+Please note that these reports are the daily reports as released by the National Department of Health or the NICD. The new cases reported are based on new positive test reports released. However, there may be significant lag from when the patient was tested. As an example in epidemiological Week 1 of 2021 (3-9 Jan) approximately 33k new cases were reported on the daily announcement. However, the NICD Testing Summary Report for Week 3 of 2021 (which also reports the two previous weeks) shows that the number of positive tests was 43635 for Week 1 of 2021. The difference is due to the lag in testing being done -- some of the 33k cases reported on the daily announcments were actually from prior weeks while a large number of people were tested between 3-9 January, but the cases were only reported from the 10th onwards. Care needs to be taken in doing some analyses to take this into account. 
+
 ### Active
 | dataset         | url | raw_url[file] |
 |-----------------|-----|---------------|
@@ -40,14 +42,15 @@ Code [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](http
 |   nicd_daily_national_report |  [nicd_daily_national_report](/data/nicd_daily_national_report.csv)   |         [nicd_daily_national_report.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/nicd_daily_national_report.csv)       |
 |   nicd_hospital_surveillance_data |  [nicd_hospital_surveillance_data](/data/nicd_hospital_surveillance_data.csv)   |         [nicd_hospital_surveillance_data.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/nicd_hospital_surveillance_data.csv)       |
 |   samrc_excess_deaths_province |  [samrc_excess_deaths_province](/data/samrc_excess_deaths_province.csv)   |         [samrc_excess_deaths_province.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/samrc_excess_deaths_province.csv)       |
+|   Apple, Google, Facebook Mobility Data |  [mobility](/data/mobility)   |              |
 ### Deprecated
-**NOTE:** Since around 24 March, we have not gotten individual case data from DoH or NICD. For now if you need provincial counts use the *provincial_cumulative_timeline*. For individual cases up to 25 March, use the *confirmed_cases*.
+**NOTE:** Since around 24 March 2020, we have not gotten individual case data from DoH or NICD. For now if you need provincial counts use the *provincial_cumulative_timeline*. For individual cases up to 25 March 2020, use the *confirmed_cases*.
 | dataset         | url | raw_url[file] |
 |-----------------|-----|---------------|
-| confirmed_cases* [updated to 25 March] |  [covid19za_timeline_confirmed](/data/covid19za_timeline_confirmed.csv)   |       [covid19za_timeline_confirmed.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_timeline_confirmed.csv)         |
+| confirmed_cases* [updated to 25 March 2020] |  [covid19za_timeline_confirmed](/data/covid19za_timeline_confirmed.csv)   |       [covid19za_timeline_confirmed.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_timeline_confirmed.csv)         |
 | deaths |  [covid19za_timeline_deaths](/data/covid19za_timeline_deaths.csv)   |       [covid19za_timeline_deaths.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_timeline_deaths.csv)         |
 
-\* NICD no longer gives individual case data. Please use **provincial_cumulative_timeline** from 26 March onwards.
+\* NICD no longer gives individual case data. Please use **provincial_cumulative_timeline** from 26 March 2020 onwards.
 
 ## Dashboard
 * Google Data Studio Dashboard [URL link](https://dsfsi.github.io/covid19za-dash/)

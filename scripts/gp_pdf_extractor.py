@@ -37,18 +37,27 @@ def extract_data(file_path):
     # GAUTENG CONFIRMED COVID-19 CASES DISTRICT BREAKDOWN
     # GP cases, recoveries, deaths, contacts traced, people de-isolated & hospitalisations
     def get_gp_breakdown_data():
+        district_pg =0
         first_page_txt = pdfp_obj.pages[0].extract_text()
         # GAUTENG CONFIRMED COVID-19 CASES DISTRICT BREAKDOWN
         heading_txt_1 = "GAUTENG CONFIRMED COVID-19 CASES DISTRICT BREAKDOWN"
         heading_txt_2 = "BREAKDOWN PER DISTRICT"
         breakdown_txt = get_string_between_2_strings(first_page_txt, heading_txt_1, heading_txt_2)
-
+        if len(breakdown_txt)==0:
+            breakdown_txt = get_string_between_2_strings(pdfp_obj.pages[1].extract_text(), heading_txt_1, heading_txt_2)
+            district_pg=1
+        if len(breakdown_txt)==0:
+            breakdown_txt = get_string_between_2_strings(pdfp_obj.pages[1].extract_text(), "^", heading_txt_2)
+            district_pg=1
+        if len(breakdown_txt)==0:
+            breakdown_txt = get_string_between_2_strings(first_page_txt, "^", ".*private facilities.*")            
+        print(breakdown_txt)            
         str_list = list(filter(lambda x: False if x == ' ' else True, breakdown_txt.splitlines()))
         str_body = "".join(str_list)
         sentences = str_body.split('.')
 
         def find_date(text):
-            return re.search(r'(\d{2}|\d{1}) [a-zA-Z]* \d{4}', text).group(0)
+            return re.search(r'(\d{2}|\d{1}) +[a-zA-Z]* +\d{4}', text).group(0)
 
         def get_nums(text, exclude_texts=['COVID-19']):
             for exclude_text in exclude_texts:
@@ -57,7 +66,14 @@ def extract_data(file_path):
             num_list = [int(x[0] + x[1].replace(' ', '')) for x in num_tuples]
             return num_list
 
-        _gp_covid_stats = {"date": find_date(sentences[0])}
+        date_txt = re.sub("\n"," ",get_string_between_2_strings(pdfp_obj.pages[0].extract_text(), heading_txt_1, "$"))
+        
+        print("@"*20,date_txt)
+        sentences = "".join(date_txt).split(".")
+
+
+        _gp_covid_stats = {"date": find_date(date_txt)}        
+
 
         # First Sentence
         tmp_dict = dict(zip(['cases', 'recoveries', 'deaths'], get_nums(sentences[0])[2:]))
@@ -71,15 +87,23 @@ def extract_data(file_path):
         tmp_dict = dict(zip(['hospitalised'], get_nums(sentences[2])))
         _gp_covid_stats.update(tmp_dict)
 
-        return _gp_covid_stats
+        return district_pg, _gp_covid_stats
 
-    gp_covid_stats = get_gp_breakdown_data()
+
+    district_pg, gp_covid_stats = get_gp_breakdown_data()
 
     # DISTRICT BREAKDOWN
     def get_district_data():
-        district_table_list = pdfp_obj.pages[0].extract_tables()[0]
-        all_list = [[x[i] for x in district_table_list] for i in range(0, len(district_table_list[0]))]
-
+        district_table_list = pdfp_obj.pages[district_pg].extract_tables()[0]
+        print(type(district_table_list))
+        dl = []
+        for i, row in enumerate(district_table_list):
+            print(i,row)
+            dl.append(list(filter(lambda x: x != None and len(x) !=0, row)))
+        dl[-2]=dl[-2]+[0,0,0]
+        print(dl)
+        all_list = [[x[i] for x in dl] for i in range(0, len(dl[0]))]
+        print(all_list,"*DISTRICT_DATA****")
         gp_breakdown_dict = {curr_list[0]: curr_list[1:] for curr_list in all_list}
         gp_breakdown_df = pd.DataFrame.from_dict(gp_breakdown_dict)
         print(gp_breakdown_df)
@@ -102,9 +126,9 @@ def extract_data(file_path):
         bounding_box = (300, 0, currPage.width, currPage.height)
         cropped_page = currPage.crop(bounding_box)
         # table_settings = {"vertical_strategy": "text"}
-        table_settings = {"snap_tolerance": 10, "join_tolerance": 15}
+        table_settings = {"vertical_strategy":"lines_strict", "horizontal_strategy":"lines_strict", "snap_tolerance": 10, "join_tolerance": 15}
         extracted_raw_list = cropped_page.extract_tables(table_settings)[0]
-        return extracted_raw_list
+        return list(filter(lambda x:x[-1] == '12628', extracted_raw_list))
 
     def get_sub_districts_data(raw_list):
         sub_districts_list = []
@@ -144,6 +168,8 @@ def extract_data(file_path):
         # table_settings = {"vertical_strategy": "text"}
         table_settings = {"snap_tolerance": 10, "join_tolerance": 15}
         extracted_raw_list = cropped_page.extract_tables(table_settings)[0]
+        extracted_raw_list = list(filter(lambda y:y[-1]!=None,extracted_raw_list))
+        print(page_no,extracted_raw_list)
         return extracted_raw_list
 
     def get_all_sub_districts(page_start, page_end):
@@ -161,7 +187,7 @@ def extract_data(file_path):
 
         return all_sub_districts
 
-    all_sub_dists = get_all_sub_districts(1, 4)
+    all_sub_dists = get_all_sub_districts(district_pg+1, district_pg+4)
 
     pdfp_obj.close()
 
@@ -196,7 +222,9 @@ def extract_data(file_path):
         }
         return district_map
 
+    print("&"*10,"Get_district_mp")
     district_map = get_district_map()
+    print(gp_covid_stats)
 
     # DATE
     curr_date = datetime.strptime(gp_covid_stats['date'], '%d %B %Y')
@@ -220,9 +248,9 @@ def extract_data(file_path):
         date_yyyymmdd, date_formatted,
 
         # Gauteng Data
-        gp_covid_stats['cases'], 'Check', 'Check',
+        gp_covid_stats['cases'], 'Check', 'Check','Check',
         gp_covid_stats['recoveries'], gp_covid_stats['deaths'], 'Check','Check',
-        gp_covid_stats['hospitalised'],
+        gp_covid_stats['hospitalised'],'Check',
 
         #  DISTRICT TOTALS DATA
         # ----------------------
@@ -245,7 +273,9 @@ def extract_data(file_path):
         gp_district_df.loc['Ekurhuleni']['RECOVERIES'],
         gp_district_df.loc['Tshwane']['RECOVERIES'],
         gp_district_df.loc['Sedibeng']['RECOVERIES'],
-        gp_district_df.loc['West Rand']['RECOVERIES'], ' Check', ' Check'] + \
+        gp_district_df.loc['West Rand']['RECOVERIES'],
+        gp_district_df.loc['Unallocated']['RECOVERIES'],        
+        ' Check', ' Check'] + \
         [district_map['Johannesburg'][x][0] for x in jhb_districts]+\
         ['Check']+\
         [district_map['Johannesburg'][x][1] for x in jhb_districts]+\
