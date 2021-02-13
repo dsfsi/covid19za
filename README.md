@@ -23,6 +23,8 @@ Code [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](http
 
 ## Data Available [[/data](/data)]
 
+Please note that these reports are the daily reports as released by the National Department of Health or the NICD. The new cases reported are based on new positive test reports released. However, there may be significant lag from when the patient was tested. As an example in epidemiological Week 1 of 2021 (3-9 Jan) approximately 33k new cases were reported on the daily announcement. However, the NICD Testing Summary Report for Week 3 of 2021 (which also reports the two previous weeks) shows that the number of positive tests was 43635 for Week 1 of 2021. The difference is due to the lag in testing being done -- some of the 33k cases reported on the daily announcments were actually from prior weeks while a large number of people were tested between 3-9 January, but the cases were only reported from the 10th onwards. Care needs to be taken in doing some analyses to take this into account. 
+
 ### Active
 | dataset         | url | raw_url[file] |
 |-----------------|-----|---------------|
