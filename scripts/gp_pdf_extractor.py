@@ -84,9 +84,12 @@ def extract_data(file_path):
         _gp_covid_stats.update(tmp_dict)
 
         # Third Sentence
-        tmp_dict = dict(zip(['hospitalised'], get_nums(sentences[2])))
-        _gp_covid_stats.update(tmp_dict)
+        #tmp_dict = dict(zip(['hospitalised'], get_nums(sentences[2])))
+        #_gp_covid_stats.update(tmp_dict)
+        m=re.search(r".*total number of (\d+) people are currently.*hospi",breakdown_txt,re.S)
+        _gp_covid_stats['hospitalised']=m.group(1)
 
+        
         return district_pg, _gp_covid_stats
 
 
@@ -216,11 +219,11 @@ def extract_data(file_path):
         eku_dict = dict(zip(eku_keys, [[x[1], x[2]] for x in all_sub_dists[16:23]]))
 
         # Sedibeng
-        sed_keys = "Lesedi Emfuleni Midvaal Unallocated".split(" ")
+        sed_keys = "Emfuleni Lesedi Midvaal Unallocated".split(" ")
         sed_dict = dict(zip(sed_keys, [[x[1], x[2]] for x in all_sub_dists[23:27]]))
 
         # West Rand
-        wr_keys = "Mogale Rand_West Merafong Unallocated".split(" ")
+        wr_keys = "Merafong Mogale Rand_West Unallocated".split(" ")
         wr_dict = dict(zip(wr_keys, [[x[1], x[2]] for x in all_sub_dists[27:31]]))
 
         # All Districts
