@@ -313,3 +313,14 @@ date,YYYYMMDD,EC,FS,GP,KZN,LP,MP,NC,NW,WC,UNKNOWN,total,source
 28-02-2021,20210228,182194,70328,391479,309819,59127,68650,30879,57450,260333,0,1430259,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-28-feb-2021/
 01-03-2021,20210301,182253,70343,391944,310005,59204,68818,30897,57450,260422,0,1431336,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-1-mar-2021/
 02-03-2021,20210302,182362,70644,392367,310275,59218,68972,31317,57450,260715,0,1433320,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-2-mar-2021/
+03-03-2021,20210303,182404,70802,392976,310452,59245,69029,31389,57450,261025,0,1434772,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-3-mar-2021/
+04-03-2021,20210304,182427,70932,393097,310715,59369,69073,31417,57664,261316,0,1436010,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-4-mar-2021/
+05-03-2021,20210305,182480,71022,393159,310863,59490,69296,31489,57664,261587,0,1437050,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-5-mar-2021/
+06-03-2021,20210306,182488,72438,393268,311208,59490,69489,31571,57664,261899,0,1439515,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-6-mar-2021/
+07-03-2021,20210307,182496,72496,393726,311684,59612,69622,31577,57664,261997,0,1440874,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-7-mar-2021/
+08-03-2021,20210308,182562,72496,394172,311749,59747,69760,31605,57887,262067,0,1442045,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-8-mar-2021/
+09-03-2021,20210309,182570,72861,394514,312761,59765,69884,31631,57887,262409,0,1444282,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-9-mar-2021/
+10-03-2021,20210310,182597,72913,394935,313527,59782,69939,31680,57937,262669,0,1445979,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-10-mar-2021/
+11-03-2021,20210311,182599,73782,395189,313548,59844,69968,31699,57937,262937,0,1447503,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-11-mar-2021/
+12-03-2021,20210312,182619,74471,395673,314017,59889,70155,31715,57937,263178,0,1449654,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-12-mar-2021/
+13-03-2021,20210313,182714,75243,396094,315185,60025,70374,32018,57937,263398,0,1452988,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-13-mar-2021/
