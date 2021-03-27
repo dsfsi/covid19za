@@ -213,17 +213,16 @@ def extract_data(file_path):
         eku_keys = "e1 e2 n1 n2 s1 s2 Unallocated".split(" ")
         eku_dict = dict(zip(eku_keys, [[x[1], x[2]] for x in all_sub_dists[16:23]]))
 
-        print(all_sub_dists[16:23])
 
         
 
         # Sedibeng
         sed_keys = "Emfuleni Lesedi Midvaal Unallocated".split(" ")
-        sed_dict = dict(zip(sed_keys, [[x[1], x[2]] for x in all_sub_dists[22:26]]))
+        sed_dict = dict(zip(sed_keys, [[x[1], x[2]] for x in all_sub_dists[23:27]]))
 
         # West Rand
         wr_keys = "Merafong Mogale Rand_West Unallocated".split(" ")
-        wr_dict = dict(zip(wr_keys, [[x[1], x[2]] for x in all_sub_dists[26:30]]))
+        wr_dict = dict(zip(wr_keys, [[x[1], x[2]] for x in all_sub_dists[27:31]]))
 
         # All Districts
         district_map = {
@@ -310,7 +309,7 @@ def extract_data(file_path):
         ['Check']+\
         [district_map['Sedibeng'][x][0] for x in ['Lesedi','Emfuleni','Midvaal','Unallocated']]+\
         ['Check']+\
-        [district_map['Sedibeng'][x][1] for x in ['Lesedi','Emfuleni','Midvaal']]+\
+        [district_map['Sedibeng'][x][1] for x in ['Emfuleni','Lesedi','Midvaal']]+\
         ['Check']+\
         [district_map['West Rand'][x][0] for x in wr_districts]+\
         ['Check']+\
