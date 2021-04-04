@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+
+data/calc/
+data/calc/calculated_rt_sa_mcmc.csv
 # C extensions
 *.so
 
@@ -67,6 +70,8 @@ instance/
 
 # Scrapy stuff:
 .scrapy
+
+data/calc/*
 
 # Sphinx documentation
 docs/_build/
