@@ -362,3 +362,12 @@ date,YYYYMMDD,EC,FS,GP,KZN,LP,MP,NC,NW,WC,UNKNOWN,total,source
 26-03-2021,20210326,11354,3628,10213,10152,2209,1338,819,1455,11434,0,52602,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-26-mar-2021/
 27-03-2021,20210327,11355,3635,10229,10166,2209,1338,819,1455,11442,0,52648,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-27-mar-2021/
 28-03-2021,20210328,11355,3638,10235,10167,2209,1342,819,1455,11443,0,52663,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-28-mar-2021/
+29-03-2021,20210329,11358,3640,10250,10167,2209,1342,820,1478,11446,0,52710,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-29-mar-2021/
+30-03-2021,20210330,11359,3647,10295,10176,2216,1346,822,1478,11449,0,52788,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-30-mar-2021/
+31-03-2021,20210331,11359,3648,10318,10199,2216,1346,824,1478,11458,0,52 846,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-31-mar-2021/
+01-04-2021,20210401,11362,3648,10331,10202,2241,1347,824,1478,11464,0,52897,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-1-april-2021/
+02-04-2021,20210402,11363,3651,10347,10224,2241,1348,824,1478,11470,0,52946,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-2-april-2021/
+03-04-2021,20210403,11363,3654,10348,10226,2241,1348,825,1478,11471,0,52954,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-3-april-2021/
+04-04-2021,20210404,11363,3656,10350,10236,2241,1348,825,1496,11472,0,52987,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-4-april-2021/
+05-04-2021,20210405,11363,3660,10354,10236,2241,1348,825,1496,11472,0,52995,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-5-april-2021/
+06-04-2021,20210406,11371,3676,10363,10236,2241,1348,825,1496,11476,0,53032,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-6-april-2021/
