@@ -166,6 +166,7 @@ Some of COVID-19 Data for South Africa (data in this repo) is currently being us
 |10. R-based Interactive health facilties Map | Afrimapr, mapping health facilities using R-building blocks |[[Webpage](https://andysouth.shinyapps.io/hosp-viewer-SA-v02/)] [[Repo](https://github.com/afrimapr/afrimapr_dev/tree/master/hospitals-viewer-south-africa/hosp-viewer-SA-v02)] | [Dr Andy South](http://andysouth.co.uk/)  |  United Kingdom |
 |11. Estimating the Reproductive Number of COVID-19 | Estimating effective reproductive number for SA, it's provinces and other countries. |  [[Website](https://lrossouw.github.io/covid-19/estimating_r.html)] | [Louis Rossouw](https://github.com/lrossouw) | South Africa |
 |12. Modelling COVID-19 in South Africa at a Provincial Level | Modelling COVID-19 in South Africa at a Provincial Level using reported and excess deaths. |  [[Website](https://lrossouw.github.io/covid-19/modelling_covid-19_in_south_africa_at_a_provincial_level.html)] | [Louis Rossouw](https://github.com/lrossouw) | South Africa |
+|13. South African Provincial COVID-19 Visualization | Visualize deaths, cases and recoveries alongside mobility data on a provincial level. Additionally, visualize cahnge of cases over a weekly basis. |  [[Website](http://3.140.191.119:8050/)] | [Christopher Marais](https://github.com/ChristopherMarais/Panthera_interview_gcm) | South Africa |
 
 
 ## Support 
