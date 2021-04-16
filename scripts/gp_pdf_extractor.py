@@ -49,6 +49,7 @@ def extract_data(file_path):
         if len(breakdown_txt)==0:
             breakdown_txt = get_string_between_2_strings(pdfp_obj.pages[1].extract_text(), "^", heading_txt_2)
             district_pg=1
+            
         if len(breakdown_txt)==0:
             breakdown_txt = get_string_between_2_strings(first_page_txt, "^", ".*private facilities.*")            
         str_list = list(filter(lambda x: False if x == ' ' else True, breakdown_txt.splitlines()))
@@ -65,6 +66,7 @@ def extract_data(file_path):
             num_list = [int(x[0] + x[1].replace(' ', '')) for x in num_tuples]
             return num_list
 
+
         date_txt = re.sub("\n"," ",get_string_between_2_strings(pdfp_obj.pages[0].extract_text(), heading_txt_1, "$"))
         
         sentences = "".join(date_txt).split(".")
@@ -72,7 +74,7 @@ def extract_data(file_path):
 
         _gp_covid_stats = {"date": find_date(date_txt)}        
 
-
+      
         # First Sentence
         tmp_dict = dict(zip(['cases', 'recoveries', 'deaths'], get_nums(sentences[0])[2:]))
         _gp_covid_stats.update(tmp_dict)
@@ -326,4 +328,10 @@ def extract_data(file_path):
 
 
 if __name__ == "__main__":
-    print(extract_data(sys.argv[1]))
+    g=open("/tmp/see.csv","w")
+    for fname in sys.argv[1:]:
+        print(fname)
+        g.write("%s\n"%extract_data(fname))
+    g.close()
+
+    
