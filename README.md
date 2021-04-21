@@ -154,7 +154,7 @@ Some of COVID-19 Data for South Africa (data in this repo) is currently being us
 
 | Project Name  | Project Description |  Project Demo    |    Project owner |    Country   |
 | ------------- | ------------- |------------|-----------------|------------------|
-| 1. Covid-19 SA Data | Data visualizations corresponding to the current Covid-19 outbreak in South Africa |  [[Website](https://simonrosen173.github.io/Covid19SAData/)],[[GitHub Repo](https://github.com/SimonRosen173/Covid19SAData)]| [Simon Rosen](https://github.com/SimonRosen173)| South Africa |
+| 1. Covid-19 SA Data | Data visualizations corresponding to the current Covid-19 outbreak in South Africa |  [[Website](https://covid19data.co.za/)],[[GitHub Repo](https://github.com/SimonRosen173/Covid19SAData_JS)]| [Simon Rosen](https://github.com/SimonRosen173)| South Africa |
 | 2. Covid-19 testing areas| A Covid-19 Testing Facilities Map |[[Website](https://www.ineff.ch/cov19testmap/)],[[GitHub Repo](https://github.com/IneffableKoD/cov19testmap)]| [Yannick Zehnder](https://github.com/IneffableKoD/) | Switzerland |
 | 3. Covid-19 Map| A Coronavirus Map | [[Website](https://coronamap.co.za)] [[GitHub Repo](https://github.com/JayWelsh/coronamap)] | Jay Welsh | South Africa |
 | 4. Covid-19 Telegram Bot| Corona virus statistics via Telegram | [Link](https://t.me/CoronaZABot) | CodeChap | South Africa |
