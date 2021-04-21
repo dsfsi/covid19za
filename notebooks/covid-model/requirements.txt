@@ -1,10 +1,10 @@
 pymc3
 pandas
-jupyterlab
 numpy
-scipy
+scipy==1.6.2
 mkl
 conda-build
+#requests
 #mkl-service
 boto3
 paramiko
