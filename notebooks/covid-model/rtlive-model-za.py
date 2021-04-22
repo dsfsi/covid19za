@@ -7,13 +7,9 @@ except:
     import pymc3 as pm
         
 import pandas as pd
-import numpy as np
-import arviz as az
-from matplotlib import pyplot as plt
 from covid.models.generative import GenerativeModel
-from covid.data import summarize_inference_data
 
-from covid.data import get_and_process_covidtracking_data, summarize_inference_data
+from covid.data import summarize_inference_data
 
 url = '../../data/covid19za_provincial_cumulative_timeline_confirmed.csv'
 states_cases = pd.read_csv(url, parse_dates=['date'], dayfirst=True, index_col=0)
@@ -36,7 +32,7 @@ tests = tests_all.loc[casezero:caselast]
 
 combined_model = pd.concat([cases, tests], axis=1)
 
-combined_model.loc[casezero,'tests'] = 163
+combined_model.loc[casezero, 'tests'] = 163
 
 filled_model = combined_model.reindex(idx, method='ffill')
 
@@ -54,8 +50,8 @@ gm.sample()
 
 result = summarize_inference_data(gm.inference_data)
 
-export_results = result[['median','upper_80','lower_80','infections','test_adjusted_positive']]
-export_results = export_results.rename(columns={'median':'Median','upper_80':'High_80','lower_80':'Low_80','infections':'Infections','test_adjusted_positive':'Adjusted_Postive'})
+export_results = result[['median', 'upper_80', 'lower_80', 'infections', 'test_adjusted_positive']]
+export_results = export_results.rename(columns={'median': 'Median', 'upper_80': 'High_80', 'lower_80': ' Low_80', 'infections': 'Infections', 'test_adjusted_positive': 'Adjusted_Postive'})
 
 export_path = '../../data/calc/calculated_rt_sa_mcmc.csv'
 export_results.to_csv(export_path, float_format='%.3f')

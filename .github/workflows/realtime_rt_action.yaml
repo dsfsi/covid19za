@@ -14,28 +14,38 @@ jobs:
   run:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+      - uses: actions/checkout@v2
 
-    - name: Setup Python
-      uses: actions/setup-python@v1
-      with:
-        python-version: '3.6'
+      - name: Setup Python
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.8'
 
-    - name: Ensure Data Directory Exists
-      run: |
-        mkdir -p data/calc
-        ls
+      - name: Ensure Data Directory Exists
+        run: |
+          mkdir -p data/calc
+          ls
 
-    - name: Setup Python Dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install pandas numpy matplotlib scipy
-    #IPython
+      - name: Setup Python Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas numpy matplotlib scipy
+        #IPython
 
-    - name: Run Python Script
-      run: |
-        cd scripts
-        python realtime_r0.py
+      - name: Run Python Script
+        run: |
+          cd scripts
+          python realtime_r0.py
+
+      - name: Commit changes
+        run: |
+          git config --local user.name github-actions
+          git config --local user.email "action@github.com"
+          git add data/calc/*.csv
+          if [[ "$(git status --porcelain)" != "" ]]; then
+              git commit -m "Rt model 1 action run" -a
+              git push origin master
+          fi
 
     #- name: Run Jupyter Notebook and Export csv
     #  uses: yaananth/run-notebook@v1
@@ -49,16 +59,16 @@ jobs:
     #    isReport: False
     #    poll: True
 
-    - uses: stefanzweifel/git-auto-commit-action@v4
-      with:
+    #- uses: stefanzweifel/git-auto-commit-action@v4
+    #  with:
         # Required
-        commit_message: Rt model 1 action run
+    #    commit_message: Rt model 1 action run
         # Optional branch to push to, defaults to the current branch
         #branch: master
         # Optional options appended to `git-commit`
         #commit_options: '--no-verify --signoff'
         # Optional glob pattern of files which should be added to the commit
-        file_pattern: data/calc/*.csv
+    #    file_pattern: data/calc/*.csv
         # Optional local file path to the repository
         #repository: .
         # Optional commit user and author settings
@@ -66,5 +76,5 @@ jobs:
         # Action will create and push a new tag to the remote repository and the defined branch
         #tagging_message: 'v1.0.0'
         # Optional options appended to `git-push`
-        push_options: '--force'
-        commit_author: github-actions <action@github.com>
+    #    push_options: '--force'
+    #    commit_author: github-actions <action@github.com>
