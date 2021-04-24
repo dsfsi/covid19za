@@ -166,8 +166,7 @@ def extract_data(file_path):
 
         # Check if first item of list is valid e.g. total and/or recoveries has values
         prev_sub_district = sub_districts_list[0]
-        if (prev_sub_district[1] == '' or prev_sub_district[1] == None) and (prev_sub_district[2] == '' or \
-                                                                             prev_sub_district[2] == None):
+        if (prev_sub_district[1] == '' or prev_sub_district[1] == None) and (prev_sub_district[2] == '' or       prev_sub_district[2] == None):
             sub_districts_list.pop(0)
         return sub_districts_list
 
@@ -183,7 +182,25 @@ def extract_data(file_path):
         if the_crop in [[], None]: return []
         extracted_raw_list = the_crop[0]
         extracted_raw_list = list(filter(lambda y:y[-1]!=None or y[0]=="Ekurhuleni North 2",extracted_raw_list))
-        return extracted_raw_list
+        res = []
+        left_over=""
+        for elt in extracted_raw_list:
+             cases=elt[1].split("\n")
+             elt[0]=left_over+elt[0]
+             if "Sub-District" not in elt[0] and len(cases)>1:
+                 places=elt[0].split("\n")
+                 recs=elt[2].split("\n")
+                 print(places,cases)
+                 for i in range(len(cases)):
+                     res.append([places[i].strip(),cases[i],recs[i]])
+                 if len(cases)<len(places):
+                     left_over=places[-1]+"\n"
+                 else:
+                     left_over=""
+             else:
+                 res.append(elt)
+                 left_over=""
+        return res
 
     def get_all_sub_districts(page_start, page_end):
         all_sub_districts = []
