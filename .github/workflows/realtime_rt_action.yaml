@@ -44,7 +44,7 @@ jobs:
           git add data/calc/*.csv
           if [[ "$(git status --porcelain)" != "" ]]; then
               git commit -m "Rt model 1 action run" -a
-              git push origin master
+              git push origin master --force
           fi
 
     #- name: Run Jupyter Notebook and Export csv
