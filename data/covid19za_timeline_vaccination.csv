@@ -83,3 +83,6 @@ date,YYYYMMDD,vaccinations_sisonke,vaccinations_phase_2,vaccinations,source
 31-05-2021,20210531,479768,490680,970448,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-31-may-2021/
 01-06-2021,20210601,479768,565336,1045104,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-1-june-2021/
 02-06-2021,20210602,479768,637801,1117569,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-2-june-2021/
+03-06-2021,20210603,479768,787125,1266893,https://sacoronavirus.co.za/2021/06/04/vaccination-statistics-as-at-midnight-on-3-june-2021/
+05-06-2021,20210605,479768,863665,1343433,https://sacoronavirus.co.za/latest-vaccine-statistics/
+06-06-2021,20200606,479768,870477,1350245,https://sacoronavirus.co.za/latest-vaccine-statistics/
