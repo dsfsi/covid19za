@@ -83,6 +83,10 @@ date,YYYYMMDD,vaccinations_sisonke,vaccinations_phase_2,vaccinations,source
 31-05-2021,20210531,479768,490680,970448,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-31-may-2021/
 01-06-2021,20210601,479768,565336,1045104,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-1-june-2021/
 02-06-2021,20210602,479768,637801,1117569,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-2-june-2021/
-03-06-2021,20210603,479768,787125,1266893,https://sacoronavirus.co.za/2021/06/04/vaccination-statistics-as-at-midnight-on-3-june-2021/
-05-06-2021,20210605,479768,863665,1343433,https://sacoronavirus.co.za/latest-vaccine-statistics/
-06-06-2021,20200606,479768,870477,1350245,https://sacoronavirus.co.za/latest-vaccine-statistics/
+03-06-2021,20210603,479768,713584,1193352,https://twitter.com/HealthZA/status/1400553150948466690
+04-06-2021,20210604,479768,787125,1266893,https://sacoronavirus.co.za/2021/06/04/vaccination-statistics-as-at-midnight-on-3-june-2021/
+05-06-2021,20210605,479768,856779,1336547,https://twitter.com/HealthZA/status/1401285102588641281
+06-06-2021,20210606,479768,863665,1343433,https://twitter.com/HealthZA/status/1401620972038459404
+07-06-2021,20210607,479768,870477,1350245,https://twitter.com/HealthZA/status/1401992990919430147
+08-06-2021,20210608,479768,953962,1433730,https://twitter.com/HealthZA/status/1402371525219659778
+09-06-2021,20210609,479768,1045503,1525271,https://twitter.com/HealthZA/status/1402693940655050759
