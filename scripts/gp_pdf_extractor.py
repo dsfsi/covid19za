@@ -328,7 +328,7 @@ def extract_data(file_path):
         ['Check']+\
         [district_map['Sedibeng'][x][0] for x in ['Lesedi','Emfuleni','Midvaal','Unallocated']]+\
         ['Check']+\
-        [district_map['Sedibeng'][x][1] for x in ['Emfuleni','Lesedi','Midvaal']]+\
+        [district_map['Sedibeng'][x][1] for x in ['Lesedi','Emfuleni','Midvaal']]+\
         ['Check']+\
         [district_map['West Rand'][x][0] for x in wr_districts]+\
         ['Check']+\
