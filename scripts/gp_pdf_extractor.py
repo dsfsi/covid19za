@@ -47,11 +47,17 @@ def extract_data(file_path):
             breakdown_txt = get_string_between_2_strings(pdfp_obj.pages[1].extract_text(), heading_txt_1, heading_txt_2)
             district_pg=1
         if len(breakdown_txt)==0:
+            m=re.search(heading_txt_1+"(.*)facilities",first_page_txt,re.DOTALL |re.M)
+            if m:
+                breakdown_txt=m.group(1)
+        if len(breakdown_txt)==0:
+            breakdown_txt = get_string_between_2_strings(first_page_txt,heading_txt_1, ".*private facilities.*")
+        if len(breakdown_txt)==0:
             breakdown_txt = get_string_between_2_strings(pdfp_obj.pages[1].extract_text(), "^", heading_txt_2)
             district_pg=1
-            
         if len(breakdown_txt)==0:
-            breakdown_txt = get_string_between_2_strings(first_page_txt, "^", ".*private facilities.*")            
+            breakdown_txt = get_string_between_2_strings(first_page_txt, "^", ".*private facilities.*")
+
         str_list = list(filter(lambda x: False if x == ' ' else True, breakdown_txt.splitlines()))
         str_body = "".join(str_list)
         sentences = str_body.split('.')
@@ -87,7 +93,11 @@ def extract_data(file_path):
         #tmp_dict = dict(zip(['hospitalised'], get_nums(sentences[2])))
         #_gp_covid_stats.update(tmp_dict)
         m=re.search(r".*total number of (\d+) people are currently.*hospi",breakdown_txt,re.S)
-        _gp_covid_stats['hospitalised']=m.group(1)
+        if not m:
+            m=re.search(r".*total number of (\d) (\d+) people are currently.*hospi",breakdown_txt,re.S)
+            _gp_covid_stats['hospitalised']=m.group(1)+m.group(2)            
+        else:    
+            _gp_covid_stats['hospitalised']=m.group(1)
 
         
         return district_pg, _gp_covid_stats
