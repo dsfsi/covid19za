@@ -1,11 +1,12 @@
 pymc3
 pandas
-jupyterlab
 numpy
-scipy
+scipy==1.6.2
 mkl
 conda-build
-mkl-service
+#requests
+#mkl-service
 boto3
 paramiko
 s3fs
+xarray==0.16.0

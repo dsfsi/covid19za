@@ -22,6 +22,9 @@ The sources below are for [this data file](https://github.com/dsfsi/covid19za/bl
 * The testing sites in JHB (clinic names and other other details ) are from [COVID-19 Corona Virus
 South African Resource Portal](https://sacoronavirus.co.za/2020/04/03/johannesburg-covid-19-testing-centres/)
 
+### Vaccination sites
+* The names of the vaccination sites (public and private) across South Africa are from [active vaccination sites (COVID-19 South African Resource Portal )](https://sacoronavirus.co.za/active-vaccination-sites/)
+
 ### Hospital information and Data Sources with descriptions
 
 * For detailed information about hospital data, please see [README_hospital_data.md](README_hospital_data.md) 
