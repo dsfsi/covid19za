@@ -488,3 +488,4 @@ date,YYYYMMDD,cumulative_tests,cumulative_tests_private,cumulative_tests_public,
 05-07-2021,20210705,13489570,7607736,5881834,,,,,,,,,,,gis_nicd_scraper
 06-07-2021,20210706,13548841,7635118,5913723,1845038,,,,62628,,,,,,gis_nicd_scraper
 07-07-2021,20210707,13619638,7676720,5942918,1853804,,,,63039,,,,,,gis_nicd_scraper
+08-07-2021,20210708,13694914,7717341,5977573,,,,,,,,,,,gis_nicd_scraper
