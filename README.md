@@ -57,7 +57,7 @@ Please note that these reports are the daily reports as released by the National
 * Google Data Studio Dashboard [URL link](https://dsfsi.github.io/covid19za-dash/)
 
 ## Data Sources:
-* NICD - South Africa [URL](http://www.nicd.ac.za/media/alerts/)
+* NICD - South Africa [URL](https://www.nicd.ac.za/media/alerts/)
 * Department of Health - South Africa [Main Site](http://www.health.gov.za/), [Twitter](https://twitter.com/HealthZA/)
 * South African Government Media Statements [URL](https://www.gov.za/media-statements)
 * National Department of Health Data Dictionary [URL](https://dd.dhmis.org/)
