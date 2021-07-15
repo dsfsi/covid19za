@@ -1,0 +1,33 @@
+name: Scrape provincial vaccinations data from sacoronavirus.co.za
+
+on:
+  schedule:
+    - cron: '0 5 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python 3.x
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.6' 
+      - name: Install pandas
+        run: pip install pandas 
+      - name: Install requests
+        run: pip install requests 
+      - name: Scrape data 
+        run: cd scripts/;python sacoronavirus_provincial_vaccine.py
+      - name: Commit changes
+        run: |
+          git config --local user.name github-actions
+          git config --local user.email "action@github.com"
+          git add data/covid19za_provincial_cumulative_timeline_vaccination.csv
+          if [[ "$(git status --porcelain)" != "" ]]; then
+              git commit -m "Update Provincial Vaccinations Data" -a
+              git push origin provincial_vaccine_data
+          fi
+        env:
+          REPO_KEY: ${{secrets.GITHUB_TOKEN}}
+          username: github-actions
