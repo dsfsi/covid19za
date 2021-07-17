@@ -191,12 +191,17 @@ def extract_data(file_path):
             the_crop= cropped_page.extract_tables(table_settings)
         if the_crop in [[], None]: return []
         extracted_raw_list = the_crop[0]
-        print(extracted_raw_list)
         extracted_raw_list = list(filter(lambda y:y[-1]!=None or y[0]=="Ekurhuleni North 2",extracted_raw_list))
         res = []
         left_over=""
+        prev_place=""
         for elt in extracted_raw_list:
+             if elt == [None, '', '']: continue
              cases=elt[1].split("\n")
+             if len(prev_place) > 0 and elt[0]==None:
+                 elt[0]=prev_place
+                 print("%"*5,elt)
+                 prev_place=""
              elt[0]=left_over+elt[0]
              if "Sub-District" not in elt[0] and len(cases)>1:
                  places=elt[0].split("\n")
@@ -209,7 +214,12 @@ def extract_data(file_path):
                  else:
                      left_over=""
              else:
-                 res.append(elt)
+                 print("-",elt,"<",len(elt[1]))
+                 if "Sub-District" not in elt[0] and len(elt[1])==0:
+                     print("--")
+                     prev_place=elt[0]
+                 else:
+                     res.append(elt)
                  left_over=""
         return res
 
@@ -262,7 +272,6 @@ def extract_data(file_path):
             'Sedibeng': sed_dict,
             'West Rand': wr_dict
         }
-        print(district_map)
         return district_map
 
     
