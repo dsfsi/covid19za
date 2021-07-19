@@ -1,0 +1,27 @@
+{
+    "Condition": {
+        "In": {
+            "Expressions": [
+                {
+                    "Column": {
+                        "Expression": {
+                            "SourceRef": {
+                                "Source": "e1"
+                            }
+                        },
+                        "Property": "province"
+                    }
+                }
+            ],
+            "Values": [
+                [
+                    {
+                        "Literal": {
+                            "Value": ""
+                        }
+                    }
+                ]
+            ]
+        }
+    }
+}
