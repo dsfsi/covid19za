@@ -11,7 +11,7 @@
                                 "From": [
                                     {
                                         "Name": "e1",
-                                        "Entity": "rtc za_covid19_vaccinations_summary_province_p_v1_vw_vw_vw",
+                                        "Entity": "rtc za_covid19_vaccinations_summary_province_p_v2_vw_vw",
                                         "Type": 0
                                     }
                                 ],
@@ -25,7 +25,7 @@
                                             },
                                             "Property": "visit_date"
                                         },
-                                        "Name": "evds za_covid19_vaccinations_summary_province_v3_vw_vw.visit_date.Variation.Date Hierarchy.Year"
+                                        "Name": "rtc za_covid19_vaccinations_summary_province_p_v2_vw_vw.visit_date"
                                     },
                                     {
                                         "Measure": {
@@ -36,7 +36,7 @@
                                             },
                                             "Property": "Cumulative Vaccinations"
                                         },
-                                        "Name": "tc za_covid19_vaccinations_summary_province_p_v1_vw_vw_vw.Cumulative Vaccinations"
+                                        "Name": "tc za_covid19_vaccinations_summary_province_p_v2_vw_vw_vw.Cumulative Vaccinations"
                                     }
                                 ],
                                 
