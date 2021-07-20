@@ -26,7 +26,7 @@ jobs:
           git add data/covid19za_provincial_cumulative_timeline_vaccination.csv
           if [[ "$(git status --porcelain)" != "" ]]; then
               git commit -m "Update Provincial Vaccinations Data" -a
-              git push origin provincial_vaccine_data
+              git push origin master
           fi
         env:
           REPO_KEY: ${{secrets.GITHUB_TOKEN}}
