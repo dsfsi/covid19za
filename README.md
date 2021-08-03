@@ -23,6 +23,8 @@ Code [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](http
 
 ## Data Available [[/data](/data)]
 
+Please note that these reports are the daily reports as released by the National Department of Health or the NICD. The new cases reported are based on new positive test reports released. However, there may be significant lag from when the patient was tested. As an example in epidemiological Week 1 of 2021 (3-9 Jan) approximately 33k new cases were reported on the daily announcement. However, the NICD Testing Summary Report for Week 3 of 2021 (which also reports the two previous weeks) shows that the number of positive tests was 43635 for Week 1 of 2021. The difference is due to the lag in testing being done -- some of the 33k cases reported on the daily announcments were actually from prior weeks while a large number of people were tested between 3-9 January, but the cases were only reported from the 10th onwards. Care needs to be taken in doing some analyses to take this into account. 
+
 ### Active
 | dataset         | url | raw_url[file] |
 |-----------------|-----|---------------|
@@ -30,6 +32,7 @@ Code [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](http
 | provincial_cumulative_timeline_recoveries|  [provincial_cumulative_timeline_recoveries](/data/covid19za_provincial_cumulative_timeline_recoveries.csv)   |       [provincial_cumulative_timeline_recoveries.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_provincial_cumulative_timeline_recoveries.csv)         |
 | provincial_cumulative_timeline_testing|  [provincial_cumulative_timeline_testing](/data/covid19za_provincial_cumulative_timeline_testing.csv)   |       [provincial_cumulative_timeline_testing.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_provincial_cumulative_timeline_testing.csv)         |
 | provincial_cumulative_timeline_deaths|  [provincial_cumulative_timeline_deaths](/data/covid19za_provincial_cumulative_timeline_deaths.csv)   |       [provincial_cumulative_timeline_deaths.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_provincial_cumulative_timeline_deaths.csv)         |
+| vaccination |  [covid19za_timeline_vaccination](/data/covid19za_timeline_vaccination.csv)   |       [covid19za_timeline_vaccination.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_timeline_vaccination.csv)         |
 | death_statistics |  [covid19za_timeline_death_statistics](/data/covid19za_timeline_death_statistics.csv)   |       [covid19za_timeline_death_statistics.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_timeline_deaths.csv)         |
 | transmission_type |  [covid19za_timeline_transmission_type](/data/covid19za_timeline_transmission_type.csv)   |       [covid19za_timeline_transmission_type.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_timeline_transmission_type.csv)         |
 | testing |  [covid19za_timeline_testing](/data/covid19za_timeline_testing.csv)   |       [covid19za_timeline_testing.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_timeline_testing.csv)         |
@@ -40,20 +43,21 @@ Code [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](http
 |   nicd_daily_national_report |  [nicd_daily_national_report](/data/nicd_daily_national_report.csv)   |         [nicd_daily_national_report.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/nicd_daily_national_report.csv)       |
 |   nicd_hospital_surveillance_data |  [nicd_hospital_surveillance_data](/data/nicd_hospital_surveillance_data.csv)   |         [nicd_hospital_surveillance_data.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/nicd_hospital_surveillance_data.csv)       |
 |   samrc_excess_deaths_province |  [samrc_excess_deaths_province](/data/samrc_excess_deaths_province.csv)   |         [samrc_excess_deaths_province.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/samrc_excess_deaths_province.csv)       |
+|   Apple, Google, Facebook Mobility Data |  [mobility](/data/mobility)   |              |
 ### Deprecated
-**NOTE:** Since around 24 March, we have not gotten individual case data from DoH or NICD. For now if you need provincial counts use the *provincial_cumulative_timeline*. For individual cases up to 25 March, use the *confirmed_cases*.
+**NOTE:** Since around 24 March 2020, we have not gotten individual case data from DoH or NICD. For now if you need provincial counts use the *provincial_cumulative_timeline*. For individual cases up to 25 March 2020, use the *confirmed_cases*.
 | dataset         | url | raw_url[file] |
 |-----------------|-----|---------------|
-| confirmed_cases* [updated to 25 March] |  [covid19za_timeline_confirmed](/data/covid19za_timeline_confirmed.csv)   |       [covid19za_timeline_confirmed.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_timeline_confirmed.csv)         |
+| confirmed_cases* [updated to 25 March 2020] |  [covid19za_timeline_confirmed](/data/covid19za_timeline_confirmed.csv)   |       [covid19za_timeline_confirmed.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_timeline_confirmed.csv)         |
 | deaths |  [covid19za_timeline_deaths](/data/covid19za_timeline_deaths.csv)   |       [covid19za_timeline_deaths.csv](https://raw.githubusercontent.com/dsfsi/covid19za/master/data/covid19za_timeline_deaths.csv)         |
 
-\* NICD no longer gives individual case data. Please use **provincial_cumulative_timeline** from 26 March onwards.
+\* NICD no longer gives individual case data. Please use **provincial_cumulative_timeline** from 26 March 2020 onwards.
 
 ## Dashboard
 * Google Data Studio Dashboard [URL link](https://dsfsi.github.io/covid19za-dash/)
 
 ## Data Sources:
-* NICD - South Africa [URL](http://www.nicd.ac.za/media/alerts/)
+* NICD - South Africa [URL](https://www.nicd.ac.za/media/alerts/)
 * Department of Health - South Africa [Main Site](http://www.health.gov.za/), [Twitter](https://twitter.com/HealthZA/)
 * South African Government Media Statements [URL](https://www.gov.za/media-statements)
 * National Department of Health Data Dictionary [URL](https://dd.dhmis.org/)
@@ -151,7 +155,7 @@ Some of COVID-19 Data for South Africa (data in this repo) is currently being us
 
 | Project Name  | Project Description |  Project Demo    |    Project owner |    Country   |
 | ------------- | ------------- |------------|-----------------|------------------|
-| 1. Covid-19 SA Data | Data visualizations corresponding to the current Covid-19 outbreak in South Africa |  [[Website](https://simonrosen173.github.io/Covid19SAData/)],[[GitHub Repo](https://github.com/SimonRosen173/Covid19SAData)]| [Simon Rosen](https://github.com/SimonRosen173)| South Africa |
+| 1. Covid-19 SA Data | Data visualizations corresponding to the current Covid-19 outbreak in South Africa |  [[Website](https://covid19data.co.za/)],[[GitHub Repo](https://github.com/SimonRosen173/Covid19SAData_JS)]| [Simon Rosen](https://github.com/SimonRosen173)| South Africa |
 | 2. Covid-19 testing areas| A Covid-19 Testing Facilities Map |[[Website](https://www.ineff.ch/cov19testmap/)],[[GitHub Repo](https://github.com/IneffableKoD/cov19testmap)]| [Yannick Zehnder](https://github.com/IneffableKoD/) | Switzerland |
 | 3. Covid-19 Map| A Coronavirus Map | [[Website](https://coronamap.co.za)] [[GitHub Repo](https://github.com/JayWelsh/coronamap)] | Jay Welsh | South Africa |
 | 4. Covid-19 Telegram Bot| Corona virus statistics via Telegram | [Link](https://t.me/CoronaZABot) | CodeChap | South Africa |
@@ -161,8 +165,9 @@ Some of COVID-19 Data for South Africa (data in this repo) is currently being us
 | 8. Covid-19 Tshivenda Dashboard | Tshivenda Dashboard | [Link](http://luvenda.com/covid/) | luvenda.com | South Africa |
 | 9. Map of Health facilites around me  | Map showing comparable details of hospitals around my location in response to Covid-19  | [[Webpage](https://dsfsi.github.io/healthfacilitymap/)] , [[GitHub Repo](https://github.com/dsfsi/healthfacilitymap)] | [These authors](https://dsfsi.github.io/blog/mapping-healthsystem/)  | South Africa |
 |10. R-based Interactive health facilties Map | Afrimapr, mapping health facilities using R-building blocks |[[Webpage](https://andysouth.shinyapps.io/hosp-viewer-SA-v02/)] [[Repo](https://github.com/afrimapr/afrimapr_dev/tree/master/hospitals-viewer-south-africa/hosp-viewer-SA-v02)] | [Dr Andy South](http://andysouth.co.uk/)  |  United Kingdom |
-|11. Estimating the Reproductive Number of COVID-19 | Estimating effective reproductive number for SA, it's provinces and other countries. |  [[Website](https://lrossouw.github.io/covid-19/estimating_r.html)] | [Louis Rossouw](https://github.com/lrossouw) | South Africa |
-|12. Modelling COVID-19 in South Africa at a Provincial Level | Modelling COVID-19 in South Africa at a Provincial Level using reported and excess deaths. |  [[Website](https://lrossouw.github.io/covid-19/modelling_covid-19_in_south_africa_at_a_provincial_level.html)] | [Louis Rossouw](https://github.com/lrossouw) | South Africa |
+|11. Estimating the Reproductive Number of COVID-19 | Estimating effective reproductive number for SA, it's provinces and other countries. |  [[Website](https://unsupervised.online/static/covid-19/estimating_r_za.html)] | [Louis Rossouw](https://github.com/lrossouw) | South Africa |
+|12. Modelling COVID-19 in South Africa at a Provincial Level | Modelling COVID-19 in South Africa at a Provincial Level using reported and excess deaths. |  [[Website](https://unsupervised.online/static/covid-19/modelling_covid-19_in_south_africa_at_a_provincial_level.html)] | [Louis Rossouw](https://github.com/lrossouw) | South Africa |
+|13. South African Provincial COVID-19 Visualization | Visualize deaths, cases and recoveries alongside mobility data on a provincial level. Additionally, visualize cahnge of cases over a weekly basis. |  [[Website](http://3.140.191.119:8050/)] | [Christopher Marais](https://github.com/ChristopherMarais/Panthera_interview_gcm) | South Africa |
 
 
 ## Support 

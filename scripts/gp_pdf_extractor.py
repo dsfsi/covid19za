@@ -47,10 +47,17 @@ def extract_data(file_path):
             breakdown_txt = get_string_between_2_strings(pdfp_obj.pages[1].extract_text(), heading_txt_1, heading_txt_2)
             district_pg=1
         if len(breakdown_txt)==0:
+            m=re.search(heading_txt_1+"(.*)facilities",first_page_txt,re.DOTALL |re.M)
+            if m:
+                breakdown_txt=m.group(1)
+        if len(breakdown_txt)==0:
+            breakdown_txt = get_string_between_2_strings(first_page_txt,heading_txt_1, ".*private facilities.*")
+        if len(breakdown_txt)==0:
             breakdown_txt = get_string_between_2_strings(pdfp_obj.pages[1].extract_text(), "^", heading_txt_2)
             district_pg=1
-        
-            
+        if len(breakdown_txt)==0:
+            breakdown_txt = get_string_between_2_strings(first_page_txt, "^", ".*private facilities.*")
+
         str_list = list(filter(lambda x: False if x == ' ' else True, breakdown_txt.splitlines()))
         str_body = "".join(str_list)
         sentences = str_body.split('.')
@@ -65,15 +72,15 @@ def extract_data(file_path):
             num_list = [int(x[0] + x[1].replace(' ', '')) for x in num_tuples]
             return num_list
 
+
         date_txt = re.sub("\n"," ",get_string_between_2_strings(pdfp_obj.pages[0].extract_text(), heading_txt_1, "$"))
         
-        print("@"*20,date_txt)
         sentences = "".join(date_txt).split(".")
 
 
         _gp_covid_stats = {"date": find_date(date_txt)}        
 
-
+      
         # First Sentence
         tmp_dict = dict(zip(['cases', 'recoveries', 'deaths'], get_nums(sentences[0])[2:]))
         _gp_covid_stats.update(tmp_dict)
@@ -83,9 +90,16 @@ def extract_data(file_path):
         _gp_covid_stats.update(tmp_dict)
 
         # Third Sentence
-        tmp_dict = dict(zip(['hospitalised'], get_nums(sentences[2])))
-        _gp_covid_stats.update(tmp_dict)
+        #tmp_dict = dict(zip(['hospitalised'], get_nums(sentences[2])))
+        #_gp_covid_stats.update(tmp_dict)
+        m=re.search(r".*total number of (\d+) people are currently.*hospi",breakdown_txt,re.S)
+        if not m:
+            m=re.search(r".*total number of (\d) (\d+) people are currently.*hospi",breakdown_txt,re.S)
+            _gp_covid_stats['hospitalised']=m.group(1)+m.group(2)            
+        else:    
+            _gp_covid_stats['hospitalised']=m.group(1)
 
+        
         return district_pg, _gp_covid_stats
 
 
@@ -94,18 +108,13 @@ def extract_data(file_path):
     # DISTRICT BREAKDOWN
     def get_district_data():
         district_table_list = pdfp_obj.pages[district_pg].extract_tables()[0]
-        print(type(district_table_list))
         dl = []
         for i, row in enumerate(district_table_list):
-            print(i,row)
             dl.append(list(filter(lambda x: x != None and len(x) !=0, row)))
         dl[-2]=dl[-2]+[0,0,0]
-        print(dl)
         all_list = [[x[i] for x in dl] for i in range(0, len(dl[0]))]
-        print(all_list,"*DISTRICT_DATA****")
         gp_breakdown_dict = {curr_list[0]: curr_list[1:] for curr_list in all_list}
         gp_breakdown_df = pd.DataFrame.from_dict(gp_breakdown_dict)
-        print(gp_breakdown_df)
         gp_breakdown_df.fillna(0, inplace=True)
         gp_breakdown_df.set_index("DISTRICT", inplace=True)
         gp_breakdown_df.rename(inplace=True, columns={gp_breakdown_df.columns[0]: "CASES",
@@ -125,24 +134,36 @@ def extract_data(file_path):
         bounding_box = (300, 0, currPage.width, currPage.height)
         cropped_page = currPage.crop(bounding_box)
         # table_settings = {"vertical_strategy": "text"}
-        table_settings = {"snap_tolerance": 10, "join_tolerance": 15}
+        table_settings = {"vertical_strategy":"lines_strict", "horizontal_strategy":"lines_strict", "snap_tolerance": 10, "join_tolerance": 15}
         extracted_raw_list = cropped_page.extract_tables(table_settings)[0]
-        return extracted_raw_list
+        return list(filter(lambda x:x[-1] == '12628', extracted_raw_list))
 
-    def get_sub_districts_data(raw_list):
+    def get_sub_districts_data(rl):
+        if rl == []: return []
         sub_districts_list = []
         curr_sub_district = []
         prev_sub_district = []
+        raw_list=[rl[0]]
+        i=1
+        while i<len(rl):
+            (curr_name,cases,recs)=rl[i]
+            if cases in ['',None] or recs in['',None]:
+                i=i+1
+                if not cases: cases=rl[i][1]
+                if not recs: recs=rl[i][2]
+            raw_list.append((curr_name,cases,recs))
+            i=i+1
+            while i<len(rl) and (rl[i][0]==None or not re.search("City|Ekurhuleni|Unallocated|Lesedi|Emfuleni|Midvaal|Mogale|Rand West|Merafong",rl[i][0])):
+                i=i+1
         for i in range(1, len(raw_list)):
             curr_list = raw_list[i]
             if curr_sub_district == [] or not (curr_list[0] == None or curr_list[0] == ''):
-                #             print(prev_sub_district)
                 if prev_sub_district != []:
                     sub_districts_list.append(curr_sub_district)
 
                 curr_sub_district = curr_list
                 prev_sub_district = curr_sub_district
-            #             print(curr_sub_district)
+
 
             if (curr_sub_district[1] == '' and curr_list[1] != '' and curr_list[1] != None):
                 curr_sub_district[1] = curr_list[1]
@@ -155,8 +176,7 @@ def extract_data(file_path):
 
         # Check if first item of list is valid e.g. total and/or recoveries has values
         prev_sub_district = sub_districts_list[0]
-        if (prev_sub_district[1] == '' or prev_sub_district[1] == None) and (prev_sub_district[2] == '' or \
-                                                                             prev_sub_district[2] == None):
+        if (prev_sub_district[1] == '' or prev_sub_district[1] == None) and (prev_sub_district[2] == '' or       prev_sub_district[2] == None):
             sub_districts_list.pop(0)
         return sub_districts_list
 
@@ -166,8 +186,42 @@ def extract_data(file_path):
         cropped_page = currPage.crop(bounding_box)
         # table_settings = {"vertical_strategy": "text"}
         table_settings = {"snap_tolerance": 10, "join_tolerance": 15}
-        extracted_raw_list = cropped_page.extract_tables(table_settings)[0]
-        return extracted_raw_list
+        the_crop = cropped_page.extract_tables(table_settings)
+        if the_crop in [[], None]:
+            the_crop= cropped_page.extract_tables(table_settings)
+        if the_crop in [[], None]: return []
+        extracted_raw_list = the_crop[0]
+        extracted_raw_list = list(filter(lambda y:y[-1]!=None or y[0]=="Ekurhuleni North 2",extracted_raw_list))
+        res = []
+        left_over=""
+        prev_place=""
+        for elt in extracted_raw_list:
+             if elt == [None, '', '']: continue
+             cases=elt[1].split("\n")
+             if len(prev_place) > 0 and elt[0]==None:
+                 elt[0]=prev_place
+                 print("%"*5,elt)
+                 prev_place=""
+             elt[0]=left_over+elt[0]
+             if "Sub-District" not in elt[0] and len(cases)>1:
+                 places=elt[0].split("\n")
+                 recs=elt[2].split("\n")
+                 print(places,cases)
+                 for i in range(len(cases)):
+                     res.append([places[i].strip(),cases[i],recs[i]])
+                 if len(cases)<len(places):
+                     left_over=places[-1]+"\n"
+                 else:
+                     left_over=""
+             else:
+                 print("-",elt,"<",len(elt[1]))
+                 if "Sub-District" not in elt[0] and len(elt[1])==0:
+                     print("--")
+                     prev_place=elt[0]
+                 else:
+                     res.append(elt)
+                 left_over=""
+        return res
 
     def get_all_sub_districts(page_start, page_end):
         all_sub_districts = []
@@ -184,9 +238,6 @@ def extract_data(file_path):
 
         return all_sub_districts
 
-    all_sub_dists = get_all_sub_districts(district_pg+1, district_pg+4)
-
-    pdfp_obj.close()
 
     def get_district_map():
         # Johannesburg
@@ -197,16 +248,20 @@ def extract_data(file_path):
         tsh_keys.append('Unallocated')
         tsh_dict = dict(zip(tsh_keys, [[x[1], x[2]] for x in all_sub_dists[8:16]]))
 
+        
         # Ekurhuleni
         eku_keys = "e1 e2 n1 n2 s1 s2 Unallocated".split(" ")
         eku_dict = dict(zip(eku_keys, [[x[1], x[2]] for x in all_sub_dists[16:23]]))
 
+
+        
+
         # Sedibeng
-        sed_keys = "Lesedi Emfuleni Midvaal Unallocated".split(" ")
+        sed_keys = "Emfuleni Lesedi Midvaal Unallocated".split(" ")
         sed_dict = dict(zip(sed_keys, [[x[1], x[2]] for x in all_sub_dists[23:27]]))
 
         # West Rand
-        wr_keys = "Mogale Rand_West Merafong Unallocated".split(" ")
+        wr_keys = "Merafong Mogale Rand_West Unallocated".split(" ")
         wr_dict = dict(zip(wr_keys, [[x[1], x[2]] for x in all_sub_dists[27:31]]))
 
         # All Districts
@@ -219,9 +274,15 @@ def extract_data(file_path):
         }
         return district_map
 
-    print("&"*10,"Get_district_mp")
+    
+    all_sub_dists = get_all_sub_districts(district_pg+1, district_pg+4)
+
+
+
+    pdfp_obj.close()
+
+
     district_map = get_district_map()
-    print(gp_covid_stats)
 
     # DATE
     curr_date = datetime.strptime(gp_covid_stats['date'], '%d %B %Y')
@@ -265,6 +326,7 @@ def extract_data(file_path):
         gp_district_df.loc['Tshwane']['DEATHS'],
         gp_district_df.loc['Sedibeng']['DEATHS'],
         gp_district_df.loc['West Rand']['DEATHS'],
+        gp_district_df.loc['Unallocated']['DEATHS'],        
         
         gp_district_df.loc['Johannesburg']['RECOVERIES'],
         gp_district_df.loc['Ekurhuleni']['RECOVERIES'],
@@ -287,9 +349,10 @@ def extract_data(file_path):
         ['Check']+\
         [district_map['Sedibeng'][x][0] for x in ['Lesedi','Emfuleni','Midvaal','Unallocated']]+\
         ['Check']+\
-        [district_map['Sedibeng'][x][1] for x in ['Lesedi','Emfuleni','Midvaal','Unallocated']]+\
+        [district_map['Sedibeng'][x][1] for x in ['Lesedi','Emfuleni','Midvaal']]+\
         ['Check']+\
         [district_map['West Rand'][x][0] for x in wr_districts]+\
+        ['Check']+\
         [district_map['West Rand'][x][1] for x in wr_districts]+\
         ['Check']
 
@@ -303,4 +366,10 @@ def extract_data(file_path):
 
 
 if __name__ == "__main__":
-    print(extract_data(sys.argv[1]))
+    g=open("/tmp/see.csv","w")
+    for fname in sys.argv[1:]:
+        print(fname)
+        g.write("%s\n"%extract_data(fname))
+    g.close()
+
+    

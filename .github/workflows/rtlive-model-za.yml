@@ -14,39 +14,50 @@ jobs:
   run:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+      - uses: actions/checkout@v2
 
-    - name: Setup Python
-      uses: actions/setup-python@v1
-      with:
-        python-version: '3.6'
+      - name: Setup Python
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.8'
 
-    - name: Setup Python Dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r notebooks/covid-model/requirements.txt 
+      - name: Setup Python Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r notebooks/covid-model/requirements.txt
+          sudo apt install build-essential
 
-    - name: Run Python Script
-      run: |
-        cd notebooks/covid-model
-        python rtlive-model-za.py
+      - name: Run Python Script
+        run: |
+          cd notebooks/covid-model
+          python rtlive-model-za.py
 
-    - uses: stefanzweifel/git-auto-commit-action@v4
-      with:
-        # Required
-        commit_message: Rt model 2 action run
-        # Optional branch to push to, defaults to the current branch
-        #branch: master
-        # Optional options appended to `git-commit`
-        #commit_options: '--no-verify --signoff'
-        # Optional glob pattern of files which should be added to the commit
-        file_pattern: data/calc/*.csv
-        # Optional local file path to the repository
-        #repository: .
-        # Optional commit user and author settings
-        # Optional tag message
-        # Action will create and push a new tag to the remote repository and the defined branch
-        #tagging_message: 'v1.0.0'
-        # Optional options appended to `git-push`
-        push_options: '--force'
-        commit_author: github-actions <action@github.com>
+#      - name: Commit changes
+#        run: |
+#          git config --local user.name github-actions
+#          git config --local user.email "action@github.com"
+#          git add data/calc/*.csv
+#          if [[ "$(git status --porcelain)" != "" ]]; then
+#              git commit -m "Rt model 2 action run" -a
+#              git push origin master
+#          fi
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          # Required
+          commit_message: Rt model 2 action run
+          # Optional branch to push to, defaults to the current branch
+          #branch: master
+          # Optional options appended to `git-commit`
+          #commit_options: '--no-verify --signoff'
+          # Optional glob pattern of files which should be added to the commit
+          file_pattern: data/calc/*.csv
+          # Optional local file path to the repository
+          #repository: .
+          # Optional commit user and author settings
+          # Optional tag message
+          # Action will create and push a new tag to the remote repository and the defined branch
+          #tagging_message: 'v1.0.0'
+          # Optional options appended to `git-push`
+#           push_options: '--force'
+          commit_author: github-actions <action@github.com>
