@@ -150,6 +150,9 @@ and Dataset
 
 ## Showcase
 
+
+### Web Projects
+
 Some of COVID-19 Data for South Africa (data in this repo) is currently being used by other independent projects shown in the table below :
 
 
@@ -169,6 +172,9 @@ Some of COVID-19 Data for South Africa (data in this repo) is currently being us
 |12. Modelling COVID-19 in South Africa at a Provincial Level | Modelling COVID-19 in South Africa at a Provincial Level using reported and excess deaths. |  [[Website](https://unsupervised.online/static/covid-19/modelling_covid-19_in_south_africa_at_a_provincial_level.html)] | [Louis Rossouw](https://github.com/lrossouw) | South Africa |
 |13. South African Provincial COVID-19 Visualization | Visualize deaths, cases and recoveries alongside mobility data on a provincial level. Additionally, visualize cahnge of cases over a weekly basis. |  [[Website](http://3.140.191.119:8050/)] | [Christopher Marais](https://github.com/ChristopherMarais/Panthera_interview_gcm) | South Africa |
 
+### Scholarly Work
+
+See [Google Scholar](https://scholar.google.com/scholar?cites=16177923666716456587&as_sdt=2005&sciodt=0,5&hl=en)
 
 ## Support 
 
