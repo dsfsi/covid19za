@@ -22,11 +22,6 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@master
-# No need for this very length step, as R 4.1.0 is already installed on the base image.
-#      - name: Set up R
-#        uses: r-lib/actions/setup-r@v1
-#        with:
-#          r-version: '3.5.3'   # we don't need the latest R;  older versions are smaller and quicker to install.
       - name: OS dependencies
         run: |
           # remove mongo - otherwise the config below fails
