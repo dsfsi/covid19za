@@ -1,10 +1,13 @@
 name: Scrape provincial data from sacoronavirus.co.za and/or nicd.ac.za
 # The NICD data is release typically between 18:00 and 20:00.  Run this every 5 mins between those times   
 # Adjusted to GMT+0 times
-# This runner takes some time to setup, because R is not installed by default
+# This runner takes some time to setup, if we need to install R first.  
 
 # test this locally by using the "act" tool:  https://github.com/nektos/act
+# need to download the "full" version of the image, as R is not installed in the medium image.
+# docker pull catthehacker/ubuntu:full-20.04
 # act -j dailystats_scrape
+# check the ~/.actrc file for mappings between ubuntu-20.04 and the full or medium images....
 
 on:
   schedule:
@@ -12,7 +15,7 @@ on:
 
 jobs:
   dailystats_scrape:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@master
       - name: Set up R
