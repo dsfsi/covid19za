@@ -23,8 +23,6 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@master
-        with:
-          ref: 'master'   # put the data in the master branch always...
       - name: OS dependencies
         run: |
           # remove mongo - otherwise the config below fails
