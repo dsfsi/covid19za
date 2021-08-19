@@ -43,12 +43,8 @@ jobs:
         shell: sudo Rscript {0}
       - name: Scrape data 
         run: Rscript --vanilla 'scripts/daily_prov_scraper.R'
-      - name: Commit and push changes
-        run: |
-          if [[ "$(git status --porcelain)" != "" ]]; then
-              git commit -m "Automated update of provincial data" -a
-              git push origin master
-          fi
+      - name: Push changes
+        run: git push origin master
         env:
           REPO_KEY: ${{secrets.GITHUB_TOKEN}}
           username: github-actions
