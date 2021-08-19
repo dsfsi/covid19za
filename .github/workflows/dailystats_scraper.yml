@@ -44,10 +44,10 @@ jobs:
       - name: Scrape data 
         run: Rscript --vanilla 'scripts/daily_prov_scraper.R'
       - name: Push changes
-        run: git push origin master
+        run: git push origin ${{ github.ref }}
         env:
           REPO_KEY: ${{secrets.GITHUB_TOKEN}}
-          username: github-actions
+          username: krokkie
       - name: Send mail if the job has failed....
         if: ${{ failure() }}
         uses: dawidd6/action-send-mail@v2
