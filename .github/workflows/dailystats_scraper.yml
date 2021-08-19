@@ -1,0 +1,69 @@
+name: Scrape provincial data from sacoronavirus.co.za and/or nicd.ac.za
+# The NICD data is release typically between 18:00 and 20:00.  Run this every 5 mins between those times   
+# Adjusted to GMT+0 times
+# This runner takes some time to setup, if we need to install R first.  
+
+# test this locally by using the "act" tool:  https://github.com/nektos/act
+# need to download the "full" version of the image, as R is not installed in the medium image.
+# docker pull catthehacker/ubuntu:full-20.04
+# act -j dailystats_scrape
+# check the ~/.actrc file for mappings between ubuntu-20.04 and the full or medium images....
+
+# regular schedule - over 10 mins, or also when the script changes
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '2/10 16-18 * * *'
+  push:
+    branches:
+      - dev-webscrape  
+
+jobs:
+  dailystats_scrape:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@master
+      - name: OS dependencies
+        run: |
+          # remove mongo - otherwise the config below fails
+          sudo apt-get remove mongodb-org-server -y
+          # some of the R packages below has issues automatically installing, and requires this explicitly
+          sudo apt-get -o Acquire::Check-Valid-Until=false -o Acquire::Check-Date=false update || echo "Done"
+          # for package level CRAN, we need this repo added
+          sudo add-apt-repository ppa:c2d4u.team/c2d4u4.0+ -y || echo "Done"
+          # some of the R packages below has issues automatically installing, and requires this explicitly
+          sudo apt-get install libcurl4-openssl-dev libmagick++-dev libpoppler-cpp-dev libtesseract-dev tesseract-ocr-eng -y --fix-missing
+          # now install the R-cran based binary repos
+          sudo apt-get install r-cran-httr r-cran-xml2 r-cran-xml r-cran-data.table r-cran-git2r r-cran-magrittr r-cran-rcpp r-cran-magick r-cran-qpdf r-cran-pdftools r-cran-rappdirs -y --fix-missing
+      - name: Install dependencies via Rscript not available via deb packages
+        run: |
+          install.packages(c("tesseract"), repos="https://cran.r-project.org/")
+# We need the sudo here, as the library directory is otherwise not writable
+# these packages are not available via the apt-get installation method....
+        shell: sudo Rscript {0}
+      - name: Scrape data 
+        run: Rscript --vanilla 'scripts/daily_prov_scraper.R'
+      - name: Push changes
+        run: git push origin ${{ github.ref }}
+        env:
+          REPO_KEY: ${{secrets.GITHUB_TOKEN}}
+          username: krokkie
+      - name: Send mail if the job has failed....
+        if: ${{ failure() }}
+        uses: dawidd6/action-send-mail@v2
+        # simplify - replace this with a regular sendmail command
+        with:
+          # mail server settings
+          server_address: smtp.gmail.com
+          server_port: 465
+          # user credentials
+          username: ${{ secrets.EMAIL_USERNAME }}
+          password: ${{ secrets.EMAIL_PASSWORD }}
+          # email subject
+          subject: ${{ github.job }} job of ${{ github.repository }} has ${{ job.status }}
+          # email body as text
+          body: ${{ github.job }} job in worflow ${{ github.workflow }} of ${{ github.repository }} has ${{ job.status }}
+          # comma-separated string, send email to
+          to: covid-fail.san@rd.co.za
+          # from email name
+          from: AutomatedGithubActionJob
