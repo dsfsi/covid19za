@@ -9,9 +9,13 @@ name: Scrape provincial data from sacoronavirus.co.za and/or nicd.ac.za
 # act -j dailystats_scrape
 # check the ~/.actrc file for mappings between ubuntu-20.04 and the full or medium images....
 
+# regular schedule - over 10 mins, or also when the script changes
 on:
   schedule:
-    - cron: '*/5 16-18 * * *'
+    - cron: '*/10 16-18 * * *'
+  push:
+    branches:
+      - dev-webscrape  
 
 jobs:
   dailystats_scrape:
@@ -49,10 +53,28 @@ jobs:
       - name: Commit and push changes
         run: |
           if [[ "$(git status --porcelain)" != "" ]]; then
-              git commit -m "Update Provincial Vaccinations Data" -a
+              git commit -m "Automated update of provincial data" -a
               git push origin master
           fi
         env:
           REPO_KEY: ${{secrets.GITHUB_TOKEN}}
           username: github-actions
-
+      - name: Send mail if the job has failed....
+        if: ${{ failure() }}
+        uses: dawidd6/action-send-mail@v2
+        # simplify - replace this with a regular sendmail command
+        with:
+          # mail server settings
+          server_address: smtp.gmail.com
+          server_port: 465
+          # user credentials
+          username: ${{ secrets.EMAIL_USERNAME }}
+          password: ${{ secrets.EMAIL_PASSWORD }}
+          # email subject
+          subject: ${{ github.job }} job of ${{ github.repository }} has ${{ job.status }}
+          # email body as text
+          body: ${{ github.job }} job in worflow ${{ github.workflow }} of ${{ github.repository }} has ${{ job.status }}
+          # comma-separated string, send email to
+          to: covid-fail.san@rd.co.za
+          # from email name
+          from: AutomatedGithubActionJob
