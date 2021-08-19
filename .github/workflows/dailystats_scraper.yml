@@ -24,6 +24,16 @@ jobs:
 #        with:
 #          r-version: '3.5.3'   # we don't need the latest R;  older versions are smaller and quicker to install.
       - name: OS dependencies
+        run: |
+          # remove mongo - otherwise the config below fails
+          sudo apt-get remove mongodb-org-server -y
+          sudo apt-get update -qq && exit 0
+          sudo apt-get install --no-install-recommends software-properties-common dirmngr
+          sudo wget -qO- https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc | sudo tee -a /etc/apt/trusted.gpg.d/cran_ubuntu_key.asc
+          # add the R 4.0 repo from CRAN -- adjust 'focal' to 'groovy' or 'bionic' as needed
+          sudo add-apt-repository "deb https://cloud.r-project.org/bin/linux/ubuntu focal-cran40/"          
+          sudo apt-get install libcurl4-openssl-dev libmagick++-dev libpoppler-cpp-dev -y --fix-missing
+          sudo apt-get install r-cran-httr r-cran-xml2 r-cran-xml r-cran-data.table r-cran-git2r r-cran-magick r-cran-magrittr  -y --fix-missing
       - name: Install dependencies
         run: |
           install.packages(c("git2r", "magrittr"), repos="https://cran.r-project.org/")
