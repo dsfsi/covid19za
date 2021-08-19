@@ -31,7 +31,6 @@ jobs:
           # for package level CRAN, we need this repo added
           sudo add-apt-repository ppa:c2d4u.team/c2d4u4.0+ -y || echo "Done"
           # some of the R packages below has issues automatically installing, and requires this explicitly
-          sudo apt-get update && exit 0
           sudo apt-get install libcurl4-openssl-dev libmagick++-dev libpoppler-cpp-dev libtesseract-dev -y --fix-missing
           # now install the R-cran based binary repos
           sudo apt-get install r-cran-httr r-cran-xml2 r-cran-xml r-cran-data.table r-cran-git2r r-cran-magrittr r-cran-rcpp r-cran-magick r-cran-qpdf r-cran-pdftools r-cran-rappdirs -y --fix-missing
