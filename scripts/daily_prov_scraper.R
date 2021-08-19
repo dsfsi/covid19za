@@ -1,6 +1,7 @@
 # Author: gerh@rd.co.za
 # Script that scrapes the sacoronavirus.co.za website
 # https://sacoronavirus.co.za/covid-19-daily-cases/
+library(magrittr)
 
 # on the gitlab runner, the working folder is /home/runner/work/covid19za/covid19za
 # print(getwd())
