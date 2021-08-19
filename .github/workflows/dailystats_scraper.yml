@@ -28,7 +28,6 @@ jobs:
           sudo apt-get remove mongodb-org-server -y
           # some of the R packages below has issues automatically installing, and requires this explicitly
           sudo apt-get -o Acquire::Check-Valid-Until=false -o Acquire::Check-Date=false update && exit 0
-          sudo apt-get install libcurl4-openssl-dev libmagick++-dev libpoppler-cpp-dev -y --fix-missing
           # for package level CRAN, we need this repo added
           sudo add-apt-repository ppa:c2d4u.team/c2d4u4.0+ -y || echo "Done"
           # some of the R packages below has issues automatically installing, and requires this explicitly
