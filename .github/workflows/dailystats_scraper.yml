@@ -27,17 +27,23 @@ jobs:
         run: |
           # remove mongo - otherwise the config below fails
           sudo apt-get remove mongodb-org-server -y
-          sudo apt-get update -qq && exit 0
-          sudo apt-get install --no-install-recommends software-properties-common dirmngr
-          sudo wget -qO- https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc | sudo tee -a /etc/apt/trusted.gpg.d/cran_ubuntu_key.asc
-          # add the R 4.0 repo from CRAN -- adjust 'focal' to 'groovy' or 'bionic' as needed
-          sudo add-apt-repository "deb https://cloud.r-project.org/bin/linux/ubuntu focal-cran40/"          
+          # some of the R packages below has issues automatically installing, and requires this explicitly
+          sudo apt-get -o Acquire::Check-Valid-Until=false -o Acquire::Check-Date=false update && exit 0
           sudo apt-get install libcurl4-openssl-dev libmagick++-dev libpoppler-cpp-dev -y --fix-missing
-          sudo apt-get install r-cran-httr r-cran-xml2 r-cran-xml r-cran-data.table r-cran-git2r r-cran-magick r-cran-magrittr  -y --fix-missing
-      - name: Install dependencies
+          # for package level CRAN, we need this repo added
+          sudo add-apt-repository ppa:c2d4u.team/c2d4u4.0+ -y && exit 0
+          
+          # some of the R packages below has issues automatically installing, and requires this explicitly
+          sudo apt-get update && exit 0
+          sudo apt-get install libcurl4-openssl-dev libmagick++-dev libpoppler-cpp-dev -y --fix-missing
+          # now install the R-cran based binary repos
+          sudo apt-get install r-cran-httr r-cran-xml2 r-cran-xml r-cran-data.table r-cran-git2r r-cran-magrittr r-cran-rcpp r-cran-magick r-cran-qpdf r-cran-pdftools -y --fix-missing
+      - name: Install dependencies via Rscript not available via deb packages
         run: |
-          install.packages(c("git2r", "magrittr"), repos="https://cran.r-project.org/")
-        shell: Rscript --vanilla {0}
+          install.packages(c("tesseract"), repos="https://cran.r-project.org/")
+# We need the sudo here, as the library directory is otherwise not writable
+# these packages are not available via the apt-get installation method....
+        shell: sudo Rscript {0}
       - name: Scrape data 
         run: Rscript --vanilla 'scripts/daily_prov_scraper.R'
       - name: Commit and push changes
