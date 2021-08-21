@@ -76,6 +76,7 @@ clean <- function(x) {
   x <- gsub(",", "", x)    # remove a ","
   x <- gsub("°", "", x)    # remove a "°"
   x <- gsub("§", "5", x)
+  x <- gsub("\\$", "5", x) # sometimes a 5 is OCR'ed as an $
   if (length(x)>4 ) 
     x <- tail(x, 4)
   if (! length(x) %in% c(1,4)) {
