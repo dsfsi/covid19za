@@ -1,4 +1,7 @@
+# Author: gerh@rd.co.za
+# Script that scrapes the nicd.ac.za website
 # https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-13-august-2021/
+library(magrittr)
 
 # on the gitlab runner, the working folder is /home/runner/work/covid19za/covid19za
 # print(getwd())
