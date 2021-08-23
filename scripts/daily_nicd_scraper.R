@@ -65,8 +65,13 @@ processDay <- function(x) {
   
   # col and row names
   lapply(x, function(y) { # y <- x[[1]]
+    # remove an empty line if present
+    if (paste0(y[1, ] %>% inset(is.na(.), value=""), collapse="")=="") {
+      y <- y[-1, ]
+    }    
     colnames(y) <- gsub("Ã|Â", "", make.names(y[1, ]))
     y <- y[-1, ]
+    # sometimes a double empty row at the start....
     rownames(y) <- y[, 1]
     y <- y[, -1]
   })
@@ -74,6 +79,7 @@ processDay <- function(x) {
 
 cleantbls <- lapply(tbls, processDay)
 
+# sapply(cleantbls, FUN=function(x) colnames(x$Tests))
 Tests <- sapply(cleantbls, FUN = function(x) safe.as.numeric(x$Tests[, "Total.tested"]))
 rownames(Tests) <- c("Private", "Public", "Total")
 
