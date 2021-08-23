@@ -76,6 +76,7 @@ clean <- function(x) {
   x <- gsub(",", "", x)    # remove a ","
   x <- gsub("°", "", x)    # remove a "°"
   x <- gsub("§", "5", x)
+  x <- gsub("S", "5", x)
   x <- gsub("\\$", "5", x) # sometimes a 5 is OCR'ed as an $
   if (length(x)>4 ) 
     x <- tail(x, 4)
@@ -89,24 +90,10 @@ clean <- function(x) {
     stop("String to numeric problem: ", x[faultyfield])
   } 
   if (length(n)==4) {
-    # if ((n[1]==133671)&
-    #     (n[2]==5903)&
-    #     (n[3]==115239)&
-    #     (n[4]==15529)) {
-    #   n[4] <- 12529   # faulty figure 10-Aug-2021 Freestate
-    # }
-    # 
-    # if ((n[1]==131971)&
-    #     (n[2]==1761)&
-    #     (n[3]==123463)&
-    #     (n[4]==5747)) {
-    #   n[3] <- 124463   # faulty figure 10-Aug-2021 Mpumalanga
-    # }
-    
     if (sum(n[2:4])!=n[1]) {
-      print(n)
-      print(origx)
-      stop("Checksum failed")
+      #print(n)
+      #print()
+      message("Checksum failed in OCR step.  Will attempt recover later: ", paste0(origx, collapse="  "))
     }
   }
   n
@@ -135,9 +122,51 @@ processDay <- function(img) {    # img <- imgs[1]
     #tesseract::ocr_data("temp.jpg")
     
   }
+  res <- list(Nat=sapply(blocks[NatBlocks], OCRdata),
+              Prov=sapply(blocks[!NatBlocks], OCRdata, simplify = "array"))
   
-  list(Nat=sapply(blocks[NatBlocks], OCRdata),
-       Prov=sapply(blocks[!NatBlocks], OCRdata, simplify = "array"))
+  # add some final checks, and auto-fixing intelligence
+
+  # check1: 
+  check1 <- colSums(res$Prov[2:4, ])-res$Prov[1, ]
+  check2 <- res$Nat[c(2,4,3)] - rowSums(res$Prov)[1:3]
+
+  # try to auto-recover / fix the errors
+  if (sum(check1!=0)==1 && 
+      sum(check2!=0)<=1) {
+    # there are errors on both checks, so we might be able to fix this....    
+    fixProv <- which(check1!=0)
+    if (sum(check2!=0)==0) {  # the first three variables are OK, so the error lies with ActiveCases
+      # apply the fix to the Provincial Active cases number 
+      message("Auto adjusting the Provincial data Active Cases for ", names(fixProv),": old nr: ",res$Prov[4, fixProv], ", new number: ", res$Prov[4, fixProv] - check1[fixProv])
+      res$Prov[4, fixProv] <- res$Prov[4, fixProv] - check1[fixProv] 
+    } else {
+      #one-one error: 
+      if (abs(sum(check1))==
+          abs(sum(check2))) {
+        variable <- which(check2!=0)
+        message("Two checksums failed with the same difference:  auto-fixing ", 
+                names(fixProv), " x ", names(variable), 
+                ": old nr: ",res$Prov[variable, fixProv], 
+                ", new number: ", res$Prov[variable, fixProv] + check2[variable])
+        res$Prov[variable, fixProv] <- res$Prov[variable, fixProv] + check2[variable] 
+      } else {
+        stop("Cannot autofix checksum error:  Please investigate the numbers")
+      }
+    }
+  } else {
+    if (sum(check1!=0)>0 |
+        sum(check2!=0)>0) {
+      stop("Too many errors in the checksum figures.  Please investigate manually")
+    }
+  }
+
+  check1 <- colSums(res$Prov[2:4, ])-res$Prov[1, ]
+  check2 <- res$Nat[c(2,4,3)] - rowSums(res$Prov)[1:3]
+  stopifnot(check1==0)
+  stopifnot(check2==0)
+  
+  res
 }
 
 data <- lapply(imgs, processDay)
