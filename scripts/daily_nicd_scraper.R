@@ -109,6 +109,7 @@ Prov <- lapply(cleantbls, FUN=function(x) {  # x <- cleantbls[[1]]
 
 ProvData <- t(do.call(cbind, Prov))
 
+xx <- strsplit(rownames(ProvData), split = "\\.")
 # Assumption:  data reported for a couple of days back, is more accurate than what it was reported on that day.
 d1=as.Date(sapply(xx, getElement, 1))
 d2=as.Date(sapply(xx, getElement, 2))
