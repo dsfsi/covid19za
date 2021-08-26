@@ -130,3 +130,7 @@ dmypy.json
 
 # JetBrains IDEs folders
 .idea
+
+# R project files
+.Rhistory
+covid19za.Rproj
