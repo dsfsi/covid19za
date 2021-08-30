@@ -134,3 +134,5 @@ dmypy.json
 # R project files
 .Rhistory
 covid19za.Rproj
+.Rproj.user
+.Rdata
