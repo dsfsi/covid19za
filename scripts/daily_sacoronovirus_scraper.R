@@ -58,7 +58,7 @@ blocks <- c(
   NW="150x70+394+265",
   GP="168x100+300+140",
   MP="170x100+590+260",
-  LP="170x100+550+150"
+  LP="220x100+550+150"
 )
 NatBlocks <- substr(names(blocks),1,3)=="Nat"
 
@@ -87,7 +87,8 @@ clean <- function(x) {
   
   n <- as.numeric(x)
   if (any(faultyfield <- is.na(n))) {
-    stop("String to numeric problem: ", x[faultyfield])
+    print(x)
+    stop("String to numeric problem: '", paste0(x[faultyfield], collapse="','"), "'")
   } 
   if (length(n)==4) {
     if (sum(n[2:4])!=n[1]) {
@@ -99,16 +100,15 @@ clean <- function(x) {
   n
 }
 
-processDay <- function(img) {    # img <- imgs[1]
+processDay <- function(img) {    # img <- imgs[3]
   
   image <- magick::image_read(img)
   if (FALSE) {
-    magick::image_crop(image, "100x100+290+330")
-    
+    magick::image_crop(image, "220x100+550+150")
   }
   
   OCRdata <- function(crop) {
-    # crop <- blocks[4]    
+    # crop <- blocks[14]    
     image2 <- magick::image_crop(image, crop)
     magick::image_write(image2, path = "temp.jpg", format = "jpg")
     
