@@ -313,7 +313,7 @@ cumTests <- allTestingData[allTestingData$var=="Tests", ..provdatacols]
 cumTests[] <- lapply(cumTests, cumsum)
 rownames(cumTests) <- allTestingData[allTestingData$var=="Tests", eowYYYYMMDD]
 
-tail(cumTests)   # Total cumm == 14.2 tests;   
+# tail(cumTests)   # Total cumm == 14.2 tests;   
 # According to https://sacoronavirus.co.za/2021/08/21/update-on-covid-19-saturday-21-august-2021/,
 # Total cumm tests should be 15.9 million.  
 # ignore this....
@@ -323,10 +323,8 @@ PositivityRate <- data.table::setDF(
                   allTestingData[allTestingData$var=="Positive", ..provexUnknown] / 
                   allTestingData[allTestingData$var=="Tests", ..provexUnknown]
 )
-rownames(PositivityRate) <- allTestingData[allTestingData$var=="Tests", eowYYYYMMDD] 
-# 
-
-write.csv(PositivityRate, "data/covid19za_provincial_timeline_testing_positivityrate.csv", 
-          row.names = TRUE, quote = FALSE)
+PositivityRate$YYYYMMDD <- allTestingData[allTestingData$var=="Tests", eowYYYYMMDD] 
+write.csv(PositivityRate[, c(11,1:10)], "data/covid19za_provincial_timeline_testing_positivityrate.csv", 
+          row.names = FALSE, quote = FALSE)
 
 
