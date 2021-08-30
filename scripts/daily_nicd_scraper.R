@@ -18,9 +18,11 @@ origtitle <- sapply(rss, getElement, "title") %>%
 
 pubDate <- sapply(rss, getElement, "pubDate")
 
+
 names(rss) <- origtitle %>%   # only keep that in the brackets
   as.Date.character(format = "%d %B %Y") %>%
   as.character()
+
 
 if (any(narss <- is.na(names(rss)))) {
   warning("Found NAs - ignoring these articles: '", paste0(origtitle[narss], collapse="', '"), "'")
@@ -30,6 +32,8 @@ if (any(narss <- is.na(names(rss)))) {
 if (any(duplicated(names(rss)))) {
   stop("Duplicates found in the title of the daily cases - please check these")
 }
+
+detailpageurls <- sapply(rss, getElement, "link")
 
 rss <- lapply(rss, function(x) unlist(x$encoded))
 
@@ -144,15 +148,17 @@ rownames(chgs) <- rownames(ProvData)[!is.na(m)]
 # replace cases data with new revised figures....
 cases[m[!is.na(m)], names(Prov2Code)] <- ProvData[!is.na(m), Prov2Code] 
   
-hasChanges <- apply(chgs, 1, FUN = function(x) sum(abs(x))>0)
-cases$source[m[!is.na(m)]][hasChanges] <- paste0("gdb_revised_data_nicd-publishedOn-", PublishDate[!is.na(m)])[hasChanges]
+hasChanges <- apply(chgs, 1, FUN = function(x) sum(abs(x))>2)
+cases$source[m[!is.na(m)]][hasChanges] <- unlist(unname(detailpageurls[PublishDate[!is.na(m)]]))[hasChanges]
+
+
 
 if (any(is.na(m))) {
   # any new data?   Append this now....
   casesAdd <- as.data.frame(ProvData[which(is.na(m)), unname(Prov2Code), drop=FALSE])  # 3-11 == provinces
   colnames(casesAdd) <- names(Prov2Code)
   casesAdd$total <- rowSums(casesAdd)
-  casesAdd$source <- "daily_nicd_scraper_gdb"
+  casesAdd$source <- unlist(unname(detailpageurls[rownames(casesAdd)]))
   casesAdd$YYYYMMDD <- gsub("-", "", rownames(casesAdd))
   casesAdd$date <- format(as.Date(rownames(casesAdd), format = "%Y-%m-%d"), "%d-%m-%Y")
   #re-order colnames
