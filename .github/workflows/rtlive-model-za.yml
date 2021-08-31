@@ -11,7 +11,7 @@ on:
       - data/covid19za_provincial_cumulative_timeline_confirmed.csv
 
 jobs:
-  run:
+  runmcmc:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
