@@ -12,6 +12,7 @@ on:
   push:
     paths:
       - notebooks/covid-model/*
+  workflow_dispatch:
 
 jobs:
   runmcmc:
