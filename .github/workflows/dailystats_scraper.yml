@@ -50,7 +50,14 @@ jobs:
       - name: Scrape sacoronavirus.co.za data 
         run: Rscript --vanilla 'scripts/daily_sacoronovirus_scraper.R'
       - name: Push changes
-        run: git push origin ${{ github.ref }}
+        run:  |
+          # only push if there has been any changes
+          if [[ "$(git status --porcelain)" != "" ]]; then
+            # pull first, there might have been other commits since this job started.... Especially when more and more actions are added to the repo 
+            git pull origin ${{ github.ref }}
+            # lets hope there were no merge conflicts.... 
+            git push origin ${{ github.ref }}
+          fi
         env:
           REPO_KEY: ${{secrets.GITHUB_TOKEN}}
           username: krokkie
