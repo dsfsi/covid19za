@@ -9,6 +9,7 @@ on:
       - master
     paths:
       - data/covid19za_provincial_cumulative_timeline_confirmed.csv
+      - notebooks/covid-model/*
 
 jobs:
   runmcmc:
