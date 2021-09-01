@@ -10,7 +10,6 @@ on:
     paths:
       - data/covid19za_provincial_cumulative_timeline_confirmed.csv
       - notebooks/covid-model/*
-  workflow_dispatch:
 
 jobs:
   runmcmc:
