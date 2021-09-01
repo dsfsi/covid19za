@@ -145,13 +145,13 @@ Prov2Code <- c(WC="Western Cape", EC="Eastern Cape", NC="Northern Cape", FS="Fre
 oldcases <- cases[m[!is.na(m)], names(Prov2Code)]
 chgs <- ProvData[!is.na(m), Prov2Code] - oldcases
 rownames(chgs) <- rownames(ProvData)[!is.na(m)]
-# replace cases data with new revised figures....
-cases[m[!is.na(m)], names(Prov2Code)] <- ProvData[!is.na(m), Prov2Code] 
-  
+
+# replace cases data with new revised figures.... -- only if this changed significantly.
 hasChanges <- apply(chgs, 1, FUN = function(x) sum(abs(x))>2)
-cases$source[m[!is.na(m)]][hasChanges] <- unlist(unname(detailpageurls[PublishDate[!is.na(m)]]))[hasChanges]
-
-
+if (any(hasChanges)) {
+  cases[m[!is.na(m) & hasChanges], names(Prov2Code)] <- ProvData[!is.na(m) & hasChanges, Prov2Code] 
+  cases$source[m[!is.na(m)]][hasChanges] <- unlist(unname(detailpageurls[PublishDate[!is.na(m)]]))[hasChanges]
+}
 
 if (any(is.na(m))) {
   # any new data?   Append this now....
