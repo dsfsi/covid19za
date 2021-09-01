@@ -16,13 +16,23 @@ origtitle <- sapply(rss, getElement, "title") %>%
   gsub(".*\\((.*)\\)", "\\1", .) %>% 
   trimws()
 
-pubDate <- sapply(rss, getElement, "pubDate")
+# use the publication date when we cannot derive the date from the publication automatically.
+pubDate <- unname(unlist(sapply(rss, getElement, "pubDate"))) %>%
+  as.Date.character(format = "%A, %d %B %Y") %>%
+  as.character()
+
 # fix mistakes here
 origtitle <- gsub("Tuesday 09 August 2021", "Tuesday 10 August 2021", origtitle)
 
 names(rss) <- origtitle %>%   # only keep that in the brackets
   as.Date.character(format = "%A %d %B %Y") %>%
   as.character()
+
+if (any(missing <- is.na(names(rss)))) {  # if I cannot auto-detect the date
+  warning("Error translating '", paste0(origtitle[missing], collapse="','"), "' into a precise date.") 
+  warning("Will use the PublicationDate as the authoritive date: ", paste0(pubDate[missing], collapse=", "))
+  names(rss)[ is.na(names(rss))] <- pubDate[missing]
+}
 
 if (any(duplicated(names(rss)))) {
   stop("Duplicates found in the title of the daily cases - please check these")
