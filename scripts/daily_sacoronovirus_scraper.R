@@ -81,12 +81,15 @@ clean <- function(x) {
   x <- gsub(".*:","",x)    # remove every before the ":"
   x <- gsub(".*;","",x)    # sometimes this is a "the ";"
   x <- gsub("Deaths", "", x) # sometimes the colon is missing.
+  x <- gsub("Recoveries", "", x)
   x <- gsub(".*ases", "", x) # sometimes the colon is missing.
   x <- gsub("\\.", "", x)  # remove a "."
   x <- gsub(",", "", x)    # remove a ","
   x <- gsub("°", "", x)    # remove a "°"
   x <- gsub("§", "5", x)
+  x <- gsub("£", "1", x)
   x <- gsub("S", "5", x)
+  x <- gsub('”', "", x)
   x <- gsub("\\$", "5", x) # sometimes a 5 is OCR'ed as an $
   if (length(x)>4 ) 
     x <- tail(x, 4)
@@ -98,7 +101,13 @@ clean <- function(x) {
   n <- as.numeric(x)
   if (any(faultyfield <- is.na(n))) {
     print(x)
-    stop("String to numeric problem: '", paste0(x[faultyfield], collapse="','"), "'")
+    warning("String to numeric problem: '", paste0(x[faultyfield], collapse="','"), "'")
+    if (sum(faultyfield)==1) {
+      n[faultyfield] <- 0
+      warning("Found an empty field.   Assume this is a zero...")
+    } else {
+      stop("Too many errors - cannot continue.")
+    }
   } 
   if (length(n)==4) {
     if (sum(n[2:4])!=n[1]) {
@@ -111,14 +120,14 @@ clean <- function(x) {
 }
 
 processDay <- function(img) {    # img <- imgs[3]
-  
+  print(basename(img))
   image <- magick::image_read(img)
   if (FALSE) {
-    magick::image_crop(image, "220x100+550+150")
+    magick::image_crop(image, blocks['EC'])
   }
   
-  OCRdata <- function(crop) {
-    # crop <- blocks[14]    
+  OCRdata <- function(crop) {   # crop <- blocks['EC']
+    # crop <- "150x70+394+265"    
     image2 <- magick::image_crop(image, crop)
     magick::image_write(image2, path = "temp.jpg", format = "jpg")
     
@@ -167,19 +176,24 @@ processDay <- function(img) {    # img <- imgs[3]
   } else {
     if (sum(check1!=0)>0 |
         sum(check2!=0)>0) {
-      stop("Too many errors in the checksum figures.  Please investigate manually")
+      res <- NULL
+      warning("Too many errors in the checksum figures.  Please investigate manually: ", sum(check1!=0), " vs ", sum(check2!=0))
     }
   }
 
-  check1 <- colSums(res$Prov[2:4, ])-res$Prov[1, ]
-  check2 <- res$Nat[c(2,4,3)] - rowSums(res$Prov)[1:3]
-  stopifnot(check1==0)
-  stopifnot(check2==0)
+  if (!is.null(res)) {
+    check1 <- colSums(res$Prov[2:4, ])-res$Prov[1, ]
+    check2 <- res$Nat[c(2,4,3)] - rowSums(res$Prov)[1:3]
+    stopifnot(check1==0)
+    stopifnot(check2==0)
+  }
   
   res
 }
 
 data <- lapply(imgs, processDay)
+# remove 
+data <- data[!sapply(data, is.null)]
 
 Nat <- sapply(data, getElement, "Nat")
 Prov <- sapply(data, getElement, "Prov", simplify = "array")
