@@ -303,7 +303,7 @@ allTestingData <- allTestingData[, c("weektag", "var", "week", "eowYYYYMMDD",
                                      ..provdatacols,
                                      "source")]
 
-# save raw data into a raw file -- not cummulative
+# save raw data into a raw file -- not cumulative
 write.csv(allTestingData, "data/covid19za_provincial_timeline_testing.csv", 
           row.names = FALSE, quote = FALSE)
 
@@ -327,4 +327,20 @@ PositivityRate$YYYYMMDD <- allTestingData[allTestingData$var=="Tests", eowYYYYMM
 write.csv(PositivityRate[, c(11,1:10)], "data/covid19za_provincial_timeline_testing_positivityrate.csv", 
           row.names = FALSE, quote = FALSE)
 
+px <- git2r::repository()
+git2r::config(px, user.name = "krokkie", user.email = "krokkie@users.noreply.github.com")
 
+s <- git2r::status(px, staged = FALSE, untracked = FALSE)
+if (length(s$unstaged)>0) {   # we have files that we can commit
+  # if git2r::checkout()
+  fns <- c("data/covid19za_provincial_timeline_testing_positivityrate.csv", 
+           "data/covid19za_provincial_timeline_testing.csv")
+  if (any(fns %in% s$unstaged)) {
+    message("New data added - commiting now")
+    git2r::add(px, "data/covid19za_provincial_timeline_testing_positivityrate.csv")  
+    git2r::add(px, "data/covid19za_provincial_timeline_testing.csv")  
+    git2r::commit(px, "Weekly testing data from NICD refreshed")  
+  } else {
+    message("No new data")
+  }
+}
