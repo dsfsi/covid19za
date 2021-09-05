@@ -9,9 +9,10 @@ on:
       - master
     paths:
       - data/covid19za_provincial_cumulative_timeline_confirmed.csv
+      - notebooks/covid-model/*
 
 jobs:
-  run:
+  runmcmc:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -25,7 +26,6 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r notebooks/covid-model/requirements.txt
-          sudo apt install build-essential
 
       - name: Run Python Script
         run: |

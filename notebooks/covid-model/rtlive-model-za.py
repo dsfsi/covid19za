@@ -1,11 +1,4 @@
-from pip._internal import main
-try:
-    import pymc3 as pm
-except:
-    from pip._internal import main
-    main(['install', 'pymc3'])
-    import pymc3 as pm
-        
+import pymc3 as pm
 import pandas as pd
 from covid.models.generative import GenerativeModel
 
