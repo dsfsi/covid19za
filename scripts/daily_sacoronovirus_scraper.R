@@ -72,6 +72,7 @@ blocks <- c(
 )
 NatBlocks <- substr(names(blocks),1,3)=="Nat"
 
+dataAllGood <- TRUE
 
 clean <- function(x) {
   if (FALSE) {
@@ -88,6 +89,7 @@ clean <- function(x) {
   x <- gsub("°", "", x)    # remove a "°"
   x <- gsub("§", "5", x)
   x <- gsub("£", "1", x)
+  x <- gsub("\\|", "1", x)
   x <- gsub("S", "5", x)
   x <- gsub('”', "", x)
   x <- gsub("\\$", "5", x) # sometimes a 5 is OCR'ed as an $
@@ -211,10 +213,13 @@ Prov <- sapply(data, getElement, "Prov", simplify = "array")
 
 dimnames(Prov)[[1]] <- c("Cases", "Deaths", "Recov", "Active")
   
-if (!all(apply(Prov, c(1,3), sum)[1:3, ]==Nat[c(2,4,3), ])) {
-  print(apply(Prov, c(1,3), sum)[1:3, ])
-  print(Nat[c(2,4,3), ])
-  stop("Mismatch between Prov and Nat")
+if (!all(p <- (pp <- (apply(Prov, c(1,3), sum)[1:3, ]))==(pn <- Nat[c(2,4,3), ]))) {
+  pd <- apply(p, 2, all)   # problem date
+  #which(!pd)
+  print(pp[, !pd, drop=FALSE])
+  print(pn[, !pd, drop=FALSE])
+  warning("Mismatch between Prov and Nat")
+  dataAllGood <- FALSE
 }
 
 # update the packages....
@@ -256,8 +261,12 @@ CheckFile <- function(fn, data) {
     write.csv(recov, fnx, 
               row.names = FALSE, quote = FALSE, na = "")
     
-    git2r::add(px, paste0("data/covid19za_provincial_cumulative_timeline_", fn))
-    git2r::commit(px, paste0("Missing ", fn, " provincial data added from sacoronavirus.co.za: ", paste0(RecovAdd$YYYYMMDD, collapse=", ")))
+    if (dataAllGood) {
+      git2r::add(px, paste0("data/covid19za_provincial_cumulative_timeline_", fn))
+      git2r::commit(px, paste0("Missing ", fn, " provincial data added from sacoronavirus.co.za: ", paste0(RecovAdd$YYYYMMDD, collapse=", ")))
+    } else {
+      warning("Have not automatically committed the changes - please check manually before committing")
+    }
   } else {
     message("No new data for ", fn)
   }
@@ -270,3 +279,11 @@ CheckFile("confirmed.csv", Prov["Cases", , ])
 
 # national level testing data
 # data/covid19za_timeline_testing.csv  -- 
+if (!dataAllGood) {
+  if (interactive()) {
+    system("git gui", wait=FALSE)
+  } else {
+    stop("The automated scraper could not update the numbers automatically.
+Please run this script manual, and check the numbers.")
+  }
+}
