@@ -92,7 +92,9 @@ def extract_data(file_path):
         # Third Sentence
         #tmp_dict = dict(zip(['hospitalised'], get_nums(sentences[2])))
         #_gp_covid_stats.update(tmp_dict)
-        m=re.search(r".*total number of (\d+) people are currently.*hospi",breakdown_txt,re.S)
+        print(breakdown_txt)
+        m=re.search(r".*total +number +of +(\d+) +people +are +currently.*hospi",breakdown_txt,re.S)
+        print(m)
         if not m:
             m=re.search(r".*total number of (\d) (\d+) people are currently.*hospi",breakdown_txt,re.S)
             _gp_covid_stats['hospitalised']=m.group(1)+m.group(2)            
