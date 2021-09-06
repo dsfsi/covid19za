@@ -227,7 +227,7 @@ if (!all(p <- (pp <- (apply(Prov, c(1,3), sum)[1:3, ]))==(pn <- Nat[c(2,4,3), ])
 px <- git2r::repository()
 git2r::config(px, user.name = "krokkie", user.email = "krokkie@users.noreply.github.com")
 
-CheckFile <- function(fn, data) {
+CheckFile <- function(fn, data, allowChanges = TRUE) {
   if (FALSE) {
     fn <- "recoveries.csv"
     data <- Prov["Recov", , ]
@@ -244,6 +244,17 @@ CheckFile <- function(fn, data) {
                     stringsAsFactors = FALSE)
   # find these dates in the data file....
   m <- match(format(as.Date(colnames(data), format = "%Y-%m-%d"), "%d-%m-%Y"), recov$date)
+  oldData <- recov[m[!is.na(m)], rownames(data)]
+  commitMsg <- "" 
+    
+  chgs <- ((newData <- t(data[,!is.na(m), drop=FALSE]))-oldData) != 0
+  if (any(chgs) & allowChanges) {
+    message("Applying some historic revisions")
+    recov[m[!is.na(m)], rownames(data)] <- newData
+    recov[m[!is.na(m)], "total"] <- unname(rowSums(newData))
+    commitMsg <- "Some historic revisions added"
+  }
+  
   if (any(is.na(m))) {
     RecovAdd <- as.data.frame(t(data[colnames(recov)[3:11], rev(which(is.na(m))), drop=FALSE]))  # 3-11 == provinces
     RecovAdd$UNKNOWN <- 0
@@ -254,28 +265,32 @@ CheckFile <- function(fn, data) {
     #re-order colnames
     RecovAdd <- RecovAdd[, colnames(recov)]
     
+    commitMsg <- paste0("Missing ", fn, " provincial data added from sacoronavirus.co.za: ", paste0(RecovAdd$YYYYMMDD, collapse=", "))
     message('There are some new extra data from sacoronavirus.co.za -- appending this to the data files')
     recov <- rbind(recov, 
                    RecovAdd)
-    
-    write.csv(recov, fnx, 
-              row.names = FALSE, quote = FALSE, na = "")
-    
-    if (dataAllGood) {
-      git2r::add(px, paste0("data/covid19za_provincial_cumulative_timeline_", fn))
-      git2r::commit(px, paste0("Missing ", fn, " provincial data added from sacoronavirus.co.za: ", paste0(RecovAdd$YYYYMMDD, collapse=", ")))
-    } else {
-      warning("Have not automatically committed the changes - please check manually before committing")
-    }
   } else {
     message("No new data for ", fn)
+  }
+  write.csv(recov, fnx, 
+            row.names = FALSE, quote = FALSE, na = "")
+  
+  if (dataAllGood) {
+    if (paste0("data/covid19za_provincial_cumulative_timeline_", fn) %in% unname(unlist(git2r::status()$unstaged))) {
+      git2r::add(px, paste0("data/covid19za_provincial_cumulative_timeline_", fn))
+      git2r::commit(px, commitMsg)
+    } else {
+      message(fn, " - nothing to commit")
+    } 
+  } else {
+    warning("Have not automatically committed the changes - please check manually before committing")
   }
   
 }
 
 CheckFile("recoveries.csv", Prov["Recov", , ])
 CheckFile("deaths.csv", Prov["Deaths", , ])
-CheckFile("confirmed.csv", Prov["Cases", , ])
+CheckFile("confirmed.csv", Prov["Cases", , ], allowChanges = FALSE)
 
 # national level testing data
 # data/covid19za_timeline_testing.csv  -- 
