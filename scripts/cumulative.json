@@ -11,7 +11,7 @@
                                 "From": [
                                     {
                                         "Name": "r",
-                                        "Entity": "za_covid19_vaccinations_summary_location_p_v1_vw_vw",
+                                        "Entity": "rtc za_covid19_vaccinations_summary_location_p_v2_vw_vw",
                                         "Type": 0
                                     }
                                 ],
