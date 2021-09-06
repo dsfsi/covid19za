@@ -119,20 +119,23 @@ clean <- function(x) {
   n
 }
 
-processDay <- function(img) {    # img <- imgs[3]
+processDay <- function(img, runAutomated=TRUE) {    # img <- imgs[1]
   print(basename(img))
   image <- magick::image_read(img)
   if (FALSE) {
     magick::image_crop(image, blocks['EC'])
   }
+
+#  engine <- tesseract::tesseract(language = "eng",
+#                                 options = list(tessedit_char_whitelist = "CaseDthAciv:0123456789"))
+
   
   OCRdata <- function(crop) {   # crop <- blocks['EC']
     # crop <- "150x70+394+265"    
     image2 <- magick::image_crop(image, crop)
     magick::image_write(image2, path = "temp.jpg", format = "jpg")
-    
-    
-    tesseract::ocr("temp.jpg") %>% 
+
+    tesseract::ocr("temp.jpg") %>%   # , engine = engine
       gsub(" ", "", .) %>%
       strsplit("\n") %>%
       magrittr::extract2(1) %>% 
@@ -170,13 +173,14 @@ processDay <- function(img) {    # img <- imgs[3]
                 ", new number: ", res$Prov[variable, fixProv] + check2[variable])
         res$Prov[variable, fixProv] <- res$Prov[variable, fixProv] + check2[variable] 
       } else {
-        stop("Cannot autofix checksum error:  Please investigate the numbers")
+        if (runAutomated) res <- NULL
+        warning("Cannot autofix checksum error:  Please investigate the numbers")
       }
     }
   } else {
     if (sum(check1!=0)>0 |
         sum(check2!=0)>0) {
-      res <- NULL
+      if (runAutomated) res <- NULL
       warning("Too many errors in the checksum figures.  Please investigate manually: ", sum(check1!=0), " vs ", sum(check2!=0))
     }
   }
@@ -184,14 +188,21 @@ processDay <- function(img) {    # img <- imgs[3]
   if (!is.null(res)) {
     check1 <- colSums(res$Prov[2:4, ])-res$Prov[1, ]
     check2 <- res$Nat[c(2,4,3)] - rowSums(res$Prov)[1:3]
-    stopifnot(check1==0)
-    stopifnot(check2==0)
+    
+    dataAllGood <<- dataAllGood &  
+                     all(check1==0) &
+                     all(check2==0)
+      
+    if (runAutomated) {
+      stopifnot(check1==0)
+      stopifnot(check2==0)
+    }
   }
   
   res
 }
 
-data <- lapply(imgs, processDay)
+data <- lapply(imgs, processDay, runAutomated=!interactive())
 # remove 
 data <- data[!sapply(data, is.null)]
 
