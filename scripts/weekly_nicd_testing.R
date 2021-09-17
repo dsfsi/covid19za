@@ -80,9 +80,20 @@ if (file.exists(cachefn <- file.path(tempfoltesting,"cache.rdata"))) {
 }
 
 ParseTable3 <- function(x, oldformat) {    # x <- data[[62]];   oldformat <- TRUE
+  if (FALSE) {
+    x <- data$`2021-36`
+    oldformat <- FALSE
+    
+  }
+  if (length(x) < 5) {
+    # new table format introduced 2021-36 onwards
+    message(substr(x$`Table 2. Weekly`[1],80,120))
+    t3 <- x$`Table 2. Weekly`[1:30]
+  } else {
+    message(substr(x$`Table 3. Weekly`[1],80,120))
+    t3 <- x$`Table 3. Weekly`[1:30] 
+  }
   
-  message(substr(x$`Table 3. Weekly`[1],80,120))
-  t3 <- x$`Table 3. Weekly`[1:30] 
   
   provspace <- 25
   prov <- trimws(substr(t3,1,provspace))
