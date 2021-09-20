@@ -61,7 +61,7 @@ blocks <- c(
   NatDeath="170x40+560+80",
   NatNewCases="170x40+730+80",
   WC="170x100+180+500",
-  EC="170x100+430+480",
+  EC="170x100+430+490",
   NC="100x100+290+330",
   FS="170x100+400+350",
   KZN="170x100+610+404",
@@ -133,7 +133,7 @@ processDay <- function(img, runAutomated=TRUE) {    # img <- imgs[1]
 
   
   OCRdata <- function(crop) {   # crop <- blocks['EC']
-    # crop <- "150x70+394+265"    
+    # crop <- "170x100+430+490"    
     image2 <- magick::image_crop(image, crop)
     magick::image_write(image2, path = "temp.jpg", format = "jpg")
 
