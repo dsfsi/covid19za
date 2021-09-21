@@ -144,6 +144,10 @@ processDay <- function(x) {
     # sometimes a double empty row at the start....
     rownames(y) <- y[, 1]
     y <- y[, -1]
+    # remove empty rows
+    keepRow <- apply(y, 1, FUN = function(x) !all(is.na(x) | trimws(x)==""))
+    keepCol <- apply(y, 2, FUN = function(x) !all(is.na(x) | trimws(x)==""))
+    y[keepRow, keepCol, drop=FALSE]
   })
 }
 
