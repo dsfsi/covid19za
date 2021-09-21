@@ -151,9 +151,18 @@ processDay <- function(x) {
   })
 }
 
+# sometimes we have news items that has a COVID in the title, but is not the regular updates....
+OK <- sapply(tbls, length)>=3
+if (!all(OK)) {
+  message("Ignoring these URLs: ", paste0(rssdf[!OK, "source"], collapse=","))
+  tbls <- tbls[OK]
+}
+
 cleantbls <- lapply(tbls, processDay)
 
 # sapply(cleantbls, FUN=function(x) colnames(x$Tests))
+# tx <- sapply(cleantbls, FUN = function(x) "Total.tested" %in% colnames(x$Tests))
+# sapply(cleantbls, FUN = function(x) length(x$Tests[, "Total.tested"]))
 Tests <- sapply(cleantbls, FUN = function(x) safe.as.numeric(x$Tests[, "Total.tested"]))
 rownames(Tests) <- c("Private", "Public", "Total")
 
