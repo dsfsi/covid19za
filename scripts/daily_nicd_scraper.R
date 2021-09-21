@@ -9,33 +9,38 @@ if (interactive()) {  # for debug purposes
   setwd(file.path(dirname(rstudioapi::getActiveDocumentContext()$path),'/..'))
 }
 
-
-rss <- xml2::as_list(xml2::read_xml(httr::GET("https://www.nicd.ac.za/feed/"), 
-                                    encoding="utf-8"))[[1]][[1]]
-rss <- rss[names(rss)=="item"]
-origtitle <- sapply(rss, getElement, "title") %>%
-  gsub(".*\\((.*)\\)", "\\1", .)
-
-pubDate <- sapply(rss, getElement, "pubDate")
-
-
-names(rss) <- origtitle %>%   # only keep that in the brackets
-  as.Date.character(format = "%d %B %Y") %>%
-  as.character()
-
-
-if (any(narss <- is.na(names(rss)))) {
-  warning("Found NAs - ignoring these articles: '", paste0(origtitle[narss], collapse="', '"), "'")
-  rss <- rss[!narss]
-}
+readFromRSSfeed <- function() {
+  rss <- xml2::as_list(xml2::read_xml(httr::GET("https://www.nicd.ac.za/feed/"), 
+                                      encoding="utf-8"))[[1]][[1]]
+  rss <- rss[names(rss)=="item"]
+  origtitle <- sapply(rss, getElement, "title") %>%
+    gsub(".*\\((.*)\\)", "\\1", .)
   
-if (any(duplicated(names(rss)))) {
-  stop("Duplicates found in the title of the daily cases - please check these")
+  pubDate <- sapply(rss, getElement, "pubDate")
+  
+  names(rss) <- origtitle %>%   # only keep that in the brackets
+    as.Date.character(format = "%d %B %Y") %>%
+    as.character()
+  
+  if (any(narss <- is.na(names(rss)))) {
+    message("Found NAs - ignoring these articles: '", paste0(origtitle[narss], collapse="', '"), "'")
+    rss <- rss[!narss]
+  }
+  
+  if (any(duplicated(names(rss)))) {
+    stop("Duplicates found in the title of the daily cases - please check these")
+  }
+  
+  detailpageurls <- sapply(rss, getElement, "link")
+  
+  rss <- lapply(rss, function(x) unlist(x$encoded))
+
+  data.frame(date=names(rss), 
+             content=unlist(unname(rss)),
+             source=unlist(detailpageurls), stringsAsFactors = FALSE)  
 }
 
-detailpageurls <- sapply(rss, getElement, "link")
-
-rss <- lapply(rss, function(x) unlist(x$encoded))
+rssdf <- readFromRSSfeed()
 
 safe.as.numeric <- function(x) {
   stopifnot(is.vector(x))
