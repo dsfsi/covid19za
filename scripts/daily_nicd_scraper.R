@@ -181,7 +181,7 @@ if (any(is.na(m))) {
                  casesAdd)
 }
 
-write.csv(cases, fnx, 
+write.csv(cases[order(cases$YYYYMMDD), ], fnx, 
           row.names = FALSE, quote = FALSE, na = "")
 
 # pragmatic - only commit when there were changes
