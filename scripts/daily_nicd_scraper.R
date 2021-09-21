@@ -40,6 +40,62 @@ readFromRSSfeed <- function() {
              source=unlist(detailpageurls), stringsAsFactors = FALSE)  
 }
 
+readHistory <- function(maxPages = 100) {
+  entry <- xml2::read_html(entryurl <- 'https://www.nicd.ac.za/media/alerts/')
+  
+  pager <- xml2::xml_find_all(entry, "//nav[contains(@class, 'elementor-pagination')]")
+  urls <- xml2::xml_find_all(pager, ".//a") %>%
+    xml2::xml_attr("href") %>%
+    unique()    # next and specific page the same destination
+  
+  # TODO: optimizations - change from sequential read to async read
+  entries <- lapply(c(entryurl, urls), xml2::read_html) 
+  
+  processPage <- function(page) {
+    articlesOnPage <- xml2::xml_find_all(page, "//article[contains(@class, 'category-alerts')]")
+    getLink <- function(art) {   # art <- articlesOnPage[1]
+      xml2::xml_find_first(art, ".//a") %>%
+        xml2::xml_attr("href")
+    }
+    sapply(articlesOnPage, getLink)
+  }
+  
+  allLinks <- unlist(sapply(entries, processPage))
+  
+  readPageContent <- function(url) {  # url <- allLinks[100]
+    tryCatch({
+      p <- xml2::read_html(url)
+      # content of the news item
+      
+      content <- as.character(xml2::xml_find_all(p, "//div[contains(@class, 'elementor-widget-theme-post-content')]"))
+      # the publication date
+      # xml2::xml_find_all(p, "//div[contains(@class, 'elementor-widget-post-info')]")
+      date <- trimws(xml2::xml_text(xml2::xml_find_all(p, "//span[contains(@class, 'elementor-post-info__item--type-date')]"))) %>%
+        as.Date.character(format="%d %B , %Y")
+      success <- TRUE
+    }, error = function(x) {
+      warning(x)
+      success <- FALSE
+    })
+    list(date=date, 
+         content=content,
+         source=url,
+         OK=success)
+  }
+
+  # filter these, as not all of these are COVID related.   
+  covid <- regexpr("covid", allLinks, ignore.case = TRUE) > 0
+
+  allLinks <- allLinks[covid]
+  # 
+  if (!is.null(maxPages)) {
+    allLinks <- head(allLinks, maxPages)
+  }
+  #TODO: read async
+  allData <- lapply(allLinks, readPageContent)
+
+  df <- data.table::rbindlist(allData)  
+}
 rssdf <- readFromRSSfeed()
 
 safe.as.numeric <- function(x) {
