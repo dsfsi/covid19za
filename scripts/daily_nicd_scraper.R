@@ -259,8 +259,10 @@ write.csv(cases[order(cases$YYYYMMDD), ], fnx,
           row.names = FALSE, quote = FALSE, na = "")
 
 # pragmatic - only commit when there were changes
-if (length(git2r::status(px)$unstaged) > 0) {
-  git2r::add(px, "data/covid19za_provincial_cumulative_timeline_confirmed.csv")
+targetfn <- "data/covid19za_provincial_cumulative_timeline_confirmed.csv"
+if (length(unstaged <- git2r::status(px)$unstaged) > 0 & 
+    targetfn %in% unstaged) {
+  git2r::add(px, targetfn)
   git2r::commit(px, "Revised and new data from nicd.ac.za")
 }
 
