@@ -183,5 +183,39 @@ if (length(git2r::status(px)$unstaged) > 0) {
   git2r::commit(px, "Revised and new data from nicd.ac.za")
 }
 
+if (UpdateTestingTotals <- FALSE) {
+  # Under construction -- needs some attention.
+  tests <- read.csv(fnx <- paste0('data/covid19za_timeline_testing.csv'), 
+                    stringsAsFactors = FALSE)
+  m <- match(format(as.Date(colnames(Tests), format = "%Y-%m-%d"), "%d-%m-%Y"), tests$date)
+  
+  if (any(is.na(m))) {
+    tAdd <- as.data.frame(t(Tests[c("Total", "Private", "Public"), which(is.na(m)), drop=FALSE]))  # 3-11 == provinces
+    colnames(tAdd) <- colnames(tests)[3:5]
+    
+    tAdd$source <- unlist(unname(detailpageurls[rownames(tAdd)]))
+    tAdd$YYYYMMDD <- gsub("-", "", rownames(tAdd))
+    tAdd$date <- format(as.Date(rownames(tAdd), format = "%Y-%m-%d"), "%d-%m-%Y")
+    
+    # Hospital variable
+    # dim(Hospital)   # priv/pub/tot x facilitiesReporting, Admissionsto.Date, Died.to.Date, Currently.Admitted
+    # tests$hospitalisation ??  What variable goes in here? 
+    hospadm <- Hospital["Total", "Admissionsto.Date", ]
+    m2 <- match(rownames(tAdd), names(hospadm))
+    tAdd$hospitalisation <- hospadm[m2]  # variable not populated...
+
+    # national figures - deaths etc. 
+    deaths <- read.csv('data/covid19za_provincial_cumulative_timeline_deaths.csv', stringsAsFactors = FALSE)
+    m2 <- match(tAdd$YYYYMMDD, deaths$YYYYMMDD)
+    tAdd$deaths <- deaths$total[m2]
+    
+    recov <- read.csv('data/covid19za_provincial_cumulative_timeline_recoveries.csv', stringsAsFactors = FALSE)
+    m2 <- match(tAdd$YYYYMMDD, recov$YYYYMMDD)
+    tAdd$recovered <- recov$total[m2]
+    
+    t2 <- data.table::rbindlist(list(tests, tAdd), fill=TRUE)[order(YYYYMMDD)]
+    tail(t2, 20)
+  }
+}
 
 
