@@ -96,7 +96,12 @@ readHistory <- function(maxPages = 100) {
 
   df <- data.table::rbindlist(allData)  
 }
-rssdf <- readFromRSSfeed()
+
+if (runRSSonly <- TRUE) {
+  rssdf <- readFromRSSfeed()
+} else {
+  rssdf <- readHistory()
+}
 
 safe.as.numeric <- function(x) {
   stopifnot(is.vector(x))
