@@ -108,10 +108,15 @@ Prov <- lapply(cleantbls, FUN=function(x) {  # x <- cleantbls[[1]]
     gsub("\\.\\.", "\\.", .) %>%
     gsub("\\.", " ", .) %>% 
     trimws() %>%
+    gsub("September", "Sep", .) %>%     # Most problably an Afrikaans-speaking user....?
+    gsub("Sept", "Sep", .) %>%
     as.Date.character(format = "%d %B %Y") %>%
     as.character()
   
-  stopifnot(!any(is.na(dates)))
+  if (any(is.na(dates))) {
+    print(colnames(df)[is.na(dates)])
+    stop("Error converting strings to dates")
+  }
   colnames(df) <- dates
   
   df
