@@ -49,6 +49,7 @@ jobs:
         run: Rscript --vanilla 'scripts/daily_nicd_scraper.R'
       - name: Scrape sacoronavirus.co.za data 
         run: Rscript --vanilla 'scripts/daily_sacoronovirus_scraper.R'
+        if: ${{ always() }}
       - name: Push changes
         run:  |
           # only push if there has been any changes
@@ -58,6 +59,7 @@ jobs:
             # lets hope there were no merge conflicts.... 
             git push origin ${{ github.ref }}
           fi
+        if: ${{ always() }}
         env:
           REPO_KEY: ${{secrets.GITHUB_TOKEN}}
           username: krokkie
