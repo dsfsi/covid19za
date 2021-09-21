@@ -54,7 +54,7 @@ safe.as.numeric <- function(x) {
   n
 }
 
-tbls <- lapply(rss, XML::readHTMLTable, stringsAsFactors = FALSE, encoding="UTF-8")
+tbls <- lapply(setNames(rssdf$content, rssdf$date), XML::readHTMLTable, stringsAsFactors = FALSE, encoding="UTF-8")
 
 hasValue <- function(df, val) {  # df <- x[[1]];   val <- "Private"
   any(apply(df, 2, function(x) any(!is.na(x) & x==val)))
@@ -158,9 +158,10 @@ rownames(chgs) <- rownames(ProvData)[!is.na(m)]
 
 # replace cases data with new revised figures.... -- only if this changed significantly.
 hasChanges <- apply(chgs, 1, FUN = function(x) sum(abs(x))>2)
+sourcex <- setNames(rssdf$source, rssdf$date)
 if (any(hasChanges)) {
   cases[m[!is.na(m) & hasChanges], names(Prov2Code)] <- ProvData[!is.na(m) & hasChanges, Prov2Code] 
-  cases$source[m[!is.na(m)]][hasChanges] <- unlist(unname(detailpageurls[PublishDate[!is.na(m)]]))[hasChanges]
+  cases$source[m[!is.na(m)]][hasChanges] <- unlist(unname(sourcex[PublishDate[!is.na(m)]]))[hasChanges]
 }
 
 if (any(is.na(m))) {
@@ -168,7 +169,8 @@ if (any(is.na(m))) {
   casesAdd <- as.data.frame(ProvData[which(is.na(m)), unname(Prov2Code), drop=FALSE])  # 3-11 == provinces
   colnames(casesAdd) <- names(Prov2Code)
   casesAdd$total <- rowSums(casesAdd)
-  casesAdd$source <- unlist(unname(detailpageurls[rownames(casesAdd)]))
+
+  casesAdd$source <- unlist(unname(sourcex[rownames(casesAdd)]))
   casesAdd$YYYYMMDD <- gsub("-", "", rownames(casesAdd))
   casesAdd$date <- format(as.Date(rownames(casesAdd), format = "%Y-%m-%d"), "%d-%m-%Y")
   #re-order colnames
