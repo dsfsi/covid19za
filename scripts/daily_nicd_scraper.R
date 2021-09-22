@@ -48,6 +48,12 @@ readHistory <- function(maxPages = 100) {
     xml2::xml_attr("href") %>%
     unique()    # next and specific page the same destination
   
+  if (!is.null(maxPages)) {
+     articlesperpage <- 8  # actuall 10, but on average about 10 covid related ones.
+     maxurls <- ceiling(maxPages / articlesperpage) + 3  # some margin for non-COVID articles
+     if (maxurls > length(urls)) urls <- urls[1:maxurls]  # shorten this - as an optimization 
+  }
+  
   # TODO: optimizations - change from sequential read to async read
   entries <- lapply(c(entryurl, urls), xml2::read_html) 
   
@@ -169,6 +175,11 @@ rownames(Tests) <- c("Private", "Public", "Total")
 Hospital <- sapply(cleantbls, FUN=function(x) sapply(x$Hospital, safe.as.numeric), simplify = "array")
 dimnames(Hospital)[[1]] <- c("Private", "Public", "Total")
 
+if (DEBUG <- FALSE) {
+  p1 <- lapply(cleantbls, getElement, "Prov")
+  cn <- sapply(p1, colnames)
+  rn <- sapply(p1, rownames)
+}
 Prov <- lapply(cleantbls, FUN=function(x) {  # x <- cleantbls[[1]]
   df <- x$Prov 
   keepCol <- regexpr("otal.cases", colnames(df), ignore.case = TRUE)>0
