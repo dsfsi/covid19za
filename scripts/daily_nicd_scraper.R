@@ -215,6 +215,31 @@ Prov <- lapply(cleantbls, FUN=function(x) {  # x <- cleantbls[[1]]
   df
 })
 
+# check for column naming errors relative to the published date...
+cn <- sapply(Prov, colnames)
+singleCol <- sapply(cn, length)==1
+
+# fix single-Column named problems
+problemColnameIdx <- setNames(names(cn)[singleCol]!=unname(unlist(cn[singleCol])), names(cn)[singleCol])
+problemColname <- names(problemColnameIdx[problemColnameIdx])
+lapply(problemColname, function(n) {  # n <- '2021-06-18'
+  warning("Adjusting data for ", n, " - different publishing date vs. column label")
+  colnames(Prov[[n]]) <<- n 
+})
+
+# fix multi-column named problems
+checkMultiCol <- lapply(cn[!singleCol], max)
+problemColnameIdx <- setNames(unname(checkMultiCol)!=names(checkMultiCol), names(cn)[!singleCol])
+problemColname <- names(problemColnameIdx[problemColnameIdx])
+lapply(problemColname, function(n) {  # n <- '2021-08-12'
+  delta <- as.Date(n) - as.Date(max(colnames(Prov[[n]])))
+  warning("Adjusting data for ", n, " - different publishing date vs. column label - ", delta, " day difference")
+  colnames(Prov[[n]]) <<- as.character(as.Date(colnames(Prov[[n]])) + delta) 
+})
+
+
+
+# Now combine all of this
 ProvData <- t(do.call(cbind, Prov))
 singleDate <- nchar(rownames(ProvData))==10
 rownames(ProvData)[singleDate] <- paste0(rownames(ProvData)[singleDate],".",
