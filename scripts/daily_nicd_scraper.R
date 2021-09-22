@@ -175,11 +175,13 @@ Prov <- lapply(cleantbls, FUN=function(x) {  # x <- cleantbls[[1]]
   keepRow <- c("Western Cape", "Eastern Cape", "Northern Cape", "Free State", "KwaZulu-Natal", "North West", "Gauteng", "Mpumalanga", "Limpopo", "Unknown", "Total")
   m <- match(keepRow, rownames(df))
   stopifnot(any(keepCol))
-  df <- df[m, keepCol]  # remove everything else, new cases, percentages, etc.
+  df <- df[m, keepCol, drop=FALSE]  # remove everything else, new cases, percentages, etc.
   rownames(df) <- keepRow
   df["Unknown", is.na(df["Unknown", ])] <- 0   # change from NA to zero - for missing 
-  # TODO: refine this hardcoded step
-  df <- df[, 2:3]   # only keep column updated + new date
+  if (ncol(df)>=3) {  
+    #TODO: refine this hardcoded step TOTAL prev, UPDATED prev, TOTAL new  [sometimes a faulty extra column] 
+    df <- df[, 2:3]   # only keep column updated + new date
+  } 
   df[] <- lapply(df, safe.as.numeric)
   
   # Fix column names
