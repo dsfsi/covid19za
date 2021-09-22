@@ -16,8 +16,8 @@ readFromRSSfeed <- function() {
   origtitle <- sapply(rss, getElement, "title") %>%
     gsub(".*\\((.*)\\)", "\\1", .)
   
-  pubDate <- sapply(rss, getElement, "pubDate")
-  
+  #pubDate <- sapply(rss, FUN = function(x) x$pubDate[[1]])
+
   names(rss) <- origtitle %>%   # only keep that in the brackets
     as.Date.character(format = "%d %B %Y") %>%
     as.character()
@@ -36,6 +36,7 @@ readFromRSSfeed <- function() {
   rss <- lapply(rss, function(x) unlist(x$encoded))
 
   data.frame(date=names(rss), 
+             #pubdate=unname(pubDate),
              content=unlist(unname(rss)),
              source=unlist(detailpageurls), stringsAsFactors = FALSE)  
 }
