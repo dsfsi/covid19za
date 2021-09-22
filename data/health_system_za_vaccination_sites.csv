@@ -1,0 +1,1398 @@
+Province,District,Sub-district,Vaccination site,Address,Open days per week,Type
+Western Cape,Cape Town MM,CT Western SD,Medscheme Cape Town,"Block F, The Boulevard, Searle Street",5 days,Afrocentric (Private)
+Western Cape,Garden Route DM,George LM,Clicks Pharmacy George 2,"Pick n Pay Centre, 4th Street, George",5 days,Clicks (Private)
+Western Cape,Garden Route DM,Mossel Bay LM,Clicks Pharmacy Langeberg Mall,"Shop 15 Langerberg Mall, Fourie Road, Voorbaai, Mosselbay",5 days,Clicks (Private)
+Western Cape,Garden Route DM,Mossel Bay LM,Clicks Pharmacy Mossel Bay,Louis Fourie Road,5 days,Clicks (Private)
+Western Cape,Cape Winelands DM,Breede Valley LM,Clicks Pharmacy Mountain Mill,"Shop 111 Mountain Mill Dr, Hospital Hill, Worcester",5 days,Clicks (Private)
+Western Cape,Central Karoo DM,Beaufort West LM,Clicks Pharmacy Beaufort West,"115 Donkin St, Beaufort West",5 days,Clicks (Private)
+Western Cape,Cape Winelands DM,Witzenberg LM,Clicks Pharmacy Ceres,"Shop 3 Pick 'n Pay Centre, Voortrekker Street, Ceres",5 days,Clicks (Private)
+Western Cape,Overberg DM,Swellendam LM,Clicks Pharmacy Swellendam,"Shop No 1 Swellenmark Mall Swellendam, Main Road, Swellendam",5 days,Clicks (Private)
+Western Cape,Cape Town MM,CT Western SD,Clicks Pharmacy Westcoast Village,"Shop 16, West Coast Village Shopping Centre, CNR West Coast & Sandown Roads, Sunningdale",5 days,Clicks (Private)
+Western Cape,Cape Town MM,CT Western SD,Clicks Pharmacy The Paddocks,Racecourse Road,5 days,Clicks (Private)
+Western Cape,West Coast DM,Matzikama LM,Clicks Pharmacy Vredendal Mall,Church Street,5 days,Clicks (Private)
+Western Cape,Cape Town MM,CT Eastern SD,Waterstone Village Clicks Pharmacy,C/O Main Road and R44,5 days,Clicks (Private)
+Western Cape,Cape Town MM,CT Western SD,Clicks Pharmacy V & A Waterfront,Dock Road,5 days,Clicks (Private)
+Western Cape,Overberg DM,Overstrand LM,Clicks Pharmacy Gansbaai,Main Road,5 days,Clicks (Private)
+Western Cape,Cape Town MM,CT Western SD,Clicks Pharmacy Melkbos,2 Birkenhead Shopping Centre,5 days,Clicks (Private)
+Western Cape,Cape Town MM,CT Western SD,Clicks Pharmacy Table Bay Mall,Table Bay Mall,5 days,Clicks (Private)
+Western Cape,Overberg DM,Overstrand LM,Clicks Pharmacy Hermanus,Main Street,5 days,Clicks (Private)
+Western Cape,West Coast DM,Swartland LM,Clicks Pharmacy Malmesbury,Cnr Hill & Voortrekker Streets,5 days,Clicks (Private)
+Western Cape,Garden Route DM,George LM,Clicks Pharmacy George CBD,Mark Street,5 days,Clicks (Private)
+Western Cape,Cape Town MM,CT Tygerberg SD,Clicks Pharmacy Delft Mall,"Delft Mall, Hindle Road",5 days,Clicks (Private)
+Western Cape,Cape Town MM,CT Western SD,Clicks Pharmacy Seaside Village,Cnr Otto Du Plessis Drive & Cormorant Road,5 days,Clicks (Private)
+Western Cape,Cape Town MM,CT Northern SD,Clicks Pharmacy Pinehurst,Pinehurst Mall,5 days,Clicks (Private)
+Western Cape,Cape Town MM,CT Northern SD,Clicks Pharmacy Tygervalley,"Shop 533, Tygervalley Shopping Centre, Bill Bezuidenhout Avenue",5 days,Clicks (Private)
+Western Cape,Cape Town MM,CT Southern SD,Clicks Pharmacy Constantia Emporium,"Constantia Emporium, Ladies Mile Rd, Constantia",5 days,Clicks (Private)
+Western Cape,Cape Town MM,CT Northern SD,Clicks Pharmacy Edgemead,"Edgemead Shopping Centre, Louis Thibault Drive",5 days,Clicks (Private)
+Western Cape,Cape Town MM,CT Northern SD,Clicks Pharmacy Durbanville,"Shop 1, Durbanville Shopping Centre, CNR Main & Wellington Roads",5 days,Clicks (Private)
+Western Cape,Cape Town MM,CT Southern SD,Clicks Pharmacy Blue Route,G4 Main Road,5 days,Clicks (Private)
+Western Cape,Cape Town MM,CT Southern SD,Clicks Pharmacy Ashers,171 Main Road,5 days,Clicks (Private)
+Western Cape,Cape Town MM,CT Southern SD,Clicks Pharmacy Prospur,76 Churchill Road,5 days,Clicks (Private)
+Western Cape,Cape Town MM,CT Southern SD,Clicks Pharmacy Capricorn Square,Cnr Prince George Drive & Drury Road,5 days,Clicks (Private)
+Western Cape,West Coast DM,Saldanha Bay LM,Clicks Pharmacy Witteklip Mall,Saldahna Road,5 days,Clicks (Private)
+Western Cape,Cape Town MM,CT Tygerberg SD,Clicks Pharmacy Goodwood,"Goodwood Mall, Cnr Macdonald Street & Voortrekker Roads, Goodwood",5 days,Clicks (Private)
+Western Cape,Cape Winelands DM,Drakenstein LM,Clicks Pharmacy Welgelee Plein,Cnr Champagne & Piet Retief Streets,5 days,Clicks (Private)
+Western Cape,Cape Winelands DM,Drakenstein LM,Clicks Pharmacy Laborie Centre,Main Road,5 days,Clicks (Private)
+Western Cape,Cape Winelands DM,Drakenstein LM,Clicks Pharmacy Paarl Mall,Cnr Vlei & Jones Roads,5 days,Clicks (Private)
+Western Cape,Cape Town MM,CT Northern SD,Clicks Pharmacy Tygervalley (Intercare),Cnr Old Oak & Durban Roads,5 days,Clicks (Private)
+Western Cape,Cape Town MM,CT Northern SD,Clicks Pharmacy Brackenfell Centre,Corner of Old Paarl Road and Jeannette Street,5 days,Clicks (Private)
+Western Cape,Cape Town MM,CT Western SD,Clicks Pharmacy Observatory,"364 Main Road, Cnr Browning and Main Road",5 days,Clicks (Private)
+Western Cape,Cape Town MM,CT Eastern SD,Clicks Pharmacy Zevenwacht,Cnr Van Rebeeck & Stellenbosch Roads,5 days,Clicks (Private)
+Western Cape,Cape Town MM,CT Western SD,Clicks Pharmacy Golden Acre,Castle Street,5 days,Clicks (Private)
+Western Cape,Cape Town MM,CT Northern SD,Clicks Pharmacy Soneike,C/O Bottelery Road & Amandal Drive,5 days,Clicks (Private)
+Western Cape,Cape Town MM,CT Western SD,Clicks Pharmacy Glengarrif,2 Main Road,5 days,Clicks (Private)
+Western Cape,Cape Town MM,CT Southern SD,Clicks Pharmacy Constantia,"Shop 12 & 13, Constantia Courtyard Shopping Centre, Main Road",5 days,Clicks (Private)
+Western Cape,Cape Town MM,CT Klipfontein SD,Vangate Mall Clicks Pharmacy,Vanguard Drive,5 days,Clicks (Private)
+Western Cape,Cape Town MM,CT Western SD,Clicks Pharmacy Pinelands (Howard Centre),Howard Drive,5 days,Clicks (Private)
+Western Cape,Cape Town MM,CT Western SD,Clicks Pharmacy Canal Walk,103 Lower Level,5 days,Clicks (Private)
+Western Cape,Cape Town MM,CT Western SD,Clicks Pharmacy Adderley Street,Senso Centre Adderley Street,5 days,Clicks (Private)
+Western Cape,Cape Town MM,CT Northern SD,N1 City Clicks Pharmacy,"Shop 6, N1 City, Frans Conradie Drive",5 days,Clicks (Private)
+Western Cape,Cape Town MM,CT Southern SD,Clicks Pharmacy Kenilworth,Doncaster Road,5 days,Clicks (Private)
+Western Cape,Cape Town MM,CT Tygerberg SD,Clicks Pharmacy Airport Shopping Centre Belhar,Cnr Stellenbosch Arterial Road & Belhar Drive,5 days,Clicks (Private)
+Western Cape,Cape Winelands DM,Drakenstein LM,Clicks Pharmacy Paarl,20 Lady Grey Street,5 days,Clicks (Private)
+Western Cape,Cape Town MM,CT Southern SD,Clicks Pharmacy Hout Bay,Cnr Main & Princess Roads,5 days,Clicks (Private)
+Western Cape,Cape Town MM,CT Western SD,Clicks Pharmacy Gardens Centre,Mill Street,5 days,Clicks (Private)
+Western Cape,Cape Town MM,CT Eastern SD,Clicks Pharmacy Strand Square,Cnr Mills & Fagan Streets,5 days,Clicks (Private)
+Western Cape,West Coast DM,Saldanha Bay LM,Dis-Chem Weskus Mall Pharmacy,110 Saldanha Road,6 days,Dis-Chem (Private)
+Western Cape,Cape Town MM,CT Northern SD,Dis-Chem Parow Centre Pharmacy,Corner Voortrekker & De la Rey Streets,6 days,Dis-Chem (Private)
+Western Cape,Cape Town MM,CT Northern SD,Dis-Chem Tygervalley Pharmacy,39 Carl Cronje Road,6 days,Dis-Chem (Private)
+Western Cape,Cape Town MM,CT Southern SD,Dis-Chem Claremont Pharmacy,178/182 Main Road,6 days,Dis-Chem (Private)
+Western Cape,Cape Town MM,CT Southern SD,Dis-Chem Noordhoek Pharmacy,Cnr Ou Kaapse Weg Noordhoek Main Road,6 days,Dis-Chem (Private)
+Western Cape,Cape Town MM,CT Northern SD,Discovery - Virgin Active N1 City,"N1 City Value Mall, 102 Solly Smiedt St, Goodwood, Cape Town, 7460",7 days,Discovery (Private)
+Western Cape,Cape Town MM,CT Southern SD,Discovery - Virgin Active Claremont,"1st Floor, MontClare Place cnr Main Road &, Campground Rd, Claremont, Cape Town, 7708",7 days,Discovery (Private)
+Western Cape,Garden Route DM,Knysna LM,Sedgefield Pharmacy,"49 Main Service Road, Sedgefield",6 days,ICPA (Private)
+Western Cape,Garden Route DM,Mossel Bay LM,Mosskem Apteek,"Spar Centre, Cnr Kompanje & Onderbos Avenue, Hartenbos, 6520",6 days,ICPA (Private)
+Western Cape,Overberg DM,Overstrand LM,Albertyn Pharmacy,Botriver Road,6 days,ICPA (Private)
+Western Cape,West Coast DM,Bergrivier LM,Pharmacy At Spar Laaiplek,Cnr Voortrekker and Jameson Street,6 days,ICPA (Private)
+Western Cape,Cape Town MM,CT Eastern SD,Waterstone Pharmacy,Waterstone Village c/o R44 & Main Rd,6 days,ICPA (Private)
+Western Cape,Cape Town MM,CT Tygerberg SD,M-Kem Medicine City,"Oakdale Centre, 224 Durban Road, Bellville, 7530",6 days,ICPA (Private)
+Western Cape,Cape Town MM,CT Eastern SD,Baykem Pharmacy,"Shop 24 Village Walk Centre, Lancaster Street, Gordan's Bay",6 days,ICPA (Private)
+Western Cape,Cape Town MM,CT Northern SD,Vitacare Pharmacy - Plattekloof,"Plattekloof Centre, Olienhout Avenue Plattekloof",6 days,ICPA (Private)
+Western Cape,Cape Winelands DM,Stellenbosch LM,Simonsrust Pharmacy,"C/o Cluver & Helshoogte Road, Stellenbosch",6 days,ICPA (Private)
+Western Cape,Cape Town MM,CT Klipfontein SD,Rondebosch East Pharmacy,88 Kromboom Road,6 days,ICPA (Private)
+Western Cape,Cape Town MM,CT Klipfontein SD,Braude's Pharmacy,"31B Lawrence Rd, Athlone, Cape Town",6 days,ICPA (Private)
+Western Cape,Cape Winelands DM,Stellenbosch LM,Stelkor Pharmacy,34 Piet Retief Street,6 days,ICPA (Private)
+Western Cape,Cape Winelands DM,Stellenbosch LM,Franschhoek Pharmacy,62 Huguena T Road,6 days,ICPA (Private)
+Western Cape,Cape Town MM,CT Tygerberg SD,Parow Family Pharmacy,Cnr Jan Van Riebeeck & Voortrekker Street,6 days,ICPA (Private)
+Western Cape,Cape Town MM,CT Southern SD,Warrens Pharmacy,71 Main Road,6 days,ICPA (Private)
+Western Cape,Cape Town MM,CT Western SD,Salmarz Pharmacy,"TK001 & TK002 Ground floor, The Park Lane, Alexandra road, Pinelands, Cape Town",6 days,ICPA (Private)
+Western Cape,Cape Town MM,CT Southern SD,Vitacare Pharmacy - Rondebosch,"Riverside Mall, Main Road Rondebosch",6 days,ICPA (Private)
+Western Cape,Cape Town MM,CT Southern SD,Steenberg Pharmacy,"Military Rd, Steenberg, Cape Town, 7947",6 days,ICPA (Private)
+Western Cape,West Coast DM,Swartland LM,Geard Pharmacy,"69 Voortrekker Road, Malmesbury",6 days,ICPA (Private)
+Western Cape,Garden Route DM,Mossel Bay LM,Life Bay View Private Hospital,Cnr Alhof and Ryk Tulbach Streets,5 days,Life Healthcare (Private)
+Western Cape,Garden Route DM,Knysna LM,Life Knysna Pvt Hosp,Hunters Estate Drive,5 days,Life Healthcare (Private)
+Western Cape,Cape Town MM,CT Southern SD,Life Kingsbury Hosp,23 Wilderness Road,5 days,Life Healthcare (Private)
+Western Cape,West Coast DM,Saldanha Bay LM,Life West Coast Private Hospital,22 Voortrekker Street,5 days,Life Healthcare (Private)
+Western Cape,Cape Town MM,CT Southern SD,Sun Valley No 2 Pharmacy,"G68, Buller Louw Blvd, Noordhoek, Cape Town",5 days,Medicare (Private)
+Western Cape,Cape Town MM,CT Southern SD,Wynberg Pharmacy,222 Main Road,5 days,Medicare (Private)
+Western Cape,Overberg DM,Overstrand LM,Mediclinic Hermanus Hosp,Ravenscroft Road,5 days,Mediclinic (Private)
+Western Cape,Cape Winelands DM,Drakenstein LM,Mediclinic Paarl,"Berlyn Street, Noorder Paarl Western Cape",5 days,Mediclinic (Private)
+Western Cape,Cape Town MM,CT Tygerberg SD,Mediclinic Louis Leipoldt Hosp,Broadway Road,5 days,Mediclinic (Private)
+Western Cape,Cape Town MM,CT Northern SD,Mediclinic Cape Gate Hosp,Tanner Street Cnr Okavango and Tanner Roads,5 days,Mediclinic (Private)
+Western Cape,Cape Town MM,CT Western SD,Mediclinic Cape Town Hosp,21 Hof Street Oranjezicht,5 days,Mediclinic (Private)
+Western Cape,Cape Town MM,CT Western SD,Mediclinic Milnerton Hosp,117 Racecourse Road Cnr Racecourse and Koeberg Road,5 days,Mediclinic (Private)
+Western Cape,Cape Winelands DM,Stellenbosch LM,Mediclinic Winelands Orthopaedic Hospital,"cnr Saffraan & Rokewood Avenue, Die Boord, Stellenbosch",5 days,Mediclinic (Private)
+Western Cape,Cape Town MM,CT Northern SD,Mediclinic Durbanville Hosp,45 Wellington Road,5 days,Mediclinic (Private)
+Western Cape,Cape Town MM,CT Southern SD,Mediclinic Constantiaberg Hospital,Burnham Road,5 days,Mediclinic (Private)
+Western Cape,Garden Route DM,Oudtshoorn LM,Mediclinic Klein Karoo Hospital,185 Church Street,5 days,Mediclinic (Private)
+Western Cape,Cape Town MM,CT Eastern SD,Mediclinic Vergelegen Hosp,70 Main Road,5 days,Mediclinic (Private)
+Western Cape,Cape Town MM,CT Tygerberg SD,Momentum Metropolitan Vaccination Centre-Belville,"Parc Du Cap, Building 5 - Ground floor 5 Mispel Street, Bellville, 7535",5 days,Momentum (Private)
+Western Cape,Garden Route DM,George LM,Pick n Pay Pharmacy George,"Pick 'n Pay Centre, Knysna Road George,6530",6 days,Pick n Pay (Private)
+Western Cape,Cape Town MM,CT Northern SD,Pick N Pay Pharmacy - Plattekloof,Plattekloof Village Centre Cnr Plattekloof & Gert v Rooyen Rd,6 days,Pick n Pay (Private)
+Western Cape,Cape Town MM,CT Mitch Plain SD,Pick n Pay Pharmacy Promenade,"Shop 1, Promenade shopping centre, Cnr AZ Berman Drive and Morgenster road Promenade Mitchells Plain Western Cape 7785",6 days,Pick n Pay (Private)
+Western Cape,Garden Route DM,Kannaland LM,Zoar Sports Club,Route 62 Main Road,1 day,Public
+Western Cape,Central Karoo DM,Beaufort West LM,Nelspoort Clinic,"Hopsital street, Nelspoort",1 day,Public
+Western Cape,Central Karoo DM,Laingsburg LM,Matjiesfontein Satellite Clinic,Laingsburg,1 day,Public
+Western Cape,Central Karoo DM,Prince Albert LM,Klaarstroom Satellite Clinic,Bloekam Street,1 day,Public
+Western Cape,Garden Route DM,Bitou LM,Crags Clinic,Geelhout Street Kurland The Crags,1 day,Public
+Western Cape,Garden Route DM,Bitou LM,Kranshoek Clinic,"378 Van Rooyen Street, Kranshoek",1 day,Public
+Western Cape,Overberg DM,Cape Agulhas LM,Bredasdorp Glaskasteel,"South Steet, Bredasdorp",1 day,Public
+Western Cape,Garden Route DM,Hessequa LM,Slangrivier Satellite Clinic,School Street,1 day,Public
+Western Cape,Cape Winelands DM,Witzenberg LM,Nduli Clinic,"53 Chris Hani Drive, Nduli, Ceres, 6834",1 day,Public
+Western Cape,Garden Route DM,Kannaland LM,Van Wyksdorp Kerksaal,Main Road,1 day,Public
+Western Cape,Garden Route DM,Knysna LM,Keurhoek Satellite Clinic,44 Watson Street Rheenendal Knysna 6576,1 day,Public
+Western Cape,Garden Route DM,Knysna LM,Karatara Satellite Clinic,"Kerk Street, Karatara",1 day,Public
+Western Cape,Garden Route DM,Oudtshoorn LM,Dysselsdorp Clinic,Bokkraal Avenue Dysselsdorp,1 day,Public
+Western Cape,Garden Route DM,Oudtshoorn LM,De Rust (Blommenek) Clinic,Bloemnek Road De Rust,1 day,Public
+Western Cape,Garden Route DM,Hessequa LM,Melkhoutfontein Satellite Clinic,Erica Cresent Melkhoutfontein,1 day,Public
+Western Cape,Cape Winelands DM,Stellenbosch LM,Kayamandi Corridor,George Blake Street,1 day,Public
+Western Cape,Cape Winelands DM,Breede Valley LM,Rawsonville VGK Church Hall,37 Denova Street,1 day,Public
+Western Cape,Overberg DM,Theewaterskloof LM,Greyton Satellite Clinic,1 Park Street,1 day,Public
+Western Cape,Cape Winelands DM,Langeberg LM,Chris Van Zyl Hall,Voortrekker Road,1 day,Public
+Western Cape,Cape Winelands DM,Langeberg LM,Montagu Community Hall,Wilhelm Thys Avenue,1 day,Public
+Western Cape,Cape Winelands DM,Langeberg LM,Ashton Town Hall,12 Swart Street,1 day,Public
+Western Cape,Central Karoo DM,Beaufort West LM,Merweville Satellite Clinic,Hugenoot Street,1 day,Public
+Western Cape,Cape Winelands DM,Stellenbosch LM,Groendal Community Hall,"29 Stiebeuel Str, Le Roux, Franschoek, 7690",1 day,Public
+Western Cape,Cape Winelands DM,Witzenberg LM,Bella Vista Clinic,"Krisante Street, Bella Vista, 6837",1 day,Public
+Western Cape,Cape Winelands DM,Stellenbosch LM,Eikestad Hall,87 Lang Street,1 day,Public
+Western Cape,Cape Winelands DM,Witzenberg LM,Prince Alfred Hamlet Clinic,"Meul Street, Prince Alfred Hamlet",1 day,Public
+Western Cape,Cape Winelands DM,Witzenberg LM,Op die Berg Clinic,"C/O Church & Sonkruin Avenue, Op Die Berg, Koue Bokkeveld, Ceres",1 day,Public
+Western Cape,Cape Winelands DM,Witzenberg LM,Tulbagh Clinic,"Steinthal Road, Tulbagh, 6800",1 day,Public
+Western Cape,Cape Winelands DM,Witzenberg LM,Wolseley Clinic,"C/O Eufees and Piet Retief Street, Wolseley",1 day,Public
+Western Cape,Central Karoo DM,Prince Albert LM,Leeu-Gamka Clinic,"Duiker Street, Leeu Gamka",1 day,Public
+Western Cape,Cape Winelands DM,Stellenbosch LM,Klapmuts Multi-Purpose Centre,"Klapmuts, 7625",1 day,Public
+Western Cape,Overberg DM,Cape Agulhas LM,Nuwedorp Mobile Post,Nuwedorp,1 day,Public
+Western Cape,Overberg DM,Theewaterskloof LM,Bereaville Satellite Clinic,"Lang Street, Beaville",1 day,Public
+Western Cape,Overberg DM,Theewaterskloof LM,Voorstekraal Satellite Clinic,"Helderstroom Road, Voorstekraal",1 day,Public
+Western Cape,Overberg DM,Swellendam LM,Buffeljagsrivier Clinic,H/V Oliverdale And Stout Lane,1 day,Public
+Western Cape,Overberg DM,Swellendam LM,Suurbraak Clinic,"Helm Circle, Suurbraak",1 day,Public
+Western Cape,Overberg DM,Cape Agulhas LM,Railton Community Hall,"Reisiebaan Street, Railton",1 day,Public
+Western Cape,Overberg DM,Cape Agulhas LM,Nelson Mandela Hall,"DC Bastiaan Street, Bredasdorp",1 day,Public
+Western Cape,Overberg DM,Cape Agulhas LM,Swellendam Showgrounds,"Station Street, Swellendam",1 day,Public
+Western Cape,Overberg DM,Overstrand LM,Caledon/Hermanus/Stanford Mobile 4,"C/O Dreyer and Mathilda May Street, Stanford",1 day,Public
+Western Cape,Overberg DM,Overstrand LM,Mooi Uitsig Community Hall,"Mooi Uitsig, Bettysbay",1 day,Public
+Western Cape,Overberg DM,Overstrand LM,Chapel Bettysbay,"Lakeside Road, Bettysbay",1 day,Public
+Western Cape,Overberg DM,Cape Agulhas LM,Waenhuiskrans Satellite Clinic,"Aghulhas Street, Wave Crest",1 day,Public
+Western Cape,Overberg DM,Cape Agulhas LM,Elim Satellite Clinic,Diw Werf Elim,1 day,Public
+Western Cape,Overberg DM,Cape Agulhas LM,Bredasdorp Mobile 1,"C/O Lang & Recreations street, Bredasdorp",1 day,Public
+Western Cape,Overberg DM,Cape Agulhas LM,Bredasdorp Mobile 2,"C/O Lang & Recreation Street, Bredasdorp",1 day,Public
+Western Cape,Overberg DM,Swellendam LM,Fort Haven Hall Barrydale,"Heidelaan, Fort Haven, Barrydale",1 day,Public
+Western Cape,Overberg DM,Cape Agulhas LM,Struisbaai Clinic,"Molshoop Deining Avenue, Struisbaai",1 day,Public
+Western Cape,Overberg DM,Cape Agulhas LM,Napier Clinic,H/R Volhan En Wes Street Napierbredasdorp,1 day,Public
+Western Cape,Overberg DM,Overstrand LM,Mount Pleasant Moffat Hall,"Dahlia Street, Mount Pleasant, Hermanus",2 days,Public
+Western Cape,Overberg DM,Overstrand LM,Zwelihle Community Hall,"Lusiba Road, Zwelihle, Hermanus",2 days,Public
+Western Cape,Cape Town MM,CT Eastern SD,Nomzamo Community Hall,"Cnr Solomon & Nombula Street, Nomzamo, 7140",2 days,Public
+Western Cape,Garden Route DM,Knysna LM,Sedgefield Clinic,Pelican Lane Sedgefield Behind Police Station,2 days,Public
+Western Cape,Overberg DM,Overstrand LM,Stanford Clinic,Cnr Mathilda And Dreyer Streeet,2 days,Public
+Western Cape,Garden Route DM,Hessequa LM,Albertinia Theronsville Hall,Theronsville,2 days,Public
+Western Cape,Overberg DM,Overstrand LM,Hawston Thusong Hall,2 Church Street,2 days,Public
+Western Cape,Garden Route DM,Hessequa LM,Gouritsmond Hall,,2 days,Public
+Western Cape,Garden Route DM,Kannaland LM,Ladismith DRC Church Hall,Queen Street,2 days,Public
+Western Cape,Garden Route DM,Kannaland LM,Calitzdorp DRC Church Hall,Main Road,2 days,Public
+Western Cape,Overberg DM,Theewaterskloof LM,Genadendal Clinic,"Hester Dorothea Hall, Genadendal, 7234",3 days,Public
+Western Cape,Overberg DM,Theewaterskloof LM,Botrivier Clinic,Fontein Street,3 days,Public
+Western Cape,Overberg DM,Theewaterskloof LM,Villiersdorp Clinic,1A Protea Street,3 days,Public
+Western Cape,Overberg DM,Overstrand LM,Proteadorp Community Hall,Protea Road,3 days,Public
+Western Cape,Overberg DM,Theewaterskloof LM,Grabouw Kleinbegin/Timbers,28 Worcester Street,3 days,Public
+Western Cape,Garden Route DM,Bitou LM,Kwanokuthula CDC,4918 Sishuba Street Kwanokuthula,3 days,Public
+Western Cape,Overberg DM,Overstrand LM,Sports Hall Gansbaai,Municipal Centre,3 days,Public
+Western Cape,Garden Route DM,Hessequa LM,Heidelberg Duivenhoks Hall,Eksteen Street,3 days,Public
+Western Cape,Garden Route DM,Hessequa LM,Witsand de Duine Hall,Joseph Barry Drive,3 days,Public
+Western Cape,Overberg DM,Overstrand LM,Hermanus CDC,Corner Of Swartdam Weg En Gideon Van Wyk Crescent,3 days,Public
+Western Cape,Garden Route DM,Hessequa LM,Still Bay Civic Centre,Main Road,4 days,Public
+Western Cape,Garden Route DM,Mossel Bay LM,Wolwedans Community Hall,"Vygie Avenue, Wolwedans",4 days,Public
+Western Cape,Garden Route DM,Mossel Bay LM,D'Almeida Community Hall,"Mossel Street, D'Almeida",4 days,Public
+Western Cape,Garden Route DM,Mossel Bay LM,Mossel Bay Outreach Mobile,"21st Avenue, Mossel Bay hospital",4 days,Public
+Western Cape,Cape Town MM,CT Tygerberg SD,CCT Chestnut Satellite Clinic,"Chestnut Way, Belhar",4 days,Public
+Western Cape,Garden Route DM,Mossel Bay LM,Alma CDC,Bill Jeffery Ave Ext 23 Mosselbay,4 days,Public
+Western Cape,Garden Route DM,Mossel Bay LM,Mossel Bay Town Hall,Marsh Street,4 days,Public
+Western Cape,Cape Town MM,CT Eastern SD,Macassar CDC,"Cnr Hospital And Musica Street, Macassar, Cape Town, 7130",5 days,Public
+Western Cape,Cape Town MM,CT Khayelitsha SD,Michael Mapongwana CDC,"Steve Biko Road, Harare, Khayelitsha",5 days,Public
+Western Cape,Cape Town MM,CT Eastern SD,Mfuleni CDC,"Church Street, Mfuleni",5 days,Public
+Western Cape,Cape Town MM,CT Eastern SD,Macassar New Civic,"Burg St, Macassar, Cape Town, 7130",5 days,Public
+Western Cape,Cape Town MM,CT Khayelitsha SD,Nolungile CDC,"Solomon Tshuku Street, Khayelitsha Site C, Ikwezi Park, khayelitsha, Cape Town 7784",5 days,Public
+Western Cape,Cape Town MM,CT Southern SD,Lotus River CDC,Cnr Of Anita And Delia Road,5 days,Public
+Western Cape,Cape Town MM,CT Western SD,West EMS Pinelands,,5 days,Public
+Western Cape,Cape Winelands DM,Breede Valley LM,De Doorns Clinic,"Wilger Street, De Doorns, 6875",5 days,Public
+Western Cape,Cape Town MM,CT Mitch Plain SD,Lentegeur Hospital Hall,Highlands Drive,5 days,Public
+Western Cape,Cape Town MM,CT Southern SD,Lansdowne Library Hall,Cnr Church Street and Lansdowne Road,5 days,Public
+Western Cape,Cape Town MM,CT Southern SD,Lady Michaelis CDC,Burnham Rd,5 days,Public
+Western Cape,Cape Town MM,CT Eastern SD,Kleinvlei Recreational Hall,"Cnr Albert Philander & Melkbos Streets, Kleinvlei",5 days,Public
+Western Cape,Cape Town MM,CT Western SD,Mamre CDC,"Cnr of Liedeman & Adam Street, Mamre, Cape Town 7347",5 days,Public
+Western Cape,Cape Town MM,CT Tygerberg SD,Ravensmead CDC,"Florida Street, Ravensmead, Cape Town, 7493",5 days,Public
+Western Cape,Cape Town MM,CT Eastern SD,Somerset West Civic - Town Hall,"11 Main Rd, Somerset West, Cape Town, 7130",5 days,Public
+Western Cape,Cape Town MM,CT Northern SD,Scottsdene CDC,"Eoan Lane, Scottsdene, Cape Town 7560",5 days,Public
+Western Cape,Cape Town MM,CT Tygerberg SD,Stikland Hospital,"De La Haye Avenue, Stikland, Bellville",5 days,Public
+Western Cape,Cape Town MM,CT Western SD,Saxonsea Community Hall,14 Hermes Avenue,5 days,Public
+Western Cape,Cape Town MM,CT Southern SD,Retreat CHC,136 11Th Avenue Retreat,5 days,Public
+Western Cape,Cape Town MM,CT Eastern SD,Strand CDC,"Cortland Place 37 Main Road, Strand, 7140",5 days,Public
+Western Cape,Cape Town MM,CT Klipfontein SD,New Apostolic Church,"170 Heideveld Rd, Heideveld, Cape Town, 7764",5 days,Public
+Western Cape,Cape Town MM,CT Eastern SD,Kleinvlei CDC,"Corner Of Alber Philander And Melkbos Roads, Kleinvlei, Eersteriver",5 days,Public
+Western Cape,Cape Town MM,CT Tygerberg SD,Reed Street CDC,"Reed Street, Bellville",5 days,Public
+Western Cape,Cape Town MM,CT Klipfontein SD,Nyanga CDC,"Sithandathu Avenue, Nyanga East",5 days,Public
+Western Cape,Cape Town MM,CT Tygerberg SD,University of the Western Cape vaccine site,Robert Sobukwe Road,5 days,Public
+Western Cape,Cape Town MM,CT Eastern SD,Nomzamo CDC,"C/O Solomon & Nombula Street, Nomzamo, Strand",5 days,Public
+Western Cape,Cape Town MM,CT Western SD,Vanguard CHC,"Cnr Citrus Road Candlewood Road, Bonteheuwel",5 days,Public
+Western Cape,Cape Town MM,CT Khayelitsha SD,Solomon Tshuku Hall,"Site - C- Plaza, Solomon Tshuku Ave, Khayelitsha, Cape Town, 7784",5 days,Public
+Western Cape,Cape Town MM,CT Western SD,New Somerset Hospital,"Portswood Road, Green Point, Cape Town, 8001",5 days,Public
+Western Cape,Cape Town MM,CT Tygerberg SD,Symphony Way CDC,"3 Silversands Road, Symphony Village, Delft",5 days,Public
+Western Cape,Cape Town MM,CT Western SD,District Six CDC,"Corner Primrose And Caledon Street, Cape Town, 8000",5 days,Public
+Western Cape,Cape Town MM,CT Klipfontein SD,CCT Ruimte Road Satellite Clinic,"Ruimte Road, Manenberg",5 days,Public
+Western Cape,Cape Town MM,CT Eastern SD,Eerste River Hospital,"117 Humbolt Avenue, Perm Gardens, Eerste River, 7100",5 days,Public
+Western Cape,Cape Town MM,CT Northern SD,Durbanville CDC,"De Villiers Avenue, Durbanville, Cape Town, 7550",5 days,Public
+Western Cape,Cape Winelands DM,Breede Valley LM,Empilisweni (Worcester) Clinic,"Mayinjana Ave, Zweletemba, Worcester, 6840",5 days,Public
+Western Cape,Cape Winelands DM,Langeberg LM,Happy Valley Clinic,"Happy Valley, Saltana Laan, Bonnievale, 6730",5 days,Public
+Western Cape,Cape Town MM,CT Eastern SD,CCT Sarepta Clinic,"Rietvlei Street, Sarepta, Kuilsrivier",5 days,Public
+Western Cape,Cape Town MM,CT Southern SD,False Bay Hospital,17th Avenue,5 days,Public
+Western Cape,Cape Town MM,CT Southern SD,Dominican Grimley School Hall,Cnr Valley & Park Avenue,5 days,Public
+Western Cape,Cape Town MM,CT Eastern SD,Garden Village Hall Somerset West,"Community Centre, Gum Str, Garden Village, Somerset West",5 days,Public
+Western Cape,Cape Town MM,CT Tygerberg SD,Disa Hall Tygerberg Hospital,"Tygerberg Hospital, Francie van Zijl Avenue",5 days,Public
+Western Cape,Cape Town MM,CT Tygerberg SD,Delft CHC,1 Delft Main Road Delft,5 days,Public
+Western Cape,Cape Town MM,CT Western SD,CTICC Vaccination Centre of Hope,1 Lower Long Street,5 days,Public
+Western Cape,Cape Town MM,CT Mitch Plain SD,Crossroads Hall,"Gwayi Street, Lower Crossroads, Cape Town, 7750",5 days,Public
+Western Cape,Cape Town MM,CT Tygerberg SD,CPUT Bellville,"Symphony Way (off Robert Sobukwe Road), 7530",5 days,Public
+Western Cape,Cape Town MM,CT Eastern SD,Charles Morkel Hall,"Philip Mostert Street (off Church Street), Strand, 7139",5 days,Public
+Western Cape,Cape Town MM,CT Southern SD,DP Marais Hospital,Cnr Main And White Road Retreat,5 days,Public
+Western Cape,Cape Town MM,CT Eastern SD,Helderberg Hospital,"Cnr of Lourensford Avenue & Hospital Road, Somerset West, 7130",5 days,Public
+Western Cape,Cape Town MM,CT Khayelitsha SD,Khayelitsha (Site B) CHC,Lwandle Road,5 days,Public
+Western Cape,Cape Town MM,CT Klipfontein SD,Kewtown New Apostolic Church,"65A Eland St, Kewtown, Cape Town, 7764",5 days,Public
+Western Cape,Cape Town MM,CT Eastern SD,CCT Sir Lowry's Pass CDC,"Cnr Nolan & Brinkhuis Str, Sir Lowry'S Pass",5 days,Public
+Western Cape,Cape Town MM,CT Western SD,Kensington CDC,"6Th Avenue, Kensington, 7405",5 days,Public
+Western Cape,Cape Town MM,CT Tygerberg SD,Karl Bremer Hospital,"Corner of Mike Pienaar Boulevard and Frans Conradie Drive, Bellville",5 days,Public
+Western Cape,Cape Town MM,CT Mitch Plain SD,Inzama Zabantu CDC,"2498 Ngqawa Str, Browns Farm, Cape Town, 7750",5 days,Public
+Western Cape,Cape Town MM,CT Tygerberg SD,Elsies River CHC,"C/O 29Th Avenue and Halt Road, Elsies River",5 days,Public
+Western Cape,Cape Town MM,CT Western SD,Hope Street Dental,Hope Street,5 days,Public
+Western Cape,Cape Town MM,CT Khayelitsha SD,Khayelitsha Hospital,"Corner of Steve Biko and Walter Sisulu Drive, Khayelitsha",5 days,Public
+Western Cape,Cape Town MM,CT Klipfontein SD,Heideveld CHC,"221A Heideveld Road, Heideveld, Cape Town, 7764",5 days,Public
+Western Cape,Cape Town MM,CT Klipfontein SD,Hanover Park CDC,"Cnr Hanlyn Walk And Hanover Park Avenue, hanover park, cape town, 7782",5 days,Public
+Western Cape,Cape Town MM,CT Western SD,Du Noon CHC,"Cnr of Winning & McClaren Rd, Du Noon, 7441",5 days,Public
+Western Cape,Cape Town MM,CT Mitch Plain SD,CCT Tafelsig Thusong Centre,Cnr Kilimanjaro and Pyrenees Streets,5 days,Public
+Western Cape,Cape Town MM,CT Eastern SD,Gustrouw CDC,"89 Hassan Khan Avenue, Strand, 7139",5 days,Public
+Western Cape,Cape Town MM,CT Tygerberg SD,Goodwood Hall,"Mcdonald St, Goodwood, Cape Town, 7466",5 days,Public
+Western Cape,Cape Town MM,CT Klipfontein SD,Ikhwezi Community Hall,178 Steve Biko Street,5 days,Public
+Western Cape,Cape Winelands DM,Stellenbosch LM,Kylemore Clinic,"19 Skool Street, Kylemore, 7600",5 days,Public
+Western Cape,Central Karoo DM,Beaufort West LM,Nieuveldpark Clinic,"Zerostreet, Nieuveldpark",5 days,Public
+Western Cape,Central Karoo DM,Beaufort West LM,Kwamandlenkosi Clinic,"Plaza Road, Kwamandlenkosi, Beaufort West",5 days,Public
+Western Cape,Central Karoo DM,Beaufort West LM,Beaufort West CDC,"C/O David & Van Schalkwyk Street, Beaufort West",5 days,Public
+Western Cape,Central Karoo DM,Beaufort West LM,Hillside Clinic,"Plein Street, Hillside",5 days,Public
+Western Cape,Cape Winelands DM,Witzenberg LM,Ceres Hospital,"C/O Theron and Rivierkant Street, Ceres, 6835",5 days,Public
+Western Cape,Cape Winelands DM,Langeberg LM,Zolani Clinic,"Building Street (Opposite Saps), Zolani, Ashton",5 days,Public
+Western Cape,Cape Winelands DM,Stellenbosch LM,Don and Pat Bilton Clinic,"5 Pajora Way, Jamestown",5 days,Public
+Western Cape,Central Karoo DM,Prince Albert LM,Prince Albert Clinic,Lower Mark Street,5 days,Public
+Western Cape,Cape Winelands DM,Stellenbosch LM,Idas Valley Clinic,"Helshoogte Road, Idas Valley",5 days,Public
+Western Cape,Cape Winelands DM,Stellenbosch LM,Kayamandi Clinic,"56 Bassi Street, Kayamandi",5 days,Public
+Western Cape,Cape Winelands DM,Stellenbosch LM,Cloetesville CDC,"Cnr Tenant Street And Bell Street, Stellenbosch",5 days,Public
+Western Cape,Cape Winelands DM,Langeberg LM,Callie de Wet Hall,8 Kerk Street,5 days,Public
+Western Cape,Cape Winelands DM,Langeberg LM,McGregor Clinic,"Tindal Street (Next To The Public Library), Mcgregor",5 days,Public
+Western Cape,Cape Winelands DM,Langeberg LM,Montagu Clinic,"4 Park Street, Bergsig, Montagu",5 days,Public
+Western Cape,Cape Winelands DM,Stellenbosch LM,Van Der Stel Sports Grounds,"Bergzicht Street, Stellenbosch Central, 7600",5 days,Public
+Western Cape,Garden Route DM,George LM,George Mobile 1,,5 days,Public
+Western Cape,Overberg DM,Theewaterskloof LM,Grabouw CHC,"Ou Kaapse Weg, Grabouw",5 days,Public
+Western Cape,Overberg DM,Overstrand LM,Hermanus Auditorium,"Harmony Avenue, Hermanus",5 days,Public
+Western Cape,Garden Route DM,Oudtshoorn LM,Oudtshoorn Clinic,31 Adderley Street 6620,5 days,Public
+Western Cape,Garden Route DM,Oudtshoorn LM,Toekomsrust Community Hall,15h Avenue,5 days,Public
+Western Cape,Garden Route DM,Knysna LM,Knysna Town Hall,Queen Street,5 days,Public
+Western Cape,Garden Route DM,Knysna LM,Knysna CDC,10640 Joodsekamp Corncodia Road Knysna,5 days,Public
+Western Cape,Central Karoo DM,Beaufort West LM,Murraysburg Clinic,"1 Pienaar Street, P.O Box 318, Murraysburg",5 days,Public
+Western Cape,Garden Route DM,George LM,Pacaltsdorp Clinic,33 Mission Street,5 days,Public
+Western Cape,Central Karoo DM,Laingsburg LM,Laingsburg Clinic,"Voortrekker Street, Laingsburg, 6900",5 days,Public
+Western Cape,Garden Route DM,George LM,Uniondale Hospital,3 Hospital Street,5 days,Public
+Western Cape,Garden Route DM,George LM,George Central Clinic,C/O Progress And Gale Street George 6529,5 days,Public
+Western Cape,Garden Route DM,George LM,Thembalethu CDC,Ngcakani Street Thembalethu George,5 days,Public
+Western Cape,Garden Route DM,George LM,Harry Comay TB Hospital,Sandkraal Road George Industria,5 days,Public
+Western Cape,Garden Route DM,Bitou LM,Plettenberg Bay Clinic,Marine Drive Plettenberg Bay,5 days,Public
+Western Cape,Cape Winelands DM,Langeberg LM,Cogmanskloof Clinic,"C/O Jakaranda and Carnation Avenue, Ashton",5 days,Public
+Western Cape,Garden Route DM,Hessequa LM,Riversdale Civic Centre,Corner of van den Berg Street and Heidelberg Road,5 days,Public
+Western Cape,Cape Town MM,CT Khayelitsha SD,Andile MsiziCommunity Hall,"C/O Bangiso and Sigwela Road, Site B, Khayelitsha",5 days,Public
+Western Cape,Cape Town MM,CT Eastern SD,CCT Ikhwezi CDC,"3 Simon Str, Nomzamo, Strand 7140",5 days,Public
+Western Cape,Cape Town MM,CT Eastern SD,CCT Eerste River Clinic,C/O Bobsway & Beverley Road Eerste River,5 days,Public
+Western Cape,Cape Town MM,CT Northern SD,CCT Brackenfell Hall,"Cnr Old Paarl Road & Paradys St, Brackenfell, Cape Town, 7560",5 days,Public
+Western Cape,Cape Town MM,CT Tygerberg SD,CCT Adriaanse Clinic,"40 Th Avenue, Clarke Estate, Elsies River",5 days,Public
+Western Cape,Cape Town MM,CT Western SD,Brooklyn Chest Hospital,"Stanberry Street, Ysterplaat 7425",5 days,Public
+Western Cape,Cape Town MM,CT Northern SD,Bothasig CDC,"C/O Swellengrebel & De Grendel Road, Bothasig",5 days,Public
+Western Cape,Cape Town MM,CT Southern SD,CCT Ocean View Civic Centre,Carina Close,5 days,Public
+Western Cape,Cape Town MM,CT Mitch Plain SD,Beaconvale Frail Care Centre,"Cnr Rambler and Pontiac Road, Beacon Valley, Mitchell's Plain, 7802",5 days,Public
+Western Cape,Cape Winelands DM,Drakenstein LM,Gouda Clinic,"Roos Street, Gouda",5 days,Public
+Western Cape,Cape Town MM,CT Western SD,Alexandra Hospital,"Cnr of Alexandra & Annex Rd, Maitland",5 days,Public
+Western Cape,Cape Town MM,CT Western SD,4 Dorp Street City Centre,4 Dorp Street,5 days,Public
+Western Cape,Cape Winelands DM,Breede Valley LM,Sandhills Clinic,"Water Affairs, Sandhills, 6854",5 days,Public
+Western Cape,Cape Winelands DM,Breede Valley LM,Orchard Clinic,"Modderdrift Avenue, Orchard, 6870",5 days,Public
+Western Cape,Cape Winelands DM,Breede Valley LM,Touws River Clinic,"Wes Street, Touwsrivier, 6880",5 days,Public
+Western Cape,Cape Winelands DM,Breede Valley LM,Worcester Town Hall,93 High Street,5 days,Public
+Western Cape,Cape Town MM,CT Tygerberg SD,Bishop Lavis CDC,"C/O Bishop Lavis and Lenton Drive, Bishop Lavis",5 days,Public
+Western Cape,Cape Winelands DM,Drakenstein LM,Phola Park Clinic,"Bukanani Street, Mbekweni",5 days,Public
+Western Cape,Cape Winelands DM,Drakenstein LM,Thusong Centre Phola Park,"Msobomvu Street, Mbekweni, Paarl, 7626",5 days,Public
+Western Cape,Cape Winelands DM,Drakenstein LM,Mbekweni Community Hall,43 Mphakalasi,5 days,Public
+Western Cape,Cape Winelands DM,Drakenstein LM,Windmeul Clinic,"Vryguns Road, Paarl",5 days,Public
+Western Cape,Cape Winelands DM,Drakenstein LM,Wellington CDC,"Dr Abduraghman Rd, Van Wyksvlei, Wellington, 7655",5 days,Public
+Western Cape,Cape Winelands DM,Drakenstein LM,Soetendal Clinic,"Hermon Road, Wellington",5 days,Public
+Western Cape,Cape Town MM,CT Khayelitsha SD,CCT Kuyasa Public Library,Walter Sisulu Rd,5 days,Public
+Western Cape,Cape Winelands DM,Drakenstein LM,Saron Clinic,"Hoofweg, Saron",5 days,Public
+Western Cape,Cape Winelands DM,Drakenstein LM,Dalvale Clinic,"Symphony Avenue, Groenheuwel",5 days,Public
+Western Cape,Cape Winelands DM,Drakenstein LM,Patriot Plein Clinic,"Patriot Square, New Derksen Street, Paarl, 7646",5 days,Public
+Western Cape,Cape Winelands DM,Drakenstein LM,Nieuwedrift Clinic,"R45, Boland Wynkelder Road, Paarl North",5 days,Public
+Western Cape,Cape Winelands DM,Drakenstein LM,Klein Drakenstein Clinic,"Keerweerder Street, Paarl East",5 days,Public
+Western Cape,Cape Winelands DM,Drakenstein LM,Huis McCrone Clinic,"Schwartz Street, Wellington",5 days,Public
+Western Cape,Cape Winelands DM,Breede Valley LM,Rawsonville Clinic,"Uit Street, De Nova, Rawsonville, 6845",5 days,Public
+Western Cape,Cape Winelands DM,Drakenstein LM,Simondium Clinic,"R45, Watergat Pad, Simondium",5 days,Public
+Western Cape,Cape Town MM,CT Mitch Plain SD,Mitchells Plain CHC,"First Avenue, Beacon Valley, Cape Town, 7785",6 days,Public
+Western Cape,Cape Winelands DM,Drakenstein LM,TC Newman CDC,Cnr Rosary And Broadway School Paarl,6 days,Public
+Western Cape,Cape Town MM,CT Klipfontein SD,Gugulethu CHC,"Cnr of Bishop’s Court ( NY 3) and (NY 77), Thembalethu",6 days,Public
+Northern Cape,Frances Baard DM,Sol Plaatje LM,Clicks Pharmacy North Cape Mall,Memorial Road,5 days,Clicks (Private)
+Northern Cape,J T Gaetsewe DM,Gamagara LM,Clicks Pharmacy Kathu,Hendrik Van Eck Road,5 days,Clicks (Private)
+Northern Cape,Frances Baard DM,Sol Plaatje LM,Diamond Pavilion Clicks Pharmacy,"Shop 5, Diamond Pavilion Centre,CNR Oliver & Macdougal Roads, Monument Heights",5 days,Clicks (Private)
+Northern Cape,Namakwa DM,Nama Khoi LM,Clicks Pharmacy Springbok,Voortrekker & Uitspan Streets,5 days,Clicks (Private)
+Northern Cape,ZF Mgcawu DM,Dawid Kruiper LM,Clicks Pharmacy Kalahari Mall,Kalahari Mall,5 days,Clicks (Private)
+Northern Cape,ZF Mgcawu DM,Dawid Kruiper LM,Dis-Chem Kalahari Mall Pharmacy,Van Riebeeck Street,6 days,Dis-Chem (Private)
+Northern Cape,ZF Mgcawu DM,Dawid Kruiper LM,Mediclinic Upington,Cnr 4th Avenue and du Toit Street,5 days,Mediclinic (Private)
+Northern Cape,Frances Baard DM,Sol Plaatje LM,Mediclinic Gariep Hospital,112 Mac Dougall Street,5 days,Mediclinic (Private)
+Northern Cape,nc Zwelentlanga Fatman Mgcawu District Municipality,nc Kai !Garib LM,Keimoes Apteek,"41A Main Rd, Keimoes, 8860",5 days,The Local Choice (Private)
+Northern Cape,Frances Baard DM,Dikgatlong LM,Prof ZK Matthews Hospital,4515 North Street,Monday to Friday | 08:00 - 15:00,Public
+Northern Cape,Frances Baard DM,Magareng LM,Warrenton CHC,Hospital Street,Monday to Friday | 08:00 - 15:00,Public
+Northern Cape,Frances Baard DM,Phokwane LM,GANSPAN CLINIC,Andalusia Street 1 Jan Kempdorp,Monday to Friday | 08:00 - 15:00,Public
+Northern Cape,Frances Baard DM,Phokwane LM,Hartswater (Connie Vorster) Hospital,1 Hospital Street,Monday to Friday | 08:00 - 15:00,Public
+Northern Cape,Frances Baard DM,Phokwane LM,VALSPAN CLINIC,283 Korope Street Jan Kempdorp,Monday to Friday | 08:00 - 15:00,Public
+Northern Cape,Frances Baard DM,Sol Plaatje LM,Galeshewe Day Hospital,21 Tyson Road Galeshewe Kimberley,Monday to Friday | 08:00 - 15:00,Public
+Northern Cape,Frances Baard DM,Sol Plaatje LM,Harmony Home (Robert Mangaliso Sobukwe Hospital Outreach),Aristotle Ave,Monday to Friday | 08:00 - 15:00,Public
+Northern Cape,Frances Baard DM,Sol Plaatje LM,Northern Cape Specialised Psychiatric Hospital,Portion 84 Bultfontein Farm. Number 80 on R31. Barkley Road,Monday to Friday | 08:00 - 15:00,Public
+Northern Cape,Frances Baard DM,Sol Plaatje LM,Ritchie Clinic Outreach 1 - Rietvale Community Hall,391 Ritchie Street,Monday to Friday | 08:00 - 15:00,Public
+Northern Cape,Frances Baard DM,Sol Plaatje LM,Riverton Satellite Clinic,,Monday to Friday | 08:00 - 15:00,Public
+Northern Cape,Frances Baard DM,Sol Plaatje LM,West End Specialised TB Hospital,"121 Green Street West End, Galashewe",Monday to Friday | 08:00 - 15:00,Public
+Northern Cape,J T Gaetsewe DM,Gamagara LM,Olifantshoek CHC,Korrannabergweg No.09,Monday to Friday | 08:00 - 15:00,Public
+Northern Cape,J T Gaetsewe DM,Ga-Segonyana LM,Kuruman Hospital,"1 Main Road, Kuruman",Monday to Friday | 08:00 - 15:00,Public
+Northern Cape,J T Gaetsewe DM,Ga-Segonyana LM,Tshwaragano Hospital,"Main Tsineng Road, Batlharo, 8460",Monday to Friday | 08:00 - 15:00,Public
+Northern Cape,Namakwa DM,Hantam LM,Calvinia Clinic,Le Roux Street Calvinia,Monday to Friday | 08:00 - 15:00,Public
+Northern Cape,Namakwa DM,Khâi-Ma LM,Pofadder CHC,Springbok Street Pofadder,Monday to Friday | 08:00 - 15:00,Public
+Northern Cape,Namakwa DM,Nama Khoi LM,Springbok Community Hall,Koperberg Street,Monday to Friday | 08:00 - 15:00,Public
+Northern Cape,Namakwa DM,Richtersveld LM,Martha Griffiths CHC,Soutpans Road Port Nolloth,Monday to Friday | 08:00 - 15:00,Public
+Northern Cape,Pixley ka Seme DM,Emthanjeni LM,De Aar (Central Karoo) Hospital,van der Merwe street,Monday to Friday | 08:00 - 15:00,Public
+Northern Cape,Pixley ka Seme DM,Siyancuma LM,Douglas (Hester Malan) CHC,Bowker Street Douglas,Monday to Friday | 08:00 - 15:00,Public
+Northern Cape,Pixley ka Seme DM,Siyathemba LM,Prieska (Bill Pickard) Hospital,Coetzee Street,Monday to Friday | 08:00 - 15:00,Public
+Northern Cape,Pixley ka Seme DM,Ubuntu LM,Victoria West Clinic,Voortrekker Road Victoria West,Monday to Friday | 08:00 - 15:00,Public
+Northern Cape,Pixley ka Seme DM,Umsobomvu LM,Manne Dipico (Colesberg) Hospital,Station Road,Monday to Friday | 08:00 - 15:00,Public
+Northern Cape,ZF Mgcawu DM,Dawid Kruiper LM,Upington Clinic,Schroder Street 52 Upington,Monday to Friday | 08:00 - 15:00,Public
+Northern Cape,ZF Mgcawu DM,Kai !Garib LM,Kakamas Hospital,Hoffmeyer Avenue,Monday to Friday | 08:00 - 15:00,Public
+Northern Cape,ZF Mgcawu DM,Tsantsabane LM,Postmasburg Hospital,1 End Street,Monday to Friday | 08:00 - 15:00,Public
+North West,Dr K Kaunda DM,JB Marks LM,Clicks Pharmacy Potchefstroom,Church Street,5 days,Clicks (Private)
+North West,Ngaka Modiri Molema DM,Mahikeng LM,Clicks Pharmacy Mafikeng Crossing,"Shop 15 Mafikeng Crossing Shopping Centre C/O Nelson Mandela Drive and Sekona Drive, Mahikeng, 2745",5 days,Clicks (Private)
+North West,Ngaka Modiri Molema DM,Ditsobotla LM,Clicks Pharmacy Lichtenburg Mall,"Shop 14, Lichtenburg Mall Nelson Mandela Blvd, Lichtenburg",5 days,Clicks (Private)
+North West,Bojanala Platinum DM,Rustenburg LM,Clicks Pharmacy Waterfall Mall,Cashen Ext 12,5 days,Clicks (Private)
+North West,Ruth Segomotsi Mompati DM,Naledi LM,Clicks Pharmacy Vryburg,Market Street,5 days,Clicks (Private)
+North West,Bojanala Platinum DM,Madibeng LM,Clicks Pharmacy Lethlabile Mall,"Shop 5 & 7A, Lethlabile Mall, C/O Main Britz and Osaletdeng Streets",5 days,Clicks (Private)
+North West,Ngaka Modiri Molema DM,Mahikeng LM,Clinix Victoria Prv Hosp,Victoria Road,6 days,Clinix (Private)
+North West,Dr K Kaunda DM,City of Matlosana LM,Dis-Chem Klerksdorp Pharmacy,1 Brother Patrick Road,6 days,Dis-Chem (Private)
+North West,Bojanala Platinum DM,Madibeng LM,Dis-Chem Hartbeespoort Pharmacy,Cnr R511 & Tielman Street,6 days,Dis-Chem (Private)
+North West,Bojanala Platinum DM,Rustenburg LM,Pharmlife Boitekong,Tlou Street,6 days,ICPA (Private)
+North West,Bojanala Platinum DM,Rustenburg LM,Life Peglerae Hosp,173 Beyers Naude Drive,5 days,Life Healthcare (Private)
+North West,Bojanala Platinum DM,Madibeng LM,Mediclinic Brits Hosp,8 Church Street,5 days,Mediclinic (Private)
+North West,Dr K Kaunda DM,JB Marks LM,Mediclinic Potchefstroom,66 Meyer Street,5 days,Mediclinic (Private)
+North West,Bojanala Platinum DM,Rustenburg,Black Mode Pharmacy,"Shop 5, Ropec Building, 20 Fatima Bhayat St, Rustenburg, 0299",5 days,The Local Choice (Private)
+North West,Bojanala Platinum DM,Kgetleng,Koster Hospital,Noord Street,6 days,Public
+North West,Bojanala Platinum DM,Kgetleng,Swartruggens CHC,"Cnr. Nelson Mandela & Lindlyspoort Road, Swartruggens",6 days,Public
+North West,Bojanala Platinum DM,Madibeng,Bapong CHC,Ee167 Skoolplaas Section Bapong Brits,6 days,Public
+North West,Bojanala Platinum DM,Madibeng,Brits Hospital,Cnr Hedrick Verwoerd & Van Velden,6 days,Public
+North West,Bojanala Platinum DM,Moretele,Mathibestad CHC,"Stand No 3042, Machidi Section, Mathibestad",6 days,Public
+North West,Bojanala Platinum DM,Moses Kotane,Madikwe Clinic,1140 Marutlhare Street Madikwe,6 days,Public
+North West,Bojanala Platinum DM,Moses Kotane,Moses Kotane Hospital,Stand 00004 Lekwadi Section,6 days,Public
+North West,Bojanala Platinum DM,Rustenburg,Bafokeng CHC,"Phokeng Village, next To Royal Palace",6 days,Public
+North West,Bojanala Platinum DM,Rustenburg,Boitekong CHC,"Stand 15975, Extension 13",6 days,Public
+North West,Bojanala Platinum DM,Rustenburg,Job Shimankana Tabane Hospital,"Cnr Bosch &, Heystek St, Rustenburg, 0299",6 days,Public
+North West,Dr K Kaunda DM,City of Matlosana LM,Delekile Khoza Clinic,2405 Freedom Street Tigane,6 days,Public
+North West,Dr K Kaunda DM,City of Matlosana LM,Grace Mokgomo CHC,Katleho And Khumalo Corner Street,6 days,Public
+North West,Dr K Kaunda DM,City of Matlosana LM,Westvaal Hospital,Hospital Road,6 days,Public
+North West,Dr K Kaunda DM,JB Marks,Ventersdorp CHC,19 Grens Street,6 days,Public
+North West,Dr K Kaunda DM,JB Marks,Witrand Hospital,2 Deppe Street Dassierand,6 days,Public
+North West,Dr K Kaunda DM,JB Marks LM,Boiki Thlapi CHC,14453 Rata Street Ikageng Potchefstroom,6 days,Public
+North West,Dr K Kaunda DM,Maquassi Hills LM,Tswelelang 2 CHC,1365 Tambo Twelelang Location Wolmaranstad,6 days,Public
+North West,Dr K Kaunda DM,Maqwassie hills,Leeudoringstad CHC,"63 Smuts Street, Leeudoringstad, 2640",6 days,Public
+North West,Dr K Kaunda DM,Maqwassie Hills,Nic Bodenstein Hospital,Corner of Van Rensberg and Van Riebeek Street,6 days,Public
+North West,Dr K Kaunda DM,Matlosana,Botshabelo CHC,5707 Lekoma Street,6 days,Public
+North West,Dr K Kaunda DM,Matlosana,Klerksdorp/Tshepong Hospital,Corner of Church street and John Orr Street,6 days,Public
+North West,Dr K Kaunda DM,Matlosana,N12 CHC,,6 days,Public
+North West,Ngaka Modiri Molema DM,Disobotla,Gelukspan Hospital,Gelukspan Mafikeng Road Gelukspan Farm,6 days,Public
+North West,Ngaka Modiri Molema DM,Disobotla,Itsoseng,,6 days,Public
+North West,Ngaka Modiri Molema DM,Mahikeng,Mafikeng Provincial Hospital,Lichtenburg Road,6 days,Public
+North West,Ngaka Modiri Molema DM,Mahikeng,Ramatlabama CHC,Nearer Lutheran Church/ Tlhabo Ya Letsatsi Crèche,6 days,Public
+North West,Ngaka Modiri Molema DM,Ramotshele Moiloa,Lehurutshe Hospital,Lucas Manope Highway,6 days,Public
+North West,Ngaka Modiri Molema DM,Ramotshele Moiloa,Zeerust Hospital,Cnr Hooge & Midden St,6 days,Public
+North West,Ngaka Modiri Molema DM,Ratlou,Ratlou CHC,Ratlou Chc Next To Batlhaping Primary School,6 days,Public
+North West,Ngaka Modiri Molema DM,Tswaing,Delareyville CHC,Town Delareyville,6 days,Public
+North West,Ngaka Modiri Molema DM,Tswaing,Gen de la Rey Hospital,"Thabo Mbeki Dr, Lichtenburg, 2740",6 days,Public
+North West,Ngaka Modiri Molema DM,Tswaing LM,Ottosdal CHC,"32 Le Roux Street, Ottosdal",6 days,Public
+North West,Ruth Segomotsi Mompati DM,Greater Taung LM,Taung Hospital,"Stand 2936, Magistrate Road, 0743",6 days,Public
+North West,Ruth Segomotsi Mompati DM,Kagisano-Molopo LM,Ganyesa Hospital,Tosca Road,6 days,Public
+North West,Ruth Segomotsi Mompati DM,Mamusa,Bloemhof CHC,26 Tullekin Street Bloemhof,6 days,Public
+North West,Ruth Segomotsi Mompati DM,Mamusa,Christiana Hospital,1 Pretorius Street,6 days,Public
+North West,Ruth Segomotsi Mompati DM,Mamusa LM,Schweizer-Reneke Hospital,1 Hospital Street,6 days,Public
+North West,Ruth Segomotsi Mompati DM,Naledi,Joe Morolong Memorial,506 Warren Way,6 days,Public
+North West,Ruth Segomotsi Mompati DM,Naledi,Stella CHC,"549 Stella Street,Stella 8650",6 days,Public
+North West,Ruth Segomotsi Mompati DM,Taung,Sekhing CHC,,6 days,Public
+Mpumalanga,G Sibande DM,Msukaligwa LM,Clicks Pharmacy Ermelo,"Church Street, Ermelo",5 days,Clicks (Private)
+Mpumalanga,Ehlanzeni DM,City of Mbombela LM,Clicks Pharmacy Ilanga Mall,Cnr Flamboyant & Bitterbessie Streets,5 days,Clicks (Private)
+Mpumalanga,Nkangala DM,Steve Tshwete LM,Midwater Centre Clicks Pharmacy,Cnr Keiskamma & Oranje Streets,5 days,Clicks (Private)
+Mpumalanga,Nkangala DM,Emalahleni LM,Clicks Pharmacy Witbank,C/O Swartbos Street and President Street,5 days,Clicks (Private)
+Mpumalanga,Nkangala DM,Emalahleni LM,Clicks Pharmacy Highveld Mall,President Avenue,5 days,Clicks (Private)
+Mpumalanga,Ehlanzeni DM,City of Mbombela LM,Clicks Pharmacy Barberton,General Street,5 days,Clicks (Private)
+Mpumalanga,Ehlanzeni DM,City of Mbombela LM,Clicks Pharmacy Riverside Mall,White River Road,5 days,Clicks (Private)
+Mpumalanga,Ehlanzeni DM,City of Mbombela LM,Clicks Pharmacy Emoyeni Mall,Remainder of Portion 24,5 days,Clicks (Private)
+Mpumalanga,Nkangala DM,Steve Tshwete LM,Dis-Chem Middelburg Mall Pharmacy,Corner Fontein Street & Tswelopele Avenue,6 days,Dis-Chem (Private)
+Mpumalanga,Ehlanzeni DM,City of Mbombela LM,Dis-Chem Nelspruit Pharmacy,R40 Road Weir Crescent,6 days,Dis-Chem (Private)
+Mpumalanga,Ehlanzeni DM,City of Mbombela LM,Mopani Pharmacy - White River,"White River Square, Hennie van Till Street, White River",6 days,ICPA (Private)
+Mpumalanga,Ehlanzeni DM,Thaba Chweu LM,Lydenburg Pharmacy,56 Kantoor Street,6 days,ICPA (Private)
+Mpumalanga,Ehlanzeni DM,City of Mbombela LM,Van Heerden Pharmacy Sonpark,"Shop 9D, Sonpark Centre, Cnr Madiba And Piet Retief Streets",6 days,ICPA (Private)
+Mpumalanga,Ehlanzeni DM,City of Mbombela LM,Mopani Pharmacy - Ilanga Mall,"Entrance 1, Ilanga Mall, cnr Bitterbessie & N4 Mbombela, Mpumalanga, 1200",6 days,ICPA (Private)
+Mpumalanga,Ehlanzeni DM,City of Mbombela LM,Mopani Pharmacy - Crossing,"Shop 72 Crossing Shopping Centre, Cnr Samora Machel & Madiba Drive, Mbombela, 1201",6 days,ICPA (Private)
+Mpumalanga,Ehlanzeni DM,City of Mbombela LM,Mopani Pharmacy - Steiltes Centre,"Shop Ug11 & Ug13 Steiltes Centre, Cnr Aurora Drive & Skylab Crescent, Mbombela, 1201",6 days,ICPA (Private)
+Mpumalanga,Ehlanzeni DM,City of Mbombela LM,Van Heerden Pharmacy Nelspruit,"Shop 16, Westend Centre, Cnr of Madiba Dr & Enoz Mabuza, Nelspruit",6 days,ICPA (Private)
+Mpumalanga,Ehlanzeni DM,Thaba Chweu LM,Van Heerden Apteek Sabie,105 Main street,6 days,ICPA (Private)
+Mpumalanga,Ehlanzeni DM,City of Mbombela LM,M.G. Eksteen Pharmacy,"86 Crown Street, Barberton, 1300",6 days,ICPA (Private)
+Mpumalanga,Nkangala DM,Emakhazeni LM,Life Esidimeni Siyathuthuka Care Care Centre,938 Zakheni,5 days,Life Healthcare (Private)
+Mpumalanga,Ehlanzeni DM,City of Mbombela LM,Mediclinic Nelspruit Hosp,1 Louise Street Sonheuwel Ext 1,5 days,Mediclinic (Private)
+Mpumalanga,G Sibande DM,Msukaligwa LM,Mediclinic Ermelo Hosp,25 Mel Mentz Street,5 days,Mediclinic (Private)
+Mpumalanga,G Sibande DM,Govan Mbeki LM,Mediclinic Highveld,46 Barney Molokwane,5 days,Mediclinic (Private)
+Mpumalanga,Ehlanzeni DM,Nkomazi LM,Komati Pharmacy,"10 Rissik St, Komatipoort",5 days,The Local Choice (Private)
+Mpumalanga,Ehlanzeni DM,Bushbuckridge LM,Mapulaneng Hospital,Bushbuckridge,5 days,Public
+Mpumalanga,Ehlanzeni DM,Bushbuckridge LM,Matikwana Hospital,Mkhuhlu Main Road,5 days,Public
+Mpumalanga,Ehlanzeni DM,Bushbuckridge LM,Tintswalo Hospital,Next to Police Station,5 days,Public
+Mpumalanga,Ehlanzeni DM,City of Mbombela,Rob Ferreira Hospital,Cnr Piet Retief Street and Madiba Drive,5 days,Public
+Mpumalanga,Ehlanzeni DM,City of Mbombela,Themba Hospital,1213 Kabokweni Main Road,5 days,Public
+Mpumalanga,Ehlanzeni DM,Nkomazi LM,Shongwe Hospital,Jeppes Rief Road,5 days,Public
+Mpumalanga,Ehlanzeni DM,Nkomazi LM,Tonga Hospital,Mzinti Mangweni Road,5 days,Public
+Mpumalanga,Ehlanzeni DM,Thaba Chweu LM,Sabie Hospital,Hospital Street,5 days,Public
+Mpumalanga,Gert Sibande DM,Chief Albert Luthuli LM,Embhuleni Hospital,Diepqezet Road,5 days,Public
+Mpumalanga,Gert Sibande DM,Dipaleseng,Nthoroane Clinic,"473 Thwala Str, Nthoroane Greylingstad",5 days,Public
+Mpumalanga,Gert Sibande DM,Dr Pixley Ka Isaka Seme LM,Vukuzakhe Clinic,"849/36 Lindela Section Vukuzakhe Location Mavuso Street, Volksrust",5 days,Public
+Mpumalanga,Gert Sibande DM,Govan Mbeki LM,Evander Hospital,Corner of Bolongna and Lausanne Streets,5 days,Public
+Mpumalanga,Gert Sibande DM,Govan Mbeki LM,Sead Clinic,5426 Victor Khanyisile Street Emzinoni,5 days,Public
+Mpumalanga,Gert Sibande DM,Lekwa LM,Standerton Hospital,Lang street ext Sakhile location,5 days,Public
+Mpumalanga,Gert Sibande DM,Mkhondo LM,Piet Retief Hospital,Stand 29 Church Street Piet Retief,5 days,Public
+Mpumalanga,Gert Sibande DM,Msukaligwa LM,Breyten Clinic,"2 Breytenbach Street, Breyten",5 days,Public
+Mpumalanga,Gert Sibande DM,Msukaligwa LM,Ermelo Hospital,1 Joubert Street,5 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Allemansdrift B Clinic,327 Mbhongo Village.Next To Mbhongo School,5 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Allemansdrift C CHC,Stand No 837/38 Next To Aleemansdrift Community Hall,5 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Allmansdrift B Hall,Mandela Street,2 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Allmansdrift C Community Hall,Mandela Street,2 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Bloedfontein Clinic,"K05 Senotlelo Village, Next To Motlhatseng Primary School",5 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,De Beersput Clinic,275 De Beersput Kabete,5 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Digwale Community Hall,Mandela Street,2 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Ga Maria Homebase Care Centre,Mandela Street,1 day,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Ga-Phaahla Hall,Mandela Street,5 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Greenside CHC,Greenside Main Road,5 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Haakdoringlaagte Clinic,Stand No 300 Ga-Maria Next To Roman Catholic Church,5 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Kalkfontein Clinic,"No 599, Mzimdala Section Mmametlhake",5 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Kameelrivier B Clinic,"Thuthuka Street, Kameelrivier B Babethu",5 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Kameelrivier B Hall,Mandela Street,2 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Katjibana Tribal Office Center,Mandela Street,2 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Kliplaatdrift Clinic,Next To Matshiding Taxi Rank Siyabuswa,5 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Leeufontein Clinic,Stand No: 33 Section A Leeufontein Next To Ilanga Supermarket,5 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Lefiso Community Hall,Mandela Street,2 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Lefisoane Clinic,Stand No E663.Ditlhagane Section Next To Lefisoane Primary,5 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Lefisoane Hall,Mandela Street,1 day,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Loding Dutch Reformed Church,Mandela Street,2 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Magana Aids Project Centre,Mandela Street,2 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Makometsane Roman Catholic Church,Mandela Street,2 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Marapyane CHC,"Stand No 10399 Ga-Rasebidi Section,Next To Old Pelonolo Special School",5 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Marapyane Hall,Mandela Street,3 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Marathobolong Home base Care Centre,Mandela Street,1 day,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Matshiding Community Hall,Mandela Street,3 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Mmametlhake CHC,"86B Napiri Section, Mmametlhake",5 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Mmametlhake Hospital,Mandela Street,3 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Mmametlhake Hospital,3695 Napier Street,5 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Mogononong Home base Care Centre,Mandela Street,1 day,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Molapomogale,Mandela Street,2 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Nkosini Cluster Community Hall,Mandela Street,3 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Nokaneng CHC,690 Lengelengeleng Section Nokaneng Next To Thekiso Primary School,5 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Nokaneng Community Hall,Mandela Street,3 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Pankop Community Hall,Mandela Street,3 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Phake Bethesda Church,Mandela Street,2 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Phake Clinic,Phaphamang Section Next To Mabothe High School,5 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Phake Rankaile Social Grant Pay Point,Mandela Street,1 day,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Phake Ratlhagane Dutch Reformed Church,Mandela Street,1 day,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Pieterskraal Clinic,36 Thamane Street Next To Matsheni Butchery,5 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Pieterskraal Ndebele Church,Mandela Street,2 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Rhenosterkop Clinic,Stand No: E1444 Next To Malebo High School And Moutse Primary School,5 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Seabe CHC,"1550 Mosate Section, Seabe",5 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Seabe Mmutle School,Mandela Street,2 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Senotlelo Multipurpose Centre,Mandela Street,2 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Senzangakhona Digital Village Clinic,Senzangakhona Digital Village Clinic,5 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Siyabuswa CHC,2404 Bongimfundo Street Siyabuswa A Next To Unity Funeral Group,5 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Thabana Community Hall,Mandela Street,2 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Troya CBC Church,Mandela Street,2 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Troya Clinic,Stand No 9 Troya Village Next To Gobolibi,5 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Vaalbank Hall,Mandela Street,2 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Valschfontein Clinic,2300 Bongimfundo Street Syiabuswa Next To C N Mahlangu Fet College,5 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Watervaal Social Grant PayPoint,Mandela Street,3 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Witlaagte Clinic,Near Litho High School,5 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Witllagte Tribal Hall,Mandela Street,2 days,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Wolwekraal Church Of God,Mandela Street,1 day,Public
+Mpumalanga,Nkangala DM,Dr JS Moroka LM,Wolwekraal Clinic,Stand 92 Next To Jk Driving School,5 days,Public
+Mpumalanga,Nkangala DM,Emakhazeni LM,Belfast Gateway Clinic,"25 Scheepels Street, Belfast",5 days,Public
+Mpumalanga,Nkangala DM,Emakhazeni LM,Ben Gazi Hall,Walter Sisulu Hospital Street,5 days,Public
+Mpumalanga,Nkangala DM,Emakhazeni LM,Beyers Naude Hall,Walter Sisulu Hospital Street,5 days,Public
+Mpumalanga,Nkangala DM,Emakhazeni LM,HA Grove Hospital,103 Bhekumuzi Masango Drive,7 days,Public
+Mpumalanga,Nkangala DM,Emakhazeni LM,Machadodorp Clinic,Walter Sisulu Hospital Street,5 days,Public
+Mpumalanga,Nkangala DM,Emakhazeni LM,Machadodorp Clinic,"Cnr Kruger President And Butana Jele Street, Machadodorp",5 days,Public
+Mpumalanga,Nkangala DM,Emakhazeni LM,Sakhelwe Clinic,Walter Sisulu Hospital Street,5 days,Public
+Mpumalanga,Nkangala DM,Emakhazeni LM,Sakhelwe Clinic,Sinethemba Street Dullstroom,5 days,Public
+Mpumalanga,Nkangala DM,Emakhazeni LM,Siyathuthuka Clinic,"Cnr Sakhile And Zakheni Street, Belfast",5 days,Public
+Mpumalanga,Nkangala DM,Emakhazeni LM,Siyathuthuka Hall,Walter Sisulu Hospital Street,5 days,Public
+Mpumalanga,Nkangala DM,Emakhazeni LM,Waterval Boven Gateway Clinic,"1 Park Lane, Waterval Boven",5 days,Public
+Mpumalanga,Nkangala DM,Emakhazeni LM,Wonderfontein Clinic,Wonderfontein Behind Puma Garage Belfast,5 days,Public
+Mpumalanga,Nkangala DM,Emakhazeni LM,Wonderfontein Hall,Walter Sisulu Hospital Street,5 days,Public
+Mpumalanga,Nkangala DM,Emalahleni LM,Cosmos Private Hospital,"Ext 16, Witbank, Emalahleni",5 days,Private
+Mpumalanga,Nkangala DM,Emalahleni LM,Impungwe Hospital,Mandela Street,5 days,Public
+Mpumalanga,Nkangala DM,Emalahleni LM,Klarinet CHC,612 Ext 3,,Public
+Mpumalanga,Nkangala DM,Emalahleni LM,Siphosesimbi CHC,1958 Chief Masango Street,7 days,Public
+Mpumalanga,Nkangala DM,Emalahleni LM,Witbank Hospital,Mandela Street,5 days,Public
+Mpumalanga,Nkangala DM,Steve Tshwete LM,Adelaide Tambo Hall,Walter Sisulu Hospital Street,5 days,Public
+Mpumalanga,Nkangala DM,Steve Tshwete LM,CCM Church,Walter Sisulu Hospital Street,5 days,Public
+Mpumalanga,Nkangala DM,Steve Tshwete LM,Cynthia Murphy Hall,Walter Sisulu Hospital Street,5 days,Public
+Mpumalanga,Nkangala DM,Steve Tshwete LM,Eastdene Hall,Walter Sisulu Hospital Street,5 days,Public
+Mpumalanga,Nkangala DM,Steve Tshwete LM,Eric Jiyane Hall,Walter Sisulu Hospital Street,5 days,Public
+Mpumalanga,Nkangala DM,Steve Tshwete LM,Hendrina Municipal Chamber,Walter Sisulu Hospital Street,5 days,Public
+Mpumalanga,Nkangala DM,Steve Tshwete LM,Kwazamokuhle Clinic,Walter Sisulu Hospital Street,5 days,Public
+Mpumalanga,Nkangala DM,Steve Tshwete LM,Middelburg Hospital,Walter Sisulu Hospital Street,5 days,Public
+Mpumalanga,Nkangala DM,Steve Tshwete LM,Nasareth Hall,Walter Sisulu Hospital Street,5 days,Public
+Mpumalanga,Nkangala DM,Steve Tshwete LM,Piet Tlou Hall,Walter Sisulu Hospital Street,5 days,Public
+Mpumalanga,Nkangala DM,Steve Tshwete LM,Rockdale Clinic,Walter Sisulu Hospital Street,5 days,Public
+Mpumalanga,Nkangala DM,Steve Tshwete LM,Sikhululiwe Clinic,Walter Sisulu Hospital Street,5 days,Public
+Mpumalanga,Nkangala DM,Steve Tshwete LM,Sr Mashiteng Clinic,"2116 Maraba Street, Middelburg",7 days,Public
+Mpumalanga,Nkangala DM,Steve Tshwete LM,Sydney Choma Hall,Walter Sisulu Hospital Street,5 days,Public
+Mpumalanga,Nkangala DM,Steve Tshwete LM,Taaljard Cricketclub Hall,Walter Sisulu Hospital Street,5 days,Public
+Mpumalanga,Nkangala DM,Thembisile Hani LM,Boekenhoutheok (Endlini yabo Gogo),Wtbank,1 day,Public
+Mpumalanga,Nkangala DM,Thembisile Hani LM,Goederede (Pastor Modau),Wtbank,1 day,Public
+Mpumalanga,Nkangala DM,Thembisile Hani LM,Kwaggafontein CHC,Wtbank,5 days,Public
+Mpumalanga,Nkangala DM,Thembisile Hani LM,Kwaggafontein Community Hall,Wtbank,3 days,Public
+Mpumalanga,Nkangala DM,Thembisile Hani LM,KwaMhlanga Hospital,Solomon Mahlangu Drive,5 days,Public
+Mpumalanga,Nkangala DM,Thembisile Hani LM,Lakloof Community Hall,Wtbank,1 day,Public
+Mpumalanga,Nkangala DM,Thembisile Hani LM,Leratong Hall,Wtbank,1 day,Public
+Mpumalanga,Nkangala DM,Thembisile Hani LM,Mandela Community Hall,Wtbank,1 day,Public
+Mpumalanga,Nkangala DM,Thembisile Hani LM,Thembalethu CHC,Wtbank,5 days,Public
+Mpumalanga,Nkangala DM,Thembisile Hani LM,Tweefontein M (God is Able Church),Wtbank,1 day,Public
+Mpumalanga,Nkangala DM,Thembisile Hani LM,Verena Community Hall,Wtbank,1 day,Public
+Mpumalanga,Nkangala DM,Thembisile Hani LM,Vlaklaagte No 2 Centres,Wtbank,1 day,Public
+Mpumalanga,Nkangala DM,Thembisile Hani LM,Wolvenkop Community Hall,Wtbank,1 day,Public
+Mpumalanga,Nkangala DM,Thembisile Hani LM,Zakheni Hall,Wtbank,1 day,Public
+Mpumalanga,Nkangala DM,Victor Khanye LM,Botleng Extension 3 Clinic,Mandela Street,5 days,Public
+Limpopo,Capricorn DM,Polokwane LM,Clicks Pharmacy Polokwane 2,Corner Hans Van Rensburg and Grobler Street,5 days,Clicks (Private)
+Limpopo,Vhembe DM,Musina LM,Clicks Pharmacy Musina Mall,Cnr Smelter Avenue & The Great North Road N1,5 days,Clicks (Private)
+Limpopo,Sekhukhune DM,Fetakgomo Tubatse LM,Clicks Pharmacy Tubatse Crossing,Tubatse Crossing,5 days,Clicks (Private)
+Limpopo,Capricorn DM,Polokwane LM,Clicks Pharmacy Cycad,"Shop 14, Cycad Centre, CNR Genl.Marits Street & Outspan Drive, Bendor",5 days,Clicks (Private)
+Limpopo,Waterberg DM,Mookgophong/Modimolle LM,Clicks Pharmacy Modi Mall,Cnr Thabo Mbeki Drive And River Street,5 days,Clicks (Private)
+Limpopo,Vhembe DM,Makhado LM,Clicks Pharmacy Giyani,Malamulele Road,5 days,Clicks (Private)
+Limpopo,Waterberg DM,Thabazimbi LM,Clicks Pharmacy Thaba Mall,"Shop 41, Thaba Mall Cnr R510 and Warmbard Road",5 days,Clicks (Private)
+Limpopo,Vhembe DM,Thulamela LM,Dis-Chem Thavhani Mall Pharmacy,"shop L164, Thavhani Mall, Thohoyandou, Limpopo.",6 days,Dis-Chem (Private)
+Limpopo,Capricorn DM,Polokwane LM,Dis-Chem Pharmacy - Polokwane North,Cnr R81 & N1 Roads,6 days,Dis-Chem (Private)
+Limpopo,Capricorn DM,Polokwane LM,Dis-Chem TLC Market Street Pharmacy,62 Market Street,6 days,Dis-Chem (Private)
+Limpopo,Waterberg DM,Bela-Bela LM,Medlin Apteek,"Shop 26, Bushveld Centre, Cnr Marx & Potgieter Street",6 days,ICPA (Private)
+Limpopo,Waterberg DM,Bela-Bela LM,Van Heerden Pharmacy Bela Mall,"Shop 16, Bela Mall, R101 Road",6 days,ICPA (Private)
+Limpopo,Waterberg DM,Bela-Bela LM,Van Heerden Apteek En Medisyne Depot,Voortrekkerweg 25,6 days,ICPA (Private)
+Limpopo,Sekhukhune DM,Fetakgomo Tubatse LM,Burgersfort Pharmacy,"Morone Shopping Centre, Kastania Street, Burgersfort",6 days,ICPA (Private)
+Limpopo,Sekhukhune DM,Fetakgomo Tubatse LM,Burmed Pharmacy,Twin City Complex,6 days,ICPA (Private)
+Limpopo,Vhembe DM,Thulamela LM,Sabina Pharmacy,"Shop A9 Sabina Plaza Complex, 101 Mphephu Street, Thohoyandou, 0950",6 days,ICPA (Private)
+Limpopo,Mopani DM,Greater Letaba LM,Van Heerden Pharmacy Tzaneen,"Shop 5 Lifestyle Mall, R71",6 days,ICPA (Private)
+Limpopo,Waterberg DM,Thabazimbi LM,Van Heerden Pharmacy - Thabazimbi,Warmbath Road,6 days,ICPA (Private)
+Limpopo,Waterberg DM,Lephalale LM,Van Heerden Apteek Lephalale,Shop 54 Lephalale Mall cnr Chris Hani and Nelson Mandela,6 days,ICPA (Private)
+Limpopo,Waterberg DM,Mookgophong/Modimolle LM,Van Heerden Pharmacy Checkers - Nylstroom,Corner Potgieter & Meinnger Streets,6 days,ICPA (Private)
+Limpopo,Vhembe DM,,Medhof Apteek,66 Van Der Bijl Street,6 days,ICPA (Private)
+Limpopo,Vhembe DM,Thulamela LM,Goloza Pharmacy & Medicine Depot,Timbercity Street,6 days,ICPA (Private)
+Limpopo,Sekhukhune DM,E Motsoaledi LM,Regicare Pharmacy,Shop 9Bauhinia Centre Grobler Groblersdal,6 days,ICPA (Private)
+Limpopo,Capricorn DM,Polokwane LM,Cure-O-Pharm Pharmacy,42 Thabo Mbeki Street,6 days,ICPA (Private)
+Limpopo,Capricorn DM,Polokwane LM,Gazamed Pharmacy,"Shop 6, Benstore Mall",6 days,ICPA (Private)
+Limpopo,Mopani DM,Ba-Phalaborwa LM,Van Heerden Pharmacy Phalaborwa,"Shop 29, Eden Square, c/o Nelson Mandela & Palm Avenue",6 days,ICPA (Private)
+Limpopo,Mopani DM,Greater Tzaneen LM,Mediclinic Tzaneen Hosp,34 Douglas Street,5 days,Mediclinic (Private)
+Limpopo,Capricorn DM,Polokwane LM,Mediclinic Limpopo Hosp,53 Plein Street,5 days,Mediclinic (Private)
+Limpopo,Capricorn DM,Polokwane LM,Netcare Pholoso Hosp,Cnr Grobler Street and Eland Avenue,6 days,Netcare (Private)
+Limpopo,Capricorn District,Blouberg LM,Blouberg Team A,,4 days,Public
+Limpopo,Capricorn District,Blouberg LM,Helene Franz Hospital,Bochum Road Blouberg Rural,6 days,Public
+Limpopo,Capricorn District,Lepelle-Nkumpi LM,Lebowakgomo Hospital,Zone A Lebowakgomo,6 days,Public
+Limpopo,Capricorn District,Lepelle-Nkumpi LM,Zebediela Hospital,Magatle Village,6 days,Public
+Limpopo,Capricorn District,Molemole LM,Botlokwa Hospital,Ramakgopa Road,6 days,Public
+Limpopo,Capricorn District,Polokwane LM,Mankweng Hospital,Hout-Bosdorp Road,6 days,Public
+Limpopo,Capricorn District,Polokwane LM,Polokwane Hospital,Hospital Street,6 days,Public
+Limpopo,Capricorn District,Polokwane LM,Seshego Hospital,1 Bookelo Street,6 days,Public
+Limpopo,Capricorn District,Polokwane LM,WF Knobel Hospital,Gilliard Road,6 days,Public
+Limpopo,Mopani District,Ba-Phalaborwa LM,Maphutha L Malatjie Hospital,3517 B Maphutha Drive,6 days,Public
+Limpopo,Mopani District,Greater Giyani LM,Nkhensani Hospital,Giyani Indusrial Site,6 days,Public
+Limpopo,Mopani District,Greater Letaba LM,Kgapane Hospital,Next to Modjadji Plaza Main Road,6 days,Public
+Limpopo,Mopani District,Greater Tzaneen LM,Dr CN Phatudi Hospital,Makhubiding Village,6 days,Public
+Limpopo,Mopani District,Greater Tzaneen LM,Letaba Hospital,Tarentaal Road,6 days,Public
+Limpopo,Mopani District,Greater Tzaneen LM,Van Velden Memorial (Tzaneen) Hospital,"Corner 3rd Avenue and Claude Wheatly street, Medi Park Tzaneen",6 days,Public
+Limpopo,Mopani District,Maruleng LM,Sekororo Hospital,D21 Moropu Mmola Road,6 days,Public
+Limpopo,Sekhukhune District,E Motsoaledi LM,Groblersdal Hospital,Voortrekker Road,6 days,Public
+Limpopo,Sekhukhune District,E Motsoaledi LM,Groblersdal Hospital,Voortrekker Road,4 days,Public
+Limpopo,Sekhukhune District,E Motsoaledi LM,Philadelphia Hospital,246 Philadelphia Main Road Dennilton AH Dennilton Road,6 days,Public
+Limpopo,Sekhukhune District,Ephraim Mogale LM,Matlala Hospital,Matlala 22 Marble Hall Road,6 days,Public
+Limpopo,Sekhukhune District,Fetakgomo Tubatse LM,Dilokong Hospital,"Dilokong Hospital Pharmacy, Corner of R37 and Modikwa Mine Road, Driekop",6 days,Public
+Limpopo,Sekhukhune District,Fetakgomo Tubatse LM,Mecklenburg Hospital,Next to Police Station R37 Moroke,6 days,Public
+Limpopo,Sekhukhune District,Makhuduthamaga LM,Jane Furse Hospital,MAMONE ROAD: JANE FURSE: 1085,6 days,Public
+Limpopo,Sekhukhune District,Makhuduthamaga LM,St Rita's Hospital,R509 Nebo Road Glen Cowie,6 days,Public
+Limpopo,Vhembe District,Collins Chabane LM,Malamulele Hospital,1 Main Street,7 days,Public
+Limpopo,Vhembe District,Makhado LM,Elim Hospital,Giyani Road,6 days,Public
+Limpopo,Vhembe District,Makhado LM,Louis Trichardt Hospital,Hospital Street,6 days,Public
+Limpopo,Vhembe District,Makhado LM,Siloam Hospital,Venda Sun Road,6 days,Public
+Limpopo,Vhembe District,Musina LM,Messina Hospital,Corner of Calderwood Avenue and Whyte Road,6 days,Public
+Limpopo,Vhembe District,Thulamela LM,Donald Fraser Hospital,"Donald Fraser Hospital Pharmacy, Vhufuli Tshitereke Road, Vhufuli, Sibasa",6 days,Public
+Limpopo,Vhembe District,Thulamela LM,Thohoyandou CHC,Punda Maria Road R524,7 days,Public
+Limpopo,Vhembe District,Thulamela LM,Tshilidzini Team A,,4 days,Public
+Limpopo,Waterberg District,Bela-Bela LM,Warmbaths Team A,,4 days,Public
+Limpopo,Waterberg District,Lephalale LM,Ellisras team A,,4 days,Public
+Limpopo,Waterberg District,Lephalale LM,Wutpoort Team A,,4 days,Public
+Limpopo,Waterberg District,Mogalakwena LM,FH odendala team A,,4 days,Public
+Limpopo,Waterberg District,Mogalakwena LM,George Masebe Team A,,4 days,Public
+Limpopo,Waterberg District,Mogalakwena LM,Mokopane Team A,,4 days,Public
+Limpopo,Waterberg District,Mogalakwena LM,Voortrekker Team A,,4 days,Public
+Limpopo,Waterberg District,Thabazimbi LM,Thabazimbi Team A,,4 days,Public
+KwaZulu Natal,eThekwini MM,eThekwini MM Sub,Medscheme Durban,"102 Stephen Dlamini Rd, Musgrave, Berea, 4001",5 days,Afrocentric (Private)
+KwaZulu Natal,Amajuba DM,Newcastle LM,Clicks Pharmacy Amajuba Mall,Cnr Allen & Victoria Roads,5 days,Clicks (Private)
+KwaZulu Natal,Ugu DM,Umdoni LM,Clicks Pharmacy Scottburgh,Old Main Road,5 days,Clicks (Private)
+KwaZulu Natal,eThekwini MM,eThekwini MM Sub,Clicks Pharmacy Gateway,"Shop G141-G142, Gateway Shopping Centre, c/o Gateway Blvd & Sugar Drive, Umhlanga Rocks",5 days,Clicks (Private)
+KwaZulu Natal,King Cetshwayo DM,uMlalazi LM,Clicks Pharmacy Eshowe,Osborne Road,5 days,Clicks (Private)
+KwaZulu Natal,Zululand DM,Ulundi LM,Clicks Pharmacy Ulundi,Cnr King Dinuzulu Highway & Princess Magogo Street,5 days,Clicks (Private)
+KwaZulu Natal,King Cetshwayo DM,City of uMhlathuze LM,Clicks Pharmacy Richards Bay,Kruger Road,5 days,Clicks (Private)
+KwaZulu Natal,Zululand DM,AbaQulusi LM,Clicks Pharmacy Vryheid,Cnr High & Utrecht Streets,5 days,Clicks (Private)
+KwaZulu Natal,eThekwini MM,eThekwini MM Sub,Clicks Pharmacy Kingsburgh,4 Araucaria Road,5 days,Clicks (Private)
+KwaZulu Natal,eThekwini MM,eThekwini MM Sub,Clicks Pharmacy Kloof,33 Village Road,5 days,Clicks (Private)
+KwaZulu Natal,eThekwini MM,eThekwini MM Sub,Clicks Pharmacy Kensington,C/O Kensington Drive,5 days,Clicks (Private)
+KwaZulu Natal,Zululand DM,uPhongolo LM,Clicks Pharmacy Pongola,Cnr Naude and Jan Melie Streets,5 days,Clicks (Private)
+KwaZulu Natal,Ugu DM,Ray Nkonyeni LM,Clicks Pharmacy Shelly Beach,"Shop 48 & 49, Shelly Beach Shopping Centre, Edward Street",5 days,Clicks (Private)
+KwaZulu Natal,eThekwini MM,eThekwini MM Sub,Clicks La Lucia Pharmacy,"Shop 30, La Lucia Mall, William Campbell Drive, La Lucia",5 days,Clicks (Private)
+KwaZulu Natal,eThekwini MM,eThekwini MM Sub,Clicks Pharmacy The Bluff,"Shop 19, The Bluff Centre, CNR Tara & Grays Inn Roads, Wentworth",5 days,Clicks (Private)
+KwaZulu Natal,eThekwini MM,eThekwini MM Sub,Clicks Pharmacy The Galleria - Amanzimtoti,C/O Moss Kolnik Street and N2,5 days,Clicks (Private)
+KwaZulu Natal,uMgungundlovu DM,Msunduzi LM,Clicks Pharmacy Victoria Road Pietermaritzburg,Victoria Road,5 days,Clicks (Private)
+KwaZulu Natal,uMgungundlovu DM,Msunduzi LM,Clicks Pharmacy Hayfields,28 Blackborough Road,5 days,Clicks (Private)
+KwaZulu Natal,uMgungundlovu DM,Msunduzi LM,Clicks Pharmacy Cascades,Mc Carthy Drive,5 days,Clicks (Private)
+KwaZulu Natal,Amajuba DM,Newcastle LM,Clicks Pharmacy Newcastle Mall,newcastle Mall Ladysmith Road,5 days,Clicks (Private)
+KwaZulu Natal,eThekwini MM,eThekwini MM Sub,Clicks Pharmacy Pavilion,Cnr Spine & Jack Marten Roads,5 days,Clicks (Private)
+KwaZulu Natal,eThekwini MM,eThekwini MM Sub,Clicks Pharmacy Musgrave,"Shop 201 Mugrave Centre, 2nd Level Musgrave Cnt, Musgrave, Durban",5 days,Clicks (Private)
+KwaZulu Natal,eThekwini MM,eThekwini MM Sub,Clicks Pharmacy Windermere,Cnr Windermere & Rosetta Roads,5 days,Clicks (Private)
+KwaZulu Natal,Umzinyathi DM,Endumeni LM,Clicks Pharmacy Dundee,Karel Landman Street,5 days,Clicks (Private)
+KwaZulu Natal,eThekwini MM,eThekwini MM Sub,Clicks Pharmacy Cornubia,Bounded by Dube East Road Cornubia,5 days,Clicks (Private)
+KwaZulu Natal,Uthukela DM,Alfred Duma LM,Clicks Pharmacy Ladysmith,C/O Queen Street and Murchison Street,5 days,Clicks (Private)
+KwaZulu Natal,eThekwini MM,eThekwini MM Sub,Sanlam Centre Pinetown Clicks Pharmacy,"Shop 243, Pinecrest Centre, 17 Kings Road",5 days,Clicks (Private)
+KwaZulu Natal,eThekwini MM,eThekwini MM Sub,Clicks Pharmacy Berea Centre,249 King Dinuzulu Road North,5 days,Clicks (Private)
+KwaZulu Natal,uMgungundlovu DM,uMngeni LM,Clicks Pharmacy Howick,45 Old Main Road,5 days,Clicks (Private)
+KwaZulu Natal,Ugu DM,Ray Nkonyeni LM,Clicks Pharmacy South Coast,Izotsha Road,5 days,Clicks (Private)
+KwaZulu Natal,eThekwini MM,eThekwini MM Sub,Clicks Pharmacy Hammarsdale,"A12 & 13 Hammarsdale Junction, Cnr Kunene & R25, Hammarsdale, 3699",5 days,Clicks (Private)
+KwaZulu Natal,Harry Gwala DM,Gr Kokstad LM,Clicks Pharmacy Kokstad,"Shop 28, Kokstad Regional Centre, 86 Main Road",5 days,Clicks (Private)
+KwaZulu Natal,eThekwini MM,eThekwini MM Sub,Clicks Pharmacy Watercrest Mall,141 Inanda Road,5 days,Clicks (Private)
+KwaZulu Natal,Amajuba DM,Newcastle LM,Dis-Chem Pharmacy Newcastle,Newcastle Corner Cnr Memel Road And Allen Street,6 days,Dis-Chem (Private)
+KwaZulu Natal,King Cetshwayo DM,City of uMhlathuze LM,Dis-Chem Richards Bay Pharmacy,"Shop U068, Boardwalk Inkwazi, Kruger Rand Rd, Richards Bay, 3900. K.Z.N.",6 days,Dis-Chem (Private)
+KwaZulu Natal,eThekwini MM,eThekwini MM Sub,Dis-Chem Amanzimtoti Pharmacy,"Cnr. Moss Kolnick Dr & N2, Umbogintwini, Amanzimtoti",6 days,Dis-Chem (Private)
+KwaZulu Natal,uMgungundlovu DM,Msunduzi LM,Dis-Chem Midlands Mall Pharmacy,50 Sanctuary Road,6 days,Dis-Chem (Private)
+KwaZulu Natal,eThekwini MM,eThekwini MM Sub,Dis-Chem Westville Pharmacy,"Shop L58, Westwood Mall,16 Lincoln Terrace, Westville, 3629, Durban, K.Z.N.",6 days,Dis-Chem (Private)
+KwaZulu Natal,eThekwini MM,eThekwini MM Sub,Glen Lucia Pharmacy,"Shop 109, La Lucia Mall, 90 William Campbell Dr, La Lucia",6 days,Dis-Chem (Private)
+KwaZulu Natal,eThekwini MM,eThekwini MM Sub,Dis-Chem Gateway Pharmacy,"Shop F211, Gateway Theater Of Shopping, No1 Palm Boulevard, Umhlanga Ridge. K.Z.N.",6 days,Dis-Chem (Private)
+KwaZulu Natal,iLembe DM,KwaDukuza LM,Dis-Chem Ballito Lifestyle Pharmacy,"Shop 65, Ballito Lifestyle Centre, Douglas Crowe Drive, Cnr P398 & P445 Main Road, Ballito, K.Z.N.",6 days,Dis-Chem (Private)
+KwaZulu Natal,eThekwini MM,eThekwini MM Sub,Hashmed Pharmacy,37 Sol Harris Crescent Shop 2,6 days,ICPA (Private)
+KwaZulu Natal,eThekwini MM,eThekwini MM Sub,Sparkport Pharmacy (Overport),382 400 Randles Road,6 days,ICPA (Private)
+KwaZulu Natal,eThekwini MM,eThekwini MM Sub,Sparkport Musgrave Pharmacy,77 Musgrave Road,6 days,ICPA (Private)
+KwaZulu Natal,eThekwini MM,eThekwini MM Sub,Todd Pharmacy & Medicine Depot,"Shop 2, 56 Todd Street, Verulam, 4339",6 days,ICPA (Private)
+KwaZulu Natal,eThekwini MM,eThekwini MM Sub,Pharmacare Morningside Dispensary,"163 Lilian Ngoyi Road, Morningside",6 days,ICPA (Private)
+KwaZulu Natal,eThekwini MM,eThekwini MM Sub,Sparkport City Pharmacy,454 Smith Street,6 days,ICPA (Private)
+KwaZulu Natal,eThekwini MM,eThekwini MM Sub,Hilltop Pharmacy,183 Umhlanga Rocks Drive,6 days,ICPA (Private)
+KwaZulu Natal,eThekwini MM,eThekwini MM Sub,Newkwa Pharmacy,"913 Inanda Road, Newlands West",6 days,ICPA (Private)
+KwaZulu Natal,eThekwini MM,eThekwini MM Sub,Durban North Pharmacy,35 Umhlanga Rocks Drive,6 days,ICPA (Private)
+KwaZulu Natal,eThekwini MM,eThekwini MM Sub,Pharmacy at Spar Sea Views,"884 Bluff Road, Durban",6 days,ICPA (Private)
+KwaZulu Natal,eThekwini MM,eThekwini MM Sub,Natraj Pharmacy,"Shop 25-30 Hamagiri Road, Merebank Shopping Centre",6 days,ICPA (Private)
+KwaZulu Natal,eThekwini MM,eThekwini MM Sub,Randles Road Pharmacy,468 Randles Road,6 days,ICPA (Private)
+KwaZulu Natal,uMgungundlovu DM,uMngeni LM,Hilton Pharmacy,"Shop 16 The Quarry Centre, 57 Hilton Avenue, Hilton, 3201",6 days,ICPA (Private)
+KwaZulu Natal,eThekwini MM,eThekwini MM Sub,Thrive Pharmacy KLOOF,"1 Natalia Terrace, Charles Way, Kloof",6 days,ICPA (Private)
+KwaZulu Natal,eThekwini MM,eThekwini MM Sub,Sparkport Pharmacy (Quality Street),315 Quality Street,6 days,ICPA (Private)
+KwaZulu Natal,eThekwini MM,eThekwini MM Sub,Sparkport Pharmacy - Warner Beach,125 Kingsway,6 days,ICPA (Private)
+KwaZulu Natal,eThekwini MM,eThekwini MM Sub,Sparkport Pharmacy (Chatsworth),50 Joyhurst Street,6 days,ICPA (Private)
+KwaZulu Natal,iLembe DM,KwaDukuza LM,Thrive Ballito Pharmacy,"Shop 21, 22 Sandra Road, Balvista Centre",6 days,ICPA (Private)
+KwaZulu Natal,uMgungundlovu DM,uMngeni LM,Lenmed Howick Hosp,107 Main Street,5 days,Lenmed (Private)
+KwaZulu Natal,King Cetshwayo DM,City of uMhlathuze LM,Life Empangeni Prv Hosp,Cnr Biyela and Ukuli Streets,5 days,Life Healthcare (Private)
+KwaZulu Natal,eThekwini MM,eThekwini MM Sub,Life Entabeni Hosp,148 Mazisi Kunene Road,5 days,Life Healthcare (Private)
+KwaZulu Natal,uMgungundlovu DM,uMngeni LM,Life Hilton Prv Hosp,2 Monzali Drive,5 days,Life Healthcare (Private)
+KwaZulu Natal,uMgungundlovu DM,Msunduzi LM,Mediclinic Pietermaritzburg Hosp,90 Payn Street,5 days,Mediclinic (Private)
+KwaZulu Natal,eThekwini MM,eThekwini MM Sub,Momentum Metropolitan Vaccination Centre-Cornubia,"201 Umhlanga Ridge Boulevard, Cornubia, Durban",5 days,Momentum (Private)
+KwaZulu Natal,eThekwini MM,eThekwini MM Sub,Netcare St Augustine s Hosp,"107 JB Marks Road, Bulwer",5 days,Netcare (Private)
+KwaZulu Natal,eThekwini MM,eThekwini MM Sub,Pick N Pay Pharmacy - Durban North,"Uitsig Road, Durban North 4051",6 days,Pick n Pay (Private)
+KwaZulu Natal,eThekwini MM,eThekwini MM Sub,Pick N Pay Pharmacy - South Coast,Cnr Oppenheimer & Arbor Street,6 days,Pick n Pay (Private)
+KwaZulu Natal,eThekwini MM,eThekwini MM Sub,Pinelands Pharmacy,27c Caversham Road,5 days,The Local Choice (Private)
+KwaZulu Natal,Amajuba DM,Dannhauser LM,kz Dannhauser CHC,7 Durnacol Road Dannhauser,Monday to Friday | 07:30 - 16:00,Public
+KwaZulu Natal,Amajuba DM,Emadlangeni LM,kz Niemeyer Hospital,Kantoor Street,Monday to Friday | 07:30 - 16:00,Public
+KwaZulu Natal,Amajuba DM,Newcastle LM,Amajuba Education Centre,"10008 Ma10 St, Madadeni",2 days,Public
+KwaZulu Natal,Amajuba DM,Newcastle LM,kz Madadeni Hospital,Madadeni Road F001 Madadeni,Monday to Friday | 07:30 - 16:00,Public
+KwaZulu Natal,Amajuba DM,Newcastle LM,kz Newcastle Hospital,4 Hopspital Street,Monday to Friday | 07:30 - 16:00,Public
+KwaZulu Natal,Amajuba DM,Newcastle LM,Osizweni Community Hall,8119 Osizweni Next to Osizweni Clinic 1,7 days,Public
+KwaZulu Natal,eThekwini MM,North,Amaoti Clinic,Mfeke Road Off D787 Rd 108757 Amaoti,Mon to Sun | 08:00-16:00,Public
+KwaZulu Natal,eThekwini MM,North,Amaoti Community Hall,Inanda next to police Station,5 days,Public
+KwaZulu Natal,eThekwini MM,North,Bethsaida Ministries International,565 Stonebridge Drive,5 days,Public
+KwaZulu Natal,eThekwini MM,North,Inanda C Community Health Centre,C 135 Umshado Rd Inanda,5 days,Public
+KwaZulu Natal,eThekwini MM,North,Kwamashu Indoor Sports Centre,"Linda nzama ,bhejane road ,kwamashu",5 days,Public
+KwaZulu Natal,eThekwini MM,North,"Mountainview Hall, Verulam","27 oleander road,mountview, verulem",5 days,Public
+KwaZulu Natal,eThekwini MM,North,Sivananda Clinic,Near Ohlange School,Mon to Sun | 08:00-16:00,Public
+KwaZulu Natal,eThekwini MM,North,Tongaat Indoor Sports Centre,"4399, Gandhi s Hill, Tongaat",5 days,Public
+KwaZulu Natal,eThekwini MM,South,Addington Hospital,16 Erskine Terrace,5 days,Public
+KwaZulu Natal,eThekwini MM,South,Amanzimtoti Civic Centre,,5 days,Public
+KwaZulu Natal,eThekwini MM,South,Yellowwood park community hall,"1 Pelican Pl, Yellow Wood Park, Durban, 4004",5 days,Public
+KwaZulu Natal,eThekwini MM,South,Inkosi Albert Luthuli Central Hospital,800 Vusi Mzimela Road Umkumbaan,5 days,Public
+KwaZulu Natal,eThekwini MM,South,King Edward VIII Hospital,Corner of Rick Turner and Sydney Road,5 days,Public
+KwaZulu Natal,eThekwini MM,South,Makhutha Clinic,2399 Mfundi Ngadi Road Kwamakhutha Township Amanzimtoti,7 days,Public
+KwaZulu Natal,eThekwini MM,South,Moses Mabhida People's Park,,7 days,Public
+KwaZulu Natal,eThekwini MM,South,Nelson Mandela Youth Centre Chatsworth,"14 joyhurst street ,westcliff, chastwoth",5 days,Public
+KwaZulu Natal,eThekwini MM,South,Prince Mshiyeni Memorial Hospital,Griffiths Mxenge Highway Mangosuthu Highway Mobeni,5 days,Public
+KwaZulu Natal,eThekwini MM,South,Toyota SAM,15 Prospecton Road Isipingo,5 days,Public
+KwaZulu Natal,eThekwini MM,South,Umbumbulu Hall,Umbumbulu area,5 days,Public
+KwaZulu Natal,eThekwini MM,South,Umlazi D Clinic,Cnr Asijiki And Siyavota Road Mobeni,5 days,Public
+KwaZulu Natal,eThekwini MM,South,Umlazi D Hall,Ntoto Zulu road,5 days,Public
+KwaZulu Natal,eThekwini MM,South,Umlazi K Hall,K1326 mgaga road,5 days,Public
+KwaZulu Natal,eThekwini MM,South,Umlazi U21 Clinic,U 105 Maurice Gumede Drive Umlazi,5 days,Public
+KwaZulu Natal,eThekwini MM,South,Umnini Clinic,Area 35 Next To Enkanyezini Store Mobeni,,Public
+KwaZulu Natal,eThekwini MM,South,Umzomuhle Clinic,H1432 Umlazi T/Shop Umhlabunzima Road Umlazi,,Public
+KwaZulu Natal,eThekwini MM,South,Wentworth Hospital,1 Boston Road,5 days,Public
+KwaZulu Natal,eThekwini MM,West,Dassenhoek Community hall,"8 Recreation Road, Pinetown, Nagina",5 days,Public
+KwaZulu Natal,eThekwini MM,West,Mpumalanga Comm Hall,197 Shezi Main Road,7 days,Public
+KwaZulu Natal,eThekwini MM,West,Peaceville Clinic,1 Georgedale Road Hammarsdale,,
+KwaZulu Natal,eThekwini MM,West,Pinetown Civic Centre,"60 Kings Rd, New Germany, Pinetown",7 days,Public
+KwaZulu Natal,eThekwini MM,West,Shongweni Clinic,"Corner Salem And Sgubhu Road, Shongweni Dam, Hillcrest",,
+KwaZulu Natal,eThekwini MM,West,St. Mary's (Mariannhill) Hospital,1 Hospital Road,5 days,Public
+KwaZulu Natal,eThekwini MM,West,Watercrest Underground Parking,141 Inanda Road waterfall Durban,5 days,Public
+KwaZulu Natal,Harry Gwala DM,Dr N Dlamini Zuma LM,Underberg Clinic,114 Underberg Main Road,,Public
+KwaZulu Natal,Harry Gwala DM,Dr Nkosazana Dlamini-Zuma LM,kz Pholela CHC,D1213 Hlanganani Road Bulwer,5 days,Public
+KwaZulu Natal,Harry Gwala DM,Dr Nkosazana Dlamini-Zuma LM,kz St Apollinaris Hospital,Centocow Road Centocow Mission Unknown,5 days,Public
+KwaZulu Natal,Harry Gwala DM,Greater Kokstad LM,kz East Griqualand and Usher Memorial Hospital,57 Corner of The Avenue and Elliot Street,6 days,Public
+KwaZulu Natal,Harry Gwala DM,uMzimkhulu LM,kz Rietvlei Hospital,R56 Rietvlei Location,6 days,Public
+KwaZulu Natal,Harry Gwala DM,uMzimkhulu LM,kz St Margaret's TB MDR Hospital,Off R56 P/Bag X517 Umzimkhulu,6 days,Public
+KwaZulu Natal,iLembe DM,KwaDukuza LM,General Justice Gizenga Mpanza Hospital,Corner Of Patterson and King Shaka Street 23A King Shaka Street,,Public
+KwaZulu Natal,iLembe DM,Mandeni LM,Love Life Community Hall,"1 Thokoza Road ,Sundumbili, Endlondlweni, 4491",,Public
+KwaZulu Natal,iLembe DM,Mandeni LM,Sundumbili CHC,A682 Msomuhle Road,7 days,Public
+KwaZulu Natal,iLembe DM,Maphumulo LM,Umphumulo Hospital,R74 Greytown Road Umphumulo Stanger,,Public
+KwaZulu Natal,iLembe DM,Maphumulo LM,uNtunjambili Hospital,Kranskop Main Road Ntunjambili,,Public
+KwaZulu Natal,iLembe DM,Ndwedwe LM,Montebello Hospital,614 Noordsberg Road,,Public
+KwaZulu Natal,iLembe DM,Ndwedwe LM,Ndwedwe CHC,P 100 Caneland Ndwedwe,7 days,Public
+KwaZulu Natal,King Cetshwayo DM,City of uMhlathuze LM,Ngwelezana Hospital,"Thanduyise Dr, next to police station",Mon to Fri | 08:30-16:30,Public
+KwaZulu Natal,King Cetshwayo DM,City of uMhlathuze LM,Nseleni CHC,45 uBhejane street Nseleni Empangeni 3882,Mon to Fri | 08:30-16:30,Public
+KwaZulu Natal,King Cetshwayo DM,City of uMhlathuze LM,Queen Nandi Regional Hospital,29 union street Empangeni 3880,Mon to Fri | 08:30-16:30,Public
+KwaZulu Natal,King Cetshwayo DM,Mthonjaneni LM,KwaMagwaza Hospital,KwaMagwaza Road,Mon to Fri | 08:30-16:30,Public
+KwaZulu Natal,King Cetshwayo DM,Nkandla LM,Ekhombe Hospital,Qhudeni Road,Mon to Fri | 08:30-16:30,Public
+KwaZulu Natal,King Cetshwayo DM,Nkandla LM,Nkandla Hospital,49 Mbatha Lane,Mon to Fri | 08:30-16:30,Public
+KwaZulu Natal,King Cetshwayo DM,uMlalazi LM,Catherine Booth Hospital,"KwaKhoza Reserve, Umlalazi Municipality, Ward 15",Mon to Fri | 08:30-16:30,Public
+KwaZulu Natal,King Cetshwayo DM,uMlalazi LM,Eshowe Hospital,40 Kangela Street,Mon to Fri | 08:30-16:30,Public
+KwaZulu Natal,King Cetshwayo DM,uMlalazi LM,Mbongolwane Hospital,N2 to Ulundi / Melmoth turn-off left at Eshowe/Nkandla turn-off + 30 km to Ntumeni left to Pett Store turn right +15 km to school turn right + 3 km Mbongolwane,Mon to Fri | 08:30-16:30,Public
+KwaZulu Natal,Ugu DM,Ray Nkonyeni LM,Gamalakhe Community Health Centre,Off Ray Nkonyeni Rd Cnr Michael Nsimbi&Rev Sithole Street Gamalakhe,08:30-15:00,Public
+KwaZulu Natal,Ugu DM,Ray Nkonyeni LM,Murchison Hospital,Murchison Main Harding Road and Kokstad road,08:30-15:00,Public
+KwaZulu Natal,Ugu DM,Ray Nkonyeni LM,Port Shepstone Hospital,1-11 Bazley Street,08:30-15:00,Public
+KwaZulu Natal,Ugu DM,Umdoni LM,GJ Crooke's Hospital,1 Hospital Road,08:30-15:00,Public
+KwaZulu Natal,Ugu DM,Umuziwabantu LM,St Andrew's Hospital,14 Moodie Street 19 Ballance Street,08:30-16:00,Public
+KwaZulu Natal,Ugu DM,Umzumbe LM,Mfundo Arnold Lushaba CHC (Turton CHC),"19, Mnafu Area Umzumbe Magistrate Court Road, Mtwalume",08:30-16:00,Public
+KwaZulu Natal,uMgungundlovu DM,Impendle LM,Imbaliyezwe Community Hall,,Mon to Fri | 08:30-16:00,Public
+KwaZulu Natal,uMgungundlovu DM,Impendle LM,Impendle Community Hall,,Mon to Fri | 08:30-16:00,Public
+KwaZulu Natal,uMgungundlovu DM,Mpofana LM,Bruntville CHC,100Old Main Main Road Bruntville Mooirivier,Mon to Fri | 08:30-16:00,Public
+KwaZulu Natal,uMgungundlovu DM,Msunduzi LM,AF Wood Hall,539 Boom Street Pietermaritzburg,Mon to Fri | 08:30-16:00,Public
+KwaZulu Natal,uMgungundlovu DM,Msunduzi LM,East Boom CHC,Cnr East and 541 Boom Street,Mon to Fri | 08:30-15:00,Public
+KwaZulu Natal,uMgungundlovu DM,Msunduzi LM,Edendale Hospital,89 Edendale Road,Mon to Fri | 08:30-16:00,Public
+KwaZulu Natal,uMgungundlovu DM,Msunduzi LM,Grey's Hospital,201 Town Bush Road,Mon to Fri | 08:30-16:00,Public
+KwaZulu Natal,uMgungundlovu DM,Msunduzi LM,Northdale Hospital,1390 Chota Motala Road,Mon to Fri | 08:30-16:00,Public
+KwaZulu Natal,uMgungundlovu DM,Msunduzi LM,Truro Community Hall,"771 Bombay Road, Northdale",Mon to Fri | 08:30-16:00,Public
+KwaZulu Natal,uMgungundlovu DM,Richmond LM,Agricultural Hall,Nelson Street 3780 Richmond,Mon to Fri | 08:30-16:00,Public
+KwaZulu Natal,uMgungundlovu DM,Richmond LM,Richmond Chest Hospital,Chilley Road Richmond 3780,Mon to Fri | 08:30-16:00,Public
+KwaZulu Natal,uMgungundlovu DM,The Msunduzi LM,Imbalenhle CHC,Imbali Unit 3 Thwala Road,Mon to Fri | 08:30-15:00,Public
+KwaZulu Natal,uMgungundlovu DM,The Msunduzi LM,Royal Show Grounds,1 Old Howick Road,Mon to Fri | 08:30-16:00,Public
+KwaZulu Natal,uMgungundlovu DM,uMngeni LM,Umgeni Waterfall Institute Hospital,Old Main Road Howic,Mon to Fri | 08:30-16:00,Public
+KwaZulu Natal,uMgungundlovu DM,uMshwathi LM,Appelsbosch Hospital,R44 Fawnlease Road Ozwathini,Mon to Fri | 08:30-16:00,Public
+KwaZulu Natal,Umkhanyakude DM,Big 5 Hlabisa LM,Inkosi Mzondeni Community Hall,Makhanyisa Street,Mon to Fri | 08:00-17:00,Public
+KwaZulu Natal,Umkhanyakude DM,Jozini LM,Bethesda Hospital (Mlingo),Main Road Ubombo,"Mon to Fri | 08:30-16:00, Sat 09:00-16:00",Public
+KwaZulu Natal,Umkhanyakude DM,Jozini LM,Bhambanana Community Hall,"Bhambanana area, 300 Metres from the road T Junction",Mon to Fri | 08:00-17:00,Public
+KwaZulu Natal,Umkhanyakude DM,Jozini LM,Msiyane Community Hall,"Msiyane Area, Next to Othobothini CHC",Mon to Fri | 08:00-18:00,Public
+KwaZulu Natal,Umkhanyakude DM,Umhlabuyalingana LM,Tembe Tribal Community Hall,Manguzi Main Road,Mon to Fri | 09:00-15:00,Public
+KwaZulu Natal,Umkhanyakude DM,Umhlabuyalingana LM,Vuka Mabasa Hall,"Mseleni Area, Next to Mseleni Hospital",Mon to Fri | 09:00-16:00,Public
+KwaZulu Natal,Umzinyathi DM,Msinga LM,CJ Mthethwa Hall,Shepstone Road,Mon to Fri | 08:00-16:00,Public
+KwaZulu Natal,Umzinyathi DM,Msinga LM,Pomeroy CHC,Shepstone Road Pomeroy 3020,Mon to Sun | 08:00-16:00,Public
+KwaZulu Natal,Umzinyathi DM,Nquthu LM,Charles Johnson Memorial Hospital,Lot 92 Hlubi Street,Mon to Sun | 08:00-16:00,Public
+KwaZulu Natal,Uthukela DM,Inkosi Langalibalele LM,Estcourt Hospital,Old Main Road,08:00-16:00,Public
+KwaZulu Natal,uThukela DM,Inkosi Langalibalele LM,Forderville Community Hall,"Forderville Area, Ward 10",08:00-16:00,Public
+KwaZulu Natal,Uthukela DM,Inkosi Langalibalele LM,Geza Community Hall,"Geza Area, Ward 4, Loskop",08:00-16:00,Public
+KwaZulu Natal,Uthukela DM,Inkosi Langalibalele LM,Moyeni Community Hall,"Moyeni Area, Ward 3, Loskop",08:00-16:00,Public
+KwaZulu Natal,uThukela DM,Inkosi Langalibalele LM,Ntabamhlophe Thusong Centre,"Ward 15, Inkosi Langalibalele, Ntabamhlophe area",08:00-16:00,Public
+KwaZulu Natal,uThukela DM,Inkosi Langalibalele LM,Weenen Community Hall,"Weenen Area, Ward 22",08:00-16:00,Public
+KwaZulu Natal,uThukela DM,Inkosi Langalibalele LM,Wembezi Community Hall,"Wembezi Township, Ward 8",08:00-16:00,Public
+KwaZulu Natal,Zululand DM,AbaQulusi LM,Vryheid Hospital,Coswald Brown Stree,Mon to Fri | 08:00-16:00,Public
+KwaZulu Natal,Zululand DM,eDumbe LM,eDumbe CHC,Stand 463E Dumbe Main Street Paulpietersburg,Mon to Fri | 08:00-16:00,Public
+KwaZulu Natal,Zululand DM,Nongoma LM,Benedictine Hospital,Lot 93 Vryheid Road,Mon to Fri | 08:00-16:00,Public
+KwaZulu Natal,Zululand DM,Ulundi LM,Ceza Hospital,Echibini Road,Mon to Fri | 08:00-16:00,Public
+KwaZulu Natal,Zululand DM,Ulundi LM,Nkonjeni Hospital,Nkiya Road,Mon to Fri | 08:00-16:00,Public
+KwaZulu Natal,Zululand DM,uPhongolo LM,Itshelejuba Hospital,Along N2 Road 32 KM from Pongola town,Mon to Fri | 08:00-16:00,Public
+KwaZulu Natal,eThekwini MM,eThekwini MM Sub,Discovery - Park Square,Corner Centenary Boulevard and Park Avenue uMhlanga Ridge,7 days,Discovery (Private)
+KwaZulu Natal,eThekwini MM,eThekwini MM Sub,Discovery - Virgin Active Pavilion,"Pavilion Shopping Centre, 5 Jack Martens Dr, Dawncliffe, Westville",7 days,Discovery (Private)
+Gauteng,Tshwane MM,Tshwane 2 SD,Medscheme Louwlardia,"21 Watershed Close, Louwlardia",5 days,Afrocentric (Private)
+Gauteng,Johannesburg MM,Johannesburg C SD,Medscheme Florida (Roodepoort),37 Conrad Street,5 days,Afrocentric (Private)
+Gauteng,Johannesburg MM,Johannesburg E SD,Busamed Modderfontein Private Hospital,"33 Fir Street, SE 3",5 days,Busamed (Private)
+Gauteng,Johannesburg MM,Johannesburg B SD,Clicks Pharmacy Fairland Walk,Cnr Beyers Naude and Wilson Street,5 days,Clicks (Private)
+Gauteng,Johannesburg MM,Johannesburg B SD,Clicks Pharmacy Campus Square,C/O Kingsway Road and University Road,5 days,Clicks (Private)
+Gauteng,Johannesburg MM,Johannesburg C SD,Clicks Pharmacy Honey Ridge,Corner of Beyers Naude Drive and Duiker Street,5 days,Clicks (Private)
+Gauteng,Johannesburg MM,Johannesburg B SD,Clicks Pharmacy Cresta,Beyers Naude Drive,5 days,Clicks (Private)
+Gauteng,West Rand DM,Rand West City LM,Clicks Pharmacy Kagiso Mall,Cnr Randfontein Road & Kagiso Street,5 days,Clicks (Private)
+Gauteng,Johannesburg MM,Johannesburg A SD,Clicks Pharmacy Fourways,Cnr William Nicol Drive & Fir Avenue,5 days,Clicks (Private)
+Gauteng,Tshwane MM,Tshwane 6 SD,Clicks Pharmacy Atterbury,Atterbury Road,5 days,Clicks (Private)
+Gauteng,Johannesburg MM,Johannesburg C SD,Clicks Pharmacy Clearwater Mall,C/O Hendrik Potgieter Road and Christiaan De Wet Road,5 days,Clicks (Private)
+Gauteng,Sedibeng DM,Emfuleni LM,Clicks Pharmacy Riverside Centre,"Shop no. 2, Riverside Centre, Cnr Bryanston Dr &, The River Rd, Bryanston",5 days,Clicks (Private)
+Gauteng,Johannesburg MM,Johannesburg B SD,Clicks Pharmacy Brightwater Commons,"Shop 189-191, Randburg Waterfront, Republic Road",5 days,Clicks (Private)
+Gauteng,Johannesburg MM,Johannesburg B SD,Clicks Pharmacy Appletons Village,Malibongwe Drive,5 days,Clicks (Private)
+Gauteng,Johannesburg MM,Johannesburg F SD,Clicks Pharmacy Nicolway,Cnr William Nicol & Wedgewood Road,5 days,Clicks (Private)
+Gauteng,Johannesburg MM,Johannesburg A SD,Clicks Pharmacy Mall of Africa,"Allandale Road, Juksei View",5 days,Clicks (Private)
+Gauteng,Johannesburg MM,Johannesburg A SD,Clicks Pharmacy Dainfern,Cnr William Nicol Drive & Broadacres Drive,5 days,Clicks (Private)
+Gauteng,Tshwane MM,Tshwane 3 SD,Clicks Pharmacy Percegold,277 Pretorius Street,5 days,Clicks (Private)
+Gauteng,Johannesburg MM,Johannesburg D SD,Clicks Pharmacy Protea Glen,Protea Glen Centre,5 days,Clicks (Private)
+Gauteng,Johannesburg MM,Johannesburg D SD,Clicks Pharmacy Maponya Mall,Old Potchefstroom Road,5 days,Clicks (Private)
+Gauteng,Tshwane MM,Tshwane 1 SD,Clicks Pharmacy Northpark,C/O Burger Street and Rachel De Beer Street,5 days,Clicks (Private)
+Gauteng,Ekurhuleni MM,Ekurhuleni S1 SD,Clicks Pharmacy Sam Ntuli Mall,Cnr Masakhane & Kumalo Street,5 days,Clicks (Private)
+Gauteng,Sedibeng DM,Emfuleni LM,Clicks Pharmacy Thabong,Moshoeshoe Street,5 days,Clicks (Private)
+Gauteng,Johannesburg MM,Johannesburg D SD,Clicks Pharmacy Diepkloof Square,Cnr Jack Klipin & Immink Roads,5 days,Clicks (Private)
+Gauteng,Johannesburg MM,Johannesburg D SD,Clicks Pharmacy Jabulani Mall,"Shop 39, Jabulani Mall, CNR Bolani Street & Koma Road",5 days,Clicks (Private)
+Gauteng,Tshwane MM,Tshwane 6 SD,Clicks Pharmacy Olympus Village,Achilles Way and Olympus Drive,5 days,Clicks (Private)
+Gauteng,Johannesburg MM,Johannesburg G SD,Clicks Pharmacy Trade Route Mall,C/O Nirvana Road and Lenasia Road,5 days,Clicks (Private)
+Gauteng,Tshwane MM,Tshwane 3 SD,Clicks Pharmacy Quagga Centre,Cnr Church & Quagga Streets,5 days,Clicks (Private)
+Gauteng,Tshwane MM,Tshwane 3 SD,Fedsure Forum - Clicks,"Shop 4-7A, Federated Forum, 315 Pretorius Street",5 days,Clicks (Private)
+Gauteng,Johannesburg MM,Johannesburg E SD,Clicks Pharmacy Melrose Arch,C/O High Street and Athol Oakland Drive,5 days,Clicks (Private)
+Gauteng,Tshwane MM,Tshwane 4 SD,Clicks Pharmacy Centurion,"234, Embankment Rd, Centurion Central",5 days,Clicks (Private)
+Gauteng,Tshwane MM,Tshwane 3 SD,Clicks Pharmacy Gezina,"Shop 26, Gezina Galleries, Michael Brink Street, Gezina",5 days,Clicks (Private)
+Gauteng,Tshwane MM,Tshwane 2 SD,Clicks Pharmacy Kolonade,C/O Zambezi & Sefako Makgato,5 days,Clicks (Private)
+Gauteng,Johannesburg MM,Johannesburg F SD,Clicks Pharmacy Mall of the South,Cnr Swartkoppies Road And Kliprevier Drive,5 days,Clicks (Private)
+Gauteng,Johannesburg MM,Johannesburg E SD,Clicks Pharmacy Rivonia,Rivonia Road,5 days,Clicks (Private)
+Gauteng,Johannesburg MM,Johannesburg B SD,Clicks Pharmacy Brixton Mall,"SHOP 38, 60 & 61, PROTEA MALL",5 days,Clicks (Private)
+Gauteng,Johannesburg MM,Johannesburg E SD,Clicks Pharmacy Sandton City,Rivonia Road,5 days,Clicks (Private)
+Gauteng,Johannesburg MM,Johannesburg E SD,Greenstone Mall Clicks Pharmacy,Modderfontein Road,5 days,Clicks (Private)
+Gauteng,Johannesburg MM,Johannesburg A SD,Clicks Pharmacy Kyalami,Kyalami Main Cnr Main & Kyalami Roads,5 days,Clicks (Private)
+Gauteng,Tshwane MM,Tshwane 4 SD,Clicks Pharmacy Doringkloof,C/O Aster Road and Lupin Road,5 days,Clicks (Private)
+Gauteng,Ekurhuleni MM,Ekurhuleni E1 SD,Clicks Pharmacy Daveyton,Cnr Eiselen & Turton Street,5 days,Clicks (Private)
+Gauteng,Ekurhuleni MM,Ekurhuleni N2 SD,Clicks Pharmacy Village View,Cnr Kloef & Van Buuren Road,5 days,Clicks (Private)
+Gauteng,Ekurhuleni MM,Ekurhuleni N2 SD,Clicks Pharmacy East Rand Mall,Cnr Rietfontein & Bentel Streets,5 days,Clicks (Private)
+Gauteng,Ekurhuleni MM,Ekurhuleni N2 SD,Clicks Pharmacy Eastgate,"Shop U1&U2, Eastgate Shopping Centre, Bradford Road",5 days,Clicks (Private)
+Gauteng,Ekurhuleni MM,Ekurhuleni N2 SD,Clicks Northmead Square Pharmacy,C/O 14Th Avenue and O'Rielly Merry Road,5 days,Clicks (Private)
+Gauteng,Tshwane MM,Tshwane 3 SD,Clicks Pharmacy -Tshwane Mall,Cnr Stormvoel/Tsamaya Roads,5 days,Clicks (Private)
+Gauteng,Ekurhuleni MM,Ekurhuleni N2 SD,Clicks Pharmacy Parkrand,Van Wyk Louw Road,5 days,Clicks (Private)
+Gauteng,Sedibeng DM,Midvaal LM,Meyerton Clicks Pharmacy,Loch Street,5 days,Clicks (Private)
+Gauteng,Tshwane MM,Tshwane 4 SD,Clicks Pharmacy The Mall@Reds,"Shop 45, The Mall@Reds Shopping Centre, CNR Rooihuiskraal Road & Hendrik Verwoerd Drive",5 days,Clicks (Private)
+Gauteng,Ekurhuleni MM,Ekurhuleni E2 SD,Clicks Pharmacy The Angelo (Nigel),Heidelberg Road,5 days,Clicks (Private)
+Gauteng,Tshwane MM,Tshwane 4 SD,Clicks Pharmacy Forest Hill,Forest Hill Mall,5 days,Clicks (Private)
+Gauteng,Tshwane MM,Tshwane 3 SD,Brooklyn Clicks Pharmacy,C/O Lange Veal Street and Bronkhorst Street,5 days,Clicks (Private)
+Gauteng,Tshwane MM,Tshwane 4 SD,Clicks Pharmacy Southdowns,Ext 54 C/O John Vorster Street and Karee Avenue,5 days,Clicks (Private)
+Gauteng,Ekurhuleni MM,Ekurhuleni N1 SD,Clicks Pharmacy Norkem,C/O James Wright Avenue and Mooi River Road,5 days,Clicks (Private)
+Gauteng,Johannesburg MM,Johannesburg A SD,Clicks Pharmacy Broadacres,Cnr Valley & Cedar Roads,5 days,Clicks (Private)
+Gauteng,Tshwane MM,Tshwane 6 SD,Clicks Pharmacy Silverwater Crossing,C/O Watermeyer Street and Pretoria Street,5 days,Clicks (Private)
+Gauteng,Tshwane MM,Tshwane 6 SD,Clicks Pharmacy The Village@Moreleta,Wekker Road,5 days,Clicks (Private)
+Gauteng,Tshwane MM,Tshwane 1 SD,Clicks Pharmacy Soshanguve Crossing,Cnr Ruth First Road And Aubrey Matlala Street,5 days,Clicks (Private)
+Gauteng,Sedibeng DM,Emfuleni LM,Vaal Mall Clicks Pharmacy,Corner of R24 and Rossini Blvd,5 days,Clicks (Private)
+Gauteng,Johannesburg MM,Johannesburg C SD,Clicks Pharmacy Westgate,Ontdekkers Road,5 days,Clicks (Private)
+Gauteng,Johannesburg MM,Johannesburg F SD,Clicks Pharmacy The Glen,Boundary Road,5 days,Clicks (Private)
+Gauteng,Tshwane MM,Tshwane 6 SD,Clicks Pharmacy The Grove,C/O Simon Vermooten Road and Lynwood Road,5 days,Clicks (Private)
+Gauteng,Ekurhuleni MM,Ekurhuleni S1 SD,Clicks Pharmacy Alberton,C/O Voortrekker Road and Du Plessis Road,5 days,Clicks (Private)
+Gauteng,Johannesburg MM,Johannesburg F SD,Clinix SS Morewa Mem Hosp,121 Ellof Street Extension Selby,6 days,Clinix (Private)
+Gauteng,Johannesburg MM,Johannesburg C SD,Clinix Tshepo-Themba Prv Hosp,Braam Fisher Ext Roads Meadowlands Zone 9,6 days,Clinix (Private)
+Gauteng,Ekurhuleni MM,Ekurhuleni S1 SD,Clinix Botshelong-Empilweni Prv Hosp,Sam Sekoati Avenue,6 days,Clinix (Private)
+Gauteng,Sedibeng DM,Emfuleni LM,Clinix Naledi-Nkanyezi Prv Hosp,Moshoeshoe Street,6 days,Clinix (Private)
+Gauteng,Johannesburg MM,Johannesburg C SD,Clinix Dr SK Matseke Mem Hosp,Corner of Chris Hani and Immink Road Zone 6 Diepkloof,6 days,Clinix (Private)
+Gauteng,West Rand DM,Mogale City LM,Dis-Chem Krugersdorp Pharmacy,"Shop 30, President Square Shopping Centre, Krugersdorp G.P.",6 days,Dis-Chem (Private)
+Gauteng,Tshwane MM,Tshwane 2 SD,Dis-Chem Wonderpark Pharmacy,Cnr Old Brits Road & Heinrich Avenue,6 days,Dis-Chem (Private)
+Gauteng,Tshwane MM,Tshwane 6 SD,Dis-Chem Woodlands Pharmacy,Cnr Garsfontein Road & De Villebois Marenil Drive,6 days,Dis-Chem (Private)
+Gauteng,Tshwane MM,Tshwane 6 SD,Dis-Chem Menlyn Park Pharmacy,Corner Atterbury Road And Lois Avenue,6 days,Dis-Chem (Private)
+Gauteng,Tshwane MM,Tshwane 3 SD,Dis-Chem Brooklyn Pharmacy,Cnr Fehrsen & Veale Street,6 days,Dis-Chem (Private)
+Gauteng,Ekurhuleni MM,Ekurhuleni S1 SD,Dis-Chem Bracken Gardens Pharmacy,119 Hennie Alberts Street,6 days,Dis-Chem (Private)
+Gauteng,Johannesburg MM,Johannesburg F SD,Dis-Chem Mall of the South Pharmacy,Cnr Swartkoppies Road & Kliprivier Road,6 days,Dis-Chem (Private)
+Gauteng,Tshwane MM,Tshwane 4 SD,Dis-Chem Centurion Pharmacy,Heuwel Ave,6 days,Dis-Chem (Private)
+Gauteng,Johannesburg MM,Johannesburg A SD,Dis-Chem Direct Courier Pharmacy,23 Stag Road,6 days,Dis-Chem (Private)
+Gauteng,Johannesburg MM,Johannesburg F SD,Dis-Chem Mondeor Pharmacy,Mondeor Boulevard,6 days,Dis-Chem (Private)
+Gauteng,Johannesburg MM,Johannesburg D SD,Dis-Chem Jabulani Mall Pharmacy,Bolani Street,6 days,Dis-Chem (Private)
+Gauteng,Tshwane MM,Tshwane 6 SD,Dis-Chem Olympus Pharmacy,"Cnr Hans Strydom & Haymeadow, Faerie Glen, 0043, Pretora East, G.P.",6 days,Dis-Chem (Private)
+Gauteng,Johannesburg MM,Johannesburg E SD,Greenstone Mall Pharmacy,Cnr Modderfontein & Van Riebeeck Roads,6 days,Dis-Chem (Private)
+Gauteng,Ekurhuleni MM,Ekurhuleni N2 SD,Dis-Chem Rynfield Terrace Pharmacy,"Shop 27, Rynfield Terrace Shopping Centre, Cnr Pretoria and Vlei Road, Rynfield, Benoni, G.P.",6 days,Dis-Chem (Private)
+Gauteng,Johannesburg MM,0,Dis-Chem Pharmacy Rosebank Mall,"Shop 327-328, Rosebank Mall, 51 Bath Avenue, Rosebank, 2196. G.P.",6 days,Dis-Chem (Private)
+Gauteng,Tshwane MM,Tshwane 4 SD,Discovery - Virgin Active Centurion,"Byls Bridge Prominade, Bloukrans Rd, Highveld, Centurion, 0046",7 days,Discovery (Private)
+Gauteng,Johannesburg MM,Johannesburg E SD,1 Discovery Place,"1 Discovery Place, Sandton",7 days,Discovery (Private)
+Gauteng,Johannesburg MM,Johannesburg A SD,Discovery - Virgin Active Broadacres,"Broadacres Shopping Centre, cnr Valley Rd & Cedar Rd, Glen Marais, Johannesburg, 2021",7 days,Discovery (Private)
+Gauteng,Tshwane MM,Tshwane 5 SD,Cullinan Pharmacy Health and Home,"2 B Park Street, Cullinan",6 days,ICPA (Private)
+Gauteng,Tshwane MM,Tshwane 6 SD,Van Heerden Apteek Glenstantia,"597 Genl. Louis Botha Dr, Constantia Park",6 days,ICPA (Private)
+Gauteng,Tshwane MM,Tshwane 1 SD,Van Heerden (Lynriff) Apteek,C/o Lynwood and Jacobson St,6 days,ICPA (Private)
+Gauteng,Tshwane MM,Tshwane 6 SD,Van Heerden Pharmacy Parkview,"Cnr of Netcare Str & Garsfontein Rd, Moreleta Park",6 days,ICPA (Private)
+Gauteng,Ekurhuleni MM,Ekurhuleni E1 SD,Glen Health Pharmacy,8758 Cnr Protea Boulevard & Wild Chestnut Street,6 days,ICPA (Private)
+Gauteng,Tshwane MM,Tshwane 5 SD,Rayton Apteek En Medisyne Depot,1 Treurnicht Street,6 days,ICPA (Private)
+Gauteng,Tshwane MM,Tshwane 6 SD,Van Heerden Apteek - Old Farm,Glen Village Centre Shop 8 C / Solomon Mahlangu & Olympus Rd Faerie Glen,6 days,ICPA (Private)
+Gauteng,West Rand DM,Merafong City LM,LAB Pharmacy - Health and Home,"54 Van Zyl Smitstraat, Carletonville",6 days,ICPA (Private)
+Gauteng,Tshwane MM,Tshwane 1 SD,Van Heerden Pharmacy Rosslyn,"105 Clubln, waterkloof Ridge",6 days,ICPA (Private)
+Gauteng,Tshwane MM,Tshwane 3 SD,Pharmacy at SPAR Westpark,66 Inner Crescent,6 days,ICPA (Private)
+Gauteng,Tshwane MM,Tshwane 6 SD,Van Heerden Pharmacy Lyttelton,H/v Rabie & Glover Street,6 days,ICPA (Private)
+Gauteng,Johannesburg MM,Johannesburg E SD,Linksfield Pharmacy,Shop 7 Linksfield Terrace 110 Linksfield Rd Edenvale,6 days,ICPA (Private)
+Gauteng,Johannesburg MM,Johannesburg A SD,Mays Chemists-Melville,"11 Main Rd, Melville",6 days,ICPA (Private)
+Gauteng,Tshwane MM,Tshwane 6 SD,Mamelodi Crossing Pharmacy,Mamelodi Crossing,6 days,ICPA (Private)
+Gauteng,Johannesburg MM,Johannesburg F SD,Ridgeway Gardens Pharmacy @ Spar,"Shop 8, 193 Swartgoud & Letitia street, Ridgeway ext 5, 2091",6 days,ICPA (Private)
+Gauteng,Tshwane MM,Tshwane 4 SD,Erasmia Pharmacy,381 Willem Erasmus Street,6 days,ICPA (Private)
+Gauteng,Tshwane MM,Tshwane 3 SD,Van Heerden Pharmacy - Herfsblaar,"1244 Webb Road, Huis Herfsblaar, Queenswood",6 days,ICPA (Private)
+Gauteng,Ekurhuleni MM,Ekurhuleni N1 SD,Midstream Pharmacy,Stand 3617 1 Madeleine Street,6 days,ICPA (Private)
+Gauteng,Johannesburg MM,Johannesburg E SD,Norwood Pharmacy,74 Grant Avenue,6 days,ICPA (Private)
+Gauteng,West Rand DM,Rand West City LM,Goldenmed Pharmacy Health & Home,Shop 10 Shoprite centre Westonaria Kruger Str Westonaria 1779,6 days,ICPA (Private)
+Gauteng,Ekurhuleni MM,Ekurhuleni E1 SD,Ackermans Pharmacy,"101 Rietfontein Road, Primrose, Germiston 1401",7 days,ICPA (Private)
+Gauteng,Ekurhuleni MM,Ekurhuleni N1 SD,East Park Pharmacy,10 Cloverfield rd,6 days,ICPA (Private)
+Gauteng,Ekurhuleni MM,Ekurhuleni N2 SD,Harmelia Pharmacy,46 Shelton Avenue,6 days,ICPA (Private)
+Gauteng,Johannesburg MM,Johannesburg G SD,Protea Pharmacy,"Shop 5, Protea Plaza, Protea Avenue, Lenasia",6 days,ICPA (Private)
+Gauteng,Johannesburg MM,Johannesburg G SD,NHN Lenmed Ahmed Katrada Prv Hospital,K43 Highway Lenasia Ext 8,5 days,Lenmed (Private)
+Gauteng,West Rand DM,Rand West City LM,NHN Lenmed Randfontein Prv Hospital,Lister Road Lower Ward Street Extension,5 days,Lenmed (Private)
+Gauteng,Johannesburg MM,Johannesburg C SD,Life Flora Hosp,"William Nicol Drive, Florida Park",5 days,Life Healthcare (Private)
+Gauteng,Sedibeng DM,Lesedi LM,Life Suikerbosrand Hosp,Cnr Mare and HF Vervoerd Street,5 days,Life Healthcare (Private)
+Gauteng,Ekurhuleni MM,Ekurhuleni N2 SD,Life The Glynnwood Hosp,Harrison Street,5 days,Life Healthcare (Private)
+Gauteng,Ekurhuleni MM,Ekurhuleni E2 SD,Life Springs Parkland Hosp,"Life Springs Parkland Hospital, Springs West Road",5 days,Life Healthcare (Private)
+Gauteng,Tshwane MM,Tshwane 6 SD,Life Wilgers Hosp,Denneboom Road,5 days,Life Healthcare (Private)
+Gauteng,Johannesburg MM,Johannesburg E SD,Medicare Douglasdale Pharmacy,"Shop 12/13 Douglasdale Shopping Centre, Cnr Douglas Dr and Leslie Ave, Douglasdale, 1953",5 days,Medicare (Private)
+Gauteng,Johannesburg MM,Johannesburg B SD,Medicare Pharmacy - Weltevreden,251 Beyers Naude Drive,5 days,Medicare (Private)
+Gauteng,Tshwane MM,Tshwane 3 SD,Mediclinic Muelmed Hospital,577 Pretorius Street,5 days,Mediclinic (Private)
+Gauteng,Tshwane MM,Tshwane 3 SD,Mediclinic Medforum Hosp,412 Francis Baard Street,5 days,Mediclinic (Private)
+Gauteng,Johannesburg MM,Johannesburg B SD,Mediclinic Sandton Hosp,"Cnr Peter Place and Main Road, Bryanston, 2021",5 days,Mediclinic (Private)
+Gauteng,Tshwane MM,Tshwane 1 SD,Mediclinic Legae Hosp,8560 Unit M Off Lucas Mangope Highway Klipgat Road,5 days,Mediclinic (Private)
+Gauteng,Sedibeng DM,Emfuleni LM,Mediclinic Vereeniging Hosp,Corner Joubert and Hofmeyer Streets,5 days,Mediclinic (Private)
+Gauteng,Sedibeng DM,Emfuleni LM,Mediclinic Emfuleni Hosp,6 Jan van Riebeeck Boulevard,5 days,Mediclinic (Private)
+Gauteng,Johannesburg MM,Johannesburg B SD,Momentum Metropolitan Vaccination Centre-the Marc Sandton,The Marc Building Ground floor 129 Rivonia Road Sandton,5 days,Momentum (Private)
+Gauteng,Tshwane MM,Tshwane 4 SD,Momentum Metropolitan Vaccination Centre-Doringkloof,67 Koranna Avenue Doringkloof Centurion- Pretoria,5 days,Momentum (Private)
+Gauteng,Johannesburg MM,Johannesburg B SD,Netcare Milpark Hosp,9 Guild Road,5 days,Netcare (Private)
+Gauteng,Tshwane MM,Tshwane 4 SD,Pick N Pay Pharmacy - Centurion,Cnr Lenchen & Old Pretoria Roads,7 days,Pick n Pay (Private)
+Gauteng,Johannesburg MM,Johannesburg A SD,Pick N Pay Pharmacy - Woodmead,Woodmead Retail Park Woodmead Drive Woodmead Sandton,7 days,Pick n Pay (Private)
+Gauteng,Tshwane MM,Tshwane 2 SD,Pick N Pay Pharmacy - Montana,"Cnr. Zambezi Drive and Enkeldoom Road, Montana 0182",7 days,Pick n Pay (Private)
+Gauteng,Johannesburg MM,Johannesburg E SD,Pick N Pay Pharmacy - Norwood,Cnr Grant & 6th Avenue,6 days,Pick n Pay (Private)
+Gauteng,Johannesburg MM,Johannesburg E SD,Grayston Pharmacy & Medicine Depot,"Grayston Centre, 135 Grayston Dr, Strathavon, Sandton",5 days,The Local Choice (Private)
+Gauteng,Ekurhuleni MM,Ekurhuleni S1 SD,Lily Pharmacy Germiston,55a Kenneth Avenue,5 days,The Local Choice (Private)
+Gauteng,Johannesburg MM,Johannesburg B SD,Rox Pharmacy,69 Church Street,5 days,The Local Choice (Private)
+Gauteng,Johannesburg MM,Johannesburg G SD,Duxmed Pharmacy,"70 Letitia Street, Ridgeway",5 days,The Local Choice (Private)
+Gauteng,Ekurhuleni MM,Ekurhuleni E2 SD,Ferryvale Pharmacy,Ferryvale Koopsentrum,5 days,The Local Choice (Private)
+Gauteng,Ekurhuleni MM,Ekurhuleni E,Daveyton CDC main,"Stand 9307, Empilsweni Str, Daveyton",Monday to Friday | 08:30 - 15:00,Public
+Gauteng,Ekurhuleni MM,Ekurhuleni E,Duduza Clinic,3 Nala Street Duduza,Monday to Friday | 08:30 - 15:00,Public
+Gauteng,Ekurhuleni MM,Ekurhuleni E,Joy Clinic,"4748 Masemotha, Etwatwa West Daveton",Monday to Friday | 08:30 - 15:00,Public
+Gauteng,Ekurhuleni MM,Ekurhuleni E,KwaThema CHC,"7001 Moshoeshoe Street, Kwathema",Monday to Friday | 08:30 - 15:00,Public
+Gauteng,Ekurhuleni MM,Ekurhuleni E,Nokuthela Ngwenya CHC,Vlakfontein Road Dunnottar,Monday to Friday | 08:30 - 15:00,Public
+Gauteng,Ekurhuleni MM,Ekurhuleni E,Phillip Moyo CHC,"6944 Etwatwa Ext 9, Mandela Section Benoni",Monday to Friday | 08:30 - 15:00,Public
+Gauteng,Ekurhuleni MM,Ekurhuleni E,Pholosong hospital,"1067 Ndaba Street, Tsakane, Brakpan, 1550",Monday to Friday | 08:30 - 15:00,Public
+Gauteng,Ekurhuleni MM,Ekurhuleni E,springs hall,1851 Corner Plantation And South Main Road Springs,Monday to Friday | 08:30 - 15:00,Public
+Gauteng,Ekurhuleni MM,Ekurhuleni E,Tsakane clinic,10890 Zulu Street Tskane,Monday to Friday | 08:30 - 15:00,Public
+Gauteng,Ekurhuleni MM,Ekurhuleni E,Tsakane Clinic Ext 10,"13811 Mashele St, Tsakane, Brakpan",Monday to Friday | 08:30 - 15:00,Public
+Gauteng,Ekurhuleni MM,Ekurhuleni N,Actonville Community Hall,"732 Khan Crescent, Actonville, Benoni",Monday to Friday | 08:30 - 15:00,Public
+Gauteng,Ekurhuleni MM,Ekurhuleni N,Boksburg Civic Hall,Cnr Trichardt And Commissioner Road,Monday to Friday | 08:30 - 15:00,Public
+Gauteng,Ekurhuleni MM,Ekurhuleni N,Christian family Church Drive Through,"Shop 3, Green Valley Shopping Centre, Corner Greenstone and Stoneridge Drive, Greenstone Hills, Ext. 31, G.P.",Monday to Friday | 08:30 - 15:00,Public
+Gauteng,Ekurhuleni MM,Ekurhuleni N,Esangweni CHC christian church international,219 Mpilo Street Esangweni Section,Monday to Friday | 08:30 - 15:00,Public
+Gauteng,Ekurhuleni MM,Ekurhuleni N,Kempton Park Civic Centre,Civic Centre Cnr Cr Swart And Pretoria Road Kempton Park,Monday to Friday | 08:30 - 15:00,Public
+Gauteng,Ekurhuleni MM,Ekurhuleni N,Midstream Ridge Laerskool,"Olifantsfontein 410-JR, Olifantsfontein",Monday to Friday | 08:30 - 15:00,Public
+Gauteng,Ekurhuleni MM,Ekurhuleni N,Rabosotho hall,Corner Andrew Mapheto and George Nyanga Streets,Monday to Friday | 08:30 - 15:00,Public
+Gauteng,Ekurhuleni MM,Ekurhuleni N,Tembisa Hospital,"539 -541 Reverend R.T.J. Namane Dr, Hospital View, Tembisa, 1632",Monday to Friday | 08:30 - 15:00,Public
+Gauteng,Ekurhuleni MM,Ekurhuleni S,Alberton North Clinic (@Alberton Civic Centre Hall),"Cnr 2Nd Avenue And Hendrick Potgieter, Alberton North",Monday to Friday | 08:30 - 15:00,Public
+Gauteng,Ekurhuleni MM,Ekurhuleni S,Bertha Gqxowa Hospital (Kobie Muller Hall),"Corner of Angus and Joubert Streets, Germiston",Monday to Friday | 08:30 - 15:00,Public
+Gauteng,Ekurhuleni MM,Ekurhuleni S,DH Williams Hall,97 Bainskloof Str Glenharvie Westonaria,Monday to Friday | 08:30 - 15:00,Public
+Gauteng,Ekurhuleni MM,Ekurhuleni S,Jabulani Dumane CHC,257 Nguza Street Ext 2 Vosloorus,Monday to Friday | 08:30 - 15:00,Public
+Gauteng,Ekurhuleni MM,Ekurhuleni S,Palm ridge Community Centre,"41 Palm Ridge road, Palm Ridge",Monday to Friday | 08:30 - 15:00,Public
+Gauteng,Ekurhuleni MM,Ekurhuleni S,Phola Park CHC,10054 Mzimkhulu Street Ext 5 Thokoza,Monday to Friday | 08:30 - 15:00,Public
+Gauteng,Ekurhuleni MM,Ekurhuleni S,Thelle Mogoerane Hospital,"12390 Nguza street, Vosloorus",Monday to Friday | 08:30 - 15:00,Public
+Gauteng,Ekurhuleni MM,Ekurhuleni S,Thokoza youth center,112 Siemert Road,Monday to Friday | 08:30 - 15:00,Public
+Gauteng,Ekurhuleni MM,Ekurhuleni S,Vosloorus hall,30 Ditsego Street Vosloorus X1,Monday to Friday | 08:30 - 15:00,Public
+Gauteng,Ekurhuleni MM,Ekurhuleni S,gp Thelle Mogoerane Regional Hospital,"12390 Nguza street, Vosloorus, 1486",Monday to Friday | 08:30 - 15:00,Public
+Gauteng,Johannesburg MM,Johannesburg A SD,Diepsloot youth Centre,"Stand 5355 Diepsloot Ext 7, Pear street",Monday to Friday | 08:00 - 16:00,Public
+Gauteng,Johannesburg MM,Johannesburg A SD,Kanana Community Hall,"Dassievanger Crescent, Rabieridge, Midrand",Monday to Friday | 08:00 - 16:00,Public
+Gauteng,Johannesburg MM,Johannesburg A SD,Lord Khanyile Hall,22 De Waal Street,Monday to Friday | 08:00 - 16:00,Public
+Gauteng,Johannesburg MM,Johannesburg A SD,Midrand LA EMS,"19 First Rd, Halfway Gardens, Midrand",Monday to Friday | 08:00 - 16:00,Public
+Gauteng,Johannesburg MM,Johannesburg A SD,Witkoppen Clinic,"105 William Nicol, Fourways",Monday to Friday | 08:00 - 16:00,Public
+Gauteng,Johannesburg MM,Johannesburg B SD,Berairo Recreational Hall,Cnr Hoover And Dolores Street Berario Crosby,Monday to Friday | 08:00 - 16:00,Public
+Gauteng,Johannesburg MM,Johannesburg B SD,Danny Van Zyl recreational centre,"565 113 Strand Strand Street,",Monday to Friday | 08:00 - 16:00,Public
+Gauteng,Johannesburg MM,Johannesburg B SD,Houghton West Drive,"49 West street Houghton Estate,Johannesburg",Monday to Thursday | 08:00 - 16:00 Saturday | 08:00-14:00,Public
+Gauteng,Johannesburg MM,Johannesburg B SD,Parkhurst Recreational Centre,Cnr 14Th Street And 5Th Avenue Parkhurst,Monday to Friday | 08:00 - 16:00,Public
+Gauteng,Johannesburg MM,Johannesburg C SD,Discoverers CHC,35 Clarendon Drive Discovery Roodepoort,Monday to Friday | 08:00 - 16:00,Public
+Gauteng,Johannesburg MM,Johannesburg C SD,Fleurhof Recreation Centre,Corner Malacite & Spinel Avenue Fleurhof,Monday to Friday | 08:00 - 16:00,Public
+Gauteng,Johannesburg MM,Johannesburg C SD,Roodepoort Town Hall,172 Belandina Street Roodepoort Exner Street,Monday to Friday | 08:00 - 16:00,Public
+Gauteng,Johannesburg MM,Johannesburg C SD,Tshepisong clinic,"3242 Galela Street, Phase 4, Tsepisong, Roodepoort",Monday to Friday | 08:00 - 16:00,Public
+Gauteng,Johannesburg MM,Johannesburg C SD,Witpoortjie Community Hall,"8 Harry Street, Princess, Roodepoort",Monday to Friday | 08:00 - 16:00,Public
+Gauteng,Johannesburg MM,Johannesburg C SD,Zandspruit Shopping Centre,"CN Beyes and Marina Drive, Zandspruit",Monday to Friday | 08:00 - 16:00,Public
+Gauteng,Johannesburg MM,Johannesburg D SD,CHBAH Recreational Centre,126 Chris Hani Road,Monday to Sunday | 08:00 - 16:00,Public
+Gauteng,Johannesburg MM,Johannesburg D SD,Chiawelo CHC,1753 Rihlampfu Street Ciawelo,5 days,Public
+Gauteng,Johannesburg MM,Johannesburg D SD,Diepkloof Community Hall,7648 Redshaw Road Diepkloof,5 days,Public
+Gauteng,Johannesburg MM,Johannesburg D SD,Grace Bible Church Drive thru,"12th lane; 593 Ben Swart road, Gezina",5 days,Public
+Gauteng,Johannesburg MM,Johannesburg D SD,Itireleng CHC,5/6 Elias Motsoaledi Road Dobsonville,5 days,Public
+Gauteng,Johannesburg MM,Johannesburg D SD,Kopanong Community Hall,1 Berg Street Rosettenville,5 days,Public
+Gauteng,Johannesburg MM,Johannesburg D SD,Makhaya Community Hall,666 Koma Road and Ellias Motsoaledi Road,5 days,Public
+Gauteng,Johannesburg MM,Johannesburg D SD,Meadowlands zone 10 Hall,Stand 293 - 8 Heckroodt Circle Meadowlands Ext 2 Soweto 1852,5 days,Public
+Gauteng,Johannesburg MM,Johannesburg D SD,Naledi Community Hall,676 Legoale Street Naledi,5 days,Public
+Gauteng,Johannesburg MM,Johannesburg D SD,Naledi Ext 2 Sports Centre,"LETSATSI STREET, EXTENSION 2, NALEDI",5 days,Public
+Gauteng,Johannesburg MM,Johannesburg E SD,Alexandra CHC,33 Arkwright Road Wynburg,Monday to Friday | 08:00 - 16:00,Public
+Gauteng,Johannesburg MM,Johannesburg E SD,Altrek Sport Complex Alexandra Eastbank,386 Eastbank Avenue Alexandra,Monday to Friday | 08:00 - 16:00,Public
+Gauteng,Johannesburg MM,Johannesburg E SD,Discovery Health,1 Discovery Place Sandton,Monday to Friday | 08:00 - 16:00,Public
+Gauteng,Johannesburg MM,Johannesburg E SD,Hatzolah Medical Rescue 2,"50 Saxon Road ,Hurlingham",Sunday to Friday | 08:00 - 16:00,Public
+Gauteng,Johannesburg MM,Johannesburg E SD,Klipfontein Community Hall,Corner Allandale & Saraseen Klipfontein,Monday to Friday | 08:00 - 16:00,Public
+Gauteng,Johannesburg MM,Johannesburg E SD,Marlboro Sport Complex,1 Von Wielligh Street,Monday to Friday | 08:00 - 16:00,Public
+Gauteng,Johannesburg MM,Johannesburg E SD,Tara Hospital,"386 East bank Avenue, Alexandra",Monday to Friday | 08:00 - 16:00,Public
+Gauteng,Johannesburg MM,Johannesburg E SD,Wendy wood Sports and Recreational Centre,77 Darwin Street Wendywood,Monday to Friday | 08:00 - 16:00,Public
+Gauteng,Johannesburg MM,Johannesburg F SD,Charlotte Maxeke Hospital,Corner of Jubilee Street and York Streets,Monday to Friday | 08:00 - 16:00,Public
+Gauteng,Johannesburg MM,Johannesburg F SD,GROSVENOR RECREATION CENTRE,"46 5th Avenue& Battery Street, Mayfair",Monday to Friday | 08:00 - 16:00,Public
+Gauteng,Johannesburg MM,Johannesburg F SD,Hillbrow CHC,Klein And Smith Street Hillbrow,Monday to Friday | 08:00 - 16:00,Public
+Gauteng,Johannesburg MM,Johannesburg F SD,Mondeor Recreational Centre,"276 Daylesford Rd, Mondeor",Monday to Friday | 08:00 - 16:00,Public
+Gauteng,Johannesburg MM,Johannesburg F SD,Yeoville recreation centre,Corner Kenmere And Hopkins Street Yeoville,Monday to Friday | 08:00 - 16:00,Public
+Gauteng,Johannesburg MM,Johannesburg G SD,Albertus Pop Hall,"Corner Goud& Amtis Road, Eldorado Park",Monday to Friday | 08:00 - 16:00,Public
+Gauteng,Johannesburg MM,Johannesburg G SD,Arekopaneng Community Hall,"14356 Main Road, Ext 8 Orange Farm",Monday to Friday | 08:00 - 16:00,Public
+Gauteng,Johannesburg MM,Johannesburg G SD,Chris Hani MultiPurpose Hall,"7714,Orange farm ext 3 Stretford",Monday to Friday | 08:00 - 16:00,Public
+Gauteng,Johannesburg MM,Johannesburg G SD,Ennerdale Ext 9 Community Centre,Cnr Katz Road And Smith Walk Street Ennerdale Ext 9,Monday to Friday | 08:00 - 16:00,Public
+Gauteng,Johannesburg MM,Johannesburg G SD,Freedom park clinic,2572 Zodiac Circle Freedom Park,Monday to Friday | 08:00 - 16:00,Public
+Gauteng,Johannesburg MM,Johannesburg G SD,Lenasia South Extension 5 Clinic,3 Cosmos Street,Monday to Friday | 08:00 - 16:00,Public
+Gauteng,Johannesburg MM,Johannesburg G SD,Lenasia South Hospital,3 Cosmos Street,Monday to Friday | 08:00 - 16:00,Public
+Gauteng,Johannesburg MM,Johannesburg G SD,Poortjie Community Hall,"Stand 737 Kubheita str, Poortjie",Monday to Friday | 08:00 - 16:00,Public
+Gauteng,Johannesburg MM,Johannesburg G SD,Stretford CHC,15573 Link Road Orange Farm Ext 2,Monday to Friday | 08:00 - 16:00,Public
+Gauteng,Johannesburg MM,Johannesburg G SD,Weilers Farm Hall at Clinic,15 E Riley Road,Monday to Friday | 08:00 - 16:00,Public
+Gauteng,Sedibeng DM,Emfuleni LM,Bophelong Methodist Church,"281 Bokwe Street, Bophelong",Monday to Friday | 08:00 - 15:00,Public
+Gauteng,Sedibeng DM,Emfuleni LM,Johan Heyns CHC,Cnr Frikkie Meyer And Pasteur Boulevard,5 days,Public
+Gauteng,Sedibeng DM,Emfuleni LM,Lakeside Multipurpose Centre,"Mossie Road, Vereeniging",Monday to Friday | 08:00 - 15:00,Public
+Gauteng,Sedibeng DM,Emfuleni LM,Levai Mbatha CHC,"Cnr Easton Road & Hamilton Road, Mafatsana",5 days,Public
+Gauteng,Sedibeng DM,Emfuleni LM,mafatsana thusong hall,12527 Ainsley Street Kagiso 1 Kagiso Krugersdorp,5 days,Public
+Gauteng,Sedibeng DM,Emfuleni LM,Market banquet hall,22 Market Avenue Vereeniging,5 days,Public
+Gauteng,Sedibeng DM,Emfuleni LM,President Hyper,"Vaal Rd & Playfair blvd, Vanderbijlpark",Monday to Friday | 08:00 - 16:00,Public
+Gauteng,Sedibeng DM,Emfuleni LM,Saul Tsotetsi,"Unit 24, Sebokeng",5 days,Public
+Gauteng,Sedibeng DM,Emfuleni LM,Sebokeng Hospital,Moshoeshoe Street,5 days,Public
+Gauteng,Sedibeng DM,Emfuleni LM,Sharpeville Community Health Centre,9173 Zwane Street,5 days,Public
+Gauteng,Sedibeng DM,Lesedi LM,Impumelelo Hall,"2263 Vezi Street, Mpumelelo, Devon",5 days,Public
+Gauteng,Sedibeng DM,Lesedi LM,Ratanda,2844 Boschoek Street Ratanda Heidelberg,5 days,Public
+Gauteng,Sedibeng DM,Midvaal LM,Bantu-Bonke Hall,Panfontein,Monday to Friday | 08:00 - 15:00,Public
+Gauteng,Sedibeng DM,Midvaal LM,Mamello Clinic,Vaal Marina,Monday to Friday | 08:00 - 15:00,Public
+Gauteng,Sedibeng DM,Midvaal LM,Midvaal Community Development Centre (Clinic),28 Mitchell Road Meyerton,Monday to Friday | 08:00 - 15:00,Public
+Gauteng,Sedibeng DM,Midvaal LM,Sicelo Community Hall,"R. M. Sobukwe Street, Meyerton",Monday to Friday | 08:00 - 15:00,Public
+Gauteng,Tshwane MM,1,Akasia Hall,"120 Disotus Ave, Karenpark, Akasia",Monday to Friday | 08:00 - 15:00,Public
+Gauteng,Tshwane MM,1,"Ga-Rankuwa Hall, Zone 1","9109 Pilani Street, Ga-Rankuwa",Monday to Friday | 08:00 - 15:00,Public
+Gauteng,Tshwane MM,1,Garankuwa View clinic,Mobile vaccination site moving around the community,Monday to Friday | 08:00 - 16:00,Public
+Gauteng,Tshwane MM,1,KT Motubatse Hall,20941 Mahlangu Street Extension 4 Soshanguve,5 days,Public
+Gauteng,Tshwane MM,1,Mabopane Indoor Center,"8551 Mangope Road, Mabopane",Monday to Sunday | 08:00 - 15:00,Public
+Gauteng,Tshwane MM,1,Pretoria North hall,"176 Emily Hobhouse Street, Corner Emily Hobhouse & Brits Street, Pretoria NorthStreet",5 days,Public
+Gauteng,Tshwane MM,1,Soshaguve Halala Hall,"2077 Block H, Soshanguwe",Monday to Friday | 08:00 - 16:00,Public
+Gauteng,Tshwane MM,1,Soshanguve Block JJ Clinic,972 Rivoningo Street Soshanguve Block Jj,5 days,Public
+Gauteng,Tshwane MM,2,Adelaide Tambo clinic,"Stand 30, Fanie Van Rensburg Street, Pyramid",Monday to Friday | 08:00 - 15:00,Public
+Gauteng,Tshwane MM,2,Kekana Gardens,1078 Pfananani 1161 Alexandra Section Kekana Gardens,Monday to Friday | 08:00 - 15:00,Public
+Gauteng,Tshwane MM,2,Mandisa Shiceka Clinic,Plot 60 Mandela Village Hammanskraal,Monday to Friday | 08:00 - 15:00,Public
+Gauteng,Tshwane MM,2,Phomolong Clinic,"Corner 8th Avenue & Schuveerg Street, Attridgeville",Monday to Friday | 08:00 - 15:00,Public
+Gauteng,Tshwane MM,2,Refentse Clinic (Odi),3194 Tambo 11 stinkwater 0400,Monday to Friday | 08:00 - 15:00,Public
+Gauteng,Tshwane MM,2,Suurman clinic,Stand 871 Suurman Hammanskraal,Monday to Friday | 08:00 - 15:00,Public
+Gauteng,Tshwane MM,2,Temba CHC,"2475 Roma Street, Kudube Unit 2, Temba",Monday to Friday | 08:00 - 15:00,Public
+Gauteng,Tshwane MM,3,Atteridgeville Hall,01 Ramohoeba Square Cnr Mareka And Mokobane Streets Atteridgeville,5 days,Public
+Gauteng,Tshwane MM,3,FF.Ribeiro clinic (Council Chamber),Sammy Marks Building Cnr Madiba And Sisulu Streets,5 days,Public
+Gauteng,Tshwane MM,3,Laudium CHC,Cnr 25Th Avenue And Bengal Street,5 days,Public
+Gauteng,Tshwane MM,3,Tshwane Rehabilitation hospital,Cnr Dr Savage And Soutspanberg Roads Pretoria Central,5 days,Public
+Gauteng,Tshwane MM,3,University of Pretoria,894 Loerie Street,5 days,Public
+Gauteng,Tshwane MM,3,Weskopies Hospital,1 Ketjen Street,5 days,Public
+Gauteng,Tshwane MM,4,Lyttlelton Clinic,"Centurion Council Chamber: Basden Avenue, Die Hoewes, Centurion",Monday to Friday | 08:00 - 16:00,Public
+Gauteng,Tshwane MM,4,Olievenhoutbosch hall,Cnr Legong And Rethabile Streets Olievenhoutbosch,5 days,Public
+Gauteng,Tshwane MM,5,Rayton Hall,"Cnr Oakley and Montrose Street, Rayton",5 days,Public
+Gauteng,Tshwane MM,6,Eersterust CHC,Cnr Ps Fourie Drive And Hans Coverdale Road Eersterust,Monday to Friday | 08:00 - 15:00,Public
+Gauteng,Tshwane MM,6,Mamelodi hospital,19472 Serapeng Street Tsamaya Road Mamelodi East,Monday to Friday | 08:00 - 15:00,Public
+Gauteng,Tshwane MM,6,Mamelodi West Community Hall,"8497 Corner Kubone & Tsweu Streets, Mamelodi West",Monday to Sunday | 08:00 - 15:00,Public
+Gauteng,Tshwane MM,6,Moreleta Park NG Kerk,"2353 de Villebois-Mareuil Street, Moreleta Park",Monday to Friday | 08:00 - 15:00,Public
+Gauteng,Tshwane MM,6,Nellmapius Clinic,494 Loeriesfontein Crescent Nellmapius Ext 1,Monday to Friday | 08:00 - 15:00,Public
+Gauteng,Tshwane MM,6,Stanza Bopape hall,25905 Extension 8 Hector Peterson Street Mamelodi East Next To Mahube Valley Bp Filling Station,Monday to Sunday | 08:00 - 15:00,Public
+Gauteng,Tshwane MM,7,Bronkospruit hall,"34 Olifant Crescent, Bronkhortspruit",5 days,Public
+Gauteng,Tshwane MM,7,Dark City Community Healthcare Centre,Mobile vaccination site moving around the community,Monday to Friday | 08:00 - 16:00,Public
+Gauteng,Tshwane MM,7,Ekangala hall,Stand 1227 Ekangala Section D Next To Community Hall,5 days,Public
+Gauteng,Tshwane MM,7,Rethabiseng hall,310 Matukane Strret Rethabiseng Ext 1,5 days,Public
+Gauteng,Tshwane MM,7,Sokhulumi clinic,Mobile vaccination site moving around the community,Monday to Friday | 08:00 - 16:00,Public
+Gauteng,Tshwane MM,7,Zithobeni Clinic,"642 Malabe Street, Zithobeni",5 days,Public
+Gauteng,West rand District,Merafong City LM,carletonville civic center,5 Beryl street Carletonville,Monday to Friday | 08:30 - 15:00,Public
+Gauteng,West rand District,Merafong City LM,Carletonville hospital,Corner of Falcon and Annan Road,Monday to Friday | 08:30 - 15:00,Public
+Gauteng,West rand District,Merafong City LM,Khutsong Community Hall,2 Sompane street,Monday to Friday | 08:30 - 15:00,Public
+Gauteng,West rand District,Merafong City LM,Kokosi community hall,"786 Cnr Mogale And Moeketsi Street, Kokosi Location, Fochville",Monday to Friday | 08:30 - 15:00,Public
+Gauteng,West rand District,Mogale City LM,Dr yusuf dadoo,Corner of Memorial and Hospital Road,Monday to Friday | 08:30 - 15:00,Public
+Gauteng,West rand District,Mogale City LM,Joe Slovo Hall,"Plot 84 Nooitgedacht, Muldersdrift",Monday to Friday | 08:30 - 15:00,Public
+Gauteng,West rand District,Mogale City LM,Leratong Hospital,1 Adcock Street,Monday to Friday | 08:30 - 15:00,Public
+Gauteng,West rand District,Mogale City LM,Munsiville care of the aged,"2542 Jabulani street, Munsieville",Monday to Friday | 08:30 - 15:00,Public
+Gauteng,West rand District,Mogale City LM,Pink Hall,"cnr 4th Avenue and 6th Street, Rietvallei ext 2",Monday to Friday | 08:30 - 15:00,Public
+Gauteng,West rand District,Rand West City LM,greenhills stadium,"Northway Avenue, Greenhills, Randfontein",Monday to Friday | 08:30 - 15:00,Public
+Gauteng,West rand District,Rand West City LM,Holomisa Sports Ground,"Bekkersdal Holomisa Sport Ground, Bekkersdal informal settlement",Monday to Friday | 08:30 - 15:00,Public
+Gauteng,West rand District,Rand West City LM,Ramosa Hall (Phase II),"Thebenare street, Mohlakeng",Monday to Friday | 08:30 - 15:00,Public
+Gauteng,West rand District,Rand West City LM,Randgate clinic,1032 Bailey Street Randgate,Monday to Friday | 08:30 - 15:00,Public
+Gauteng,West rand District,Rand West City LM,Simunye Hall (phase 2),"3409 Kgotlelela Drive, Simunye, Westonaria, 1779",Monday to Friday | 08:30 - 15:00,Public
+Gauteng,West rand District,Rand West City LM,westonaria civic center,"Corner Saturn and Neptune street, Westonaria",Monday to Friday | 08:30 - 15:00,Public
+Free State,T Mofutsanyana DM,Maluti-a-Phofung LM,Busamed Harrismith Hospital,Cnr of Vowe and Alexander street,5 days,Busamed (Private)
+Free State,Mangaung MM,Bloemfontein SD,Busamed Bram Fischer International Hospital,Mazelspoort Road Bloemfontein Free State 9300,5 days,Busamed (Private)
+Free State,Lejweleputswa DM,Matjhabeng LM,Clicks Pharmacy Boitumelo Junction,Cnr A Phakathi Drive & Nkoane Street,5 days,Clicks (Private)
+Free State,Mangaung MM,Bloemfontein SD,Clicks Pharmacy Bayswater,41 Milner Road,5 days,Clicks (Private)
+Free State,T Mofutsanyana DM,Dihlabeng LM,Clicks Pharmacy Bethlehem,Cnr Malan & Miller Street,5 days,Clicks (Private)
+Free State,Mangaung MM,Bloemfontein SD,Clicks Pharmacy Fichardt Park,"111 Benade Avenue, Southern Centre, Fichard Park",5 days,Clicks (Private)
+Free State,T Mofutsanyana DM,Dihlabeng LM,Clicks Pharmacy Dihlabeng,Dihlabeng Shopping Centre,5 days,Clicks (Private)
+Free State,Mangaung MM,Bloemfontein SD,Clicks Pharmacy Langenhoven Park,"Shop 8, Dynarc Walk Centre, Jan Spies Laan , Langenhoven Park",5 days,Clicks (Private)
+Free State,Mangaung MM,Bloemfontein SD,Clicks Pharmacy Northridge Mall,Northridge Mall,5 days,Clicks (Private)
+Free State,T Mofutsanyana DM,Setsoto LM,Clicks Pharmacy Ficksburg,Fontein Street,5 days,Clicks (Private)
+Free State,Fezile Dabi DM,Metsimaholo LM,Clicks Pharmacy Sasolburg,32 John Voster Road,5 days,Clicks (Private)
+Free State,Mangaung MM,Bloemfontein SD,Dis-Chem Loch Logan Pharmacy,"Shop F2, Loch Logan Water Front, 105-107 Henry Street, Westdene, Bloemfontein, 9301. F.S.",6 days,Dis-Chem (Private)
+Free State,Mangaung MM,,Klinicare Heuwelsig Pharmacy,"Shop 10, Ogilvie Thompson str Heuwelsig, Bloemfontein, 9501",6 days,ICPA (Private)
+Free State,Lejweleputswa DM,Matjhabeng LM,Elizabeth Street Pharmacy,Cnr Arrarat & Heeren Streets,6 days,ICPA (Private)
+Free State,Lejweleputswa DM,Matjhabeng LM,Sentrum Pharmacy,"Shop 5, Checkers Centre, cnr Arrarat Road and Stateway",6 days,ICPA (Private)
+Free State,Lejweleputswa DM,Matjhabeng LM,Mediclinic Welkom Hosp,Meulen Street,5 days,Mediclinic (Private)
+Free State,T Mofutsanyana DM,Dihlabeng LM,Mediclinic Hoogland Hosp,De Leeuw Street,5 days,Mediclinic (Private)
+Free State,Mangaung MM,Bloemfontein SD,Mediclinic Bfn Hosp,"Mediclinic Bloemfontein, P.O.Box 12651",5 days,Mediclinic (Private)
+Free State,Mangaung MM,Bloemfontein SD,Medi-Chem Pharmacy - Universitas,"173 Paul Kruger Ave, Universitas, Bloemfontein 9301",5 days,The Local Choice (Private)
+Free State,Fezile Dabi,Moqhaka,Boitumelo Regional Hospital,"Asiatic Bazaar, Kroonstad, 9499",5 days,Public
+Free State,Fezile Dabi,Ngwathe,Tokollo District Hospital,Myron Street,5 days,Public
+Free State,Lejweleputswa,Matjhabeng,Bongani Regional Hospital,Mothusi Road Thabong,5 days,Public
+Free State,Lejweleputswa,Matjhabeng,Katleho District Hospital,"28 Kommando Laan, Virginia, 9431",5 days,Public
+Free State,Lejweleputswa,Matjhabeng,Thusanong District Hospital,"Philippi Hospital Street, Odendaalsrus, 9480, 9480",5 days,Public
+Free State,Lejweleputswa,Nala,Nala District Hospital,35 Van Riebeeck Street,5 days,Public
+Free State,Lejweleputswa,Tswelopele,Mohau District Hospital,Prince George Road,5 days,Public
+Free State,Lejweleputswa,Masilonyana,Winburg District Hospital,1 Northern Laan Winburg 9420,5 days,Public
+Free State,Thabo Mofutsanyana,Dihlabeng,"Dihlabeng regional hospital, Bethlehem",2 Eeufees Street,5 days,Public
+Free State,Thabo Mofutsanyana,Mantsopa,Senoritha Nthlabathi DH,"Achtste St, Ladybrand, 9745",5 days,Public
+Free State,Thabo Mofutsanyana,Nketoana,Nketoana Hospital,3 Artie Street,2 days,Public
+Free State,Thabo Mofutsanyana,Phumelela,Phumelela District hospital,757 Kuhn Street,1 day,Public
+Free State,Mangaung,Bloemfontein,Boikhucho,"55291 Maleleka street, Bochabela, Mangaung,Bloemfontein.9301",5 days,Public
+Free State,Mangaung,Bloemfontein,MUCPP,"19057 Singonzo Street, Phelindaba, Bloemfontein",5 days,Public
+Free State,Mangaung,Bloemfontein,Universitas,1 Logeman Street,5 days,Public
+Free State,Mangaung,Bloemfontein,Pelonomi,Dr Belcher Road,5 days,Public
+Free State,Mangaung,Botshabelo,Botshabelo Hospital,"Botshabelo Ba Hospital Road, Botshabelo, Mangaung, 9781",5 days,Public
+Free State,Mangaung,Thaba Nchu,Dr JS Moroka Hospital,Station Road,5 days,Public
+Free State,Fezile Dabi,Mafube LM,NG Kerk Frankfort,Frankfort,Monday to Friday | 09:00 - 15:00,Public
+Free State,Fezile Dabi,Moqhaka LM,Phelophepa Train - Kroonstad,,Monday to Friday | 09:00 - 15:00,Public
+Free State,Lejweleputswa DM,Masilonyana LM,Winburg Hospital,1 Northern Laan Winburg 9420,Monday to Friday | 07:30 - 16:00,Public
+Free State,Mangaung,,W-section Hall,,Tuesday to Friday | 07:30 - 16:00,Public
+Free State,Xhariep DM,Letsemeng LM,Bophelong (Petrusburg) CHC,07 East Street,Wednesday | 08:30,Public
+Free State,Xhariep DM,Letsemeng LM,Ethembeni Clinic,"100 Jacobsdal Road, Koffiefontein",Thursday | 08:30,Public
+Free State,Xhariep DM,Letsemeng LM,Jacobsdal Clinic,45 Bouw Street Jacobsdal,Friday | 08:30,Public
+Free State,Xhariep DM,Letsemeng LM,Oppermansgronde Clinic,69 Skool Street Oppermansgronde,Tuesday | 08:3,Public
+Free State,Xhariep DM,Letsemeng LM,Luckhoff Combined School,Phil Sanders Ave,Wednesday | 08:30,Public
+Free State,Xhariep DM,Mohokare LM,Matlakeng Clinic,"Stand 333, Matlakeng Zastron",Monday to Friday | 08:00,Public
+Free State,Xhariep DM,Mohokare LM,Thembalethu Clinic,3 Douglas Street Smithfield,Tuesday to Friday | 08:00,Public
+Free State,Xhariep DM,Mohokare LM,Winnie Mandela (Rouxville) Clinic,57 Poshudi Road Rouxville,Friday | 08:00,Public
+Free State,Xhariep DM,Kopanong LM,Albert Nzula District Hospital,22 Louw Street,,Public
+Free State,Xhariep DM,Kopanong LM,Fauresmith Clinic,1 Olivier Straat Fauresmith,,Public
+Free State,Xhariep DM,Kopanong LM,Itumeleng (Jagersfontein) Clinic,"Stand 2264, Old Hospital Building, Jaggersfontein",,Public
+Free State,Xhariep DM,Kopanong LM,Diamond (Diamant) Hospital,6 Weil Street,,Public
+Free State,Xhariep DM,Kopanong LM,Lephoi Clinic,1 South Street Bethulie,,Public
+Free State,Xhariep DM,Kopanong LM,Mamello Clinic,464 Booysen Street Trompsburg,,Public
+Free State,Xhariep DM,Kopanong LM,Nelson Mandela Clinic,20 Chaba Street Edenburg,,Public
+Free State,Xhariep DM,Kopanong LM,Phekolong (Reddersburg) Clinic,"1018 Phekolong Street, Reddersburg",,Public
+Free State,Xhariep DM,Kopanong LM,Philippolis Clinic,Voortrekker Street Phillipolis,,Public
+Free State,Xhariep DM,Kopanong LM,Sehularo Tau Clinic,666 Emily Hobhouse Street Springfontein,,Public
+Eastern Cape,N Mandela Bay MM,N Mandela C SD,Clicks Pharmacy Cleary Park,"Shop 5 Cleary Park Centre, Standford Road, Cleary Park, Bethelsdorp",5 days,Clicks (Private)
+Eastern Cape,N Mandela Bay MM,N Mandela C SD,Clicks Pharmacy Kabega Park,"Shop 14, Metlife Plaza, Kabega Park",5 days,Clicks (Private)
+Eastern Cape,N Mandela Bay MM,N Mandela C SD,Clicks Pharmacy Humewood,Humeway Centre Humewood Road,5 days,Clicks (Private)
+Eastern Cape,N Mandela Bay MM,N Mandela B SD,Clicks Pharmacy Penford,Cnr Graaff-reinet Road & Gibson Street,5 days,Clicks (Private)
+Eastern Cape,Buffalo City MM,Buffalo City SD,Clicks Pharmacy Gonubie,"Shop 2 Kings Mall, C/O Mains Road and Gill Road, Gonubie",5 days,Clicks (Private)
+Eastern Cape,Buffalo City MM,Buffalo City SD,Clicks Pharmacy Beacon Bay,"Shop 26, Beacon Bay Shopping Centre, Bonza Bay Road, Beacon Bay",5 days,Clicks (Private)
+Eastern Cape,Buffalo City MM,Buffalo City SD,Clicks Pharmacy Hemmingways,"Shop UG10 Hemmingways Mall 2, C/O West Services Ave and 2 Rivers Road, East London",5 days,Clicks (Private)
+Eastern Cape,Buffalo City MM,Buffalo City SD,Clicks Pharmacy Mdantsane,Cnr Qumza & Billie Roads,5 days,Clicks (Private)
+Eastern Cape,N Mandela Bay MM,N Mandela C SD,Clicks Pharmacy Walmer Park,"Shop 46, Walmer Park Centre, Main Road, Walmer",5 days,Clicks (Private)
+Eastern Cape,Sarah Baartman DM,Kouga LM,Clicks Pharmacy Fountains Mall,"Shop G8, Ground Level, Fountains Mall",5 days,Clicks (Private)
+Eastern Cape,Sarah Baartman DM,Kouga LM,Clicks Pharmacy Jeffreys Bay,"C/O De Gamma and Noord Se Kloof, Central, Jeffreys Bay",5 days,Clicks (Private)
+Eastern Cape,Buffalo City MM,Buffalo City SD,Clicks Pharmacy Vincent Park,Devereux Avenue,5 days,Clicks (Private)
+Eastern Cape,Buffalo City MM,Buffalo City SD,Clicks Pharmacy King Williams Town,"Shop 7 Metlife Mall, C/O Charles Smith Street and Cross Street, King Williamstown",5 days,Clicks (Private)
+Eastern Cape,Sarah Baartman DM,Makana LM,Clicks Pharmacy Grahamstown,42 High Street,5 days,Clicks (Private)
+Eastern Cape,N Mandela Bay MM,N Mandela C SD,Clicks Pharmacy Pier 14,Pier 14 444 Govan Mbeki Avenue,5 days,Clicks (Private)
+Eastern Cape,Sarah Baartman DM,Dr B Naudé LM,Clicks Pharmacy Graaff-Reinet,21 Caledon Street,5 days,Clicks (Private)
+Eastern Cape,O Tambo DM,King Sabata Dalindyebo LM,Clicks Pharmacy BT Ngebs Mall,"BT Ngebs Shopping Centre , Shop 133 BT Ngebs Mall, 2nd Avenue, Mthatha Central",5 days,Clicks (Private)
+Eastern Cape,Joe Gqabi DM,Walter Sisulu LM,Clicks Pharmacy Aliwal North,32 Somerset street,5 days,Clicks (Private)
+Eastern Cape,Buffalo City MM,Buffalo City SD,Dis-Chem Hemmingways Pharmacy,Cnr Western Services Ave & 2 Rivers Roads,6 days,Dis-Chem (Private)
+Eastern Cape,N Mandela Bay MM,N Mandela C SD,Dis-Chem Baywest Mall Pharmacy,"Shop LG05, Baywest Mall, 100 Baywest Boulevard, Hunters Treat, Port Elizabeth, 6017. E.Cape",6 days,Dis-Chem (Private)
+Eastern Cape,N Mandela Bay MM,N Mandela A SD,Klinicare Despatch Pharmacy,59 Main Street,6 days,ICPA (Private)
+Eastern Cape,N Mandela Bay MM,N Mandela A SD,Klinicare Bluewater Bay Pharmacy,"Shop 6+7, Blue Bay Centre, Eileen drive, Bluewater Bay",6 days,ICPA (Private)
+Eastern Cape,N Mandela Bay MM,N Mandela C SD,Klinicare Lorraine Pharmacy,"Shop 22-26, Gardens Centre, 166 Circular Drive",6 days,ICPA (Private)
+Eastern Cape,N Mandela Bay MM,N Mandela C SD,Klinicare Belmore Pharmacy,433 Cape Road,6 days,ICPA (Private)
+Eastern Cape,N Mandela Bay MM,N Mandela C SD,Klinimed Pharmacy,"32 Newton St, Newton Park, Gqeberha",6 days,ICPA (Private)
+Eastern Cape,N Mandela Bay MM,N Mandela C SD,Klinipharm Pharmacy,"Westway Medical Centre, 349 Cape Road, Newton Park",6 days,ICPA (Private)
+Eastern Cape,Sarah Baartman DM,Sundays River Valley LM,Klinicare Vallei Pharmacy,23 Middel Street,6 days,ICPA (Private)
+Eastern Cape,N Mandela Bay MM,,Durban Street Pharmacy,"86 Durban St, Uitenhage, Kariega, 6229",6 days,ICPA (Private)
+Eastern Cape,N Mandela Bay MM,N Mandela B SD,Klinicare Uitenhage Pharmacy,114 Caledon Street,6 days,ICPA (Private)
+Eastern Cape,N Mandela Bay MM,N Mandela B SD,Klinicare Mosel Pharmacy,125 Setlaars Crescent,6 days,ICPA (Private)
+Eastern Cape,N Mandela Bay MM,N Mandela C SD,Klinicare Blooms Pharmacy,323 Cape Road,6 days,ICPA (Private)
+Eastern Cape,N Mandela Bay MM,N Mandela C SD,Klinicare Kabega Pharmacy,"Shop 5, Kabega Park Shopping Centre, Cape Rd, Kabega Park",6 days,ICPA (Private)
+Eastern Cape,N Mandela Bay MM,N Mandela C SD,Klinicare Kings Court Pharmacy,Kings Court Walmer Heights Buffelsfontein Road,6 days,ICPA (Private)
+Eastern Cape,O Tambo DM,Ingquza Hill LM,Mlonzi Square Pharmacy,"2 Jacaranda Street, Lusikisiki, 4820",6 days,ICPA (Private)
+Eastern Cape,Buffalo City MM,Buffalo City SD,Life St Dominic s Hosp,45 St Marks Road,5 days,Life Healthcare (Private)
+Eastern Cape,C Hani DM,Enoch Mgijima LM,Life Queenstown Prv Hosp,63 Ebden Road,5 days,Life Healthcare (Private)
+Eastern Cape,O Tambo DM,King Sabata Dalindyebo LM,Life St Mary s Hosp,30 Durham Street,5 days,Life Healthcare (Private)
+Eastern Cape,N Mandela Bay MM,N Mandela C SD,Life St George s Hosp,40 Park Drive,5 days,Life Healthcare (Private)
+Eastern Cape,Sarah Baartman DM,Sundays River Valley LM,Kirkwood Care Centre,1 Sonop Street,5 days,Life Healthcare (Private)
+Eastern Cape,N Mandela Bay MM,N Mandela C SD,Momentum Metropolitan centre - Port Elizabeth,19 Edward Street,5 days,Momentum (Private)
+Eastern Cape,A Nzo DM,Matatiele LM,ec Rolweni Clinic,Rolweni,5 days,Public
+Eastern Cape,A Nzo DM,Matatiele LM,ec Elukholweni Clinic,Elukholweni Admin Area Matatiyele,5 days,Public
+Eastern Cape,A Nzo DM,Matatiele LM,ec Mpharane Clinic,Mpharane Administration Area,5 days,Public
+Eastern Cape,A Nzo DM,Matatiele LM,ec Mzongwana Clinic,Mzongwana Chibini Admin Area Matatiele,5 days,Public
+Eastern Cape,A Nzo DM,Matatiele LM,ec Madlangala Clinic,Makomoreng Location Matatiele,5 days,Public
+Eastern Cape,A Nzo DM,Matatiele LM,ec Likhetlane Clinic,Likhetlane Location Matatiele,5 days,Public
+Eastern Cape,A Nzo DM,Matatiele LM,ec Nyaniso Clinic,Nyaniso Location Matatiele,5 days,Public
+Eastern Cape,A Nzo DM,Matatiele LM,ec Mount Hargreaves Clinic,Sigoga Location,5 days,Public
+Eastern Cape,A Nzo DM,Matatiele LM,ec Matatiele Community Clinic,Maluti Township Maluti,5 days,Public
+Eastern Cape,A Nzo DM,Matatiele LM,ec Afsondering Clinic,Makhoba Administration Area,5 days,Public
+Eastern Cape,A Nzo DM,Matatiele LM,ec Shepherds Hope Clinic,Next To Roman Catholic Church,5 days,Public
+Eastern Cape,A Nzo DM,Matatiele LM,ec Magadla Clinic,Lunda Administrative Area Matatiele,5 days,Public
+Eastern Cape,A Nzo DM,Matatiele LM,ec Thabachicha Clinic,Ramafole A/A Matatiele,5 days,Public
+Eastern Cape,A Nzo DM,Matatiele LM,ec Paballong Clinic,Paballong Clinic,5 days,Public
+Eastern Cape,A Nzo DM,Matatiele LM,ec Mvenyane Clinic,Msukeni Location Next Mvenyane High School,5 days,Public
+Eastern Cape,A Nzo DM,Matatiele LM,ec Umtumase Clinic,Ramafole Location,5 days,Public
+Eastern Cape,A Nzo DM,Matatiele LM,ec Isilindini Clinic,Zincuka Administrative Area Mt Fletcher,5 days,Public
+Eastern Cape,A Nzo DM,Matatiele LM,ec Queen's Mercy Clinic,Queens Merry,5 days,Public
+Eastern Cape,A Nzo DM,Mbizana LM,ec Qobo Clinic,Qobo A/A Silangwe Location Near Qobo S.S.S Silangwe A/A,5 days,Public
+Eastern Cape,A Nzo DM,Mbizana LM,ec Ndela Clinic,Kwandela,5 days,Public
+Eastern Cape,A Nzo DM,Mbizana LM,ec Amandengane Clinic,Amantshangase,5 days,Public
+Eastern Cape,A Nzo DM,Mbizana LM,ec Daliwonga Clinic,Amadiba,5 days,Public
+Eastern Cape,A Nzo DM,Mbizana LM,ec Kanyayo (Bizana) Clinic,Kanyayo Location 30Km From Bizana To Kokstad Bizana Kanyayo A/A,5 days,Public
+Eastern Cape,A Nzo DM,Mbizana LM,ec Mfundambini Clinic,Nqadeni Flagstaff Nqabeni A/A,5 days,Public
+Eastern Cape,A Nzo DM,Mbizana LM,ec Amantshangase Clinic,Chitwayo,5 days,Public
+Eastern Cape,A Nzo DM,Mbizana LM,ec Mpetsheni Clinic,Qadu Location,5 days,Public
+Eastern Cape,A Nzo DM,Mbizana LM,ec St Patrick's Gateway Clinic,Hospital Road Bizana 4800,5 days,Public
+Eastern Cape,A Nzo DM,Mbizana LM,ec Qasa Clinic,Qasa A/A Sigodlweni Location Bizana Qasa A/a,5 days,Public
+Eastern Cape,A Nzo DM,Mbizana LM,ec Imizizi Clinic,Imizizi A/A Bizana Redoubt Location,5 days,Public
+Eastern Cape,A Nzo DM,Mbizana LM,ec Meje Clinic,Mbongweni Loc Next To Ngalonkulu Mbobeni A/A Bizana,5 days,Public
+Eastern Cape,A Nzo DM,Mbizana LM,ec Tsawana Clinic,Jali A/A,5 days,Public
+Eastern Cape,A Nzo DM,Mbizana LM,ec Isikelo Clinic,Mbobeni Location Next To Tandabantu S.P.S Bizane Mbobeni A/A Bizana,5 days,Public
+Eastern Cape,A Nzo DM,Mbizana LM,ec Hlamandana Clinic,Ludeka Mission Next To Methodist Church Ludeke Mission A/A Bizana,5 days,Public
+Eastern Cape,A Nzo DM,Ntabankulu LM,ec Matubeni Clinic,Matubeni Location Ntabankulu,5 days,Public
+Eastern Cape,A Nzo DM,Ntabankulu LM,ec Dungu Clinic,Dungu Clinic Tabankulu,5 days,Public
+Eastern Cape,A Nzo DM,Ntabankulu LM,ec Mfundisweni Clinic,Maqhinqo Location Mfundisweni Mission Mfundisweni,5 days,Public
+Eastern Cape,A Nzo DM,Ntabankulu LM,ec Ntshentshe Clinic,Ntshentshe Location Tabankulu,5 days,Public
+Eastern Cape,A Nzo DM,Umzimvubu LM,ec Mount Ayliff Gateway Clinic,No 8 Ntsizwa street 4735,5 days,Public
+Eastern Cape,A Nzo DM,Umzimvubu LM,ec Luyengweni Clinic,Lower Mnyamana School Mt Frere,5 days,Public
+Eastern Cape,A Nzo DM,Umzimvubu LM,ec Machibini Clinic (Kwabhaca),Maxhegwini J.S.S,5 days,Public
+Eastern Cape,A Nzo DM,Umzimvubu LM,ec Lubaleko Clinic,Lubaleko Location,5 days,Public
+Eastern Cape,A Nzo DM,Umzimvubu LM,ec Dundee Clinic,Dundi location,5 days,Public
+Eastern Cape,A Nzo DM,Umzimvubu LM,ec Tela Clinic,Tela location,5 days,Public
+Eastern Cape,Amathole DM,Amahlathi LM,ec Rabula Clinic,Rabula Location Keiskammahoek,5 days,Public
+Eastern Cape,Amathole DM,Amahlathi LM,ec Philani Clinic (King William's Town),Kei Road,5 days,Public
+Eastern Cape,Amathole DM,Amahlathi LM,ec Zalara Clinic,Zalara Village King Williamstown,5 days,Public
+Eastern Cape,Amathole DM,Amahlathi LM,ec Stutterheim Clinic,21 Long Street Stutterheim,5 days,Public
+Eastern Cape,Amathole DM,Amahlathi LM,ec Wartburg Clinic,Ndumangeni Village Toise Stutterheim,5 days,Public
+Eastern Cape,Amathole DM,Amahlathi LM,ec Mgwali Clinic,3 Village Near Mgwali High School,5 days,Public
+Eastern Cape,Amathole DM,Amahlathi LM,ec Ntaba ka Ndoda Clinic,Ngcamngeni Near Ntabakandoda High School,5 days,Public
+Eastern Cape,Amathole DM,Amahlathi LM,ec St Matthew's Clinic,St.Matthews Village Keiskammahoek,5 days,Public
+Eastern Cape,Amathole DM,Great Kei LM,ec Mooiplaas Clinic,Ngxingxolo Location Next To Mooiplaas Police Station East London,5 days,Public
+Eastern Cape,Amathole DM,Great Kei LM,ec Soto Clinic,Soto Location,5 days,Public
+Eastern Cape,Amathole DM,Mbhashe LM,ec Msendo Clinic,Msendo Clinic Willowvale,5 days,Public
+Eastern Cape,Amathole DM,Mbhashe LM,ec Nkanya Clinic,Nkanya Location Elliotdale,5 days,Public
+Eastern Cape,Amathole DM,Mbhashe LM,ec Taleni Clinic,Dinizulu sss Taleni A/A Msintsana loc,5 days,Public
+Eastern Cape,Amathole DM,Mbhashe LM,ec Nyhwara Clinic,Nyawra Administration Area Idutywa,5 days,Public
+Eastern Cape,Amathole DM,Mbhashe LM,ec Mqhele Clinic,"Mpakama, Mqhele Location Elliotdale",5 days,Public
+Eastern Cape,Amathole DM,Mbhashe LM,ec Mpozolo Clinic,MpozoloA/A Willowvale,5 days,Public
+Eastern Cape,Amathole DM,Mbhashe LM,ec Vukukhanye Gateway Clinic,Near Madwaleni Hospital,5 days,Public
+Eastern Cape,Amathole DM,Mbhashe LM,ec Qwaninga Clinic,Qwaninga Willowvale,5 days,Public
+Eastern Cape,Amathole DM,Mbhashe LM,ec Soga Clinic,Muller Mission Elliotsdale,5 days,Public
+Eastern Cape,Amathole DM,Mbhashe LM,ec Nqabara Clinic,"Near Nqabara High School, Willowvale",5 days,Public
+Eastern Cape,Amathole DM,Mbhashe LM,ec Nqabeni Clinic,Nqabeni Mbashe,5 days,Public
+Eastern Cape,Amathole DM,Mbhashe LM,ec Mpame Clinic,Mpame J.S.S Nqakanqa location Elliotdale,5 days,Public
+Eastern Cape,Amathole DM,Mbhashe LM,ec Sundwana Clinic,Sundwana A/A,5 days,Public
+Eastern Cape,Amathole DM,Mbhashe LM,ec Nqadu Clinic (Mbhashe),Lower Nqadu Village Near Nqadu Great Place,5 days,Public
+Eastern Cape,Amathole DM,Mnquma LM,ec Zazulwana Clinic,Feltman Junior Secondary School Butterworth,5 days,Public
+Eastern Cape,Amathole DM,Mnquma LM,ec Mqambeli Clinic,Mqambeli A/A Butterworth,5 days,Public
+Eastern Cape,Amathole DM,Mnquma LM,ec Ncizele Clinic,Ngcizela A/A Near Manyano Primary School Centane,5 days,Public
+Eastern Cape,Amathole DM,Mnquma LM,ec Qina Clinic,Centane Qina A/A Butterworth,5 days,Public
+Eastern Cape,Amathole DM,Mnquma LM,ec Ngqusi Clinic,Ngqusi Admin Area Centane,5 days,Public
+Eastern Cape,Amathole DM,Mnquma LM,ec Nozuko Clinic,Kentani Road Butterworth,5 days,Public
+Eastern Cape,Amathole DM,Ngqushwa LM,ec Mtyholo Clinic,Mtyholo King Williams Town,5 days,Public
+Eastern Cape,Amathole DM,Ngqushwa LM,ec Wesley Clinic,Wesley Location Peddie,5 days,Public
+Eastern Cape,Amathole DM,Ngqushwa LM,ec Ndwayana Clinic,Ndwayana Location Next To Alfred Giba High,5 days,Public
+Eastern Cape,Amathole DM,Ngqushwa LM,ec Tyata Clinic,Tyata Lower,5 days,Public
+Eastern Cape,Amathole DM,Ngqushwa LM,ec Norah Clinic,Tuku A Location Peddie,5 days,Public
+Eastern Cape,Amathole DM,Ngqushwa LM,ec Peddie Extension Clinic,Peddie Extension Location Peddie,5 days,Public
+Eastern Cape,Amathole DM,Ngqushwa LM,ec Pikholi Clinic,Pikholi Location,5 days,Public
+Eastern Cape,Amathole DM,Ngqushwa LM,ec Nier Clinic,"Nier Location, Peddie",5 days,Public
+Eastern Cape,Amathole DM,Ngqushwa LM,ec Mtombe Clinic,Mtombe Location King Williams Town,5 days,Public
+Eastern Cape,Amathole DM,Ngqushwa LM,ec Robert Mbelekana Clinic,Ndlambe Location Peddie,5 days,Public
+Eastern Cape,Amathole DM,Raymond Mhlaba LM,ec Mgwalana Clinic,Zibi Location Near Primary School Middledrift,5 days,Public
+Eastern Cape,Amathole DM,Raymond Mhlaba LM,ec Mxhelo Clinic,5 Barrack Street Memela Location Next To Memela Community Hall Alice,5 days,Public
+Eastern Cape,Amathole DM,Raymond Mhlaba LM,ec Sheshegu Clinic,Sheshegu Location Alice 5700 (Dalubuhle High School),5 days,Public
+Eastern Cape,Amathole DM,Raymond Mhlaba LM,ec Newtown Clinic,8 Salvia Street Newtown,5 days,Public
+Eastern Cape,Amathole DM,Raymond Mhlaba LM,ec Rwarwa Clinic,Rwarwa Location Alice (Near Amabhele High School),5 days,Public
+Eastern Cape,Amathole DM,Raymond Mhlaba LM,ec Washington Clinic,Washington Village Near Washington Primary School,5 days,Public
+Eastern Cape,Amathole DM,Raymond Mhlaba LM,ec War Memorial Clinic,Temwett Street Alice,5 days,Public
+Eastern Cape,Amathole DM,Raymond Mhlaba LM,ec Upper Ncera Clinic,Upper Ncera Location Next To Upper Ncera Primary Alice,5 days,Public
+Eastern Cape,Amathole DM,Raymond Mhlaba LM,ec Perksdale Clinic,Perksdale Village Debe Nek,5 days,Public
+Eastern Cape,Amathole DM,Raymond Mhlaba LM,ec Qibira Clinic,Qibira Primary School Qibira Location,5 days,Public
+Eastern Cape,Amathole DM,Raymond Mhlaba LM,ec Zigodlo Clinic,Mangconde Debe Nek,5 days,Public
+Eastern Cape,Amathole DM,Raymond Mhlaba LM,ec Zihlahleni Clinic,Zihlahleni Location Near Lukhozi High School Debe Nek,5 days,Public
+Eastern Cape,Amathole DM,Raymond Mhlaba LM,ec Mzamomhle Clinic (Bedford),Ntlama Street Nonzwakazi Location Bedoford,5 days,Public
+Eastern Cape,Amathole DM,Raymond Mhlaba LM,ec Njwaxa Clinic,"Njwaxa Location,Middledrift",5 days,Public
+Eastern Cape,Amathole DM,Raymond Mhlaba LM,ec Msobomvu Clinic,Next To Ngangelizwe High School. Msobomvu Location Alice,5 days,Public
+Eastern Cape,Amathole DM,Raymond Mhlaba LM,ec Thozamile Madakana Clinic,1 Mbewu Street Tinis Location Fort Beaufort,5 days,Public
+Eastern Cape,Buffalo City MM,Buffalo City SD,ec Zingisa NU 5 Clinic,1054 Nu5 A Mdantsane East London,5 days,Public
+Eastern Cape,Buffalo City MM,Buffalo City SD,ec Zikhova Clinic,Zikhova Location Tsholomnqa,5 days,Public
+Eastern Cape,Buffalo City MM,Buffalo City SD,ec Zanempilo Clinic (Zwelitsha),Zinyaka Village King Williams Town,5 days,Public
+Eastern Cape,Buffalo City MM,Buffalo City SD,ec Welcomewood Clinic,Welcomewood Loction Qurhu Primary School,5 days,Public
+Eastern Cape,Buffalo City MM,Buffalo City SD,ec Zanempilo Clinic (East London),Zanempilo Clinic Mzamomhle Informal Settlement Gonubie,5 days,Public
+Eastern Cape,Buffalo City MM,Buffalo City SD,ec Zwelitsha Zone 5 Clinic,Zwelitsha Zone 5 Clinic Between Magistrates Court And Post Office,5 days,Public
+Eastern Cape,C Hani DM,Engcobo LM,ec Mgudu Clinic,Next To Mgudu,5 days,Public
+Eastern Cape,C Hani DM,Enoch Mgijima LM,ec Lizo Ngcana Clinic,Daresalam Unfound Location Queenstown,5 days,Public
+Eastern Cape,C Hani DM,Enoch Mgijima LM,ec Masakhe Clinic,Masakhe Main Road,5 days,Public
+Eastern Cape,C Hani DM,Enoch Mgijima LM,ec Eluxolweni Clinic,"385 Zwide, Hofmeyr",5 days,Public
+Eastern Cape,C Hani DM,Enoch Mgijima LM,ec Hofmeyer Clinic,"32 School Street, Hofmeyr",5 days,Public
+Eastern Cape,C Hani DM,Enoch Mgijima LM,ec Lesseyton Clinic,"Main Road Village, Queenstown",5 days,Public
+Eastern Cape,C Hani DM,Enoch Mgijima LM,ec Sterkstroom Clinic,"13 Le Grange Street, Sterkstroom",5 days,Public
+Eastern Cape,C Hani DM,Inxuba Yethemba LM,ec Kwanonzame Old Clinic,"Mjekula Street, Kwanonzame, Middelburg",5 days,Public
+Eastern Cape,C Hani DM,Inxuba Yethemba LM,ec Midros Clinic,"River Road, Middleburg",5 days,Public
+Eastern Cape,C Hani DM,Inxuba Yethemba LM,ec Kwanonzame New Clinic,"Masango Street, Kwanonzame",5 days,Public
+Eastern Cape,C Hani DM,Inxuba Yethemba LM,ec Middelburg Clinic,55 Van Reenen Street Middelburg,5 days,Public
+Eastern Cape,Joe Gqabi DM,Elundini LM,ec St Augustine's Clinic,St Augustine AA Maclear 5480,5 days,Public
+Eastern Cape,Joe Gqabi DM,Elundini LM,ec Ngxaza Clinic,Ngxaza A/A Mbonisweni Location Maclear 5480,5 days,Public
+Eastern Cape,Joe Gqabi DM,Elundini LM,ec Queen Noti Clinic,Ngcele AA Maclear 5480,5 days,Public
+Eastern Cape,Joe Gqabi DM,Elundini LM,ec Ncembu Clinic,Ncembu A/A Ugie 5470,5 days,Public
+Eastern Cape,Joe Gqabi DM,Elundini LM,ec Umnga Flats Clinic,Umnga Flats A/A Ugie 5470,5 days,Public
+Eastern Cape,Joe Gqabi DM,Elundini LM,ec Seqhobong Clinic,Seqhobong Location Mt Fletcher 4770,5 days,Public
+Eastern Cape,Joe Gqabi DM,Elundini LM,ec Bethania Clinic,Bethania A/A Near Bethania Jss Mount Fletcher 4770,5 days,Public
+Eastern Cape,Joe Gqabi DM,Elundini LM,ec Mangoloaneng Clinic,PO bag x 1129 Mt Fletcher 4770 Mangoloaneng Location Mt Fletcher,5 days,Public
+Eastern Cape,Joe Gqabi DM,Elundini LM,ec Lower Tsitsana Clinic,"Tsitsana AA Lower ,Mount Fletcher 4770",5 days,Public
+Eastern Cape,Joe Gqabi DM,Elundini LM,ec Tayler Bequest Gateway Clinic (Elundini),Solomzi location Mount Fletcher 4770,5 days,Public
+Eastern Cape,Joe Gqabi DM,Elundini LM,ec Ulundi Clinic,Ulundi A/A Mt Fletcher 4770,5 days,Public
+Eastern Cape,Joe Gqabi DM,Elundini LM,ec Kungisizwe Clinic,Ngxaxa Location Mt Fletcher 4770,5 days,Public
+Eastern Cape,Joe Gqabi DM,Senqu LM,ec Hillside Clinic (Senqu),Hillside Village Sterkspruit,5 days,Public
+Eastern Cape,Joe Gqabi DM,Senqu LM,ec Umlamli Gateway Clinic,Hoita Village Sterkspruit,5 days,Public
+Eastern Cape,Joe Gqabi DM,Senqu LM,ec Musong Clinic,Musong Village Next To Community Hall Sterkspruit,5 days,Public
+Eastern Cape,Joe Gqabi DM,Senqu LM,ec Palmietfontein Clinic,Storomo Village Palmietfontein,5 days,Public
+Eastern Cape,Joe Gqabi DM,Senqu LM,ec Pelandaba Clinic,Blikana A/A Vukuzakhe Pre-School Blikana A/A Sterkspruit,5 days,Public
+Eastern Cape,Joe Gqabi DM,Walter Sisulu LM,ec Khayamnandi Clinic,Paka street 5920,5 days,Public
+Eastern Cape,Joe Gqabi DM,Walter Sisulu LM,ec Venterstad Clinic,01 Boneschan Street,5 days,Public
+Eastern Cape,Joe Gqabi DM,Walter Sisulu LM,ec Poly Clinic,8 Murry Street,5 days,Public
+Eastern Cape,Joe Gqabi DM,Walter Sisulu LM,ec Aliwal North Block H Clinic,1842 Ntsoetsanyane street,5 days,Public
+Eastern Cape,N Mandela Bay MM,N Mandela B SD,ec Masakhane Clinic (N Mandela Metro),"Nkanjeni Drive, Kuyga, Greenbushes",5 days,Public
+Eastern Cape,O Tambo DM,Ingquza Hill LM,ec Mbotyi Clinic,Mbotyi A/A Lusikisiki,5 days,Public
+Eastern Cape,O Tambo DM,Ingquza Hill LM,ec Mantlaneni Clinic,Mantlaneni J.S.S Lusikisiki,5 days,Public
+Eastern Cape,O Tambo DM,Ingquza Hill LM,ec Xurana Clinic,Xurana A/A Lusikisiki,5 days,Public
+Eastern Cape,O Tambo DM,Ingquza Hill LM,ec Khanyayo (Holy Cross) Clinic,Kanyayo Clinic Next To Ngwenyeni J.S.S Lusikisiki,5 days,Public
+Eastern Cape,O Tambo DM,Ingquza Hill LM,ec Malangeni Clinic,Kusilahla Near Vukuzenzele Store Lusikisiki,5 days,Public
+Eastern Cape,O Tambo DM,Ingquza Hill LM,ec Mpoza Clinic (Lusikisiki),Nomathemba Jss Road Mpoza A/A Lusikisiki,5 days,Public
+Eastern Cape,O Tambo DM,Ingquza Hill LM,ec KTC Clinic,Mhlwazini Location Next To Zwelibongile Sss,5 days,Public
+Eastern Cape,O Tambo DM,Ingquza Hill LM,ec Magwa Clinic,"Magwa Tea, Near Magwas.P.School Lusikisiki",5 days,Public
+Eastern Cape,O Tambo DM,Ingquza Hill LM,ec Palmerton Clinic,"Ntsimbini Location,Palmerton Senior Secondary School",5 days,Public
+Eastern Cape,O Tambo DM,Ingquza Hill LM,ec Lusikisiki Village Clinic (Qaukeni),Lusikisiki Village Clinic Main Road (Opposite Total Garage),5 days,Public
+Eastern Cape,O Tambo DM,Ingquza Hill LM,ec St Elizabeth's Gateway Clinic,Main Street Next To St Elizabeth Hospital Lusiksiki,5 days,Public
+Eastern Cape,O Tambo DM,King Sabata Dalindyebo LM,ec Mpunzana Clinic,Next To Dumalisile Junior Secondary School Mtatha,5 days,Public
+Eastern Cape,O Tambo DM,King Sabata Dalindyebo LM,ec Hlabatshane Clinic,Hlabatshane Clinic Hlabatshane Aa Mqanduli,5 days,Public
+Eastern Cape,O Tambo DM,King Sabata Dalindyebo LM,ec Centuli Clinic,Centuli location Mthatha,5 days,Public
+Eastern Cape,O Tambo DM,King Sabata Dalindyebo LM,ec Zitulele Gateway Clinic,Zitulele Gateway Mqanduli,5 days,Public
+Eastern Cape,O Tambo DM,King Sabata Dalindyebo LM,ec Nzulwini Clinic,Hole In The Wall Mqanduli,5 days,Public
+Eastern Cape,O Tambo DM,King Sabata Dalindyebo LM,ec Zidindi Clinic,Zidindi Location Next To Crocodile Shop,5 days,Public
+Eastern Cape,O Tambo DM,King Sabata Dalindyebo LM,ec Tshezi Clinic,Nenga A/A Mqanduli Mt Paket,5 days,Public
+Eastern Cape,O Tambo DM,King Sabata Dalindyebo LM,ec Sitebe Clinic,Next To Buwa Jss Mthatha,5 days,Public
+Eastern Cape,O Tambo DM,King Sabata Dalindyebo LM,ec Sakhela Clinic,Sakhela location Mthatha,5 days,Public
+Eastern Cape,O Tambo DM,King Sabata Dalindyebo LM,ec Tyelebana Clinic,Tyelebana Clinic Pb X 28 Mthatha,5 days,Public
+Eastern Cape,O Tambo DM,King Sabata Dalindyebo LM,ec Mqhekezweni Clinic,Mqhekzweni Location Mthatha,5 days,Public
+Eastern Cape,O Tambo DM,King Sabata Dalindyebo LM,ec Mahlungulu Clinic (KSD),Ngubechanti Location Mqanduli,5 days,Public
+Eastern Cape,O Tambo DM,King Sabata Dalindyebo LM,ec Upper Xongora Clinic,Upper Xongora Aa Mthatha 5099,5 days,Public
+Eastern Cape,O Tambo DM,King Sabata Dalindyebo LM,ec Mpeko Clinic,Mpeko Clinic Mpeko Location Mthatha Mthatha,5 days,Public
+Eastern Cape,O Tambo DM,King Sabata Dalindyebo LM,ec Mapuzi Clinic,Mapuza Clinic Mqanduli,5 days,Public
+Eastern Cape,O Tambo DM,King Sabata Dalindyebo LM,ec SOS Clinic,22 Amozon Sidwadwa Mthatha,5 days,Public
+Eastern Cape,O Tambo DM,King Sabata Dalindyebo LM,ec Ntshele Clinic,Zimbane A/A Mthatha,5 days,Public
+Eastern Cape,O Tambo DM,King Sabata Dalindyebo LM,ec Sangoni Clinic,Ridge Location Mthatha,5 days,Public
+Eastern Cape,O Tambo DM,King Sabata Dalindyebo LM,ec Bityi Clinic,Bityi Police Station Bambilanga High School Bokisiwi Loc Mthatha,5 days,Public
+Eastern Cape,O Tambo DM,King Sabata Dalindyebo LM,ec Maxwele Clinic,Maxwele Clinic Zimbane Admin Area Mthatha,5 days,Public
+Eastern Cape,O Tambo DM,King Sabata Dalindyebo LM,ec Xhwili Clinic,Xhwili A/A Lukhwethu Location Viedgesville,5 days,Public
+Eastern Cape,O Tambo DM,King Sabata Dalindyebo LM,ec Ngqwarha Clinic,Nxele Location Mqanduli,5 days,Public
+Eastern Cape,O Tambo DM,King Sabata Dalindyebo LM,ec Ngcengane Clinic,Ngcengane Clinic Next To Zwelonke Store Mthatha,5 days,Public
+Eastern Cape,O Tambo DM,King Sabata Dalindyebo LM,ec Tabase Clinic,Tabase Mission Mthatha,5 days,Public
+Eastern Cape,O Tambo DM,King Sabata Dalindyebo LM,ec Qunu Clinic,Qunu Location Next To Sasol Garage,5 days,Public
+Eastern Cape,O Tambo DM,King Sabata Dalindyebo LM,ec Qokolweni Clinic,Qokolweni A/A Near Qolkolweni Community Hall Mthatha,5 days,Public
+Eastern Cape,O Tambo DM,Mhlontlo LM,ec St Lucy's Gateway Clinic,"St Cuthberts Mission, Tsolo, 5170",5 days,Public
+Eastern Cape,O Tambo DM,Mhlontlo LM,ec Langeni Clinic,Langeni Village Next To Merensky Industry,5 days,Public
+Eastern Cape,O Tambo DM,Mhlontlo LM,ec Mjika Clinic,Next To Ngubesizwe Jss,5 days,Public
+Eastern Cape,O Tambo DM,Mhlontlo LM,ec Ezingcuka Clinic,Zingcuka A/A Tsolo Near Jafta Shop Tsolo,5 days,Public
+Eastern Cape,O Tambo DM,Mhlontlo LM,ec Tina Falls Clinic,"161 Tiger River, Thaba Nchu",5 days,Public
+Eastern Cape,O Tambo DM,Mhlontlo LM,ec Ngwemnyama Clinic,Ngwemnyama A/A Ngwemnyama,5 days,Public
+Eastern Cape,O Tambo DM,Mhlontlo LM,ec Mdyobe Clinic,Mdyobe Clinic (Next To Ngqongo A/A) Mt Frere,5 days,Public
+Eastern Cape,O Tambo DM,Mhlontlo LM,ec Mhlahlane Clinic,Mhlahlane Forest Next To Merensky Office Mthatha,5 days,Public
+Eastern Cape,O Tambo DM,Mhlontlo LM,ec Mbalisweni Clinic,Nogaya A/A Qumbu,5 days,Public
+Eastern Cape,O Tambo DM,Nyandeni LM,ec Libode Clinic,Libode Village,5 days,Public
+Eastern Cape,O Tambo DM,Nyandeni LM,ec Nkanga Clinic,Nkanga Clinic Nkanga Aa Libode,5 days,Public
+Eastern Cape,O Tambo DM,Nyandeni LM,ec Mangcwanguleni Clinic,Mangcwanguleni Libode,5 days,Public
+Eastern Cape,O Tambo DM,Nyandeni LM,ec Mgwenyane Clinic,Mgwenyane Aa Libode,5 days,Public
+Eastern Cape,O Tambo DM,Nyandeni LM,ec Maqanyeni Clinic,Maqenyeni Location Ngqeleni,5 days,Public
+Eastern Cape,O Tambo DM,Nyandeni LM,ec Nontsikelelo Biko Clinic,Nontsikelelo Biko Clinic Rainy A/A Libode 5160 Near Rainy Junior Secondary School,5 days,Public
+Eastern Cape,O Tambo DM,Nyandeni LM,ec Mampondomiseni Clinic,Unicercity Loc Mampondomseni A/A Libode,5 days,Public
+Eastern Cape,O Tambo DM,Nyandeni LM,ec St Barnabas Gateway Clinic,Port St Johns Road Libode,5 days,Public
+Eastern Cape,O Tambo DM,Nyandeni LM,ec Double Falls Clinic,Ngqongweni A/A Libode,5 days,Public
+Eastern Cape,O Tambo DM,Nyandeni LM,ec Ndanya Clinic,Ndanya Clinic Mchonco Loc Libode,5 days,Public
+Eastern Cape,O Tambo DM,Nyandeni LM,ec Cwele Clinic,Behind Cwele Roman Catholic Church Ngqeleni,5 days,Public
+Eastern Cape,O Tambo DM,Nyandeni LM,ec Old Bunting Clinic,Dibandlela Tavern (Nquba) Mlaza,5 days,Public
+Eastern Cape,O Tambo DM,Nyandeni LM,ec Nyandeni Clinic,"Nyandeni A/A, Ndamase Great Place, Libode",5 days,Public
+Eastern Cape,O Tambo DM,Port St Johns LM,ec Mzintlava Clinic,Near Mzintlava Shop Mzintlava A/A Bambisana Hospital,5 days,Public
+Eastern Cape,O Tambo DM,Port St Johns LM,ec Buchele Clinic,Buchele Location Near Buchele J.S.S,5 days,Public
+Eastern Cape,Sarah Baartman DM,Dr B NaudÂ‚ LM,ec Baviaans Clinic,Cnr Sarel Cilliers En Phillpotts St Steytlerville,5 days,Public
+Eastern Cape,Sarah Baartman DM,Dr B NaudÂ‚ LM,ec Willowmore Clinic,Knysna Street Willowmore,5 days,Public
+Eastern Cape,Sarah Baartman DM,Dr B NaudÂ‚ LM,ec Rietbron Clinic,Corner Of Kerk And Vrede Street Rietbron,5 days,Public
+Eastern Cape,Sarah Baartman DM,Dr B NaudÂ‚ LM,ec Wongalethu Clinic,Main Road Klipplaat,5 days,Public
+Eastern Cape,Sarah Baartman DM,Dr B NaudÂ‚ LM,ec Brug Straat Clinic (Jansenville),3 Brug Street Jansenville,5 days,Public
+Eastern Cape,Sarah Baartman DM,Kouga LM,ec Settlers day Hospital,1 Cobden,5 days,Public
+Eastern Cape,Sarah Baartman DM,Kou-Kamma LM,ec Krakeel Clinic,Skoolstraat Opposite Community Hall,5 days,Public
+Eastern Cape,Sarah Baartman DM,Kou-Kamma LM,ec Louterwater Clinic,Hillside Str. Louterwater,5 days,Public
+Eastern Cape,Sarah Baartman DM,Kou-Kamma LM,ec Misgund Clinic,Hoofstraat Misgund Misgund,5 days,Public
+Eastern Cape,Sarah Baartman DM,Makana LM,ec Virginia Shumane Clinic,"T Street, Tantyi Location, Grahamstown",5 days,Public
+Eastern Cape,Sarah Baartman DM,Makana LM,ec Kwa-Nonzwakazi Clinic,20 Recreation Street Alicedale,5 days,Public
+Eastern Cape,Sarah Baartman DM,Makana LM,ec Raymond Mhlaba Clinic,Behren Street Riebeeck East,5 days,Public
+Eastern Cape,Sarah Baartman DM,Makana LM,ec Joza Clinic,"Nompondo Street, Grahamstown",5 days,Public
+Eastern Cape,Sarah Baartman DM,Makana LM,ec Raglan Road Clinic,Dr Jacob Zuma Drive Grahamstown,5 days,Public
+Eastern Cape,Sarah Baartman DM,Makana LM,ec Middle Terrace Clinic,Middle Terrace Streetgrahamstown,5 days,Public
+Eastern Cape,Sarah Baartman DM,Makana LM,ec Anglo African Street Clinic,3 Huntley Street Grahamstown,5 days,Public
+Eastern Cape,Sarah Baartman DM,Makana LM,ec NG Dlukulu Clinic,5668 Sani Street Ext 7 Grahamstown,5 days,Public
+Eastern Cape,Sarah Baartman DM,Ndlambe LM,ec Pal 1 Clinic,3305 Joe Slovo Ndlovini Port Alfred,5 days,Public
+Eastern Cape,Sarah Baartman DM,Ndlambe LM,ec Nkwenkwezi Clinic,"1557 Runeli Drive, Port Afred",5 days,Public
+Eastern Cape,Sarah Baartman DM,Ndlambe LM,ec Port Alfred Clinic,Southwell Road Port Alfred,5 days,Public
+Eastern Cape,Sarah Baartman DM,Ndlambe LM,ec Pal 2 Clinic,"1572 Fani Street, Eqolweni Location",5 days,Public
+Eastern Cape,Sarah Baartman DM,Ndlambe LM,ec Station Hill Clinic,10 Tern Street Station Hill,5 days,Public
+Eastern Cape,Sarah Baartman DM,Ndlambe LM,ec Alexandria Clinic,"1 Sending Street, Wentzel Park",5 days,Public
+Eastern Cape,Sarah Baartman DM,Ndlambe LM,ec Kwa-Nonqubela Clinic,"A Street, Alexandria",5 days,Public
+Eastern Cape,Sarah Baartman DM,Sundays River Valley LM,ec Kwazenzele Clinic,Griffithz Road Paterson,5 days,Public
+Eastern Cape,Sarah Baartman DM,Sundays River Valley LM,ec Addo Clinic,Main Street Addo 6105,5 days,Public
+Eastern Cape,Sarah Baartman DM,Sundays River Valley LM,ec Lukhanyiso Clinic,Duka Street Nomathamsanqa Addo,5 days,Public
+Eastern Cape,Sarah Baartman DM,Sundays River Valley LM,ec Moses Mabida Clinic,Maseti Road 459 Moses Mabida Kirkwood,5 days,Public
+Eastern Cape,Sarah Baartman DM,Sundays River Valley LM,ec Bergsig Clinic,CO Tarentaal & Arend Street Bergsig Kirkwood,5 days,Public
+Eastern Cape,Sarah Baartman DM,Sundays River Valley LM,ec Kirkwood Clinic,47 White Road Kirkwood,5 days,Public
