@@ -204,6 +204,9 @@ Prov <- lapply(cleantbls, FUN=function(x) {  # x <- cleantbls[[1]]
 })
 
 ProvData <- t(do.call(cbind, Prov))
+singleDate <- nchar(rownames(ProvData))==10
+rownames(ProvData)[singleDate] <- paste0(rownames(ProvData)[singleDate],".",
+                                         rownames(ProvData)[singleDate]) 
 
 xx <- strsplit(rownames(ProvData), split = "\\.")
 # Assumption:  data reported for a couple of days back, is more accurate than what it was reported on that day.
