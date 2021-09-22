@@ -250,7 +250,7 @@ if (any(is.na(m))) {
   #re-order colnames
   casesAdd <- casesAdd[, colnames(cases)]
     
-  message('There are some new extra data from sacoronavirus.co.za -- appending this to the data files')
+  message('There are some new extra data from nicd.ac.za -- appending this to the data files')
   cases <- rbind(cases, 
                  casesAdd)
 }
