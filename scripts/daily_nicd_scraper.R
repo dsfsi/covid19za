@@ -314,11 +314,15 @@ if (UpdateTestingTotals <- FALSE) {
                     stringsAsFactors = FALSE)
   m <- match(format(as.Date(colnames(Tests), format = "%Y-%m-%d"), "%d-%m-%Y"), tests$date)
   
-  if (any(is.na(m))) {
+  deaths <- read.csv('data/covid19za_provincial_cumulative_timeline_deaths.csv', stringsAsFactors = FALSE)
+  recov <- read.csv('data/covid19za_provincial_cumulative_timeline_recoveries.csv', stringsAsFactors = FALSE)
+  lookupsource <- setNames(rssdf$source, rssdf$date)
+
+  if (any(is.na(m))) {  # we have some additions
     tAdd <- as.data.frame(t(Tests[c("Total", "Private", "Public"), which(is.na(m)), drop=FALSE]))  # 3-11 == provinces
     colnames(tAdd) <- colnames(tests)[3:5]
     
-    tAdd$source <- unlist(unname(detailpageurls[rownames(tAdd)]))
+    tAdd$source <- unlist(unname(lookupsource[rownames(tAdd)]))
     tAdd$YYYYMMDD <- gsub("-", "", rownames(tAdd))
     tAdd$date <- format(as.Date(rownames(tAdd), format = "%Y-%m-%d"), "%d-%m-%Y")
     
@@ -330,16 +334,25 @@ if (UpdateTestingTotals <- FALSE) {
     tAdd$hospitalisation <- hospadm[m2]  # variable not populated...
 
     # national figures - deaths etc. 
-    deaths <- read.csv('data/covid19za_provincial_cumulative_timeline_deaths.csv', stringsAsFactors = FALSE)
-    m2 <- match(tAdd$YYYYMMDD, deaths$YYYYMMDD)
-    tAdd$deaths <- deaths$total[m2]
+    tAdd$deaths   <- deaths$total[match(tAdd$YYYYMMDD, deaths$YYYYMMDD)]
+    tAdd$recovered <- recov$total[match(tAdd$YYYYMMDD, recov$YYYYMMDD)]
     
-    recov <- read.csv('data/covid19za_provincial_cumulative_timeline_recoveries.csv', stringsAsFactors = FALSE)
-    m2 <- match(tAdd$YYYYMMDD, recov$YYYYMMDD)
-    tAdd$recovered <- recov$total[m2]
-    
-    t2 <- data.table::rbindlist(list(tests, tAdd), fill=TRUE)[order(YYYYMMDD)]
-    tail(t2, 20)
+    tests <- data.table::rbindlist(list(tests, tAdd), fill=TRUE)[order(YYYYMMDD)]
+  }
+  
+  #TODO: Also process the changes....
+  
+  
+  
+  
+  # Finally write this out, and 
+  write.csv(tests, fnx, 
+            row.names = FALSE, quote = FALSE, na = "")
+  
+  if (length(unstaged <- git2r::status(px)$unstaged) > 0 & 
+      fnx %in% unstaged) {
+    git2r::add(px, fnx)
+    git2r::commit(px, "Testing data added from nicd.ac.za")
   }
 }
 
