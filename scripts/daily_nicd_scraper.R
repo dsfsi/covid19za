@@ -234,8 +234,8 @@ rownames(chgs) <- rownames(ProvData)[!is.na(m)]
 hasChanges <- apply(chgs, 1, FUN = function(x) sum(abs(x))>2)
 sourcex <- setNames(rssdf$source, rssdf$date)
 if (any(hasChanges)) {
-  cases[m[!is.na(m) & hasChanges], names(Prov2Code)] <- ProvData[!is.na(m) & hasChanges, Prov2Code] 
-  cases$source[m[!is.na(m)]][hasChanges] <- unlist(unname(sourcex[PublishDate[!is.na(m)]]))[hasChanges]
+  cases[m[!is.na(m)][hasChanges], names(Prov2Code)] <- ProvData[!is.na(m), Prov2Code][hasChanges, ] 
+  cases$source[m[!is.na(m)]][hasChanges] <- unlist(unname(sourcex[PublishDate[!is.na(m)][hasChanges] ]))
 }
 
 if (any(is.na(m))) {
