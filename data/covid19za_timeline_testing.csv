@@ -485,7 +485,7 @@ date,YYYYMMDD,cumulative_tests,cumulative_tests_private,cumulative_tests_public,
 02-07-2021,20210702,13298239,7515873,5782366,1773930,,,,61332,,,,,,gis_nicd_scraper
 03-07-2021,20210703,13395135,7557531,5837604,1792361,,,,61507,,,,,,gis_nicd_scraper
 04-07-2021,20210704,13450014,7588283,5861731,1808082,,,,61840,,,,,,gis_nicd_scraper
-05-07-2021,20210705,13489570,7607736,5881834,,,,,,,,,,,gis_nicd_scraper
+05-07-2021,20210705,13489570,7607736,5881834,1827821,,,,62171,,,,,,gis_nicd_scraper
 06-07-2021,20210706,13548841,7635118,5913723,1845038,,,,62628,,,,,,gis_nicd_scraper
 07-07-2021,20210707,13619638,7676720,5942918,1853804,,,,63039,,,,,,gis_nicd_scraper
 08-07-2021,20210708,13694914,7717341,5977573,1862900,,,,63499,,,,,,gis_nicd_scraper
@@ -493,7 +493,7 @@ date,YYYYMMDD,cumulative_tests,cumulative_tests_private,cumulative_tests_public,
 10-07-2021,20210710,13848194,7790503,6057691,1904107,,,,64138,,,,,,gis_nicd_scraper
 11-07-2021,20210711,13901847,7818725,6083122,1922601,,,,64289,,,,,,gis_nicd_scraper
 12-07-2021,20210712,13937470,7835263,6102207,1943513,,,,64509,,,,,,gis_nicd_scraper
-13-07-2021,20210713,13989268,7855370,6133898,,,,,,,,,,,gis_nicd_scraper
+13-07-2021,20210713,13989268,7855370,6133898,1961448,,,,65142,,,,,,gis_nicd_scraper
 14-07-2021,20210714,14045630,7887924,6157706,1970516,333052,,,65595,,,,,,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-14-july-2021/
 15-07-2021,20210715,14100628,7915009,6185619,1982122,,,,65972,,,,,,gis_nicd_scraper
 16-07-2021,20210716,14154725,7939684,6215041,2009456,,,,66385,,,,,,gis_nicd_scraper
@@ -506,11 +506,11 @@ date,YYYYMMDD,cumulative_tests,cumulative_tests_private,cumulative_tests_public,
 23-07-2021,20210723,14477689,8095600,6382089,2133196,,,,69075,,,,,,gis_nicd_scraper
 24-07-2021,20210724,14527278,8118521,6408757,2147168,,,,69488,,,,,,gis_nicd_scraper
 25-07-2021,20210725,14563847,8136896,6426951,2158183,,,,70135,,,,,,gis_nicd_scraper
-26-07-2021,20210726,14587196,8148174,6439022,,,,,,,,,,,gis_nicd_scraper
+26-07-2021,20210726,14587196,8148174,6439022,2169452,,,,70018,,,,,,gis_nicd_scraper
 27-07-2021,20210727,14623917,8167298,6456619,2180494,,,,70388,,,,,,gis_nicd_scraper
 28-07-2021,20210728,14694978,8197255,6497723,2186988,,,,70908,,,,,,gis_nicd_scraper
 29-07-2021,20210729,14750901,8222169,6528732,2194762,,,,71449,,,,,,gis_nicd_scraper
-30-07-2021,20210730,14806616,8247539,6559077,,,,,,,,,,,gis_nicd_scraper
+30-07-2021,20210730,14806616,8247539,6559077,2207960,,,,71679,,,,,,gis_nicd_scraper
 31-07-2021,20210731,14862859,8272858,6590001,2222338,365005,,,72013,,,,,,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-31-july-2021/
 01-08-2021,20210801,14901093,8292745,6608348,2230871,365382,,,72191,,,,,,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-1-august-2021/
 02-08-2021,20210802,14926582,8305131,6621451,2238388,367628,,,72437,,,,,,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-2-august-2021/
@@ -561,8 +561,8 @@ date,YYYYMMDD,cumulative_tests,cumulative_tests_private,cumulative_tests_public,
 17-09-2021,20210917,17280650,9344419,7936231,2714565,423673,,,85952,,,,,,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-17-september-2021/
 18-09-2021,20210918,17321958,9362620,7959338,2728961,424013,,,86116,,,,,,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-18-september-2021/
 19-09-2021,20210919,17352945,9376955,7975990,2732363,424185,,,86174,,,,,,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-19-september-2021/
-20-09-2021,20210920,17374385,9386853,7987532,,424670,,,,,,,,,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-20-september-2021/
-21-09-2021,20210921,17410204,9405141,8005063,,425955,,,,,,,,,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-21-september-2021/
+20-09-2021,20210920,17374385,9386853,7987532,2735340,424670,,,86216,,,,,,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-20-september-2021/
+21-09-2021,20210921,17410204,9405141,8005063,2743865,425955,,,86376,,,,,,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-21-september-2021/
 22-09-2021,20210922,17452783,9425440,8027343,2750213,426418,,,86500,,,,,,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-22-september-2021/
 23-09-2021,20210923,17493443,9443496,8049947,2753334,427013,,,86655,,,,,,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-23-september-2021/
 24-09-2021,20210924,17528759,9459499,8069260,2756693,427234,,,86967,,,,,,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-24-september-2021/
