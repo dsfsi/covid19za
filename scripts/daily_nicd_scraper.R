@@ -133,9 +133,15 @@ processDay <- function(x) {
   HasTest <- which(sapply(x, hasValue, "Total tested"))
   HasProv <- which(sapply(x, hasValue, "Gauteng"))
   HasHosp <- which(sapply(x, hasValue, "Facilities Reporting"))
-  stopifnot(length(HasTest)==1L)
-  stopifnot(length(HasProv)==1L)
-  stopifnot(length(HasHosp)==1L)
+  if (length(HasTest)!=1L |
+      length(HasProv)!=1L |
+      length(HasHosp)!=1L) {
+    print(HasTest)
+    print(HasProv)
+    print(HasHosp)
+    print(x)
+    stop("Error detecting Tests, Prov, Hosp")
+  }
   
   x <- x[c(HasTest, HasProv, HasHosp)]
   names(x) <- c("Tests", "Prov", "Hospital")
