@@ -308,7 +308,7 @@ if (length(unstaged <- git2r::status(px)$unstaged) > 0 &
   git2r::commit(px, "Revised and new data from nicd.ac.za")
 }
 
-if (UpdateTestingTotals <- FALSE) {
+if (UpdateTestingTotals <- TRUE) {
   # Under construction -- needs some attention.
   tests <- read.csv(fnx <- paste0('data/covid19za_timeline_testing.csv'), 
                     stringsAsFactors = FALSE)
@@ -317,7 +317,8 @@ if (UpdateTestingTotals <- FALSE) {
   deaths <- read.csv('data/covid19za_provincial_cumulative_timeline_deaths.csv', stringsAsFactors = FALSE)
   recov <- read.csv('data/covid19za_provincial_cumulative_timeline_recoveries.csv', stringsAsFactors = FALSE)
   lookupsource <- setNames(rssdf$source, rssdf$date)
-
+  hospadm <- Hospital["Total", "Admissionsto.Date", ]
+  
   if (any(is.na(m))) {  # we have some additions
     tAdd <- as.data.frame(t(Tests[c("Total", "Private", "Public"), which(is.na(m)), drop=FALSE]))  # 3-11 == provinces
     colnames(tAdd) <- colnames(tests)[3:5]
@@ -329,7 +330,6 @@ if (UpdateTestingTotals <- FALSE) {
     # Hospital variable
     # dim(Hospital)   # priv/pub/tot x facilitiesReporting, Admissionsto.Date, Died.to.Date, Currently.Admitted
     # tests$hospitalisation ??  What variable goes in here? 
-    hospadm <- Hospital["Total", "Admissionsto.Date", ]
     m2 <- match(rownames(tAdd), names(hospadm))
     tAdd$hospitalisation <- hospadm[m2]  # variable not populated...
 
@@ -340,11 +340,17 @@ if (UpdateTestingTotals <- FALSE) {
     tests <- data.table::rbindlist(list(tests, tAdd), fill=TRUE)[order(YYYYMMDD)]
   }
   
-  #TODO: Also process the changes....
+  # Fill in missing deaths and recoveries -- do not worry about changes (yet)
+  tests$deaths[is.na(tests$deaths)]       <- deaths$total[match(tests$YYYYMMDD, deaths$YYYYMMDD)][is.na(tests$deaths)]
+  tests$recovered[is.na(tests$recovered)] <-  recov$total[match(tests$YYYYMMDD, recov$YYYYMMDD)] [is.na(tests$recovered)]
   
-  
-  
-  
+  # Fill in missing hospital data
+  tests$hospitalisation[is.na(tests$hospitalisation)] <- hospadm[match(tests$YYYYMMDD, gsub("-", "", names(hospadm)))][is.na(tests$hospitalisation)]  # variable not populated...
+
+  #Detect changes in Total / Private / Public  tests
+  chgs <- tests[m, c("cumulative_tests_private", "cumulative_tests_public", "cumulative_tests")] - t(Tests)
+  #TODO - not a lot, OK for now.....
+
   # Finally write this out, and 
   write.csv(tests, fnx, 
             row.names = FALSE, quote = FALSE, na = "")
