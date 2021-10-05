@@ -181,6 +181,7 @@ rownames(Tests) <- c("Private", "Public", "Total")
 
 Hospital <- sapply(cleantbls, FUN=function(x) sapply(x$Hospital, safe.as.numeric), simplify = "array")
 dimnames(Hospital)[[1]] <- c("Private", "Public", "Total")
+dimnames(Hospital)[[2]] <- gsub("\\.", "", dimnames(Hospital)[[2]])
 
 if (DEBUG <- FALSE) {
   p1 <- lapply(cleantbls, getElement, "Prov")
@@ -323,7 +324,7 @@ if (UpdateTestingTotals <- TRUE) {
   deaths <- read.csv('data/covid19za_provincial_cumulative_timeline_deaths.csv', stringsAsFactors = FALSE)
   recov <- read.csv('data/covid19za_provincial_cumulative_timeline_recoveries.csv', stringsAsFactors = FALSE)
   lookupsource <- setNames(rssdf$source, rssdf$date)
-  hospadm <- Hospital["Total", "Admissionsto.Date", ]
+  hospadm <- Hospital["Total", "AdmissionstoDate", ]
   
   if (any(is.na(m))) {  # we have some additions
     tAdd <- as.data.frame(t(Tests[c("Total", "Private", "Public"), which(is.na(m)), drop=FALSE]))  # 3-11 == provinces
