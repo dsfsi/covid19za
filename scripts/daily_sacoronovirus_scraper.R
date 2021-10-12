@@ -269,6 +269,7 @@ CheckFile <- function(fn, data, allowChanges = TRUE) {
     message('There are some new extra data from sacoronavirus.co.za -- appending this to the data files')
     recov <- rbind(recov, 
                    RecovAdd)
+    recov <- recov[order(recov$YYYYMMDD), ]
   } else {
     message("No new data for ", fn)
   }
