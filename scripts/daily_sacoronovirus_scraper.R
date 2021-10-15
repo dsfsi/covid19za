@@ -62,7 +62,7 @@ blocks <- c(
   NatNewCases="170x40+730+80",
   WC="170x100+180+500",
   EC="170x100+430+490",
-  NC="100x100+290+330",
+  NC="150x100+225+365", #100x100+290+330",
   FS="170x100+400+350",
   KZN="170x100+610+404",
   NW="150x70+394+265",
@@ -269,6 +269,7 @@ CheckFile <- function(fn, data, allowChanges = TRUE) {
     message('There are some new extra data from sacoronavirus.co.za -- appending this to the data files')
     recov <- rbind(recov, 
                    RecovAdd)
+    recov <- recov[order(recov$YYYYMMDD), ]
   } else {
     message("No new data for ", fn)
   }
