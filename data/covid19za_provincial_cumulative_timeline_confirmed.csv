@@ -586,4 +586,4 @@ date,YYYYMMDD,EC,FS,GP,KZN,LP,MP,NC,NW,WC,UNKNOWN,total,source
 12-10-2021,20211012,291623,162411,917900,513874,122045,151423,91658,150067,511938,0,2912939,gis_nicd_scraper
 13-10-2021,20211013,291716,162515,918078,514019,122055,151475,91751,150113,512158,0,2913881,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-14-october-2021/?utm_source=rss&utm_medium=rss&utm_campaign=latest-confirmed-cases-of-covid-19-in-south-africa-14-october-2021
 14-10-2021,20211014,291791,162622,918207,514252,122068,151513,91864,150168,512343,0,2914828,gis_nicd_scraper
-15-10-2021,20211015,291868,162702,918318,514399,122100,151550,91902,150217,512504,0,2915560,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-15-october-2021/?utm_source=rss&utm_medium=rss&utm_campaign=latest-confirmed-cases-of-covid-19-in-south-africa-15-october-2021
+15-10-2021,20211015,291869,162702,918318,514399,122100,151550,91902,150217,512504,0,2915561,gis_nicd_scraper
