@@ -62,10 +62,10 @@ blocks <- c(
   NatNewCases="170x40+730+80",
   WC="170x100+180+500",
   EC="170x100+430+490",
-  NC="150x100+225+365", #100x100+290+330",
+  NC="170x110+190+350", #100x100+290+330",
   FS="170x100+400+350",
   KZN="170x100+610+404",
-  NW="150x70+394+265",
+  NW="170x100+370+250",
   GP="168x100+300+140",
   MP="170x100+590+260",
   LP="220x100+550+150"
@@ -74,7 +74,7 @@ NatBlocks <- substr(names(blocks),1,3)=="Nat"
 
 dataAllGood <- TRUE
 
-clean <- function(x) {
+clean <- function(x, msgposition="") {
   if (FALSE) {
     x <- data[[1]]$NC
   }
@@ -97,7 +97,7 @@ clean <- function(x) {
     x <- tail(x, 4)
   if (! length(x) %in% c(1,4)) {
     print(x)
-    stop("Expecting 1 or 4 values, found above")
+    stop("Expecting 1 or 4 values, found above at ", msgposition)
   }
   
   n <- as.numeric(x)
@@ -142,7 +142,7 @@ processDay <- function(img, runAutomated=TRUE) {    # img <- imgs[1]
       strsplit("\n") %>%
       magrittr::extract2(1) %>% 
       magrittr::extract(.!="") %>%
-      clean
+      clean(crop)
     #tesseract::ocr_data("temp.jpg")
     
   }
