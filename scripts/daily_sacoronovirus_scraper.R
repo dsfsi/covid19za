@@ -131,7 +131,19 @@ processDay <- function(img, runAutomated=TRUE) {    # img <- imgs[1]
 #  engine <- tesseract::tesseract(language = "eng",
 #                                 options = list(tessedit_char_whitelist = "CaseDthAciv:0123456789"))
 
+  ocrdata <- tesseract::ocr_data(image)
+  ocrdata[ocrdata$confidence > 80, ]
+  FindProv <- function(prov) {   # prov="Limpopo"
+    i <- which(ocrdata$word %in% prov)
+    if (length(i)>0) {
+      ocrdata[i, c("word", "bbox")]
+    } else {
+      NA
+    }
+  }
   
+  # FindProv(c("WESTERN", "EASTERN", "NORTHERN", "FREE", "KWAZULU-NATAL", "WEST", "GAUTENG", "MPUMALANGA", "Limpopo"))
+
   OCRdata <- function(crop) {   # crop <- blocks['EC']
     # crop <- "170x100+430+490"    
     image2 <- magick::image_crop(image, crop)
