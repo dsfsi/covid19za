@@ -10,9 +10,14 @@
                                 "Version": 2,
                                 "From": [
                                     {
-                                        "Name": "r",
-                                        "Entity": "rtc za_covid19_vaccinations_summary_location_p_v2_vw_vw",
-                                        "Type": 0
+                                      "Name": "r1",
+                                      "Entity": "rtc za_covid19_vaccinations_summary_location_p_v2_vw_vw",
+                                      "Type": 0
+                                    },
+                                    {
+                                      "Name": "v",
+                                      "Entity": "Vaccinations Administered Measures",
+                                      "Type": 0
                                     }
                                 ],
                                 "Select": [
@@ -20,23 +25,23 @@
                                         "Column": {
                                             "Expression": {
                                                 "SourceRef": {
-                                                    "Source": "r"
+                                                    "Source": "r1"
                                                 }
                                             },
                                             "Property": "visit_date"
                                         },
-                                        "Name": "rtc za_covid19_vaccinations_summary_province_p_v2_vw_vw.visit_date"
+                                        "Name": "rtc za_covid19_vaccinations_summary_location_p_v2_vw_vw.visit_date"
                                     },
                                     {
                                         "Measure": {
                                             "Expression": {
                                                 "SourceRef": {
-                                                    "Source": "r"
+                                                    "Source": "v"
                                                 }
                                             },
                                             "Property": "Cumulative Vaccinations"
                                         },
-                                        "Name": "rtc za_covid19_vaccinations_summary_province_p_v2_vw_vw.Cumulative Vaccinations"
+                                        "Name": "Vaccinations Administered Measures.Cumulative Vaccinations New"
                                     }
                                 ]
                             },
