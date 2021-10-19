@@ -589,4 +589,5 @@ date,YYYYMMDD,EC,FS,GP,KZN,LP,MP,NC,NW,WC,UNKNOWN,total,source
 15-10-2021,20211015,291869,162702,918318,514399,122100,151550,91902,150217,512504,0,2915561,gis_nicd_scraper
 16-10-2021,20211016,291936,162767,918411,514515,122120,151584,91955,150259,512633,0,2916180,gis_nicd_scraper
 17-10-2021,20211017,291966,162819,918498,514582,122127,151595,91999,150280,512727,0,2916594,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-18-october-2021/?utm_source=rss&utm_medium=rss&utm_campaign=latest-confirmed-cases-of-covid-19-in-south-africa-18-october-2021
-18-10-2021,20211018,291981,162850,918536,514623,122129,151606,92014,150295,512770,0,2916804,gis_nicd_scraper
+18-10-2021,20211018,291981,162846,918537,514623,122129,151606,92013,150297,512770,0,2916804,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-19-october-2021/?utm_source=rss&utm_medium=rss&utm_campaign=latest-confirmed-cases-of-covid-19-in-south-africa-19-october-2021
+19-10-2021,20211019,292005,162892,918631,514726,122135,151646,92043,150323,512854,0,2917255,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-19-october-2021/?utm_source=rss&utm_medium=rss&utm_campaign=latest-confirmed-cases-of-covid-19-in-south-africa-19-october-2021
