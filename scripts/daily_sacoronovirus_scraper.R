@@ -84,15 +84,17 @@ clean <- function(x, msgposition="") {
   x <- gsub("Deaths", "", x) # sometimes the colon is missing.
   x <- gsub("Recoveries", "", x)
   x <- gsub(".*ases", "", x) # sometimes the colon is missing.
-  x <- gsub("\\.", "", x)  # remove a "."
-  x <- gsub(",", "", x)    # remove a ","
-  x <- gsub("°", "", x)    # remove a "°"
   x <- gsub("§", "5", x)
   x <- gsub("£", "1", x)
   x <- gsub("\\|", "1", x)
   x <- gsub("S", "5", x)
-  x <- gsub('”', "", x)
   x <- gsub("\\$", "5", x) # sometimes a 5 is OCR'ed as an $
+  x <- gsub('”', "", x)
+  x <- gsub("\\.", "", x)  # remove a "."
+  x <- gsub(",", "", x)    # remove a ","
+  x <- gsub("°", "", x)    # remove a "°"
+  
+  x <- gsub("[^0-9]", "", x)    # remove any non-numeric character.....
   if (length(x)>4 ) 
     x <- tail(x, 4)
   if (! length(x) %in% c(1,4)) {
