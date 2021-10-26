@@ -65,8 +65,8 @@ blocks <- c(
   NatNewCases="170x40+730+80",
   WC="170x100+180+500",
   EC="170x100+430+490",
-  NC="170x110+190+350", #100x100+290+330",
-  FS="170x100+400+350",
+  NC="170x110+190+320", 
+  FS="170x100+400+370",
   KZN="170x100+610+404",
   NW="170x100+370+250",
   GP="168x100+300+140",
@@ -130,7 +130,8 @@ processDay <- function(img, runAutomated=TRUE) {    # img <- imgs[1]
   print(basename(img))
   image <- magick::image_read(img)
   if (FALSE) {
-    magick::image_crop(image, blocks['EC'])
+    magick::image_crop(image, blocks['NC'])
+    magick::image_crop(image, "170x110+190+320")   #WxH+X+Y
   }
 
 #  engine <- tesseract::tesseract(language = "eng",
