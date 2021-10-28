@@ -34,6 +34,13 @@ if (any(missing <- is.na(names(rss)))) {  # if I cannot auto-detect the date
   names(rss)[ is.na(names(rss))] <- pubDate[missing]
 }
 
+if (any(problemdate <- names(rss) != pubDate)) {
+  combined <- as.data.frame(list(Title=origtitle, dateFromTitle=names(rss), datePublished=pubDate, issue=problemdate))
+  print(combined[problemdate, ])
+  warning("Will use the publication date here instead....")
+  names(rss)[problemdate] <- pubDate[problemdate]
+}
+
 if (any(duplicated(names(rss)))) {
   stop("Duplicates found in the title of the daily cases - please check these")
 }
