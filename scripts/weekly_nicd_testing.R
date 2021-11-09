@@ -206,10 +206,15 @@ ParseTable3 <- function(x, oldformat) {    # x <- data[[62]];   oldformat <- TRU
     res <- as.data.frame(do.call(rbind, clean), stringsAsFactors = FALSE)
     res <- res[, c(2,3, 5,6, 8,9)]  # skip the population numbers, and the final rates
     
+    # skip empty line
+    if (t3[2]=="") t3 <- t3[c(1, 3:length(t3))]
+    
     dates <- strsplit(t3[2], "  ") %>%
       extract2(1) %>%
       extract(. != "") %>%
       trimws()
+    
+    stopifnot(length(dates)>0)
     colnames(res) <- c(t(outer(X=dates, Y=c("Tests", "Positive"), FUN = function(x,y) paste0(y,"|",x))))
     res[] <- lapply(res, FUN = as.numeric)
 
