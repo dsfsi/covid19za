@@ -192,7 +192,7 @@ Prov <- lapply(cleantbls, FUN=function(x) {  # x <- cleantbls[[1]]
   df <- x$Prov 
   keepCol <- regexpr("otal.cases", colnames(df), ignore.case = TRUE)>0
   keepRow <- c("Western Cape", "Eastern Cape", "Northern Cape", "Free State", "KwaZulu-Natal", "North West", "Gauteng", "Mpumalanga", "Limpopo", "Unknown", "Total")
-  m <- match(keepRow, rownames(df))
+  m <- match(keepRow, gsub("\\*", "", rownames(df)))
   stopifnot(any(keepCol))
   df <- df[m, keepCol, drop=FALSE]  # remove everything else, new cases, percentages, etc.
   rownames(df) <- keepRow
