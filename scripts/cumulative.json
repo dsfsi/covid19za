@@ -10,14 +10,19 @@
                                 "Version": 2,
                                 "From": [
                                     {
-                                      "Name": "r1",
-                                      "Entity": "rtc za_covid19_vaccinations_summary_location_p_v2_vw_vw",
-                                      "Type": 0
+                                        "Name": "v",
+                                        "Entity": "Vaccinations Administered Measures",
+                                        "Type": 0
                                     },
                                     {
-                                      "Name": "v",
-                                      "Entity": "Vaccinations Administered Measures",
-                                      "Type": 0
+                                        "Name": "d",
+                                        "Entity": "DateDimension",
+                                        "Type": 0
+                                    },
+                                    {
+                                        "Name": "r",
+                                        "Entity": "rtc za_covid19_province_vw",
+                                        "Type": 0
                                     }
                                 ],
                                 "Select": [
@@ -25,12 +30,12 @@
                                         "Column": {
                                             "Expression": {
                                                 "SourceRef": {
-                                                    "Source": "r1"
+                                                    "Source": "d"
                                                 }
                                             },
-                                            "Property": "visit_date"
+                                            "Property": "Date"
                                         },
-                                        "Name": "rtc za_covid19_vaccinations_summary_location_p_v2_vw_vw.visit_date"
+                                        "Name": "DateDimension.Date"
                                     },
                                     {
                                         "Measure": {
@@ -39,9 +44,9 @@
                                                     "Source": "v"
                                                 }
                                             },
-                                            "Property": "Cumulative Vaccinations"
+                                            "Property": "Cumulative Vaccinations including Boosters"
                                         },
-                                        "Name": "Vaccinations Administered Measures.Cumulative Vaccinations New"
+                                        "Name": "Vaccinations Administered Measures.Cumulative Vaccinations including Boosters"
                                     }
                                 ]
                             },
@@ -75,7 +80,7 @@
                 "Sources": [
                     {
                         "ReportId": "f31bda4b-2754-475d-ad4b-e7ae4e213621",
-                        "VisualId": "229e4ff82609ddfba87c"
+                        "VisualId": "10b2a4c8604017b614c0"
                     }
                 ]
             }
