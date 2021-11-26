@@ -27,10 +27,6 @@ readFromRSSfeed <- function() {
     rss <- rss[!narss]
   }
   
-  if (any(duplicated(names(rss)))) {
-    stop("Duplicates found in the title of the daily cases - please check these")
-  }
-  
   detailpageurls <- sapply(rss, getElement, "link")
   
   rss <- lapply(rss, function(x) unlist(x$encoded))
@@ -129,7 +125,7 @@ hasValue <- function(df, val) {  # df <- x[[1]];   val <- "Private"
 }
 
 processDay <- function(x) {
-  # x <- tbls[[1]]
+  # x <- tbls[[2]]
   HasTest <- which(sapply(x, hasValue, "Total tested"))
   HasProv <- which(sapply(x, hasValue, "Gauteng"))
   HasHosp <- which(sapply(x, hasValue, "Facilities Reporting"))
@@ -140,7 +136,7 @@ processDay <- function(x) {
     print(HasProv)
     print(HasHosp)
     print(x)
-    stop("Error detecting Tests, Prov, Hosp")
+    stop("Error detecting Tests=", HasTest, "; Prov=", HasProv, "; Hosp=", HasHosp)
   }
   
   x <- x[c(HasTest, HasProv, HasHosp)]
@@ -169,6 +165,13 @@ OK <- sapply(tbls, length)>=3
 if (!all(OK)) {
   message("Ignoring these URLs: ", paste0(rssdf[!OK, "source"], collapse=","))
   tbls <- tbls[OK]
+}
+
+# only do the duplicate check now.... 
+if (any(dd <- duplicated(names(tbls)))) {
+  problemDates <- names(tbls)[dd]
+  warning("Duplicates found in the title of the daily cases - ignoring these dates: ", problemDates)
+  tbls <- tbls[!names(tbls) %in% problemDates]
 }
 
 cleantbls <- lapply(tbls, processDay)
