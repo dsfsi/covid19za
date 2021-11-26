@@ -132,15 +132,13 @@ processDay <- function(x) {
   if (length(HasTest)!=1L |
       length(HasProv)!=1L |
       length(HasHosp)!=1L) {
-    print(HasTest)
-    print(HasProv)
-    print(HasHosp)
-    print(x)
-    stop("Error detecting Tests=", HasTest, "; Prov=", HasProv, "; Hosp=", HasHosp)
+    warning("Error detecting Tests=", HasTest, "; Prov=", HasProv, "; Hosp=", HasHosp)
+    print(x[[2]])
+    x <- NULL
+  } else {
+    x <- x[c(HasTest, HasProv, HasHosp)]
+    names(x) <- c("Tests", "Prov", "Hospital")
   }
-  
-  x <- x[c(HasTest, HasProv, HasHosp)]
-  names(x) <- c("Tests", "Prov", "Hospital")
   
   # col and row names
   lapply(x, function(y) { # y <- x[[1]]
@@ -175,6 +173,15 @@ if (any(dd <- duplicated(names(tbls)))) {
 }
 
 cleantbls <- lapply(tbls, processDay)
+
+OK <- sapply(cleantbls, length)==3
+if (any(!OK)) {
+  # remove the NULLs
+  prob <- names(cleantbls[!OK])
+  warning("Ignoring data for ", paste0(prob, collapse=","))
+  cleantbls <- cleantbls[OK]
+}
+
 
 # sapply(cleantbls, FUN=function(x) colnames(x$Tests))
 # tx <- sapply(cleantbls, FUN = function(x) "Total.tested" %in% colnames(x$Tests))
