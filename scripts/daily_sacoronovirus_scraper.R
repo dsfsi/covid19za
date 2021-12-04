@@ -61,7 +61,8 @@ getsrc <- function(x) {
 
 imgs <- sapply(rss, function(x) getsrc(xml2::as_list(xml2::read_html(x))))
 # filter from a specific date onwards, as the images might have moved since then, and the positions are no longer valid.
-imgs <- imgs[names(imgs) > "2021-11-23"]
+imgs["2021-12-02"] <- "https://sacoronavirus.co.za/wp-content/uploads/2021/12/02-nov-map.jpg"
+imgs <- imgs[names(imgs) > "2021-11-30"]
 
 blocks <- c(
   #  Nat="960x40+0+80",
@@ -75,7 +76,7 @@ blocks <- c(
   NC="170x110+190+330", 
   FS="170x100+430+370",
   KZN="170x100+610+404",
-  NW="170x100+370+250",
+  NW="170x100+390+265",
   GP="168x100+300+150",
   MP="170x100+590+260",
   LP="220x100+550+150"
