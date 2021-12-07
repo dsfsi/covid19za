@@ -181,6 +181,18 @@ processDay <- function(img, runAutomated=TRUE) {    # img <- imgs[1]
   check1 <- colSums(res$Prov[2:4, ])-res$Prov[1, ]
   check2 <- res$Nat[c(2,4,3)] - rowSums(res$Prov)[1:3]
 
+  if (sum(check2!=0)==1) {
+    variable <- which(check2!=0)
+    
+    fixProv <- which(abs(sum(check2)) == abs(check1) )
+    if (length(fixProv)==1) {
+      message("Two checksums failed with the same difference:  auto-fixing ", 
+              names(fixProv), " x ", names(variable), 
+              ": old nr: ",res$Prov[variable, fixProv], 
+              ", new number: ", res$Prov[variable, fixProv] + check2[variable])
+      res$Prov[variable, fixProv] <- res$Prov[variable, fixProv] + check2[variable] 
+    }
+  }
   # try to auto-recover / fix the errors
   if (sum(check1!=0)==1 && 
       sum(check2!=0)<=1) {
