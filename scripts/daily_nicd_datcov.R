@@ -218,13 +218,16 @@ if (length(tables2$`2021-02-19`)==32) {
 }
 
 
-ParseTable3 <- function(x) {    # x <- tables[500];   oldformat <- TRUE
+
+ParseTable3 <- function(i) {    # x <- tables[500];   oldformat <- TRUE
   if (FALSE) {
-    x <- tables2$`2020-10-27`   # second table with pub/priv totals - ignore th
+    i <- 213
   }
+  x <- tables2[[i]]
   numbers <- trimws(x)
   clean <-  numbers %>% 
     gsub("reporting[ ]*Admissions", "reporting\tAdmissions", .) %>%
+    gsub("Facilities[ ]*Admissions", "Facilities\tAdmissions", .) %>% 
     gsub("   ", "\t", .) %>%
     gsub(" ", "", .) %>%
     gsub("\t\t\t\t\t", "\t", .) %>%
@@ -258,33 +261,60 @@ ParseTable3 <- function(x) {    # x <- tables[500];   oldformat <- TRUE
     }
   }
   
+  problemRows <- which(sapply(clean, length)!=expectedNrCols)
+
+  # some exceptions
+  if(problemRows[1]==1 & 
+     length(clean[[1]])==expectedNrCols+1) {
+    clean[[1]] <- clean[[1]][1:expectedNrCols]   # one extra table heading without data  
+  }
+
+  problemRows <- which(sapply(clean, length)!=expectedNrCols)
+  
+  if (length(problemRows)==1) {
+    if (clean[[problemRows]][1]=="Public" & 
+        (clean[[problemRows-1]][1]=="WesternCape" |    # either one or two lines prior
+         clean[[problemRows-2]][1]=="WesternCape")) {
+      # fix the WC missing CurrentVentilated+CurrentOxy in Public
+      insertNA <- clean[[1]] %in% c("CurrentlyOxygenated", "CurrentlyVentilated")
+      fix <- cumsum(!insertNA) # expand this
+      fix[insertNA] <- NA
+      clean[[problemRows]] <- clean[[problemRows]][fix]  
+    }
+  }
+  
   problemRows <- sapply(clean, length)!=expectedNrCols
-  clean
   
-  # as.data.frame(clean)
+  if (sum(problemRows)>0) {
+    print(sapply(clean, length))
+    stop("Not square dataframe: ", names(tables2)[i], " x ", i)
+  }
   
-  # res <- as.data.frame(do.call(rbind, clean), stringsAsFactors = FALSE)
+  a <- do.call(rbind, clean)
+  colnames(a) <- a[1, ]
   
-  # res[] <- lapply(res, FUN = as.numeric)
+  # fix some of these variable names
+
+  a <- a[-1, ]
+  # rownames(a) <- a[, 1]
+  # a <- a[, -1]
+  res <- as.data.frame(a, stringsAsFactors = FALSE)
+  res$Owner <- "Total"
+  res$Owner[res$Province=="Private"] <- "Priv"
+  res$Owner[res$Province=="Public"]  <- "Pub"
   
+  res$Province[res$Owner!="Total"] <- NA
+  res$Province <- zoo::na.locf(res$Province)
+  
+  res$Date <- names(tables2)[i]
+  flat <- reshape2::melt(res, id=c("Province", "Owner", "Date"), na.rm = TRUE, stringsAsFactors = FALSE)
 }
 
-tables3 <- lapply(tables2, ParseTable3 )
+tables3 <- lapply(seq_along(tables2), ParseTable3 )
 
-p <- do.call(rbind, tables3[[1]][-1])
-colnames(p) <- tables3[[1]][[1]]
-as.data.frame(p)
+allHospital <- data.table::rbindlist(tables3)
 
 
-# older back needs another different parser - thousand separator in the numbers, etc.
-Table3 <- mapply(ParseTable3, data, as.list(names(data) <= "2020-33"), SIMPLIFY = FALSE)
-
-# ARe all the provinces in the same order?  NO, they are NOT
-checkCols <- sapply(T3x, colnames)
-allOK <- apply(substr(checkCols[, 1],1,7)==substr(checkCols[],1,7), 2, all)
-if (any(!allOK)) {
-  stop("Provincial order problem")
-}
 
 allTestingData <- data.table::rbindlist(T3x, use.names = FALSE)  # we are checking the names above...
 
