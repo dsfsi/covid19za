@@ -217,6 +217,12 @@ if (length(tables2$`2021-02-19`)==32) {
   tables2$`2021-02-19` <- tables2$`2021-02-19`[-27:-28] 
 }
 
+fixColNames <- c(Facilitiesreporting="FacilitiesReporting",
+                 Admissionstodate="AdmissionstoDate",
+                 Deathstodate="DiedtoDate",
+                 Currentlyadmitted="CurrentlyAdmitted",
+                 CurrentinICU="CurrentlyinICU",
+                 Currentlyventilated="CurrentlyVentilated")
 
 
 ParseTable3 <- function(i) {    # x <- tables[500];   oldformat <- TRUE
@@ -294,6 +300,10 @@ ParseTable3 <- function(i) {    # x <- tables[500];   oldformat <- TRUE
   colnames(a) <- a[1, ]
   
   # fix some of these variable names
+  m <- match(colnames(a), names(fixColNames))
+  if (any(!is.na(m))) {
+    colnames(a)[!is.na(m)] <- unname(fixColNames)[m[!is.na(m)]]
+  }
 
   a <- a[-1, ]
   # rownames(a) <- a[, 1]
@@ -314,78 +324,8 @@ tables3 <- lapply(seq_along(tables2), ParseTable3 )
 
 allHospital <- data.table::rbindlist(tables3)
 
-
-
-allTestingData <- data.table::rbindlist(T3x, use.names = FALSE)  # we are checking the names above...
-
-# cleanup dates
-eoweek <- gsub("12\\-11 July", "12-18 Jul", allTestingData$week) %>%   # faulty label in 2020-30 - middle column
-  gsub(".*(-|–) *","", .) %>%                
-  gsub("April", "Apr", .) %>%
-  gsub("August", "Aug", .) %>%
-  gsub("July", "Jul", .) %>%
-  gsub("June", "Jun", .) %>%
-  gsub(" 20$", " 2020", .) %>% # change short year to long year
-  gsub(" 21$", " 2021", .)
-noyear <- nchar(eoweek)<10
-
-eoweek[noyear] <- paste0(eoweek[noyear], " ", substr(allTestingData$weektag,1,4)[noyear])
-
-allTestingData$eoweek <- as.Date.character(eoweek, format = "%d %B %Y")
-if (any(probdates <- is.na(allTestingData$eoweek))) {
-  print(allTestingData$week[probdates])
-  stop("Could not convert strings into format Date type")
-}
-
-fixweektag <- function(wt) {  # convert to a numeric format, so that is could be sorted nicely
-  # as.Date.character(wt, format="%Y-%U")   # not working - all week formatting is ignored on input..
-  a <- strsplit(wt, "-")[[1]]
-  as.integer(a[1]) + as.numeric(a[2])/100
-}
-allTestingData$weektagn <- sapply(allTestingData$weektag, fixweektag)
-
-# ignore the first two reports, the week definitions are different from 2020.21 onwards.  
-allTestingData <- allTestingData[weektagn>2020.20]
-
-stopifnot(all(weekdays(allTestingData$eoweek, TRUE)=="Sat"))
-
-# only keep the last available weektagn number, ignore the previous numbers
-maxweektag <- allTestingData[, list(maxwtn=max(weektagn)), by=list(eoweek)]
-
-allTestingData$latest <- maxweektag$maxwtn[ match(allTestingData$eoweek, maxweektag$eoweek) ] == allTestingData$weektagn 
-allTestingData <- allTestingData[latest==TRUE][order(eoweek, var)]
-allTestingData$source <- paste0(unname(links[allTestingData$weektag]),'#Table3')
-allTestingData$eowYYYYMMDD <- format(allTestingData$eoweek, "%Y%m%d")
-
-# re-order columns
-# Put eo Week in YYYYMMDD format
-provdatacols <- c("Eastern Cape","Free State", "Gauteng", "KwaZulu-Natal", "Limpopo", "Mpumalanga", "North West", "Northern Cape", "Western Cape", "Unknown", "Total")
-allTestingData <- allTestingData[, c("weektag", "var", "week", "eowYYYYMMDD",
-                                     ..provdatacols,
-                                     "source")]
-
-# save raw data into a raw file -- not cumulative
-write.csv(allTestingData, "data/covid19za_provincial_timeline_testing.csv", 
-          row.names = FALSE, quote = FALSE)
-
-# Testing only, convert to cummulative number
-rownames(allTestingData) <- paste0(allTestingData$var, '|', allTestingData$week)
-cumTests <- allTestingData[allTestingData$var=="Tests", ..provdatacols]
-cumTests[] <- lapply(cumTests, cumsum)
-rownames(cumTests) <- allTestingData[allTestingData$var=="Tests", eowYYYYMMDD]
-
-# tail(cumTests)   # Total cumm == 14.2 tests;   
-# According to https://sacoronavirus.co.za/2021/08/21/update-on-covid-19-saturday-21-august-2021/,
-# Total cumm tests should be 15.9 million.  
-# ignore this....
-
-provexUnknown <- provdatacols[-10]
-PositivityRate <- data.table::setDF(
-                  allTestingData[allTestingData$var=="Positive", ..provexUnknown] / 
-                  allTestingData[allTestingData$var=="Tests", ..provexUnknown]
-)
-PositivityRate$YYYYMMDD <- allTestingData[allTestingData$var=="Tests", eowYYYYMMDD] 
-write.csv(PositivityRate[, c(11,1:10)], "data/covid19za_provincial_timeline_testing_positivityrate.csv", 
+# save raw data into a raw flat file
+write.csv(allHospital, "data/covid19za_provincial_raw_hospitalization.csv", 
           row.names = FALSE, quote = FALSE)
 
 px <- git2r::repository()
@@ -405,3 +345,6 @@ if (length(s$unstaged)>0) {   # we have files that we can commit
     message("No new data")
   }
 }
+
+#TODO: update the data/nicd_hospital_surveillance_data.csv file
+
