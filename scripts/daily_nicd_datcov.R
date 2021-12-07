@@ -188,6 +188,12 @@ if (FALSE) {
 }
 
 furtherCleaning <- function(x) {
+  # 
+  x <- gsub("^ *1/1 *$", "", x)
+  x <- gsub("^ */ *$", "", x)
+  x <- gsub("^ *\UE115[/]* *$", "", x)
+  x <- gsub("^ *\UE116 *$", "", x)
+  
   emptyRow <- trimws(x)==""
   x <- x[!emptyRow]
   
@@ -196,11 +202,10 @@ furtherCleaning <- function(x) {
   if(length(foundICU)>1 & foundICU[2]>20 ) {
     x <- x[1:(foundICU[2]-1)]
   }
-  
   # 
   rubbishLines <- nchar(trimws(x))<10
   if (sum(rubbishLines)>0) {
-    warning("About to ignore: ",trimws(x[rubbishLines]))
+    message("About to ignore: ",trimws(x[rubbishLines]))
     x <- x[!rubbishLines]
   }
   x
@@ -208,9 +213,9 @@ furtherCleaning <- function(x) {
 
 tables2 <- lapply(tables, furtherCleaning)
 # manual fix - Unknown prov - remove the two lines
-tables2$`2021-02-19` <- tables2$`2021-02-19`[-27:-28] 
-head(sapply(tables2, length), n=150)
-# base::table(sapply(tables2, length))
+if (length(tables2$`2021-02-19`)==32) {
+  tables2$`2021-02-19` <- tables2$`2021-02-19`[-27:-28] 
+}
 
 
 ParseTable3 <- function(x) {    # x <- tables[500];   oldformat <- TRUE
