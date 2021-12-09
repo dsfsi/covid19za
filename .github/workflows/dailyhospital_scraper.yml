@@ -38,7 +38,7 @@ jobs:
           # some of the R packages below has issues automatically installing, and requires this explicitly
           sudo apt-get install libcurl4-openssl-dev libmagick++-dev libpoppler-cpp-dev -y --fix-missing
           # now install the R-cran based binary repos
-          sudo apt-get install r-cran-httr r-cran-xml2 r-cran-xml r-cran-data.table r-cran-git2r r-cran-magrittr r-cran-rcpp r-cran-magick r-cran-qpdf r-cran-pdftools r-cran-rappdirs -y --fix-missing
+          sudo apt-get install r-cran-httr r-cran-xml2 r-cran-xml r-cran-data.table r-cran-git2r r-cran-magrittr r-cran-rcpp r-cran-magick r-cran-qpdf r-cran-pdftools r-cran-rappdirs r-cran-lubridate -y --fix-missing
       - name: Scrape nicd.ac.za data 
         run: Rscript --vanilla 'scripts/daily_nicd_datcov.R'
       - name: Push changes
