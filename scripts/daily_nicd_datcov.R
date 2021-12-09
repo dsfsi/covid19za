@@ -342,13 +342,15 @@ git2r::config(px, user.name = "krokkie", user.email = "krokkie@users.noreply.git
 s <- git2r::status(px, staged = FALSE, untracked = FALSE)
 if (length(s$unstaged)>0) {   # we have files that we can commit
   # if git2r::checkout()
-  fns <- c("data/covid19za_provincial_timeline_testing_positivityrate.csv", 
-           "data/covid19za_provincial_timeline_testing.csv")
+  fns <- c("data/covid19za_provincial_raw_hospitalization.csv", 
+           "data/tobecompelted.csv")
   if (any(fns %in% s$unstaged)) {
     message("New data added - commiting now")
-    git2r::add(px, "data/covid19za_provincial_timeline_testing_positivityrate.csv")  
-    git2r::add(px, "data/covid19za_provincial_timeline_testing.csv")  
-    git2r::commit(px, "Weekly testing data from NICD refreshed")  
+    lapply(fns, FUN=function(fn) { 
+      git2r::add(px, fn)
+      TRUE
+    })
+    git2r::commit(px, "Daily hospitalization data from NICD refreshed")  
   } else {
     message("No new data")
   }
