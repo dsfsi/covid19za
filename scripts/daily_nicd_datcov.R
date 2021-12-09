@@ -39,7 +39,7 @@ if (parseLast10only <- !interactive()) {
 # now download all those PDF files....
 tempfol <- "downloads/datcov"
 if (do_download_missing <- TRUE) {
-  if (!dir.exists(tempfol)) dir.create(tempfol)
+  if (!dir.exists(tempfol)) dir.create(tempfol, recursive = TRUE)
   pool <- curl::new_pool()
   sapply(seq_along(links), function(i) {   # i <- 1
     fn <- paste0(tempfol, "/", names(links)[i])
