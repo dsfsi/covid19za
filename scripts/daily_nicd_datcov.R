@@ -141,7 +141,7 @@ if (UseCache && file.exists(cachefn <- file.path(tempfol,"cache.rdata"))) {
   }
 } else {
   dataRaw <- lapply(files, basicTableExtractor)
-  if (useCache) {
+  if (UseCache) {
     save(file=cachefn, dataRaw)
   }
 }
