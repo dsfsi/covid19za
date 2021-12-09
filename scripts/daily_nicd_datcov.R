@@ -322,10 +322,18 @@ ParseTable3 <- function(i) {    # x <- tables[500];   oldformat <- TRUE
 
 tables3 <- lapply(seq_along(tables2), ParseTable3 )
 
-allHospital <- data.table::rbindlist(tables3)
+allHospital <- data.table::rbindlist(tables3)   # only the latest 10 
+
+# read the current database of hospitalization
+entireHospital <- read.csv("data/covid19za_provincial_raw_hospitalization.csv") %>%
+                  data.table::setDT()
+
+# remove the overlap between the history, and the newly processed files,
+# and finally append the newly processed files' details into the entireDB
+entireHospital <- rbind(entireHospital[!Date %in% unique(allHospital$Date)], allHospital) 
 
 # save raw data into a raw flat file
-write.csv(allHospital, "data/covid19za_provincial_raw_hospitalization.csv", 
+write.csv(entireHospital, "data/covid19za_provincial_raw_hospitalization.csv", 
           row.names = FALSE, quote = FALSE)
 
 px <- git2r::repository()
