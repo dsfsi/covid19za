@@ -347,6 +347,21 @@ TotVars <- c("CurrentlyAdmitted", "CurrentlyinICU", "CurrentlyVentilated", "Curr
 RestOfVars <- entireHospital[variable %in% TotVars & Owner=="Total" & Province=="Total", c("Date", "variable", "value")] %>%
   reshape2::dcast(Date ~ variable)
 
+if (FALSE) {
+  # What does the Gauteng numbers look like?
+  entireHospital[Owner=="Total" & Province == "Gauteng" & Date > "2021-11-20", c("Date", "variable", "value")] %>%
+    reshape2::dcast(Date ~ variable)
+  
+  
+  icuGP <- entireHospital[Owner=="Total" & Province == "Gauteng" & variable=="CurrentlyinICU", c("Date", "value")] 
+  plot(x=as.Date(icuGP$Date), y=as.numeric(icuGP$value), type="l", xlab = "", ylab="NUmber of ICU beds", main = "Gauteng Hospitalization")
+  
+  allGP <- entireHospital[Owner=="Total" & Province == "Gauteng", c("Date", "variable", "value")] %>%
+    reshape2::dcast(Date ~ variable)
+
+  # plot(x=as.Date(allGP$Date), y=as.numeric(allGP$CurrentlyAdmitted), type="l", xlab = "", ylab="NUmber of ICU beds", main = "Gauteng Hospitalization")
+  
+}
 px <- git2r::repository()
 git2r::config(px, user.name = "krokkie", user.email = "krokkie@users.noreply.github.com")
 
