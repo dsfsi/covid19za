@@ -336,6 +336,17 @@ entireHospital <- rbind(entireHospital[!Date %in% unique(allHospital$Date)], all
 write.csv(entireHospital, "data/covid19za_provincial_raw_hospitalization.csv", 
           row.names = FALSE, quote = FALSE)
 
+#TODO: update the data/nicd_hospital_surveillance_data.csv file
+selectedIndicators <- read.csv("data/nicd_hospital_surveillance_data.csv")
+#unique(entireHospital$variable)
+
+Admissions <- entireHospital[variable=="AdmissionstoDate" & Owner=="Total", c("Date", "value", "Province")] %>%
+  reshape2::dcast(Date ~ Province)
+
+TotVars <- c("CurrentlyAdmitted", "CurrentlyinICU", "CurrentlyVentilated", "CurrentlyOxygenated", "Dischargedtodate", "DiedtoDate")
+RestOfVars <- entireHospital[variable %in% TotVars & Owner=="Total" & Province=="Total", c("Date", "variable", "value")] %>%
+  reshape2::dcast(Date ~ variable)
+
 px <- git2r::repository()
 git2r::config(px, user.name = "krokkie", user.email = "krokkie@users.noreply.github.com")
 
