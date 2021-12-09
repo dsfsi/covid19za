@@ -36,15 +36,9 @@ jobs:
           # for package level CRAN, we need this repo added
           sudo add-apt-repository ppa:c2d4u.team/c2d4u4.0+ -y || echo "Done"
           # some of the R packages below has issues automatically installing, and requires this explicitly
-          sudo apt-get install libcurl4-openssl-dev libmagick++-dev libpoppler-cpp-dev libtesseract-dev tesseract-ocr-eng -y --fix-missing
+          sudo apt-get install libcurl4-openssl-dev libmagick++-dev libpoppler-cpp-dev -y --fix-missing
           # now install the R-cran based binary repos
           sudo apt-get install r-cran-httr r-cran-xml2 r-cran-xml r-cran-data.table r-cran-git2r r-cran-magrittr r-cran-rcpp r-cran-magick r-cran-qpdf r-cran-pdftools r-cran-rappdirs -y --fix-missing
-      - name: Install dependencies via Rscript not available via deb packages
-        run: |
-          install.packages(c("tesseract"), repos="https://cran.r-project.org/")
-# We need the sudo here, as the library directory is otherwise not writable
-# these packages are not available via the apt-get installation method....
-        shell: sudo Rscript {0}
       - name: Scrape nicd.ac.za data 
         run: Rscript --vanilla 'scripts/daily_nicd_datcov.R'
       - name: Push changes
