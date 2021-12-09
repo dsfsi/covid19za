@@ -347,6 +347,9 @@ TotVars <- c("CurrentlyAdmitted", "CurrentlyinICU", "CurrentlyVentilated", "Curr
 RestOfVars <- entireHospital[variable %in% TotVars & Owner=="Total" & Province=="Total", c("Date", "variable", "value")] %>%
   reshape2::dcast(Date ~ variable)
 
+
+
+
 if (FALSE) {
   # What does the Gauteng numbers look like?
   entireHospital[Owner=="Total" & Province == "Gauteng" & Date > "2021-11-20", c("Date", "variable", "value")] %>%
@@ -362,6 +365,12 @@ if (FALSE) {
   # plot(x=as.Date(allGP$Date), y=as.numeric(allGP$CurrentlyAdmitted), type="l", xlab = "", ylab="NUmber of ICU beds", main = "Gauteng Hospitalization")
   
 }
+# 
+
+
+
+
+
 px <- git2r::repository()
 git2r::config(px, user.name = "krokkie", user.email = "krokkie@users.noreply.github.com")
 
@@ -382,5 +391,4 @@ if (length(s$unstaged)>0) {   # we have files that we can commit
   }
 }
 
-#TODO: update the data/nicd_hospital_surveillance_data.csv file
 
