@@ -320,6 +320,7 @@ ParseTable3 <- function(i) {    # x <- tables[500];   oldformat <- TRUE
   flat <- reshape2::melt(res, id=c("Province", "Owner", "Date"), na.rm = TRUE, stringsAsFactors = FALSE)
 }
 
+message("Running final cleaning step: ")
 tables3 <- lapply(seq_along(tables2), ParseTable3 )
 
 allHospital <- data.table::rbindlist(tables3)   # only the latest 10 
@@ -389,6 +390,8 @@ if (length(s$unstaged)>0) {   # we have files that we can commit
   } else {
     message("No new data")
   }
+} else {
+  message("No changes - nothing to commit")
 }
 
 

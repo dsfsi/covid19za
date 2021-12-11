@@ -43,14 +43,17 @@ jobs:
         run: Rscript --vanilla 'scripts/daily_nicd_datcov.R'
       - name: Push changes
         run:  |
+          git status --porcelain
+          git rev-list --left-right --count origrepo/master...master
           # only push if there has been any changes
-          if [[ "$(git status --porcelain)" != "" ]]; then
+          # if [[ "$(git rev-list --left-right --count origrepo/master...master)" != "0\t0" ]]; then
+            echo "We have new commits!"
             # pull first, there might have been other commits since this job started.... Especially when more and more actions are added to the repo 
             git config pull.rebase false
             git pull origin ${{ github.ref }}
             # lets hope there were no merge conflicts.... 
             git push origin ${{ github.ref }}
-          fi
+          #fi
         if: ${{ always() }}
         env:
           REPO_KEY: ${{secrets.GITHUB_TOKEN}}

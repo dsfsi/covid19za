@@ -52,6 +52,7 @@ jobs:
         if: ${{ always() }}
       - name: Push changes
         run:  |
+          git status --porcelain
           # only push if there has been any changes
           if [[ "$(git status --porcelain)" != "" ]]; then
             # pull first, there might have been other commits since this job started.... Especially when more and more actions are added to the repo 
