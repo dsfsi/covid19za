@@ -642,5 +642,5 @@ date,YYYYMMDD,EC,FS,GP,KZN,LP,MP,NC,NW,WC,UNKNOWN,total,source
 07-12-2021,20211207,294815,167336,1005360,524317,126489,157476,93827,157864,523739,0,3051223,gis_nicd_scraper
 08-12-2021,20211208,295408,167993,1017063,526303,127347,158579,93962,158768,525638,0,3071065,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-9-december-2021/?utm_source=rss&utm_medium=rss&utm_campaign=latest-confirmed-cases-of-covid-19-in-south-africa-9-december-2021
 09-12-2021,20211209,296349,169001,1028854,529060,128403,159725,94150,160076,527833,0,3093453,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-10-december-2021/?utm_source=rss&utm_medium=rss&utm_campaign=latest-confirmed-cases-of-covid-19-in-south-africa-10-december-2021
-10-12-2021,20211210,297390,169916,1038104,531566,129293,160678,94364,161259,529900,0,3112470,gis_nicd_scraper
+10-12-2021,20211210,297389,169916,1038112,531566,129324,160683,94361,161215,529902,0,3112470,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-11-december-2021/?utm_source=rss&utm_medium=rss&utm_campaign=latest-confirmed-cases-of-covid-19-in-south-africa-11-december-2021
 11-12-2021,20211211,298069,170766,1046633,534137,129877,161661,94597,162447,531436,0,3129623,gis_nicd_scraper
