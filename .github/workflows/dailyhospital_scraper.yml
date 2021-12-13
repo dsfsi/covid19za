@@ -14,7 +14,7 @@ name: Scrape provincial hospitalization data from nicd.ac.za
 on:
   workflow_dispatch:
   schedule:
-    - cron: '8 19 * * *'
+    - cron: '23 7,19 * * *'
   push:
     branches:
       - master
