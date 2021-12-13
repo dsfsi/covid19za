@@ -116,10 +116,10 @@ clean <- function(x, msgposition="") {
   n <- as.numeric(x)
   if (any(faultyfield <- is.na(n))) {
     print(x)
-    warning("String to numeric problem: '", paste0(x[faultyfield], collapse="','"), "'")
+    message("String to numeric problem: '", paste0(x[faultyfield], collapse="','"), "'")
     if (sum(faultyfield)==1) {
       n[faultyfield] <- 0
-      warning("Found an empty field.   Assume this is a zero...")
+      message("Found an empty field.   Assume this is a zero...")
     } else {
       stop("Too many errors - cannot continue.")
     }
@@ -191,8 +191,11 @@ processDay <- function(img, runAutomated=TRUE) {    # img <- imgs[1]
               ": old nr: ",res$Prov[variable, fixProv], 
               ", new number: ", res$Prov[variable, fixProv] + check2[variable])
       res$Prov[variable, fixProv] <- res$Prov[variable, fixProv] + check2[variable] 
+      check2 <- res$Nat[c(2,4,3)] - rowSums(res$Prov)[1:3]
+      check1 <- colSums(res$Prov[2:4, ])-res$Prov[1, ]
     }
   }
+  
   # try to auto-recover / fix the errors
   if (sum(check1!=0)==1 && 
       sum(check2!=0)<=1) {
@@ -202,6 +205,8 @@ processDay <- function(img, runAutomated=TRUE) {    # img <- imgs[1]
       # apply the fix to the Provincial Active cases number 
       message("Auto adjusting the Provincial data Active Cases for ", names(fixProv),": old nr: ",res$Prov[4, fixProv], ", new number: ", res$Prov[4, fixProv] - check1[fixProv])
       res$Prov[4, fixProv] <- res$Prov[4, fixProv] - check1[fixProv] 
+      check1 <- colSums(res$Prov[2:4, ])-res$Prov[1, ]
+      check2 <- res$Nat[c(2,4,3)] - rowSums(res$Prov)[1:3]
     } else {
       #one-one error: 
       if (abs(sum(check1))==
@@ -212,16 +217,29 @@ processDay <- function(img, runAutomated=TRUE) {    # img <- imgs[1]
                 ": old nr: ",res$Prov[variable, fixProv], 
                 ", new number: ", res$Prov[variable, fixProv] + check2[variable])
         res$Prov[variable, fixProv] <- res$Prov[variable, fixProv] + check2[variable] 
+        check1 <- colSums(res$Prov[2:4, ])-res$Prov[1, ]
+        check2 <- res$Nat[c(2,4,3)] - rowSums(res$Prov)[1:3]
       } else {
         if (runAutomated) res <- NULL
-        warning("Cannot autofix checksum error:  Please investigate the numbers")
+        message("Cannot autofix checksum error:  Please investigate the numbers")
       }
     }
+  }
+  # single variable problem, across multiple provinces.   11-Dec-2021
+  if ((sum(check1)==sum(check2)) & sum(check2!=0)==1 ) {  
+    fixProv <- which(check1!=0)
+    variable <- which(check2!=0)
+    message("Auto adjusting multi-prov for ", paste0(names(fixProv), collapse=",")," single variable: ", 
+            "old nr: ",paste0(res$Prov[variable, fixProv], collapse=","), 
+            ", new number: ", paste0(res$Prov[variable, fixProv] + check1[fixProv], collapse=","))
+    res$Prov[variable, fixProv] <- res$Prov[variable, fixProv] + check1[fixProv] 
+    check1 <- colSums(res$Prov[2:4, ])-res$Prov[1, ]
+    check2 <- res$Nat[c(2,4,3)] - rowSums(res$Prov)[1:3]
   } else {
     if (sum(check1!=0)>0 |
         sum(check2!=0)>0) {
       if (runAutomated) res <- NULL
-      warning("Too many errors in the checksum figures.  Please investigate manually: ", sum(check1!=0), " vs ", sum(check2!=0))
+      message("Too many errors in the checksum figures.  Please investigate manually: ", sum(check1!=0), " vs ", sum(check2!=0))
     }
   }
 
@@ -233,18 +251,25 @@ processDay <- function(img, runAutomated=TRUE) {    # img <- imgs[1]
                      all(check1==0) &
                      all(check2==0)
       
-    if (runAutomated) {
-      stopifnot(check1==0)
-      stopifnot(check2==0)
+    if (sum(check1!=0)>0 |
+        sum(check2!=0)>0) {
+      if (runAutomated) {
+        res <- NULL
+        message("Ignoring ", basename(img), ", because check1=", check1, ", and check2=", check2)
+      }
     }
   }
   
   res
 }
 
+if (FALSE) {
+  data <- lapply(imgs, processDay, runAutomated=TRUE)
+}
 data <- lapply(imgs, processDay, runAutomated=!interactive())
 # remove 
 data <- data[!sapply(data, is.null)]
+stopifnot(length(data)>0)
 
 Nat <- sapply(data, getElement, "Nat")
 Prov <- sapply(data, getElement, "Prov", simplify = "array")
