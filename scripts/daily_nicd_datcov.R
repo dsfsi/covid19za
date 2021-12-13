@@ -44,6 +44,7 @@ if (do_download_missing <- TRUE) {
   sapply(seq_along(links), function(i) {   # i <- 1
     fn <- paste0(tempfol, "/", names(links)[i])
     if (!file.exists(fn)) {
+      # different strategy: https://github.com/jeroen/curl/issues/148
       curl::curl_fetch_multi(unname(links[i]), pool = pool,
                              data = file(fn, open = "wb"))
     } else {
@@ -358,12 +359,13 @@ if (FALSE) {
   
   
   icuGP <- entireHospital[Owner=="Total" & Province == "Gauteng" & variable=="CurrentlyinICU", c("Date", "value")] 
+  icuGP <- tail(icuGP, 100)
   plot(x=as.Date(icuGP$Date), y=as.numeric(icuGP$value), type="l", xlab = "", ylab="NUmber of ICU beds", main = "Gauteng Hospitalization")
   
   allGP <- entireHospital[Owner=="Total" & Province == "Gauteng", c("Date", "variable", "value")] %>%
     reshape2::dcast(Date ~ variable)
 
-  # plot(x=as.Date(allGP$Date), y=as.numeric(allGP$CurrentlyAdmitted), type="l", xlab = "", ylab="NUmber of ICU beds", main = "Gauteng Hospitalization")
+  plot(x=as.Date(allGP$Date), y=as.numeric(allGP$CurrentlyAdmitted), type="l", xlab = "", ylab="NUmber of ICU beds", main = "Gauteng Hospitalization")
   
 }
 # 
