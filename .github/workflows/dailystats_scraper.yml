@@ -1,4 +1,4 @@
-name: Scrape provincial data from sacoronavirus.co.za and/or nicd.ac.za
+name: Scrape prov cases,deaths,recov from sacoronavirus.co.za and/or nicd.ac.za
 # The NICD data is release typically between 18:00 and 20:00.  Run this every 5 mins between those times   
 # Adjusted to GMT+0 times
 # This runner takes some time to setup.  
@@ -13,7 +13,7 @@ name: Scrape provincial data from sacoronavirus.co.za and/or nicd.ac.za
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2,12,22,32,42,52 16-18 * * *'
+    - cron: '2,12,22,32,42,52 16-19 * * *'
   push:
     branches:
       - master
