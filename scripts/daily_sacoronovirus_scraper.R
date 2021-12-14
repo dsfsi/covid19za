@@ -139,7 +139,7 @@ processDay <- function(img, runAutomated=TRUE) {    # img <- imgs[1]
   image <- magick::image_read(img)
   if (FALSE) {
     magick::image_crop(image, blocks['FS'])
-    magick::image_crop(image, "170x100+430+370")   #WxH+X+Y
+    magick::image_crop(image, "160x45+30+180")   #WxH+X+Y
   }
 
 #  engine <- tesseract::tesseract(language = "eng",
@@ -158,9 +158,16 @@ processDay <- function(img, runAutomated=TRUE) {    # img <- imgs[1]
   
   # FindProv(c("WESTERN", "EASTERN", "NORTHERN", "FREE", "KWAZULU-NATAL", "WEST", "GAUTENG", "MPUMALANGA", "Limpopo"))
 
-  OCRdata <- function(crop) {   # crop <- blocks['EC']
+  OCRdata <- function(crop) {   # crop <- blocks['NatActive']
     # crop <- "170x100+430+490"    
-    image2 <- magick::image_crop(image, crop)
+    negate <- substr(crop,1,1)=="*" 
+    if (negate) {
+      crop <- substr(crop,2,nchar(crop))
+      image2 <- magick::image_negate(magick::image_crop(image, crop))
+    } else {
+      image2 <- magick::image_crop(image, crop)
+    } 
+    
     magick::image_write(image2, path = "temp.jpg", format = "jpg")
 
     tesseract::ocr("temp.jpg") %>%   # , engine = engine
@@ -178,7 +185,7 @@ processDay <- function(img, runAutomated=TRUE) {    # img <- imgs[1]
   # add some final checks, and auto-fixing intelligence
 
   # check1: 
-  check1 <- colSums(res$Prov[2:4, ])-res$Prov[1, ]
+  check1 <- colSums(res$Prov[2:4, ])-res$Prov[1, ]           # active + deaths + recov = cases 
   check2 <- res$Nat[c(2,4,3)] - rowSums(res$Prov)[1:3]
 
   if (sum(check2!=0)==1) {
