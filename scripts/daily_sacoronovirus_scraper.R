@@ -184,9 +184,10 @@ processDay <- function(img, runAutomated=TRUE) {    # img <- imgs[1]
   
   # add some final checks, and auto-fixing intelligence
 
-  # check1: 
-  check1 <- colSums(res$Prov[2:4, ])-res$Prov[1, ]           # active + deaths + recov = cases 
   check2 <- res$Nat[c(2,4,3)] - rowSums(res$Prov)[1:3]
+  # check1: provincial details are internally consistent within a province.
+  check1 <- colSums(res$Prov[2:4, ])-res$Prov[1, ]  # active + deaths + recov = cases 
+  # check2: sum(province) == national, on variable level 
 
   if (sum(check2!=0)==1) {
     variable <- which(check2!=0)
