@@ -3,6 +3,7 @@
 # https://sacoronavirus.co.za/covid-19-daily-cases/
 library(magrittr)
 
+
 # on the gitlab runner, the working folder is /home/runner/work/covid19za/covid19za
 # print(getwd())
 if (interactive()) {  # for debug purposes
@@ -137,7 +138,15 @@ clean <- function(x, msgposition="") {
 
 processDay <- function(img, runAutomated=TRUE) {    # img <- imgs[1]
   print(basename(img))
-  image <- magick::image_read(img)
+
+  # magick::image_read(img) (quite often) fails with a known http_version bug.
+  tempfn <- file.path(tempdir(), basename(img)) 
+  specialhandle <- curl::new_handle()
+  curl::handle_setopt(specialhandle, http_version = 0L)
+  curl::curl_download(img, tempfn, handle = specialhandle)
+  image <- magick::image_read(tempfn)
+  file.remove(tempfn)
+  
   if (FALSE) {
     magick::image_crop(image, blocks['FS'])
     magick::image_crop(image, "160x45+30+180")   #WxH+X+Y
@@ -185,10 +194,21 @@ processDay <- function(img, runAutomated=TRUE) {    # img <- imgs[1]
   
   # add some final checks, and auto-fixing intelligence
 
-  check2 <- res$Nat[c(2,4,3)] - rowSums(res$Prov)[1:3]
   # check1: provincial details are internally consistent within a province.
   check1 <- colSums(res$Prov[2:4, ])-res$Prov[1, ]  # active + deaths + recov = cases 
   # check2: sum(province) == national, on variable level 
+  check2 <- res$Nat[c(2,4,3)] - rowSums(res$Prov)[1:3]
+
+  # for later:: check2 <- res$Nat[c(2,4,3,6)] - rowSums(res$Prov)[1:4]
+  
+  # Natioanl figures are wrong, allprovinces are all fine.
+  if (sum(check1!=0)==0 & 
+      sum(check2!=0)==1) {
+      
+    print('this autofix is still under construction')
+    # check the internal consistency of the National numbers
+      check3 <- res$Nat[["NatCases"]] - sum(res$Nat[c(6,4,3)])
+  }
 
   if (sum(check2!=0)==1) {
     variable <- which(check2!=0)
