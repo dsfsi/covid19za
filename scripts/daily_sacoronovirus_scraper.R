@@ -91,6 +91,10 @@ clean <- function(x, msgposition="") {
   if (FALSE) {
     x <- data[[1]]$NC
   }
+  if (length(x)==0) {
+    x <- ""    # auto-fix for empty strings...
+  } 
+  
   origx <- x
   x <- gsub(".*:","",x)    # remove every before the ":"
   x <- gsub(".*;","",x)    # sometimes this is a "the ";"
