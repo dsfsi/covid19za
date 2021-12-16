@@ -151,6 +151,7 @@ keep <- !sapply(dataRaw, is.null)
 dataRaw <- dataRaw[keep]
 
 dates <- sapply(dataRaw, names)
+mapFile2Data <- lapply(dataRaw, names)
 stopifnot(length(dates[is.na(dates)])==0)   # investigate different formats....
 tables <- lapply(dataRaw, getElement, 1)
 datesD <- as.Date(dates)
@@ -158,6 +159,7 @@ faultyYear <- as.integer(format(datesD, "%Y")) < 2020
 datesD[faultyYear] <- datesD[faultyYear] + lubridate::years(2000)
 dates <- as.character(datesD)
 names(tables) <- dates
+mapFile2Data[] <- dates
 
 # re-order if something was added later....
 tables <- tables[order(dates)]
@@ -340,6 +342,7 @@ write.csv(entireHospital, "data/covid19za_provincial_raw_hospitalization.csv",
 
 #TODO: update the data/nicd_hospital_surveillance_data.csv file
 selectedIndicators <- read.csv("data/nicd_hospital_surveillance_data.csv")
+selectedIndicators$source <- trimws(selectedIndicators$source)   # the CSV is not 100% standard - using a ", " as the sep
 #unique(entireHospital$variable)
 
 Admissions <- entireHospital[variable=="AdmissionstoDate" & Owner=="Total", c("Date", "value", "Province")] %>%
@@ -349,7 +352,91 @@ TotVars <- c("CurrentlyAdmitted", "CurrentlyinICU", "CurrentlyVentilated", "Curr
 RestOfVars <- entireHospital[variable %in% TotVars & Owner=="Total" & Province=="Total", c("Date", "variable", "value")] %>%
   reshape2::dcast(Date ~ variable)
 
+NewHospData <- merge(Admissions, RestOfVars, by="Date")
+# colnames(NewHospData)
+# colnames(selectedIndicators)
 
+colrename <- c(#date="Date",   # calculated field
+               YYYYMMDD="Date",   # almost, without the dashes  
+               total_admissions="Total",
+               WC="WesternCape",
+               EC="EasternCape",
+               GP="Gauteng",
+               KZN="KwaZulu-Natal",
+               LP="Limpopo",
+               FS="FreeState",
+               MP="Mpumalanga",
+               NW="NorthWest",
+               NC="NorthernCape",
+               current_num_in_hospital="CurrentlyAdmitted",
+               #general=     # calculated field
+               #high_care=NA,   # discontinued
+               ICU="CurrentlyinICU",
+               oxygenated="CurrentlyOxygenated",
+               ventilated="CurrentlyVentilated",
+               #isolation=NA,   # discontinued
+               #total_heathcare_workers_admitted=NA,  # discontinued
+               num_discharged_alive="Dischargedtodate",
+               hospital_deaths="DiedtoDate"
+               #source=NA   # populated later
+              )
+# Check if colnames match
+if (!all(unname(colrename) %in% colnames(NewHospData))) {
+  stop("The colnames of the selectedIndicators changed.   Update and fix please!")
+}
+
+# reorder according to colrename spec
+NewHospData <- NewHospData[, unname(colrename)]
+colnames(NewHospData) <- names(colrename)
+
+# source lookup
+mapFile2Data <- unlist(mapFile2Data)
+m <- match(NewHospData$YYYYMMDD, unname(mapFile2Data))
+NewHospData$localfile[!is.na(m)] <- names(mapFile2Data)[m[!is.na(m)]]
+NewHospData$source[!is.na(m)] <- unname(links[NewHospData$localfile[!is.na(m)]])
+
+# fix the date formats
+NewHospData$date <- as.Date(NewHospData$YYYYMMDD) %>% format.Date("%d-%m-%Y")
+NewHospData$YYYYMMDD <- gsub("-", "", NewHospData$YYYYMMDD)
+
+# general = total admi - ICU - oxy - vent
+# NewHospData$general <- NewHospData$current_num_in_hospital - NewHospData$ICU
+
+# additional time points
+datesOverlap <- selectedIndicators$YYYYMMDD %in% NewHospData$YYYYMMDD
+datesOverlapNew <- NewHospData$YYYYMMDD %in% selectedIndicators$YYYYMMDD 
+
+# investigate differences in the data
+if (FALSE) {
+  commoncols <- intersect(colnames(NewHospData), colnames(selectedIndicators) )[-1][-14:-15]
+  selectedIndicators[datesOverlap, commoncols] - 
+    NewHospData[datesOverlapNew, commoncols]
+  # conclusion:  the data is very similar.   There are a couple of differences - most probably copy & paste errors by hand.
+  # strategy would be to replace this with the scraped data.
+}
+
+# append new time points
+dateExists <- NewHospData$YYYYMMDD %in% selectedIndicators$YYYYMMDD
+if (any(!dateExists)) {
+  # we have some new data!
+  commoncols <- intersect(colnames(NewHospData), colnames(selectedIndicators))
+                        
+  AppendData <- NewHospData[!dateExists, commoncols]
+  missingCols <- setdiff(colnames(selectedIndicators), colnames(NewHospData))
+  # append missing colums
+  lapply(missingCols, function(cn) { 
+    AppendData[[cn]] <<- NA
+    TRUE
+  })
+  
+  selectedIndicators <- rbind(selectedIndicators, AppendData)
+  # reorder by date
+  selectedIndicators <- selectedIndicators[order(selectedIndicators$YYYYMMDD), ]
+}
+
+# finally write the new dataset out again....
+write.table(selectedIndicators, file = "data/nicd_hospital_surveillance_data.csv",
+            row.names = FALSE, quote = FALSE, sep = ", ", na = "")
 
 
 if (FALSE) {
@@ -370,10 +457,6 @@ if (FALSE) {
 }
 # 
 
-
-
-
-
 px <- git2r::repository()
 git2r::config(px, user.name = "krokkie", user.email = "krokkie@users.noreply.github.com")
 
@@ -381,7 +464,7 @@ s <- git2r::status(px, staged = FALSE, untracked = FALSE)
 if (length(s$unstaged)>0) {   # we have files that we can commit
   # if git2r::checkout()
   fns <- c("data/covid19za_provincial_raw_hospitalization.csv", 
-           "data/tobecompelted.csv")
+           "data/nicd_hospital_surveillance_data.csv")
   if (any(fns %in% s$unstaged)) {
     message("New data added - commiting now")
     lapply(fns, FUN=function(fn) { 
