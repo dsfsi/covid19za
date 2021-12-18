@@ -408,10 +408,16 @@ cleanWards <- function(i) {   # i <- 122
 
 wards <- lapply(dataRaw, getElement, "ward")
 wardsarr <- sapply(setNames(seq_along(wards), dates), cleanWards, simplify = "array")
+names(dimnames(wardsarr)) <- c("variable", "Date")
+wardflat <- reshape2::melt(wardsarr, as.is = TRUE, na.rm = TRUE)
+wardflat$variable <- paste0("CurrentWard", gsub(" ", "", wardflat$variable))
+wardflat$Province <- "Total"
+wardflat$Owner <- "Total"   # Priv/Pub/Tot
+
 message("Running final cleaning step: ")
 tables3 <- lapply(seq_along(tables2), ParseTable3 )
 
-allHospital <- data.table::rbindlist(tables3)   # only the latest 10 
+allHospital <- data.table::rbindlist(c(tables3, list(wardflat)), use.names=TRUE)   # only the latest 10 
 
 # read the current database of hospitalization
 entireHospital <- read.csv("data/covid19za_provincial_raw_hospitalization.csv") %>%
@@ -420,6 +426,8 @@ entireHospital <- read.csv("data/covid19za_provincial_raw_hospitalization.csv") 
 # remove the overlap between the history, and the newly processed files,
 # and finally append the newly processed files' details into the entireDB
 entireHospital <- rbind(entireHospital[!Date %in% unique(allHospital$Date)], allHospital) 
+# order by date
+entireHospital <- entireHospital[order(entireHospital$Date), ]
 
 # save raw data into a raw flat file
 write.csv(entireHospital, "data/covid19za_provincial_raw_hospitalization.csv", 
