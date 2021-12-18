@@ -441,7 +441,7 @@ selectedIndicators$source <- trimws(selectedIndicators$source)   # the CSV is no
 Admissions <- entireHospital[variable=="AdmissionstoDate" & Owner=="Total", c("Date", "value", "Province")] %>%
   reshape2::dcast(Date ~ Province)
 
-TotVars <- c("CurrentlyAdmitted", "CurrentlyinICU", "CurrentlyVentilated", "CurrentlyOxygenated", "Dischargedtodate", "DiedtoDate")
+TotVars <- c("CurrentlyAdmitted", "CurrentlyinICU", "CurrentWardHighCare", "CurrentWardGeneral", "Dischargedtodate", "DiedtoDate")
 RestOfVars <- entireHospital[variable %in% TotVars & Owner=="Total" & Province=="Total", c("Date", "variable", "value")] %>%
   reshape2::dcast(Date ~ variable)
 
@@ -462,16 +462,13 @@ colrename <- c(#date="Date",   # calculated field
                NW="NorthWest",
                NC="NorthernCape",
                current_num_in_hospital="CurrentlyAdmitted",
-               #general=     # calculated field
-               #high_care=NA,   # discontinued
+               general="CurrentWardGeneral",
+               high_care="CurrentWardHighCare",
                ICU="CurrentlyinICU",
-               oxygenated="CurrentlyOxygenated",
-               ventilated="CurrentlyVentilated",
                #isolation=NA,   # discontinued
                #total_heathcare_workers_admitted=NA,  # discontinued
                num_discharged_alive="Dischargedtodate",
                hospital_deaths="DiedtoDate"
-               #source=NA   # populated later
               )
 # Check if colnames match
 if (!all(unname(colrename) %in% colnames(NewHospData))) {
@@ -492,16 +489,13 @@ NewHospData$source[!is.na(m)] <- unname(links[NewHospData$localfile[!is.na(m)]])
 NewHospData$date <- as.Date(NewHospData$YYYYMMDD) %>% format.Date("%d-%m-%Y")
 NewHospData$YYYYMMDD <- gsub("-", "", NewHospData$YYYYMMDD)
 
-# general = total admi - ICU - oxy - vent
-# NewHospData$general <- NewHospData$current_num_in_hospital - NewHospData$ICU
-
 # additional time points
 datesOverlap <- selectedIndicators$YYYYMMDD %in% NewHospData$YYYYMMDD
 datesOverlapNew <- NewHospData$YYYYMMDD %in% selectedIndicators$YYYYMMDD 
 
 # investigate differences in the data
 if (FALSE) {
-  commoncols <- intersect(colnames(NewHospData), colnames(selectedIndicators) )[-1][-14:-15]
+  commoncols <- intersect(colnames(NewHospData), colnames(selectedIndicators) )[-1][-17:-18]
   selectedIndicators[datesOverlap, commoncols] - 
     NewHospData[datesOverlapNew, commoncols]
   # conclusion:  the data is very similar.   There are a couple of differences - most probably copy & paste errors by hand.
@@ -510,6 +504,7 @@ if (FALSE) {
 
 # append new time points
 dateExists <- NewHospData$YYYYMMDD %in% selectedIndicators$YYYYMMDD
+
 if (any(!dateExists)) {
   # we have some new data!
   commoncols <- intersect(colnames(NewHospData), colnames(selectedIndicators))
@@ -526,6 +521,19 @@ if (any(!dateExists)) {
   # reorder by date
   selectedIndicators <- selectedIndicators[order(selectedIndicators$YYYYMMDD), ]
 }
+
+if (any(dateOverlap)) {
+  m <- match(selectedIndicators$YYYYMMDD[dateOverlap], NewHospData$YYYYMMDD)
+  
+  overwriteCols <- intersect(colnames(selectedIndicators), colnames(NewHospData))
+  skipcols <- c("source", "YYYYMMDD", "date", "total_admissions")
+  overwriteCols <- overwriteCols[! overwriteCols %in% skipcols ]
+
+  selectedIndicators[dateOverlap, overwriteCols] <- 
+    NewHospData[m, overwriteCols]
+}
+
+
 
 # finally write the new dataset out again....
 write.table(selectedIndicators, file = "data/nicd_hospital_surveillance_data.csv",
