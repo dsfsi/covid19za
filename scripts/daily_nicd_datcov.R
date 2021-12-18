@@ -522,6 +522,7 @@ if (any(!dateExists)) {
   selectedIndicators <- selectedIndicators[order(selectedIndicators$YYYYMMDD), ]
 }
 
+dateOverlap <- selectedIndicators$YYYYMMDD %in% NewHospData$YYYYMMDD  
 if (any(dateOverlap)) {
   m <- match(selectedIndicators$YYYYMMDD[dateOverlap], NewHospData$YYYYMMDD)
   
