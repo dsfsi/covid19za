@@ -348,6 +348,40 @@ ParseTable3 <- function(i) {    # x <- tables[500];   oldformat <- TRUE
   flat <- reshape2::melt(res, id=c("Province", "Owner", "Date"), na.rm = TRUE, stringsAsFactors = FALSE)
 }
 
+validWardLabels <- c("ICU", "HighCare", "Isolation", "General") 
+  
+
+cleanWards <- function(i) {   # i <- 93
+  # l <- wards[[1]]
+  l <- wards[[i]]
+  origl <- l
+  delline <- regexec("Currently in Hospital:", l) > 0
+  if (any(delline)) {
+    l <- l[!delline]
+  }
+  labels <- tail(l,1) %>% 
+              gsub("  ", "\t", .) %>%
+              gsub(" ", "", .) %>%
+              gsub("\t\t\t", "\t", .) %>%
+              gsub("\t\t", "\t", .) %>%
+              gsub("\t\t", "\t", .) %>%
+              strsplit("\t") %>% 
+              extract2(1)
+  
+  problemLabels <- ! labels %in% validWardLabels
+  if (any(problemLabels)) {
+    warning("Problematic labels detected: ", paste0(labels[problemLabels], collapse=", "))
+    labels <- labels[!problemLabels]
+  }
+  
+  l <- l[1:(length(l)-1)]
+  if (length(l)!=length(labels)) {
+    stop("Ward breakdown error for ", dataRaw[[i]]$date, " # ", i)
+  }
+  setNames(as.integer(l), labels)
+}
+
+wards <- lapply(dataRaw, getElement, "ward")
 message("Running final cleaning step: ")
 tables3 <- lapply(seq_along(tables2), ParseTable3 )
 
