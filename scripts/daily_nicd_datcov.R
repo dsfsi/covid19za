@@ -96,8 +96,13 @@ basicTableExtractor <- function(fn) { # fn <- files[476]
     stopifnot(length(wardrow)>0) 
     # assume this is always the leftmost block
     ward <- x2[[wardpage]][(wardrow+1):(wardrow+20)]
-    avglen <- as.integer(max(nchar(ward)) / 3) 
-    ward <- trimws(substr(ward,1,avglen))
+
+    # split header row into headings, and use the position of the second block to trim the lines
+    blocks <- wsstrsplit(x2[[wardpage]][wardrow])
+    block2startsat <- regexec(blocks[2], x2[[wardpage]][wardrow])[[1]]
+    blockwidth <- block2startsat - 1 
+    
+    ward <- trimws(substr(ward,1,blockwidth))
     ward <- ward[ward!=""]
     
     # explicit end of table
