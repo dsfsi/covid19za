@@ -77,18 +77,42 @@ basicTableExtractor <- function(fn) { # fn <- files[476]
   message(fn)
   x <- pdftools::pdf_text(fn)   # returns one big string per page
   
-  
   if (length(x)==5) {
     x <- x[1:3]    # limit to the pages we are interested in, ignore the rest.
   }
   
   x2 <- strsplit(x, "\n")       # split into lines
   
-  # Find the string "COVID-19 Surveillance" - use the date on this line.
+  # Find the string "Ward of currently admitted patients"
+  wardstr <- "Ward of currently admitted patients"
+  # From 13-Jul-2020 onwards, we have two - total + private-only version. 
+  wardpage <- head(which(regexpr(wardstr, x) > 0), 1)
+  
+  if (length(wardpage)!=1) {
+    warning("Error finding Ward breakdown in file ", fn, '. Ignoring this breakdown')
+    ward <- NULL
+  } else {
+    wardrow <- which(regexpr(wardstr, x2[[wardpage]]) > 0)
+    stopifnot(length(wardrow)>0) 
+    # assume this is always the leftmost block
+    ward <- x2[[wardpage]][(wardrow+1):(wardrow+20)]
+    avglen <- as.integer(max(nchar(ward)) / 3) 
+    ward <- trimws(substr(ward,1,avglen))
+    ward <- ward[ward!=""]
+    
+    # explicit end of table
+    explicitendoftable <- regexec("epidemiological", ward) > 0    | 
+                          regexec("age group and sex", ward) > 0
+    if (any(explicitendoftable)) {
+       ward <- ward[1:(which(explicitendoftable)[1]-1)]
+    }
+  }
+   # Find the string "COVID-19 Surveillance" - use the date on this line.
   daterow <- which(regexpr("COVID-19.*Surveillance", x2[[1]]) > 0)    
   if (length(daterow)==0) {
     warning("File ", fn, " - unable to detect the date.  Ignoring this file.  ")
     table <- NULL
+    date <- NULL
   } else {
     date <- substr(x2[[1]][daterow],1,50) %>%
       trimws() %>%
@@ -113,18 +137,18 @@ basicTableExtractor <- function(fn) { # fn <- files[476]
     # skip::  Hospital_group breakdown
     
     tablestart <- which(regexpr("Summary of reported COVID-19 admissions by province, by sector", x2[[2]]) > 0) + 1   
-    table <- list(x2[[2]][tablestart:length(x2[[2]])])
+    table <- x2[[2]][tablestart:length(x2[[2]])]
     
     # older Format had charts below this table.   Wipe all of this
-    stopTable <- which(regexpr("%ICU and %Ventilated", table[[1]]) > 0)
+    stopTable <- which(regexpr("%ICU and %Ventilated", table) > 0)
     if (length(stopTable)>0) {
-      table[[1]] <- table[[1]][1:(stopTable-1)]
+      table <- table[1:(stopTable-1)]
     }
-    
-    names(table) <- date
   }
-  
-  table
+
+  list(table=table,   # Prov x PubPriv x Variable  breakdown 
+       ward=ward,     # Ward-breakdown
+       date=date)     # Date Top-Left
 }
 
 # cache this step -- much quicker
@@ -147,13 +171,14 @@ if (UseCache && file.exists(cachefn <- file.path(tempfol,"cache.rdata"))) {
   }
 }
 
-keep <- !sapply(dataRaw, is.null)
+keep <- !sapply(dataRaw, FUN = function(x) is.null(x$date) )
+message("Removing ", sum(!keep), " files - unable to parse")
 dataRaw <- dataRaw[keep]
 
-dates <- sapply(dataRaw, names)
-mapFile2Data <- lapply(dataRaw, names)
+dates <- sapply(dataRaw, getElement, "date")
+mapFile2Data <- dates
 stopifnot(length(dates[is.na(dates)])==0)   # investigate different formats....
-tables <- lapply(dataRaw, getElement, 1)
+tables <- lapply(dataRaw, getElement, "table")
 datesD <- as.Date(dates)
 faultyYear <- as.integer(format(datesD, "%Y")) < 2020
 datesD[faultyYear] <- datesD[faultyYear] + lubridate::years(2000)
