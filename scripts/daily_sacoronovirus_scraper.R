@@ -229,7 +229,18 @@ processDay <- function(img, runAutomated=TRUE) {    # img <- imgs[1]
     }
   }
   
-  # try to auto-recover / fix the errors
+  if (sum(check1!=0)>0) {
+    fixProv <- which(check1!=0)
+    if (sum(check2!=0)==0) {  # the first three variables are OK, so the error lies with ActiveCases
+      # apply the fix to the Provincial Active cases number 
+      message("Auto adjusting the Provincial data Active Cases for ", names(fixProv),": old nr: ",res$Prov[4, fixProv], ", new number: ", res$Prov[4, fixProv] - check1[fixProv])
+      res$Prov[4, fixProv] <- res$Prov[4, fixProv] - check1[fixProv] 
+      check1 <- colSums(res$Prov[2:4, ])-res$Prov[1, ]
+      check2 <- res$Nat[c(2,4,3)] - rowSums(res$Prov)[1:3]
+    } 
+  }
+    
+    # try to auto-recover / fix the errors
   if (sum(check1!=0)==1 && 
       sum(check2!=0)<=1) {
     # there are errors on both checks, so we might be able to fix this....    
