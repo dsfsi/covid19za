@@ -66,6 +66,12 @@ if (length(files) > 400) {
   # file 13 was missing - HTML instead of PDF, so skipping up to here.
 }
 
+# General function - White space (double space) string splitter
+wsstrsplit <- function(s) {
+  a <- trimws(strsplit(s, "  ")[[1]])
+  a[!a==""]
+}  
+
 
 # very speedy but basic extractor:  
 basicTableExtractor <- function(fn) { # fn <- files[476]
@@ -353,40 +359,55 @@ ParseTable3 <- function(i) {    # x <- tables[500];   oldformat <- TRUE
   flat <- reshape2::melt(res, id=c("Province", "Owner", "Date"), na.rm = TRUE, stringsAsFactors = FALSE)
 }
 
-validWardLabels <- c("ICU", "HighCare", "Isolation", "General") 
-  
+validWardLabels <- c("ICU", "High Care", "Isolation", "General")
+fixWardLabels <- c(`General Ward`="General",
+                   `Intensive Care Unit`="ICU")
 
-cleanWards <- function(i) {   # i <- 93
+cleanWards <- function(i) {   # i <- 122
   # l <- wards[[1]]
-  l <- wards[[i]]
-  origl <- l
-  delline <- regexec("Currently in Hospital:", l) > 0
-  if (any(delline)) {
-    l <- l[!delline]
-  }
-  labels <- tail(l,1) %>% 
-              gsub("  ", "\t", .) %>%
-              gsub(" ", "", .) %>%
-              gsub("\t\t\t", "\t", .) %>%
-              gsub("\t\t", "\t", .) %>%
-              gsub("\t\t", "\t", .) %>%
-              strsplit("\t") %>% 
-              extract2(1)
-  
-  problemLabels <- ! labels %in% validWardLabels
-  if (any(problemLabels)) {
-    warning("Problematic labels detected: ", paste0(labels[problemLabels], collapse=", "))
-    labels <- labels[!problemLabels]
-  }
-  
-  l <- l[1:(length(l)-1)]
-  if (length(l)!=length(labels)) {
-    stop("Ward breakdown error for ", dataRaw[[i]]$date, " # ", i)
-  }
-  setNames(as.integer(l), labels)
+  tryCatch({
+    l <- wards[[i]]
+    origl <- l
+    delline <- regexec("Currently in Hospital:", l) > 0
+    if (any(delline)) {
+      l <- l[!delline]
+    }
+    labels <- wsstrsplit(tail(l,1))  
+    
+    m <- match(names(fixWardLabels), labels)
+    if (any(!is.na(m))) {
+      # replace certain Ward Labels....
+      labels[m[!is.na(m)]] <- unname(fixWardLabels)[!is.na(m)] 
+    }
+    
+    problemLabels <- ! labels %in% validWardLabels
+    if (any(problemLabels)) {
+      message("Problematic labels detected - ignoring: ", paste0(labels[problemLabels], collapse=", "))
+      labels <- labels[!problemLabels]
+    }
+    # remove the labels part    
+    l <- l[1:(length(l)-1)]
+    
+    # the remainder should be numbers only.  Ignore any non-numbers. 
+    notnumber <- is.na(as.integer(gsub("K", "E3", l)))
+    if (any(notnumber)) {
+      message("ignoring the following labels - not numeric: ", paste0(l[notnumber], collapse=","))
+      l <- l[!notnumber]
+    }
+    
+    # check if  
+    if (length(l)!=length(labels)) {
+      stop("Ward breakdown error for ", dataRaw[[i]]$date, " # ", i)
+    }
+    CleanWards <- setNames(as.integer(gsub("K", "E3", l)), labels)
+    CleanWards[validWardLabels]
+  }, error=function(e) {
+    stop("error in Cleanwards: ", i, " ", dataRaw[[i]]$date)
+  })
 }
 
 wards <- lapply(dataRaw, getElement, "ward")
+wardsarr <- sapply(setNames(seq_along(wards), dates), cleanWards, simplify = "array")
 message("Running final cleaning step: ")
 tables3 <- lapply(seq_along(tables2), ParseTable3 )
 
