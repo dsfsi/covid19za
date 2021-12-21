@@ -3,6 +3,8 @@
 # https://sacoronavirus.co.za/covid-19-daily-cases/
 library(magrittr)
 
+# investigate the curl version for the "Stream error in the HTTP/2 framing layer"
+curl::curl_version()
 
 # on the gitlab runner, the working folder is /home/runner/work/covid19za/covid19za
 # print(getwd())
@@ -146,7 +148,7 @@ processDay <- function(img, runAutomated=TRUE) {    # img <- imgs[1]
   # magick::image_read(img) (quite often) fails with a known http_version bug.
   tempfn <- file.path(tempdir(), basename(img)) 
   specialhandle <- curl::new_handle()
-  curl::handle_setopt(specialhandle, http_version = 0L)
+  curl::handle_setopt(specialhandle, http_version = 2L)
   curl::curl_download(img, tempfn, handle = specialhandle)
   image <- magick::image_read(tempfn)
   file.remove(tempfn)

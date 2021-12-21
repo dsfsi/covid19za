@@ -359,4 +359,6 @@ if (length(s$unstaged)>0) {   # we have files that we can commit
   } else {
     message("No new data")
   }
+} else {
+  message("No new data to commit")
 }
