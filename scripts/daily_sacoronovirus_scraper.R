@@ -355,7 +355,7 @@ if (!all(p <- (pp <- (apply(Prov, c(1,3), sum)[1:3, ]))==(pn <- Nat[c(2,4,3), ])
   #which(!pd)
   print(pp[, !pd, drop=FALSE])
   print(pn[, !pd, drop=FALSE])
-  warning("Mismatch between Prov and Nat")
+  message("Mismatch between Prov and Nat")
   dataAllGood <- FALSE
 }
 
@@ -421,7 +421,7 @@ CheckFile <- function(fn, data, allowChanges = TRUE) {
       message(fn, " - nothing to commit")
     } 
   } else {
-    warning("Have not automatically committed the changes - please check manually before committing")
+    message("Have not automatically committed the changes - please check manually before committing")
   }
   
 }
