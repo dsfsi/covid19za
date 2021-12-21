@@ -142,14 +142,19 @@ clean <- function(x, msgposition="") {
   n
 }
 
+wurl <- function(url, fn) {
+  specialhandle <- curl::new_handle()
+  curl::handle_setopt(specialhandle, http_version = 0L)   # tried both 0L and 2L.   0L appears to work marginally better.
+  downloaded <- FALSE
+      curl::curl_download(url, fn, handle = specialhandle)
+}
+
 processDay <- function(img, runAutomated=TRUE) {    # img <- imgs[1]
   print(basename(img))
 
   # magick::image_read(img) (quite often) fails with a known http_version bug.
   tempfn <- file.path(tempdir(), basename(img)) 
-  specialhandle <- curl::new_handle()
-  curl::handle_setopt(specialhandle, http_version = 2L)
-  curl::curl_download(img, tempfn, handle = specialhandle)
+  wurl(img, tempfn)
   image <- magick::image_read(tempfn)
   file.remove(tempfn)
   
