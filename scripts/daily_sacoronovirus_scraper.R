@@ -143,10 +143,21 @@ clean <- function(x, msgposition="") {
 }
 
 wurl <- function(url, fn) {
-  specialhandle <- curl::new_handle()
-  curl::handle_setopt(specialhandle, http_version = 0L)   # tried both 0L and 2L.   0L appears to work marginally better.
   downloaded <- FALSE
-      curl::curl_download(url, fn, handle = specialhandle)
+  tries <- 0 
+  while (!downloaded) {
+    tries <- tries + 1
+    tryCatch({
+      curl::curl_download(url, fn)
+      downloaded <- TRUE
+    }, error = function(e) {
+      message('curl::curl_download error reported: ', e)
+      if (tries > 10) {
+        stop("Tried more than 10 times to download this URL: ", url, ", but failed every time.   Giving up: ", e)
+      }
+    }
+    )
+  }
 }
 
 processDay <- function(img, runAutomated=TRUE) {    # img <- imgs[1]
