@@ -76,7 +76,7 @@ blocks <- c(
   NatDeath="170x40+560+80",
   NatNewCases="170x40+730+80",
   NatActive="*150x45+30+180",
-  WC="170x100+180+480",
+  WC="180x100+180+480",
   EC="170x100+390+500",
   NC="170x110+190+330", 
   FS="170x100+430+370",
@@ -171,7 +171,7 @@ processDay <- function(img, runAutomated=TRUE) {    # img <- imgs[1]
   file.remove(tempfn)
   
   if (FALSE) {
-    magick::image_crop(image, blocks['FS'])
+    magick::image_crop(image, blocks['WC'])
     magick::image_crop(image, "160x45+30+180")   #WxH+X+Y
   }
 
@@ -223,7 +223,9 @@ processDay <- function(img, runAutomated=TRUE) {    # img <- imgs[1]
   check2 <- res$Nat[c(2,4,3)] - rowSums(res$Prov)[1:3]
 
   # for later:: check2 <- res$Nat[c(2,4,3,6)] - rowSums(res$Prov)[1:4]
-  
+  if (FALSE) {
+    write.table(res$Prov, "clipboard-2048", sep="\t")
+  }
   # Natioanl figures are wrong, allprovinces are all fine.
   if (sum(check1!=0)==0 & 
       sum(check2!=0)==1) {
