@@ -330,6 +330,8 @@ processDay <- function(img, runAutomated=TRUE) {    # img <- imgs[1]
     if (sum(check1!=0)>0 |
         sum(check2!=0)>0) {
       if (runAutomated) res <- NULL
+      print(check1)
+      print(check2)
       message("Too many errors in the checksum figures.  Please investigate manually: ", sum(check1!=0), " vs ", sum(check2!=0))
     }
   }
