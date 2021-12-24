@@ -225,6 +225,7 @@ processDay <- function(img, runAutomated=TRUE) {    # img <- imgs[1]
   # for later:: check2 <- res$Nat[c(2,4,3,6)] - rowSums(res$Prov)[1:4]
   if (FALSE) {
     write.table(res$Prov, "clipboard-2048", sep="\t")
+    write.table(res$Nat, "clipboard-2048", sep="\t")
   }
   # Natioanl figures are wrong, allprovinces are all fine.
   if (sum(check1!=0)==0 & 
