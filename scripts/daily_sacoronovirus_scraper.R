@@ -285,13 +285,15 @@ processDay <- function(img, runAutomated=TRUE) {    # img <- imgs[1]
   }
     
     # try to auto-recover / fix the errors
-  if (sum(check1!=0)==1 && 
+  if (sum(check1!=0)>0 && 
       sum(check2!=0)<=1) {
     # there are errors on both checks, so we might be able to fix this....    
     fixProv <- which(check1!=0)
     if (sum(check2!=0)==0) {  # the first three variables are OK, so the error lies with ActiveCases
       # apply the fix to the Provincial Active cases number 
-      message("Auto adjusting the Provincial data Active Cases for ", names(fixProv),": old nr: ",res$Prov[4, fixProv], ", new number: ", res$Prov[4, fixProv] - check1[fixProv])
+      message("Auto adjusting the Provincial data Active Cases for ", names(fixProv),
+              ": old nr: ",res$Prov[4, fixProv], 
+              ", new number: ", res$Prov[4, fixProv] - check1[fixProv])
       res$Prov[4, fixProv] <- res$Prov[4, fixProv] - check1[fixProv] 
       check1 <- colSums(res$Prov[2:4, ])-res$Prov[1, ]
       check2 <- res$Nat[c(2,4,3)] - rowSums(res$Prov)[1:3]
@@ -301,9 +303,9 @@ processDay <- function(img, runAutomated=TRUE) {    # img <- imgs[1]
           abs(sum(check2))) {
         variable <- which(check2!=0)
         message("Two checksums failed with the same difference:  auto-fixing ", 
-                names(fixProv), " x ", names(variable), 
-                ": old nr: ",res$Prov[variable, fixProv], 
-                ", new number: ", res$Prov[variable, fixProv] + check2[variable])
+                paste0(names(fixProv), collapse=","), " x ", names(variable), 
+                ": old nr: ",paste0(res$Prov[variable, fixProv], collapse=","), 
+                ", new number: ", paste0(res$Prov[variable, fixProv] + check2[variable], collapse=","))
         res$Prov[variable, fixProv] <- res$Prov[variable, fixProv] + check2[variable] 
         check1 <- colSums(res$Prov[2:4, ])-res$Prov[1, ]
         check2 <- res$Nat[c(2,4,3)] - rowSums(res$Prov)[1:3]
