@@ -81,7 +81,7 @@ if (file.exists(cachefn <- file.path(tempfoltesting,"cache.rdata"))) {
 
 ParseTable3 <- function(x, oldformat) {    # x <- data[[62]];   oldformat <- TRUE
   if (FALSE) {
-    x <- data$`2021-36`
+    x <- data$`2021-51`
     oldformat <- FALSE
     
   }
@@ -207,12 +207,17 @@ ParseTable3 <- function(x, oldformat) {    # x <- data[[62]];   oldformat <- TRU
     res <- res[, c(2,3, 5,6, 8,9)]  # skip the population numbers, and the final rates
     
     # skip empty line
-    if (t3[2]=="") t3 <- t3[c(1, 3:length(t3))]
+    if (t3[2]=="" | trimws(t3[2])=="Change in")  t3 <- t3[c(1, 3:length(t3))]
+    if (t3[2]=="" | trimws(t3[2])=="Change in")  t3 <- t3[c(1, 3:length(t3))]
     
     dates <- strsplit(t3[2], "  ") %>%
       extract2(1) %>%
       extract(. != "") %>%
       trimws()
+    rmp <- dates=="percentage"
+    if (any(rmp)) {
+      dates <- dates[!rmp]
+    }
     
     stopifnot(length(dates)>0)
     colnames(res) <- c(t(outer(X=dates, Y=c("Tests", "Positive"), FUN = function(x,y) paste0(y,"|",x))))
@@ -362,3 +367,4 @@ if (length(s$unstaged)>0) {   # we have files that we can commit
 } else {
   message("No new data to commit")
 }
+
