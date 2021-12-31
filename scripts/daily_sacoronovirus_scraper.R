@@ -258,6 +258,27 @@ processDay <- function(img, runAutomated=TRUE) {    # img <- imgs[1]
     }
   }
 
+  if (sum(check1!=0)>1 &
+      sum(check2!=0)>1) {
+    maxdiff <- max(abs(check1))
+    
+    if (max(abs(check1))==max(abs(check2))) {
+      variable <- which(abs(check2)==maxdiff)
+      fixProv <- which(abs(check1)==maxdiff)
+      
+      if (length(variable)==1 & length(fixProv)==1) {
+        # high degree of certainty that this maxdiff error can be fixed easily.
+        message("Multiple checksums failed, but biggest difference unique:  auto-fixing ", 
+                names(fixProv), " x ", names(variable), 
+                ": old nr: ",res$Prov[variable, fixProv], 
+                ", new number: ", res$Prov[variable, fixProv] + check2[variable])
+        res$Prov[variable, fixProv] <- res$Prov[variable, fixProv] + check2[variable] 
+        check2 <- res$Nat[c(2,4,3)] - rowSums(res$Prov)[1:3]
+        check1 <- colSums(res$Prov[2:4, ])-res$Prov[1, ]
+      }
+    }
+  }
+  
   
   if (sum(check2!=0)==1) {
     variable <- which(check2!=0)
