@@ -4,7 +4,7 @@
 library(magrittr)
 
 # investigate the curl version for the "Stream error in the HTTP/2 framing layer"
-curl::curl_version()
+# curl::curl_version()
 
 # on the gitlab runner, the working folder is /home/runner/work/covid19za/covid19za
 # print(getwd())
