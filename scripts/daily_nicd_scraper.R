@@ -182,6 +182,10 @@ if (any(!OK)) {
   cleantbls <- cleantbls[OK]
 }
 
+#manual fixes - faulty numbers in the publications / news releases
+if (!is.null(cleantbls$`2021-12-31`)) {
+  cleantbls$`2021-12-31`$Prov["Free State", "Updated.total.cases.on.30.December.2021"] <- "188,972"
+}
 
 # sapply(cleantbls, FUN=function(x) colnames(x$Tests))
 # tx <- sapply(cleantbls, FUN = function(x) "Total.tested" %in% colnames(x$Tests))
