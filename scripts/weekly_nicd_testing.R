@@ -107,6 +107,13 @@ ParseTable3 <- function(x, oldformat) {    # x <- data[[62]];   oldformat <- TRU
   }  
   
   lastline <- which(prov=="Total")
+  if (length(lastline)==0) {
+    # try 
+    provspace <- 20
+    prov <- trimws(substr(t3,1,provspace))
+    lastline <- which(prov=="Total")
+  }  
+
   provs <- prov[firstline:lastline]
   t3 <- t3[1:lastline]
   numbers <- trimws(substr(t3[firstline:lastline],provspace+1,999))
