@@ -16,6 +16,7 @@ links <- links[testrep]
 names(links) <- gsub(".*uploads/([0-9]*).*Week-([0-9]*).*", "\\1-\\2", links)
 # week 53 2020 is wrong, fix manually
 names(links)[links=="https://www.nicd.ac.za/wp-content/uploads/2021/01/COVID-19-Testing-Summary-Week-53.pdf"] <- "2020-53"
+names(links)[links=="https://www.nicd.ac.za/wp-content/uploads/2022/01/COVID-19-Testing-Report_Week-52.pdf"] <-  "2021-52"
 
 # now download all those PDF files....
 tempfoltesting <- "downloads/nicd-testing"
@@ -81,7 +82,7 @@ if (file.exists(cachefn <- file.path(tempfoltesting,"cache.rdata"))) {
 
 ParseTable3 <- function(x, oldformat) {    # x <- data[[62]];   oldformat <- TRUE
   if (FALSE) {
-    x <- data$`2021-51`
+    x <- data$`2021-52`
     oldformat <- FALSE
     
   }
