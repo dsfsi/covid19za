@@ -217,6 +217,11 @@ Prov <- lapply(cleantbls, FUN=function(x) {  # x <- cleantbls[[1]]
   } 
   df[] <- lapply(df, safe.as.numeric)
   
+  if (any(fixcolname <- regexpr("..", fixed = TRUE, colnames(df)) > 0)) {
+    # replace double-dot with single-dot
+    colnames(df) <- gsub("..", ".", fixed=TRUE, colnames(df))
+  }
+  
   # Fix column names
   dates <- gsub(".*(\\.[0-9]*\\.[^0-9]*\\.[0-9]*)","\\1", colnames(df)) %>%
     gsub("\\.\\.", "\\.", .) %>%
