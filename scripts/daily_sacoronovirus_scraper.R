@@ -53,7 +53,10 @@ rss <- lapply(rss, function(x) unlist(x$encoded))
 getsrc <- function(x) {   
   if (is.null(attr(x, "src"))) {
     if (is.list(x)) {
-      getsrc(x[[1]])  # recursive
+      # recursive
+      all <- sapply(x, getsrc)
+      all <- all[!is.na(all)]   # remove all non img elements
+      unname(all)[1]
     } else {
       NA
     }
