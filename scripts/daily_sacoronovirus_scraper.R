@@ -51,12 +51,17 @@ if (any(duplicated(names(rss)))) {
 rss <- lapply(rss, function(x) unlist(x$encoded))
 
 getsrc <- function(x) {   
+  # x <- xml2::as_list(xml2::read_html(rss[[1]]))
   if (is.null(attr(x, "src"))) {
     if (is.list(x)) {
       # recursive
-      all <- sapply(x, getsrc)
+      all <- lapply(x, getsrc)
       all <- all[!is.na(all)]   # remove all non img elements
-      unname(all)[1]
+      if (length(all)>0) {
+        unname(all)[[1]]
+      } else {
+        NA
+      }
     } else {
       NA
     }
