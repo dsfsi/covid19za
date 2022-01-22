@@ -80,12 +80,12 @@ if (file.exists(cachefn <- file.path(tempfoltesting,"cache.rdata"))) {
   save(file=cachefn, data)
 }
 
-ParseTable3 <- function(x, oldformat) {    # x <- data[[62]];   oldformat <- TRUE
+ParseTable3 <- function(x, edition) {    # x <- data[[62]];   oldformat <- TRUE
   if (FALSE) {
-    x <- data$`2021-52`
-    oldformat <- FALSE
-    
+    x <- data$`2022-2`
+    edition <- "2020-33"
   }
+  oldformat <- edition <= "2020-33"
   if (length(x) < 5) {
     # new table format introduced 2021-36 onwards
     message(substr(x$`Table 2. Weekly`[1],80,120))
@@ -168,6 +168,22 @@ ParseTable3 <- function(x, oldformat) {    # x <- data[[62]];   oldformat <- TRU
   # specific fixes when something goes wrong...  
   colsdetected <- sapply(clean, length)
   if (!oldformat) {
+    if (edition == "2022-2" & all(which(colsdetected==1)+1==which(colsdetected==11))) {
+      # fix where column 3 does not fit in the line (nrs are getting big)
+      # insert in here....
+      fixsingle <- rev(which(colsdetected==1))
+      do_fix_single <- function(i) {  # i <- fixsingle[1]
+        clean[[i+1]] <<- c(clean[[i+1]][1], 
+                           clean[[i]],
+                           clean[[i+1]][2:11])
+        names(clean)[i+1] <<- names(clean)[i]
+        clean[[i]] <<- NULL   # delete the single row
+        TRUE
+      }
+      lapply(fixsingle, do_fix_single)
+      colsdetected <- sapply(clean, length)
+    }
+    
     if(length(provs)==12 &
        provs[11]=="" &
        colsdetected[11]==1 & 
@@ -264,7 +280,7 @@ ParseTable3 <- function(x, oldformat) {    # x <- data[[62]];   oldformat <- TRU
 }
 
 # older back needs another different parser - thousand separator in the numbers, etc.
-Table3 <- mapply(ParseTable3, data, as.list(names(data) <= "2020-33"), SIMPLIFY = FALSE)
+Table3 <- mapply(ParseTable3, data, as.list(names(data)), SIMPLIFY = FALSE)
 
 T3x <- mapply(function(df, weektag) {  # df <- Table3[[1]]
   res <- as.data.frame(t(df))
