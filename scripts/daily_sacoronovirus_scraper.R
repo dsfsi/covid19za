@@ -13,7 +13,13 @@ if (interactive()) {  # for debug purposes
 }
 
 rss <- xml2::as_list(xml2::read_xml(httr::GET("https://sacoronavirus.co.za/feed/")))[[1]][[1]]
-junk <- sapply(rss, function(x) (is.null(x$category)) || (unlist(x$category)!="Daily Cases"))
+isjunk <- function(x) {
+  (is.null(x$category)) || 
+    (unlist(x$category)!="Daily Cases") ||
+    regexec("Communication Priorities", x$title)>0  # sometimes they are wrongly classified....  
+} 
+junk <- sapply(rss, isjunk)
+
 rss <- rss[!junk]
 origtitle <- sapply(rss, getElement, "title") %>%
   gsub(".*\\((.*)\\)", "\\1", .) %>% 
