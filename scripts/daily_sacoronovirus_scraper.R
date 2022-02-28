@@ -58,6 +58,7 @@ rss <- lapply(rss, function(x) unlist(x$encoded))
 
 getsrc <- function(x) {   
   # x <- xml2::as_list(xml2::read_html(rss[[1]]))
+  # x <- xml2::as_list(xml2::read_html(rss[[1]]))[[1]][[1]][[1]][[1]][[1]][[1]][[1]][[1]][[1]]
   if (is.null(attr(x, "src"))) {
     if (is.list(x)) {
       # recursive
@@ -72,7 +73,18 @@ getsrc <- function(x) {
       NA
     }
   } else {
-    attr(x, "src")
+    if (!is.null(attr(x, 'srcset'))) {
+      a <- strsplit(attr(x, 'srcset'), ", ")[[1]]
+      fx <- function(s) {
+        b <- strsplit(s, " ")[[1]]
+        list(as.integer(gsub("w", "", b[2])), b[1])
+      }
+      ax <- lapply(a, fx)
+      axm <- sapply(ax, getElement, 1)
+      sapply(ax[axm==max(axm)], getElement, 2)
+    } else {
+      attr(x, "src")
+    }
   }
 }
 
