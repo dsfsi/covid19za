@@ -22,6 +22,7 @@ names(links) <- paste0(1000+seq.int(length(links)), "_", gsub("NICD-COVID-19-Dai
 # luckily the "directory browsing is switched on.   Go to the relevant folder, and find the right file....
 # https://www.nicd.ac.za/wp-content/uploads/2020/10/
 links["1131_-PRIVATE-20201002.pdf"] <- ""   # file does not exist - ignore rather
+links["1639_DATCOV19_National_Export_20220305.pdf"] <- ""   # broken file
 links["1199_-National-20201228.pdf"] <- "https://www.nicd.ac.za/wp-content/uploads/2021/01/NICD-COVID-19-Daily-Sentinel-Hospital-Surveillance-report-National.31Dec2020.pdf"
 #https://www.nicd.ac.za/wp-content/uploads/2021/01/DATCOV-National-report-20210101.pdf
 #https://www.nicd.ac.za/wp-content/uploads/2020/12/NICD-COVID-19-Daily-Sentinel-Hospital-Surveillance-report-National-20201231.pdf
