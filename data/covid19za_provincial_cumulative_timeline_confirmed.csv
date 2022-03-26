@@ -747,4 +747,5 @@ date,YYYYMMDD,EC,FS,GP,KZN,LP,MP,NC,NW,WC,UNKNOWN,total,source
 22-03-2022,20220322,344548,201978,1204270,657751,155537,192841,108767,192522,647483,0,3705697,gis_nicd_scraper
 23-03-2022,20220323,344612,202024,1204750,658054,155583,192884,108782,192570,647831,0,3707090,gis_nicd_scraper
 24-03-2022,20220324,344721,202082,1205457,658410,155627,192963,108795,192686,648465,0,3709210,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-25-march-2022/?utm_source=rss&utm_medium=rss&utm_campaign=latest-confirmed-cases-of-covid-19-in-south-africa-25-march-2022
-25-03-2022,20220325,344797,202141,1206002,658735,155665,192996,108818,192764,648849,0,3710767,gis_nicd_scraper
+25-03-2022,20220325,344796,202141,1206004,658735,155667,192996,108818,192760,648849,0,3710767,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-26-march-2022/?utm_source=rss&utm_medium=rss&utm_campaign=latest-confirmed-cases-of-covid-19-in-south-africa-26-march-2022
+26-03-2022,20220326,344845,202183,1206594,659029,155689,193024,108837,192803,649259,0,3712263,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-26-march-2022/?utm_source=rss&utm_medium=rss&utm_campaign=latest-confirmed-cases-of-covid-19-in-south-africa-26-march-2022
