@@ -105,12 +105,12 @@ blocks <- c(
   WC="180x100+180+480",
   EC="170x100+420+500",
   NC="170x110+190+330", 
-  FS="170x100+430+370",
+  FS="170x100+390+370",
   KZN="170x100+610+404",
   NW="170x100+390+265",
   GP="168x100+300+150",
   MP="170x100+590+260",
-  LP="220x100+550+150"
+  LP="220x100+560+150"
 )
 NatBlocks <- substr(names(blocks),1,3)=="Nat"
 
@@ -197,7 +197,8 @@ processDay <- function(img, runAutomated=TRUE) {    # img <- imgs[1]
   file.remove(tempfn)
   
   if (FALSE) {
-    magick::image_crop(image, blocks['EC'])
+    names(blocks)
+    magick::image_crop(image, blocks['NatActive'])
     magick::image_crop(image, "160x45+30+180")   #WxH+X+Y
   }
 
