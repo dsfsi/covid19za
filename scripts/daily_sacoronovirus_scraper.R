@@ -101,7 +101,7 @@ blocks <- c(
   NatRecov="170x40+390+80",
   NatDeath="170x40+560+80",
   NatNewCases="170x40+730+80",
-  NatActive="*150x45+30+180",
+  NatActive="*150x45+30+200",
   WC="180x100+180+480",
   EC="170x100+420+500",
   NC="170x110+190+330", 
@@ -198,7 +198,7 @@ processDay <- function(img, runAutomated=TRUE) {    # img <- imgs[1]
   
   if (FALSE) {
     names(blocks)
-    magick::image_crop(image, blocks['NatActive'])
+    magick::image_crop(image, gsub("\\*", "", blocks['NatActive']))
     magick::image_crop(image, "160x45+30+180")   #WxH+X+Y
   }
 
