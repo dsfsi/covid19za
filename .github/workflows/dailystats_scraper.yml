@@ -48,7 +48,7 @@ jobs:
       - name: Scrape nicd.ac.za data 
         run: Rscript --vanilla 'scripts/daily_nicd_scraper.R'
       - name: Scrape sacoronavirus.co.za data 
-        run: Rscript --vanilla 'scripts/daily_sacoronovirus_scraper.R'
+        run: sudo Rscript --vanilla 'scripts/daily_sacoronovirus_scraper.R'
         if: ${{ always() }}
       - name: Push changes
         run:  |
