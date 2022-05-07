@@ -3,6 +3,13 @@
 # https://sacoronavirus.co.za/covid-19-daily-cases/
 library(magrittr)
 
+# bug May-2022 - this was installed on the previous step, but somehow it is complaining about this again....
+if (!require("tesseract")) {
+  install.packages("tesseract", repos="https://cran.r-project.org/")
+} else {
+  message("tesseract already installed")
+}
+
 # investigate the curl version for the "Stream error in the HTTP/2 framing layer"
 # curl::curl_version()
 
