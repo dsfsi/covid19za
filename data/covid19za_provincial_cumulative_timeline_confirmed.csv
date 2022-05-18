@@ -801,3 +801,4 @@ date,YYYYMMDD,EC,FS,GP,KZN,LP,MP,NC,NW,WC,UNKNOWN,total,source
 15-05-2022,20220515,354512,209727,1285081,700729,157561,197633,111496,197379,677676,0,3891794,gis_nicd_scraper
 16-05-2022,20220516,354630,209939,1286467,701257,157580,197691,111590,197498,678093,0,3894746,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-17-april-2022-2/?utm_source=rss&utm_medium=rss&utm_campaign=latest-confirmed-cases-of-covid-19-in-south-africa-17-april-2022-2
 17-05-2022,20220517,355192,210272,1288283,702238,157639,197830,111738,197652,678998,0,3899842,gis_nicd_scraper
+18-05-2022,20220518,355841,210836,1291402,703453,157696,198111,112034,197896,680751,0,3908020,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-18-may-2022/?utm_source=rss&utm_medium=rss&utm_campaign=latest-confirmed-cases-of-covid-19-in-south-africa-18-may-2022
