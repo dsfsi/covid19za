@@ -806,4 +806,5 @@ date,YYYYMMDD,EC,FS,GP,KZN,LP,MP,NC,NW,WC,UNKNOWN,total,source
 20-05-2022,20220520,357231,211688,1296022,705420,157824,198555,112618,198404,683872,0,3921634,gis_nicd_scraper
 21-05-2022,20220521,357750,211983,1297743,706205,157890,198739,112831,198581,684930,0,3926652,sacoronavirus_scrape_gdb
 22-05-2022,20220522,357888,212141,1299015,706787,157928,198869,112947,198704,685593,0,3929872,sacoronavirus_scrape_gdb
-23-05-2022,20220523,357953,212247,1299665,707003,157947,198952,113014,198789,685964,0,3931534,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-23-may-2022/?utm_source=rss&utm_medium=rss&utm_campaign=latest-confirmed-cases-of-covid-19-in-south-africa-23-may-2022
+23-05-2022,20220523,357953,212247,1299668,707003,157943,198953,113010,198789,685968,0,3931534,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-24-may-2022/?utm_source=rss&utm_medium=rss&utm_campaign=latest-confirmed-cases-of-covid-19-in-south-africa-24-may-2022
+24-05-2022,20220524,358431,212519,1300990,707668,157997,199122,113171,198975,686888,0,3935761,https://www.nicd.ac.za/latest-confirmed-cases-of-covid-19-in-south-africa-24-may-2022/?utm_source=rss&utm_medium=rss&utm_campaign=latest-confirmed-cases-of-covid-19-in-south-africa-24-may-2022
