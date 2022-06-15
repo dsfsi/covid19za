@@ -44,6 +44,17 @@ names(rss) <- origtitle %>%   # only keep that in the brackets
   as.Date.character(format = "%A %d %B %Y") %>%
   as.character()
 
+# try without the weekday   13-Jun-2022
+if (any(is.na(names(rss)))) {
+  x <- origtitle[is.na(names(rss))] %>%
+       as.Date.character(format = "%d %B %Y") %>%
+       as.character()
+  if (any(!is.na(x))) {
+    names(rss)[is.na(names(rss))] <- x
+  }
+}
+
+
 if (any(missing <- is.na(names(rss)))) {  # if I cannot auto-detect the date
   warning("Error translating '", paste0(origtitle[missing], collapse="','"), "' into a precise date.") 
   warning("Will use the PublicationDate as the authoritive date: ", paste0(pubDate[missing], collapse=", "))
