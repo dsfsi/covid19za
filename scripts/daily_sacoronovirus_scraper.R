@@ -450,9 +450,11 @@ processDay <- function(img, runAutomated=TRUE, date) {    # img <- imgs[1];  dat
 }
 
 if (FALSE) {
-  data <- mapply(processDay, imgs, runAutomated=TRUE, names(imgs))
+  data <- mapply(processDay, imgs, runAutomated=TRUE, names(imgs), SIMPLIFY = FALSE)
 }
-data <- mapply(processDay, imgs, runAutomated=!interactive(), names(imgs))
+data <- mapply(processDay, imgs, runAutomated=!interactive(), names(imgs), SIMPLIFY = FALSE)
+
+names(data) <- names(imgs)
 # remove 
 data <- data[!sapply(data, is.null)]
 stopifnot(length(data)>0)
