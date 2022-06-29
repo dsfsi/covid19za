@@ -12,7 +12,7 @@ page <- xml2::read_html(URL, timeout=60)
 links <- xml2::xml_attr(xml2::xml_find_all(page, "//a"), "href")
 
 testrep <- regexec("https://www\\.nicd\\.ac\\.za/wp-content/.*\\.pdf", links) > 0
-links <- links[testrep]
+links <- links[!is.na(testrep) & testrep]
 
 links <- rev(links)  # make then chronological
 names(links) <- paste0(1000+seq.int(length(links)), "_", gsub("NICD-COVID-19-Daily-Sentinel-Hospital-Surveillance-report", "", basename(links)))
