@@ -12,7 +12,7 @@ page <- xml2::read_html(URL)
 links <- xml2::xml_attr(xml2::xml_find_all(page, "//a"), "href")
 
 testrep <- regexec("https://www\\.nicd\\.ac\\.za/wp-content/.*\\.pdf", links) > 0
-links <- links[testrep]
+links <- links[!is.na(testrep) & testrep]
 names(links) <- gsub(".*uploads/([0-9]*).*Week-([0-9]*).*", "\\1-\\2", links)
 # week 53 2020 is wrong, fix manually
 names(links)[links=="https://www.nicd.ac.za/wp-content/uploads/2021/01/COVID-19-Testing-Summary-Week-53.pdf"] <- "2020-53"
@@ -31,6 +31,7 @@ if (do_download_missing <- TRUE) {
     } else {
       message(fn, " already exists.")
     }
+    TRUE
   })
   # this starts the actual download
   curl::multi_run(pool = pool)
