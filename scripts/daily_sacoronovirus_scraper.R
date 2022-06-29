@@ -112,7 +112,7 @@ if (!is.na(imgs["2021-12-02"])) imgs["2021-12-02"] <- "https://sacoronavirus.co.
 if (!is.na(imgs["2021-12-22"])) imgs["2021-12-22"] <- "https://sacoronavirus.co.za/wp-content/uploads/2021/12/22-dec-map.jpg"
 # imgs <- imgs[names(imgs) < "2022-06-12"]
 
-blocks <- c(   # the latest
+blocks <- c(   # the original positions
   #  Nat="960x40+0+80",
   NatTests="170x40+50+80",
   NatCases="170x40+220+80",
@@ -130,6 +130,12 @@ blocks <- c(   # the latest
   MP="170x100+590+270",
   LP="220x100+500+170"
 )
+
+newblocks <- list(   # history on how the images jumped around...
+                      # date is the FIRST date - the image moved around         
+  GP= c(`2022-06-15`="168x100+290+170")
+)
+
 NatBlocks <- substr(names(blocks),1,3)=="Nat"
 
 dataAllGood <- TRUE
@@ -206,8 +212,8 @@ wurl <- function(url, fn) {
   }
 }
 
-processDay <- function(img, runAutomated=TRUE) {    # img <- imgs[1]
-  print(basename(img))
+processDay <- function(img, runAutomated=TRUE, date) {    # img <- imgs[1];  date <- names(imgs)[1]
+  message(date, ": ", basename(img))
 
   # magick::image_read(img) (quite often) fails with a known http_version bug.
   tempfn <- file.path(tempdir(), basename(img)) 
@@ -215,10 +221,25 @@ processDay <- function(img, runAutomated=TRUE) {    # img <- imgs[1]
   image <- magick::image_read(tempfn)
   file.remove(tempfn)
   
+  lblocks <- blocks
+  lnewblocks <- sapply(newblocks, function(x) {  # x <- newblocks$GP
+      dx <- unclass(as.Date(names(x)) - as.Date(date))
+      if (sum(dx<0) > 0) {
+        mdx <- max(dx[dx < 0])  # find the smallest negative number
+        i <- which(mdx==dx)
+        x[[i]]
+      } else {
+        NA
+      }
+  })
+  lnewblocks <- lnewblocks[!is.na(lnewblocks)]
+  lblocks[names(lnewblocks)] <- unname(lnewblocks)  # overwrite the block positions with more recent positions
+
   if (FALSE) {
     names(blocks)
     magick::image_crop(image, gsub("\\*", "", blocks['NatActive']))
-    magick::image_crop(image, "160x45+30+180")   #WxH+X+Y
+    magick::image_crop(image, blocks["GP"])   #WxH+X+Y
+    magick::image_crop(image, "168x100+290+170")   #WxH+X+Y
   }
 
 #  engine <- tesseract::tesseract(language = "eng",
@@ -263,8 +284,8 @@ processDay <- function(img, runAutomated=TRUE) {    # img <- imgs[1]
     }
     res
   }
-  res <- list(Nat=sapply(blocks[NatBlocks], OCRdata),
-              Prov=sapply(blocks[!NatBlocks], OCRdata, simplify = "array"))
+  res <- list(Nat=sapply(lblocks[NatBlocks], OCRdata),
+              Prov=sapply(lblocks[!NatBlocks], OCRdata, simplify = "array"))
   
   # add some final checks, and auto-fixing intelligence
 
@@ -429,9 +450,9 @@ processDay <- function(img, runAutomated=TRUE) {    # img <- imgs[1]
 }
 
 if (FALSE) {
-  data <- lapply(imgs, processDay, runAutomated=TRUE)
+  data <- mapply(processDay, imgs, runAutomated=TRUE, names(imgs))
 }
-data <- lapply(imgs, processDay, runAutomated=!interactive())
+data <- mapply(processDay, imgs, runAutomated=!interactive(), names(imgs))
 # remove 
 data <- data[!sapply(data, is.null)]
 stopifnot(length(data)>0)
