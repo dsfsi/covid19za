@@ -182,6 +182,7 @@ clean <- function(x, msgposition="") {
       #print(n)
       #print()
       message("Checksum failed in OCR step.  Will attempt recover later: ", paste0(origx, collapse="  "))
+      attr(n, "dumpimage") <- TRUE
     }
   }
   n
@@ -248,14 +249,19 @@ processDay <- function(img, runAutomated=TRUE) {    # img <- imgs[1]
     
     magick::image_write(image2, path = "temp.jpg", format = "jpg")
 
-    tesseract::ocr("temp.jpg") %>%   # , engine = engine
+    res <- tesseract::ocr("temp.jpg") %>%   # , engine = engine
       gsub(" ", "", .) %>%
       strsplit("\n") %>%
       magrittr::extract2(1) %>% 
       magrittr::extract(.!="") %>%
       clean(crop)
     #tesseract::ocr_data("temp.jpg")
-    
+    if (!is.null(attr(res, "dumpimage"))) {
+      attr(res, "dumpimage") <- NULL
+      graphics::plot.new()
+      grid::grid.raster(image2)
+    }
+    res
   }
   res <- list(Nat=sapply(blocks[NatBlocks], OCRdata),
               Prov=sapply(blocks[!NatBlocks], OCRdata, simplify = "array"))
