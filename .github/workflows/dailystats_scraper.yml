@@ -13,7 +13,7 @@ name: Scrape prov cases,deaths,recov from sacoronavirus.co.za and/or nicd.ac.za
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2,12,22,32,42,52 16-19 * * *'
+    - cron: '32 16-20 * * *'
   push:
     branches:
       - master
@@ -40,6 +40,7 @@ jobs:
           # now install the R-cran based binary repos
           sudo apt-get install r-cran-httr r-cran-xml2 r-cran-xml r-cran-data.table r-cran-git2r r-cran-magrittr r-cran-rcpp r-cran-magick r-cran-qpdf r-cran-pdftools r-cran-rappdirs -y --fix-missing
       - name: Install dependencies via Rscript not available via deb packages
+        id: environmentsetup
         run: |
           install.packages(c("tesseract"), repos="https://cran.r-project.org/")
 # We need the sudo here, as the library directory is otherwise not writable
@@ -49,7 +50,7 @@ jobs:
         run: Rscript --vanilla 'scripts/daily_nicd_scraper.R'
       - name: Scrape sacoronavirus.co.za data 
         run: sudo Rscript --vanilla 'scripts/daily_sacoronovirus_scraper.R'
-        if: ${{ always() }}
+        if: steps.environmentsetup.conclusion == 'success'
       - name: Push changes
         run:  |
           git status --porcelain
