@@ -5,7 +5,6 @@ library(magrittr)
 
 # bug May-2022 - this was installed on the previous step, but somehow it is complaining about this again....
 if (!require("tesseract")) {
-  print(.libPaths())
   install.packages("tesseract", repos="https://cran.r-project.org/")
 } else {
   message("tesseract already installed")

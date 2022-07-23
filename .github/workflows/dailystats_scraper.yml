@@ -44,12 +44,12 @@ jobs:
         run: |
           print(.libPaths())
           install.packages(c("tesseract"), repos="https://cran.r-project.org/", lib="/usr/lib/R/library")
-# these packages are not available via the apt-get installation method....
-        shell: Rscript {0}
+          # these packages are not available via the apt-get installation method....
+        shell: sudo Rscript {0}
       - name: Scrape nicd.ac.za data 
         run: Rscript --vanilla 'scripts/daily_nicd_scraper.R'
       - name: Scrape sacoronavirus.co.za data 
-        run: Rscript --vanilla 'scripts/daily_sacoronovirus_scraper.R'
+        run: sudo Rscript --vanilla 'scripts/daily_sacoronovirus_scraper.R'
         if: steps.environmentsetup.conclusion == 'success'
       - name: Push changes
         run:  |
