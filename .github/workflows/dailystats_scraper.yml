@@ -43,13 +43,12 @@ jobs:
         id: environmentsetup
         run: |
           install.packages(c("tesseract"), repos="https://cran.r-project.org/")
-# We need the sudo here, as the library directory is otherwise not writable
 # these packages are not available via the apt-get installation method....
-        shell: sudo Rscript {0}
+        shell: Rscript {0}
       - name: Scrape nicd.ac.za data 
         run: Rscript --vanilla 'scripts/daily_nicd_scraper.R'
       - name: Scrape sacoronavirus.co.za data 
-        run: sudo Rscript --vanilla 'scripts/daily_sacoronovirus_scraper.R'
+        run: Rscript --vanilla 'scripts/daily_sacoronovirus_scraper.R'
         if: steps.environmentsetup.conclusion == 'success'
       - name: Push changes
         run:  |
