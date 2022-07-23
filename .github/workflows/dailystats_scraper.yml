@@ -43,7 +43,7 @@ jobs:
         id: environmentsetup
         run: |
           print(.libPaths())
-          install.packages(c("tesseract"), repos="https://cran.r-project.org/")
+          install.packages(c("tesseract"), repos="https://cran.r-project.org/", lib="/usr/lib/R/library")
 # these packages are not available via the apt-get installation method....
         shell: Rscript {0}
       - name: Scrape nicd.ac.za data 
