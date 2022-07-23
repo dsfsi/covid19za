@@ -42,6 +42,7 @@ jobs:
       - name: Install dependencies via Rscript not available via deb packages
         id: environmentsetup
         run: |
+          print(.libPaths())
           install.packages(c("tesseract"), repos="https://cran.r-project.org/")
 # these packages are not available via the apt-get installation method....
         shell: Rscript {0}
