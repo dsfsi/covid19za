@@ -12,8 +12,8 @@ name: Scrape prov cases,deaths,recov from sacoronavirus.co.za and/or nicd.ac.za
 # regular schedule - every 10 mins, starting 2 over the hour; or also when the script changes, or when it is triggered manually.
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '32 16-20 * * *'
+#  schedule:
+#    - cron: '32 16-20 * * *'
   push:
     branches:
       - master
