@@ -171,6 +171,7 @@ Some of COVID-19 Data for South Africa (data in this repo) is currently being us
 |11. Estimating the Reproductive Number of COVID-19 | Estimating effective reproductive number for SA, it's provinces and other countries. |  [[Website](https://unsupervised.online/static/covid-19/estimating_r_za.html)] | [Louis Rossouw](https://github.com/lrossouw) | South Africa |
 |12. Modelling COVID-19 in South Africa at a Provincial Level | Modelling COVID-19 in South Africa at a Provincial Level using reported and excess deaths. |  [[Website](https://unsupervised.online/static/covid-19/modelling_covid-19_in_south_africa_at_a_provincial_level.html)] | [Louis Rossouw](https://github.com/lrossouw) | South Africa |
 |13. South African Provincial COVID-19 Visualization | Visualize deaths, cases and recoveries alongside mobility data on a provincial level. Additionally, visualize cahnge of cases over a weekly basis. |  [[Website](http://3.140.191.119:8050/)] | [Christopher Marais](https://github.com/ChristopherMarais/Panthera_interview_gcm) | South Africa |
+|14. Differential Evolution to Optimize A Long-term Multi-strain Model of COVID-19 in South Africa | Uses Differential Evolution (an Evolutionary Optimization Algorithm) for data fitting and parameter estimation. | Link to be provided. | CJ Pretorius and MC du Plessis | South Africa |
 
 ### Scholarly Work
 
